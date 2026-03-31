@@ -70,21 +70,19 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
   const prevSlug = currentIndex > 0 ? insightSlugs[currentIndex - 1] : null;
   const nextSlug = currentIndex < insightSlugs.length - 1 ? insightSlugs[currentIndex + 1] : null;
 
-  // Get sections from translations
-  const sectionCount = parseInt(t(`articles.${slug}.sectionCount`), 10);
+  // Get sections from translations using raw access to avoid missing key errors
+  const articleData = t.raw(`articles.${slug}`) as Record<string, unknown>;
+  const sectionCount = parseInt(String(articleData.sectionCount), 10);
+  const rawSections = articleData.sections as Record<string, Record<string, string>>;
   const sections: Array<{ heading?: string; level?: number; content: string }> = [];
   for (let i = 0; i < sectionCount; i++) {
+    const rawSection = rawSections[String(i)];
     const section: { heading?: string; level?: number; content: string } = {
-      content: t(`articles.${slug}.sections.${i}.content`),
+      content: rawSection?.content || '',
     };
-    try {
-      const heading = t(`articles.${slug}.sections.${i}.heading`);
-      if (heading && heading !== `insights.articles.${slug}.sections.${i}.heading`) {
-        section.heading = heading;
-        section.level = parseInt(t(`articles.${slug}.sections.${i}.level`), 10) || 2;
-      }
-    } catch {
-      // No heading for this section
+    if (rawSection?.heading) {
+      section.heading = rawSection.heading;
+      section.level = parseInt(rawSection.level || '2', 10);
     }
     sections.push(section);
   }
