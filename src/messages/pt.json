@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Consultoria Premium de Realocação",
+    "description": "Serviço especializado de realocação e consultoria patrimonial para indivíduos e famílias de alto patrimônio que se mudam para a Suíça."
+  },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "imprint": "Informações Legais",
+    "beginJourney": "Inicie Sua Jornada"
+  },
+  "hero": {
+    "headline": "Seu Caminho para a Suíça",
+    "subheadline": "Serviço especializado de realocação e consultoria patrimonial para indivíduos e famílias de alto patrimônio",
+    "cta": "Inicie Sua Jornada"
+  },
+  "whySwitzerland": {
+    "title": "Por Que a Suíça",
+    "subtitle": "Uma nação construída sobre estabilidade, discrição e excelência",
+    "stats": {
+      "millionaires": {
+        "value": "142.000",
+        "label": "Milionários realocando-se globalmente em 2025 — um recorde histórico"
+      },
+      "inflow": {
+        "value": "+3.000",
+        "label": "Fluxo líquido de milionários para a Suíça em 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Anos de neutralidade política"
+      },
+      "banking": {
+        "value": "#1",
+        "label": "Sistema de private banking mais robusto do mundo"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Votaram contra o imposto sobre riqueza (novembro de 2025)"
+      },
+      "safety": {
+        "value": "Zero",
+        "label": "Histórico de confisco de ativos ou alianças militares"
+      }
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Consultoria abrangente em todas as dimensões da sua realocação",
+    "learnMore": "Saiba mais",
+    "overview": "Visão Geral",
+    "pageTitle": "Serviços",
+    "pageSubtitle": "Consultoria completa para sua realocação suíça",
+    "items": {
+      "assetStructuring": {
+        "title": "Estruturação Patrimonial Pré-Imigração",
+        "description": "Realização de ganhos antes da residência suíça; reestruturação de participações societárias, trusts e estruturas corporativas dos EAU; documentação abrangente de origem patrimonial.",
+        "detail": "Trabalhamos com seus consultores existentes para garantir que sua estrutura patrimonial esteja otimizada antes de estabelecer residência fiscal na Suíça. Isso inclui revisão de participações societárias, arranjos fiduciários e estruturas corporativas nos EAU e além, assegurando documentação limpa de origem patrimonial que satisfaça os requisitos bancários e fiscais suíços."
+      },
+      "lumpSum": {
+        "title": "Tributação Forfaitária (Forfait Fiscal)",
+        "description": "Negociação completa da decisão fiscal cantonal; determinação da base tributável; gestão contínua de compliance anual.",
+        "detail": "O regime de tributação forfaitária da Suíça oferece a indivíduos qualificados uma base tributável calculada sobre despesas de vida, em vez da renda mundial. Cuidamos da negociação completa com as autoridades cantonais, determinamos a base tributável ideal e gerenciamos o compliance anual contínuo."
+      },
+      "residency": {
+        "title": "Residência e Imigração",
+        "description": "Consultoria na escolha do cantão; gestão do pedido de permissão B; planejamento de inclusão familiar; caminho para permissão C e cidadania.",
+        "detail": "Escolher o cantão certo é talvez a decisão mais importante da sua realocação. Assessoramos na escolha do cantão com base na sua situação fiscal, preferências de estilo de vida e necessidades familiares. Depois gerenciamos todo o pedido de permissão B, inclusão familiar e traçamos o caminho para a permissão C e eventual cidadania suíça."
+      },
+      "companyFormation": {
+        "title": "Constituição de Empresa e Estruturação Corporativa",
+        "description": "Holdings suíças; estruturas de propriedade intelectual; coordenação com entidades dos EAU; registro e compliance de IVA.",
+        "detail": "Seja para uma holding suíça, estrutura de licenciamento de PI, ou coordenação entre entidades existentes nos EAU e novas operações suíças, cuidamos de todo o processo. Isso inclui registro de IVA, compliance corporativo e garantia de que sua estrutura seja fiscalmente eficiente e totalmente conforme."
+      },
+      "familyOffice": {
+        "title": "Estabelecimento de Family Office",
+        "description": "Consultoria para single e multi-family offices; apresentações a private banking; estruturação de trusts e fundações; planejamento sucessório.",
+        "detail": "Para famílias que necessitam de infraestrutura dedicada de gestão patrimonial, assessoramos no estabelecimento de single ou multi-family offices na Suíça. Isso inclui apresentações aos principais bancos privados, estruturação de trusts e fundações para proteção patrimonial e planejamento sucessório abrangente considerando complexidades transfronteiriças."
+      },
+      "directorship": {
+        "title": "Diretoria Independente e Serviços de Conselho",
+        "description": "Alocação de diretor residente na Suíça; serviços de secretaria corporativa; suporte em governança e compliance.",
+        "detail": "Muitas estruturas corporativas suíças requerem um diretor residente na Suíça. Fornecemos diretores independentes qualificados, serviços de secretaria corporativa e suporte contínuo de governança para garantir que suas entidades suíças atendam a todos os requisitos regulatórios."
+      },
+      "realEstate": {
+        "title": "Consultoria Imobiliária",
+        "description": "Navegação da Lex Koller; acesso a imóveis fora do mercado; estruturação de aquisições; coordenação notarial.",
+        "detail": "As regulamentações imobiliárias suíças, particularmente as restrições da Lex Koller para compradores estrangeiros, requerem orientação especializada. Proporcionamos acesso a imóveis fora do mercado em localizações premium, estruturamos aquisições em conformidade com todas as regulamentações e coordenamos com notários para transações tranquilas."
+      },
+      "privateBanking": {
+        "title": "Private Banking e Gestão Patrimonial",
+        "description": "Consultoria na seleção bancária; preparação AML/KYC; documentação de patrimônio cripto; estruturação de mandatos de investimento.",
+        "detail": "Abrir uma relação de private banking suíço requer preparação cuidadosa. Assessoramos na seleção bancária baseada nas suas necessidades específicas, preparamos toda a documentação AML/KYC incluindo comprovação de patrimônio cripto e ajudamos a estruturar mandatos de investimento alinhados aos seus objetivos de gestão patrimonial."
+      },
+      "health": {
+        "title": "Concierge de Saúde e Bem-estar",
+        "description": "Configuração de seguro saúde obrigatório; apresentações a médicos especialistas; check-up executivo; intermediação médica.",
+        "detail": "O sistema de saúde suíço requer seguro obrigatório e pode ser complexo de navegar. Configuramos seu seguro saúde, apresentamos médicos especialistas de referência, organizamos check-ups executivos e servimos como seu intermediário médico contínuo para garantir que você e sua família recebam atendimento de excelência."
+      },
+      "lifestyle": {
+        "title": "Coordenação de Estilo de Vida e Soft Landing",
+        "description": "Colocação em escolas internacionais; permissões para equipe doméstica; programas de integração do cônjuge; apresentações à comunidade; orientação cultural.",
+        "detail": "O sucesso da sua realocação vai muito além da papelada. Cuidamos da colocação em escolas internacionais para seus filhos, permissões de trabalho para equipe doméstica, integração do cônjuge e apresentações à comunidade, e orientação cultural abrangente para garantir que toda a sua família se sinta em casa na Suíça desde o primeiro dia."
+      }
+    }
+  },
+  "servicesMeta": {
+    "title": "Nossos Serviços — Move to Switzerland",
+    "description": "Serviços de consultoria abrangentes para cada dimensão da sua realocação suíça."
+  },
+  "clients": {
+    "title": "Quem Atendemos",
+    "subtitle": "Nossa consultoria é personalizada para seu perfil e objetivos específicos",
+    "profiles": {
+      "entrepreneur": {
+        "title": "O Empresário Estabelecido",
+        "age": "Idade 40-60",
+        "description": "Proprietários de empresas pré ou pós-exit buscando estabelecer residência suíça antes de um evento de liquidez. Engajamento típico: 12-24 meses.",
+        "tags": ["Planejamento Pré-Exit", "Estruturação Patrimonial", "Forfait Fiscal"]
+      },
+      "family": {
+        "title": "A Família em Realocação",
+        "age": "Filhos em idade escolar",
+        "description": "Famílias priorizando segurança, educação e qualidade de vida. Realocação completa incluindo escolas, saúde e integração comunitária.",
+        "tags": ["Educação", "Saúde", "Comunidade"]
+      },
+      "youngWealth": {
+        "title": "O Jovem Detentor de Riqueza",
+        "age": "Idade 28-42",
+        "description": "Empreendedores digitais e detentores de patrimônio cripto buscando uma jurisdição estável e crypto-friendly com estilo de vida de classe mundial.",
+        "tags": ["Cripto", "Ativos Digitais", "Estilo de Vida"]
+      },
+      "familyOffice": {
+        "title": "O Family Office do Golfo",
+        "age": "Multigeracional",
+        "description": "Family offices estabelecidos buscando um hub europeu de governança, planejamento sucessório e estruturação patrimonial de grau institucional.",
+        "tags": ["Governança", "Sucessão", "Institucional"]
+      }
+    }
+  },
+  "founders": {
+    "title": "Os Fundadores",
+    "subtitle": "Duas décadas de experiência combinada em consultoria suíça",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Cofundador",
+      "bio": "Advogado suíço e MBA. Adrian estabeleceu diversos bancos na Suíça e mantém relações profundas com a FINMA, instituições de private banking e autoridades cantonais. Sua expertise jurídica e rede institucional formam a espinha dorsal regulatória de nossa consultoria."
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Cofundador",
+      "bio": "Empreendedor serial dinamarquês baseado na Suíça. Com mais de CHF 400 milhões em publicidade digital gerenciada e múltiplas empresas na Suíça e UE, Robin traz excelência operacional e profundo entendimento de estruturação empresarial transfronteiriça. Fala alemão, dinamarquês e inglês."
+    }
+  },
+  "about": {
+    "pageTitle": "Sobre Nós",
+    "pageSubtitle": "Independência, confidencialidade e profundidade de serviço",
+    "story": {
+      "title": "Nossa História",
+      "p1": "Move to Switzerland foi fundado a partir de uma observação simples: indivíduos de alto patrimônio realocando-se do Oriente Médio para a Suíça enfrentam um cenário de consultoria desnecessariamente fragmentado. Consultores fiscais, advogados de imigração, corretores imobiliários e banqueiros privados operam isoladamente, deixando o cliente para coordenar entre eles.",
+      "p2": "Criamos um ponto único de contato que orquestra toda a jornada de realocação — desde a estruturação patrimonial pré-imigração até o primeiro dia de escola dos seus filhos. Nossos fundadores combinam profunda expertise jurídica e bancária suíça com experiência empresarial prática em operações transfronteiriças.",
+      "p3": "Cada engajamento é conduzido com a discrição e minuciosidade que nossos clientes esperam. Atendemos um número limitado de famílias simultaneamente, garantindo que cada uma receba nossa atenção integral."
+    },
+    "values": {
+      "title": "Nossos Valores",
+      "independence": {
+        "title": "Independência",
+        "description": "Não estamos vinculados a nenhum banco, escritório de advocacia ou agência imobiliária. Nosso aconselhamento é sempre no seu melhor interesse."
+      },
+      "confidentiality": {
+        "title": "Confidencialidade",
+        "description": "Cada engajamento é protegido por estrita confidencialidade. Nunca divulgamos relacionamentos ou detalhes de clientes."
+      },
+      "depth": {
+        "title": "Profundidade de Serviço",
+        "description": "Não encaminhamos e esquecemos. Ficamos com você em cada etapa, da primeira consulta até o estabelecimento completo."
+      }
+    },
+    "offices": {
+      "title": "Nossos Escritórios",
+      "zurich": "Zurique",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    }
+  },
+  "contact": {
+    "pageTitle": "Entre em Contato",
+    "pageSubtitle": "Inicie sua jornada para a Suíça",
+    "confidential": "Todas as consultas são tratadas com estrita confidencialidade.",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Endereço de E-mail",
+      "phone": "Número de Telefone (opcional)",
+      "country": "País de Residência Atual",
+      "message": "Sua Mensagem",
+      "hearAbout": "Como soube de nós? (opcional)",
+      "submit": "Enviar Consulta",
+      "sending": "Enviando...",
+      "success": "Obrigado. Sua consulta foi recebida. Responderemos em até 24 horas.",
+      "error": "Algo deu errado. Por favor, tente novamente ou entre em contato conosco diretamente."
+    },
+    "offices": {
+      "title": "Nossos Escritórios"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidade",
+    "content": "Esta política de privacidade explica como a Move to Switzerland coleta, utiliza e protege seus dados pessoais em conformidade com a lei suíça de proteção de dados (nDSG) e o Regulamento Geral de Proteção de Dados da UE (GDPR)."
+  },
+  "imprint": {
+    "pageTitle": "Informações Legais",
+    "company": "WorkWorkWork AG",
+    "address": "Suíça",
+    "registration": "Registro Comercial"
+  },
+  "footer": {
+    "tagline": "Consultoria premium de realocação para indivíduos e famílias distintos.",
+    "navigation": "Navegação",
+    "legal": "Legal",
+    "languages": "Idiomas",
+    "rights": "Todos os direitos reservados.",
+    "company": "Um serviço da WorkWorkWork AG"
+  }
+}

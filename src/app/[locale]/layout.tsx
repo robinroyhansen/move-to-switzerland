@@ -49,7 +49,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <OrganizationSchema />
         <LocalBusinessSchema />
       </head>
-      <body className="font-sans antialiased bg-white text-charcoal min-h-screen flex flex-col">
+      <body className="font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main className="flex-1">{children}</main>

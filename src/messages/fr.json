@@ -104,7 +104,8 @@
         "description": "Placement en écoles internationales ; permis du personnel domestique ; programmes d'intégration du conjoint ; introductions communautaires.",
         "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse."
       }
-    }
+    },
+    "overview": "Aperçu"
   },
   "clients": {
     "title": "Nos clients",
@@ -114,25 +115,41 @@
         "title": "L'entrepreneur établi",
         "age": "40–60 ans",
         "description": "Propriétaires d'entreprise pré ou post-cession cherchant à établir leur résidence suisse avant un événement de liquidité. Engagement typique : 12–24 mois.",
-        "tags": ["Planification pré-cession", "Structuration d'actifs", "Forfait Fiscal"]
+        "tags": [
+          "Planification pré-cession",
+          "Structuration d'actifs",
+          "Forfait Fiscal"
+        ]
       },
       "family": {
         "title": "La famille en relocalisation",
         "age": "Enfants scolarisés",
         "description": "Familles privilégiant la sécurité, l'éducation et la qualité de vie. Relocalisation complète incluant écoles, santé et intégration communautaire.",
-        "tags": ["Éducation", "Santé", "Communauté"]
+        "tags": [
+          "Éducation",
+          "Santé",
+          "Communauté"
+        ]
       },
       "youngWealth": {
         "title": "Le jeune détenteur de patrimoine",
         "age": "28–42 ans",
         "description": "Entrepreneurs numériques et détenteurs de crypto-actifs recherchant une juridiction stable et favorable aux cryptomonnaies.",
-        "tags": ["Crypto", "Actifs numériques", "Lifestyle"]
+        "tags": [
+          "Crypto",
+          "Actifs numériques",
+          "Lifestyle"
+        ]
       },
       "familyOffice": {
         "title": "Le Family Office du Golfe",
         "age": "Multi-générationnel",
         "description": "Family offices établis cherchant un hub de gouvernance européen, une planification successorale et une structuration patrimoniale institutionnelle.",
-        "tags": ["Gouvernance", "Succession", "Institutionnel"]
+        "tags": [
+          "Gouvernance",
+          "Succession",
+          "Institutionnel"
+        ]
       }
     }
   },
@@ -218,5 +235,9 @@
     "languages": "Langues",
     "rights": "Tous droits réservés.",
     "company": "Un service de WorkWorkWork AG"
+  },
+  "servicesMeta": {
+    "title": "Nos Services — Move to Switzerland",
+    "description": "Services de conseil complets pour chaque dimension de votre relocalisation en Suisse."
   }
 }

@@ -33,11 +33,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const key = serviceSlugToKey[slug];
   if (!key) return {};
 
-  const t = await getTranslations({ locale, namespace: 'servicePage' });
-  const svc = await getTranslations({ locale, namespace: 'services' });
+  const t = await getTranslations({ locale, namespace: 'services' });
 
-  const title = t(`${key}.metaTitle`, { fallback: svc(`items.${key}.title`) });
-  const description = t(`${key}.metaDescription`, { fallback: svc(`items.${key}.description`) });
+  const title = t(`items.${key}.title`);
+  const description = t(`items.${key}.description`);
 
   return {
     title,
@@ -56,9 +55,6 @@ export default function ServiceDetailPage({
 }: {
   params: Promise<{ locale: string; slug: string }>;
 }) {
-  // We need to use the synchronous hook pattern with useTranslations
-  // but validate the slug. Since this is a server component using params as a promise,
-  // we handle it with a wrapper.
   return <ServiceDetailContent paramsPromise={paramsPromise} />;
 }
 
@@ -78,21 +74,20 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
   const t = useTranslations();
   const currentIndex = serviceKeys.indexOf(serviceKey);
 
-  // Get adjacent services for navigation
   const prevKey = currentIndex > 0 ? serviceKeys[currentIndex - 1] : null;
   const nextKey = currentIndex < serviceKeys.length - 1 ? serviceKeys[currentIndex + 1] : null;
 
   return (
     <>
       {/* Header */}
-      <section className="pt-32 pb-16 bg-navy">
+      <section className="pt-36 pb-20 bg-navy">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <span className="text-xs text-gold/60 font-medium tracking-wider uppercase">
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <span className="text-xs text-gold/40 font-medium tracking-[0.2em] uppercase">
               {String(currentIndex + 1).padStart(2, '0')} / {String(serviceKeys.length).padStart(2, '0')}
             </span>
           </div>
-          <div className="w-16 h-16 bg-gold/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+          <div className="w-16 h-16 bg-gold/10 rounded-xl flex items-center justify-center mx-auto mb-8">
             <svg
               className="w-8 h-8 text-gold"
               fill="none"
@@ -103,57 +98,41 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
               <path strokeLinecap="round" strokeLinejoin="round" d={serviceIconPaths[serviceKey]} />
             </svg>
           </div>
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-white font-semibold mb-4">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-white font-semibold mb-5 luxury-heading">
             {t(`services.items.${serviceKey}.title`)}
           </h1>
-          <p className="text-white/60 text-lg max-w-2xl mx-auto">
+          <p className="text-text-light/50 text-lg max-w-2xl mx-auto font-light leading-relaxed">
             {t(`services.items.${serviceKey}.description`)}
           </p>
         </div>
       </section>
 
       {/* Service Detail */}
-      <section className="py-20 bg-cream">
+      <section className="py-24 bg-cream">
         <div className="max-w-3xl mx-auto px-4">
-          <div className="bg-white rounded-xl p-8 sm:p-12 shadow-sm border border-navy/5">
-            {/* Key areas */}
+          <div className="bg-white rounded-lg p-8 sm:p-12 shadow-sm border border-navy/[0.04]">
             <div className="mb-10">
-              <h2 className="font-serif text-xl text-navy font-semibold mb-4">
-                {t('servicePage.overview')}
+              <div className="gold-line" />
+              <h2 className="font-serif text-xl sm:text-2xl text-navy font-semibold mb-5">
+                {t('services.overview')}
               </h2>
-              <p className="text-charcoal/70 leading-relaxed text-base">
+              <p className="text-charcoal/60 leading-relaxed text-base">
                 {t(`services.items.${serviceKey}.detail`)}
               </p>
             </div>
-
-            {/* Extended content if available */}
-            {t.has(`servicePage.${serviceKey}.sections`) && (
-              <div className="space-y-8 border-t border-navy/5 pt-8">
-                {(t.raw(`servicePage.${serviceKey}.sections`) as Array<{ title: string; content: string }>).map(
-                  (section, i) => (
-                    <div key={i}>
-                      <h3 className="font-serif text-lg text-navy font-semibold mb-3">
-                        {section.title}
-                      </h3>
-                      <p className="text-sm text-charcoal/60 leading-relaxed">{section.content}</p>
-                    </div>
-                  )
-                )}
-              </div>
-            )}
           </div>
 
           {/* Service Navigation */}
-          <div className="mt-8 flex items-center justify-between">
+          <div className="mt-10 flex items-center justify-between">
             {prevKey ? (
               <Link
                 href={`/services/${serviceSlugs[prevKey]}`}
-                className="flex items-center gap-2 text-sm text-charcoal/60 hover:text-gold transition-colors"
+                className="flex items-center gap-2 text-sm text-charcoal/40 hover:text-gold transition-colors duration-300 max-w-[45%]"
               >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
                 </svg>
-                {t(`services.items.${prevKey}.title`)}
+                <span className="truncate">{t(`services.items.${prevKey}.title`)}</span>
               </Link>
             ) : (
               <div />
@@ -161,11 +140,11 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
             {nextKey ? (
               <Link
                 href={`/services/${serviceSlugs[nextKey]}`}
-                className="flex items-center gap-2 text-sm text-charcoal/60 hover:text-gold transition-colors"
+                className="flex items-center gap-2 text-sm text-charcoal/40 hover:text-gold transition-colors duration-300 max-w-[45%] text-end"
               >
-                {t(`services.items.${nextKey}.title`)}
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                <span className="truncate">{t(`services.items.${nextKey}.title`)}</span>
+                <svg className="w-4 h-4 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
                 </svg>
               </Link>
             ) : (
@@ -176,17 +155,18 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-navy">
+      <section className="py-24 bg-navy">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-2xl sm:text-3xl text-white font-semibold mb-4">
+          <div className="gold-line-center" />
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white font-semibold mb-5 luxury-heading">
             {t('hero.headline')}
           </h2>
-          <p className="text-white/60 mb-8 text-lg">
+          <p className="text-text-light/50 mb-10 text-lg font-light">
             {t('hero.subheadline')}
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-gold text-navy px-8 py-4 text-sm font-semibold rounded tracking-[0.15em] uppercase hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20"
+            className="inline-block bg-gold text-navy px-10 py-4 text-sm font-semibold rounded-sm tracking-[0.15em] uppercase hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/15"
           >
             {t('hero.cta')}
           </Link>

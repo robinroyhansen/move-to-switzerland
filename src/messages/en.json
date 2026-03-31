@@ -104,7 +104,8 @@
         "description": "International school placement; domestic staff permits; spouse integration programmes; community introductions; cultural orientation.",
         "detail": "The success of your relocation extends far beyond paperwork. We handle international school placement for your children, domestic staff work permits, spouse integration and community introductions, and comprehensive cultural orientation to ensure your entire family feels at home in Switzerland from day one."
       }
-    }
+    },
+    "overview": "Overview"
   },
   "clients": {
     "title": "Who We Serve",
@@ -114,25 +115,41 @@
         "title": "The Established Entrepreneur",
         "age": "Age 40–60",
         "description": "Pre-exit or post-exit business owners seeking to establish Swiss residency before a liquidity event. Typical engagement: 12–24 months.",
-        "tags": ["Pre-Exit Planning", "Asset Structuring", "Forfait Fiscal"]
+        "tags": [
+          "Pre-Exit Planning",
+          "Asset Structuring",
+          "Forfait Fiscal"
+        ]
       },
       "family": {
         "title": "The Relocating Family",
         "age": "School-age children",
         "description": "Families prioritising security, education, and quality of life. Comprehensive relocation including schools, healthcare, and community integration.",
-        "tags": ["Education", "Healthcare", "Community"]
+        "tags": [
+          "Education",
+          "Healthcare",
+          "Community"
+        ]
       },
       "youngWealth": {
         "title": "The Younger Wealth Holder",
         "age": "Age 28–42",
         "description": "Digital entrepreneurs and crypto wealth holders seeking a stable, crypto-friendly jurisdiction with world-class lifestyle.",
-        "tags": ["Crypto", "Digital Assets", "Lifestyle"]
+        "tags": [
+          "Crypto",
+          "Digital Assets",
+          "Lifestyle"
+        ]
       },
       "familyOffice": {
         "title": "The Gulf Family Office",
         "age": "Multi-generational",
         "description": "Established family offices seeking a European governance hub, succession planning, and institutional-grade wealth structuring.",
-        "tags": ["Governance", "Succession", "Institutional"]
+        "tags": [
+          "Governance",
+          "Succession",
+          "Institutional"
+        ]
       }
     }
   },
@@ -218,5 +235,9 @@
     "languages": "Languages",
     "rights": "All rights reserved.",
     "company": "A service by WorkWorkWork AG"
+  },
+  "servicesMeta": {
+    "title": "Our Services — Move to Switzerland",
+    "description": "Comprehensive advisory services across every dimension of your Swiss relocation."
   }
 }

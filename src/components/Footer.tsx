@@ -10,25 +10,33 @@ export function Footer() {
   const pathname = usePathname();
 
   return (
-    <footer className="bg-navy text-white/70">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <footer className="bg-navy-dark text-text-light/60">
+      {/* Gold divider */}
+      <div className="gold-divider" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <h3 className="text-gold font-serif text-2xl font-semibold mb-4">
-              Move to Switzerland
-            </h3>
-            <p className="text-sm leading-relaxed text-white/50">
+            <div className="flex items-center gap-2.5 mb-5">
+              <div className="w-7 h-7 rounded-full border border-gold/30 flex items-center justify-center">
+                <span className="text-gold font-serif text-xs font-bold">M</span>
+              </div>
+              <h3 className="text-gold font-serif text-xl font-semibold tracking-wide">
+                Move to Switzerland
+              </h3>
+            </div>
+            <p className="text-sm leading-relaxed text-text-light/35">
               {t('footer.tagline')}
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-white text-xs uppercase tracking-[0.2em] font-medium mb-4">
+            <h4 className="text-text-light/80 text-xs uppercase tracking-[0.25em] font-medium mb-6">
               {t('footer.navigation')}
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               {[
                 { href: '/' as const, label: t('nav.home') },
                 { href: '/services' as const, label: t('nav.services') },
@@ -38,7 +46,7 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-white/50 hover:text-gold transition-colors"
+                    className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
                   >
                     {item.label}
                   </Link>
@@ -49,14 +57,14 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h4 className="text-white text-xs uppercase tracking-[0.2em] font-medium mb-4">
+            <h4 className="text-text-light/80 text-xs uppercase tracking-[0.25em] font-medium mb-6">
               {t('footer.legal')}
             </h4>
-            <ul className="space-y-3">
+            <ul className="space-y-3.5">
               <li>
                 <Link
                   href="/privacy"
-                  className="text-sm text-white/50 hover:text-gold transition-colors"
+                  className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.privacy')}
                 </Link>
@@ -64,7 +72,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/imprint"
-                  className="text-sm text-white/50 hover:text-gold transition-colors"
+                  className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.imprint')}
                 </Link>
@@ -74,7 +82,7 @@ export function Footer() {
 
           {/* Languages */}
           <div>
-            <h4 className="text-white text-xs uppercase tracking-[0.2em] font-medium mb-4">
+            <h4 className="text-text-light/80 text-xs uppercase tracking-[0.25em] font-medium mb-6">
               {t('footer.languages')}
             </h4>
             <div className="flex flex-wrap gap-2">
@@ -83,10 +91,10 @@ export function Footer() {
                   key={code}
                   href={pathname}
                   locale={code}
-                  className={`text-xs px-3 py-1.5 rounded border transition-colors ${
+                  className={`text-xs px-3 py-1.5 rounded-full border transition-all duration-300 ${
                     locale === code
-                      ? 'border-gold text-gold'
-                      : 'border-white/20 text-white/40 hover:border-gold/50 hover:text-gold/70'
+                      ? 'border-gold text-gold bg-gold/5'
+                      : 'border-text-light/10 text-text-light/30 hover:border-gold/40 hover:text-gold/60'
                   }`}
                 >
                   {name}
@@ -96,12 +104,25 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-white/30">
-            © {new Date().getFullYear()} Move to Switzerland. {t('footer.rights')}
+        {/* Trust strip */}
+        <div className="mt-16 mb-12 text-center">
+          <p className="text-xs text-text-light/25 tracking-[0.2em] uppercase">
+            Swiss-registered entity
+            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+            Zurich
+            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+            Zug
+            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+            Schwyz
           </p>
-          <p className="text-xs text-white/30">{t('footer.company')}</p>
+        </div>
+
+        {/* Bottom bar */}
+        <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p className="text-xs text-text-light/20">
+            &copy; {new Date().getFullYear()} Move to Switzerland. {t('footer.rights')}
+          </p>
+          <p className="text-xs text-text-light/20">{t('footer.company')}</p>
         </div>
       </div>
     </footer>

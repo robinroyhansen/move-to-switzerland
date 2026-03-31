@@ -1,13 +1,16 @@
 import type { MetadataRoute } from 'next';
 import { locales } from '@/i18n/config';
+import { serviceSlugs } from '@/lib/services';
 
-const baseUrl = 'https://movetoswitzerland.vercel.app';
-const pages = ['', '/services', '/about', '/contact', '/privacy', '/imprint'];
+const baseUrl = 'https://move-to-switzerland.vercel.app';
+const staticPages = ['', '/services', '/about', '/contact', '/privacy', '/imprint'];
+const servicePages = Object.values(serviceSlugs).map((slug) => `/services/${slug}`);
+const allPages = [...staticPages, ...servicePages];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  for (const page of pages) {
+  for (const page of allPages) {
     const languages: Record<string, string> = {};
     for (const locale of locales) {
       languages[locale] = `${baseUrl}/${locale}${page}`;

@@ -104,7 +104,8 @@
         "description": "Internationale Schulplatzierung; Arbeitsbewilligungen für Hauspersonal; Integrationsunterstützung; Community-Einführungen.",
         "detail": "Der Erfolg Ihres Umzugs geht weit über den Papierkram hinaus. Wir kümmern uns um die internationale Schulplatzierung für Ihre Kinder und vieles mehr."
       }
-    }
+    },
+    "overview": "Überblick"
   },
   "clients": {
     "title": "Wen wir beraten",
@@ -114,25 +115,41 @@
         "title": "Der etablierte Unternehmer",
         "age": "Alter 40–60",
         "description": "Unternehmer vor oder nach einem Exit, die den Schweizer Wohnsitz vor einem Liquiditätsereignis begründen möchten. Typische Beratung: 12–24 Monate.",
-        "tags": ["Pre-Exit-Planung", "Vermögensstrukturierung", "Forfait Fiscal"]
+        "tags": [
+          "Pre-Exit-Planung",
+          "Vermögensstrukturierung",
+          "Forfait Fiscal"
+        ]
       },
       "family": {
         "title": "Die umziehende Familie",
         "age": "Schulpflichtige Kinder",
         "description": "Familien, die Sicherheit, Bildung und Lebensqualität priorisieren. Umfassende Umzugsunterstützung inklusive Schulen, Gesundheit und Integration.",
-        "tags": ["Bildung", "Gesundheit", "Community"]
+        "tags": [
+          "Bildung",
+          "Gesundheit",
+          "Community"
+        ]
       },
       "youngWealth": {
         "title": "Der junge Vermögensinhaber",
         "age": "Alter 28–42",
         "description": "Digitale Unternehmer und Krypto-Vermögensinhaber auf der Suche nach einer stabilen, kryptofreundlichen Jurisdiktion.",
-        "tags": ["Krypto", "Digitale Vermögenswerte", "Lifestyle"]
+        "tags": [
+          "Krypto",
+          "Digitale Vermögenswerte",
+          "Lifestyle"
+        ]
       },
       "familyOffice": {
         "title": "Das Golf-Family-Office",
         "age": "Mehrgenerational",
         "description": "Etablierte Family Offices, die einen europäischen Governance-Hub, Nachfolgeplanung und institutionelle Vermögensstrukturierung suchen.",
-        "tags": ["Governance", "Nachfolge", "Institutionell"]
+        "tags": [
+          "Governance",
+          "Nachfolge",
+          "Institutionell"
+        ]
       }
     }
   },
@@ -218,5 +235,9 @@
     "languages": "Sprachen",
     "rights": "Alle Rechte vorbehalten.",
     "company": "Ein Service der WorkWorkWork AG"
+  },
+  "servicesMeta": {
+    "title": "Unsere Leistungen — Move to Switzerland",
+    "description": "Umfassende Beratungsleistungen in allen Bereichen Ihres Umzugs in die Schweiz."
   }
 }
