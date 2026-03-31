@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Move to Switzerland — Conseil Premium en Relocalisation",
-    "description": "Un service spécialisé de relocalisation et de conseil patrimonial pour les individus et familles fortunés s'installant en Suisse."
+    "description": "Un service spécialisé de relocalisation et de conseil stratégique pour les individus et familles fortunés s'installant en Suisse."
   },
   "nav": {
     "home": "Accueil",
@@ -17,7 +17,7 @@
   },
   "hero": {
     "headline": "Votre chemin vers la Suisse",
-    "subheadline": "Un service spécialisé de relocalisation et de conseil patrimonial pour les individus et familles fortunés",
+    "subheadline": "Un service spécialisé de relocalisation et de conseil stratégique pour les individus et familles fortunés",
     "cta": "Réserver une consultation confidentielle"
   },
   "whySwitzerland": {
@@ -80,7 +80,7 @@
       "familyOffice": {
         "title": "Établissement de Family Office",
         "description": "Conseil SFO/MFO ; introductions bancaires privées ; structuration de trusts et fondations ; planification successorale.",
-        "detail": "Pour les familles nécessitant une infrastructure dédiée de gestion de patrimoine, nous conseillons sur l'établissement de family offices en Suisse."
+        "detail": "Pour les familles nécessitant une infrastructure dédiée de conseil stratégique, nous conseillons sur l'établissement de family offices en Suisse."
       },
       "directorship": {
         "title": "Administration et mandats indépendants",
@@ -93,7 +93,7 @@
         "detail": "Les réglementations immobilières suisses, notamment les restrictions Lex Koller pour les acheteurs étrangers, nécessitent une expertise spécialisée."
       },
       "privateBanking": {
-        "title": "Banque privée et gestion de patrimoine",
+        "title": "Banque privée et conseil stratégique",
         "description": "Conseil en sélection bancaire ; préparation AML/KYC ; documentation des actifs crypto ; structuration de mandats.",
         "detail": "L'ouverture d'une relation de banque privée suisse nécessite une préparation minutieuse."
       },
@@ -256,7 +256,7 @@
   "whySwitzerlandPage": {
     "meta": {
       "title": "Pourquoi la Suisse — La destination mondiale de référence pour la richesse, la sécurité et la qualité de vie",
-      "description": "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation du patrimoine et la sécurité familiale."
+      "description": "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation du stratégique et la sécurité familiale."
     },
     "hero": {
       "title": "Pourquoi la Suisse",
@@ -275,7 +275,7 @@
       "p2": "Pour les détenteurs de patrimoine, cela se traduit par une garantie sans précédent : la Suisse n'a jamais confisqué d'actifs privés, n'a jamais imposé de prélèvements d'urgence sur la fortune."
     },
     "banking": {
-      "title": "Banque et gestion de patrimoine",
+      "title": "Banque et conseil stratégique",
       "subtitle": "Le système bancaire privé le plus fiable au monde",
       "stat1": "#1",
       "stat1Label": "Centre mondial de banque privée",
@@ -569,7 +569,7 @@
       "gulfFamilyOffice": {
         "title": "Le family office du Golfe",
         "subtitle": "Family office koweïtien — SFO suisse établi",
-        "quote": "Nous avions de la gestion de patrimoine dans quatre juridictions, mais pas de gouvernance unifiée.",
+        "quote": "Nous avions de la conseil stratégique dans quatre juridictions, mais pas de gouvernance unifiée.",
         "profile": "Family office koweïtien, CHF 200M+ AUM, multigénérationnel",
         "timeline": {
           "month1": "Scoping: governance audit, jurisdictional review, family charter assessment",
