@@ -1,42 +1,14 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-
-const serviceKeys = [
-  'assetStructuring',
-  'lumpSum',
-  'residency',
-  'companyFormation',
-  'familyOffice',
-  'directorship',
-  'realEstate',
-  'privateBanking',
-  'health',
-  'lifestyle',
-] as const;
-
-const serviceIcons: Record<string, string> = {
-  assetStructuring: '📊',
-  lumpSum: '🏛️',
-  residency: '🏔️',
-  companyFormation: '🏢',
-  familyOffice: '👨‍👩‍👧‍👦',
-  directorship: '📋',
-  realEstate: '🏠',
-  privateBanking: '🏦',
-  health: '⚕️',
-  lifestyle: '✨',
-};
-
-const statsKeys = [
-  'millionaires',
-  'inflow',
-  'neutrality',
-  'banking',
-  'wealthTax',
-  'safety',
-] as const;
-
-const profileKeys = ['entrepreneur', 'family', 'youngWealth', 'familyOffice'] as const;
+import Image from 'next/image';
+import {
+  serviceKeys,
+  statsKeys,
+  profileKeys,
+  serviceIconPaths,
+  profileImages,
+  serviceSlugs,
+} from '@/lib/services';
 
 export default function HomePage() {
   const t = useTranslations();
@@ -45,12 +17,13 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center bg-navy overflow-hidden">
-        {/* Background image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-30"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1920&q=80')`,
-          }}
+        <Image
+          src="/images/hero-swiss-alps.jpg"
+          alt="Swiss Alps and lake landscape"
+          fill
+          className="object-cover opacity-30"
+          priority
+          quality={85}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/40 to-navy" />
 
@@ -125,10 +98,20 @@ export default function HomePage() {
             {serviceKeys.map((key) => (
               <Link
                 key={key}
-                href="/services"
+                href={`/services/${serviceSlugs[key]}`}
                 className="group bg-cream/50 border border-navy/5 rounded-xl p-6 hover:bg-navy hover:border-navy transition-all duration-300"
               >
-                <div className="text-2xl mb-3">{serviceIcons[key]}</div>
+                <div className="w-10 h-10 mb-3 flex items-center justify-center">
+                  <svg
+                    className="w-6 h-6 text-gold group-hover:text-gold-light transition-colors"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={1.5}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d={serviceIconPaths[key]} />
+                  </svg>
+                </div>
                 <h3 className="font-serif text-base font-semibold text-navy group-hover:text-gold transition-colors mb-2">
                   {t(`services.items.${key}.title`)}
                 </h3>
@@ -157,30 +140,40 @@ export default function HomePage() {
             {profileKeys.map((key) => (
               <div
                 key={key}
-                className="border border-gold/20 rounded-xl p-8 bg-white/5 backdrop-blur-sm"
+                className="relative border border-gold/20 rounded-xl overflow-hidden bg-white/5 backdrop-blur-sm"
               >
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="font-serif text-xl text-gold font-semibold">
-                      {t(`clients.profiles.${key}.title`)}
-                    </h3>
-                    <p className="text-xs text-white/40 mt-1">
-                      {t(`clients.profiles.${key}.age`)}
-                    </p>
-                  </div>
+                <div className="absolute inset-0">
+                  <Image
+                    src={profileImages[key]}
+                    alt={t(`clients.profiles.${key}.title`)}
+                    fill
+                    className="object-cover opacity-15"
+                  />
                 </div>
-                <p className="text-sm text-white/60 leading-relaxed mb-4">
-                  {t(`clients.profiles.${key}.description`)}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {(t.raw(`clients.profiles.${key}.tags`) as string[]).map((tag: string) => (
-                    <span
-                      key={tag}
-                      className="text-xs px-3 py-1 rounded-full border border-gold/30 text-gold/80"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+                <div className="relative p-8">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h3 className="font-serif text-xl text-gold font-semibold">
+                        {t(`clients.profiles.${key}.title`)}
+                      </h3>
+                      <p className="text-xs text-white/40 mt-1">
+                        {t(`clients.profiles.${key}.age`)}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-sm text-white/60 leading-relaxed mb-4">
+                    {t(`clients.profiles.${key}.description`)}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {(t.raw(`clients.profiles.${key}.tags`) as string[]).map((tag: string) => (
+                      <span
+                        key={tag}
+                        className="text-xs px-3 py-1 rounded-full border border-gold/30 text-gold/80"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             ))}
@@ -229,11 +222,11 @@ export default function HomePage() {
       {/* CTA */}
       <section className="py-24 sm:py-32 bg-navy relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=1920&q=80')`,
-            }}
+          <Image
+            src="/images/cta-swiss-landscape.jpg"
+            alt=""
+            fill
+            className="object-cover"
           />
         </div>
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">

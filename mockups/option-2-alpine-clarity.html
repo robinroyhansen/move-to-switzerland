@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Move to Switzerland — Option 2: Alpine Clarity (Light & Modern)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --stone: #F7F5F2;
+    --stone-dark: #EDE9E3;
+    --white: #FFFFFF;
+    --ink: #1A1A1A;
+    --ink-soft: #3A3A3A;
+    --ink-muted: #8A8A8A;
+    --red: #C23B22;
+    --red-light: #E8DDD9;
+    --teal: #1B6B5A;
+    --teal-light: #D6EBE5;
+    --border: rgba(0,0,0,0.06);
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+    --shadow-md: 0 4px 24px rgba(0,0,0,0.06);
+    --shadow-lg: 0 12px 48px rgba(0,0,0,0.08);
+  }
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  
+  body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--stone);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  
+  /* =================== NAV =================== */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(247, 245, 242, 0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .nav-logo-mark {
+    width: 36px;
+    height: 36px;
+    background: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+  }
+  .nav-logo-text {
+    font-family: 'DM Serif Display', serif;
+    font-size: 18px;
+    color: var(--ink);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+  }
+  .nav-links a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--ink); }
+  
+  .nav-btn {
+    padding: 10px 24px;
+    background: var(--ink);
+    color: var(--white) !important;
+    border-radius: 100px;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s !important;
+  }
+  .nav-btn:hover {
+    background: var(--teal) !important;
+    transform: translateY(-1px);
+  }
+  
+  .lang-pills {
+    display: flex;
+    gap: 4px;
+    background: var(--white);
+    padding: 3px;
+    border-radius: 100px;
+    border: 1px solid var(--border);
+  }
+  .lang-pills span {
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 100px;
+    cursor: pointer;
+    color: var(--ink-muted);
+    transition: all 0.2s;
+  }
+  .lang-pills span.active {
+    background: var(--ink);
+    color: var(--white);
+  }
+  .lang-pills span:hover:not(.active) { color: var(--ink); }
+  
+  /* =================== HERO =================== */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 120px 48px 80px;
+    position: relative;
+  }
+  
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    background: var(--teal-light);
+    color: var(--teal);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-bottom: 28px;
+  }
+  .hero-badge::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--teal);
+    border-radius: 50%;
+  }
+  
+  .hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(38px, 4.5vw, 64px);
+    color: var(--ink);
+    line-height: 1.12;
+    margin-bottom: 24px;
+    font-weight: 400;
+  }
+  .hero h1 .accent {
+    color: var(--red);
+    font-style: italic;
+  }
+  
+  .hero-desc {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink-muted);
+    max-width: 480px;
+    margin-bottom: 40px;
+    font-weight: 300;
+  }
+  
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .btn-solid {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 32px;
+    background: var(--ink);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .btn-solid:hover {
+    background: var(--teal);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .btn-outline {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 32px;
+    border: 1.5px solid var(--border);
+    background: var(--white);
+    color: var(--ink);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .btn-outline:hover {
+    border-color: var(--ink);
+  }
+  
+  .hero-visual {
+    position: relative;
+  }
+  
+  .hero-image-main {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: url('https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=800&q=80') center/cover;
+    border-radius: 16px;
+    box-shadow: var(--shadow-lg);
+  }
+  
+  .hero-card-float {
+    position: absolute;
+    bottom: -24px;
+    left: -40px;
+    background: var(--white);
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .hero-card-icon {
+    width: 44px;
+    height: 44px;
+    background: var(--red-light);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .hero-card-text h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .hero-card-text span {
+    font-size: 12px;
+    color: var(--ink-muted);
+  }
+  
+  .hero-card-float-2 {
+    position: absolute;
+    top: 40px;
+    right: -32px;
+    background: var(--white);
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+  }
+  .hero-card-float-2 .stat-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: var(--teal);
+  }
+  .hero-card-float-2 .stat-text {
+    font-size: 11px;
+    color: var(--ink-muted);
+    margin-top: 2px;
+  }
+  
+  .hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+  .hero-trust-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+  .hero-trust-item .check {
+    width: 20px;
+    height: 20px;
+    background: var(--teal-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--teal);
+    font-size: 11px;
+  }
+  
+  /* =================== STATS BAR =================== */
+  .stats-bar {
+    padding: 48px;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .stat-item .stat-value {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .stat-item .stat-label {
+    font-size: 13px;
+    color: var(--ink-muted);
+    font-weight: 400;
+  }
+  
+  /* =================== SERVICES =================== */
+  .services-section {
+    padding: 120px 48px;
+    background: var(--stone);
+  }
+  .services-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .services-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .section-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    border-radius: 100px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .section-heading {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(28px, 3vw, 42px);
+    color: var(--ink);
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  .section-desc {
+    font-size: 16px;
+    color: var(--ink-muted);
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  
+  .svc-card {
+    display: flex;
+    gap: 20px;
+    padding: 28px;
+    background: var(--white);
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .svc-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+    border-color: transparent;
+  }
+  
+  .svc-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    background: var(--stone);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    transition: background 0.3s;
+  }
+  .svc-card:hover .svc-icon { background: var(--teal-light); }
+  
+  .svc-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .svc-card p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    font-weight: 300;
+  }
+  
+  /* =================== APPROACH =================== */
+  .approach-section {
+    padding: 120px 48px;
+    background: var(--white);
+  }
+  .approach-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+  }
+  
+  .approach-image {
+    aspect-ratio: 1;
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80') center/cover;
+    border-radius: 20px;
+    position: relative;
+  }
+  .approach-image::after {
+    content: '';
+    position: absolute;
+    inset: -12px;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    pointer-events: none;
+  }
+  
+  .approach-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .approach-item {
+    display: flex;
+    gap: 20px;
+  }
+  .approach-num {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background: var(--stone);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--red);
+  }
+  .approach-item h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .approach-item p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    font-weight: 300;
+  }
+  
+  /* =================== PROFILES =================== */
+  .profiles-section {
+    padding: 120px 48px;
+    background: var(--ink);
+    color: var(--white);
+  }
+  .profiles-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .profiles-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+  .profiles-header .section-tag {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.12);
+    color: rgba(255,255,255,0.5);
+  }
+  .profiles-header .section-heading { color: var(--white); }
+  .profiles-header .section-desc { color: rgba(255,255,255,0.45); }
+  
+  .profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  
+  .profile-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 32px 24px;
+    transition: all 0.3s;
+  }
+  .profile-card:hover {
+    background: rgba(255,255,255,0.07);
+    border-color: rgba(255,255,255,0.15);
+    transform: translateY(-2px);
+  }
+  
+  .profile-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(194, 59, 34, 0.15);
+    color: #E8A090;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-bottom: 16px;
+  }
+  
+  .profile-card h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.4);
+    font-weight: 300;
+  }
+  
+  .profile-meta {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: rgba(255,255,255,0.35);
+  }
+  .profile-meta strong { color: var(--white); font-weight: 500; }
+  
+  /* =================== CTA =================== */
+  .cta-section {
+    padding: 120px 48px;
+    background: var(--stone);
+    text-align: center;
+  }
+  .cta-inner {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .cta-inner .section-heading { margin-bottom: 16px; }
+  .cta-inner .section-desc { margin-bottom: 40px; }
+  
+  .cta-form {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .cta-form input {
+    padding: 14px 20px;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    background: var(--white);
+    width: 280px;
+    outline: none;
+    transition: border 0.2s;
+  }
+  .cta-form input:focus { border-color: var(--teal); }
+  
+  .cta-note {
+    font-size: 12px;
+    color: var(--ink-muted);
+  }
+  
+  /* =================== FOOTER =================== */
+  footer {
+    padding: 64px 48px;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+  }
+  
+  .footer-brand p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--ink-muted);
+    font-weight: 300;
+    max-width: 280px;
+    margin-top: 12px;
+  }
+  
+  .footer-col h4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink);
+    margin-bottom: 16px;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 8px; }
+  .footer-col a {
+    font-size: 13px;
+    color: var(--ink-muted);
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  .footer-col a:hover { color: var(--ink); }
+  
+  .footer-bottom {
+    max-width: 1280px;
+    margin: 32px auto 0;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--ink-muted);
+  }
+  
+  /* =================== DESIGN LABEL =================== */
+  .design-label {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: var(--teal);
+    color: var(--white);
+    padding: 8px 24px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 100px;
+  }
+  
+  @media (max-width: 1024px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-visual { display: none; }
+    .approach-inner { grid-template-columns: 1fr; }
+    .approach-image { display: none; }
+    .profiles-grid { grid-template-columns: 1fr 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+    nav { padding: 16px 24px; }
+    section, .hero, .stats-bar, .services-section, .approach-section, .profiles-section, .cta-section { padding-left: 24px; padding-right: 24px; }
+    footer { padding: 48px 24px; }
+    .footer-inner { grid-template-columns: 1fr 1fr; }
+  }
+  
+  @media (max-width: 640px) {
+    .services-grid { grid-template-columns: 1fr; }
+    .profiles-grid { grid-template-columns: 1fr; }
+    .nav-links { display: none; }
+    .footer-inner { grid-template-columns: 1fr; }
+    .cta-form { flex-direction: column; align-items: center; }
+    .cta-form input { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<div class="design-label">Option 2 — Alpine Clarity (Light & Modern)</div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <div class="nav-logo-mark">+</div>
+    <div class="nav-logo-text">Move to Switzerland</div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">Services</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Insights</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="nav-btn">Get Started</a></li>
+  </ul>
+  <div class="lang-pills">
+    <span class="active">EN</span>
+    <span>DE</span>
+    <span>AR</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-left">
+      <div class="hero-badge">Trusted Advisory · Zurich · Zug · Schwyz</div>
+      <h1>Relocate to Switzerland with <span class="accent">absolute</span> confidence</h1>
+      <p class="hero-desc">Commercially independent concierge advisory for UHNW individuals and families. We coordinate every dimension of your move — tax, immigration, wealth, lifestyle — as a single point of trust.</p>
+      <div class="hero-actions">
+        <a href="#" class="btn-solid">
+          Book Consultation
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </a>
+        <a href="#" class="btn-outline">Our Services</a>
+      </div>
+      <div class="hero-trust">
+        <div class="hero-trust-item">
+          <span class="check">✓</span>
+          No referral fees
+        </div>
+        <div class="hero-trust-item">
+          <span class="check">✓</span>
+          No commissions
+        </div>
+        <div class="hero-trust-item">
+          <span class="check">✓</span>
+          Fully independent
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image-main"></div>
+      <div class="hero-card-float">
+        <div class="hero-card-icon">🏔️</div>
+        <div class="hero-card-text">
+          <h4>Founded by Experts</h4>
+          <span>Swiss attorney + serial entrepreneur</span>
+        </div>
+      </div>
+      <div class="hero-card-float-2">
+        <div class="stat-num">+3K</div>
+        <div class="stat-text">Net millionaire inflow to<br>Switzerland annually</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stats-grid">
+    <div class="stat-item">
+      <div class="stat-value">142K</div>
+      <div class="stat-label">Millionaires relocating globally (2025)</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">12–15</div>
+      <div class="stat-label">Active mandates maximum (depth first)</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">10</div>
+      <div class="stat-label">Integrated service areas</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">9+</div>
+      <div class="stat-label">Languages supported</div>
+    </div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section">
+  <div class="services-inner">
+    <div class="services-header">
+      <div class="section-tag">Our Services</div>
+      <h2 class="section-heading">Everything You Need.<br>One Point of Contact.</h2>
+      <p class="section-desc">Ten integrated service areas covering every dimension of your Swiss transition.</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="svc-card">
+        <div class="svc-icon">📊</div>
+        <div>
+          <h3>Pre-Immigration Asset Structuring</h3>
+          <p>Strategic reorganization to optimize your tax position before the move.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏛️</div>
+        <div>
+          <h3>Lump-Sum Taxation (Forfait Fiscal)</h3>
+          <p>Cantonal negotiation for expenditure-based tax arrangements.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏔️</div>
+        <div>
+          <h3>Residency & Immigration</h3>
+          <p>B/C permits, family reunification, and permanent residency pathways.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏢</div>
+        <div>
+          <h3>Company Formation</h3>
+          <p>Swiss AG/GmbH incorporation and corporate holding structures.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">👨‍👩‍👧‍👦</div>
+        <div>
+          <h3>Family Office Establishment</h3>
+          <p>Single or multi-family office setup with governance frameworks.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">📋</div>
+        <div>
+          <h3>Independent Directorship</h3>
+          <p>Board services and FINMA-compliant independent directorship.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏠</div>
+        <div>
+          <h3>Real Estate Advisory</h3>
+          <p>Lex Koller navigation and premium property acquisition.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">🏦</div>
+        <div>
+          <h3>Private Banking Access</h3>
+          <p>Pre-qualified introductions to tier-one Swiss private banks.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">⚕️</div>
+        <div>
+          <h3>Health & Wellness Concierge</h3>
+          <p>Premium healthcare, insurance optimization, and wellness access.</p>
+        </div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-icon">✨</div>
+        <div>
+          <h3>Lifestyle Coordination</h3>
+          <p>Schools, social integration, cultural orientation, and daily life.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPROACH -->
+<section class="approach-section">
+  <div class="approach-inner">
+    <div class="approach-image"></div>
+    <div>
+      <div class="section-tag">Our Approach</div>
+      <h2 class="section-heading">A Structured Path<br>to Your New Life</h2>
+      <p class="section-desc" style="margin-bottom: 40px;">Every engagement follows our proven four-phase framework.</p>
+      
+      <div class="approach-list">
+        <div class="approach-item">
+          <div class="approach-num">1</div>
+          <div>
+            <h3>Discovery & Assessment</h3>
+            <p>Confidential consultation to understand your family situation, assets, timeline, and objectives.</p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-num">2</div>
+          <div>
+            <h3>Strategy & Structuring</h3>
+            <p>Customized relocation roadmap — tax optimization, entity planning, canton selection.</p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-num">3</div>
+          <div>
+            <h3>Execution & Coordination</h3>
+            <p>We manage all parties — authorities, banks, schools, agents — as your single point of contact.</p>
+          </div>
+        </div>
+        <div class="approach-item">
+          <div class="approach-num">4</div>
+          <div>
+            <h3>Settlement & Ongoing Support</h3>
+            <p>Post-move administration, annual tax coordination, and lifestyle concierge on retainer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILES -->
+<section class="profiles-section">
+  <div class="profiles-inner">
+    <div class="profiles-header">
+      <div class="section-tag">Who We Serve</div>
+      <h2 class="section-heading">Every Journey is Unique</h2>
+      <p class="section-desc">Four client profiles, each with tailored service configurations.</p>
+    </div>
+    
+    <div class="profiles-grid">
+      <div class="profile-card">
+        <div class="profile-tag">Profile A</div>
+        <h3>Established Entrepreneur</h3>
+        <p>Founders approaching exit, seeking tax-optimized Swiss residency with business continuity.</p>
+        <div class="profile-meta">
+          <span><strong>CHF 80–200K</strong></span>
+          <span>12–24 months</span>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-tag">Profile B</div>
+        <h3>Relocating Family</h3>
+        <p>Families prioritizing education, stability, and quality of life for their children.</p>
+        <div class="profile-meta">
+          <span><strong>Education focus</strong></span>
+          <span>6–12 months</span>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-tag">Profile C</div>
+        <h3>Young Wealth Holder</h3>
+        <p>Digital-native wealth seeking Switzerland's crypto-friendly regulations and lifestyle.</p>
+        <div class="profile-meta">
+          <span><strong>Crypto Valley</strong></span>
+          <span>3–9 months</span>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="profile-tag">Profile D</div>
+        <h3>Gulf Family Office</h3>
+        <p>Multi-generational dynasties establishing Swiss governance and wealth preservation hubs.</p>
+        <div class="profile-meta">
+          <span><strong>Very high ticket</strong></span>
+          <span>Ongoing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <div class="section-tag">Get Started</div>
+    <h2 class="section-heading">Begin With a Conversation</h2>
+    <p class="section-desc">Confidential, no-obligation. Tell us about your situation and we'll outline a path forward.</p>
+    <div class="cta-form">
+      <input type="email" placeholder="Your email address">
+      <a href="#" class="btn-solid">Request Consultation</a>
+    </div>
+    <p class="cta-note">Typically respond within 24 hours. All inquiries held in strict confidence.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="nav-logo">
+        <div class="nav-logo-mark">+</div>
+        <div class="nav-logo-text">Move to Switzerland</div>
+      </div>
+      <p>Single-point concierge advisory for UHNW individuals & families. A WorkWorkWork AG company. Zurich · Zug · Schwyz.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Tax Structuring</a></li>
+        <li><a href="#">Immigration</a></li>
+        <li><a href="#">Company Formation</a></li>
+        <li><a href="#">Family Office</a></li>
+        <li><a href="#">Real Estate</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Insights</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Languages</h4>
+      <ul>
+        <li><a href="#">English</a></li>
+        <li><a href="#">Deutsch</a></li>
+        <li><a href="#">العربية</a></li>
+        <li><a href="#">Français</a></li>
+        <li><a href="#">فارسی</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Move to Switzerland — WorkWorkWork AG</span>
+    <span>Privacy · Imprint · Terms</span>
+  </div>
+</footer>
+
+</body>
+</html>
