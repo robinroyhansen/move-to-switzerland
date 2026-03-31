@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Premium Taşınma Danışmanlığı",
+    "description": "İsviçre'ye taşınan yüksek net değerli bireyler ve aileler için uzman taşınma ve varlık danışmanlığı hizmeti."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "imprint": "Yasal Bilgiler",
+    "beginJourney": "Yolculuğunuza Başlayın"
+  },
+  "hero": {
+    "headline": "İsviçre'ye Giden Yolunuz",
+    "subheadline": "Yüksek net değerli bireyler ve aileler için uzman taşınma ve varlık danışmanlığı hizmeti",
+    "cta": "Yolculuğunuza Başlayın"
+  },
+  "whySwitzerland": {
+    "title": "Neden İsviçre",
+    "subtitle": "İstikrar, gizlilik ve mükemmellik üzerine kurulmuş bir ulus",
+    "stats": {
+      "millionaires": { "value": "142.000", "label": "2025'te dünya genelinde taşınan milyoner — tarihi rekor" },
+      "inflow": { "value": "+3.000", "label": "2025'te İsviçre'ye net milyoner akışı" },
+      "neutrality": { "value": "500+", "label": "Yıllık siyasi tarafsızlık" },
+      "banking": { "value": "#1", "label": "Dünyanın en sağlam özel bankacılık sistemi" },
+      "wealthTax": { "value": "%78", "label": "Servet vergisine karşı oy kullandı (Kasım 2025)" },
+      "safety": { "value": "Sıfır", "label": "Varlık müsaderesi veya askeri ittifak geçmişi" }
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Taşınmanızın her boyutunda kapsamlı danışmanlık",
+    "learnMore": "Daha fazla bilgi",
+    "pageTitle": "Hizmetler",
+    "pageSubtitle": "İsviçre taşınmanız için uçtan uca danışmanlık",
+    "items": {
+      "assetStructuring": { "title": "Göç Öncesi Varlık Yapılandırması", "description": "İsviçre ikametinden önce kazançların gerçekleştirilmesi; hisse, tröst ve BAE kurumsal yapıların yeniden düzenlenmesi; kapsamlı servet kaynağı belgelendirmesi.", "detail": "Mevcut danışmanlarınızla birlikte çalışarak İsviçre vergi ikametinizi kurmadan önce varlık yapınızın optimize edilmesini sağlıyoruz." },
+      "lumpSum": { "title": "Götürü Vergilendirme (Forfait Fiscal)", "description": "Kantonal vergi kararının tam müzakeresi; vergi matrahı belirlenmesi; devam eden yıllık uyum yönetimi.", "detail": "İsviçre'nin götürü vergilendirme rejimi, uygun bireylere dünya genelindeki gelir yerine yaşam giderlerine dayalı bir vergi matrahı sunar." },
+      "residency": { "title": "İkamet ve Göç", "description": "Kanton seçimi danışmanlığı; B-izin başvuru yönetimi; aile dahil etme planlaması; C-izin ve vatandaşlık yolu.", "detail": "Doğru kantonu seçmek, taşınmanızdaki en önemli karardır." },
+      "companyFormation": { "title": "Şirket Kuruluşu ve Yapılandırma", "description": "İsviçre holding şirketleri; fikri mülkiyet yapıları; BAE kuruluşlarıyla koordinasyon; KDV kaydı ve uyum.", "detail": "İster İsviçre holding şirketi, ister IP lisans yapısı veya BAE kuruluşlarınızla koordinasyon olsun, tüm süreci yönetiyoruz." },
+      "familyOffice": { "title": "Aile Ofisi Kurulumu", "description": "Tekli ve çoklu aile ofisi danışmanlığı; özel bankacılık tanıtımları; tröst ve vakıf yapılandırması; halef planlaması.", "detail": "Özel varlık yönetimi altyapısı gerektiren aileler için İsviçre'de aile ofisi kurulumu konusunda danışmanlık veriyoruz." },
+      "directorship": { "title": "Bağımsız Yönetim Kurulu Hizmetleri", "description": "İsviçre'de ikamet eden yönetici yerleştirmesi; kurumsal sekreterlik hizmetleri; yönetişim ve uyum desteği.", "detail": "Birçok İsviçre kurumsal yapısı İsviçre'de ikamet eden bir yönetici gerektirir." },
+      "realEstate": { "title": "Gayrimenkul Danışmanlığı", "description": "Lex Koller yönlendirmesi; piyasa dışı mülk erişimi; satın alma yapılandırması; noter koordinasyonu.", "detail": "İsviçre gayrimenkul düzenlemeleri, özellikle yabancı alıcılara yönelik Lex Koller kısıtlamaları, uzman yönlendirme gerektirir." },
+      "privateBanking": { "title": "Özel Bankacılık ve Varlık Yönetimi", "description": "Banka seçimi danışmanlığı; AML/KYC hazırlığı; kripto varlık belgelendirmesi; yatırım mandası yapılandırması.", "detail": "İsviçre özel bankacılık ilişkisi açmak dikkatli hazırlık gerektirir." },
+      "health": { "title": "Sağlık ve Wellness Concierge", "description": "Zorunlu sağlık sigortası kurulumu; uzman doktor tanıtımları; yönetici sağlık taraması; tıbbi irtibat.", "detail": "İsviçre sağlık sistemi zorunlu sigorta gerektirir ve karmaşık olabilir." },
+      "lifestyle": { "title": "Yaşam Tarzı Koordinasyonu ve Yerleşim", "description": "Uluslararası okul yerleştirmesi; ev personeli izinleri; eş entegrasyon programları; topluluk tanıtımları.", "detail": "Taşınmanızın başarısı evrak işlerinin çok ötesine uzanır." }
+    }
+  },
+  "clients": {
+    "title": "Kime Hizmet Veriyoruz",
+    "subtitle": "Danışmanlığımız özel profilinize ve hedeflerinize göre uyarlanmıştır",
+    "profiles": {
+      "entrepreneur": { "title": "Yerleşik Girişimci", "age": "Yaş 40–60", "description": "Likidite olayından önce İsviçre ikametini kurmak isteyen çıkış öncesi veya sonrası işletme sahipleri.", "tags": ["Çıkış Öncesi Planlama", "Varlık Yapılandırma", "Forfait Fiscal"] },
+      "family": { "title": "Taşınan Aile", "age": "Okul çağında çocuklar", "description": "Güvenlik, eğitim ve yaşam kalitesini önceliklendiren aileler.", "tags": ["Eğitim", "Sağlık", "Topluluk"] },
+      "youngWealth": { "title": "Genç Servet Sahibi", "age": "Yaş 28–42", "description": "Kripto dostu, istikrarlı bir yargı bölgesi arayan dijital girişimciler ve kripto varlık sahipleri.", "tags": ["Kripto", "Dijital Varlıklar", "Yaşam Tarzı"] },
+      "familyOffice": { "title": "Körfez Aile Ofisi", "age": "Çok nesilli", "description": "Avrupa yönetişim merkezi arayan yerleşik aile ofisleri.", "tags": ["Yönetişim", "Halef", "Kurumsal"] }
+    }
+  },
+  "founders": {
+    "title": "Kurucular",
+    "subtitle": "İki onlık yılı aşan birleşik İsviçre danışmanlık uzmanlığı",
+    "adrian": { "name": "Adrian Burgi", "role": "Kurucu Ortak", "bio": "İsviçreli avukat ve MBA mezunu. Adrian, İsviçre'de birden fazla banka kurmuştur ve FINMA, özel bankacılık kurumları ve kantonal otoritelerle derin ilişkilere sahiptir." },
+    "robin": { "name": "Robin Roy Krigslund-Hansen", "role": "Kurucu Ortak", "bio": "İsviçre merkezli Danimarkalı seri girişimci. 400 milyon CHF'yi aşan yönetilen dijital reklam ve İsviçre ile AB genelinde birden fazla şirketle. Almanca, Danca ve İngilizce konuşur." }
+  },
+  "about": {
+    "pageTitle": "Hakkımızda",
+    "pageSubtitle": "Bağımsızlık, gizlilik ve hizmet derinliği",
+    "story": {
+      "title": "Hikayemiz",
+      "p1": "Move to Switzerland basit bir gözlem üzerine kuruldu: Orta Doğu'dan İsviçre'ye taşınan varlıklı bireyler gereksiz yere parçalanmış bir danışmanlık ortamıyla karşılaşıyor.",
+      "p2": "Tüm taşınma yolculuğunu orkestra eden tek bir temas noktası oluşturduk.",
+      "p3": "Her anlaşma, müşterilerimizin beklediği gizlilik ve titizlikle yürütülür."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "independence": { "title": "Bağımsızlık", "description": "Hiçbir banka, hukuk firması veya emlak acentesine bağlı değiliz." },
+      "confidentiality": { "title": "Gizlilik", "description": "Her anlaşma sıkı gizlilikle korunur." },
+      "depth": { "title": "Hizmet Derinliği", "description": "Yönlendirip unutmayız. İlk danışmanlıktan tam yerleşime kadar yanınızdayız." }
+    },
+    "offices": { "title": "Ofislerimiz", "zurich": "Zürih", "zug": "Zug", "schwyz": "Schwyz" }
+  },
+  "contact": {
+    "pageTitle": "İletişim",
+    "pageSubtitle": "İsviçre'ye yolculuğunuza başlayın",
+    "confidential": "Tüm sorular sıkı gizlilikle ele alınır.",
+    "form": {
+      "name": "Tam Ad", "email": "E-posta Adresi", "phone": "Telefon Numarası (isteğe bağlı)",
+      "country": "Mevcut İkamet Ülkesi", "message": "Mesajınız",
+      "hearAbout": "Bizi nasıl duydunuz? (isteğe bağlı)", "submit": "Sorgu Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Teşekkürler. Sorgunuz alındı. 24 saat içinde yanıt vereceğiz.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar deneyin."
+    },
+    "offices": { "title": "Ofislerimiz" }
+  },
+  "privacy": { "pageTitle": "Gizlilik Politikası", "content": "Bu gizlilik politikası, Move to Switzerland'ın kişisel verilerinizi İsviçre veri koruma yasası (nDSG) ve AB Genel Veri Koruma Yönetmeliği (GDPR) uyarınca nasıl topladığını, kullandığını ve koruduğunu açıklar." },
+  "imprint": { "pageTitle": "Yasal Bilgiler", "company": "WorkWorkWork AG", "address": "İsviçre", "registration": "Ticaret Sicili" },
+  "footer": { "tagline": "Seçkin bireyler ve aileler için premium taşınma danışmanlığı.", "navigation": "Navigasyon", "legal": "Yasal", "languages": "Diller", "rights": "Tüm hakları saklıdır.", "company": "WorkWorkWork AG hizmetidir" }
+}

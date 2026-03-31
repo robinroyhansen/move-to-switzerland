@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Premium-Umzugsberatung",
+    "description": "Ein spezialisierter Umzugs- und Vermögensberatungsservice für vermögende Privatpersonen und Familien, die in die Schweiz übersiedeln."
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "beginJourney": "Starten Sie Ihre Reise"
+  },
+  "hero": {
+    "headline": "Ihr Weg in die Schweiz",
+    "subheadline": "Ein spezialisierter Umzugs- und Vermögensberatungsservice für vermögende Privatpersonen und Familien",
+    "cta": "Starten Sie Ihre Reise"
+  },
+  "whySwitzerland": {
+    "title": "Warum die Schweiz",
+    "subtitle": "Eine Nation, die auf Stabilität, Diskretion und Exzellenz aufgebaut ist",
+    "stats": {
+      "millionaires": {
+        "value": "142'000",
+        "label": "Millionäre, die 2025 weltweit umziehen — ein historischer Rekord"
+      },
+      "inflow": {
+        "value": "+3'000",
+        "label": "Netto-Millionärszuzug in die Schweiz 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Jahre politische Neutralität"
+      },
+      "banking": {
+        "value": "#1",
+        "label": "Das robusteste Private-Banking-System der Welt"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Stimmten gegen die Vermögenssteuer (November 2025)"
+      },
+      "safety": {
+        "value": "Null",
+        "label": "Geschichte von Vermögensbeschlagnahmung oder Militärbündnissen"
+      }
+    }
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Umfassende Beratung in allen Bereichen Ihres Umzugs",
+    "learnMore": "Mehr erfahren",
+    "pageTitle": "Leistungen",
+    "pageSubtitle": "Ganzheitliche Beratung für Ihren Umzug in die Schweiz",
+    "items": {
+      "assetStructuring": {
+        "title": "Vermögensstrukturierung vor der Einwanderung",
+        "description": "Gewinne vor Schweizer Wohnsitz realisieren; Umstrukturierung von Beteiligungen, Trusts und UAE-Unternehmensstrukturen; umfassende Herkunftsnachweise.",
+        "detail": "Wir arbeiten mit Ihren bestehenden Beratern zusammen, um sicherzustellen, dass Ihre Vermögensstruktur vor der Begründung des steuerlichen Wohnsitzes in der Schweiz optimiert ist."
+      },
+      "lumpSum": {
+        "title": "Pauschalbesteuerung (Forfait Fiscal)",
+        "description": "Vollständige Verhandlung des kantonalen Steuerrulings; Bestimmung der Bemessungsgrundlage; laufende jährliche Compliance.",
+        "detail": "Das Schweizer Pauschalbesteuerungsregime bietet qualifizierten Personen eine Steuerbemessungsgrundlage, die auf dem Lebensaufwand statt auf dem weltweiten Einkommen basiert."
+      },
+      "residency": {
+        "title": "Aufenthaltsbewilligung & Immigration",
+        "description": "Kantonswahl-Beratung; B-Bewilligungsantrag; Familieneinschluss; Weg zur C-Bewilligung und Einbürgerung.",
+        "detail": "Die Wahl des richtigen Kantons ist die folgenreichste Entscheidung bei Ihrem Umzug. Wir beraten Sie bei der Kantonswahl basierend auf Ihrer Steuersituation, Lebensstilpräferenzen und Familienbedürfnissen."
+      },
+      "companyFormation": {
+        "title": "Firmengründung & Unternehmensstrukturierung",
+        "description": "Schweizer Holdinggesellschaften; IP-Strukturen; Koordination mit UAE-Entitäten; Mehrwertsteuerregistrierung und Compliance.",
+        "detail": "Ob Sie eine Schweizer Holdinggesellschaft, eine IP-Lizenzstruktur oder die Koordination zwischen bestehenden UAE-Entitäten und neuen Schweizer Operationen benötigen — wir kümmern uns um den gesamten Prozess."
+      },
+      "familyOffice": {
+        "title": "Family Office Etablierung",
+        "description": "Single- und Multi-Family-Office-Beratung; Private-Banking-Einführungen; Trust- und Stiftungsstrukturierung; Nachfolgeplanung.",
+        "detail": "Für Familien, die eine dedizierte Vermögensverwaltungsinfrastruktur benötigen, beraten wir bei der Einrichtung von Single- oder Multi-Family Offices in der Schweiz."
+      },
+      "directorship": {
+        "title": "Unabhängige Verwaltungsratsmandate",
+        "description": "Platzierung von Schweizer Verwaltungsräten; Sekretariatsdienste; Governance- und Compliance-Unterstützung.",
+        "detail": "Viele Schweizer Unternehmensstrukturen erfordern einen in der Schweiz ansässigen Verwaltungsrat. Wir stellen qualifizierte unabhängige Verwaltungsräte bereit."
+      },
+      "realEstate": {
+        "title": "Immobilienberatung",
+        "description": "Lex-Koller-Navigation; Zugang zu Off-Market-Immobilien; Erwerbsstrukturierung; Notarkoordination.",
+        "detail": "Schweizer Immobilienregulierungen, insbesondere die Lex-Koller-Beschränkungen für ausländische Käufer, erfordern fachkundige Navigation."
+      },
+      "privateBanking": {
+        "title": "Private Banking & Vermögensverwaltung",
+        "description": "Bankauswahl-Beratung; AML/KYC-Vorbereitung; Krypto-Vermögensdokumentation; Mandatsstrukturierung.",
+        "detail": "Die Eröffnung einer Schweizer Private-Banking-Beziehung erfordert sorgfältige Vorbereitung. Wir beraten bei der Bankauswahl basierend auf Ihren spezifischen Bedürfnissen."
+      },
+      "health": {
+        "title": "Gesundheits- & Wellness-Concierge",
+        "description": "Obligatorische Krankenversicherung; Facharzteinführungen; Executive-Health-Screening; medizinische Betreuung.",
+        "detail": "Das Schweizer Gesundheitssystem erfordert eine obligatorische Versicherung und kann komplex zu navigieren sein."
+      },
+      "lifestyle": {
+        "title": "Lifestyle-Koordination & Soft Landing",
+        "description": "Internationale Schulplatzierung; Arbeitsbewilligungen für Hauspersonal; Integrationsunterstützung; Community-Einführungen.",
+        "detail": "Der Erfolg Ihres Umzugs geht weit über den Papierkram hinaus. Wir kümmern uns um die internationale Schulplatzierung für Ihre Kinder und vieles mehr."
+      }
+    }
+  },
+  "clients": {
+    "title": "Wen wir beraten",
+    "subtitle": "Unsere Beratung ist auf Ihr spezifisches Profil und Ihre Ziele zugeschnitten",
+    "profiles": {
+      "entrepreneur": {
+        "title": "Der etablierte Unternehmer",
+        "age": "Alter 40–60",
+        "description": "Unternehmer vor oder nach einem Exit, die den Schweizer Wohnsitz vor einem Liquiditätsereignis begründen möchten. Typische Beratung: 12–24 Monate.",
+        "tags": ["Pre-Exit-Planung", "Vermögensstrukturierung", "Forfait Fiscal"]
+      },
+      "family": {
+        "title": "Die umziehende Familie",
+        "age": "Schulpflichtige Kinder",
+        "description": "Familien, die Sicherheit, Bildung und Lebensqualität priorisieren. Umfassende Umzugsunterstützung inklusive Schulen, Gesundheit und Integration.",
+        "tags": ["Bildung", "Gesundheit", "Community"]
+      },
+      "youngWealth": {
+        "title": "Der junge Vermögensinhaber",
+        "age": "Alter 28–42",
+        "description": "Digitale Unternehmer und Krypto-Vermögensinhaber auf der Suche nach einer stabilen, kryptofreundlichen Jurisdiktion.",
+        "tags": ["Krypto", "Digitale Vermögenswerte", "Lifestyle"]
+      },
+      "familyOffice": {
+        "title": "Das Golf-Family-Office",
+        "age": "Mehrgenerational",
+        "description": "Etablierte Family Offices, die einen europäischen Governance-Hub, Nachfolgeplanung und institutionelle Vermögensstrukturierung suchen.",
+        "tags": ["Governance", "Nachfolge", "Institutionell"]
+      }
+    }
+  },
+  "founders": {
+    "title": "Die Gründer",
+    "subtitle": "Zwei Jahrzehnte kombinierte Schweizer Beratungsexpertise",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Mitgründer",
+      "bio": "Schweizer Anwalt und MBA-Absolvent. Adrian hat mehrere Banken in der Schweiz etabliert und pflegt tiefgehende Beziehungen zur FINMA, zu Private-Banking-Institutionen und kantonalen Behörden."
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Mitgründer",
+      "bio": "Dänischer Serienunternehmer mit Sitz in der Schweiz. Mit über CHF 400 Millionen verwalteter digitaler Werbung und mehreren Unternehmen in der Schweiz und der EU. Spricht Deutsch, Dänisch und Englisch."
+    }
+  },
+  "about": {
+    "pageTitle": "Über uns",
+    "pageSubtitle": "Unabhängigkeit, Vertraulichkeit und Tiefe der Dienstleistung",
+    "story": {
+      "title": "Unsere Geschichte",
+      "p1": "Move to Switzerland wurde aus einer einfachen Beobachtung heraus gegründet: Vermögende Privatpersonen, die aus dem Nahen Osten in die Schweiz umziehen, sehen sich einer unnötig fragmentierten Beratungslandschaft gegenüber.",
+      "p2": "Wir haben einen einzigen Ansprechpartner geschaffen, der die gesamte Umzugsreise orchestriert — von der Vermögensstrukturierung vor der Einwanderung bis zum ersten Schultag Ihrer Kinder.",
+      "p3": "Jedes Mandat wird mit der Diskretion und Gründlichkeit behandelt, die unsere Klienten erwarten. Wir betreuen bewusst nur eine begrenzte Anzahl von Familien gleichzeitig."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "independence": {
+        "title": "Unabhängigkeit",
+        "description": "Wir sind an keine Bank, Anwaltskanzlei oder Immobilienagentur gebunden. Unsere Beratung dient immer Ihrem besten Interesse."
+      },
+      "confidentiality": {
+        "title": "Vertraulichkeit",
+        "description": "Jedes Mandat ist durch strikte Vertraulichkeit geschützt. Wir geben niemals Kundenbeziehungen oder Details preis."
+      },
+      "depth": {
+        "title": "Tiefe der Dienstleistung",
+        "description": "Wir vermitteln und vergessen nicht. Wir begleiten Sie durch jeden Schritt, von der ersten Beratung bis zur vollständigen Ansiedlung."
+      }
+    },
+    "offices": {
+      "title": "Unsere Büros",
+      "zurich": "Zürich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    }
+  },
+  "contact": {
+    "pageTitle": "Kontaktieren Sie uns",
+    "pageSubtitle": "Beginnen Sie Ihre Reise in die Schweiz",
+    "confidential": "Alle Anfragen werden streng vertraulich behandelt.",
+    "form": {
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer (optional)",
+      "country": "Aktuelles Wohnsitzland",
+      "message": "Ihre Nachricht",
+      "hearAbout": "Wie haben Sie von uns erfahren? (optional)",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank. Ihre Anfrage wurde empfangen. Wir antworten innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    },
+    "offices": {
+      "title": "Unsere Büros"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Datenschutzerklärung",
+    "content": "Diese Datenschutzerklärung erläutert, wie Move to Switzerland Ihre personenbezogenen Daten gemäss dem Schweizer Datenschutzgesetz (nDSG) und der EU-Datenschutz-Grundverordnung (DSGVO) erhebt, nutzt und schützt."
+  },
+  "imprint": {
+    "pageTitle": "Impressum",
+    "company": "WorkWorkWork AG",
+    "address": "Schweiz",
+    "registration": "Handelsregister"
+  },
+  "footer": {
+    "tagline": "Premium-Umzugsberatung für anspruchsvolle Privatpersonen und Familien.",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "languages": "Sprachen",
+    "rights": "Alle Rechte vorbehalten.",
+    "company": "Ein Service der WorkWorkWork AG"
+  }
+}

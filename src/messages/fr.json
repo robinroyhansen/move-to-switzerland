@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Conseil Premium en Relocalisation",
+    "description": "Un service spécialisé de relocalisation et de conseil patrimonial pour les individus et familles fortunés s'installant en Suisse."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "imprint": "Mentions légales",
+    "beginJourney": "Commencez votre voyage"
+  },
+  "hero": {
+    "headline": "Votre chemin vers la Suisse",
+    "subheadline": "Un service spécialisé de relocalisation et de conseil patrimonial pour les individus et familles fortunés",
+    "cta": "Commencez votre voyage"
+  },
+  "whySwitzerland": {
+    "title": "Pourquoi la Suisse",
+    "subtitle": "Une nation bâtie sur la stabilité, la discrétion et l'excellence",
+    "stats": {
+      "millionaires": {
+        "value": "142 000",
+        "label": "Millionnaires en relocalisation mondiale en 2025 — un record historique"
+      },
+      "inflow": {
+        "value": "+3 000",
+        "label": "Afflux net de millionnaires vers la Suisse en 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Années de neutralité politique"
+      },
+      "banking": {
+        "value": "N°1",
+        "label": "Le système bancaire privé le plus solide au monde"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Ont voté contre l'impôt sur la fortune (novembre 2025)"
+      },
+      "safety": {
+        "value": "Zéro",
+        "label": "Historique de confiscation d'actifs ou d'alliances militaires"
+      }
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Un conseil complet couvrant chaque dimension de votre relocalisation",
+    "learnMore": "En savoir plus",
+    "pageTitle": "Services",
+    "pageSubtitle": "Conseil de bout en bout pour votre relocalisation en Suisse",
+    "items": {
+      "assetStructuring": {
+        "title": "Structuration patrimoniale pré-immigration",
+        "description": "Réalisation de plus-values avant la résidence suisse ; restructuration de participations, trusts et structures sociétaires UAE ; documentation complète de l'origine des fonds.",
+        "detail": "Nous travaillons avec vos conseillers existants pour optimiser votre structure patrimoniale avant d'établir votre résidence fiscale suisse."
+      },
+      "lumpSum": {
+        "title": "Imposition forfaitaire (Forfait Fiscal)",
+        "description": "Négociation complète du ruling fiscal cantonal ; détermination de la base imposable ; gestion de la conformité annuelle.",
+        "detail": "Le régime d'imposition forfaitaire suisse offre aux individus éligibles une base fiscale calculée sur les dépenses de vie plutôt que sur le revenu mondial."
+      },
+      "residency": {
+        "title": "Résidence et Immigration",
+        "description": "Conseil en choix de canton ; gestion de la demande de permis B ; planification de l'inclusion familiale ; voie vers le permis C et la nationalité.",
+        "detail": "Le choix du bon canton est la décision la plus conséquente de votre relocalisation."
+      },
+      "companyFormation": {
+        "title": "Création de société et structuration",
+        "description": "Holdings suisses ; structures de propriété intellectuelle ; coordination avec les entités UAE ; inscription TVA et conformité.",
+        "detail": "Que vous ayez besoin d'une holding suisse, d'une structure de licence IP ou d'une coordination entre vos entités UAE existantes et vos nouvelles opérations suisses."
+      },
+      "familyOffice": {
+        "title": "Établissement de Family Office",
+        "description": "Conseil SFO/MFO ; introductions bancaires privées ; structuration de trusts et fondations ; planification successorale.",
+        "detail": "Pour les familles nécessitant une infrastructure dédiée de gestion de patrimoine, nous conseillons sur l'établissement de family offices en Suisse."
+      },
+      "directorship": {
+        "title": "Administration et mandats indépendants",
+        "description": "Placement de directeur résident suisse ; services de secrétariat d'entreprise ; soutien en gouvernance et conformité.",
+        "detail": "De nombreuses structures d'entreprises suisses nécessitent un directeur résident en Suisse."
+      },
+      "realEstate": {
+        "title": "Conseil immobilier",
+        "description": "Navigation Lex Koller ; accès aux propriétés hors marché ; structuration d'acquisition ; coordination notariale.",
+        "detail": "Les réglementations immobilières suisses, notamment les restrictions Lex Koller pour les acheteurs étrangers, nécessitent une expertise spécialisée."
+      },
+      "privateBanking": {
+        "title": "Banque privée et gestion de patrimoine",
+        "description": "Conseil en sélection bancaire ; préparation AML/KYC ; documentation des actifs crypto ; structuration de mandats.",
+        "detail": "L'ouverture d'une relation de banque privée suisse nécessite une préparation minutieuse."
+      },
+      "health": {
+        "title": "Conciergerie santé et bien-être",
+        "description": "Mise en place de l'assurance maladie obligatoire ; introductions spécialistes ; bilan de santé exécutif ; liaison médicale.",
+        "detail": "Le système de santé suisse exige une assurance obligatoire et peut être complexe à naviguer."
+      },
+      "lifestyle": {
+        "title": "Coordination lifestyle et installation",
+        "description": "Placement en écoles internationales ; permis du personnel domestique ; programmes d'intégration du conjoint ; introductions communautaires.",
+        "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse."
+      }
+    }
+  },
+  "clients": {
+    "title": "Nos clients",
+    "subtitle": "Notre conseil est adapté à votre profil et vos objectifs spécifiques",
+    "profiles": {
+      "entrepreneur": {
+        "title": "L'entrepreneur établi",
+        "age": "40–60 ans",
+        "description": "Propriétaires d'entreprise pré ou post-cession cherchant à établir leur résidence suisse avant un événement de liquidité. Engagement typique : 12–24 mois.",
+        "tags": ["Planification pré-cession", "Structuration d'actifs", "Forfait Fiscal"]
+      },
+      "family": {
+        "title": "La famille en relocalisation",
+        "age": "Enfants scolarisés",
+        "description": "Familles privilégiant la sécurité, l'éducation et la qualité de vie. Relocalisation complète incluant écoles, santé et intégration communautaire.",
+        "tags": ["Éducation", "Santé", "Communauté"]
+      },
+      "youngWealth": {
+        "title": "Le jeune détenteur de patrimoine",
+        "age": "28–42 ans",
+        "description": "Entrepreneurs numériques et détenteurs de crypto-actifs recherchant une juridiction stable et favorable aux cryptomonnaies.",
+        "tags": ["Crypto", "Actifs numériques", "Lifestyle"]
+      },
+      "familyOffice": {
+        "title": "Le Family Office du Golfe",
+        "age": "Multi-générationnel",
+        "description": "Family offices établis cherchant un hub de gouvernance européen, une planification successorale et une structuration patrimoniale institutionnelle.",
+        "tags": ["Gouvernance", "Succession", "Institutionnel"]
+      }
+    }
+  },
+  "founders": {
+    "title": "Les Fondateurs",
+    "subtitle": "Deux décennies d'expertise combinée en conseil suisse",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Co-fondateur",
+      "bio": "Avocat suisse et titulaire d'un MBA. Adrian a établi plusieurs banques en Suisse et entretient des relations profondes avec la FINMA, les institutions bancaires privées et les autorités cantonales."
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Co-fondateur",
+      "bio": "Entrepreneur en série danois basé en Suisse. Avec plus de CHF 400 millions en publicité numérique gérée et plusieurs entreprises en Suisse et dans l'UE. Parle allemand, danois et anglais."
+    }
+  },
+  "about": {
+    "pageTitle": "À propos",
+    "pageSubtitle": "Indépendance, confidentialité et profondeur de service",
+    "story": {
+      "title": "Notre histoire",
+      "p1": "Move to Switzerland a été fondé sur une observation simple : les individus fortunés qui se relocalisent du Moyen-Orient vers la Suisse font face à un paysage de conseil inutilement fragmenté.",
+      "p2": "Nous avons créé un point de contact unique qui orchestre l'ensemble du parcours de relocalisation — de la structuration patrimoniale pré-immigration jusqu'au premier jour d'école de vos enfants.",
+      "p3": "Chaque engagement est traité avec la discrétion et la rigueur que nos clients attendent. Nous servons un nombre limité de familles à tout moment."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "independence": {
+        "title": "Indépendance",
+        "description": "Nous ne sommes liés à aucune banque, cabinet d'avocats ou agence immobilière. Nos conseils sont toujours dans votre meilleur intérêt."
+      },
+      "confidentiality": {
+        "title": "Confidentialité",
+        "description": "Chaque engagement est protégé par une stricte confidentialité. Nous ne divulguons jamais les relations ou détails de nos clients."
+      },
+      "depth": {
+        "title": "Profondeur de service",
+        "description": "Nous ne référons pas et n'oublions pas. Nous restons avec vous à chaque étape, de la première consultation à l'installation complète."
+      }
+    },
+    "offices": {
+      "title": "Nos bureaux",
+      "zurich": "Zurich",
+      "zug": "Zoug",
+      "schwyz": "Schwyz"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contactez-nous",
+    "pageSubtitle": "Commencez votre voyage vers la Suisse",
+    "confidential": "Toutes les demandes sont traitées en toute confidentialité.",
+    "form": {
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone (optionnel)",
+      "country": "Pays de résidence actuel",
+      "message": "Votre message",
+      "hearAbout": "Comment avez-vous entendu parler de nous ? (optionnel)",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi en cours...",
+      "success": "Merci. Votre demande a été reçue. Nous répondrons dans les 24 heures.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    },
+    "offices": {
+      "title": "Nos bureaux"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Politique de confidentialité",
+    "content": "Cette politique de confidentialité explique comment Move to Switzerland collecte, utilise et protège vos données personnelles conformément à la loi suisse sur la protection des données (nDSG) et au Règlement général sur la protection des données de l'UE (RGPD)."
+  },
+  "imprint": {
+    "pageTitle": "Mentions légales",
+    "company": "WorkWorkWork AG",
+    "address": "Suisse",
+    "registration": "Registre du commerce"
+  },
+  "footer": {
+    "tagline": "Conseil premium en relocalisation pour individus et familles distingués.",
+    "navigation": "Navigation",
+    "legal": "Légal",
+    "languages": "Langues",
+    "rights": "Tous droits réservés.",
+    "company": "Un service de WorkWorkWork AG"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "metadata": { "title": "Move to Switzerland — Premium Rådgivning om Flytning", "description": "En specialiseret flytte- og formuerådgivningsservice for velhavende privatpersoner og familier, der flytter til Schweiz." },
+  "nav": { "home": "Forside", "services": "Ydelser", "about": "Om os", "contact": "Kontakt", "privacy": "Privatlivspolitik", "imprint": "Juridisk information", "beginJourney": "Begynd din rejse" },
+  "hero": { "headline": "Din vej til Schweiz", "subheadline": "En specialiseret flytte- og formuerådgivningsservice for velhavende privatpersoner og familier", "cta": "Begynd din rejse" },
+  "whySwitzerland": {
+    "title": "Hvorfor Schweiz",
+    "subtitle": "En nation bygget på stabilitet, diskretion og ekspertise",
+    "stats": {
+      "millionaires": { "value": "142.000", "label": "Millionærer der flytter globalt i 2025 — historisk rekord" },
+      "inflow": { "value": "+3.000", "label": "Netto millionærtilstrømning til Schweiz i 2025" },
+      "neutrality": { "value": "500+", "label": "Års politisk neutralitet" },
+      "banking": { "value": "#1", "label": "Verdens mest robuste private banksystem" },
+      "wealthTax": { "value": "78%", "label": "Stemte imod formueskat (november 2025)" },
+      "safety": { "value": "Nul", "label": "Historik med aktivbeslaglæggelse eller militære alliancer" }
+    }
+  },
+  "services": {
+    "title": "Vores ydelser",
+    "subtitle": "Omfattende rådgivning på alle dimensioner af din flytning",
+    "learnMore": "Læs mere",
+    "pageTitle": "Ydelser",
+    "pageSubtitle": "Helhedsorienteret rådgivning for din flytning til Schweiz",
+    "items": {
+      "assetStructuring": { "title": "Aktivstrukturering før immigration", "description": "Realisering af gevinster før schweizisk bopæl; omstrukturering af aktiebesiddelser, trusts og UAE-virksomhedsstrukturer.", "detail": "Vi arbejder med dine eksisterende rådgivere for at optimere din aktivstruktur." },
+      "lumpSum": { "title": "Pauschalbeskatning (Forfait Fiscal)", "description": "Fuld forhandling af kantonal skatteafgørelse; fastlæggelse af skattegrundlag; løbende årlig compliance.", "detail": "Schweiz' pauschalbeskatningsordning tilbyder kvalificerede personer et skattegrundlag baseret på leveomkostninger." },
+      "residency": { "title": "Opholdstilladelse og immigration", "description": "Rådgivning om kantonsvalg; B-tilladelsesansøgning; familieinklusion; vej til C-tilladelse og statsborgerskab.", "detail": "Valget af det rigtige kanton er den mest afgørende beslutning i din flytning." },
+      "companyFormation": { "title": "Virksomhedsetablering og strukturering", "description": "Schweiziske holdingselskaber; IP-strukturer; koordinering med UAE-enheder; momsregistrering.", "detail": "Uanset om du har brug for et schweizisk holdingselskab eller koordinering med UAE-enheder." },
+      "familyOffice": { "title": "Family Office etablering", "description": "SFO/MFO-rådgivning; private banking-introduktioner; trust- og fondstrukturering; successionsplanlægning.", "detail": "For familier der har brug for dedikeret formueforvaltningsinfrastruktur." },
+      "directorship": { "title": "Uafhængige bestyrelsesydelser", "description": "Placering af schweizisk-bosiddende direktør; selskabssekretærydelser; governance-support.", "detail": "Mange schweiziske selskabsstrukturer kræver en schweizisk-bosiddende direktør." },
+      "realEstate": { "title": "Ejendomsrådgivning", "description": "Lex Koller-navigation; adgang til off-market ejendomme; erhvervelsesstrukturering; notarkoordinering.", "detail": "Schweiziske ejendomsreguleringer kræver ekspertnavigation." },
+      "privateBanking": { "title": "Private Banking og formueforvaltning", "description": "Bankvalg-rådgivning; AML/KYC-forberedelse; krypto-formue dokumentation.", "detail": "Åbning af et schweizisk private banking-forhold kræver omhyggelig forberedelse." },
+      "health": { "title": "Sundheds- og wellness-concierge", "description": "Obligatorisk sundhedsforsikring; speciallægeintroduktioner; executive health-screening.", "detail": "Det schweiziske sundhedssystem kræver obligatorisk forsikring." },
+      "lifestyle": { "title": "Livsstilskoordinering og blød landing", "description": "Internationale skoleplacering; arbejdstilladelser til hushjælp; ægtefælleintegration.", "detail": "Din flytnings succes rækker langt ud over papirarbejde." }
+    }
+  },
+  "clients": {
+    "title": "Hvem vi betjener",
+    "subtitle": "Vores rådgivning er skræddersyet til din profil og dine mål",
+    "profiles": {
+      "entrepreneur": { "title": "Den etablerede iværksætter", "age": "Alder 40–60", "description": "Virksomhedsejere der søger schweizisk bopæl før et likviditetsevent.", "tags": ["Exit-planlægning", "Aktivstrukturering", "Forfait Fiscal"] },
+      "family": { "title": "Den flyttende familie", "age": "Skolebørn", "description": "Familier der prioriterer sikkerhed, uddannelse og livskvalitet.", "tags": ["Uddannelse", "Sundhed", "Fællesskab"] },
+      "youngWealth": { "title": "Den unge formueejer", "age": "Alder 28–42", "description": "Digitale iværksættere og krypto-formueejere der søger en stabil jurisdiktion.", "tags": ["Krypto", "Digitale aktiver", "Livsstil"] },
+      "familyOffice": { "title": "Gulf Family Office", "age": "Flergenerationelt", "description": "Etablerede family offices der søger et europæisk governance-hub.", "tags": ["Governance", "Succession", "Institutionel"] }
+    }
+  },
+  "founders": {
+    "title": "Grundlæggerne",
+    "subtitle": "To årtiers kombineret schweizisk rådgivningsekspertise",
+    "adrian": { "name": "Adrian Burgi", "role": "Medstifter", "bio": "Schweizisk advokat og MBA. Adrian har etableret flere banker i Schweiz og har dybe relationer til FINMA og private banker." },
+    "robin": { "name": "Robin Roy Krigslund-Hansen", "role": "Medstifter", "bio": "Dansk serieiværksætter baseret i Schweiz. Over CHF 400 mio. i forvaltet digital annoncering. Taler tysk, dansk og engelsk." }
+  },
+  "about": {
+    "pageTitle": "Om os",
+    "pageSubtitle": "Uafhængighed, fortrolighed og dybde i service",
+    "story": { "title": "Vores historie", "p1": "Move to Switzerland blev grundlagt ud fra en simpel observation: velhavende personer der flytter fra Mellemøsten oplever et unødvendigt fragmenteret rådgivningslandskab.", "p2": "Vi skabte ét kontaktpunkt der orkestrerer hele flytningsrejsen.", "p3": "Hvert engagement håndteres med den diskretion og grundighed vores klienter forventer." },
+    "values": {
+      "title": "Vores værdier",
+      "independence": { "title": "Uafhængighed", "description": "Vi er ikke bundet til nogen bank, advokatfirma eller ejendomsmægler." },
+      "confidentiality": { "title": "Fortrolighed", "description": "Hvert engagement er beskyttet af streng fortrolighed." },
+      "depth": { "title": "Dybde i service", "description": "Vi henviser ikke og glemmer. Vi er med dig hele vejen." }
+    },
+    "offices": { "title": "Vores kontorer", "zurich": "Zürich", "zug": "Zug", "schwyz": "Schwyz" }
+  },
+  "contact": {
+    "pageTitle": "Kontakt os",
+    "pageSubtitle": "Begynd din rejse til Schweiz",
+    "confidential": "Alle henvendelser behandles strengt fortroligt.",
+    "form": { "name": "Fulde navn", "email": "E-mailadresse", "phone": "Telefonnummer (valgfrit)", "country": "Nuværende bopælsland", "message": "Din besked", "hearAbout": "Hvordan hørte du om os? (valgfrit)", "submit": "Send henvendelse", "sending": "Sender...", "success": "Tak. Din henvendelse er modtaget. Vi svarer inden for 24 timer.", "error": "Noget gik galt. Prøv venligst igen." },
+    "offices": { "title": "Vores kontorer" }
+  },
+  "privacy": { "pageTitle": "Privatlivspolitik", "content": "Denne privatlivspolitik forklarer hvordan Move to Switzerland indsamler, bruger og beskytter dine personoplysninger." },
+  "imprint": { "pageTitle": "Juridisk information", "company": "WorkWorkWork AG", "address": "Schweiz", "registration": "Handelsregistret" },
+  "footer": { "tagline": "Premium flytningsrådgivning for fornemme privatpersoner og familier.", "navigation": "Navigation", "legal": "Juridisk", "languages": "Sprog", "rights": "Alle rettigheder forbeholdes.", "company": "En service fra WorkWorkWork AG" }
+}

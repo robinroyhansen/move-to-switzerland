@@ -1,0 +1,74 @@
+{
+  "metadata": { "title": "Move to Switzerland — Consulenza Premium per il Trasferimento", "description": "Un servizio specializzato di trasferimento e consulenza patrimoniale per individui e famiglie ad alto patrimonio netto che si trasferiscono in Svizzera." },
+  "nav": { "home": "Home", "services": "Servizi", "about": "Chi siamo", "contact": "Contatti", "privacy": "Privacy", "imprint": "Note legali", "beginJourney": "Inizia il tuo viaggio" },
+  "hero": { "headline": "Il tuo percorso verso la Svizzera", "subheadline": "Un servizio specializzato di trasferimento e consulenza patrimoniale per individui e famiglie ad alto patrimonio netto", "cta": "Inizia il tuo viaggio" },
+  "whySwitzerland": {
+    "title": "Perché la Svizzera",
+    "subtitle": "Una nazione costruita su stabilità, riservatezza ed eccellenza",
+    "stats": {
+      "millionaires": { "value": "142.000", "label": "Milionari in trasferimento nel mondo nel 2025 — record storico" },
+      "inflow": { "value": "+3.000", "label": "Afflusso netto di milionari in Svizzera nel 2025" },
+      "neutrality": { "value": "500+", "label": "Anni di neutralità politica" },
+      "banking": { "value": "N°1", "label": "Il sistema bancario privato più solido al mondo" },
+      "wealthTax": { "value": "78%", "label": "Ha votato contro l'imposta patrimoniale (novembre 2025)" },
+      "safety": { "value": "Zero", "label": "Storia di confisca di beni o alleanze militari" }
+    }
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "subtitle": "Consulenza completa su ogni dimensione del tuo trasferimento",
+    "learnMore": "Scopri di più",
+    "pageTitle": "Servizi",
+    "pageSubtitle": "Consulenza integrale per il tuo trasferimento in Svizzera",
+    "items": {
+      "assetStructuring": { "title": "Strutturazione patrimoniale pre-immigrazione", "description": "Realizzazione di plusvalenze prima della residenza svizzera; ristrutturazione di partecipazioni, trust e strutture societarie UAE.", "detail": "Lavoriamo con i tuoi consulenti esistenti per ottimizzare la struttura patrimoniale." },
+      "lumpSum": { "title": "Tassazione forfettaria (Forfait Fiscal)", "description": "Negoziazione completa del ruling fiscale cantonale; determinazione della base imponibile; gestione della compliance annuale.", "detail": "Il regime di tassazione forfettaria svizzero offre una base fiscale calcolata sulle spese di vita." },
+      "residency": { "title": "Residenza e immigrazione", "description": "Consulenza sulla scelta del cantone; gestione della domanda di permesso B; pianificazione dell'inclusione familiare.", "detail": "La scelta del cantone giusto è la decisione più importante del trasferimento." },
+      "companyFormation": { "title": "Costituzione societaria e strutturazione", "description": "Holding svizzere; strutture IP; coordinamento con entità UAE; registrazione IVA.", "detail": "Che necessitiate di una holding svizzera o del coordinamento con le vostre entità UAE." },
+      "familyOffice": { "title": "Costituzione Family Office", "description": "Consulenza SFO/MFO; introduzioni al private banking; strutturazione di trust e fondazioni; pianificazione successoria.", "detail": "Per le famiglie che necessitano di un'infrastruttura dedicata alla gestione patrimoniale." },
+      "directorship": { "title": "Amministrazione indipendente", "description": "Collocamento di amministratore residente in Svizzera; servizi di segreteria societaria; supporto alla governance.", "detail": "Molte strutture societarie svizzere richiedono un amministratore residente." },
+      "realEstate": { "title": "Consulenza immobiliare", "description": "Navigazione Lex Koller; accesso a proprietà fuori mercato; strutturazione dell'acquisizione; coordinamento notarile.", "detail": "Le normative immobiliari svizzere richiedono una guida esperta." },
+      "privateBanking": { "title": "Private Banking e gestione patrimoniale", "description": "Consulenza sulla selezione bancaria; preparazione AML/KYC; documentazione crypto; strutturazione mandati.", "detail": "L'apertura di una relazione di private banking svizzera richiede una preparazione accurata." },
+      "health": { "title": "Concierge salute e benessere", "description": "Assicurazione sanitaria obbligatoria; introduzioni a specialisti; screening sanitario executive.", "detail": "Il sistema sanitario svizzero richiede un'assicurazione obbligatoria." },
+      "lifestyle": { "title": "Coordinamento lifestyle e soft landing", "description": "Collocamento in scuole internazionali; permessi per il personale domestico; integrazione del coniuge.", "detail": "Il successo del trasferimento va ben oltre le pratiche burocratiche." }
+    }
+  },
+  "clients": {
+    "title": "Chi serviamo",
+    "subtitle": "La nostra consulenza è personalizzata sul vostro profilo e obiettivi",
+    "profiles": {
+      "entrepreneur": { "title": "L'imprenditore affermato", "age": "Età 40–60", "description": "Proprietari d'azienda pre o post-exit che cercano la residenza svizzera.", "tags": ["Pianificazione exit", "Strutturazione patrimoniale", "Forfait Fiscal"] },
+      "family": { "title": "La famiglia in trasferimento", "age": "Figli in età scolare", "description": "Famiglie che privilegiano sicurezza, istruzione e qualità della vita.", "tags": ["Istruzione", "Sanità", "Comunità"] },
+      "youngWealth": { "title": "Il giovane detentore di patrimonio", "age": "Età 28–42", "description": "Imprenditori digitali e detentori di crypto-patrimonio alla ricerca di una giurisdizione stabile.", "tags": ["Crypto", "Asset digitali", "Lifestyle"] },
+      "familyOffice": { "title": "Il Family Office del Golfo", "age": "Multi-generazionale", "description": "Family office affermati alla ricerca di un hub di governance europeo.", "tags": ["Governance", "Successione", "Istituzionale"] }
+    }
+  },
+  "founders": {
+    "title": "I Fondatori",
+    "subtitle": "Due decenni di esperienza consulenziale svizzera combinata",
+    "adrian": { "name": "Adrian Burgi", "role": "Co-fondatore", "bio": "Avvocato svizzero e MBA. Adrian ha fondato diverse banche in Svizzera con profondi rapporti con FINMA e banche private." },
+    "robin": { "name": "Robin Roy Krigslund-Hansen", "role": "Co-fondatore", "bio": "Imprenditore seriale danese con base in Svizzera. Oltre CHF 400 milioni in pubblicità digitale gestita. Parla tedesco, danese e inglese." }
+  },
+  "about": {
+    "pageTitle": "Chi siamo",
+    "pageSubtitle": "Indipendenza, riservatezza e profondità di servizio",
+    "story": { "title": "La nostra storia", "p1": "Move to Switzerland è stata fondata su una semplice osservazione: gli individui facoltosi che si trasferiscono dal Medio Oriente affrontano un panorama consulenziale inutilmente frammentato.", "p2": "Abbiamo creato un unico punto di contatto che orchestra l'intero percorso di trasferimento.", "p3": "Ogni incarico è gestito con la riservatezza e la cura che i nostri clienti si aspettano." },
+    "values": {
+      "title": "I nostri valori",
+      "independence": { "title": "Indipendenza", "description": "Non siamo legati a nessuna banca, studio legale o agenzia immobiliare." },
+      "confidentiality": { "title": "Riservatezza", "description": "Ogni incarico è protetto da stretta riservatezza." },
+      "depth": { "title": "Profondità di servizio", "description": "Non riferiamo e dimentichiamo. Restiamo con voi in ogni fase." }
+    },
+    "offices": { "title": "I nostri uffici", "zurich": "Zurigo", "zug": "Zugo", "schwyz": "Svitto" }
+  },
+  "contact": {
+    "pageTitle": "Contattaci",
+    "pageSubtitle": "Inizia il tuo viaggio verso la Svizzera",
+    "confidential": "Tutte le richieste sono trattate con stretta riservatezza.",
+    "form": { "name": "Nome completo", "email": "Indirizzo email", "phone": "Numero di telefono (opzionale)", "country": "Paese di residenza attuale", "message": "Il tuo messaggio", "hearAbout": "Come hai sentito parlare di noi? (opzionale)", "submit": "Invia richiesta", "sending": "Invio in corso...", "success": "Grazie. La tua richiesta è stata ricevuta. Risponderemo entro 24 ore.", "error": "Qualcosa è andato storto. Riprova." },
+    "offices": { "title": "I nostri uffici" }
+  },
+  "privacy": { "pageTitle": "Informativa sulla privacy", "content": "Questa informativa spiega come Move to Switzerland raccoglie, utilizza e protegge i tuoi dati personali." },
+  "imprint": { "pageTitle": "Note legali", "company": "WorkWorkWork AG", "address": "Svizzera", "registration": "Registro di commercio" },
+  "footer": { "tagline": "Consulenza premium per il trasferimento di individui e famiglie distinti.", "navigation": "Navigazione", "legal": "Legale", "languages": "Lingue", "rights": "Tutti i diritti riservati.", "company": "Un servizio di WorkWorkWork AG" }
+}

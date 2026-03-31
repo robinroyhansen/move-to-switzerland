@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Premium Relocation Advisory",
+    "description": "A specialist relocation and wealth advisory service for high-net-worth individuals and families relocating to Switzerland."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "beginJourney": "Begin Your Journey"
+  },
+  "hero": {
+    "headline": "Your Path to Switzerland",
+    "subheadline": "A specialist relocation and wealth advisory service for high-net-worth individuals and families",
+    "cta": "Begin Your Journey"
+  },
+  "whySwitzerland": {
+    "title": "Why Switzerland",
+    "subtitle": "A nation built on stability, discretion, and excellence",
+    "stats": {
+      "millionaires": {
+        "value": "142,000",
+        "label": "Millionaires relocating globally in 2025 — a historic record"
+      },
+      "inflow": {
+        "value": "+3,000",
+        "label": "Net millionaire inflow to Switzerland in 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Years of political neutrality"
+      },
+      "banking": {
+        "value": "#1",
+        "label": "World's most robust private banking system"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Voted against wealth tax (November 2025)"
+      },
+      "safety": {
+        "value": "Zero",
+        "label": "History of asset confiscation or military alliances"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive advisory across every dimension of your relocation",
+    "learnMore": "Learn more",
+    "pageTitle": "Services",
+    "pageSubtitle": "End-to-end advisory for your Swiss relocation",
+    "items": {
+      "assetStructuring": {
+        "title": "Pre-Immigration Asset Structuring",
+        "description": "Realising gains before Swiss residency; restructuring shareholdings, trusts, and UAE corporate structures; comprehensive source-of-wealth documentation.",
+        "detail": "We work with your existing advisors to ensure your asset structure is optimised before you establish Swiss tax residency. This includes reviewing shareholdings, trust arrangements, and corporate structures in the UAE and beyond, ensuring clean source-of-wealth documentation that satisfies Swiss banking and tax authority requirements."
+      },
+      "lumpSum": {
+        "title": "Lump-Sum Taxation (Forfait Fiscal)",
+        "description": "Full negotiation of cantonal tax ruling; taxable base determination; ongoing annual compliance management.",
+        "detail": "Switzerland's lump-sum taxation regime offers qualifying individuals a tax base calculated on living expenses rather than worldwide income. We handle the complete negotiation with cantonal authorities, determine the optimal taxable base, and manage ongoing annual compliance to ensure your arrangement remains in good standing."
+      },
+      "residency": {
+        "title": "Residency & Immigration",
+        "description": "Canton selection advisory; B-permit application management; family inclusion planning; pathway to C-permit and citizenship.",
+        "detail": "Choosing the right canton is perhaps the most consequential decision in your relocation. We advise on canton selection based on your tax situation, lifestyle preferences, and family needs. We then manage the full B-permit application, family inclusion, and map the pathway to C-permit and eventual Swiss citizenship."
+      },
+      "companyFormation": {
+        "title": "Company Formation & Corporate Structuring",
+        "description": "Swiss holding companies; IP structures; coordination with UAE entities; VAT registration and compliance.",
+        "detail": "Whether you need a Swiss holding company, an IP licensing structure, or coordination between your existing UAE entities and new Swiss operations, we handle the entire process. This includes VAT registration, corporate compliance, and ensuring your corporate structure is both tax-efficient and fully compliant."
+      },
+      "familyOffice": {
+        "title": "Family Office Establishment",
+        "description": "Single and multi-family office advisory; private banking introductions; trust and foundation structuring; succession planning.",
+        "detail": "For families requiring dedicated wealth management infrastructure, we advise on establishing single or multi-family offices in Switzerland. This includes introductions to leading private banks, structuring trusts and foundations for asset protection, and comprehensive succession planning that accounts for cross-border complexities."
+      },
+      "directorship": {
+        "title": "Independent Directorship & Board Services",
+        "description": "Swiss-resident director placement; corporate secretarial services; governance and compliance support.",
+        "detail": "Many Swiss corporate structures require a Swiss-resident director. We provide qualified independent directors, corporate secretarial services, and ongoing governance support to ensure your Swiss entities meet all regulatory requirements while you focus on your business."
+      },
+      "realEstate": {
+        "title": "Real Estate Advisory",
+        "description": "Lex Koller navigation; access to off-market properties; acquisition structuring; notary coordination.",
+        "detail": "Swiss real estate regulations, particularly the Lex Koller restrictions on foreign buyers, require expert navigation. We provide access to off-market properties across premium locations, structure acquisitions to comply with all regulations, and coordinate with notaries to ensure smooth transactions."
+      },
+      "privateBanking": {
+        "title": "Private Banking & Wealth Management",
+        "description": "Bank selection advisory; AML/KYC preparation; crypto wealth documentation; investment mandate structuring.",
+        "detail": "Opening a Swiss private banking relationship requires careful preparation. We advise on bank selection based on your specific needs, prepare all AML/KYC documentation including crypto wealth substantiation, and help structure investment mandates that align with your wealth management objectives."
+      },
+      "health": {
+        "title": "Health & Wellness Concierge",
+        "description": "Mandatory health insurance setup; specialist physician introductions; executive health screening; medical liaison.",
+        "detail": "Switzerland's healthcare system requires mandatory insurance and can be complex to navigate. We set up your health insurance, introduce you to leading specialist physicians, arrange executive health screenings, and serve as your ongoing medical liaison to ensure you and your family receive the finest care."
+      },
+      "lifestyle": {
+        "title": "Lifestyle Coordination & Soft Landing",
+        "description": "International school placement; domestic staff permits; spouse integration programmes; community introductions; cultural orientation.",
+        "detail": "The success of your relocation extends far beyond paperwork. We handle international school placement for your children, domestic staff work permits, spouse integration and community introductions, and comprehensive cultural orientation to ensure your entire family feels at home in Switzerland from day one."
+      }
+    }
+  },
+  "clients": {
+    "title": "Who We Serve",
+    "subtitle": "Our advisory is tailored to your specific profile and objectives",
+    "profiles": {
+      "entrepreneur": {
+        "title": "The Established Entrepreneur",
+        "age": "Age 40–60",
+        "description": "Pre-exit or post-exit business owners seeking to establish Swiss residency before a liquidity event. Typical engagement: 12–24 months.",
+        "tags": ["Pre-Exit Planning", "Asset Structuring", "Forfait Fiscal"]
+      },
+      "family": {
+        "title": "The Relocating Family",
+        "age": "School-age children",
+        "description": "Families prioritising security, education, and quality of life. Comprehensive relocation including schools, healthcare, and community integration.",
+        "tags": ["Education", "Healthcare", "Community"]
+      },
+      "youngWealth": {
+        "title": "The Younger Wealth Holder",
+        "age": "Age 28–42",
+        "description": "Digital entrepreneurs and crypto wealth holders seeking a stable, crypto-friendly jurisdiction with world-class lifestyle.",
+        "tags": ["Crypto", "Digital Assets", "Lifestyle"]
+      },
+      "familyOffice": {
+        "title": "The Gulf Family Office",
+        "age": "Multi-generational",
+        "description": "Established family offices seeking a European governance hub, succession planning, and institutional-grade wealth structuring.",
+        "tags": ["Governance", "Succession", "Institutional"]
+      }
+    }
+  },
+  "founders": {
+    "title": "The Founders",
+    "subtitle": "Two decades of combined Swiss advisory expertise",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Co-Founder",
+      "bio": "Swiss attorney and MBA graduate. Adrian has established multiple banks in Switzerland and maintains deep relationships with FINMA, private banking institutions, and cantonal authorities. His legal expertise and institutional network form the regulatory backbone of our advisory."
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Co-Founder",
+      "bio": "Danish serial entrepreneur based in Switzerland. With over CHF 400 million in managed digital advertising and multiple companies across Switzerland and the EU, Robin brings operational excellence and a deep understanding of cross-border business structuring. Speaks German, Danish, and English."
+    }
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "Independence, confidentiality, and depth of service",
+    "story": {
+      "title": "Our Story",
+      "p1": "Move to Switzerland was founded on a simple observation: high-net-worth individuals relocating from the Middle East to Switzerland face an unnecessarily fragmented advisory landscape. Tax advisors, immigration lawyers, real estate agents, and private bankers each operate in isolation, leaving the client to coordinate between them.",
+      "p2": "We created a single point of contact that orchestrates the entire relocation journey — from pre-immigration asset structuring through to your children's first day at school. Our founders combine deep Swiss legal and banking expertise with practical entrepreneurial experience in cross-border operations.",
+      "p3": "Every engagement is handled with the discretion and thoroughness our clients expect. We serve a limited number of families at any given time, ensuring each receives our undivided attention."
+    },
+    "values": {
+      "title": "Our Values",
+      "independence": {
+        "title": "Independence",
+        "description": "We are not tied to any bank, law firm, or real estate agency. Our advice is always in your best interest."
+      },
+      "confidentiality": {
+        "title": "Confidentiality",
+        "description": "Every engagement is protected by strict confidentiality. We never disclose client relationships or details."
+      },
+      "depth": {
+        "title": "Depth of Service",
+        "description": "We don't refer and forget. We stay with you through every step, from first consultation to full settlement."
+      }
+    },
+    "offices": {
+      "title": "Our Offices",
+      "zurich": "Zurich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Begin your journey to Switzerland",
+    "confidential": "All inquiries are treated with strict confidentiality.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number (optional)",
+      "country": "Country of Current Residence",
+      "message": "Your Message",
+      "hearAbout": "How did you hear about us? (optional)",
+      "submit": "Send Inquiry",
+      "sending": "Sending...",
+      "success": "Thank you. Your inquiry has been received. We will respond within 24 hours.",
+      "error": "Something went wrong. Please try again or contact us directly."
+    },
+    "offices": {
+      "title": "Our Offices"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "content": "This privacy policy explains how Move to Switzerland collects, uses, and protects your personal data in accordance with Swiss data protection law (nDSG) and the EU General Data Protection Regulation (GDPR)."
+  },
+  "imprint": {
+    "pageTitle": "Imprint",
+    "company": "WorkWorkWork AG",
+    "address": "Switzerland",
+    "registration": "Commercial Register"
+  },
+  "footer": {
+    "tagline": "Premium relocation advisory for distinguished individuals and families.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "languages": "Languages",
+    "rights": "All rights reserved.",
+    "company": "A service by WorkWorkWork AG"
+  }
+}
