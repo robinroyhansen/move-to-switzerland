@@ -191,7 +191,12 @@
         "transport": "International airport, excellent rail connections"
       },
       "schools": {
-        "list": ["Inter-Community School Zurich (ICS)", "Zurich International School (ZIS)", "Swiss International School", "Lyceum Alpinum Zuoz (nearby)"]
+        "list": [
+          "Inter-Community School Zurich (ICS)",
+          "Zurich International School (ZIS)",
+          "Swiss International School",
+          "Lyceum Alpinum Zuoz (nearby)"
+        ]
       },
       "bankingInfo": "Home to UBS, Credit Suisse (now UBS), Julius Baer, and dozens of boutique private banks. Full-service crypto banking available (SEBA, Sygnum).",
       "realEstate": {
@@ -218,7 +223,11 @@
         "transport": "30 minutes to Zurich Airport, excellent rail"
       },
       "schools": {
-        "list": ["International School of Zug and Luzern (ISZL)", "Institut Montana Zugerberg", "Swiss International School"]
+        "list": [
+          "International School of Zug and Luzern (ISZL)",
+          "Institut Montana Zugerberg",
+          "Swiss International School"
+        ]
       },
       "bankingInfo": "Crypto Valley ecosystem with blockchain-native banks. Traditional private banking through local branches of major Swiss banks. Family office concentration second only to Geneva.",
       "realEstate": {
@@ -245,7 +254,11 @@
         "transport": "45 minutes to Zurich Airport, scenic commute"
       },
       "schools": {
-        "list": ["International School of Zug and Luzern (Hünenberg campus, nearby)", "Institut Montana (nearby)", "Stiftsschule Einsiedeln"]
+        "list": [
+          "International School of Zug and Luzern (Hünenberg campus, nearby)",
+          "Institut Montana (nearby)",
+          "Stiftsschule Einsiedeln"
+        ]
       },
       "bankingInfo": "Private banking through Schwyz-based cantonal bank and branches of major banks. Less institutional density than Zurich or Zug, but ideal for those valuing absolute privacy.",
       "realEstate": {
@@ -285,8 +298,20 @@
           "month8": "Family relocation executed",
           "month9": "Family office structure established, all services operational"
         },
-        "challenges": ["Complex multi-jurisdictional corporate structure requiring restructuring", "Crypto holdings requiring specialized banking documentation", "School placement mid-academic year", "Coordinating dual tax residency transition"],
-        "services": ["Pre-Immigration Asset Structuring", "Lump-Sum Taxation (Forfait Fiscal)", "Residency & Immigration", "Family Office Establishment", "Real Estate Advisory", "Lifestyle Coordination"],
+        "challenges": [
+          "Complex multi-jurisdictional corporate structure requiring restructuring",
+          "Crypto holdings requiring specialized banking documentation",
+          "School placement mid-academic year",
+          "Coordinating dual tax residency transition"
+        ],
+        "services": [
+          "Pre-Immigration Asset Structuring",
+          "Lump-Sum Taxation (Forfait Fiscal)",
+          "Residency & Immigration",
+          "Family Office Establishment",
+          "Real Estate Advisory",
+          "Lifestyle Coordination"
+        ],
         "outcome": "Full family relocation completed. Forfait fiscal approved. Children enrolled at ISZL. Family office operational with Swiss governance framework. Fee: undisclosed."
       },
       "bankingFamily": {
@@ -305,8 +330,20 @@
           "month9": "Full settlement — all three generations established",
           "month12": "Ongoing retainer — estate management and succession planning"
         },
-        "challenges": ["Emergency timeline requiring parallel processing of all workstreams", "Complex multi-generational estate structure", "Assets trapped in Lebanese banking system", "Three generations with different residency and care needs"],
-        "services": ["Residency & Immigration", "Private Banking & Wealth Management", "Real Estate Advisory", "Family Office Establishment", "Health & Wellness Concierge", "Lifestyle Coordination"],
+        "challenges": [
+          "Emergency timeline requiring parallel processing of all workstreams",
+          "Complex multi-generational estate structure",
+          "Assets trapped in Lebanese banking system",
+          "Three generations with different residency and care needs"
+        ],
+        "services": [
+          "Residency & Immigration",
+          "Private Banking & Wealth Management",
+          "Real Estate Advisory",
+          "Family Office Establishment",
+          "Health & Wellness Concierge",
+          "Lifestyle Coordination"
+        ],
         "outcome": "All three generations successfully relocated. Private banking relationships established. Estate restructured under Swiss governance. Ongoing succession planning retainer in place."
       },
       "digitalNomad": {
@@ -321,8 +358,18 @@
           "month3": "Crypto-friendly banking setup (SEBA Bank + traditional private bank)",
           "month4": "Apartment secured in Zurich, full relocation completed"
         },
-        "challenges": ["Documenting crypto wealth chain from mining/early-stage purchases to current portfolio", "Finding banking partners comfortable with 90%+ crypto-derived wealth", "Navigating Swiss crypto tax classification for active trading vs. investment", "B-permit for non-EU national with non-traditional wealth profile"],
-        "services": ["Residency & Immigration", "Company Formation & Corporate Structuring", "Private Banking & Wealth Management", "Lifestyle Coordination"],
+        "challenges": [
+          "Documenting crypto wealth chain from mining/early-stage purchases to current portfolio",
+          "Finding banking partners comfortable with 90%+ crypto-derived wealth",
+          "Navigating Swiss crypto tax classification for active trading vs. investment",
+          "B-permit for non-EU national with non-traditional wealth profile"
+        ],
+        "services": [
+          "Residency & Immigration",
+          "Company Formation & Corporate Structuring",
+          "Private Banking & Wealth Management",
+          "Lifestyle Coordination"
+        ],
         "outcome": "B-permit granted. Swiss GmbH operational. Dual banking relationship (crypto + traditional) established. Full compliance framework for ongoing crypto trading. 4 months start to finish."
       },
       "gulfFamilyOffice": {
@@ -339,8 +386,18 @@
           "month6": "Operational — all reporting lines, compliance, and audit frameworks active",
           "ongoing": "Ongoing retainer: quarterly board meetings, annual governance review, ad-hoc advisory"
         },
-        "challenges": ["Aligning governance expectations across three generations with different investment philosophies", "Consolidating reporting from four jurisdictions into unified Swiss framework", "Placing qualified independent directors who understood both Swiss and GCC business culture", "Designing succession framework acceptable to all family branches"],
-        "services": ["Family Office Establishment", "Independent Directorship & Board Services", "Company Formation & Corporate Structuring", "Private Banking & Wealth Management"],
+        "challenges": [
+          "Aligning governance expectations across three generations with different investment philosophies",
+          "Consolidating reporting from four jurisdictions into unified Swiss framework",
+          "Placing qualified independent directors who understood both Swiss and GCC business culture",
+          "Designing succession framework acceptable to all family branches"
+        ],
+        "services": [
+          "Family Office Establishment",
+          "Independent Directorship & Board Services",
+          "Company Formation & Corporate Structuring",
+          "Private Banking & Wealth Management"
+        ],
         "outcome": "Swiss SFO fully operational in Zug. 3 independent directors placed. Governance framework ratified by all family branches. Consolidated reporting across all jurisdictions. Ongoing retainer for quarterly governance and annual review."
       }
     }
@@ -413,25 +470,41 @@
         "title": "The Established Entrepreneur",
         "age": "Age 40–60",
         "description": "Pre-exit or post-exit business owners seeking to establish Swiss residency before a liquidity event. Typical engagement: 12–24 months.",
-        "tags": ["Pre-Exit Planning", "Asset Structuring", "Forfait Fiscal"]
+        "tags": [
+          "Pre-Exit Planning",
+          "Asset Structuring",
+          "Forfait Fiscal"
+        ]
       },
       "family": {
         "title": "The Relocating Family",
         "age": "School-age children",
         "description": "Families prioritising security, education, and quality of life. Comprehensive relocation including schools, healthcare, and community integration.",
-        "tags": ["Education", "Healthcare", "Community"]
+        "tags": [
+          "Education",
+          "Healthcare",
+          "Community"
+        ]
       },
       "youngWealth": {
         "title": "The Younger Wealth Holder",
         "age": "Age 28–42",
         "description": "Digital entrepreneurs and crypto wealth holders seeking a stable, crypto-friendly jurisdiction with world-class lifestyle.",
-        "tags": ["Crypto", "Digital Assets", "Lifestyle"]
+        "tags": [
+          "Crypto",
+          "Digital Assets",
+          "Lifestyle"
+        ]
       },
       "familyOffice": {
         "title": "The Gulf Family Office",
         "age": "Multi-generational",
         "description": "Established family offices seeking a European governance hub, succession planning, and institutional-grade wealth structuring.",
-        "tags": ["Governance", "Succession", "Institutional"]
+        "tags": [
+          "Governance",
+          "Succession",
+          "Institutional"
+        ]
       }
     }
   },
@@ -516,7 +589,8 @@
     "legal": "Legal",
     "languages": "Languages",
     "rights": "All rights reserved.",
-    "company": "A service by WorkWorkWork AG"
+    "company": "A service by WorkWorkWork AG",
+    "disclaimer": "The services are limited to general financial education and strategic guidance and do not constitute financial services within the meaning of the Financial Services Act (FIDLEG). In particular, no advice on specific financial instruments, no portfolio management and no execution or transmission of orders is provided."
   },
   "servicesMeta": {
     "title": "Our Services — Move to Switzerland",

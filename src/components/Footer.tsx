@@ -120,6 +120,13 @@ export function Footer() {
           </p>
         </div>
 
+        {/* Regulatory disclaimer */}
+        <div className="border-t border-text-light/5 pt-8 mb-8">
+          <p className="text-[11px] leading-relaxed text-text-light/20 max-w-4xl mx-auto text-center">
+            {t('footer.disclaimer')}
+          </p>
+        </div>
+
         {/* Bottom bar */}
         <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-text-light/20">

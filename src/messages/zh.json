@@ -241,7 +241,8 @@
     "legal": "法律",
     "languages": "语言",
     "rights": "版权所有。",
-    "company": "WorkWorkWork AG 旗下服务"
+    "company": "WorkWorkWork AG 旗下服务",
+    "disclaimer": "服务仅限于一般金融教育和战略指导，不构成《金融服务法》(FIDLEG) 意义上的金融服务。特别是，不提供关于特定金融工具的建议、投资组合管理以及订单的执行或传输。"
   },
   "cta": {
     "consultation": "预约保密咨询"
