@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { ScrollReveal } from '@/components/ScrollReveal';
@@ -30,6 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = t(`articles.${slug}.title`);
   const description = t(`articles.${slug}.metaDescription`);
 
+  const meta = insights[slug as InsightSlug];
   return {
     title,
     description,
@@ -38,8 +40,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       type: 'article',
       locale,
-      publishedTime: insights[slug as InsightSlug]?.date,
+      publishedTime: meta?.date,
       authors: ['Move to Switzerland Advisory Team'],
+      images: meta ? [{ url: meta.image, width: 1200, height: 675 }] : undefined,
     },
   };
 }
@@ -101,6 +104,7 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
             '@type': 'Article',
             headline: t(`articles.${slug}.title`),
             description: t(`articles.${slug}.metaDescription`),
+            image: `https://move-to-switzerland.vercel.app${meta.image}`,
             datePublished: meta.date,
             dateModified: meta.date,
             author: {
@@ -191,6 +195,22 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
           </div>
         </div>
       </section>
+
+      {/* Hero Image */}
+      <div className="bg-cream pt-10 pb-0">
+        <div className="max-w-3xl mx-auto px-4">
+          <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg shadow-md">
+            <Image
+              src={meta.image}
+              alt={t(`articles.${slug}.imageAlt`)}
+              fill
+              sizes="(max-width: 768px) 100vw, 768px"
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+      </div>
 
       {/* Article Content */}
       <section className="py-16 bg-cream">

@@ -1,8 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-import { insightSlugs } from '@/content/insights';
+import { insightSlugs, insights } from '@/content/insights';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { ConsultationCta } from '@/components/ConsultationCta';
 
@@ -44,6 +45,18 @@ export function InsightsContent() {
                   href={`/insights/${slug}` as `/insights/${string}`}
                   className="block group bg-white rounded-lg overflow-hidden border border-navy/[0.06] card-lift h-full"
                 >
+                  {/* Article Card Thumbnail */}
+                  <div className="relative aspect-[16/9] w-full overflow-hidden">
+                    <Image
+                      src={insights[slug].image}
+                      alt={t(`articles.${slug}.imageAlt`)}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+
                   {/* Article Card Header */}
                   <div className="bg-navy/[0.03] px-8 pt-8 pb-6 border-b border-navy/[0.06]">
                     <div className="flex items-center gap-3 mb-4">
