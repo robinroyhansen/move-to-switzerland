@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
+import { ConsultationCta } from '@/components/ConsultationCta';
 import {
   serviceKeys,
   serviceSlugs,
@@ -155,23 +156,7 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-navy">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <div className="gold-line-center" />
-          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-white font-semibold mb-5 luxury-heading">
-            {t('hero.headline')}
-          </h2>
-          <p className="text-text-light/50 mb-10 text-lg font-light">
-            {t('hero.subheadline')}
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-gold text-navy px-10 py-4 text-sm font-semibold rounded-sm tracking-[0.15em] uppercase hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/15"
-          >
-            {t('hero.cta')}
-          </Link>
-        </div>
-      </section>
+      <ConsultationCta />
     </>
   );
 }

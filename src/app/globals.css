@@ -175,6 +175,11 @@ main {
   letter-spacing: 0.05em;
 }
 
+/* Safe area for sticky bar */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
 /* Pull quote style */
 .pull-quote {
   font-family: var(--font-serif);

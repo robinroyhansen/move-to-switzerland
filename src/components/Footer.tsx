@@ -40,6 +40,9 @@ export function Footer() {
               {[
                 { href: '/' as const, label: t('nav.home') },
                 { href: '/services' as const, label: t('nav.services') },
+                { href: '/why-switzerland' as const, label: t('nav.whySwitzerland') },
+                { href: '/cantons' as const, label: t('nav.cantons') },
+                { href: '/case-studies' as const, label: t('nav.caseStudies') },
                 { href: '/about' as const, label: t('nav.about') },
                 { href: '/contact' as const, label: t('nav.contact') },
               ].map((item) => (

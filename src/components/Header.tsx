@@ -28,6 +28,9 @@ export function Header() {
   const navItems = [
     { href: '/' as const, label: t('home') },
     { href: '/services' as const, label: t('services') },
+    { href: '/why-switzerland' as const, label: t('whySwitzerland') },
+    { href: '/cantons' as const, label: t('cantons') },
+    { href: '/case-studies' as const, label: t('caseStudies') },
     { href: '/about' as const, label: t('about') },
     { href: '/contact' as const, label: t('contact') },
   ];
@@ -54,12 +57,12 @@ export function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden xl:flex items-center gap-6">
               {navItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-[13px] tracking-[0.15em] uppercase transition-colors duration-300 ${
+                  className={`text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
                     pathname === item.href
                       ? 'text-gold'
                       : 'text-text-light/70 hover:text-gold'
@@ -73,7 +76,7 @@ export function Header() {
               <div className="relative">
                 <button
                   onClick={() => setLangOpen(!langOpen)}
-                  className="flex items-center gap-1.5 text-[13px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
+                  className="flex items-center gap-1.5 text-[12px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
                 >
                   {localeNames[locale]}
                   <svg
@@ -111,7 +114,7 @@ export function Header() {
 
               <Link
                 href="/contact"
-                className="bg-gold text-navy px-6 py-2.5 text-[13px] font-semibold rounded-sm tracking-[0.12em] uppercase hover:bg-gold-light transition-all duration-300"
+                className="bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
               >
                 {t('beginJourney')}
               </Link>
@@ -120,7 +123,7 @@ export function Header() {
             {/* Mobile toggle */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden text-text-light p-2"
+              className="xl:hidden text-text-light p-2"
               aria-label="Toggle menu"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -137,7 +140,7 @@ export function Header() {
 
       {/* Mobile Menu - Slide-in panel */}
       <div
-        className={`fixed inset-0 z-50 lg:hidden transition-opacity duration-300 ${
+        className={`fixed inset-0 z-50 xl:hidden transition-opacity duration-300 ${
           mobileOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
@@ -153,7 +156,7 @@ export function Header() {
             mobileOpen ? 'translate-x-0' : 'ltr:translate-x-full rtl:-translate-x-full'
           }`}
         >
-          <div className="flex flex-col h-full">
+          <div className="flex flex-col h-full overflow-y-auto">
             {/* Close */}
             <div className="flex justify-end p-6">
               <button

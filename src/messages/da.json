@@ -10,12 +10,15 @@
     "contact": "Kontakt",
     "privacy": "Privatlivspolitik",
     "imprint": "Juridisk information",
-    "beginJourney": "Begynd din rejse"
+    "beginJourney": "Begynd din rejse",
+    "whySwitzerland": "Hvorfor Schweiz",
+    "cantons": "Kantoner",
+    "caseStudies": "Cases"
   },
   "hero": {
     "headline": "Din vej til Schweiz",
     "subheadline": "En specialiseret flytte- og formuerådgivningsservice for velhavende privatpersoner og familier",
-    "cta": "Begynd din rejse"
+    "cta": "Book en fortrolig konsultation"
   },
   "whySwitzerland": {
     "title": "Hvorfor Schweiz",
@@ -239,5 +242,357 @@
   "servicesMeta": {
     "title": "Vores ydelser — Move to Switzerland",
     "description": "Omfattende rådgivningsydelser på alle dimensioner af din flytning til Schweiz."
+  },
+  "cta": {
+    "consultation": "Book en fortrolig konsultation"
+  },
+  "whatsapp": {
+    "message": "Hej, jeg er interesseret i at høre mere om at flytte til Schweiz."
+  },
+  "stickyBar": {
+    "text": "Klar til at starte din rejse til Schweiz?"
+  },
+  "whySwitzerlandPage": {
+    "meta": {
+      "title": "Hvorfor Schweiz — Verdens førende destination for rigdom, sikkerhed og livskvalitet",
+      "description": "Opdag hvorfor Schweiz er verdens mest betroede jurisdiktion for formuebevarelse og familiesikkerhed."
+    },
+    "hero": {
+      "title": "Hvorfor Schweiz",
+      "subtitle": "Verdens førende destination for formuebevarelse, sikkerhed og livskvalitet"
+    },
+    "neutrality": {
+      "title": "Politisk neutralitet",
+      "subtitle": "Et tilflugtssted for stabilitet i en usikker verden",
+      "stat1": "500+",
+      "stat1Label": "Års uafbrudt neutralitet",
+      "stat2": "Nul",
+      "stat2Label": "Militære alliancer",
+      "stat3": "Nul",
+      "stat3Label": "Historik med beslaglæggelse af aktiver",
+      "p1": "Schweiz har opretholdt politisk neutralitet i over 500 år. Landet er ikke medlem af NATO, EU eller nogen militær alliance.",
+      "p2": "For formueejere betyder dette en enestående garanti: Schweiz har aldrig konfiskeret private aktiver."
+    },
+    "banking": {
+      "title": "Bank og formueforvaltning",
+      "subtitle": "Verdens mest betroede private banksystem",
+      "stat1": "#1",
+      "stat1Label": "Globalt private banking-center",
+      "stat2": "CHF 7,9 bio.",
+      "stat2Label": "Aktiver under forvaltning",
+      "stat3": "243",
+      "stat3Label": "Licenserede banker",
+      "p1": "Schweiz forvalter ca. CHF 7,9 billioner i aktiver.",
+      "p2": "Schweiziske privatbanker tilbyder et niveau af personlig formueforvaltning uden sidestykke."
+    },
+    "education": {
+      "title": "Uddannelsessystem",
+      "subtitle": "Uddannelse i verdensklasse for næste generation",
+      "stat1": "Top 3",
+      "stat1Label": "Universiteter globalt (ETH Zürich)",
+      "stat2": "50+",
+      "stat2Label": "Internationale skoler",
+      "stat3": "#1",
+      "stat3Label": "Innovationsindeks (13 år i træk)",
+      "p1": "Schweiz er hjemsted for nogle af verdens bedste uddannelsesinstitutioner.",
+      "p2": "Det schweiziske uddannelsessystem kombinerer akademisk stringens med flersproget fordybelse."
+    },
+    "healthcare": {
+      "title": "Sundhedsvæsen",
+      "subtitle": "Blandt verdens bedste sundhedssystemer",
+      "stat1": "#1",
+      "stat1Label": "Sundhedskvalitet i Europa",
+      "stat2": "4,3",
+      "stat2Label": "Læger pr. 1.000 indbyggere",
+      "stat3": "83,4",
+      "stat3Label": "Forventet levetid (år)",
+      "p1": "Det schweiziske sundhedsvæsen rangerer konsekvent blandt verdens bedste.",
+      "p2": "For tilflyttende familier tilbyder Schweiz tryghed."
+    },
+    "tax": {
+      "title": "Skattesystem",
+      "subtitle": "Konkurrencedygtigt, gennemsigtigt og demokratisk beskyttet",
+      "stat1": "78%",
+      "stat1Label": "Stemte imod formueskat (nov. 2025)",
+      "stat2": "26",
+      "stat2Label": "Kantoner konkurrerer om beboere",
+      "stat3": "11,9%",
+      "stat3Label": "Laveste kantonale selskabsskattesats",
+      "p1": "Det schweiziske skattesystem nyder godt af en unik egenskab: kantonal konkurrence.",
+      "p2": "Pauschalbeskatningen giver kvalificerede udenlandske statsborgere mulighed for at betale skat baseret på leveomkostninger."
+    },
+    "qualityOfLife": {
+      "title": "Livskvalitet",
+      "subtitle": "Sikkerhed, infrastruktur og naturskønhed uden kompromis",
+      "stat1": "#1",
+      "stat1Label": "Livskvalitet globalt",
+      "stat2": "Top 3",
+      "stat2Label": "Sikreste lande",
+      "stat3": "99,9%",
+      "stat3Label": "Offentlig transport præcision",
+      "p1": "Schweiz rangerer konsekvent som verdens nr. 1 for livskvalitet.",
+      "p2": "Sikkerhed i Schweiz er ikke kun en statistik; det er en levet oplevelse."
+    },
+    "business": {
+      "title": "Erhvervsmiljø",
+      "subtitle": "Hvor global handel møder schweizisk præcision",
+      "stat1": "1-2 uger",
+      "stat1Label": "Tidslinje for virksomhedsetablering",
+      "stat2": "#1",
+      "stat2Label": "IP-beskyttelse globalt",
+      "stat3": "120+",
+      "stat3Label": "Bilaterale handelsaftaler",
+      "p1": "Schweiz tilbyder et af verdens mest erhvervsvenlige miljøer.",
+      "p2": "Den schweiziske arbejdsstyrke er blandt de mest veluddannede og produktive i verden."
+    }
+  },
+  "cantonsPage": {
+    "meta": {
+      "title": "Sammenlign schweiziske kantoner — Zürich vs Zug vs Schwyz",
+      "description": "Interaktiv sammenligning af kantonerne Zürich, Zug og Schwyz til flytning."
+    },
+    "hero": {
+      "title": "Kantonsammenligning",
+      "subtitle": "Vælg den rigtige schweiziske kanton for din familie og virksomhed"
+    },
+    "filter": {
+      "all": "Alle kantoner",
+      "zurich": "Zürich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    },
+    "sections": {
+      "taxRates": "Skattesatser",
+      "lifestyle": "Livsstil",
+      "schools": "Internationale skoler",
+      "banking": "Bankinfrastruktur",
+      "realEstate": "Ejendom",
+      "bestFor": "Bedst for"
+    },
+    "zurich": {
+      "name": "Zurich",
+      "tagline": "Global city, cultural capital",
+      "tax": {
+        "corporate": "Approx. 19.7% effective corporate rate",
+        "personal": "Up to 39.8% top marginal rate (combined)",
+        "lumpSum": "CHF 400,000+ minimum taxable base"
+      },
+      "lifestyle": {
+        "character": "Cosmopolitan, culturally rich, urban",
+        "international": "Large international community (30%+ foreign residents)",
+        "culture": "Opera, art galleries, Michelin-starred dining, lakefront living",
+        "transport": "International airport, excellent rail connections"
+      },
+      "schools": {
+        "list": [
+          "Inter-Community School Zurich (ICS)",
+          "Zurich International School (ZIS)",
+          "Swiss International School",
+          "Lyceum Alpinum Zuoz (nearby)"
+        ]
+      },
+      "bankingInfo": "Home to UBS, Credit Suisse (now UBS), Julius Baer, and dozens of boutique private banks. Full-service crypto banking available (SEBA, Sygnum).",
+      "realEstate": {
+        "range": "CHF 15,000–35,000/m² (prime city), CHF 8,000–15,000/m² (Lake Zurich suburbs)",
+        "lexKoller": "Lex Koller applies: non-Swiss residents require authorization for residential property. B-permit holders may purchase primary residence."
+      },
+      "bestFor": {
+        "profile": "The urban professional, digital entrepreneur, or family seeking world-class culture and connectivity",
+        "ideal": "Ideal for: crypto entrepreneurs, corporate executives, families valuing urban lifestyle"
+      }
+    },
+    "zug": {
+      "name": "Zug",
+      "tagline": "Tax haven, crypto valley",
+      "tax": {
+        "corporate": "Approx. 11.9% effective corporate rate",
+        "personal": "Up to 22.4% top marginal rate (combined)",
+        "lumpSum": "CHF 250,000+ minimum taxable base"
+      },
+      "lifestyle": {
+        "character": "Compact, wealthy, lakeside, discreet",
+        "international": "Highly international (35%+ foreign residents, strong expat community)",
+        "culture": "Elegant lakeside town, close to mountains and Zurich",
+        "transport": "30 minutes to Zurich Airport, excellent rail"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (ISZL)",
+          "Institut Montana Zugerberg",
+          "Swiss International School"
+        ]
+      },
+      "bankingInfo": "Crypto Valley ecosystem with blockchain-native banks. Traditional private banking through local branches of major Swiss banks. Family office concentration second only to Geneva.",
+      "realEstate": {
+        "range": "CHF 12,000–25,000/m² (Zug town), CHF 8,000–14,000/m² (surrounding villages)",
+        "lexKoller": "Lex Koller applies. B-permit holders can purchase primary residence. Zug has additional local requirements for some communes."
+      },
+      "bestFor": {
+        "profile": "The tax-optimising entrepreneur, family office, or crypto/fintech founder seeking the lowest possible tax burden",
+        "ideal": "Ideal for: family offices, forfait fiscal applicants, tech entrepreneurs"
+      }
+    },
+    "schwyz": {
+      "name": "Schwyz",
+      "tagline": "Discreet wealth, Alpine serenity",
+      "tax": {
+        "corporate": "Approx. 14.1% effective corporate rate",
+        "personal": "Up to 21.3% top marginal rate (combined)",
+        "lumpSum": "CHF 200,000+ minimum taxable base"
+      },
+      "lifestyle": {
+        "character": "Rural, traditional, supremely private",
+        "international": "Smaller international community, very discreet",
+        "culture": "Alpine landscapes, lake views, traditional Swiss charm",
+        "transport": "45 minutes to Zurich Airport, scenic commute"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (Hünenberg campus, nearby)",
+          "Institut Montana (nearby)",
+          "Stiftsschule Einsiedeln"
+        ]
+      },
+      "bankingInfo": "Private banking through Schwyz-based cantonal bank and branches of major banks. Less institutional density than Zurich or Zug, but ideal for those valuing absolute privacy.",
+      "realEstate": {
+        "range": "CHF 6,000–14,000/m² (lakeside), CHF 4,000–8,000/m² (inland villages)",
+        "lexKoller": "Lex Koller applies. Generally more accessible pricing than Zurich or Zug with comparable or lower tax rates."
+      },
+      "bestFor": {
+        "profile": "The privacy-focused family or individual seeking the lowest taxes with an Alpine lifestyle and complete discretion",
+        "ideal": "Ideal for: multi-generational families, privacy-focused individuals, retirees"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Kunde-cases — Move to Switzerland",
+      "description": "Anonymiserede cases af vellykkede schweiziske flytninger."
+    },
+    "hero": {
+      "title": "Kunderejser",
+      "subtitle": "Anonymiserede cases fra virkelige flytninger"
+    },
+    "disclaimer": "Alle cases er anonymiserede. Navne og detaljer er ændret for at beskytte fortrolighed.",
+    "cases": {
+      "techFounder": {
+        "title": "The Tech Founder",
+        "subtitle": "Dubai to Zug in 9 months",
+        "quote": "We needed a jurisdiction that understood both our digital business model and our family's long-term security needs. Switzerland delivered on both.",
+        "profile": "Dubai-based tech entrepreneur, family of 4, post-exit with significant liquidity event",
+        "timeline": {
+          "month1": "Initial consultation and canton assessment",
+          "month2": "Pre-immigration asset restructuring",
+          "month3": "Forfait fiscal negotiation initiated with Zug authorities",
+          "month4": "B-permit application submitted",
+          "month5": "International school secured (ISZL)",
+          "month6": "Real estate acquisition — lakeside property in Zug",
+          "month7": "Swiss private banking relationship established",
+          "month8": "Family relocation executed",
+          "month9": "Family office structure established, all services operational"
+        },
+        "challenges": [
+          "Complex multi-jurisdictional corporate structure requiring restructuring",
+          "Crypto holdings requiring specialized banking documentation",
+          "School placement mid-academic year",
+          "Coordinating dual tax residency transition"
+        ],
+        "services": [
+          "Pre-Immigration Asset Structuring",
+          "Lump-Sum Taxation (Forfait Fiscal)",
+          "Residency & Immigration",
+          "Family Office Establishment",
+          "Real Estate Advisory",
+          "Lifestyle Coordination"
+        ],
+        "outcome": "Full family relocation completed. Forfait fiscal approved. Children enrolled at ISZL. Family office operational with Swiss governance framework. Fee: undisclosed."
+      },
+      "bankingFamily": {
+        "title": "The Banking Family",
+        "subtitle": "Beirut to Schwyz — emergency relocation",
+        "quote": "When the banks collapsed, we had 72 hours to make a decision. Our advisors had the Swiss infrastructure ready.",
+        "profile": "Lebanese family, 3 generations, significant banking and real estate portfolio, emergency circumstances",
+        "timeline": {
+          "week1": "Emergency consultation — immediate threat assessment",
+          "week2": "Expedited B-permit application initiated",
+          "month1": "Temporary accommodation secured in Schwyz",
+          "month2": "Private banking onboarding (assets transferred from non-Lebanese holdings)",
+          "month3": "Permanent residence established",
+          "month4": "Children enrolled in international school",
+          "month6": "Estate restructuring completed",
+          "month9": "Full settlement — all three generations established",
+          "month12": "Ongoing retainer — estate management and succession planning"
+        },
+        "challenges": [
+          "Emergency timeline requiring parallel processing of all workstreams",
+          "Complex multi-generational estate structure",
+          "Assets trapped in Lebanese banking system",
+          "Three generations with different residency and care needs"
+        ],
+        "services": [
+          "Residency & Immigration",
+          "Private Banking & Wealth Management",
+          "Real Estate Advisory",
+          "Family Office Establishment",
+          "Health & Wellness Concierge",
+          "Lifestyle Coordination"
+        ],
+        "outcome": "All three generations successfully relocated. Private banking relationships established. Estate restructured under Swiss governance. Ongoing succession planning retainer in place."
+      },
+      "digitalNomad": {
+        "title": "The Digital Nomad",
+        "subtitle": "Riyadh to Zurich in 4 months",
+        "quote": "I needed a country that treated crypto as a legitimate asset class and offered real infrastructure for building a business. Zurich was the obvious choice.",
+        "profile": "34-year-old Saudi national, significant cryptocurrency portfolio, active trader and investor, single",
+        "timeline": {
+          "month1": "Consultation, canton selection, crypto wealth documentation strategy",
+          "month15": "B-permit application with detailed source-of-wealth documentation",
+          "month2": "Company formation (Swiss GmbH) for consulting operations",
+          "month3": "Crypto-friendly banking setup (SEBA Bank + traditional private bank)",
+          "month4": "Apartment secured in Zurich, full relocation completed"
+        },
+        "challenges": [
+          "Documenting crypto wealth chain from mining/early-stage purchases to current portfolio",
+          "Finding banking partners comfortable with 90%+ crypto-derived wealth",
+          "Navigating Swiss crypto tax classification for active trading vs. investment",
+          "B-permit for non-EU national with non-traditional wealth profile"
+        ],
+        "services": [
+          "Residency & Immigration",
+          "Company Formation & Corporate Structuring",
+          "Private Banking & Wealth Management",
+          "Lifestyle Coordination"
+        ],
+        "outcome": "B-permit granted. Swiss GmbH operational. Dual banking relationship (crypto + traditional) established. Full compliance framework for ongoing crypto trading. 4 months start to finish."
+      },
+      "gulfFamilyOffice": {
+        "title": "The Gulf Family Office",
+        "subtitle": "Kuwaiti family office — Swiss SFO established",
+        "quote": "We had wealth management in four jurisdictions, but no unified governance. Switzerland gave us the structure our family needed for the next generation.",
+        "profile": "Kuwaiti family office, CHF 200M+ AUM, multi-generational, operating across GCC, London, and Switzerland",
+        "timeline": {
+          "month1": "Scoping: governance audit, jurisdictional review, family charter assessment",
+          "month2": "Swiss SFO structure designed — AG incorporated in Zug",
+          "month3": "Board formation — 3 Swiss-resident independent directors placed",
+          "month4": "Investment committee established, banking mandates restructured",
+          "month5": "Governance framework documented and ratified by family council",
+          "month6": "Operational — all reporting lines, compliance, and audit frameworks active",
+          "ongoing": "Ongoing retainer: quarterly board meetings, annual governance review, ad-hoc advisory"
+        },
+        "challenges": [
+          "Aligning governance expectations across three generations with different investment philosophies",
+          "Consolidating reporting from four jurisdictions into unified Swiss framework",
+          "Placing qualified independent directors who understood both Swiss and GCC business culture",
+          "Designing succession framework acceptable to all family branches"
+        ],
+        "services": [
+          "Family Office Establishment",
+          "Independent Directorship & Board Services",
+          "Company Formation & Corporate Structuring",
+          "Private Banking & Wealth Management"
+        ],
+        "outcome": "Swiss SFO fully operational in Zug. 3 independent directors placed. Governance framework ratified by all family branches. Consolidated reporting across all jurisdictions. Ongoing retainer for quarterly governance and annual review."
+      }
+    }
   }
 }

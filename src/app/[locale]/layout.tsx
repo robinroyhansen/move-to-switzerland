@@ -6,6 +6,8 @@ import { routing } from '@/i18n/routing';
 import { isRtl, type Locale } from '@/i18n/config';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { WhatsAppButton } from '@/components/WhatsAppButton';
+import { StickyCtaBar } from '@/components/StickyCtaBar';
 import { OrganizationSchema, LocalBusinessSchema } from '@/components/StructuredData';
 import '../globals.css';
 
@@ -54,6 +56,8 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <WhatsAppButton />
+          <StickyCtaBar />
         </NextIntlClientProvider>
       </body>
     </html>
