@@ -15,6 +15,7 @@ import {
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { AnimatedStat } from '@/components/AnimatedStat';
 import { ConsultationCta } from '@/components/ConsultationCta';
+import { FAQSchema } from '@/components/StructuredData';
 
 export default function HomePage() {
   const t = useTranslations();
@@ -49,8 +50,13 @@ export default function HomePage() {
     });
   }, []);
 
+  // FAQ data for schema
+  const faqItems = t.raw('faq.items') as Array<{ question: string; answer: string }>;
+
   return (
     <>
+      <FAQSchema faqs={faqItems} />
+
       {/* Hero - Full viewport, parallax */}
       <section className="relative min-h-screen flex items-center justify-center bg-navy overflow-hidden">
         <div ref={parallaxRef} className="absolute inset-0 parallax-bg">

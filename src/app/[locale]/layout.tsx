@@ -9,6 +9,8 @@ import { Footer } from '@/components/Footer';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { StickyCtaBar } from '@/components/StickyCtaBar';
 import { OrganizationSchema, LocalBusinessSchema } from '@/components/StructuredData';
+import { PageBreadcrumb } from '@/components/PageBreadcrumb';
+import { CookieConsent } from '@/components/CookieConsent';
 import '../globals.css';
 
 type Props = {
@@ -54,10 +56,12 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body className="font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header />
+          <PageBreadcrumb />
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppButton />
           <StickyCtaBar />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

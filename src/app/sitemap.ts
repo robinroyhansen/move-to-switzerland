@@ -1,11 +1,13 @@
 import type { MetadataRoute } from 'next';
 import { locales } from '@/i18n/config';
 import { serviceSlugs } from '@/lib/services';
+import { insightSlugs } from '@/content/insights';
 
 const baseUrl = 'https://move-to-switzerland.vercel.app';
-const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/about', '/contact', '/privacy', '/imprint'];
+const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/insights', '/about', '/contact', '/privacy', '/imprint'];
 const servicePages = Object.values(serviceSlugs).map((slug) => `/services/${slug}`);
-const allPages = [...staticPages, ...servicePages];
+const insightPages = insightSlugs.map((slug) => `/insights/${slug}`);
+const allPages = [...staticPages, ...servicePages, ...insightPages];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];

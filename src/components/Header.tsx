@@ -31,6 +31,7 @@ export function Header() {
     { href: '/why-switzerland' as const, label: t('whySwitzerland') },
     { href: '/cantons' as const, label: t('cantons') },
     { href: '/case-studies' as const, label: t('caseStudies') },
+    { href: '/insights' as const, label: t('insights') },
     { href: '/about' as const, label: t('about') },
     { href: '/contact' as const, label: t('contact') },
   ];
