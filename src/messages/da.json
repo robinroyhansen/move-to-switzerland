@@ -93,11 +93,6 @@
         "description": "Lex Koller-navigation; adgang til off-market ejendomme; erhvervelsesstrukturering; notarkoordinering.",
         "detail": "Schweiziske ejendomsreguleringer kræver ekspertnavigation."
       },
-      "privateBanking": {
-        "title": "Private Banking og formueforvaltning",
-        "description": "Bankvalg-rådgivning; AML/KYC-forberedelse; krypto-formue dokumentation.",
-        "detail": "Åbning af et schweizisk private banking-forhold kræver omhyggelig forberedelse."
-      },
       "health": {
         "title": "Sundheds- og wellness-concierge",
         "description": "Obligatorisk sundhedsforsikring; speciallægeintroduktioner; executive health-screening.",

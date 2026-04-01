@@ -58,7 +58,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
     date: '2026-04-01',
     readTime: 10,
     image: '/images/insights/private-banking.jpg',
-    relatedServices: ['private-banking'],
+    relatedServices: ['family-office'],
     category: 'banking',
   },
   'swiss-residency-permits-guide': {

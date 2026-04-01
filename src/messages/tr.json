@@ -93,11 +93,6 @@
         "description": "Lex Koller yönlendirmesi; piyasa dışı mülk erişimi; satın alma yapılandırması; noter koordinasyonu.",
         "detail": "İsviçre gayrimenkul düzenlemeleri, özellikle yabancı alıcılara yönelik Lex Koller kısıtlamaları, uzman yönlendirme gerektirir."
       },
-      "privateBanking": {
-        "title": "Özel Bankacılık ve Varlık Yönetimi",
-        "description": "Banka seçimi danışmanlığı; AML/KYC hazırlığı; kripto varlık belgelendirmesi; yatırım mandası yapılandırması.",
-        "detail": "İsviçre özel bankacılık ilişkisi açmak dikkatli hazırlık gerektirir."
-      },
       "health": {
         "title": "Sağlık ve Wellness Concierge",
         "description": "Zorunlu sağlık sigortası kurulumu; uzman doktor tanıtımları; yönetici sağlık taraması; tıbbi irtibat.",
