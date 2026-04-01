@@ -1,4 +1,4 @@
-export const locales = ['en', 'de', 'fr', 'ar', 'fa', 'tr', 'ru', 'hi', 'da', 'it', 'zh', 'pt', 'he', 'ko'] as const;
+export const locales = ['en', 'de', 'fr', 'ar', 'fa', 'tr', 'ru', 'hi', 'da', 'it', 'zh', 'pt', 'he', 'ko', 'no'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
@@ -19,6 +19,7 @@ export const localeNames: Record<Locale, string> = {
   pt: 'Português',
   he: 'עברית',
   ko: '한국어',
+  no: 'Norsk',
 };
 
 export function isRtl(locale: Locale): boolean {
