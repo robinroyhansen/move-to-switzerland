@@ -1,41 +1,50 @@
 {
   "metadata": {
-    "title": "移居瑞士 — 高端移居咨询服务",
-    "description": "为高净值人士和家庭提供专业的移居和战略咨询服务，协助您顺利移居瑞士。"
+    "title": "移居瑞士 — 顶级迁居咨询服务",
+    "description": "为移居瑞士的高净值人士及家族提供专业的迁居与战略咨询服务。"
   },
   "nav": {
     "home": "首页",
-    "services": "服务",
+    "services": "服务项目",
+    "whySwitzerland": "为何选择瑞士",
+    "cantons": "州郡比较",
+    "caseStudies": "客户案例",
     "about": "关于我们",
     "contact": "联系我们",
     "privacy": "隐私政策",
-    "imprint": "法律信息",
+    "imprint": "法律声明",
     "beginJourney": "开启您的旅程",
-    "whySwitzerland": "为什么选择瑞士",
-    "cantons": "州比较",
-    "caseStudies": "案例研究",
-    "insights": "洞察"
+    "insights": "深度洞察"
   },
   "hero": {
-    "headline": "您的瑞士之路",
-    "subheadline": "为高净值人士和家庭提供专业的移居和战略咨询服务",
-    "cta": "预约保密咨询"
+    "headline": "您的瑞士移居之路",
+    "subheadline": "专为高净值人士及家族量身定制的迁居与战略咨询服务",
+    "cta": "预约私密咨询"
+  },
+  "cta": {
+    "consultation": "预约私密咨询"
+  },
+  "whatsapp": {
+    "message": "您好，我希望了解更多关于移居瑞士的信息。"
+  },
+  "stickyBar": {
+    "text": "准备好开启您的瑞士之旅了吗？"
   },
   "whySwitzerland": {
-    "title": "为什么选择瑞士",
-    "subtitle": "一个建立在稳定、谨慎和卓越之上的国家",
+    "title": "为何选择瑞士",
+    "subtitle": "建立在稳定、审慎与卓越之上的国家",
     "stats": {
       "millionaires": {
         "value": "142,000",
-        "label": "2025年全球移居的百万富翁人数——历史新高"
+        "label": "2025年全球迁居的百万富翁人数 — 创历史新高"
       },
       "inflow": {
         "value": "+3,000",
-        "label": "2025年瑞士净百万富翁流入量"
+        "label": "2025年瑞士净流入的百万富翁人数"
       },
       "neutrality": {
         "value": "500+",
-        "label": "年政治中立历史"
+        "label": "逾五百年的政治中立历史"
       },
       "banking": {
         "value": "#1",
@@ -43,314 +52,116 @@
       },
       "wealthTax": {
         "value": "78%",
-        "label": "投票反对财富税（2025年11月）"
+        "label": "投票反对开征财富税（2025年11月）"
       },
       "safety": {
         "value": "零",
-        "label": "资产没收或军事联盟的历史记录"
+        "label": "无资产没收历史，无军事同盟关系"
       }
     }
-  },
-  "services": {
-    "title": "我们的服务",
-    "subtitle": "涵盖您移居各个方面的全方位咨询",
-    "learnMore": "了解更多",
-    "overview": "概述",
-    "pageTitle": "服务项目",
-    "pageSubtitle": "为您的瑞士移居提供端到端咨询",
-    "items": {
-      "assetStructuring": {
-        "title": "移民前资产架构规划",
-        "description": "在取得瑞士居留权前实现资本收益；重组股权、信托和阿联酋企业架构；全面的资金来源证明文件。",
-        "detail": "我们与您现有的顾问团队合作，确保您的资产架构在建立瑞士税务居留权之前得到优化。包括审查股权安排、信托架构以及阿联酋及其他地区的企业架构，确保资金来源证明文件满足瑞士银行和税务机关的要求。"
-      },
-      "lumpSum": {
-        "title": "统一税制（Forfait Fiscal）",
-        "description": "全面协商州级税务裁定；确定应税基数；持续年度合规管理。",
-        "detail": "瑞士的统一税制为符合条件的个人提供基于生活支出而非全球收入计算的税基。我们负责与州级税务机关进行完整的协商，确定最优应税基数，并管理持续的年度合规事务。"
-      },
-      "residency": {
-        "title": "居留权与移民",
-        "description": "州选择咨询；B类居留许可申请管理；家庭团聚规划；C类居留许可和入籍途径。",
-        "detail": "选择合适的州可能是您移居过程中最关键的决定。我们根据您的税务状况、生活方式偏好和家庭需求，提供州选择建议。随后管理完整的B类居留许可申请、家庭团聚规划，并制定通往C类居留许可和最终入籍的路径。"
-      },
-      "companyFormation": {
-        "title": "公司设立与企业架构",
-        "description": "瑞士控股公司；知识产权架构；与阿联酋实体协调；增值税注册与合规。",
-        "detail": "无论您需要瑞士控股公司、知识产权许可架构，还是现有阿联酋实体与新瑞士业务之间的协调，我们都将处理整个流程。包括增值税注册、企业合规，确保您的企业架构既税务高效又完全合规。"
-      },
-      "familyOffice": {
-        "title": "家族办公室建立",
-        "description": "单一和多家族办公室咨询；私人银行引荐；信托和基金会架构；传承规划。",
-        "detail": "对于需要专属财富管理基础设施的家族，我们提供在瑞士建立单一或多家族办公室的咨询。包括向领先私人银行的引荐、为资产保护构建信托和基金会，以及考虑跨境复杂性的全面传承规划。"
-      },
-      "directorship": {
-        "title": "独立董事与董事会服务",
-        "description": "瑞士居民董事安排；公司秘书服务；治理与合规支持。",
-        "detail": "许多瑞士企业架构需要瑞士居民董事。我们提供合格的独立董事、公司秘书服务和持续的治理支持，确保您的瑞士实体满足所有监管要求。"
-      },
-      "realEstate": {
-        "title": "房地产咨询",
-        "description": "Lex Koller法规指导；非公开市场房产获取；收购架构设计；公证协调。",
-        "detail": "瑞士房地产法规，特别是针对外国买家的Lex Koller限制，需要专业指导。我们提供优质地段的非公开市场房产获取渠道、符合所有法规的收购架构设计，并与公证人协调确保交易顺利完成。"
-      },
-      "health": {
-        "title": "健康与养生礼宾",
-        "description": "强制性健康保险办理；专科医生引荐；高管健康检查；医疗联络。",
-        "detail": "瑞士的医疗体系要求强制保险，操作可能较为复杂。我们为您办理健康保险、引荐顶级专科医生、安排高管健康检查，并作为您持续的医疗联络人，确保您和家人获得最优质的医疗服务。"
-      },
-      "lifestyle": {
-        "title": "生活方式协调与软着陆",
-        "description": "国际学校入学安排；家政人员工作许可；配偶融入计划；社区引荐；文化适应指导。",
-        "detail": "您移居的成功远不止于文书工作。我们负责子女的国际学校入学安排、家政人员工作许可、配偶融入和社区引荐，以及全面的文化适应指导，确保您的整个家庭从第一天起就在瑞士有归属感。"
-      }
-    }
-  },
-  "servicesMeta": {
-    "title": "我们的服务 — 移居瑞士",
-    "description": "涵盖您瑞士移居各个方面的全方位咨询服务。"
-  },
-  "clients": {
-    "title": "我们的服务对象",
-    "subtitle": "我们的咨询根据您的具体情况和目标量身定制",
-    "profiles": {
-      "entrepreneur": {
-        "title": "成熟企业家",
-        "age": "年龄 40-60",
-        "description": "计划在流动性事件前建立瑞士居留权的企业主（退出前或退出后）。典型服务周期：12-24个月。",
-        "tags": [
-          "退出前规划",
-          "资产架构",
-          "统一税制"
-        ]
-      },
-      "family": {
-        "title": "举家移居",
-        "age": "学龄儿童",
-        "description": "以安全、教育和生活品质为优先的家庭。全方位移居支持，包括学校、医疗和社区融入。",
-        "tags": [
-          "教育",
-          "医疗",
-          "社区"
-        ]
-      },
-      "youngWealth": {
-        "title": "年轻财富持有者",
-        "age": "年龄 28-42",
-        "description": "寻求稳定、加密友好型司法管辖区和世界级生活方式的数字企业家和加密资产持有者。",
-        "tags": [
-          "加密资产",
-          "数字资产",
-          "生活方式"
-        ]
-      },
-      "familyOffice": {
-        "title": "海湾家族办公室",
-        "age": "多代传承",
-        "description": "寻求欧洲治理中心、传承规划和机构级财富架构的成熟家族办公室。",
-        "tags": [
-          "治理",
-          "传承",
-          "机构级"
-        ]
-      }
-    }
-  },
-  "founders": {
-    "title": "创始人",
-    "subtitle": "二十年瑞士咨询专业经验的结合",
-    "adrian": {
-      "name": "Adrian Burgi",
-      "role": "联合创始人",
-      "bio": "瑞士律师、MBA学位持有者。Adrian在瑞士建立了多家银行，与FINMA、私人银行机构和州级政府保持着深厚的合作关系。他的法律专业知识和机构网络构成了我们咨询服务的监管支柱。"
-    },
-    "robin": {
-      "name": "Robin Roy Krigslund-Hansen",
-      "role": "联合创始人",
-      "bio": "定居瑞士的丹麦连续创业者。管理超过4亿瑞士法郎的数字广告投放，在瑞士和欧盟拥有多家公司。精通德语、丹麦语和英语。"
-    }
-  },
-  "about": {
-    "pageTitle": "关于我们",
-    "pageSubtitle": "独立、保密、深度服务",
-    "story": {
-      "title": "我们的故事",
-      "p1": "Move to Switzerland的创立源于一个简单的观察：从中东移居瑞士的高净值人士面临着不必要的碎片化咨询格局。税务顾问、移民律师、房地产经纪人和私人银行家各自独立运作，客户需要自行协调各方。",
-      "p2": "我们打造了一个单一联系点，统筹整个移居旅程——从移民前资产架构到您的孩子在学校的第一天。我们的创始人将深厚的瑞士法律和银行专业知识与跨境业务运营的实际经验相结合。",
-      "p3": "每一次合作都以我们客户所期望的谨慎和细致来处理。我们在任何时候只服务有限数量的家庭，确保每个家庭都获得我们全身心的关注。"
-    },
-    "values": {
-      "title": "我们的价值观",
-      "independence": {
-        "title": "独立性",
-        "description": "我们不依附于任何银行、律师事务所或房地产中介。我们的建议始终以您的最佳利益为出发点。"
-      },
-      "confidentiality": {
-        "title": "保密性",
-        "description": "每次合作都受到严格保密条款的保护。我们绝不透露客户关系或详细信息。"
-      },
-      "depth": {
-        "title": "服务深度",
-        "description": "我们不会转介后就不管了。我们陪伴您走过每一步，从首次咨询到完全安顿。"
-      }
-    },
-    "offices": {
-      "title": "我们的办公室",
-      "zurich": "苏黎世",
-      "zug": "楚格",
-      "schwyz": "施维茨"
-    }
-  },
-  "contact": {
-    "pageTitle": "联系我们",
-    "pageSubtitle": "开启您的瑞士之旅",
-    "confidential": "所有咨询均严格保密处理。",
-    "form": {
-      "name": "全名",
-      "email": "电子邮箱",
-      "phone": "电话号码（选填）",
-      "country": "当前居住国家",
-      "message": "您的留言",
-      "hearAbout": "您是如何了解到我们的？（选填）",
-      "submit": "发送咨询",
-      "sending": "发送中...",
-      "success": "谢谢您。我们已收到您的咨询。我们将在24小时内回复。",
-      "error": "出了点问题。请重试或直接联系我们。"
-    },
-    "offices": {
-      "title": "我们的办公室"
-    }
-  },
-  "privacy": {
-    "pageTitle": "隐私政策",
-    "content": "本隐私政策说明了Move to Switzerland如何根据瑞士数据保护法（nDSG）和欧盟通用数据保护条例（GDPR）收集、使用和保护您的个人数据。"
-  },
-  "imprint": {
-    "pageTitle": "法律信息",
-    "company": "WorkWorkWork AG",
-    "address": "瑞士",
-    "registration": "商业登记"
-  },
-  "footer": {
-    "tagline": "为杰出人士和家庭提供高端移居咨询服务。",
-    "navigation": "导航",
-    "legal": "法律",
-    "languages": "语言",
-    "rights": "版权所有。",
-    "company": "WorkWorkWork AG 旗下服务",
-    "disclaimer": "服务仅限于一般金融教育和战略指导，不构成《金融服务法》(FIDLEG) 意义上的金融服务。特别是，不提供关于特定金融工具的建议、投资组合管理以及订单的执行或传输。"
-  },
-  "cta": {
-    "consultation": "预约保密咨询"
-  },
-  "whatsapp": {
-    "message": "您好，我有兴趣了解更多关于移居瑞士的信息。"
-  },
-  "stickyBar": {
-    "text": "准备好开始您的瑞士之旅了吗？"
   },
   "whySwitzerlandPage": {
     "meta": {
-      "title": "为什么选择瑞士 — 全球财富、安全与生活品质的首选目的地",
-      "description": "了解为什么瑞士是全球最值得信赖的财富保护和家庭安全管辖区。"
+      "title": "为何选择瑞士 — 全球财富、安全与生活品质的首选目的地",
+      "description": "探索为何瑞士是全球最值得信赖的财富保值、家庭安全及高品质生活管辖区。500 多年中立历史，全球第一的私人银行，世界一流的教育体系。"
     },
     "hero": {
-      "title": "为什么选择瑞士",
-      "subtitle": "全球财富保护、安全与生活品质的首选目的地"
+      "title": "为何选择瑞士",
+      "subtitle": "全球财富保值、安全保障与生活品质的巅峰目的地"
     },
     "neutrality": {
-      "title": "Political Neutrality",
-      "subtitle": "A sanctuary of stability in an uncertain world",
+      "title": "政治中立",
+      "subtitle": "动荡世界中的稳定避风港",
       "stat1": "500+",
-      "stat1Label": "Years of continuous neutrality",
-      "stat2": "Zero",
-      "stat2Label": "Military alliances",
-      "stat3": "Zero",
-      "stat3Label": "History of asset confiscation",
-      "p1": "Switzerland has maintained political neutrality for over 500 years — the longest period of any nation in modern history. It is not a member of NATO, the EU, or any military alliance. This neutrality is not passive: it is a deliberate, constitutionally enshrined policy that has survived two world wars, the Cold War, and every geopolitical upheaval of the modern era.",
-      "p2": "For wealth holders, this translates to an unparalleled guarantee: Switzerland has never confiscated private assets, never imposed emergency wealth levies, and never participated in the kind of political instability that jeopardises personal wealth in other jurisdictions. Your assets in Switzerland are protected by a legal and political framework that has stood for half a millennium."
+      "stat1Label": "持续中立年份",
+      "stat2": "零",
+      "stat2Label": "军事同盟",
+      "stat3": "零",
+      "stat3Label": "资产没收历史",
+      "p1": "瑞士保持政治中立已有 500 多年，是现代历史上中立时间最长的国家。瑞士既不是北约成员国，也不是欧盟成员，不参与任何军事同盟。这种中立并非消极避世，而是一项深思熟虑且载入宪法的政策，使其在两次世界大战、冷战以及现代每一次地缘政治动荡中屹立不倒。",
+      "p2": "对于财富持有者而言，这意味着无与伦比的保障：瑞士从未没收过私人资产，从未征收过紧急财富税，也从未参与过危及其他管辖区个人财富的政治动荡。您在瑞士的资产受到已存在半个世纪的法律和政治框架的严密保护。"
     },
     "banking": {
-      "title": "Banking & Wealth Management",
-      "subtitle": "The world's most trusted private banking system",
+      "title": "银行业与财富管理",
+      "subtitle": "全球最受信赖的私人银行体系",
       "stat1": "#1",
-      "stat1Label": "Global private banking centre",
+      "stat1Label": "全球私人银行中心",
       "stat2": "CHF 7.9T",
-      "stat2Label": "Assets under management",
+      "stat2Label": "管理资产总额",
       "stat3": "243",
-      "stat3Label": "Licensed banks",
-      "p1": "Switzerland manages approximately CHF 7.9 trillion in assets, representing roughly 25% of all global cross-border private wealth. The Swiss banking system is regulated by FINMA, one of the world's most rigorous financial regulators, ensuring that your wealth is held to the highest standards of compliance and security.",
-      "p2": "Swiss private banks offer a level of personalised wealth management unmatched elsewhere. From multi-generational estate planning to sophisticated investment mandates, the depth of expertise available in Zurich, Geneva, and Zug is simply without parallel. For families transitioning wealth across borders, Switzerland offers the institutional infrastructure and discretion that other jurisdictions cannot guarantee."
+      "stat3Label": "持牌银行数量",
+      "p1": "瑞士管理着约 7.9 万亿瑞士法郎的资产，占全球所有跨境私人财富的约 25%。瑞士银行业受 FINMA（瑞士金融市场监督管理局）监管，该机构是全球最严谨的金融监管机构之一，确保您的财富在合规性和安全性方面均达到最高标准。",
+      "p2": "瑞士私人银行提供其他地区无法比拟的个性化财富管理服务。从跨代遗产规划到复杂的投资委托，苏黎世、日内瓦和楚格所具备的专业深度无与伦比。对于需要进行跨境财富传承的家族，瑞士提供了其他管辖区无法保证的机构基础设施和私密性。"
     },
     "education": {
-      "title": "Education System",
-      "subtitle": "World-class learning for the next generation",
+      "title": "教育体系",
+      "subtitle": "为下一代提供世界顶尖的学习环境",
       "stat1": "Top 3",
-      "stat1Label": "Universities globally (ETH Zurich)",
+      "stat1Label": "全球大学排名（苏黎世联邦理工学院）",
       "stat2": "50+",
-      "stat2Label": "International schools",
+      "stat2Label": "国际学校数量",
       "stat3": "#1",
-      "stat3Label": "Innovation index (13 consecutive years)",
-      "p1": "Switzerland is home to some of the finest educational institutions in the world. ETH Zurich consistently ranks among the top 3 universities globally, while the country's network of over 50 international schools — including Institut Le Rosey, Zuoz Academy, and the International School of Zug and Luzern — provides exceptional education for expatriate families.",
-      "p2": "The Swiss education system combines academic rigour with multilingual immersion. Children attending international schools gain fluency in multiple languages while receiving IB, British, or American curricula. For families relocating from the Middle East, this represents an opportunity to provide children with a truly global education in one of the safest environments on earth."
+      "stat3Label": "创新指数（连续13年蝉联榜首）",
+      "p1": "瑞士拥有全球最顶尖的教育机构。苏黎世联邦理工学院（ETH Zurich）始终位列全球前三，而由 50 多所国际学校组成的网络——包括罗西学院（Institut Le Rosey）、卓士学校（Zuoz Academy）以及楚格和卢塞恩国际学校——为外籍家庭提供卓越的教育资源。",
+      "p2": "瑞士教育体系将学术严谨性与多语言环境相结合。就读国际学校的孩子在掌握多种语言的同时，还能接受 IB、英国或美国课程教育。对于从海外移居的家庭而言，这是一个让孩子在全球最安全的环境中接受真正国际化教育的绝佳机会。"
     },
     "healthcare": {
-      "title": "Healthcare",
-      "subtitle": "Among the finest healthcare systems in the world",
+      "title": "医疗保健",
+      "subtitle": "位居世界前列的医疗体系",
       "stat1": "#1",
-      "stat1Label": "Healthcare quality in Europe",
+      "stat1Label": "欧洲医疗质量排名",
       "stat2": "4.3",
-      "stat2Label": "Physicians per 1,000 residents",
+      "stat2Label": "每千名居民拥有的医生数",
       "stat3": "83.4",
-      "stat3Label": "Life expectancy (years)",
-      "p1": "Switzerland's healthcare system is consistently ranked among the best in the world. With mandatory universal coverage, world-leading hospitals, and a physician density that far exceeds most nations, residents have access to exceptional medical care. Major centres like Universitatsspital Zurich and Hirslanden provide cutting-edge treatments and executive health programmes.",
-      "p2": "For relocating families, Switzerland offers the peace of mind that comes with knowing your family's health is in the best possible hands. Executive health screening programmes, specialist physician networks, and seamless multilingual medical services ensure that healthcare is never a concern."
+      "stat3Label": "预期寿命（岁）",
+      "p1": "瑞士的医疗体系始终被评为世界最佳之一。凭借强制性全民覆盖、世界领先的医院以及远超大多数国家的医生密度，居民可以享受到卓越的医疗护理。如苏黎世大学医院和 Hirslanden 等主要医疗中心提供最前沿的治疗方案和高端体检项目。",
+      "p2": "对于移居家庭而言，瑞士提供的安心感源于深知家人的健康掌握在最优秀的专业人士手中。高端健康筛查项目、专家医生网络以及无障碍的多语言医疗服务，确保健康永远不是后顾之忧。"
     },
     "tax": {
-      "title": "Tax System",
-      "subtitle": "Competitive, transparent, and democratically protected",
+      "title": "税务体系",
+      "subtitle": "极具竞争力、透明且受民主保护",
       "stat1": "78%",
-      "stat1Label": "Voted against wealth tax (Nov 2025)",
+      "stat1Label": "投票反对开征财富税（2025年11月）",
       "stat2": "26",
-      "stat2Label": "Cantons competing for residents",
+      "stat2Label": "相互竞争吸引居民的州郡",
       "stat3": "11.9%",
-      "stat3Label": "Lowest cantonal corporate tax rate",
-      "p1": "Switzerland's tax system benefits from a unique feature: cantonal competition. With 26 cantons setting their own tax rates, individuals and companies can choose locations that align with their financial objectives. Cantons like Zug and Schwyz offer some of the lowest personal and corporate tax rates in the developed world.",
-      "p2": "The lump-sum taxation regime (forfait fiscal) allows qualifying foreign nationals to be taxed on living expenses rather than worldwide income — a significant advantage for high-net-worth individuals. In November 2025, Swiss citizens voted 78% against introducing a federal wealth tax, reaffirming the country's commitment to protecting private wealth through democratic mandate."
+      "stat3Label": "最低的州级企业税率",
+      "p1": "瑞士税务体系受益于一个独特的特征：各州之间的竞争。瑞士拥有 26 个州，各州自行设定税率，个人和公司可以选择符合其财务目标的地点。楚格（Zug）和施维茨（Schwyz）等州提供发达国家中最低的个人和企业税率。",
+      "p2": "定额税制 (Forfait fiscal) 允许符合条件的外国公民根据生活支出而非全球收入缴税，这对于高净值人士而言是巨大的优势。2025 年 11 月，78% 的瑞士公民投票反对引入联邦财富税，再次确认了该国通过民主授权保护私人财富的承诺。"
     },
     "qualityOfLife": {
-      "title": "Quality of Life",
-      "subtitle": "Safety, infrastructure, and natural beauty without compromise",
+      "title": "生活品质",
+      "subtitle": "安全、基础设施与自然美景的完美融合",
       "stat1": "#1",
-      "stat1Label": "Quality of life globally",
+      "stat1Label": "全球生活品质排名",
       "stat2": "Top 3",
-      "stat2Label": "Safest countries worldwide",
+      "stat2Label": "全球最安全国家",
       "stat3": "99.9%",
-      "stat3Label": "Public transport punctuality",
-      "p1": "Switzerland consistently ranks as the #1 country globally for quality of life. From the pristine Alpine landscapes to the immaculately maintained cities, every aspect of daily life reflects a commitment to excellence. The public transport system — connecting every village, town, and city — operates with legendary Swiss precision.",
-      "p2": "Safety is not merely a statistic in Switzerland; it is a lived experience. Violent crime is virtually non-existent, personal security is taken for granted, and the social infrastructure — from parks and public spaces to cultural institutions — is maintained to the highest standard. For families relocating from regions with security concerns, Switzerland offers a transformation in daily quality of life."
+      "stat3Label": "公共交通准点率",
+      "p1": "瑞士始终位居全球生活品质榜首。从纯净的阿尔卑斯景观到维护良好的城市，日常生活的方方面面都体现了对卓越的追求。连接每一个村庄、城镇和城市的公共交通系统，以传奇般的“瑞士精度”运行。",
+      "p2": "在瑞士，安全不仅仅是一个统计数字，而是一种切身的生活体验。暴力犯罪几乎不存在，人身安全被视为理所当然，从公园、公共空间到文化机构的社会基础设施均保持最高标准。对于从安全疑虑地区移居而来的家庭，瑞士将带来日常品质的根本转变。"
     },
     "business": {
-      "title": "Business Environment",
-      "subtitle": "Where global commerce meets Swiss precision",
-      "stat1": "1-2 weeks",
-      "stat1Label": "Company formation timeline",
+      "title": "商业环境",
+      "subtitle": "全球贸易与瑞士精度的交汇点",
+      "stat1": "1-2周",
+      "stat1Label": "公司注册时间",
       "stat2": "#1",
-      "stat2Label": "IP protection worldwide",
+      "stat2Label": "全球知识产权保护排名",
       "stat3": "120+",
-      "stat3Label": "Bilateral trade agreements",
-      "p1": "Switzerland offers one of the most business-friendly environments in the world. Company formation can be completed in as little as one to two weeks, intellectual property protection is the strongest globally, and the country's network of over 120 bilateral trade agreements provides seamless access to the EU single market and beyond.",
-      "p2": "The Swiss workforce is among the most highly educated and productive in the world, with a strong tradition of discretion and professionalism. For entrepreneurs and family offices establishing operations in Switzerland, the combination of political stability, legal certainty, IP protection, and market access creates an unmatched foundation for business growth."
+      "stat3Label": "双边贸易协定数量",
+      "p1": "瑞士提供了全球最利于商业发展的环境之一。公司注册最快仅需一到两周即可完成，其知识产权保护强度居全球之首，而其超过 120 个双边贸易协定网络则提供了进入欧盟单一市场及其他地区的无缝渠道。",
+      "p2": "瑞士劳动力受教育程度高且生产效率极佳，拥有深厚的审慎与专业传统。对于在瑞士设立运营机构的企业家和家族办公室而言，政治稳定、法律确定性、知识产权保护和市场准入的结合，为业务增长奠定了无与伦比的基础。"
     }
   },
   "cantonsPage": {
     "meta": {
-      "title": "瑞士州比较 — 苏黎世 vs 楚格 vs 施维茨",
-      "description": "苏黎世、楚格和施维茨州的互动比较。"
+      "title": "瑞士各州比较 — 苏黎世 vs 楚格 vs 施维茨移居指南",
+      "description": "苏黎世、楚格和施维茨各州的互动比较。对比税率、生活方式、国际学校、银行业和房地产，助力您的瑞士移居决策。"
     },
     "hero": {
-      "title": "州比较",
-      "subtitle": "为您的家庭和企业选择合适的瑞士州"
+      "title": "各州比较",
+      "subtitle": "为您的家庭、事业和生活方式选择理想的瑞士州郡"
     },
     "filter": {
       "all": "所有州",
@@ -360,717 +171,906 @@
     },
     "sections": {
       "taxRates": "税率",
-      "lifestyle": "生活方式",
+      "lifestyle": "生活方式与特色",
       "schools": "国际学校",
-      "banking": "银行基础设施",
+      "banking": "金融基础设施",
       "realEstate": "房地产",
       "bestFor": "最适合"
     },
     "zurich": {
-      "name": "Zurich",
-      "tagline": "Global city, cultural capital",
+      "name": "苏黎世",
+      "tagline": "全球化都市，文化之都",
       "tax": {
-        "corporate": "Approx. 19.7% effective corporate rate",
-        "personal": "Up to 39.8% top marginal rate (combined)",
-        "lumpSum": "CHF 400,000+ minimum taxable base"
+        "corporate": "实际企业税率约为 19.7%",
+        "personal": "最高边际税率（综合）达 39.8%",
+        "lumpSum": "最低计税基数为 400,000 瑞士法郎起"
       },
       "lifestyle": {
-        "character": "Cosmopolitan, culturally rich, urban",
-        "international": "Large international community (30%+ foreign residents)",
-        "culture": "Opera, art galleries, Michelin-starred dining, lakefront living",
-        "transport": "International airport, excellent rail connections"
+        "character": "大都市氛围，文化底蕴深厚，城市化",
+        "international": "庞大的国际社区（外籍居民占比 30% 以上）",
+        "culture": "歌剧院、艺术馆、米其林餐厅、湖滨生活",
+        "transport": "拥有国际机场，极佳的铁路连接"
       },
       "schools": {
         "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (nearby)"
+          "苏黎世跨社区学校 (ICS)",
+          "苏黎世国际学校 (ZIS)",
+          "瑞士国际学校 (SIS)",
+          "卓士学校 (Lyceum Alpinum Zuoz，位于附近)"
         ]
       },
-      "bankingInfo": "Home to UBS, Credit Suisse (now UBS), Julius Baer, and dozens of boutique private banks. Full-service crypto banking available (SEBA, Sygnum).",
+      "bankingInfo": "瑞银 (UBS)、瑞士信贷 (现为 UBS)、宝盛 (Julius Baer) 以及数十家精品私人银行的总部所在地。提供全方位的加密货币银行服务 (SEBA, Sygnum)。",
       "realEstate": {
-        "range": "CHF 15,000–35,000/m² (prime city), CHF 8,000–15,000/m² (Lake Zurich suburbs)",
-        "lexKoller": "Lex Koller applies: non-Swiss residents require authorization for residential property. B-permit holders may purchase primary residence."
+        "range": "核心市区：15,000–35,000 瑞郎/m²；苏黎世湖郊区：8,000–15,000 瑞郎/m²",
+        "lexKoller": "受 Lex Koller 约束：非瑞士居民购置住宅需获得批准。B类许可持有者可购买主要住所。"
       },
       "bestFor": {
-        "profile": "The urban professional, digital entrepreneur, or family seeking world-class culture and connectivity",
-        "ideal": "Ideal for: crypto entrepreneurs, corporate executives, families valuing urban lifestyle"
+        "profile": "追求世界级文化、便利交通的城市专业人士、数字创业者或家庭",
+        "ideal": "适合对象：加密货币企业家、企业高管、看重城市生活的家庭"
       }
     },
     "zug": {
-      "name": "Zug",
-      "tagline": "Tax haven, crypto valley",
+      "name": "楚格",
+      "tagline": "避税天堂，加密谷",
       "tax": {
-        "corporate": "Approx. 11.9% effective corporate rate",
-        "personal": "Up to 22.4% top marginal rate (combined)",
-        "lumpSum": "CHF 250,000+ minimum taxable base"
+        "corporate": "实际企业税率约为 11.9%",
+        "personal": "最高边际税率（综合）达 22.4%",
+        "lumpSum": "最低计税基数为 250,000 瑞士法郎起"
       },
       "lifestyle": {
-        "character": "Compact, wealthy, lakeside, discreet",
-        "international": "Highly international (35%+ foreign residents, strong expat community)",
-        "culture": "Elegant lakeside town, close to mountains and Zurich",
-        "transport": "30 minutes to Zurich Airport, excellent rail"
+        "character": "精致、富有、湖畔、低调",
+        "international": "高度国际化（外籍居民占比 35% 以上，外籍社区活跃）",
+        "culture": "优雅的湖畔城镇，毗邻山区与苏黎世",
+        "transport": "距离苏黎世机场 30 分钟车程，铁路交通便捷"
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (ISZL)",
-          "Institut Montana Zugerberg",
-          "Swiss International School"
+          "楚格和卢塞恩国际学校 (ISZL)",
+          "蒙塔纳学院 (Institut Montana Zugerberg)",
+          "瑞士国际学校 (SIS)"
         ]
       },
-      "bankingInfo": "Crypto Valley ecosystem with blockchain-native banks. Traditional private banking through local branches of major Swiss banks. Family office concentration second only to Geneva.",
+      "bankingInfo": "拥有区块链原生银行的“加密谷”生态系统。传统私人银行服务由各大瑞士银行的当地分行提供。家族办公室密集度仅次于日内瓦。",
       "realEstate": {
-        "range": "CHF 12,000–25,000/m² (Zug town), CHF 8,000–14,000/m² (surrounding villages)",
-        "lexKoller": "Lex Koller applies. B-permit holders can purchase primary residence. Zug has additional local requirements for some communes."
+        "range": "楚格镇：12,000–25,000 瑞郎/m²；周边村庄：8,000–14,000 瑞郎/m²",
+        "lexKoller": "受 Lex Koller 约束。B类许可持有者可购买主要住所。楚格的部分市镇有额外的当地要求。"
       },
       "bestFor": {
-        "profile": "The tax-optimising entrepreneur, family office, or crypto/fintech founder seeking the lowest possible tax burden",
-        "ideal": "Ideal for: family offices, forfait fiscal applicants, tech entrepreneurs"
+        "profile": "寻求最低税收负担的税务优化型企业家、家族办公室或加密/金融科技创始人",
+        "ideal": "适合对象：家族办公室、Forfait fiscal 申请人、科技创业者"
       }
     },
     "schwyz": {
-      "name": "Schwyz",
-      "tagline": "Discreet wealth, Alpine serenity",
+      "name": "施维茨",
+      "tagline": "低调财富，阿尔卑斯山的宁静",
       "tax": {
-        "corporate": "Approx. 14.1% effective corporate rate",
-        "personal": "Up to 21.3% top marginal rate (combined)",
-        "lumpSum": "CHF 200,000+ minimum taxable base"
+        "corporate": "实际企业税率约为 14.1%",
+        "personal": "最高边际税率（综合）达 21.3%",
+        "lumpSum": "最低计税基数为 200,000 瑞士法郎起"
       },
       "lifestyle": {
-        "character": "Rural, traditional, supremely private",
-        "international": "Smaller international community, very discreet",
-        "culture": "Alpine landscapes, lake views, traditional Swiss charm",
-        "transport": "45 minutes to Zurich Airport, scenic commute"
+        "character": "田园风情、传统、极致私密",
+        "international": "国际社区规模较小，环境非常低调",
+        "culture": "阿尔卑斯山景观、湖景、传统瑞士魅力",
+        "transport": "距离苏黎世机场 45 分钟车程，通勤风景优美"
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (Hünenberg campus, nearby)",
-          "Institut Montana (nearby)",
-          "Stiftsschule Einsiedeln"
+          "楚格和卢塞恩国际学校 (Hünenberg 校区，位于附近)",
+          "蒙塔纳学院 (位于附近)",
+          "艾因西德伦修道院学校 (Stiftsschule Einsiedeln)"
         ]
       },
-      "bankingInfo": "Private banking through Schwyz-based cantonal bank and branches of major banks. Less institutional density than Zurich or Zug, but ideal for those valuing absolute privacy.",
+      "bankingInfo": "通过施维茨州银行及各大银行分行提供私人银行服务。机构密度虽不及苏黎世或楚格，但对于看重绝对隐私的人士而言是理想之选。",
       "realEstate": {
-        "range": "CHF 6,000–14,000/m² (lakeside), CHF 4,000–8,000/m² (inland villages)",
-        "lexKoller": "Lex Koller applies. Generally more accessible pricing than Zurich or Zug with comparable or lower tax rates."
+        "range": "湖畔地区：6,000–14,000 瑞郎/m²；内陆村庄：4,000–8,000 瑞郎/m²",
+        "lexKoller": "受 Lex Koller 约束。与苏黎世或楚格相比，房价通常更亲民，且享有同等或更低的税率。"
       },
       "bestFor": {
-        "profile": "The privacy-focused family or individual seeking the lowest taxes with an Alpine lifestyle and complete discretion",
-        "ideal": "Ideal for: multi-generational families, privacy-focused individuals, retirees"
+        "profile": "追求极低税收、阿尔卑斯生活方式及完全隐私的家庭或个人",
+        "ideal": "适合对象：跨代大家族、注重隐私的人士、退休人员"
       }
     }
   },
   "caseStudiesPage": {
     "meta": {
-      "title": "客户案例研究 — Move to Switzerland",
-      "description": "成功瑞士搬迁的匿名案例研究。"
+      "title": "客户案例研究 — 移居瑞士",
+      "description": "成功移居瑞士的匿名案例研究。了解企业家、家庭和家族办公室如何规划他们的瑞士之旅。"
     },
     "hero": {
       "title": "客户旅程",
-      "subtitle": "来自真实搬迁的匿名案例研究"
+      "subtitle": "真实迁居过程的匿名案例研究"
     },
-    "disclaimer": "所有案例研究均已匿名化。为保护保密性，姓名和详细信息已更改。",
+    "disclaimer": "所有案例研究均已匿名处理。姓名、身份详情及具体数字均已修改，以保护客户隐私。",
     "cases": {
       "techFounder": {
-        "title": "The Tech Founder",
-        "subtitle": "Dubai to Zug in 9 months",
-        "quote": "We needed a jurisdiction that understood both our digital business model and our family's long-term security needs. Switzerland delivered on both.",
-        "profile": "Dubai-based tech entrepreneur, family of 4, post-exit with significant liquidity event",
+        "title": "科技创业者",
+        "subtitle": "9 个月从迪拜移居楚格",
+        "quote": "我们需要一个既懂数字业务模式，又能满足我们家庭长期安全需求的管辖区。瑞士在两方面都做到了。",
+        "profile": "总部位于迪拜的科技企业家，一家四口，在重大流动性事件后退出",
         "timeline": {
-          "month1": "Initial consultation and canton assessment",
-          "month2": "Pre-immigration asset restructuring",
-          "month3": "Forfait fiscal negotiation initiated with Zug authorities",
-          "month4": "B-permit application submitted",
-          "month5": "International school secured (ISZL)",
-          "month6": "Real estate acquisition — lakeside property in Zug",
-          "month7": "Swiss private banking relationship established",
-          "month8": "Family relocation executed",
-          "month9": "Family office structure established, all services operational"
+          "month1": "初步咨询与州郡评估",
+          "month2": "移民前资产重组",
+          "month3": "启动与楚格当局的 Forfait fiscal 谈判",
+          "month4": "提交 B类许可申请",
+          "month5": "获得国际学校名额 (ISZL)",
+          "month6": "购置房产 — 楚格湖畔别墅",
+          "month7": "建立瑞士私人银行关系",
+          "month8": "执行家庭迁居",
+          "month9": "家族办公室结构建立，所有服务开始运行"
         },
         "challenges": [
-          "Complex multi-jurisdictional corporate structure requiring restructuring",
-          "Crypto holdings requiring specialized banking documentation",
-          "School placement mid-academic year",
-          "Coordinating dual tax residency transition"
+          "跨多国管辖的复杂企业结构需要重组",
+          "加密货币资产需要专业的银行开户文件",
+          "学年中途的学校学位安排",
+          "协调双重税务居民身份的过渡"
         ],
         "services": [
-          "Pre-Immigration Asset Structuring",
-          "Lump-Sum Taxation (Forfait Fiscal)",
-          "Residency & Immigration",
-          "Family Office Establishment",
-          "Real Estate Advisory",
-          "Lifestyle Coordination"
+          "移民前资产结构规划",
+          "定额税制 (Forfait Fiscal)",
+          "居留与移民服务",
+          "家族办公室设立",
+          "房地产咨询",
+          "生活方式协调"
         ],
-        "outcome": "Full family relocation completed. Forfait fiscal approved. Children enrolled at ISZL. Family office operational with Swiss governance framework. Fee: undisclosed."
+        "outcome": "全家顺利迁居。Forfait fiscal 获得批准。子女入读 ISZL。家族办公室在瑞士治理框架下正式运行。费用：未公开。"
       },
       "bankingFamily": {
-        "title": "The Banking Family",
-        "subtitle": "Beirut to Schwyz — emergency relocation",
-        "quote": "When the banks collapsed, we had 72 hours to make a decision. Our advisors had the Swiss infrastructure ready.",
-        "profile": "Lebanese family, 3 generations, significant banking and real estate portfolio, emergency circumstances",
+        "title": "金融世家",
+        "subtitle": "黎巴嫩到施维茨 — 紧急迁居",
+        "quote": "当银行系统崩溃时，我们只有 72 小时做决定。我们的顾问已经准备好了瑞士的基础设施。",
+        "profile": "黎巴嫩家族，三代同堂，拥有庞大的银行业与房地产组合，处于紧急环境",
         "timeline": {
-          "week1": "Emergency consultation — immediate threat assessment",
-          "week2": "Expedited B-permit application initiated",
-          "month1": "Temporary accommodation secured in Schwyz",
-          "month2": "Private banking onboarding (assets transferred from non-Lebanese holdings)",
-          "month3": "Permanent residence established",
-          "month4": "Children enrolled in international school",
-          "month6": "Estate restructuring completed",
-          "month9": "Full settlement — all three generations established",
-          "month12": "Ongoing retainer — estate management and succession planning"
+          "week1": "紧急咨询 — 立即进行威胁评估",
+          "week2": "启动快速 B类许可申请流程",
+          "month1": "在施维茨落实临时住所",
+          "month2": "私人银行入驻（资产从非黎巴嫩持仓转移）",
+          "month3": "确立永久住所",
+          "month4": "子女入读国际学校",
+          "month6": "完成遗产重组",
+          "month9": "全面安顿 — 三代人均已稳定生活",
+          "month12": "长期顾问合作 — 遗产管理与继任规划"
         },
         "challenges": [
-          "Emergency timeline requiring parallel processing of all workstreams",
-          "Complex multi-generational estate structure",
-          "Assets trapped in Lebanese banking system",
-          "Three generations with different residency and care needs"
+          "紧急时间表，需并行处理所有工作流",
+          "复杂的跨代遗产结构",
+          "资产困在黎巴嫩银行系统中",
+          "三代人具有不同的居留与护理需求"
         ],
         "services": [
-          "Residency & Immigration",
-          "Private Banking & Wealth Management",
-          "Real Estate Advisory",
-          "Family Office Establishment",
-          "Health & Wellness Concierge",
-          "Lifestyle Coordination"
+          "居留与移民服务",
+          "私人银行与财富管理",
+          "房地产咨询",
+          "家族办公室设立",
+          "健康与康养礼宾",
+          "生活方式协调"
         ],
-        "outcome": "All three generations successfully relocated. Private banking relationships established. Estate restructured under Swiss governance. Ongoing succession planning retainer in place."
+        "outcome": "三代人全部成功迁居。建立私人银行关系。遗产在瑞士法律治理下完成重组。目前已落实持续的继任规划顾问协议。"
       },
       "digitalNomad": {
-        "title": "The Digital Nomad",
-        "subtitle": "Riyadh to Zurich in 4 months",
-        "quote": "I needed a country that treated crypto as a legitimate asset class and offered real infrastructure for building a business. Zurich was the obvious choice.",
-        "profile": "34-year-old Saudi national, significant cryptocurrency portfolio, active trader and investor, single",
+        "title": "数字游民",
+        "subtitle": "4 个月从利雅得移居苏黎世",
+        "quote": "我需要一个将加密货币视为合法资产类别，并为业务发展提供真实基础设施的国家。苏黎世显然是首选。",
+        "profile": "34 岁沙特籍人士，持有大量加密货币，活跃交易者与投资者，单身",
         "timeline": {
-          "month1": "Consultation, canton selection, crypto wealth documentation strategy",
-          "month15": "B-permit application with detailed source-of-wealth documentation",
-          "month2": "Company formation (Swiss GmbH) for consulting operations",
-          "month3": "Crypto-friendly banking setup (SEBA Bank + traditional private bank)",
-          "month4": "Apartment secured in Zurich, full relocation completed"
+          "month1": "咨询、选州、加密财富文件化战略",
+          "month15": "提交带有详细财富来源证明的 B类许可申请",
+          "month2": "为咨询业务成立公司 (瑞士 GmbH)",
+          "month3": "建立对加密资产友好的银行账户 (SEBA 银行 + 传统私人银行)",
+          "month4": "在苏黎世落实公寓，完成全面迁居"
         },
         "challenges": [
-          "Documenting crypto wealth chain from mining/early-stage purchases to current portfolio",
-          "Finding banking partners comfortable with 90%+ crypto-derived wealth",
-          "Navigating Swiss crypto tax classification for active trading vs. investment",
-          "B-permit for non-EU national with non-traditional wealth profile"
+          "证明从挖矿/早期购入到当前持仓的加密财富链条",
+          "寻找接受 90% 以上资产源自加密货币的银行伙伴",
+          "处理瑞士针对活跃交易与投资的加密货币税务分类",
+          "非欧盟籍且持有非传统财富背景的 B类许可申请"
         ],
         "services": [
-          "Residency & Immigration",
-          "Company Formation & Corporate Structuring",
-          "Private Banking & Wealth Management",
-          "Lifestyle Coordination"
+          "居留与移民服务",
+          "公司设立与企业结构规划",
+          "私人银行与财富管理",
+          "生活方式协调"
         ],
-        "outcome": "B-permit granted. Swiss GmbH operational. Dual banking relationship (crypto + traditional) established. Full compliance framework for ongoing crypto trading. 4 months start to finish."
+        "outcome": "B类许可获批。瑞士 GmbH 投入运营。建立双重银行关系（加密 + 传统）。建立了持续加密交易的完整合规框架。从开始到结束历时 4 个月。"
       },
       "gulfFamilyOffice": {
-        "title": "The Gulf Family Office",
-        "subtitle": "Kuwaiti family office — Swiss SFO established",
-        "quote": "We had wealth management in four jurisdictions, but no unified governance. Switzerland gave us the structure our family needed for the next generation.",
-        "profile": "Kuwaiti family office, CHF 200M+ AUM, multi-generational, operating across GCC, London, and Switzerland",
+        "title": "海湾家族办公室",
+        "subtitle": "科威特家族办公室 — 设立瑞士单一家族办公室 (SFO)",
+        "quote": "我们在四个管辖区都有财富管理，但缺乏统一的治理。瑞士为我们下一代所需的结构提供了保障。",
+        "profile": "科威特家族办公室，管理资产逾 2 亿瑞郎，跨代运营，业务遍及海湾六国、伦敦和瑞士",
         "timeline": {
-          "month1": "Scoping: governance audit, jurisdictional review, family charter assessment",
-          "month2": "Swiss SFO structure designed — AG incorporated in Zug",
-          "month3": "Board formation — 3 Swiss-resident independent directors placed",
-          "month4": "Investment committee established, banking mandates restructured",
-          "month5": "Governance framework documented and ratified by family council",
-          "month6": "Operational — all reporting lines, compliance, and audit frameworks active",
-          "ongoing": "Ongoing retainer: quarterly board meetings, annual governance review, ad-hoc advisory"
+          "month1": "范围界定：治理审计、管辖区审查、家族宪章评估",
+          "month2": "设计瑞士 SFO 结构 — 在楚格注册 AG 公司",
+          "month3": "组建董事会 — 聘请 3 名瑞士居民独立董事",
+          "month4": "建立投资委员会，重组银行委托合同",
+          "month5": "治理框架经文件化并获家族委员会批准",
+          "month6": "投入运营 — 所有汇报线、合规及审计框架激活",
+          "ongoing": "长期服务：每季度董事会会议、年度治理审查、不定期咨询"
         },
         "challenges": [
-          "Aligning governance expectations across three generations with different investment philosophies",
-          "Consolidating reporting from four jurisdictions into unified Swiss framework",
-          "Placing qualified independent directors who understood both Swiss and GCC business culture",
-          "Designing succession framework acceptable to all family branches"
+          "协调具有不同投资理念的三代人对治理的期望",
+          "将来自四个管辖区的汇报整合到统一的瑞士框架中",
+          "聘请既懂瑞士又懂海湾商业文化的合格独立董事",
+          "设计各家族分支均能接受的继任框架"
         ],
         "services": [
-          "Family Office Establishment",
-          "Independent Directorship & Board Services",
-          "Company Formation & Corporate Structuring",
-          "Private Banking & Wealth Management"
+          "家族办公室设立",
+          "独立董事与董事会服务",
+          "公司设立与企业结构规划",
+          "私人银行与财富管理"
         ],
-        "outcome": "Swiss SFO fully operational in Zug. 3 independent directors placed. Governance framework ratified by all family branches. Consolidated reporting across all jurisdictions. Ongoing retainer for quarterly governance and annual review."
+        "outcome": "位于楚格的瑞士 SFO 全面投入运行。3 名独立董事到任。治理框架获各家族分支批准。跨管辖区整合汇报完成。目前提供季度治理及年度审查的长期顾问服务。"
       }
     }
   },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您移居的每一个维度提供全方位的专业建议",
+    "learnMore": "了解更多",
+    "pageTitle": "服务项目",
+    "pageSubtitle": "为您移居瑞士提供端到端的顾问支持",
+    "items": {
+      "assetStructuring": {
+        "title": "移民前资产结构规划",
+        "description": "在获得瑞士居留权前实现收益；重组股权、信托及阿联酋企业结构；提供全面的财富来源文件证明。",
+        "detail": "我们与您现有的顾问合作，确保在您确立瑞士税务居民身份之前，您的资产结构已得到优化。这包括审查股权、信托安排以及阿联酋及其他地区的业务结构，确保财富来源文件清晰，满足瑞士银行和税务机关的要求。"
+      },
+      "lumpSum": {
+        "title": "定额税制 (Forfait Fiscal)",
+        "description": "全方位协商州级税务裁定；确定计税基数；日常年度合规管理。",
+        "detail": "瑞士的定额税制为符合条件的个人提供了一种基于生活支出而非全球收入的计税方式。我们负责与州当局的全程谈判，确定最佳计税基数，并管理每年的合规事宜，确保您的税务安排始终处于良好状态。"
+      },
+      "residency": {
+        "title": "居留与移民服务",
+        "description": "州郡选择咨询；B类许可申请管理；家庭成员随迁计划；C类许可及入籍路径规划。",
+        "detail": "选择合适的州郡也许是您移居过程中最重要的决定。我们根据您的税务状况、生活偏好和家庭需求提供选州建议。随后，我们负责全程管理 B类许可申请及家庭随迁，并规划通往 C类许可及最终入籍瑞士的路径。"
+      },
+      "companyFormation": {
+        "title": "公司设立与企业结构规划",
+        "description": "瑞士控股公司；知识产权 (IP) 结构；协调阿联酋实体；增值税 (VAT) 注册与合规。",
+        "detail": "无论您需要设立瑞士控股公司、知识产权授权结构，还是协调现有阿联酋实体与新的瑞士业务，我们都将全程负责。这包括增值税注册、企业合规，并确保您的企业结构既具税收效率又完全合规。"
+      },
+      "familyOffice": {
+        "title": "家族办公室设立",
+        "description": "单一及多家族办公室咨询；私人银行引荐；信托与基金会架构；继任规划。",
+        "detail": "对于需要专门财富管理基础设施的家族，我们提供在瑞士设立单一或多家族办公室的咨询建议。这包括引荐领先的私人银行、构建用于资产保护的信托与基金会，以及考虑跨国复杂性的全面继任规划。"
+      },
+      "directorship": {
+        "title": "独立董事与董事会服务",
+        "description": "委派瑞士居民董事；企业秘书服务；治理与合规支持。",
+        "detail": "许多瑞士公司结构要求必须有一名瑞士居民董事。我们提供合格的独立董事、企业秘书服务以及持续的治理支持，确保您的瑞士实体在您专注于业务的同时满足所有监管要求。"
+      },
+      "realEstate": {
+        "title": "房地产咨询",
+        "description": "解读 Lex Koller 法案；获取非公开房源；收购结构设计；公证协调。",
+        "detail": "瑞士的房地产规定，尤其是针对外国买家的 Lex Koller 限制，需要专业的解读。我们提供高端地段的非公开房源信息，设计符合法规的收购结构，并协调公证人以确保交易顺利完成。"
+      },
+      "health": {
+        "title": "健康与康养礼宾",
+        "description": "强制性医疗保险设立；专家医生引荐；高端健康筛查；医疗联络服务。",
+        "detail": "瑞士的医疗体系要求强制性保险，且流程较为复杂。我们为您设立医疗保险，引荐顶尖专家医生，安排高端健康体检，并担任您的长期医疗联络人，确保您及家人获得最优质的护理。"
+      },
+      "lifestyle": {
+        "title": "生活方式协调与软着陆",
+        "description": "国际学校学位落实；家政人员许可；配偶融入计划；社区引荐；文化导向服务。",
+        "detail": "移居的成功远不止于文书工作。我们负责落实您子女的国际学校学位、办理家政人员工作许可、提供配偶融入支持和社区引荐，以及全面的文化导向，确保您的全家从第一天起就在瑞士感受到宾至如归。"
+      }
+    },
+    "overview": "概述"
+  },
+  "clients": {
+    "title": "服务对象",
+    "subtitle": "我们的咨询服务根据您的具体背景和目标量身定制",
+    "profiles": {
+      "entrepreneur": {
+        "title": "资深企业家",
+        "age": "40–60 岁",
+        "description": "寻求在流动性事件（退出）前确立瑞士居留权的业务所有者。典型合作周期：12–24 个月。",
+        "tags": [
+          "退出前规划",
+          "资产结构规划",
+          "Forfait Fiscal"
+        ]
+      },
+      "family": {
+        "title": "移居家庭",
+        "age": "有学龄子女",
+        "description": "看重安全、教育和生活品质的家庭。提供包括学校、医疗和社区融入在内的全方位迁居服务。",
+        "tags": [
+          "教育",
+          "医疗保健",
+          "社区"
+        ]
+      },
+      "youngWealth": {
+        "title": "年轻财富持有者",
+        "age": "28–42 岁",
+        "description": "寻求稳定、对比特币/加密货币友好且拥有世界级生活方式管辖区的数字创业者和加密财富持有者。",
+        "tags": [
+          "加密货币",
+          "数字资产",
+          "生活方式"
+        ]
+      },
+      "familyOffice": {
+        "title": "海湾家族办公室",
+        "age": "跨代大家族",
+        "description": "寻求建立欧洲治理中心、进行继任规划以及构建机构级财富结构的资深家族办公室。",
+        "tags": [
+          "治理",
+          "继任",
+          "机构级"
+        ]
+      }
+    }
+  },
+  "founders": {
+    "title": "创始人",
+    "subtitle": "深耕瑞士咨询领域二十载的专业经验",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "联合创始人",
+      "bio": "瑞士律师，MBA。Adrian 曾在瑞士创办多家银行，并与 FINMA、私人银行机构及各州当局保持深厚关系。他的法律专业知识和机构网络构成了我们咨询服务的监管核心。"
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "联合创始人",
+      "bio": "定居瑞士的丹麦连环创业者。Robin 管理着超过 4 亿瑞郎的数字广告业务，并在瑞士和欧盟拥有多家公司，他带来了卓越的运营能力以及对跨境业务结构的深刻理解。精通德语、丹麦语和英语。"
+    }
+  },
+  "about": {
+    "pageTitle": "关于我们",
+    "pageSubtitle": "独立、私密、深度的全方位服务",
+    "story": {
+      "title": "我们的故事",
+      "p1": "Move to Switzerland 的创立源于一个简单的观察：从中东移居瑞士的高净值人士面临着过于碎片化的咨询环境。税务顾问、移民律师、房产中介和私人银行家各自为政，客户不得不自行在他们之间进行协调。",
+      "p2": "我们创建了一个统一的联系点，统筹整个迁居旅程——从移民前的资产重组到您孩子入校的第一天。我们的创始人将深厚的瑞士法律和银行业专长与跨境运营的实际创业经验相结合。",
+      "p3": "每一项业务都以客户所期望的审慎和透彻进行处理。我们同时服务的家族数量有限，以确保每一位客户都能得到我们全神贯注的服务。"
+    },
+    "values": {
+      "title": "我们的价值",
+      "independence": {
+        "title": "独立性",
+        "description": "我们不隶属于任何银行、律师事务所或房产中介。我们的建议始终以您的最佳利益为先。"
+      },
+      "confidentiality": {
+        "title": "私密性",
+        "description": "每一项业务都受严格的保密协议保护。我们绝不公开客户身份或合作细节。"
+      },
+      "depth": {
+        "title": "服务深度",
+        "description": "我们不只是简单的引荐。从初次咨询到最终安顿，我们伴随您走过每一个步骤。"
+      }
+    },
+    "offices": {
+      "title": "办公地点",
+      "zurich": "苏黎世",
+      "zug": "楚格",
+      "schwyz": "施维茨"
+    }
+  },
+  "contact": {
+    "pageTitle": "联系我们",
+    "pageSubtitle": "开启您的瑞士之旅",
+    "confidential": "所有咨询均将以严格保密的方式处理。",
+    "form": {
+      "name": "全名",
+      "email": "电子邮箱",
+      "phone": "联系电话（可选）",
+      "country": "现居住国",
+      "message": "您的留言",
+      "hearAbout": "您是如何得知我们的？（可选）",
+      "submit": "发送咨询",
+      "sending": "发送中...",
+      "success": "谢谢。我们已收到您的咨询，并将在 24 小时内回复。",
+      "error": "发生错误。请重试或直接联系我们。"
+    },
+    "offices": {
+      "title": "办公地点"
+    }
+  },
+  "privacy": {
+    "pageTitle": "隐私政策",
+    "content": "本隐私政策解释了 Move to Switzerland 如何根据瑞士数据保护法 (nDSG) 和欧盟通用数据保护条例 (GDPR) 收集、使用和保护您的个人数据。"
+  },
+  "imprint": {
+    "pageTitle": "法律声明",
+    "company": "WorkWorkWork AG",
+    "address": "瑞士",
+    "registration": "商业登记处"
+  },
+  "footer": {
+    "tagline": "为尊贵个人及家族提供顶级的迁居咨询服务。",
+    "navigation": "导航",
+    "legal": "法律",
+    "languages": "语言",
+    "rights": "保留所有权利。",
+    "company": "WorkWorkWork AG 旗下服务",
+    "disclaimer": "本服务仅限于一般财务教育和战略指导，不构成《金融服务法》(FIDLEG) 含义下的金融服务。特别是，我们不提供针对特定金融工具的建议、不提供投资组合管理，亦不提供订单的执行或传递。"
+  },
+  "servicesMeta": {
+    "title": "服务项目 — 移居瑞士",
+    "description": "为您移居瑞士的每一个维度提供全方位的咨询服务。"
+  },
   "insights": {
     "meta": {
-      "title": "Insights — Move to Switzerland Advisory",
-      "description": "Expert insights on Swiss relocation, taxation, real estate, banking, and lifestyle for high-net-worth individuals and families."
+      "title": "深度洞察 — Move to Switzerland 咨询",
+      "description": "针对高净值人士及家族提供关于瑞士移居、税务、房地产、银行业和生活方式的专家见解。"
     },
     "hero": {
-      "title": "Insights",
-      "subtitle": "Expert perspectives on Swiss relocation, taxation, and wealth management"
+      "title": "深度洞察",
+      "subtitle": "关于瑞士移居、税务和财富管理的专家视角"
     },
     "readMore": "阅读文章",
     "author": "Move to Switzerland 咨询团队",
-    "authorSubtitle": "专家咨询",
+    "authorSubtitle": "专业顾问",
     "relatedServices": "相关服务",
     "breadcrumb": {
       "home": "首页",
-      "insights": "洞察"
+      "insights": "深度洞察"
     },
     "articles": {
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
-        "categoryLabel": "Taxation",
-        "readTime": "12 min read",
-        "date": "April 1, 2026",
-        "title": "Swiss Lump-Sum Taxation Explained: A Complete Guide for Foreign Residents",
-        "metaDescription": "Complete guide to Swiss lump-sum taxation (forfait fiscal). Learn eligibility, minimum amounts by canton, how the taxable base is calculated, and the step-by-step application process.",
-        "excerpt": "A comprehensive breakdown of Switzerland's forfait fiscal regime — eligibility requirements, cantonal minimum amounts, taxable base calculations, and the step-by-step application process.",
+        "categoryLabel": "税务",
+        "readTime": "阅读时长 12 分钟",
+        "date": "2026年4月1日",
+        "title": "瑞士定额税制详解：外国居民完整指南",
+        "metaDescription": "瑞士定额税制 (Forfait fiscal) 完整指南。了解申请资格、各州最低计税额、计税基数计算方式以及逐步申请流程。",
+        "excerpt": "全面解析瑞士 Forfait fiscal 定额税制——申请要求、各州最低限额、计税基数计算以及详细申请步骤。",
         "sectionCount": "9",
         "sections": {
           "0": {
-            "content": "Switzerland's lump-sum taxation regime — known as forfait fiscal or Pauschalbesteuerung — is one of the most attractive tax arrangements available to wealthy foreign nationals relocating to Switzerland. Under this system, qualifying individuals are taxed based on their living expenses rather than their worldwide income and assets. For high-net-worth individuals, particularly those with significant global income streams, this can result in substantially lower tax obligations compared to ordinary taxation."
+            "content": "瑞士的定额税制（法文称为 Forfait fiscal，德文称为 Pauschalbesteuerung）是吸引高净值外国人士移居瑞士最有利的税务安排之一。在该制度下，符合条件的个人根据其在瑞士的生活支出而非全球收入和资产缴税。对于高净值人士，尤其是拥有巨额全球收入流的人士，与普通征税相比，这可以显著降低税务负担。"
           },
           "1": {
-            "heading": "What Is Lump-Sum Taxation?",
+            "heading": "什么是定额税制？",
             "level": "2",
-            "content": "Lump-sum taxation is a special tax regime available to foreign nationals who take up or resume tax residence in Switzerland and do not engage in gainful employment within the country. Instead of declaring worldwide income and wealth, the taxpayer's tax base is determined by their annual living expenses in Switzerland — including housing costs, food, travel, education, staff costs, and other personal expenditures. The tax is then calculated by applying ordinary Swiss tax rates (federal, cantonal, and municipal) to this deemed taxable base. The system has been part of Swiss tax law for over a century and currently serves approximately 5,000 individuals across Switzerland, generating over CHF 900 million annually in tax revenue."
+            "content": "定额税制是一项针对在瑞士取得或恢复税务居民身份且不在瑞士从事有偿工作的外国公民提供的特殊税务制度。纳税人的税基不是申报全球收入和财富，而是由其在瑞士的年度生活支出决定的——包括住房成本、伙食、旅行、教育、员工成本及其他个人支出。税额随后根据该认定的税基应用普通的瑞士税率（联邦、州及市镇级）计算得出。该制度已在瑞士税法中存在了一个多世纪，目前全瑞士约有 5,000 人采用此制度，每年产生超过 9 亿瑞郎的税收收入。"
           },
           "2": {
-            "heading": "Eligibility Requirements",
+            "heading": "申请资格要求",
             "level": "2",
-            "content": "To qualify for lump-sum taxation, an applicant must meet three fundamental criteria. First, the individual must be a foreign national — Swiss citizens are not eligible. Second, the individual must be taking up Swiss tax residence for the first time, or returning after an absence of at least 10 years. Third, and critically, the individual must not engage in any gainful employment in Switzerland. This includes employment, self-employment, and active management of a Swiss-based business. Passive activities such as managing personal investments or overseeing a family office (provided the office does not generate third-party revenue) are generally permissible. The spouse of the applicant must also meet the nationality criterion — if one spouse is Swiss, lump-sum taxation is not available to the couple."
+            "content": "要获得定额税制的资格，申请人必须满足三个基本标准。首先，个人必须是外国公民——瑞士公民不具备资格。其次，该个人必须是首次确立瑞士税务居民身份，或者是离开至少 10 年后重新返回。第三，也是至关重要的一点，该个人不得在瑞士从事任何有偿工作。这包括受雇、自雇以及对瑞士本土业务的积极管理。管理个人投资或监督家族办公室（前提是该办公室不产生第三方收入）等被动活动通常是被允许的。申请人的配偶也必须满足国籍标准——如果配偶之一是瑞士籍，则该夫妇无法采用定额税制。"
           },
           "3": {
-            "heading": "How the Taxable Base Is Calculated",
+            "heading": "计税基数如何计算？",
             "level": "2",
-            "content": "The taxable base under lump-sum taxation is the higher of two calculations. The first is the actual worldwide living expenses of the taxpayer and their family. The second is a control calculation — a minimum threshold designed to prevent abuse. At the federal level, the minimum taxable income has been set at CHF 400,000 since the 2016 reform. Cantons set their own minimums, which range from approximately CHF 250,000 to over CHF 600,000 depending on the canton. The control calculation considers several factors: the fair rental value (or actual rent) of the taxpayer's Swiss residence multiplied by a factor (typically 3 to 7 depending on the canton), Swiss-source income (e.g., Swiss real estate income), and income from countries with which Switzerland has a double taxation agreement where the taxpayer claims treaty benefits."
+            "content": "定额税制下的计税基数取两个计算结果中的较高者。第一个是纳税人及其家人的实际全球生活支出。第二个是控制性计算——旨在防止滥用的最低门槛。在联邦层面，自 2016 年改革以来，最低应纳税收入设定为 400,000 瑞郎。各州自行设定最低标准，范围从约 250,000 瑞郎到超过 600,000 瑞郎不等，具体取决于所在州。控制性计算会考虑多个因素：纳税人瑞士住所的公平租金价值（或实际租金）乘以一个倍数（通常为 3 到 7 倍，取决于各州）、瑞士来源收入（如瑞士房产收入）以及来自与瑞士有双边税收协定国家的收入（如果纳税人申请协定优惠）。"
           },
           "4": {
-            "heading": "Minimum Amounts by Canton",
+            "heading": "各州最低限额",
             "level": "3",
-            "content": "Cantonal minimums vary significantly and are a key factor in canton selection. Zug requires a minimum taxable income of approximately CHF 250,000, making it one of the most accessible cantons. Schwyz sets its minimum around CHF 250,000 as well. Lucerne requires approximately CHF 300,000. Valais and Graubünden set minimums around CHF 400,000. Geneva requires approximately CHF 400,000 minimum taxable income but has higher municipal tax rates. Zurich requires approximately CHF 400,000 and applies its standard progressive rates to the deemed base. Vaud, historically the canton with the most lump-sum taxpayers, requires approximately CHF 400,000. Bern has a minimum of approximately CHF 400,000. Note that several cantons have abolished lump-sum taxation at the cantonal level — Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, and Zürich city (though the canton still permits it in some municipalities). Always verify current availability with cantonal authorities."
+            "content": "各州的最低标准差异显著，是选州的关键因素。楚格州要求最低应纳税收入约为 250,000 瑞郎，是门槛最低的州之一。施维茨州也将其最低限额设定在 250,000 瑞郎左右。卢塞恩州要求约 300,000 瑞郎。瓦莱州和格劳宾登州将最低额设定在 400,000 瑞郎左右。日内瓦州要求约 400,000 瑞郎的最低应纳税收入，但其市镇税率较高。苏黎世州要求约 400,000 瑞郎，并对其认定的税基应用标准累进税率。历史上拥有定额税纳税人最多的沃州要求约 400,000 瑞郎。伯尔尼州的最低限额约为 400,000 瑞郎。请注意，有几个州已在州一级废除了定额税制——包括巴塞尔城市州、巴塞尔乡村州、沙夫豪森州、外阿彭策尔州和苏黎世市（尽管该州的部分市镇仍允许）。请务必向州当局核实当前的可用情况。"
           },
           "5": {
-            "heading": "The Application Process: Step by Step",
+            "heading": "申请流程：分步指南",
             "level": "2",
-            "content": "The application process typically follows a structured path. In the pre-application phase, the prospective taxpayer works with qualified advisors to prepare a detailed summary of their personal and financial situation, select the optimal canton and municipality, and prepare preliminary calculations of the proposed taxable base. The formal application is submitted to the cantonal tax authority. It includes a detailed statement of anticipated living expenses, documentation of the applicant's financial situation, proof of the nationality requirement, and a declaration of no gainful Swiss employment. The cantonal authority reviews the application and may enter into a negotiation on the taxable base. This is a genuine negotiation — the authority has discretion and will assess whether the proposed base is reasonable given the applicant's apparent lifestyle and wealth. Once agreed, a formal tax ruling is issued, typically valid for a defined period (often the first tax year, with annual renewal). The taxpayer must file an annual declaration of living expenses to maintain the arrangement."
+            "content": "申请流程通常遵循结构化的路径。在预申请阶段，潜在纳税人与合格顾问合作，准备其个人和财务状况的详细摘要，选择最佳的州和市镇，并准备拟定计税基数的初步计算。正式申请提交至州税务局。申请材料包括预计生活支出的详细说明、申请人财务状况的证明文件、国籍要求证明以及不在瑞士从事有偿工作的声明。州当局会审查申请，并可能就计税基数进行谈判。这是一次真正的谈判——当局拥有裁量权，并将评估拟定的税基与申请人的表面生活方式及财富水平相比是否合理。一旦达成一致，将发出正式的税务裁定，有效期通常为特定期限（通常为第一个纳税年度，之后每年更新）。纳税人必须提交年度生活支出申报表以维持该安排。"
           },
           "6": {
-            "heading": "Federal vs. Cantonal Lump-Sum Taxation",
+            "heading": "联邦与州定额税的差异",
             "level": "2",
-            "content": "It is important to understand that lump-sum taxation operates at both the federal and cantonal/municipal levels. At the federal level, the minimum taxable income is CHF 400,000. Cantonal and municipal taxes are calculated separately, and each canton has its own minimum thresholds and rates. In practice, the total effective tax rate on lump-sum income typically ranges from 20% to 35% depending on the canton and municipality, compared to top marginal rates of 40%+ for ordinary taxpayers with high incomes. For an individual with a negotiated taxable base of CHF 500,000, for example, the total annual tax bill in Zug might be approximately CHF 100,000–120,000 — a fraction of what they would pay on their actual worldwide income under ordinary taxation."
+            "content": "重要的是要理解，定额税制在联邦和州/市镇两个层面运行。在联邦层面，最低应纳税收入为 400,000 瑞郎。州和市镇税分别计算，每个州都有自己的最低门槛和税率。在实践中，定额税收入的总实际税率通常在 20% 到 35% 之间，取决于所在的州和市镇；相比之下，高收入普通纳税人的最高边际税率通常在 40% 以上。例如，对于一名协商税基为 500,000 瑞郎的个人，在楚格州的年度总税单约为 100,000–120,000 瑞郎——这只是他们在普通税制下对其全球实际收入应缴税款的一小部分。"
           },
           "7": {
-            "heading": "Advantages and Considerations",
+            "heading": "优势与注意事项",
             "level": "2",
-            "content": "The primary advantages of lump-sum taxation include predictable and often significantly lower tax bills, no requirement to disclose worldwide income and assets in detail, simplified tax compliance, and protection from Swiss wealth tax on non-Swiss assets. However, there are important considerations. Lump-sum taxpayers cannot claim deductions available to ordinary taxpayers (such as pension contributions). They cannot benefit from Swiss double taxation treaty rates lower than their domestic withholding rates in all cases. They must genuinely refrain from Swiss employment. And public referendums have challenged the regime in several cantons, creating some political risk — though the November 2025 federal vote, in which 78% voted against abolishing the regime, has significantly strengthened its long-term security."
+            "content": "定额税制的主要优势包括：可预测且通常显著较低的税单、无需详细申报全球收入和资产、简化的税务合规流程，以及非瑞士资产无需缴纳瑞士财富税。然而，也有一些重要的注意事项。定额税纳税人不能申请普通纳税人可享有的扣除项目（如养老金缴费）。在所有情况下，他们可能无法享受低于其国内预扣税率的瑞士双边税收协定优惠税率。他们必须真正避免在瑞士就业。此外，公众公投曾在几个州对该制度发起过挑战，产生了一定的政治风险——不过 2025 年 11 月的联邦投票中，78% 的人反对废除该制度，这显著增强了其长期安全性。"
           },
           "8": {
-            "heading": "Is Lump-Sum Taxation Right for You?",
+            "heading": "定额税制适合您吗？",
             "level": "2",
-            "content": "Lump-sum taxation is most beneficial for individuals with high worldwide income who do not need to work in Switzerland — typically retirees, investors, family wealth holders, and individuals living off passive income from businesses outside Switzerland. It is less suitable for individuals planning to actively manage a Swiss-based business or those with relatively modest worldwide income (where ordinary taxation might actually result in a lower bill). A detailed comparative analysis — ordinary taxation vs. lump-sum — should be prepared as part of your pre-immigration planning. We provide this analysis as part of our pre-immigration advisory service, ensuring you make this critical decision with full information."
+            "content": "定额税制对于拥有高额全球收入且无需在瑞士工作的人士最为有利——通常是退休人员、投资者、家族财富持有者以及依靠瑞士境外业务的被动收入生活的人士。对于计划积极管理瑞士本土业务或全球收入相对适中（普通征税可能税单更低）的人士，该制度则不太适合。在移民前规划过程中，应准备一份详细的对比分析（普通征税 vs. 定额税）。我们作为移民前咨询服务的一部分提供此项分析，确保您在掌握充分信息的前提下做出这一关键决策。"
           }
         },
-        "imageAlt": "瑞士州税务办公室内部，胡桃木桌上放着官方文件"
+        "imageAlt": "瑞士州税务局内部，胡桃木桌上摆放着官方文件"
       },
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
-        "categoryLabel": "Real Estate",
-        "readTime": "10 min read",
-        "date": "April 1, 2026",
-        "title": "Lex Koller: What Foreign Buyers Need to Know About Swiss Real Estate",
-        "metaDescription": "Understanding Switzerland's Lex Koller law: foreign ownership restrictions on real estate, permit requirements, cantonal differences, and practical strategies for non-Swiss buyers.",
-        "excerpt": "Navigate Switzerland's foreign property ownership restrictions — from Lex Koller requirements to cantonal differences, authorization processes, and strategies for international buyers.",
+        "categoryLabel": "房地产",
+        "readTime": "阅读时长 10 分钟",
+        "date": "2026年4月1日",
+        "title": "Lex Koller：外国买家需了解的瑞士房产规定",
+        "metaDescription": "解读瑞士 Lex Koller 法案：外国房产所有权限制、许可要求、各州差异以及非瑞士买家的实用策略。",
+        "excerpt": "解读瑞士针对外国人购房的限制——从 Lex Koller 要求到各州差异、审批流程及国际买家的应对策略。",
         "sectionCount": "9",
         "sections": {
           "0": {
-            "content": "Switzerland's real estate market is among the most stable and desirable in the world — and among the most regulated for foreign buyers. The Federal Act on the Acquisition of Real Estate by Persons Abroad, commonly known as Lex Koller (or historically Lex Friedrich), governs how non-Swiss nationals can acquire residential property in Switzerland. Understanding this law is essential for anyone relocating to Switzerland and planning to purchase a home."
+            "content": "瑞士房地产市场是全球最稳定、最令人向往的市场之一，同时也是针对外国买家监管最严的市场之一。《联邦关于外国人购置房地产的法案》（通常被称为 Lex Koller，历史上也称 Lex Friedrich）规定了非瑞士公民如何购置瑞士住宅。对于任何计划移居瑞士并购置房产的人来说，了解这一法律至关重要。"
           },
           "1": {
-            "heading": "What Is Lex Koller?",
+            "heading": "什么是 Lex Koller？",
             "level": "2",
-            "content": "Lex Koller is a federal law that restricts the acquisition of residential real estate by foreign nationals who are not resident in Switzerland. Enacted in 1961 and revised multiple times since, the law's purpose is to prevent the \"foreign over-alienation\" of Swiss land — essentially, to ensure that Swiss real estate remains available to Swiss residents rather than being acquired as investment properties by non-residents. The law applies specifically to residential property. Commercial and industrial real estate is generally exempt, meaning foreign-owned companies can acquire office space, retail premises, and industrial property without Lex Koller restrictions."
+            "content": "Lex Koller 是一项限制非瑞士常住外国公民购置住宅地产的联邦法律。该法于 1961 年颁布并历经多次修订，其目的是防止瑞士土地“过度外籍化”——核心在于确保瑞士房产仍由瑞士居民持有，而非成为非居民的投资工具。该法专门针对住宅地产。商业和工业地产通常豁免，这意味着外资公司可以不受 Lex Koller 限制地购置办公空间、零售店面和工业物业。"
           },
           "2": {
-            "heading": "Who Is Affected?",
+            "heading": "谁会受到影响？",
             "level": "2",
-            "content": "Lex Koller applies to persons abroad — defined as foreign nationals who do not have their permanent residence in Switzerland, and foreign-controlled companies. The key distinctions are as follows. EU/EFTA nationals with a valid residence permit (B or C permit) are treated essentially the same as Swiss nationals for the purpose of acquiring a primary residence. They can purchase residential property for their own use without authorization. Non-EU/EFTA nationals with a B permit can purchase a primary residence without authorization in most cantons, but face restrictions on secondary residences and investment properties. Persons without Swiss residence (regardless of nationality) require cantonal authorization to purchase residential property, and such authorization is subject to strict quotas. Swiss nationals living abroad are not affected — they can purchase freely."
+            "content": "Lex Koller 适用于“境外部署人员”——定义为不在瑞士拥有永久居留权的外国公民及外资控股公司。关键区别如下：持有有效居留许可（B类或 C类许可）的欧盟/欧洲自由贸易联盟（EU/EFTA）公民在购置主要住所时，其待遇基本等同于瑞士国民，无需获得批准即可购置自用住宅。持有 B类许可的非 EU/EFTA 公民在大多数州购置主要住所无需批准，但在购置次要住所和投资性房产方面面临限制。不具备瑞士居留权的个人（无论国籍）购置住宅地产必须获得州级批准，且此类批准受到严格的配额限制。居住在国外的瑞士公民不受影响，可以自由购买。"
           },
           "3": {
-            "heading": "Types of Property and Restrictions",
+            "heading": "房产类型与限制",
             "level": "2",
-            "content": "The restrictions vary by property type. Primary residence (Hauptwohnung): permit holders (B or C) can purchase a primary residence at their place of residence without authorization. The property must serve as their actual home. Secondary or holiday residences (Ferienwohnung): these are subject to the strictest restrictions. Purchase by non-residents requires cantonal authorization, which is allocated through a federal quota system (known as the contingent). The property must be in a recognized tourist area, and there are size limitations (typically a maximum of 200m² net living area). Investment/rental properties: non-resident foreigners generally cannot acquire residential investment properties. Permit holders can acquire investment properties subject to cantonal rules. Commercial property: generally exempt from Lex Koller."
+            "content": "限制因房产类型而异。主要住所 (Hauptwohnung)：许可持有者（B 或 C）可以在其居住地购买主要住所，无需批准，但房产必须作为其实际居所。次要或度假住所 (Ferienwohnung)：这些受到最严格的限制。非居民购买需获得州级批准，配额由联邦系统分配。房产必须位于公认的旅游区，且有面积限制（通常最大为 200m² 净居住面积）。投资/出租物业：非居民外籍人士通常无法购置住宅类投资房产。许可持有者可根据各州规定购置投资房产。商业地产：通常不受 Lex Koller 限制。"
           },
           "4": {
-            "heading": "Cantonal Differences",
+            "heading": "各州差异",
             "level": "2",
-            "content": "While Lex Koller is a federal law, implementation involves cantonal authorities, and there are meaningful differences in how cantons handle applications. Zurich is relatively straightforward for permit holders purchasing a primary residence. The cantonal land registry (Grundbuchamt) typically processes acquisitions without issue if the buyer has a valid permit and the property is at their registered address. Zug follows a similar approach but has some additional commune-level requirements. Certain municipalities in Zug require additional documentation or have waiting periods. Schwyz is generally accessible and, combined with lower property prices and very low tax rates, represents excellent value for relocating families. Geneva and Vaud have the highest demand from foreign buyers, leading to more scrutiny of applications. Geneva in particular has tight secondary residence quotas. Valais and Graubünden, as major tourist cantons, have the most developed regimes for authorizing holiday residence acquisitions."
+            "content": "虽然 Lex Koller 是一项联邦法律，但执行涉及州当局，且各州在处理申请方面存在显著差异。在苏黎世，许可持有者购买主要住所相对直接，如果买家具备有效许可且房产位于其注册地址，州土地登记局 (Grundbuchamt) 通常会顺利办理。楚格州采取类似方式，但有一些额外的市镇级要求，某些市镇可能要求补充文件或有等待期。施维茨州通常较容易进入，结合较低的房价和极低的税率，对移居家庭而言具有极佳的性价比。日内瓦州和沃州由于外国买家需求最高，申请审核更为严苛。尤其是日内瓦，其次要住所配额非常紧张。瓦莱州和格劳宾登州作为主要的旅游大州，拥有最完善的度假住所购置审批制度。"
           },
           "5": {
-            "heading": "The Authorization Process",
+            "heading": "审批流程",
             "level": "3",
-            "content": "When authorization is required (typically for secondary residences or for buyers without a residence permit), the process involves several steps. The buyer submits an application to the cantonal authority responsible for Lex Koller matters — usually the cantonal Grundbuchamt or a dedicated department of justice. The application must include the purchase agreement (usually a preliminary \"Vorvertrag\"), proof of the buyer's connection to Switzerland or the specific location, evidence that the acquisition falls within one of the permitted categories, and confirmation that the property meets size and usage requirements. The cantonal authority reviews the application against the federal quota (for holiday residences) and cantonal criteria. Processing times vary from 2–6 weeks in smaller cantons to 2–3 months in Geneva or Vaud."
+            "content": "当需要审批时（通常针对次要住所或无居留许可的买家），流程包含几个步骤。买家向负责 Lex Koller 事务的州当局（通常是州土地登记局或专门的司法部门）提交申请。申请必须包含购买协议（通常是初步的“预备合同”）、买家与瑞士或特定地点的联系证明、购房属于许可类别的证据，以及确认房产符合面积和用途要求的证明。州当局会根据联邦配额（针对度假住所）和各州标准审核申请。处理时间从小州的 2–6 周到日内瓦或沃州的 2–3 个月不等。"
           },
           "6": {
-            "heading": "Practical Strategies for Foreign Buyers",
+            "heading": "外国买家的实用策略",
             "level": "2",
-            "content": "For high-net-worth individuals relocating to Switzerland, several practical strategies can simplify the real estate acquisition process. The most straightforward approach is to obtain a B permit before purchasing property. With a valid residence permit, acquiring a primary residence becomes essentially the same process as for a Swiss citizen. For families who wish to purchase before their permit is issued, it is sometimes possible to enter into a conditional purchase agreement (Vorvertrag) that is contingent on the permit being granted. For those interested in acquiring secondary residences or investment properties, incorporating a Swiss company can sometimes provide a pathway, though this requires careful structuring to avoid being classified as a foreign-controlled company. Working with a specialized real estate advisor who understands both Lex Koller and the local market is essential. Off-market properties — common in the luxury segment — often represent the best opportunities and require an advisor with established networks."
+            "content": "对于移居瑞士的高净值人士，几项实用策略可以简化购房流程。最直接的方式是在购房前获得 B类许可。持有有效许可后，购置主要住所的流程与瑞士公民基本一致。对于希望在许可签发前购买的家庭，有时可以签署一份以许可获批为前提条件的附条件购买协议 (Vorvertrag)。对于有兴趣购置次要住所或投资房产的人士，通过设立瑞士公司有时可以提供路径，但这需要仔细的架构设计，以避免被归类为外资控股公司。与精通 Lex Koller 和当地市场的专业房产顾问合作至关重要。高端市场的“非公开房源”通常是最佳机会，需要拥有成熟人脉网的顾问协助。"
           },
           "7": {
-            "heading": "Recent Developments and Outlook",
+            "heading": "最新进展与展望",
             "level": "2",
-            "content": "There have been periodic discussions about reforming or abolishing Lex Koller. A 2017 federal proposal to loosen restrictions on commercial property acquisition was shelved, and more recent discussions have focused on tightening rather than loosening the law, particularly regarding secondary residences in tourist areas. For the foreseeable future, Lex Koller remains firmly in place. Relocating families should plan their real estate strategy in conjunction with their immigration timeline — the two are intimately connected, and proper coordination can save significant time and complexity."
+            "content": "关于改革或废除 Lex Koller 的讨论时有发生。2017 年一项旨在放宽商业地产购置限制的联邦提议被搁置，而最近的讨论更多集中在收紧而非放宽法律，尤其是在旅游区的次要住所方面。在可预见的未来，Lex Koller 仍将稳固执行。移居家庭应结合移民时间表规划其房产策略——两者紧密相连，适当的协调可以节省大量时间和降低复杂性。"
           },
           "8": {
-            "heading": "Property Prices: What to Expect",
+            "heading": "房价预期",
             "level": "2",
-            "content": "Swiss real estate prices, particularly in prime locations, are among the highest in the world. In Zurich city, expect CHF 15,000–35,000 per square metre for prime residential property. Gold Coast communities along Lake Zurich (Küsnacht, Zollikon, Herrliberg) command premiums of CHF 20,000–40,000/m². In Zug, town centre properties range from CHF 12,000–25,000/m², with surrounding villages from CHF 8,000–14,000/m². Schwyz offers more accessible pricing at CHF 6,000–14,000/m² lakeside and CHF 4,000–8,000/m² in inland villages. These prices reflect the quality, stability, and scarcity of Swiss real estate — and the fact that property in Switzerland has historically been one of the most reliable stores of value globally."
+            "content": "瑞士房价，尤其是核心地段的房价，位居全球最高之列。在苏黎世市中心，核心住宅区的单价约为 15,000–35,000 瑞郎/m²。苏黎世湖沿岸的“黄金海岸”社区（如 Küsnacht, Zollikon, Herrliberg）单价则高达 20,000–40,000 瑞郎/m²。在楚格，镇中心房产单价在 12,000–25,000 瑞郎/m²，周边村庄约为 8,000–14,000 瑞郎/m²。施维茨提供更亲民的价格，湖畔约为 6,000–14,000 瑞郎/m²，内陆村庄为 4,000–8,000 瑞郎/m²。这些价格反映了瑞士房产的高品质、稳定性和稀缺性，同时也反映了瑞士房产在历史上一直是全球最可靠的价值储存手段之一。"
           }
         },
-        "imageAlt": "金色时光下的瑞士湖畔豪华别墅与阿尔卑斯山背景"
+        "imageAlt": "瑞士湖畔高端别墅，金色时刻下的阿尔卑斯背景"
       },
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
-        "categoryLabel": "Lifestyle",
-        "readTime": "11 min read",
-        "date": "April 1, 2026",
-        "title": "Best International Schools in Zurich, Zug, and Schwyz",
-        "metaDescription": "Comprehensive guide to the best international schools in Zurich, Zug, and Schwyz. Compare IB, American, British, and Swiss curricula, fees, admissions timelines, and boarding options.",
-        "excerpt": "Compare the top international schools across Zurich, Zug, and Schwyz — from IB programmes and Swiss Matura to boarding options, tuition fees, and admissions guidance.",
+        "categoryLabel": "生活方式",
+        "readTime": "阅读时长 11 分钟",
+        "date": "2026年4月1日",
+        "title": "苏黎世、楚格和施维茨最佳国际学校指南",
+        "metaDescription": "苏黎世、楚格和施维茨顶级国际学校完整指南。对比 IB、美国、英国及瑞士课程、费用、入学时间表和寄宿选项。",
+        "excerpt": "对比苏黎世、楚格和施维茨的顶级国际学校——涵盖 IB 课程、瑞士 Matura 高考、寄宿选项、学费以及入学指导。",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "For families relocating to Switzerland, choosing the right school is often the single most important decision after canton selection. Switzerland is home to some of the finest international schools in the world, offering a range of curricula — International Baccalaureate (IB), American, British, and Swiss Matura — in multilingual environments that prepare children for global careers. This guide covers the leading international schools across three key relocation cantons: Zurich, Zug, and Schwyz."
+            "content": "对于移居瑞士的家庭而言，选择合适的学校通常是继选州之后最重要的决定。瑞士拥有全球顶尖的国际学校，在多语言环境中提供包括国际文凭 (IB)、美国、英国和瑞士 Matura（高考）在内的多种课程，为孩子们未来的全球职业生涯做好准备。本指南涵盖了三个主要移居州：苏黎世、楚格和施维茨的领先国际学校。"
           },
           "1": {
-            "heading": "International Schools in Zurich",
+            "heading": "苏黎世的国际学校",
             "level": "2",
-            "content": "Zurich offers the widest selection of international schools in the German-speaking part of Switzerland, reflecting its status as the country's largest city and a major international business hub."
+            "content": "苏黎世作为瑞士最大的城市和主要的国际商业枢纽，在德语区提供了最丰富的国际学校选择。"
           },
           "2": {
-            "heading": "Zurich International School (ZIS)",
+            "heading": "苏黎世国际学校 (ZIS)",
             "level": "3",
-            "content": "Zurich International School is one of the most established and highly regarded international schools in Switzerland. Founded in 1963, ZIS operates across four campuses in the Zurich area — Wädenswil, Kilchberg, Adliswil, and the new upper school campus in Adliswil. The school serves approximately 1,500 students aged 3–18 from over 55 nationalities. ZIS offers the IB Diploma Programme, IB Middle Years Programme (MYP), and the IB Primary Years Programme (PYP). The language of instruction is English, with strong German and additional language programmes. Annual tuition ranges from approximately CHF 30,000 for early childhood to CHF 42,000 for the upper school (Diploma Programme). Admissions are competitive, and families are encouraged to apply at least 6–12 months before their intended start date."
+            "content": "苏黎世国际学校是瑞士历史最悠久、声誉最高的国际学校之一。ZIS 成立于 1963 年，在苏黎世地区的 Wädenswil、Kilchberg、Adliswil 设有四个校区。学校拥有约 1,500 名来自 55 个国家的学生（3-18 岁）。ZIS 提供 IB 文凭课程、IB 中学课程 (MYP) 和 IB 小学课程 (PYP)。教学语言为英语，并配有极强的德语及其他语言项目。年度学费从幼儿阶段的约 30,000 瑞郎到高中阶段的 42,000 瑞郎不等。入学竞争激烈，建议家庭至少在预定入学日期前 6–12 个月申请。"
           },
           "3": {
-            "heading": "Inter-Community School Zurich (ICS)",
+            "heading": "苏黎世跨社区学校 (ICS)",
             "level": "3",
-            "content": "Inter-Community School Zurich is located in Zumikon, on the prestigious Gold Coast east of the city. The school serves approximately 900 students aged 3–18. ICS offers the IB curriculum across all levels (PYP, MYP, DP) and is known for its inclusive, community-oriented approach. The school has a strong emphasis on mother-tongue language maintenance, which is particularly valuable for families relocating from non-English-speaking countries. Annual tuition is approximately CHF 28,000–38,000 depending on the grade level. ICS also offers an extensive after-school activities programme and excellent facilities including science labs, art studios, and sports facilities."
+            "content": "苏黎世跨社区学校位于城市东部著名的黄金海岸 Zumikon 地区。学校服务约 900 名 3-18 岁的学生。ICS 在所有阶段都提供 IB 课程（PYP, MYP, DP），并以其包容性和社区导向的氛围而闻名。学校非常强调母语维护，这对于从非英语国家移居的家庭尤为宝贵。年度学费根据年级不同约为 28,000–38,000 瑞郎。ICS 还提供丰富的课后活动项目以及包括科学实验室、艺术工作室和体育设施在内的卓越硬件。"
           },
           "4": {
-            "heading": "Swiss International School (SIS) Zurich",
+            "heading": "瑞士国际学校 (SIS) 苏黎世",
             "level": "3",
-            "content": "SIS Zurich offers a unique bilingual (English-German) programme that follows both the Swiss and international curricula. This is an excellent choice for families who want their children to integrate into Swiss society while maintaining an international education. SIS Zurich-Wollishofen campus serves students from kindergarten through secondary school. Annual tuition is approximately CHF 25,000–35,000. The bilingual model — with roughly equal instruction time in English and German — produces graduates who are fluent in both languages, giving them the option of either Swiss university entrance (via Matura) or international university applications (via IB or equivalent)."
+            "content": "SIS 苏黎世提供独特的英德双语课程，同时遵循瑞士和国际课程标准。对于希望子女在保持国际教育的同时融入瑞士社会的家庭，这是一个绝佳选择。SIS 苏黎世 Wollishofen 校区提供从幼儿园到中学的教育。年度学费约为 25,000–35,000 瑞郎。其双语模式——英语和德语授课时间大致相等——培养的毕业生能流利使用两种语言，这让他们既可以选择考取瑞士大学（通过 Matura），也可以申请国际大学（通过 IB 或同等学历）。"
           },
           "5": {
-            "heading": "International Schools in Zug",
+            "heading": "楚格的国际学校",
             "level": "2",
-            "content": "Zug, despite its relatively small size, offers excellent international schooling options — driven by its large international community (over 35% foreign residents) and its status as \"Crypto Valley.\""
+            "content": "楚格虽然规模相对较小，但拥有出色的国际教育选择，这主要归功于其庞大的外籍社区（外籍居民占比超过 35%）及其“加密谷”的地位。"
           },
           "6": {
-            "heading": "International School of Zug and Luzern (ISZL)",
+            "heading": "楚格和卢塞恩国际学校 (ISZL)",
             "level": "3",
-            "content": "ISZL is the premier international school in central Switzerland and consistently ranked among the top IB schools globally. With campuses in Hünenberg (Zug) and Riverside (Lucerne), ISZL serves approximately 1,400 students aged 3–18 from over 60 nationalities. The school offers the full IB continuum (PYP, MYP, DP) and is renowned for its academic excellence, achieving IB Diploma pass rates consistently above 95% with average scores well above the global mean. ISZL's facilities are world-class, including purpose-built science laboratories, performing arts centres, and extensive sports facilities including swimming pools and all-weather pitches. Annual tuition ranges from approximately CHF 28,000 for early childhood to CHF 40,000 for the Diploma Programme. ISZL has strong university placement records, with graduates regularly admitted to top universities including Oxbridge, Ivy League, ETH Zurich, and leading European institutions."
+            "content": "ISZL 是瑞士中部首屈一指的国际学校，始终位列全球顶级 IB 学校之列。ISZL 在 Hünenberg（楚格）和 Riverside（卢塞恩）设有校区，拥有约 1,400 名来自 60 多个国家的 3-18 岁学生。学校提供完整的 IB 课程体系，并以学术卓越著称，IB 文凭通过率始终保持在 95% 以上，平均分远高于全球均值。ISZL 的设施是世界级的，包括专门建造的科学实验室、表演艺术中心以及包括游泳池和全天候球场在内的广泛体育设施。年度学费从幼儿阶段的约 28,000 瑞郎到文凭课程阶段的 40,000 瑞郎不等。ISZL 拥有极佳的升学记录，毕业生经常被包括牛剑、常春藤、苏黎世联邦理工及欧洲领先学府在内的顶级名校录取。"
           },
           "7": {
-            "heading": "Institut Montana Zugerberg",
+            "heading": "蒙塔纳学院 (Institut Montana Zugerberg)",
             "level": "3",
-            "content": "Institut Montana is a unique institution sitting at 1,000 metres elevation on the Zugerberg mountain overlooking Zug. Founded in 1926, it combines the traditions of a Swiss boarding school with a modern international curriculum. The school offers both the IB Diploma and the Swiss Matura, giving students a genuine choice of educational pathways. Boarding facilities are available, making it one of the few boarding school options in the Zurich/Zug region. Institut Montana serves approximately 300 students (roughly 60% boarding, 40% day students) from over 40 nationalities. Annual day student fees are approximately CHF 35,000–45,000, while boarding fees are approximately CHF 65,000–75,000. The school's mountain campus offers an exceptionally safe and focused learning environment."
+            "content": "蒙塔纳学院是一所独特的机构，坐落在海拔 1,000 米的楚格山上，俯瞰楚格全景。它成立于 1926 年，将瑞士寄宿学校的传统与现代国际课程相结合。学校同时提供 IB 文凭和瑞士 Matura，为学生提供真正的教育路径选择。提供寄宿设施，使其成为苏黎世/楚格地区少数几个寄宿选项之一。蒙塔纳学院约有 300 名学生（约 60% 为寄宿生，40% 为走读生），来自 40 多个国家。年度走读生学费约为 35,000–45,000 瑞郎，而寄宿费用约为 65,000–75,000 瑞郎。其山顶校区提供了异常安全且专注的学习环境。"
           },
           "8": {
-            "heading": "Curriculum Comparison: IB vs. Swiss Matura vs. American/British",
+            "heading": "课程对比：IB vs. 瑞士 Matura vs. 美式/英式课程",
             "level": "2",
-            "content": "The International Baccalaureate (IB) Diploma is the most widely available international curriculum in Switzerland. It is recognized by universities worldwide and provides a broad, rigorous education across six subject groups. The IB is ideal for families who may relocate again, as it is globally portable. The Swiss Matura is the domestic Swiss university entrance qualification. It provides an exceptionally rigorous education with strong emphasis on mathematics, sciences, and languages. Graduates with a Swiss Matura have guaranteed admission to Swiss universities (including ETH Zurich), making it attractive for families committed to long-term residence. American curricula (following US Common Core standards with AP courses) are available at a few schools and are preferred by families planning to apply to US universities. British curricula (following the English National Curriculum with IGCSEs and A-Levels) are less common in the Zurich/Zug region but available at some schools."
+            "content": "国际文凭 (IB) 是瑞士最广泛使用的国际课程，获得全球大学认可，提供涵盖六个学科组的广泛且严谨的教育。IB 适合可能再次搬迁的家庭，因为它具有全球通用性。瑞士 Matura 是瑞士国内大学的入学资格，教育水平极高，重点强调数学、科学和语言。持有 Matura 的毕业生可以保证进入瑞士大学（包括苏黎世联邦理工），这对致力于长期定居的家庭很有吸引力。美式课程（遵循美国核心标准并配有 AP 课程）在少数学校提供，深受计划申请美国大学的家庭青睐。英式课程（遵循英国国家课程并配有 IGCSE 和 A-Level）在苏黎世/楚格地区较少见，但在某些学校仍有提供。"
           },
           "9": {
-            "heading": "Admissions Timeline and Practical Advice",
+            "heading": "入学时间表与实用建议",
             "level": "2",
-            "content": "International school admissions in Switzerland follow a structured timeline. Most schools open applications 12–18 months before the academic year begins (typically August/September start). For mid-year entry, applications should be submitted as early as possible, though most schools can accommodate mid-year arrivals with sufficient notice. Key considerations for relocating families include: apply early, as top schools have waiting lists for certain year groups; request a school visit or virtual tour before committing; consider the commute — Swiss public transport is excellent, but a 45-minute commute may be challenging for younger children; evaluate the school's integration support (ESL/EAL programmes) if your children are not native English speakers; and check whether the school offers mother-tongue language programmes to maintain your family's heritage language. We work closely with admissions teams at all major international schools and can facilitate introductions, campus visits, and priority placement for our clients."
+            "content": "瑞士国际学校的录取遵循结构化的时间表。大多数学校在学年开始前 12–18 个月开放申请（通常为 8/9 月入学）。对于中途插班，应尽早提交申请，尽管大多数学校在提前通知的情况下可以安排插班。对移居家庭的关键建议包括：及早申请，因为顶尖学校的部分年级会有候补名单；在做决定前预约实地或视频参观；考虑通勤——瑞士公共交通很棒，但 45 分钟的通勤对幼儿来说可能很辛苦；如果您的孩子母语不是英语，请评估学校的英语支持项目 (ESL/EAL)；并检查学校是否提供母语项目以维持家庭的语言传承。我们与所有主要国际学校的招生团队紧密合作，可以为我们的客户协调引荐、校园参观及优先安排。"
           }
         },
-        "imageAlt": "以阿尔卑斯山为背景的瑞士国际学校校园"
+        "imageAlt": "瑞士国际学校校区，背景为阿尔卑斯山"
       },
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
-        "categoryLabel": "Relocation",
-        "readTime": "9 min read",
-        "date": "April 1, 2026",
-        "title": "How Long Does Relocating to Switzerland Take? A Realistic Timeline",
-        "metaDescription": "Realistic timeline for relocating to Switzerland: 3-month, 6-month, 9-month, and 12-month scenarios. What factors speed up or delay your Swiss relocation.",
-        "excerpt": "From fast-track 3-month relocations to comprehensive 12-month programmes — understand what drives the timeline and how to plan your move to Switzerland.",
+        "categoryLabel": "迁居",
+        "readTime": "阅读时长 9 分钟",
+        "date": "2026年4月1日",
+        "title": "移居瑞士需要多长时间？现实的时间表",
+        "metaDescription": "移居瑞士的现实时间表：3 个月、6 个月、9 个月和 12 个月的不同方案。了解哪些因素会加速或延迟您的瑞士迁居。",
+        "excerpt": "从 3 个月的快速移居到 12 个月的全方位规划——了解影响进度的因素，并为您的瑞士移居之旅做好准备。",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "One of the first questions every prospective client asks is: \"How long will this take?\" The honest answer is that a well-executed Swiss relocation typically takes 6–12 months from first serious conversation to your family being settled, children in school, and all administrative matters resolved. However, timelines can range from as short as 3 months (for individuals with straightforward situations) to 18+ months (for complex family offices or multi-generational relocations). This guide breaks down realistic timelines based on common scenarios."
+            "content": "每一位潜在客户问的第一个问题通常都是：“这需要多长时间？”诚实的回答是：从第一次正式咨询到全家定居、孩子入校以及所有行政事务解决，一个执行良好的瑞士迁居通常需要 6–12 个月。然而，时间范围可以从 3 个月（针对情况简单的个人）到 18 个月以上（针对复杂的家族办公室或跨代移居）。本指南根据常见场景拆解了现实的时间表。"
           },
           "1": {
-            "heading": "The 3-Month Timeline: Fast Track",
+            "heading": "3 个月时间表：快速通道",
             "level": "2",
-            "content": "A 3-month relocation is achievable but requires several favorable conditions: the individual is an EU/EFTA national (simplifying the permit process significantly), they are planning to rent rather than purchase property, they have a relatively straightforward financial situation, and school placement is either not needed or is for a single child at a school with availability. In a fast-track scenario, Month 1 covers canton selection, initial tax advisory, identification of rental properties, and B-permit application initiation. Month 2 involves signing a rental agreement, B-permit processing and approval (EU nationals typically receive approval within 2–4 weeks), health insurance setup, and school enrollment. Month 3 is the physical move — furniture shipping, Swiss bank account opening, municipal registration (Einwohnerkontrolle), and the initial settling-in period. This timeline is most common for single professionals or couples without school-age children who are EU/EFTA nationals relocating from within Europe."
+            "content": "3 个月的移居是可以实现的，但需要具备几个有利条件：申请人必须是 EU/EFTA 国民（这显著简化了许可流程）、计划租房而非买房、财务状况相对直接，且无需安排学校学位，或仅为一名孩子申请有学位的学校。在快速方案中，第 1 个月涵盖选州、初步税务咨询、确定租赁房产和启动 B类许可申请。第 2 个月涉及签署租赁协议、B类许可审核与获批（欧盟国民通常在 2–4 周内获批）、设立医疗保险和学校注册。第 3 个月是实地搬迁——家具运输、开设瑞士银行账户、市镇登记登记 (Einwohnerkontrolle) 以及初步安顿。这在从欧洲境内移居、无学龄子女的欧盟/欧洲自由贸易联盟单身专业人士或夫妇中最为常见。"
           },
           "2": {
-            "heading": "The 6-Month Timeline: Standard",
+            "heading": "6 个月时间表：标准方案",
             "level": "2",
-            "content": "Six months is the most common timeline for a well-prepared relocation. This timeline accommodates non-EU nationals (who face longer permit processing times), families with school-age children, individuals pursuing lump-sum taxation, and those who wish to purchase rather than rent their primary residence. Months 1–2 cover strategic planning: comprehensive financial review, canton and municipality selection, lump-sum taxation preliminary analysis, school research and campus visits, initial property search, and B-permit documentation preparation. Months 3–4 involve formal applications: B-permit application submission, lump-sum taxation formal application to cantonal authorities, school applications and placement confirmation, property shortlisting and viewings, and opening of a Swiss bank account (which can take 3–6 weeks for full onboarding). Months 5–6 are execution: B-permit approval and collection, property purchase or rental agreement signing, physical relocation, health insurance activation, municipal registration, children start school, and lifestyle setup (car registration, utility accounts, household staff permits if applicable)."
+            "content": "6 个月是准备充分的移居最常见的时间表。该时间表适用于非欧盟国民（面临较长的许可审核期）、有学龄子女的家庭、追求定额税制的个人以及希望购买而非租赁主要住所的人士。第 1–2 个月涵盖战略规划：全面的财务审查、州和市镇选择、定额税初步分析、学校调研与参观、初步房产搜索及 B类许可文件准备。第 3–4 个月涉及正式申请：提交 B类许可申请、向州当局提交定额税正式申请、学校申请与学位确认、房产筛选与实地看房，以及开设瑞士银行账户（全面入职可能需要 3–6 周）。第 5–6 个月是执行阶段：B类许可获批并领取、签署购房或租房协议、实地迁居、激活医疗保险、市镇登记、子女入学以及生活配套设立（汽车注册、公用事业账户、家政人员许可等）。"
           },
           "3": {
-            "heading": "The 9-Month Timeline: Complex",
+            "heading": "9 个月时间表：复杂方案",
             "level": "2",
-            "content": "Nine months is typical for relocations involving pre-immigration asset restructuring, family offices requiring Swiss corporate structures, multiple family members with separate permit requirements, luxury property purchases (due diligence, Lex Koller, notarial process), or families coming from non-standard jurisdictions. The additional time is primarily consumed by asset restructuring (which often needs to be completed before establishing Swiss tax residence, to avoid triggering Swiss tax on gains realized during the restructuring), corporate structure establishment (Swiss company formation itself takes 2–4 weeks, but designing the structure, capitalization, and banking takes longer), and property acquisition (from first viewing to notarial completion, a Swiss property purchase typically takes 3–5 months)."
+            "content": "9 个月通常适用于涉及移民前资产重组、家族办公室需要瑞士企业结构、多个家庭成员有独立许可要求、购置高端房产（尽职调查、Lex Koller、公证流程）或来自非标准管辖区的家庭。额外的时间主要耗费在资产重组上（通常需在确立瑞士税务居民身份前完成，以避免重组收益触发瑞士税收）、企业结构确立（瑞士公司注册本身需 2–4 周，但设计结构、注资和银行开户耗时较长）以及房产收购（从第一次看房到公证完成，瑞士购房通常需要 3–5 个月）。"
           },
           "4": {
-            "heading": "The 12-Month Timeline: Full Program",
+            "heading": "12 个月时间表：全方位计划",
             "level": "2",
-            "content": "A 12-month timeline is appropriate for the most comprehensive relocations — typically multi-generational families establishing a full presence including a family office, multiple properties, and complex governance structures. Months 1–3 cover strategy and planning: comprehensive family charter review, multi-jurisdictional tax analysis, corporate structure design, family office framework, school selection for multiple children, and property requirements definition. Months 4–6 involve pre-immigration execution: asset restructuring, corporate formations (Swiss AG or GmbH), director appointments, banking relationships initiated, property search intensified, and school applications submitted. Months 7–9 are the formal immigration phase: B-permit applications for all family members, lump-sum taxation negotiations, property acquisition (notarial process), and family office operational setup. Months 10–12 are the settlement phase: physical relocation, children start school, family office fully operational, household staff hired and permitted, community integration begins, and all administrative systems functional."
+            "content": "12 个月的时间表适用于最全面的移居——通常是跨代大家族在瑞士建立全面存在，包括设立家族办公室、购置多处房产和构建复杂的治理结构。第 1–3 个月涵盖战略与规划：全面的家族宪章审查、跨管辖区税务分析、企业结构设计、家族办公室框架、为多个孩子选校以及明确房产需求。第 4–6 个月涉及移民前执行：资产重组、设立瑞士公司（AG 或 GmbH）、董事任命、启动银行关系、加强房产搜索并提交学校申请。第 7–9 个月是正式移民阶段：为所有家庭成员申请 B类许可、定额税谈判、房产收购（公证流程）和家族办公室运营设立。第 10–12 个月是安顿阶段：实地迁居、子女入学、家族办公室全面运作、聘请家政人员并办好许可、社区融入开始，以及所有行政系统投入运行。"
           },
           "5": {
-            "heading": "Factors That Speed Up Your Relocation",
+            "heading": "加速移居的因素",
             "level": "2",
-            "content": "Several factors can accelerate the timeline. EU/EFTA nationality reduces permit processing from months to weeks. Choosing to rent initially rather than purchasing property eliminates the 3–5 month property acquisition timeline. Having clean, well-documented source-of-wealth records accelerates both banking onboarding and tax authority negotiations. Selecting a canton with efficient administrative processes (Zug and Schwyz are notably efficient) helps. Applying to schools with available places in your children's year groups avoids waiting lists. Engaging qualified Swiss advisors early — particularly tax advisors and immigration specialists — ensures the application is right the first time, avoiding delays from rejections or requests for additional information."
+            "content": "几个因素可以缩短时间表。EU/EFTA 国籍将许可审核从几个月缩短到几周。初期选择租房而非买房可以省去 3–5 个月的房产收购期。拥有清晰且经过充分文件化的财富来源记录，可以加速银行入职和税务局谈判。选择行政流程高效的州（楚格和施维茨以高效著称）也会有所帮助。申请在子女年级组有空位的学校可以避开候补名单。及早聘请合格的瑞士顾问——尤其是税务顾问和移民专家——可确保申请材料一次性准确无误，避免因退回或补充材料导致的延迟。"
           },
           "6": {
-            "heading": "Factors That Delay Your Relocation",
+            "heading": "导致延迟的因素",
             "level": "2",
-            "content": "Common sources of delay include complex source-of-wealth documentation (particularly for crypto wealth or wealth from jurisdictions with limited transparency), multi-jurisdictional asset restructuring that requires coordination across several legal systems, contested lump-sum taxation negotiations where the cantonal authority disagrees with the proposed taxable base, school waiting lists (popular year groups at top schools can have waiting lists of 6–12 months), Lex Koller authorization requirements for property purchases by non-residents, and political or regulatory changes (though rare, changes in cantonal tax policy can require plan adjustments). It is always better to plan conservatively and arrive early than to rush and encounter problems that could have been avoided with better preparation."
+            "content": "常见的延迟因素包括：复杂的财富来源证明（尤其是针对加密财富或透明度有限的管辖区）、需要协调多个法律系统的跨国资产重组、州当局对拟定计税基数有异议的定额税谈判、学校候补名单（顶尖学校热门年级的候补期可达 6–12 个月）、非居民买房所需的 Lex Koller 审批要求，以及政治或监管变动（虽然罕见，但州税务政策变动可能需要调整计划）。宁可保守规划并提前到达，也不要匆忙行事并遇到本可以通过更好准备来避免的问题。"
           },
           "7": {
-            "heading": "Our Recommendation",
+            "heading": "我们的建议",
             "level": "2",
-            "content": "For most families, we recommend beginning the process at least 9 months before your target arrival date. This provides sufficient time for proper planning, accommodates unexpected delays, and ensures the best outcome for school placement and property selection. Starting early also allows you to take advantage of optimal timing for lump-sum taxation applications (typically aligned with the Swiss tax year starting January 1) and to coordinate the transition of your tax residency cleanly. The investment in proper planning pays dividends throughout the relocation — and for years afterward. A well-structured relocation sets the foundation for your family's entire Swiss experience."
+            "content": "对于大多数家庭，我们建议至少在目标到达日期前 9 个月开始流程。这为适当的规划提供了充足的时间，可以应对意外延迟，并确保在选校和选房方面获得最佳结果。及早开始还能让您利用定额税申请的最佳时机（通常与 1 月 1 日开始的瑞士纳税年度保持一致），并整齐地协调税务居民身份的过渡。在适当规划上的投入会在整个迁居过程中——以及随后的数年里——产生回报。一个结构良好的移居为全家在瑞士的整个体验奠定了基础。"
           }
         },
-        "imageAlt": "在瑞士高档公寓中的搬家箱，可见湖景"
+        "imageAlt": "瑞士高端公寓内的搬家箱，背景为湖景"
       },
       "opening-swiss-private-bank-account": {
         "category": "banking",
-        "categoryLabel": "Banking",
-        "readTime": "10 min read",
-        "date": "April 1, 2026",
-        "title": "Opening a Swiss Private Bank Account: Requirements and Process",
-        "metaDescription": "Everything you need to know about opening a Swiss private bank account: AML/KYC requirements, source-of-wealth documentation, and what banks expect from international clients.",
-        "excerpt": "The definitive guide to Swiss private banking — from AML/KYC requirements and source-of-wealth documentation to crypto wealth handling and choosing the right banking partner.",
+        "categoryLabel": "银行业",
+        "readTime": "阅读时长 10 分钟",
+        "date": "2026年4月1日",
+        "title": "开设瑞士私人银行账户：要求与流程",
+        "metaDescription": "开设瑞士私人银行账户所需了解的一切：反洗钱 (AML)/了解您的客户 (KYC) 要求、财富来源证明文件以及银行对国际客户的期望。",
+        "excerpt": "瑞士私人银行终极指南——从 AML/KYC 要求和财富来源文件证明，到加密财富处理及选择理想的银行伙伴。",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Switzerland's private banking sector manages approximately CHF 7.9 trillion in assets — roughly 25% of all global cross-border private wealth. Opening a private banking relationship in Switzerland is a significant milestone in any relocation, providing access to world-class wealth management, custody services, and the stability of the Swiss financial system. However, the process is rigorous and requires careful preparation."
+            "content": "瑞士私人银行部门管理着约 7.9 万亿瑞郎的资产——约占全球所有跨境私人财富的 25%。在瑞士建立私人银行关系是任何迁居计划中的重要里程碑，它提供了进入世界级财富管理、托管服务及瑞士金融系统稳定性的渠道。然而，这一过程非常严谨，需要细致的准备。"
           },
           "1": {
-            "heading": "The Swiss Banking Landscape",
+            "heading": "瑞士银行业格局",
             "level": "2",
-            "content": "Switzerland hosts approximately 243 licensed banks, ranging from the two global giants (UBS and, until its 2023 merger, Credit Suisse) to dozens of boutique private banks and cantonal banks. For high-net-worth clients relocating to Switzerland, the relevant institutions fall into several categories. The major Swiss private banks — Julius Bär, Lombard Odier, Pictet, Vontobel, and EFG International — offer full-service private banking with minimum account sizes typically starting at CHF 1–5 million. Boutique and family-owned banks — such as Bordier, Mirabaud, and Reichmuth — provide even more personalized service, often with higher minimum thresholds. Crypto-native banks — SEBA Bank and Sygnum Bank — are Swiss-regulated banks offering integrated traditional and digital asset services, ideal for clients with significant cryptocurrency holdings. Cantonal banks (Kantonalbanken) offer standard banking services with state guarantees, suitable for day-to-day banking alongside a private banking relationship."
+            "content": "瑞士拥有约 243 家持牌银行，涵盖了两大全球巨头（瑞银 UBS 及 2023 年合并前的瑞士信贷）到数十家精品私人银行和州立银行。对于移居瑞士的高净值客户，相关机构可分为几类：主要的瑞士私人银行——如宝盛 (Julius Bär)、伦巴第奥迪尔 (Lombard Odier)、百达 (Pictet)、梵托贝尔 (Vontobel) 和瑞万通博 (EFG International)，提供全方位的私人银行服务，开户门槛通常在 100 万至 500 万瑞郎起。精品和家族经营的银行——如博迪尔 (Bordier)、米拉博 (Mirabaud) 和莱希穆特 (Reichmuth)，提供更具个性化的服务，通常门槛更高。加密原生银行——SEBA 银行和 Sygnum 银行，是瑞士受监管的银行，提供整合的传统资产与数字资产服务，是持有大量加密货币客户的理想选择。州立银行 (Kantonalbanken) 提供带有国家担保的标准银行服务，适合在建立私人银行关系的同时处理日常银行业务。"
           },
           "2": {
-            "heading": "AML/KYC Requirements",
+            "heading": "AML/KYC 要求",
             "level": "2",
-            "content": "Swiss banks are regulated by FINMA (the Swiss Financial Market Supervisory Authority) and must comply with comprehensive Anti-Money Laundering (AML) and Know Your Customer (KYC) requirements. These requirements have been significantly strengthened over the past decade, bringing Swiss banking in line with global standards while maintaining Swiss traditions of client service and discretion. The core requirements include identity verification — a valid passport (and usually a second form of ID), proof of address in Switzerland (or country of current residence), and biometric verification. Beneficial ownership documentation must be provided — if assets are held through structures (trusts, foundations, holding companies), the beneficial owner(s) must be identified. Source of wealth (SOW) documentation is the most important element — banks require a comprehensive narrative and supporting evidence explaining how the client accumulated their wealth. Source of funds (SOF) documentation explains where the specific funds being deposited originate — for example, which bank account they are being transferred from, and the transaction history of that account."
+            "content": "瑞士银行受 FINMA（瑞士金融市场监督管理局）监管，必须遵守全面的反洗钱 (AML) 和“了解您的客户” (KYC) 要求。这些要求在过去十年中显著加强，在保持瑞士服务与审慎传统的同时，使瑞士银行业与全球标准接轨。核心要求包括身份核实——有效护照（通常还需第二种身份证明）、瑞士（或现居住国）的地址证明以及生物识别核实。必须提供受益所有权文件——如果资产通过结构（信托、基金会、控股公司）持有，必须确认受益所有人。财富来源 (SOW) 文件是最重要的元素——银行需要全面的叙述和支持性证据，解释客户是如何积累财富的。资金来源 (SOF) 文件则解释具体存款资金的来源——例如，是从哪个银行账户转出的，以及该账户的交易历史。"
           },
           "3": {
-            "heading": "Source-of-Wealth Documentation: What Banks Expect",
+            "heading": "财富来源证明：银行的期望",
             "level": "2",
-            "content": "The source-of-wealth documentation is where most clients encounter the greatest scrutiny. Swiss banks are thorough and will not proceed until they are fully satisfied. For business owners and entrepreneurs, banks will expect company financial statements (typically 3–5 years), evidence of ownership (share certificates, commercial register extracts), dividend distribution records, and sale/exit documentation if wealth derives from a business sale. For investors, banks will want to see investment account statements showing portfolio growth, historical trade confirmations, and evidence of the original capital that was invested. For inherited wealth, the bank will request estate documentation, probate records, will/testament copies, and evidence of the deceased's wealth origin. For real estate wealth, property valuation reports, purchase and sale contracts, and rental income records are required."
+            "content": "财富来源文件是大多数客户面临最严格审查的地方。瑞士银行非常彻底，在完全满意之前不会继续流程。对于企业主和创业者，银行会期望看到公司财务报表（通常为 3–5 年）、所有权证明（股权证、商业登记提取物）、股息分配记录，以及如果财富源于公司出售的出售/退出文件。对于投资者，银行希望看到显示投资组合增长的账户对账单、历史交易确认书以及原始投资资本的证据。对于继承财富，银行会要求遗产文件、遗嘱认证记录、遗嘱副本以及被继承人财富来源的证据。对于房地产财富，需要房产估值报告、买卖合同和租金收入记录。"
           },
           "4": {
-            "heading": "What Banks Expect from Middle Eastern Clients",
+            "heading": "银行对中东客户的期望",
             "level": "3",
-            "content": "Swiss banks have extensive experience with clients from the GCC region and the broader Middle East. However, certain aspects of Middle Eastern wealth require additional documentation. For wealth derived from government positions or royal family connections, banks expect official appointment documentation, public records of the individual's role, and evidence separating personal wealth from state assets. For business wealth from the GCC, commercial licenses (trade licenses from DED, ADGM, DIFC, etc.), audited financial statements prepared to IFRS standards, and evidence of the business's operational history are required. Banks also appreciate a clear narrative — a well-prepared \"wealth story\" that explains in chronological order how the client's wealth was built, including key business milestones, investments, and liquidity events."
+            "content": "瑞士银行在服务海湾六国 (GCC) 和更广泛中东地区的客户方面拥有丰富经验。然而，中东财富的某些方面需要额外文件。对于源自政府职位或王室联系的财富，银行期望看到官方任命文件、个人角色的公开记录，以及区分个人财富与国家资产的证据。对于来自海湾地区的商业财富，需要商业执照（来自 DED, ADGM, DIFC 等机构）、根据国际财务报告准则 (IFRS) 准备的审计财务报表，以及业务运营历史证明。银行也非常看重清晰的叙述——一个准备良好的“财富故事”，按时间顺序解释客户的财富是如何建立的，包括关键业务里程碑、投资和流动性事件。"
           },
           "5": {
-            "heading": "Crypto Wealth Documentation",
+            "heading": "加密财富证明文件",
             "level": "3",
-            "content": "For clients with significant cryptocurrency wealth, Switzerland is one of the most accommodating banking jurisdictions in the world. SEBA Bank and Sygnum Bank are fully regulated Swiss banks that specialize in digital assets. However, documenting crypto wealth requires a specific approach. Banks expect a complete chain of custody for crypto holdings — from initial acquisition (mining records, exchange purchase confirmations, OTC trade records) through to current holdings. Wallet addresses should be documentable with blockchain analytics showing the flow of assets. If wealth was created through early-stage crypto investments (e.g., purchasing Bitcoin before 2015), banks understand that exchange records may be incomplete, but expect whatever documentation exists plus a credible narrative. The tax treatment of crypto gains in the source country should be documented — banks want to see that appropriate tax obligations were met before funds enter Switzerland."
+            "content": "对于拥有大量加密财富的客户，瑞士是全球最包容的银行管辖区之一。SEBA 银行和 Sygnum 银行是专门从事数字资产的瑞士全牌照银行。然而，证明加密财富需要特定的方法。银行期望看到加密持仓的完整托管链——从最初获取（挖矿记录、交易所购买确认、场外交易记录）到当前持仓。钱包地址应可通过区块链分析工具进行文件化，显示资产流动路径。如果财富是通过早期加密投资创造的（例如在 2015 年前购买比特币），银行理解交易所记录可能不完整，但期望看到现有的任何文件加上可信的叙述。源籍国对加密收益的税务处理也应文件化——银行希望看到在资金进入瑞士前已履行适当的纳税义务。"
           },
           "6": {
-            "heading": "The Account Opening Process",
+            "heading": "开户流程",
             "level": "2",
-            "content": "The typical private bank account opening process follows a structured path. Initial contact is made through a referral (from an existing client, attorney, or advisor) or a direct approach. Banks generally prefer referrals, and a warm introduction from a trusted advisor can significantly smooth the process. A preliminary meeting — either in person at the bank's offices or via video conference — allows both parties to assess the fit. The bank evaluates the potential client's needs and risk profile, while the client evaluates the bank's services, team, and approach. If both parties wish to proceed, the bank issues a documentation checklist specific to the client's situation. The client (typically with advisor support) prepares and submits the required documentation. The bank's compliance team reviews the documentation — this internal review typically takes 2–6 weeks depending on the complexity of the case. If approved, the bank issues account opening documents for signature. Funds can then be transferred. From first contact to an operational account, the process typically takes 4–8 weeks for straightforward cases and 8–16 weeks for complex situations requiring enhanced due diligence."
+            "content": "典型的私人银行开户流程遵循结构化路径。最初的接触通常通过引荐（来自现有客户、律师或顾问）或直接申请。银行通常更喜欢引荐，由信任的顾问进行的正式介绍可以显著简化流程。初步会议——无论是在银行办公室面谈还是通过视频会议——允许双方评估契合度。银行评估潜在客户的需求和风险画像，而客户评估银行的服务、团队和方法。如果双方愿意继续，银行会针对客户情况发出文件清单。客户（通常在顾问支持下）准备并提交所需文件。银行的合规团队审核文件——这一内部审核通常需要 2–6 周，取决于案例的复杂程度。如果获批，银行发出开户文件供签署。随后即可转入资金。从第一次接触到账户投入使用，简单案例通常需 4–8 周，需要加强尽职调查的复杂情况则需 8–16 周。"
           },
           "7": {
-            "heading": "Choosing the Right Bank",
+            "heading": "选择合适的银行",
             "level": "2",
-            "content": "Selecting the right private bank is a significant decision that should consider several factors: the minimum account size (ranging from CHF 500,000 to CHF 10 million+), the bank's expertise in your specific asset classes (crypto, real estate, private equity), language capabilities (Arabic-speaking relationship managers are available at several Swiss banks), the bank's approach to discretionary vs. advisory mandates, fee structure (management fees, custody fees, transaction fees — these vary significantly between institutions), digital capabilities (online banking, mobile apps, real-time reporting), and the bank's risk appetite for your specific client profile. Many clients maintain relationships with two banks — a major private bank for core wealth management and a specialized institution (e.g., a crypto-native bank) for specific asset classes. We provide introductions to relationship managers at all major Swiss private banks and can facilitate the selection and onboarding process based on your specific needs."
+            "content": "选择合适的私人银行是一项重大决定，应考虑以下因素：最低开户规模（从 50 万到 1,000 万瑞郎以上不等）、银行在您特定资产类别（加密货币、房地产、私募股权）方面的专长、语言能力（多家瑞士银行设有说阿拉伯语的客户经理）、银行对全权委托 vs. 咨询委托的处理方式、费用结构（管理费、托管费、交易费——这些在不同机构间差异巨大）、数字化能力（网上银行、移动应用、实时报告）以及银行对您特定客户画像的风险偏好。许多客户会维持两家银行的关系——一家主要私人银行负责核心财富管理，一家专业机构（如加密原生银行）负责特定资产类别。我们提供与所有主要瑞士私人银行客户经理的引荐，并能根据您的具体需求协助筛选和入职流程。"
           }
         },
-        "imageAlt": "瑞士私人银行大堂，大理石地板和黄铜标牌"
+        "imageAlt": "瑞士私人银行大堂内部，大理石地板与黄铜标牌"
       },
       "swiss-residency-permits-guide": {
         "category": "immigration",
-        "categoryLabel": "Immigration",
-        "readTime": "11 min read",
-        "date": "April 1, 2026",
-        "title": "Swiss Residency Permits: B-Permit, C-Permit, and the Path to Citizenship",
-        "metaDescription": "Comprehensive guide to Swiss residency permits: B-permit and C-permit requirements, timelines, family inclusion, cantonal differences, and the path to Swiss citizenship.",
-        "excerpt": "Everything you need to know about Swiss residency permits — B-permit and C-permit requirements, processing timelines, family reunification, and the path to Swiss citizenship.",
+        "categoryLabel": "移民",
+        "readTime": "阅读时长 11 分钟",
+        "date": "2026年4月1日",
+        "title": "瑞士居留许可：B类、C类许可及入籍之路",
+        "metaDescription": "瑞士居留许可全方位指南：B类和 C类许可要求、时间表、家庭随迁、各州差异以及入籍瑞士的路径。",
+        "excerpt": "关于瑞士居留许可所需了解的一切——从 B类和 C类许可要求、审核时间，到家庭团聚及最终入籍瑞士的路径。",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Understanding Switzerland's residency permit system is fundamental to any relocation plan. The type of permit you hold affects everything — from your tax treatment and property rights to your family's stability and long-term options. This guide covers the main permit categories, their requirements, and the pathway from initial residence to Swiss citizenship."
+            "content": "了解瑞士的居留许可制度是任何移居计划的基础。您持有的许可类型会影响方方面面——从您的税务处理、房产购置权，到家庭的稳定性和长期选择。本指南涵盖了主要的许可类别、其要求，以及从初始居住到最终入籍瑞士的路径。"
           },
           "1": {
-            "heading": "Overview of the Swiss Permit System",
+            "heading": "瑞士许可制度概述",
             "level": "2",
-            "content": "Switzerland operates a tiered permit system that distinguishes between EU/EFTA nationals and third-country nationals. The main permit types relevant to relocating individuals are: the B permit (Aufenthaltsbewilligung/permis de séjour) — a residence permit that is renewable and the standard entry point; the C permit (Niederlassungsbewilligung/permis d'établissement) — a permanent settlement permit that provides greater rights and stability; the L permit — a short-term residence permit (up to one year, renewable once); and the G permit — a cross-border commuter permit. For high-net-worth individuals relocating to Switzerland, the B permit is the standard starting point, with a pathway to the C permit and eventually citizenship."
+            "content": "瑞士实行分层许可制度，区分 EU/EFTA（欧盟/欧洲自由贸易联盟）公民和第三国公民。与移居人士最相关的许可类型包括：B类许可 (Aufenthaltsbewilligung/permis de séjour)——可续期的居留许可，是标准的入境起点；C类许可 (Niederlassungsbewilligung/permis d'établissement)——永久定居许可，提供更大的权利和稳定性；L类许可——短期居留许可（最长一年，可续期一次）；以及 G类许可——跨境通勤许可。对于移居瑞士的高净值人士，B类许可是标准的起点，随后可通向 C类许可及最终入籍。"
           },
           "2": {
-            "heading": "The B Permit: Your Gateway to Switzerland",
+            "heading": "B类许可：通往瑞士的门户",
             "level": "2",
-            "content": "The B permit is the standard residence permit for foreign nationals living in Switzerland. However, the application process and conditions differ significantly based on nationality."
+            "content": "B类许可是居住在瑞士的外国公民的标准居留许可。然而，申请流程和条件因国籍而异。"
           },
           "3": {
-            "heading": "EU/EFTA Nationals",
+            "heading": "EU/EFTA 公民",
             "level": "3",
-            "content": "For EU/EFTA nationals, obtaining a B permit is relatively straightforward under the bilateral agreements between Switzerland and the EU. EU/EFTA nationals need to demonstrate either an employment contract with a Swiss employer, self-employment with evidence of economic activity, or sufficient financial resources to support themselves without recourse to social assistance (this is the category most relevant to high-net-worth individuals). The permit is granted for 5 years and is renewable. Application processing typically takes 2–4 weeks. The process involves registering at the municipal residents' office (Einwohnerkontrolle) with your passport, proof of health insurance, and evidence of financial resources or employment."
+            "content": "对于 EU/EFTA 公民，根据瑞士与欧盟之间的双边协议，获得 B类许可相对直接。EU/EFTA 公民需证明拥有：瑞士雇主的雇佣合同、具有经济活动证据的自雇证明，或有足够的财务资源支持自己而无需依赖社会救助（此类别与高净值人士最相关）。许可期限为 5 年并可续期。申请审核通常需要 2–4 周。流程包括在市镇居民登记处 (Einwohnerkontrolle) 登记，并提交护照、医疗保险证明以及财务资源或就业证明。"
           },
           "4": {
-            "heading": "Non-EU/EFTA Nationals",
+            "heading": "非 EU/EFTA 公民",
             "level": "3",
-            "content": "For non-EU/EFTA nationals (including GCC, Middle Eastern, Asian, and other third-country nationals), the B permit process is more complex. Non-EU nationals generally need to demonstrate that their presence in Switzerland serves the country's economic interest — which is typically met through one of the following: establishing a business that creates jobs or contributes to the local economy, making a significant investment, or qualifying for lump-sum taxation (which creates substantial tax revenue for the canton and municipality). Cantonal authorities have significant discretion in granting B permits to non-EU nationals. Cantons that are keen to attract lump-sum taxpayers (Zug, Schwyz, Vaud, Valais, Graubünden) tend to have more streamlined processes. The application typically requires a detailed personal and financial dossier, a clear statement of the purpose of residence, evidence of suitable accommodation, proof of health insurance, and, if applicable, the lump-sum taxation application. Processing times for non-EU nationals range from 4–12 weeks, depending on the canton and the complexity of the application."
+            "content": "对于非 EU/EFTA 公民（包括 GCC 海湾国家、中东、亚洲及其他第三国国民），B类许可流程更为复杂。非欧盟国民通常需要证明其在瑞士的居住符合该国的经济利益——这通常通过以下方式之一实现：建立创造就业或贡献当地经济的企业、进行重大投资，或符合定额税制 (Lump-sum taxation) 资格（为州和市镇创造可观的税收）。州当局在向非欧盟国民发放 B类许可方面拥有很大的自由裁量权。倾向于吸引定额税纳税人的州（楚格、施维茨、沃州、瓦莱州、格劳宾登州）流程通常更精简。申请通常需要详细的个人和财务卷宗、清晰的居住目的说明、合适的住宿证明、医疗保险证明，以及（如适用）定额税申请。非欧盟国民的审核时间为 4–12 周，取决于所在州和申请的复杂程度。"
           },
           "5": {
-            "heading": "The C Permit: Permanent Settlement",
+            "heading": "C类许可：永久定居",
             "level": "2",
-            "content": "The C permit provides permanent residence rights in Switzerland. It is the most secure form of residence — it is indefinite, provides greater protection against revocation, and gives the holder almost all the rights of a Swiss citizen (except voting rights and passport). For EU/EFTA nationals, the C permit is available after 5 years of continuous B-permit residence (reduced to 5 years from the previous 10 for most EU nations). For non-EU nationals, the standard waiting period is 10 years of continuous B-permit residence, though this can be reduced to 5 years for nationals of certain countries (USA, Canada, UK, and others with bilateral agreements) and in certain cantons. C-permit holders benefit from greater job market flexibility, stronger protection against deportation, no requirement to renew the permit (only the physical permit card needs renewal every 5 years), and improved access to Swiss mortgage financing."
+            "content": "C类许可提供在瑞士的永久居留权。它是最安全的居留形式——无限期，提供更强的抗撤销保护，并赋予持有者几乎所有瑞士公民的权利（投票权和护照除外）。对于 EU/EFTA 公民，在持有 B类许可连续居住 5 年后即可获得 C类许可（大多数欧盟国家已从之前的 10 年缩短至 5 年）。对于非欧盟国民，标准等待期为 10 年连续 B类许可居住，但对于某些国家的公民（如美国、加拿大、英国及其他签有双边协议的国家）以及在某些州，这一期限可缩短至 5 年。C类许可持有者享有更大的就业市场灵活性、更强的驱逐保护、无需续签许可（仅需每 5 年更换一次许可卡），并更容易获得瑞士抵押贷款融资。"
           },
           "6": {
-            "heading": "Family Inclusion",
+            "heading": "家庭随迁",
             "level": "2",
-            "content": "Family reunification is a right under Swiss law, subject to conditions. A B-permit holder can bring their spouse and children under 18 to Switzerland. The family members receive their own B permits. For EU/EFTA nationals, family reunification is broadly straightforward — spouses and dependent children are included in the permit application. For non-EU nationals, the permit holder must demonstrate adequate housing (size appropriate for the family) and sufficient financial resources to support all family members. Elderly parents and adult children face more restrictive reunification rules and may require separate permit applications with additional justification. It is important to plan family inclusion from the outset — including all family members in the initial application is significantly simpler than applying for family reunification after the fact."
+            "content": "根据瑞士法律，家庭团聚是一项权利，但需满足一定条件。B类许可持有者可以将配偶和 18 岁以下的子女带到瑞士。家庭成员将获得各自的 B类许可。对于 EU/EFTA 公民，家庭团聚大致直接——配偶和受抚养子女均包含在许可申请中。对于非欧盟国民，许可持有者必须证明拥有合适的住房（面积适合全家居住）和足够的财务资源来支持所有家庭成员。年迈父母和成年子女面临更严格的团聚规定，可能需要单独的许可申请并提供额外理由。从一开始就规划家庭随迁非常重要——在初始申请中包含所有家庭成员，比事后申请家庭团聚要简单得多。"
           },
           "7": {
-            "heading": "The Path to Swiss Citizenship",
+            "heading": "入籍瑞士之路",
             "level": "2",
-            "content": "Swiss citizenship can be obtained through naturalization after meeting residence requirements and passing a series of assessments. The requirements for ordinary naturalization include: 10 years of residence in Switzerland (with years spent between ages 8 and 18 counting double), at least 3 years in the same canton and 2 years in the same municipality (cantonal and municipal requirements vary), language proficiency (B1 spoken and A2 written in one national language — German, French, Italian, or Romansh), integration into the Swiss community (participation in local life, knowledge of Swiss customs and institutions), financial self-sufficiency (no social assistance dependency), and a clean criminal record. The naturalization process involves three levels of approval — municipal, cantonal, and federal. The total process from application to decision typically takes 1–3 years. Swiss citizenship confers one of the world's most powerful passports, Swiss voting rights, and an additional layer of stability and security for your family."
+            "content": "瑞士公民身份可以通过在满足居住要求并通关一系列评估后，通过入籍程序获得。普通入籍的要求包括：在瑞士居住满 10 年（8 至 18 岁之间的居住年份双倍计算）、在同一个州至少居住 3 年并在同一个市镇居住 2 年（各州及市镇要求不同）、语言熟练度（一种国家语言——德、法、意或罗曼什语的口语达到 B1，书面达到 A2）、融入瑞士社区（参与当地生活、了解瑞士习俗和制度）、财务自给自足（不依赖社会救助）以及无犯罪记录。入籍流程涉及市镇、州和联邦三个层级的审批。从申请到裁定的总周期通常为 1–3 年。瑞士公民身份赋予持有者全球最强大的护照之一、瑞士投票权，并为您的家庭提供额外的稳定与安全保障。"
           }
         },
-        "imageAlt": "深色木桌上的瑞士护照和居留许可文件"
+        "imageAlt": "深色木桌上的瑞士护照和 B类许可文件"
       },
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
-        "categoryLabel": "Relocation",
-        "readTime": "9 min read",
-        "date": "April 1, 2026",
-        "title": "Why Wealthy Families Are Leaving the UAE for Switzerland",
-        "metaDescription": "Why high-net-worth families are relocating from Dubai and Abu Dhabi to Switzerland: geopolitical drivers, security, education, healthcare, and long-term stability.",
-        "excerpt": "Examining the growing trend of wealthy families relocating from the UAE to Switzerland — from geopolitical risks and generational thinking to education, healthcare, and lifestyle.",
+        "categoryLabel": "迁居",
+        "readTime": "阅读时长 9 分钟",
+        "date": "2026年4月1日",
+        "title": "为何富裕家庭正离开阿联酋移居瑞士",
+        "metaDescription": "为何高净值家庭正从迪拜和阿布扎比迁往瑞士：地缘政治驱动力、安全性、教育、医疗以及长期稳定性。",
+        "excerpt": "探讨富裕家庭从阿联酋移居瑞士的增长趋势——涵盖地缘政治风险、世代传承考量到教育、医疗和生活方式。",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "The UAE — and Dubai in particular — has been one of the world's most successful wealth magnets of the past two decades. Zero personal income tax, world-class infrastructure, and a business-friendly regulatory environment have attracted entrepreneurs, family offices, and high-net-worth individuals from across the globe. Yet a growing number of these same families are making the decision to relocate to Switzerland. This article examines the drivers behind this shift and what Switzerland offers that the UAE cannot."
+            "content": "阿联酋——尤其是迪拜——是过去二十年全球最成功的财富磁铁之一。零个人所得税、世界一流的基础设施和利于商业的监管环境吸引了来自全球的企业家、家族办公室和高净值人士。然而，越来越多的此类家庭正做出移居瑞士的决定。本文探讨了这一转变背后的驱动力，以及瑞士提供了哪些阿联酋无法提供的价值。"
           },
           "1": {
-            "heading": "The Geopolitical Factor",
+            "heading": "地缘政治因素",
             "level": "2",
-            "content": "The Middle East, despite the UAE's relative stability, remains one of the world's most geopolitically volatile regions. The proximity of the UAE to Iran (less than 200 km across the Strait of Hormuz), ongoing tensions in Yemen, the after-effects of the Abraham Accords, and broader regional power dynamics create a latent risk environment that many wealthy families are increasingly uncomfortable with. Switzerland, by contrast, has maintained political neutrality for over 500 years. It has not participated in any military conflict since 1815, is not a member of NATO or any military alliance, and sits at the geographic and political centre of Europe. For families whose wealth was built in the Gulf but who wish to secure that wealth in a jurisdiction immune to regional instability, Switzerland represents the gold standard."
+            "content": "尽管阿联酋相对稳定，但中东仍是全球地缘政治最动荡的地区之一。阿联酋邻近伊朗（隔霍尔木兹海峡不到 200 公里）、也门持续的紧张局势、亚伯拉罕协议的后续影响以及更广泛的地区权力博弈，创造了一个令许多富裕家庭日益感到不安的潜在风险环境。相比之下，瑞士已保持政治中立 500 多年。自 1815 年以来，它未参与过任何军事冲突，既不是北约成员也不是任何军事同盟成员，并处于欧洲的地理和政治中心。对于那些在海湾地区创造了财富，但希望将财富安置在不受地区动荡影响的管辖区的家族而言，瑞士代表了金标准。"
           },
           "2": {
-            "heading": "Security and Personal Safety",
+            "heading": "安全性与人身安全",
             "level": "2",
-            "content": "While the UAE has excellent personal security within its borders, the broader security environment in the region — and the concentration of wealth in a relatively small geographic area — creates concerns that are difficult to mitigate. Switzerland consistently ranks among the top 3 safest countries in the world. Violent crime is virtually non-existent, personal security infrastructure is world-class (without the visible security presence common in the Gulf), and the country's small size and mountainous geography provide natural security. For families with children, Switzerland offers a level of everyday safety that translates into a fundamentally different quality of life — children walk to school, play in public parks, and move freely in a way that is rarely possible in the UAE."
+            "content": "虽然阿联酋境内拥有极佳的人身安全，但该地区更广泛的安全环境——以及财富在相对较小地理区域的高度集中——引发了难以消除的担忧。瑞士始终位列全球最安全国家前三名。暴力犯罪几乎不存在，人身安全基础设施是世界一流的（且没有海湾地区常见的显性安保部署），该国的小规模和山区地理提供了天然屏障。对于有子女的家庭，瑞士提供的日常安全性转化为一种截然不同的生活品质——孩子们步行去上学、在公共公园玩耍并自由活动，这在阿联酋很难实现。"
           },
           "3": {
-            "heading": "Education: The Long Game",
+            "heading": "教育：长期博弈",
             "level": "2",
-            "content": "Education is often the tipping point that triggers a relocation decision. While the UAE has invested heavily in international schools, Swiss education offers something qualitatively different. Switzerland is home to ETH Zurich (consistently ranked top 3 globally), the University of Zurich, EPFL, and a network of over 50 international schools with deeply established traditions. The Swiss education system combines academic rigour with multilingual immersion, outdoor education, and a level of safety and stability that boarding schools in the UK or US cannot match. For families thinking about the next generation — where their children will build networks, which universities they will attend, which communities they will grow up in — Switzerland offers a long-term educational ecosystem that is unparalleled."
+            "content": "教育往往是促使移居决定的关键转折点。虽然阿联酋在国际学校方面投入巨大，但瑞士教育提供了本质上的不同。瑞士拥有苏黎世联邦理工 (ETH Zurich，始终位列全球前三)、苏黎世大学、洛桑联邦理工 (EPFL) 以及由 50 多所拥有深厚传统的国际学校组成的网络。瑞士教育体系将学术严谨性与多语言浸淫、户外教育以及英国或美国寄宿学校无法企及的安全性与稳定性结合在一起。对于考虑下一代的家庭——孩子们将在哪里建立人脉、入读哪所大学、在哪个社区长大——瑞士提供了一个无与伦比的长期教育生态系统。"
           },
           "4": {
-            "heading": "Healthcare and Quality of Life",
+            "heading": "医疗与生活品质",
             "level": "2",
-            "content": "Switzerland's healthcare system is consistently ranked among the world's best. Universal mandatory coverage, world-leading hospitals (Universitätsspital Zurich, Hirslanden, Inselspital Bern), and physician density of 4.3 per 1,000 residents ensure that medical care is never a concern. Beyond healthcare, Switzerland's quality of life encompasses pristine natural environments, efficient public infrastructure, and a social contract that prioritizes clean air, clean water, safe communities, and cultural richness. The daily lived experience in Switzerland — from the precision of public transport to the quality of tap water — reflects a society that has optimized for quality of life over generations."
+            "content": "瑞士的医疗体系始终被评为世界最佳之一。强制性全民覆盖、世界领先的医院（如苏黎世大学医院、Hirslanden、伯尔尼 Inselspital）以及每千人 4.3 名医生的密度，确保医疗护理永远不是问题。除了医疗，瑞士的生活品质还体现在纯净的自然环境、高效的公共基础设施以及优先考虑清洁空气、纯净水源、安全社区和文化底蕴的社会契约。在瑞士的日常体验——从精准的公共交通到自来水的水质——反映了一个历经数代人优化的生活品质导向型社会。"
           },
           "5": {
-            "heading": "Tax Comparison: Not as Simple as Zero vs. Something",
+            "heading": "税务对比：并非“零”与“非零”那么简单",
             "level": "2",
-            "content": "The most common objection to relocating from the UAE to Switzerland is tax. The UAE levies no personal income tax, while Switzerland does. However, the comparison is more nuanced than it appears. Swiss lump-sum taxation allows qualifying individuals to be taxed on living expenses rather than worldwide income — the effective tax rate for a well-structured lump-sum arrangement can be significantly lower than many alternative jurisdictions. The UAE introduced a 9% corporate tax in 2023, and VAT has been in place since 2018, eroding the \"zero tax\" advantage for businesses. Switzerland's cantonal competition means that cantons like Zug and Schwyz offer some of the lowest tax rates in the developed world. For families with wealth to protect across generations, the question is not \"zero tax today\" but \"what is the total cost of jurisdiction over 30 years?\" — and when you factor in political stability, asset protection, inheritance law, and the value of a Swiss passport, Switzerland often competes more effectively than the headline tax rates suggest."
+            "content": "从中东移居瑞士最常见的反对意见是税务。阿联酋不征收个人所得税，而瑞士征收。然而，对比比表面上更有层次感。瑞士的定额税制 (Lump-sum taxation) 允许符合条件的个人根据生活支出而非全球收入征税——对于结构合理的定额税安排，其实际税率可以显著低于许多其他管辖区。阿联酋在 2023 年引入了 9% 的企业税，而增值税 (VAT) 自 2018 年起已实施，削弱了企业的“零税”优势。瑞士的各州竞争意味着像楚格和施维茨这样的州提供了发达国家中最低的税率。对于需要跨代保护财富的家族，问题不在于“今天的零税”，而在于“该管辖区未来 30 年的总成本是多少？”——当考虑到政治稳定、资产保护、继承法和瑞士护照的价值时，瑞士往往比名义税率所显示的更具竞争力。"
           },
           "6": {
-            "heading": "The Generational Perspective",
+            "heading": "世代传承视角",
             "level": "2",
-            "content": "Perhaps the most compelling driver of the UAE-to-Switzerland shift is generational thinking. The UAE is barely 50 years old as a nation. Its prosperity is concentrated in a specific sector (hydrocarbons, with diversification underway) and dependent on the continued wisdom of its leadership. Switzerland has been a stable, prosperous confederation for over 700 years. Its institutions, legal frameworks, and democratic traditions have survived centuries of change. For families thinking about where their grandchildren will live — where wealth will be protected, where a passport will provide security, where institutions will still function in 2060 or 2080 — Switzerland's centuries-old track record provides a level of confidence that no jurisdiction founded in the 1970s can match."
+            "content": "促使阿联酋向瑞士转移的最引人注目的动力也许是世代传承的思维方式。阿联酋建国仅 50 余年。其繁荣集中在特定领域（碳氢化合物，虽然正在多元化），且依赖于领导层的持续英明。瑞士作为一个稳定、繁荣的联邦已存在 700 多年。其制度、法律框架和民主传统历经世纪更迭。对于考虑孙辈将生活在哪里、财富在哪里能得到保护、护照在哪里能提供安全、制度在 2060 或 2080 年是否依然有效的家庭来说，瑞士数个世纪的成功记录提供了一种建于 20 世纪 70 年代的管辖区无法比拟的信心。"
           },
           "7": {
-            "heading": "Making the Transition",
+            "heading": "执行转型",
             "level": "2",
-            "content": "The UAE-to-Switzerland relocation is one of the most well-trodden paths in international wealth migration. Swiss banks, tax advisors, and relocation specialists are deeply experienced in serving Gulf-origin families. Arabic-speaking professionals are available at most major Swiss institutions, and the cultural bridge — built over decades of business, education, and personal relationships — is well-established. The practical transition involves coordinating the exit from UAE residency (which has its own implications for visa status, business licensing, and banking) with the entry into Swiss residency. This coordination is where professional advisory is most valuable — ensuring that the transition is clean, tax-efficient, and that nothing falls through the gaps. We specialize in exactly this transition and work with families from across the GCC region to execute seamless relocations to Switzerland."
+            "content": "阿联酋到瑞士的移居是国际财富迁移中最为成熟的路径之一。瑞士银行、税务顾问和迁居专家在服务源自海湾地区的家庭方面拥有深厚经验。大多数主要的瑞士机构都提供说阿拉伯语的专业人士，且通过数十年的商业、教育和个人关系建立的文化桥梁已非常稳固。实际的转型涉及协调退出阿联酋居留身份（这在签证状态、商业执照和银行业务方面有其自身影响）与进入瑞士居留身份。这种协调正是专业咨询价值最高的地方——确保过渡清晰、具税收效率，且没有任何环节出现疏漏。我们专门从事这一转型，并与来自整个海湾六国 (GCC) 的家庭合作，执行无缝的瑞士移居。"
           }
         },
-        "imageAlt": "迪拜天际线过渡到瑞士阿尔卑斯山的电影式构图"
+        "imageAlt": "电影感的分割构图：迪拜天际线过渡到瑞士阿尔卑斯山"
       },
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
-        "categoryLabel": "Wealth Management",
-        "readTime": "12 min read",
-        "date": "April 1, 2026",
-        "title": "Setting Up a Family Office in Switzerland: Structure, Governance, and Banking",
-        "metaDescription": "Complete guide to establishing a family office in Switzerland: SFO vs MFO structures, Swiss company types, governance frameworks, banking relationships, and comparing Zug vs Zurich.",
-        "excerpt": "Everything you need to establish a Swiss family office — from choosing SFO vs MFO structures and Swiss company types to governance frameworks, banking, and the Zug vs Zurich decision.",
+        "categoryLabel": "财富管理",
+        "readTime": "阅读时长 12 分钟",
+        "date": "2026年4月1日",
+        "title": "在瑞士设立家族办公室：结构、治理与银行",
+        "metaDescription": "在瑞士建立家族办公室完整指南：单一家族办公室 (SFO) 与多家族办公室 (MFO) 结构对比、瑞士公司类型、治理框架、银行关系以及楚格与苏黎世的对比。",
+        "excerpt": "设立瑞士家族办公室所需的一切——从选择 SFO/MFO 结构和瑞士公司类型，到治理框架、银行开户以及选址决策。",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Switzerland is one of the world's leading jurisdictions for family offices, hosting an estimated 3,500–4,000 family office structures that collectively manage trillions of Swiss francs in assets. The combination of political stability, banking infrastructure, legal certainty, and a deep pool of qualified professionals makes Switzerland the natural choice for families seeking to professionalize their wealth management. This guide covers the key considerations in establishing a Swiss family office."
+            "content": "瑞士是全球领先的家族办公室管辖区之一，拥有估计 3,500–4,000 个家族办公室结构，共同管理着数万亿瑞郎的资产。政治稳定、银行基础设施、法律确定性以及深厚的人才储备，使瑞士成为寻求财富管理专业化的家庭的自然选择。本指南涵盖了设立瑞士家族办公室的关键考量。"
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "heading": "单一家族办公室 (SFO) vs. 多家族办公室 (MFO)",
             "level": "2",
-            "content": "The first structural decision is whether to establish a single family office (SFO) serving exclusively one family, or to join a multi-family office (MFO) that serves multiple families. An SFO provides complete control over investment strategy, governance, and confidentiality. It typically requires assets under management of CHF 100 million or more to be cost-effective, as the operating costs of a fully staffed SFO (including CEO, CIO, CFO, compliance, and administration) can range from CHF 1–3 million annually. An MFO provides professional wealth management services to multiple families, sharing the cost of infrastructure, compliance, and expertise. MFOs are suitable for families with CHF 20–100 million in assets who want institutional-grade management without the full cost of a dedicated office. For families in the CHF 100–500 million range, a hybrid approach is common: a dedicated SFO for core governance, family coordination, and strategic decisions, combined with MFO or private bank partnerships for investment execution and specialized expertise."
+            "content": "第一个结构性决定是：设立专门服务于一个家庭的单一家族办公室 (SFO)，还是加入为多个家庭服务的多家族办公室 (MFO)。SFO 提供了对投资战略、治理和私密性的完全控制。为了体现成本效益，它通常需要 1 亿瑞郎以上的管理资产规模，因为一个全职 SFO（包括 CEO, CIO, CFO, 合规及行政人员）的运营成本每年在 100 万至 300 万瑞郎之间。MFO 为多个家庭提供专业的财富管理服务，共享基础设施、合规和专业知识的成本。MFO 适合拥有 2,000 万至 1 亿瑞郎资产、希望获得机构级管理且无需承担全额办公室成本的家庭。对于资产在 1 亿至 5 亿瑞郎范围内的家庭，混合模式很常见：核心治理、家族协调和战略决策由专属 SFO 负责，而投资执行和专业领域则与 MFO 或私人银行合作。"
           },
           "2": {
-            "heading": "Swiss Company Structures for Family Offices",
+            "heading": "瑞士家族办公室的公司结构",
             "level": "2",
-            "content": "The most common legal structures for Swiss family offices are the AG (Aktiengesellschaft / corporation) and the GmbH (Gesellschaft mit beschränkter Haftung / limited liability company). The AG is the preferred structure for larger family offices. It requires minimum share capital of CHF 100,000 (at least 20% paid up at incorporation, i.e., CHF 20,000), offers flexibility in share structure (including bearer vs. registered shares, though bearer shares now require disclosure of beneficial owners), and provides the formal governance framework (board of directors, auditors) that institutional counterparts expect. The GmbH requires minimum capital of CHF 20,000 (fully paid up at incorporation) and is simpler to administer. It is suitable for smaller family offices where the governance requirements of an AG are not necessary. Regardless of structure, a Swiss company serving as a family office must have at least one director who is resident in Switzerland."
+            "content": "瑞士家族办公室最常见的法律结构是 AG (Aktiengesellschaft / 股份有限公司) 和 GmbH (Gesellschaft mit beschränkter Haftung / 有限责任公司)。AG 是大型家族办公室的首选结构。它要求最低股本为 100,000 瑞郎（注册时至少实缴 20%，即 20,000 瑞郎），在股权结构上具有灵活性（包括无记名股与记名股，尽管无记名股现在要求披露受益所有人），并提供了机构合作伙伴所期望的正规治理框架（董事会、审计师）。GmbH 要求最低资本为 20,000 瑞郎（注册时需全额实缴），行政管理较简单。它适合无需 AG 那种复杂治理要求的小型家族办公室。无论采取何种结构，作为家族办公室的瑞士公司必须至少有一名董事居住在瑞士。"
           },
           "3": {
-            "heading": "Governance Requirements",
+            "heading": "治理要求",
             "level": "2",
-            "content": "Swiss family office governance should address several key areas. Board composition should typically include a mix of family members and independent professionals. Swiss best practice suggests at least one independent director with relevant financial expertise, and ideally a majority-independent board for larger offices. An investment committee — separate from the board — should establish investment policy, risk parameters, asset allocation targets, and performance monitoring. A family charter or constitution formalizes the family's values, decision-making processes, succession rules, and the office's mandate. Compliance and reporting frameworks must meet Swiss regulatory requirements. Regular reporting to family members — quarterly at minimum — should cover investment performance, risk metrics, fees, and governance matters. Professional audit (statutory or voluntary) provides transparency and accountability."
+            "content": "瑞士家族办公室治理应解决几个关键领域：董事会组成通常应包括家族成员和独立专业人士的组合。瑞士的最佳实践建议至少有一名具备相关财务专长的独立董事，对于较大型的办公室，理想情况下应由独立董事占多数。投资委员会——应独立于董事会——负责确立投资政策、风险参数、资产配置目标和业绩监控。家族宪章或宪法将家族价值观、决策流程、继任规则和办公室授权正式化。合规和汇报框架必须符合瑞士监管要求。定期向家族成员汇报（至少每季度一次）应涵盖投资表现、风险指标、费用和治理事务。专业审计（法定或自愿）提供了透明度和问责制。"
           },
           "4": {
-            "heading": "Banking Relationships",
+            "heading": "银行关系",
             "level": "2",
-            "content": "A Swiss family office typically maintains relationships with multiple banks. The custodian bank holds and safeguards the family's financial assets. Major Swiss banks (UBS, Julius Bär, Pictet, Lombard Odier) all provide institutional-grade custody services suitable for family offices. The execution bank(s) handle trade execution, foreign exchange, and lending. Some family offices use a single bank for both custody and execution; others prefer to separate these functions for risk management and competitive pricing. Cash management accounts at one or more Swiss banks handle operational expenses and short-term liquidity. For family offices with digital asset allocations, crypto-native banks (SEBA Bank, Sygnum Bank) provide regulated custody and trading infrastructure."
+            "content": "瑞士家族办公室通常与多家银行保持关系。托管银行负责持有和保障家族的金融资产。主要的瑞士银行（瑞银、宝盛、百达、伦巴第奥迪尔）均提供适合家族办公室的机构级托管服务。执行银行负责处理交易执行、外汇和借贷。一些家族办公室将托管和执行功能集中在一家银行；另一些则为了风险管理和价格竞争而将这些功能分开。在一个或多个瑞士银行开设的现金管理账户处理运营支出和短期流动性。对于拥有数字资产配置的家族办公室，加密原生银行（SEBA 银行、Sygnum 银行）提供受监管的托管和交易基础设施。"
           },
           "5": {
-            "heading": "Zug vs. Zurich: Choosing Your Location",
+            "heading": "楚格 vs. 苏黎世：选址",
             "level": "2",
-            "content": "The two leading locations for Swiss family offices are Zurich and Zug, each with distinct advantages. Zurich offers the deepest pool of professional talent (investment managers, lawyers, auditors, compliance officers), proximity to Switzerland's largest financial centre, excellent international connectivity (Zurich Airport), and a vibrant cultural scene. However, Zurich has higher office costs and higher personal tax rates. Zug offers significantly lower corporate and personal tax rates, a thriving family office ecosystem (second only to Geneva nationally), excellent connectivity (25 minutes from Zurich by train), a welcoming cantonal administration experienced in serving family offices, and the Crypto Valley ecosystem for offices with digital asset allocations. For many family offices, the optimal solution is a Zug corporate domicile (for tax efficiency) with team members who may live in Zurich or other nearby locations."
+            "content": "瑞士家族办公室的两大首选地点是苏黎世和楚格，各有独特优势。苏黎世拥有最深厚的专业人才储备（投资经理、律师、审计师、合规官）、紧邻瑞士最大的金融中心、极佳的国际连通性（苏黎世机场）以及充满活力的文化氛围。然而，苏黎世的办公成本和个人税率较高。楚格提供了显著较低的企业和个人税率、蓬勃发展的家族办公室生态系统（在全国仅次于日内瓦）、极佳的交通（乘火车距离苏黎世 25 分钟）、富有服务经验的州政府，以及针对拥有数字资产配置的办公室的“加密谷”生态系统。对于许多家族办公室，最佳方案是在楚格设立公司注册地（为了税务效率），而团队成员可以居住在苏黎世或附近其他地区。"
           },
           "6": {
-            "heading": "Regulatory Considerations",
+            "heading": "监管考量",
             "level": "2",
-            "content": "Swiss family offices benefit from a relatively light regulatory environment, but must navigate several requirements. AML compliance is required if the office manages financial assets. Under the Financial Institutions Act (FINIG) and the Financial Services Act (FIDLEG), asset managers for third-party assets require FINMA authorization. However, a pure SFO managing only the family's own assets is generally exempt from this requirement. Tax obligations for the office entity include corporate income tax, capital tax, and VAT (if applicable). Employer obligations (social security contributions, pension fund, accident insurance) apply if the office employs staff in Switzerland. Proper structuring at the outset avoids costly regulatory complications later."
+            "content": "瑞士家族办公室受益于相对宽松的监管环境，但仍需处理几项要求：如果办公室管理金融资产，则需要符合反洗钱 (AML) 合规要求。根据《金融机构法》(FINIG) 和《金融服务法》(FIDLEG)，管理第三方资产的资产管理人需要 FINMA 授权。然而，仅管理家族自身资产的纯粹 SFO 通常豁免此要求。办公室实体的纳税义务包括企业所得税、资本税和增值税（如适用）。如果办公室在瑞士聘用员工，则需履行雇主义务（社保缴费、养老金、意外保险）。在初期进行适当的结构规划可避免日后复杂的监管难题。"
           },
           "7": {
-            "heading": "Timeline and Costs",
+            "heading": "时间表与成本",
             "level": "2",
-            "content": "Establishing a Swiss family office from scratch typically takes 3–6 months, from initial structure design through to a fully operational entity. The key milestones include: structure design and legal documentation (2–4 weeks), company incorporation (1–2 weeks for the commercial register process), bank account opening (3–6 weeks including compliance review), team recruitment or placement (4–12 weeks depending on roles), and IT and operational setup (2–4 weeks). Setup costs (legal fees, incorporation, initial compliance setup) typically range from CHF 50,000–150,000 depending on complexity. Ongoing annual costs for a mid-sized SFO (3–5 staff) typically range from CHF 1–2 million including salaries, office costs, audit, legal, and compliance. We advise families on the optimal structure for their situation and manage the entire setup process, from incorporation through to the first board meeting."
+            "content": "从最初的结构设计到完全投入运营，从零开始建立一个瑞士家族办公室通常需要 3–6 个月。关键里程碑包括：结构设计与法律文件准备（2–4 周）、公司注册（商业登记流程需 1–2 周）、银行开户（包括合规审查需 3–6 周）、团队招聘或安置（根据职位需 4–12 周）以及 IT 和运营设立（2–4 周）。设立成本（律师费、注册费、初步合规设立）通常在 50,000 至 150,000 瑞郎之间，取决于复杂程度。一个中型 SFO（3–5 名员工）每年的持续运营成本通常在 100 万至 200 万瑞郎之间，包括薪资、办公室成本、审计、法律及合规费用。我们根据客户情况建议最佳结构，并管理整个设立流程，从公司注册到召开第一次董事会会议。"
           }
         },
-        "imageAlt": "瑞士家族办公室会议室，可见阿尔卑斯山景观"
+        "imageAlt": "瑞士家族办公室会议室，通过玻璃窗可见阿尔卑斯景观"
       }
     }
   },
   "faq": {
     "items": [
       {
-        "question": "How long does it take to relocate to Switzerland?",
-        "answer": "A typical Swiss relocation takes 6-12 months from initial consultation to full settlement. Fast-track relocations for EU/EFTA nationals can be completed in as little as 3 months, while complex multi-generational relocations with family offices may take 12-18 months."
+        "question": "移居瑞士需要多长时间？",
+        "answer": "典型的瑞士移居流程从初次咨询到最终安顿通常需要 6-12 个月。欧盟/欧洲自由贸易联盟 (EU/EFTA) 国民的快速通道可在 3 个月内完成，而涉及家族办公室的复杂跨代移居则可能需要 12-18 个月。"
       },
       {
-        "question": "What is lump-sum taxation (forfait fiscal) in Switzerland?",
-        "answer": "Lump-sum taxation is a special tax regime for qualifying foreign nationals who do not work in Switzerland. Instead of being taxed on worldwide income, your tax base is determined by your living expenses in Switzerland. Minimum amounts range from CHF 250,000 to CHF 600,000+ depending on the canton."
+        "question": "什么是瑞士定额税制 (Forfait fiscal)？",
+        "answer": "定额税制是一项针对在瑞士不工作的符合条件外国公民的特殊税务制度。您的税基是根据您在瑞士的生活支出而非全球收入来确定的。最低计税限额根据所在州郡的不同，通常在 250,000 至 600,000 瑞郎以上不等。"
       },
       {
-        "question": "Can foreigners buy property in Switzerland?",
-        "answer": "Yes, but subject to the Lex Koller law. Foreign nationals with a valid Swiss residence permit (B or C permit) can purchase a primary residence. Secondary and investment properties face stricter restrictions and may require cantonal authorization."
+        "question": "外国人可以在瑞士买房吗？",
+        "answer": "可以，但受 Lex Koller 法案限制。持有有效瑞士居留许可（B类或 C类许可）的外国公民可以购置主要住所。次要住所和投资性房产面临更严格的限制，通常需要获得州当局的批准。"
       },
       {
-        "question": "Which Swiss canton is best for relocation?",
-        "answer": "The best canton depends on your priorities. Zug offers the lowest tax rates and a thriving international community. Zurich provides the most cosmopolitan lifestyle and best connectivity. Schwyz combines very low taxes with Alpine privacy. We advise on canton selection based on your specific tax, lifestyle, and family needs."
+        "question": "哪个瑞士州郡最适合移居？",
+        "answer": "最理想的州取决于您的优先考量。楚格州提供最低的税率和活跃的国际社区；苏黎世州提供最国际化的生活方式和最佳的交通便利性；施维茨州则结合了极低的税收与阿尔卑斯山的私密环境。我们根据您的具体税务、生活方式和家庭需求提供选州建议。"
       },
       {
-        "question": "How do I open a Swiss private bank account?",
-        "answer": "Opening a Swiss private bank account requires comprehensive AML/KYC documentation including identity verification, source of wealth documentation, and source of funds evidence. The process typically takes 4-8 weeks for straightforward cases. We facilitate introductions and documentation preparation."
+        "question": "如何开设瑞士私人银行账户？",
+        "answer": "开设瑞士私人银行账户需要全面的 AML/KYC 文件，包括身份验证、财富来源证明以及资金来源证据。简单案例的流程通常需要 4-8 周。我们负责协调引荐并协助准备相关文件。"
       },
       {
-        "question": "What residency permits are available in Switzerland?",
-        "answer": "The main permits are: B-permit (residence, renewable, standard entry point), C-permit (permanent settlement, available after 5-10 years), L-permit (short-term), and G-permit (cross-border). For high-net-worth individuals, the B-permit linked to lump-sum taxation is the most common pathway."
+        "question": "瑞士提供哪些类型的居留许可？",
+        "answer": "主要许可包括：B类许可（居留证，可续期，标准入境许可）、C类许可（永久居留证，居住 5-10 年后可申请）、L类许可（短期居留）和 G类许可（跨境通勤）。对于高净值人士，与定额税制挂钩的 B类许可是最常见的途径。"
       }
     ]
   },
   "cookieConsent": {
-    "message": "我们使用 Cookie 来提升您的体验。必要的 Cookie 是网站正常运行所必需的。分析 Cookie 帮助我们改善服务。",
-    "acceptAll": "接受全部",
+    "message": "我们使用 Cookie 以提升您的浏览体验。核心 Cookie 是网站运行所必需的，而分析类 Cookie 则帮助我们改进服务。",
+    "acceptAll": "全部接受",
     "essentialOnly": "仅必要"
   }
 }

@@ -1,25 +1,34 @@
 {
   "metadata": {
-    "title": "Move to Switzerland — Conseil Premium en Relocalisation",
-    "description": "Un service spécialisé de relocalisation et de conseil stratégique pour les individus et familles fortunés s'installant en Suisse."
+    "title": "S'installer en Suisse — Conseil Premium en Relocalisation",
+    "description": "Un service spécialisé de relocalisation et de conseil stratégique pour les particuliers et les familles fortunées souhaitant s'établir en Suisse."
   },
   "nav": {
     "home": "Accueil",
     "services": "Services",
+    "whySwitzerland": "Pourquoi la Suisse",
+    "cantons": "Cantons",
+    "caseStudies": "Études de cas",
     "about": "À propos",
     "contact": "Contact",
     "privacy": "Confidentialité",
     "imprint": "Mentions légales",
-    "beginJourney": "Commencez votre voyage",
-    "whySwitzerland": "Pourquoi la Suisse",
-    "cantons": "Cantons",
-    "caseStudies": "Études de cas",
-    "insights": "Perspectives"
+    "beginJourney": "Commencer votre parcours",
+    "insights": "Analyses"
   },
   "hero": {
     "headline": "Votre chemin vers la Suisse",
-    "subheadline": "Un service spécialisé de relocalisation et de conseil stratégique pour les individus et familles fortunés",
+    "subheadline": "Un service spécialisé de relocalisation et de conseil stratégique pour les particuliers et les familles fortunées",
     "cta": "Réserver une consultation confidentielle"
+  },
+  "cta": {
+    "consultation": "Réserver une consultation confidentielle"
+  },
+  "whatsapp": {
+    "message": "Bonjour, je souhaiterais obtenir plus d'informations sur la relocalisation en Suisse."
+  },
+  "stickyBar": {
+    "text": "Prêt à commencer votre parcours suisse ?"
   },
   "whySwitzerland": {
     "title": "Pourquoi la Suisse",
@@ -27,11 +36,11 @@
     "stats": {
       "millionaires": {
         "value": "142 000",
-        "label": "Millionnaires en relocalisation mondiale en 2025 — un record historique"
+        "label": "Millionnaires se relocalisant dans le monde en 2025 — un record historique"
       },
       "inflow": {
         "value": "+3 000",
-        "label": "Afflux net de millionnaires vers la Suisse en 2025"
+        "label": "Entrées nettes de millionnaires en Suisse en 2025"
       },
       "neutrality": {
         "value": "500+",
@@ -39,10 +48,10 @@
       },
       "banking": {
         "value": "N°1",
-        "label": "Le système bancaire privé le plus solide au monde"
+        "label": "Le système de banque privée le plus robuste au monde"
       },
       "wealthTax": {
-        "value": "78%",
+        "value": "78 %",
         "label": "Ont voté contre l'impôt sur la fortune (novembre 2025)"
       },
       "safety": {
@@ -51,79 +60,422 @@
       }
     }
   },
+  "whySwitzerlandPage": {
+    "meta": {
+      "title": "Pourquoi la Suisse — Première destination mondiale pour le patrimoine, la sécurité et la qualité de vie",
+      "description": "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation de la fortune, la sécurité familiale et la qualité de vie. Plus de 500 ans de neutralité."
+    },
+    "hero": {
+      "title": "Pourquoi la Suisse",
+      "subtitle": "La première destination mondiale pour la préservation du patrimoine, la sécurité et la qualité de vie"
+    },
+    "neutrality": {
+      "title": "Neutralité politique",
+      "subtitle": "Un sanctuaire de stabilité dans un monde incertain",
+      "stat1": "500+",
+      "stat1Label": "Années de neutralité continue",
+      "stat2": "Zéro",
+      "stat2Label": "Alliances militaires",
+      "stat3": "Zéro",
+      "stat3Label": "Historique de confiscation d'actifs",
+      "p1": "La Suisse maintient sa neutralité politique depuis plus de 500 ans — la plus longue période de toute nation dans l'histoire moderne. Elle n'est membre ni de l'OTAN, ni de l'UE, ni d'aucune alliance militaire. Cette neutralité n'est pas passive : c'est une politique délibérée, inscrite dans la Constitution, qui a survécu à deux guerres mondiales, à la guerre froide et à tous les bouleversements géopolitiques de l'ère moderne.",
+      "p2": "Pour les détenteurs de capitaux, cela se traduit par une garantie inégalée : la Suisse n'a jamais confisqué d'actifs privés, n'a jamais imposé de prélèvements d'urgence sur la fortune et n'a jamais participé à l'instabilité politique qui compromet le patrimoine personnel dans d'autres juridictions. Vos actifs en Suisse sont protégés par un cadre juridique et politique établi depuis un demi-millénaire."
+    },
+    "banking": {
+      "title": "Banque et gestion de patrimoine",
+      "subtitle": "Le système de banque privée le plus fiable au monde",
+      "stat1": "N°1",
+      "stat1Label": "Centre mondial de banque privée",
+      "stat2": "7,9 T CHF",
+      "stat2Label": "Actifs sous gestion",
+      "stat3": "243",
+      "stat3Label": "Banques agréées",
+      "p1": "La Suisse gère environ 7,9 billions de CHF d'actifs, ce qui représente près de 25 % de l'ensemble de la fortune privée transfrontalière mondiale. Le système bancaire suisse est réglementé par la FINMA, l'un des régulateurs financiers les plus rigoureux au monde, garantissant que votre patrimoine est détenu selon les normes de conformité et de sécurité les plus élevées.",
+      "p2": "Les banques privées suisses offrent un niveau de gestion de patrimoine personnalisé inégalé. De la planification successorale multigénérationnelle aux mandats d'investissement sophistiqués, la profondeur de l'expertise disponible à Zurich, Genève et Zoug est tout simplement sans équivalent. Pour les familles transférant leur fortune par-delà les frontières, la Suisse offre l'infrastructure institutionnelle et la discrétion que d'autres juridictions ne peuvent garantir."
+    },
+    "education": {
+      "title": "Système éducatif",
+      "subtitle": "Un apprentissage de classe mondiale pour la prochaine génération",
+      "stat1": "Top 3",
+      "stat1Label": "Universités mondiales (ETH Zurich)",
+      "stat2": "50+",
+      "stat2Label": "Écoles internationales",
+      "stat3": "N°1",
+      "stat3Label": "Indice d'innovation (13 années consécutives)",
+      "p1": "La Suisse abrite certaines des meilleures institutions éducatives au monde. L'ETH Zurich figure régulièrement parmi les trois meilleures universités au niveau mondial, tandis que le réseau du pays, comptant plus de 50 écoles internationales — dont l'Institut Le Rosey, le Lyceum Alpinum de Zuoz et l'École internationale de Zoug et Lucerne — offre une éducation exceptionnelle aux familles expatriées.",
+      "p2": "Le système éducatif suisse combine rigueur académique et immersion multilingue. Les enfants fréquentant les écoles internationales maîtrisent plusieurs langues tout en suivant les programmes du Baccalauréat International (IB), britanniques ou américains. Pour les familles venant du Moyen-Orient, cela représente une opportunité d'offrir à leurs enfants une éducation véritablement mondiale dans l'un des environnements les plus sûrs de la planète."
+    },
+    "healthcare": {
+      "title": "Santé",
+      "subtitle": "Parmi les meilleurs systèmes de santé au monde",
+      "stat1": "N°1",
+      "stat1Label": "Qualité des soins en Europe",
+      "stat2": "4,3",
+      "stat2Label": "Médecins pour 1 000 habitants",
+      "stat3": "83,4",
+      "stat3Label": "Espérance de vie (années)",
+      "p1": "Le système de santé suisse est régulièrement classé parmi les meilleurs au monde. Avec une couverture universelle obligatoire, des hôpitaux de premier plan et une densité de médecins bien supérieure à celle de la plupart des nations, les résidents ont accès à des soins médicaux exceptionnels. Des centres majeurs tels que l'Hôpital universitaire de Zurich et Hirslanden proposent des traitements de pointe et des programmes de santé pour cadres.",
+      "p2": "Pour les familles qui s'installent, la Suisse offre la tranquillité d'esprit de savoir que la santé de leurs proches est entre les meilleures mains possibles. Des programmes de bilan de santé pour dirigeants, des réseaux de médecins spécialistes et des services médicaux multilingues fluides garantissent que la santé n'est jamais une préoccupation."
+    },
+    "tax": {
+      "title": "Système fiscal",
+      "subtitle": "Compétitif, transparent et protégé démocratiquement",
+      "stat1": "78 %",
+      "stat1Label": "Ont voté contre l'impôt sur la fortune (nov. 2025)",
+      "stat2": "26",
+      "stat2Label": "Cantons en compétition pour les résidents",
+      "stat3": "11,9 %",
+      "stat3Label": "Taux d'impôt sur les sociétés le plus bas",
+      "p1": "Le système fiscal suisse bénéficie d'une caractéristique unique : la concurrence cantonale. Avec 26 cantons fixant leurs propres taux d'imposition, les particuliers et les entreprises peuvent choisir des emplacements en adéquation avec leurs objectifs financiers. Des cantons comme Zoug et Schwytz offrent des taux d'imposition parmi les plus bas du monde développé.",
+      "p2": "Le régime de l'imposition d'après la dépense (forfait fiscal) permet aux ressortissants étrangers éligibles d'être imposés sur leurs dépenses courantes plutôt que sur leurs revenus mondiaux — un avantage significatif pour les personnes fortunées. En novembre 2025, les citoyens suisses ont voté à 78 % contre l'introduction d'un impôt fédéral sur la fortune, réaffirmant l'engagement du pays à protéger le patrimoine privé par mandat démocratique."
+    },
+    "qualityOfLife": {
+      "title": "Qualité de vie",
+      "subtitle": "Sécurité, infrastructure et beauté naturelle sans compromis",
+      "stat1": "N°1",
+      "stat1Label": "Qualité de vie mondiale",
+      "stat2": "Top 3",
+      "stat2Label": "Pays les plus sûrs au monde",
+      "stat3": "99,9 %",
+      "stat3Label": "Ponctualité des transports publics",
+      "p1": "La Suisse est systématiquement classée au premier rang mondial pour la qualité de vie. Des paysages alpins préservés aux villes impeccablement entretenues, chaque aspect de la vie quotidienne reflète un engagement envers l'excellence. Le système de transport public — reliant chaque village, bourgade et ville — fonctionne avec une précision légendaire.",
+      "p2": "La sécurité n'est pas qu'une simple statistique en Suisse ; c'est une expérience vécue. La criminalité violente est quasi inexistante, la sécurité personnelle est une évidence, et l'infrastructure sociale — des parcs aux espaces publics en passant par les institutions culturelles — est maintenue au plus haut niveau. Pour les familles issues de régions en proie à des problèmes de sécurité, la Suisse offre une transformation radicale de la qualité de vie quotidienne."
+    },
+    "business": {
+      "title": "Environnement des affaires",
+      "subtitle": "Où le commerce mondial rencontre la précision suisse",
+      "stat1": "1-2 semaines",
+      "stat1Label": "Délai de création d'entreprise",
+      "stat2": "N°1",
+      "stat2Label": "Protection de la propriété intellectuelle",
+      "stat3": "120+",
+      "stat3Label": "Accords commerciaux bilatéraux",
+      "p1": "La Suisse offre l'un des environnements les plus favorables aux entreprises au monde. La création d'une société peut être finalisée en une à deux semaines, la protection de la propriété intellectuelle est la plus forte au monde, et le réseau de plus de 120 accords commerciaux bilatéraux permet un accès fluide au marché unique de l'UE et au-delà.",
+      "p2": "La main-d'œuvre suisse figure parmi les plus instruites et productives au monde, avec une solide tradition de discrétion et de professionnalisme. Pour les entrepreneurs et les family offices établissant des opérations en Suisse, la combinaison de stabilité politique, de certitude juridique, de protection de la propriété intellectuelle et d'accès au marché constitue un fondement inégalé pour la croissance des affaires."
+    }
+  },
+  "cantonsPage": {
+    "meta": {
+      "title": "Comparer les cantons suisses — Zurich vs Zoug vs Schwytz pour la relocalisation",
+      "description": "Comparaison interactive des cantons de Zurich, Zoug et Schwytz. Comparez les taux d'imposition, le style de vie, les écoles et l'immobilier."
+    },
+    "hero": {
+      "title": "Comparaison des cantons",
+      "subtitle": "Choisissez le canton suisse idéal pour votre famille, votre entreprise et votre style de vie"
+    },
+    "filter": {
+      "all": "Tous les cantons",
+      "zurich": "Zurich",
+      "zug": "Zoug",
+      "schwyz": "Schwytz"
+    },
+    "sections": {
+      "taxRates": "Taux d'imposition",
+      "lifestyle": "Style de vie et caractère",
+      "schools": "Écoles internationales",
+      "banking": "Infrastructure bancaire",
+      "realEstate": "Immobilier",
+      "bestFor": "Idéal pour"
+    },
+    "zurich": {
+      "name": "Zurich",
+      "tagline": "Ville mondiale, capitale culturelle",
+      "tax": {
+        "corporate": "Taux effectif sur les sociétés d'environ 19,7 %",
+        "personal": "Jusqu'à 39,8 % de taux marginal (combiné)",
+        "lumpSum": "Base imposable minimale de 400 000 CHF+"
+      },
+      "lifestyle": {
+        "character": "Cosmopolite, riche culturellement, urbain",
+        "international": "Grande communauté internationale (plus de 30 % de résidents étrangers)",
+        "culture": "Opéra, galeries d'art, gastronomie étoilée, vie au bord du lac",
+        "transport": "Aéroport international, excellentes liaisons ferroviaires"
+      },
+      "schools": {
+        "list": [
+          "Inter-Community School Zurich (ICS)",
+          "Zurich International School (ZIS)",
+          "Swiss International School",
+          "Lyceum Alpinum Zuoz (à proximité)"
+        ]
+      },
+      "bankingInfo": "Siège d'UBS, Julius Bär et de dizaines de banques privées de gestion de fortune. Services bancaires complets pour crypto-actifs disponibles (SEBA, Sygnum).",
+      "realEstate": {
+        "range": "15 000–35 000 CHF/m² (centre-ville), 8 000–15 000 CHF/m² (banlieue du lac de Zurich)",
+        "lexKoller": "La Lex Koller s'applique : les résidents non-suisses ont besoin d'une autorisation. Les détenteurs de permis B peuvent acquérir une résidence principale."
+      },
+      "bestFor": {
+        "profile": "Le professionnel urbain, l'entrepreneur numérique ou la famille recherchant une culture et une connectivité de classe mondiale",
+        "ideal": "Idéal pour : entrepreneurs crypto, cadres dirigeants, familles appréciant le style de vie urbain"
+      }
+    },
+    "zug": {
+      "name": "Zoug",
+      "tagline": "Havre fiscal, vallée de la crypto",
+      "tax": {
+        "corporate": "Taux effectif sur les sociétés d'environ 11,9 %",
+        "personal": "Jusqu'à 22,4 % de taux marginal (combiné)",
+        "lumpSum": "Base imposable minimale de 250 000 CHF+"
+      },
+      "lifestyle": {
+        "character": "Compact, fortuné, au bord du lac, discret",
+        "international": "Très international (plus de 35 % de résidents étrangers, forte communauté d'expatriés)",
+        "culture": "Ville élégante au bord du lac, proche des montagnes et de Zurich",
+        "transport": "À 30 minutes de l'aéroport de Zurich, excellent réseau ferroviaire"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (ISZL)",
+          "Institut Montana Zugerberg",
+          "Swiss International School"
+        ]
+      },
+      "bankingInfo": "Écosystème Crypto Valley avec des banques spécialisées en blockchain. Banque privée traditionnelle via les agences locales des grandes banques suisses. Forte concentration de family offices.",
+      "realEstate": {
+        "range": "12 000–25 000 CHF/m² (ville de Zoug), 8 000–14 000 CHF/m² (villages environnants)",
+        "lexKoller": "La Lex Koller s'applique. Les détenteurs de permis B peuvent acquérir une résidence principale. Zoug impose des exigences locales supplémentaires pour certaines communes."
+      },
+      "bestFor": {
+        "profile": "L'entrepreneur cherchant une optimisation fiscale, le family office ou le fondateur crypto/fintech recherchant la charge fiscale la plus basse possible",
+        "ideal": "Idéal pour : family offices, demandeurs de forfait fiscal, entrepreneurs technologiques"
+      }
+    },
+    "schwyz": {
+      "name": "Schwytz",
+      "tagline": "Fortune discrète, sérénité alpine",
+      "tax": {
+        "corporate": "Taux effectif sur les sociétés d'environ 14,1 %",
+        "personal": "Jusqu'à 21,3 % de taux marginal (combiné)",
+        "lumpSum": "Base imposable minimale de 200 000 CHF+"
+      },
+      "lifestyle": {
+        "character": "Rural, traditionnel, extrêmement privé",
+        "international": "Plus petite communauté internationale, très discret",
+        "culture": "Paysages alpins, vues sur le lac, charme suisse traditionnel",
+        "transport": "À 45 minutes de l'aéroport de Zurich, trajet pittoresque"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (campus de Hünenberg, à proximité)",
+          "Institut Montana (à proximité)",
+          "Stiftsschule Einsiedeln"
+        ]
+      },
+      "bankingInfo": "Banque privée via la banque cantonale de Schwytz et les agences des grandes banques. Moins de densité institutionnelle que Zurich ou Zoug, mais idéal pour ceux qui privilégient une confidentialité absolue.",
+      "realEstate": {
+        "range": "6 000–14 000 CHF/m² (bord du lac), 4 000–8 000 CHF/m² (villages à l'intérieur des terres)",
+        "lexKoller": "La Lex Koller s'applique. Tarifs généralement plus accessibles qu'à Zurich ou Zoug avec des taux d'imposition comparables ou inférieurs."
+      },
+      "bestFor": {
+        "profile": "La famille ou le particulier soucieux de sa vie privée, recherchant les impôts les plus bas avec un style de vie alpin et une discrétion totale",
+        "ideal": "Idéal pour : familles multigénérationnelles, personnes privilégiant la confidentialité, retraités"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Études de cas clients — S'installer en Suisse",
+      "description": "Études de cas anonymisées de relocalisations réussies en Suisse. Découvrez comment les entrepreneurs et les familles naviguent vers la Suisse."
+    },
+    "hero": {
+      "title": "Parcours clients",
+      "subtitle": "Études de cas anonymisées issues de relocalisations réelles"
+    },
+    "disclaimer": "Toutes les études de cas sont anonymisées. Les noms, les détails d'identification et les chiffres spécifiques ont été modifiés pour protéger la confidentialité des clients.",
+    "cases": {
+      "techFounder": {
+        "title": "Le fondateur Tech",
+        "subtitle": "De Dubaï à Zoug en 9 mois",
+        "quote": "Nous avions besoin d'une juridiction qui comprenne à la fois notre modèle d'entreprise numérique et les besoins de sécurité à long terme de notre famille. La Suisse a répondu aux deux.",
+        "profile": "Entrepreneur technologique basé à Dubaï, famille de 4 personnes, post-sortie avec événement de liquidité important",
+        "timeline": {
+          "month1": "Consultation initiale et évaluation des cantons",
+          "month2": "Restructuration d'actifs avant immigration",
+          "month3": "Début des négociations pour le forfait fiscal avec les autorités de Zoug",
+          "month4": "Dépôt de la demande de permis B",
+          "month5": "Place en école internationale sécurisée (ISZL)",
+          "month6": "Acquisition immobilière — propriété au bord du lac à Zoug",
+          "month7": "Établissement d'une relation de banque privée suisse",
+          "month8": "Relocalisation de la famille effectuée",
+          "month9": "Structure du family office établie, tous les services opérationnels"
+        },
+        "challenges": [
+          "Structure d'entreprise multijuridictionnelle complexe nécessitant une restructuration",
+          "Avoirs en cryptomonnaies nécessitant une documentation bancaire spécialisée",
+          "Placement scolaire en milieu d'année académique",
+          "Coordination de la transition de double résidence fiscale"
+        ],
+        "services": [
+          "Structuration d'actifs pré-immigration",
+          "Imposition d'après la dépense (Forfait fiscal)",
+          "Résidence et Immigration",
+          "Établissement de Family Office",
+          "Conseil immobilier",
+          "Coordination du style de vie"
+        ],
+        "outcome": "Relocalisation complète de la famille terminée. Forfait fiscal approuvé. Enfants inscrits à l'ISZL. Family office opérationnel avec cadre de gouvernance suisse. Honoraires : non divulgués."
+      },
+      "bankingFamily": {
+        "title": "La famille de banquiers",
+        "subtitle": "De Beyrouth à Schwytz — relocalisation d'urgence",
+        "quote": "Lorsque les banques se sont effondrées, nous avions 72 heures pour prendre une décision. Nos conseillers avaient déjà préparé l'infrastructure suisse.",
+        "profile": "Famille libanaise, 3 générations, important portefeuille bancaire et immobilier, circonstances d'urgence",
+        "timeline": {
+          "week1": "Consultation d'urgence — évaluation immédiate des menaces",
+          "week2": "Lancement d'une demande de permis B accélérée",
+          "month1": "Logement temporaire sécurisé à Schwytz",
+          "month2": "Intégration en banque privée (transfert d'actifs depuis des comptes non libanais)",
+          "month3": "Résidence permanente établie",
+          "month4": "Enfants inscrits en école internationale",
+          "month6": "Restructuration successorale terminée",
+          "month9": "Installation complète — les trois générations sont établies",
+          "month12": "Mandat de conseil permanent — gestion de patrimoine et planification successorale"
+        },
+        "challenges": [
+          "Délai d'urgence nécessitant le traitement parallèle de tous les flux de travail",
+          "Structure successorale multigénérationnelle complexe",
+          "Actifs bloqués dans le système bancaire libanais",
+          "Trois générations avec des besoins de résidence et de soins différents"
+        ],
+        "services": [
+          "Résidence et Immigration",
+          "Banque privée et Gestion de patrimoine",
+          "Conseil immobilier",
+          "Établissement de Family Office",
+          "Conciergerie Santé et Bien-être",
+          "Coordination du style de vie"
+        ],
+        "outcome": "Les trois générations ont été relocalisées avec succès. Relations de banque privée établies. Succession restructurée sous gouvernance suisse. Mandat de planification successorale en cours."
+      },
+      "digitalNomad": {
+        "title": "Le nomade numérique",
+        "subtitle": "De Riyad à Zurich en 4 mois",
+        "quote": "J'avais besoin d'un pays qui traite la crypto comme une classe d'actifs légitime et offre une réelle infrastructure pour bâtir une entreprise. Zurich était le choix évident.",
+        "profile": "Ressortissant saoudien de 34 ans, important portefeuille de cryptomonnaies, trader et investisseur actif, célibataire",
+        "timeline": {
+          "month1": "Consultation, sélection du canton, stratégie de documentation de la fortune crypto",
+          "month15": "Demande de permis B avec documentation détaillée de l'origine de la fortune",
+          "month2": "Création d'entreprise (Sarl suisse) pour les opérations de conseil",
+          "month3": "Configuration bancaire crypto-compatible (Banque SEBA + banque privée traditionnelle)",
+          "month4": "Appartement sécurisé à Zurich, relocalisation complète terminée"
+        },
+        "challenges": [
+          "Documentation de la chaîne de richesse crypto, du minage/achats précoces au portefeuille actuel",
+          "Recherche de partenaires bancaires à l'aise avec une fortune dérivée à plus de 90 % de la crypto",
+          "Navigation dans la classification fiscale crypto suisse pour le trading actif vs investissement",
+          "Permis B pour ressortissant non-UE avec un profil de fortune non traditionnel"
+        ],
+        "services": [
+          "Résidence et Immigration",
+          "Création de société et Structuration d'entreprise",
+          "Banque privée et Gestion de patrimoine",
+          "Coordination du style de vie"
+        ],
+        "outcome": "Permis B accordé. Sarl suisse opérationnelle. Double relation bancaire (crypto + traditionnelle) établie. Cadre de conformité complet pour le trading crypto en cours. 4 mois du début à la fin."
+      },
+      "gulfFamilyOffice": {
+        "title": "Le Family Office du Golfe",
+        "subtitle": "Family office koweïtien — SFO suisse établi",
+        "quote": "Nous avions une gestion de patrimoine dans quatre juridictions, mais aucune gouvernance unifiée. La Suisse nous a donné la structure dont notre famille avait besoin pour la génération suivante.",
+        "profile": "Family office koweïtien, plus de 200 millions de CHF sous gestion, multigénérationnel, opérant dans le CCG, à Londres et en Suisse",
+        "timeline": {
+          "month1": "Cadrage : audit de gouvernance, révision juridictionnelle, évaluation de la charte familiale",
+          "month2": "Conception de la structure du SFO suisse — SA constituée à Zoug",
+          "month3": "Formation du conseil — mise en place de 3 administrateurs indépendants résidents suisses",
+          "month4": "Comité d'investissement établi, mandats bancaires restructurés",
+          "month5": "Cadre de gouvernance documenté et ratifié par le conseil de famille",
+          "month6": "Opérationnel — toutes les lignes de reporting, de conformité et d'audit sont actives",
+          "ongoing": "Mandat permanent : réunions trimestrielles du conseil, revue annuelle de gouvernance, conseil ad hoc"
+        },
+        "challenges": [
+          "Alignement des attentes de gouvernance sur trois générations avec des philosophies d'investissement différentes",
+          "Consolidation du reporting de quatre juridictions dans un cadre suisse unifié",
+          "Placement d'administrateurs indépendants qualifiés comprenant à la fois la culture d'entreprise suisse et celle du CCG",
+          "Conception d'un cadre de succession acceptable pour toutes les branches de la famille"
+        ],
+        "services": [
+          "Établissement de Family Office",
+          "Administrateurs indépendants et Services de conseil",
+          "Création de société et Structuration d'entreprise",
+          "Banque privée et Gestion de patrimoine"
+        ],
+        "outcome": "SFO suisse pleinement opérationnel à Zoug. 3 administrateurs indépendants nommés. Cadre de gouvernance ratifié par toutes les branches de la famille. Reporting consolidé sur toutes les juridictions. Mandat en cours pour la gouvernance trimestrielle et la revue annuelle."
+      }
+    }
+  },
   "services": {
-    "title": "Nos services",
+    "title": "Nos Services",
     "subtitle": "Un conseil complet couvrant chaque dimension de votre relocalisation",
     "learnMore": "En savoir plus",
     "pageTitle": "Services",
-    "pageSubtitle": "Conseil de bout en bout pour votre relocalisation en Suisse",
+    "pageSubtitle": "Accompagnement de bout en bout pour votre installation en Suisse",
     "items": {
       "assetStructuring": {
-        "title": "Structuration patrimoniale pré-immigration",
-        "description": "Réalisation de plus-values avant la résidence suisse ; restructuration de participations, trusts et structures sociétaires UAE ; documentation complète de l'origine des fonds.",
-        "detail": "Nous travaillons avec vos conseillers existants pour optimiser votre structure patrimoniale avant d'établir votre résidence fiscale suisse."
+        "title": "Structuration d'actifs pré-immigration",
+        "description": "Réalisation de gains avant la résidence suisse ; restructuration des participations, des trusts et des structures d'entreprise aux Émirats ; documentation complète de l'origine de la fortune.",
+        "detail": "Nous collaborons avec vos conseillers actuels pour garantir que votre structure d'actifs est optimisée avant que vous n'établissiez votre résidence fiscale en Suisse. Cela comprend l'examen des participations, des accords de trust et des structures d'entreprise aux Émirats arabes unis et au-delà, garantissant une documentation d'origine de fortune irréprochable qui satisfait aux exigences des banques et des autorités fiscales suisses."
       },
       "lumpSum": {
-        "title": "Imposition forfaitaire (Forfait Fiscal)",
-        "description": "Négociation complète du ruling fiscal cantonal ; détermination de la base imposable ; gestion de la conformité annuelle.",
-        "detail": "Le régime d'imposition forfaitaire suisse offre aux individus éligibles une base fiscale calculée sur les dépenses de vie plutôt que sur le revenu mondial."
+        "title": "Imposition d'après la dépense (Forfait fiscal)",
+        "description": "Négociation complète de l'accord fiscal cantonal ; détermination de la base imposable ; gestion de la conformité annuelle.",
+        "detail": "Le régime de l'imposition forfaitaire en Suisse permet aux personnes éligibles de disposer d'une base fiscale calculée sur leurs dépenses de train de vie plutôt que sur leurs revenus mondiaux. Nous gérons l'intégralité de la négociation avec les autorités cantonales, déterminons la base imposable optimale et assurons la conformité annuelle pour garantir la pérennité de votre accord."
       },
       "residency": {
         "title": "Résidence et Immigration",
-        "description": "Conseil en choix de canton ; gestion de la demande de permis B ; planification de l'inclusion familiale ; voie vers le permis C et la nationalité.",
-        "detail": "Le choix du bon canton est la décision la plus conséquente de votre relocalisation."
+        "description": "Conseil sur la sélection du canton ; gestion des demandes de permis B ; planification de l'inclusion familiale ; parcours vers le permis C et la citoyenneté.",
+        "detail": "Le choix du canton est sans doute la décision la plus importante de votre relocalisation. Nous vous conseillons sur la sélection du canton en fonction de votre situation fiscale, de vos préférences de style de vie et des besoins de votre famille. Nous gérons ensuite l'intégralité de la demande de permis B, l'inclusion de la famille et traçons le chemin vers le permis C et l'éventuelle citoyenneté suisse."
       },
       "companyFormation": {
-        "title": "Création de société et structuration",
-        "description": "Holdings suisses ; structures de propriété intellectuelle ; coordination avec les entités UAE ; inscription TVA et conformité.",
-        "detail": "Que vous ayez besoin d'une holding suisse, d'une structure de licence IP ou d'une coordination entre vos entités UAE existantes et vos nouvelles opérations suisses."
+        "title": "Création de société et Structuration d'entreprise",
+        "description": "Holdings suisses ; structures de propriété intellectuelle ; coordination avec des entités aux Émirats ; enregistrement à la TVA et conformité.",
+        "detail": "Que vous ayez besoin d'une holding suisse, d'une structure de licence de propriété intellectuelle ou d'une coordination entre vos entités actuelles aux Émirats et vos nouvelles opérations suisses, nous gérons l'ensemble du processus. Cela inclut l'enregistrement à la TVA, la conformité d'entreprise et l'assurance que votre structure est à la fois fiscalement avantageuse et totalement conforme."
       },
       "familyOffice": {
         "title": "Établissement de Family Office",
-        "description": "Conseil SFO/MFO ; introductions bancaires privées ; structuration de trusts et fondations ; planification successorale.",
-        "detail": "Pour les familles nécessitant une infrastructure dédiée de conseil stratégique, nous conseillons sur l'établissement de family offices en Suisse."
+        "description": "Conseil pour Single et Multi-Family Offices ; introductions en banque privée ; structuration de trusts et fondations ; planification successorale.",
+        "detail": "Pour les familles nécessitant une infrastructure dédiée à la gestion de patrimoine, nous conseillons sur l'établissement de Single ou Multi-Family Offices en Suisse. Cela inclut des introductions auprès des plus grandes banques privées, la structuration de trusts et de fondations pour la protection des actifs, ainsi qu'une planification successorale complète tenant compte des complexités transfrontalières."
       },
       "directorship": {
-        "title": "Administration et mandats indépendants",
-        "description": "Placement de directeur résident suisse ; services de secrétariat d'entreprise ; soutien en gouvernance et conformité.",
-        "detail": "De nombreuses structures d'entreprises suisses nécessitent un directeur résident en Suisse."
+        "title": "Administrateurs indépendants et Services de conseil",
+        "description": "Placement d'administrateurs résidant en Suisse ; services de secrétariat d'entreprise ; soutien à la gouvernance et à la conformité.",
+        "detail": "De nombreuses structures d'entreprise suisses exigent un administrateur résidant en Suisse. Nous fournissons des administrateurs indépendants qualifiés, des services de secrétariat d'entreprise et un soutien continu à la gouvernance pour garantir que vos entités suisses répondent à toutes les exigences réglementaires pendant que vous vous concentrez sur vos affaires."
       },
       "realEstate": {
         "title": "Conseil immobilier",
-        "description": "Navigation Lex Koller ; accès aux propriétés hors marché ; structuration d'acquisition ; coordination notariale.",
-        "detail": "Les réglementations immobilières suisses, notamment les restrictions Lex Koller pour les acheteurs étrangers, nécessitent une expertise spécialisée."
+        "description": "Navigation dans la Lex Koller ; accès à des propriétés hors marché ; structuration de l'acquisition ; coordination notariale.",
+        "detail": "Les réglementations immobilières suisses, en particulier les restrictions de la Lex Koller sur les acheteurs étrangers, nécessitent une navigation experte. Nous donnons accès à des propriétés hors marché dans des emplacements privilégiés, structurons les acquisitions pour respecter toutes les réglementations et coordonnons avec les notaires pour garantir des transactions fluides."
       },
       "health": {
-        "title": "Conciergerie santé et bien-être",
-        "description": "Mise en place de l'assurance maladie obligatoire ; introductions spécialistes ; bilan de santé exécutif ; liaison médicale.",
-        "detail": "Le système de santé suisse exige une assurance obligatoire et peut être complexe à naviguer."
+        "title": "Conciergerie Santé et Bien-être",
+        "description": "Mise en place de l'assurance maladie obligatoire ; introduction auprès de médecins spécialistes ; bilans de santé pour cadres ; liaison médicale.",
+        "detail": "Le système de santé suisse impose une assurance obligatoire et peut être complexe. Nous mettons en place votre assurance maladie, vous présentons à des médecins spécialistes de renom, organisons des bilans de santé pour dirigeants et servons de liaison médicale continue pour garantir que vous et votre famille receviez les meilleurs soins."
       },
       "lifestyle": {
-        "title": "Coordination lifestyle et installation",
-        "description": "Placement en écoles internationales ; permis du personnel domestique ; programmes d'intégration du conjoint ; introductions communautaires.",
-        "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse."
+        "title": "Coordination du style de vie et Installation",
+        "description": "Placement en écoles internationales ; permis pour le personnel de maison ; programmes d'intégration du conjoint ; introductions dans la communauté ; orientation culturelle.",
+        "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse. Nous gérons le placement de vos enfants dans des écoles internationales, les permis de travail du personnel de maison, l'intégration du conjoint, les présentations communautaires et une orientation culturelle complète pour que toute votre famille se sente chez elle en Suisse dès le premier jour."
       }
     },
     "overview": "Aperçu"
   },
   "clients": {
-    "title": "Nos clients",
-    "subtitle": "Notre conseil est adapté à votre profil et vos objectifs spécifiques",
+    "title": "À qui nous nous adressons",
+    "subtitle": "Notre conseil est adapté à votre profil spécifique et à vos objectifs",
     "profiles": {
       "entrepreneur": {
         "title": "L'entrepreneur établi",
-        "age": "40–60 ans",
-        "description": "Propriétaires d'entreprise pré ou post-cession cherchant à établir leur résidence suisse avant un événement de liquidité. Engagement typique : 12–24 mois.",
+        "age": "Âge 40–60 ans",
+        "description": "Propriétaires d'entreprise avant ou après une sortie, cherchant à établir leur résidence en Suisse avant un événement de liquidité. Engagement typique : 12–24 mois.",
         "tags": [
-          "Planification pré-cession",
+          "Planification avant sortie",
           "Structuration d'actifs",
-          "Forfait Fiscal"
+          "Forfait fiscal"
         ]
       },
       "family": {
-        "title": "La famille en relocalisation",
-        "age": "Enfants scolarisés",
-        "description": "Familles privilégiant la sécurité, l'éducation et la qualité de vie. Relocalisation complète incluant écoles, santé et intégration communautaire.",
+        "title": "La famille qui se relocalise",
+        "age": "Enfants d'âge scolaire",
+        "description": "Familles privilégiant la sécurité, l'éducation et la qualité de vie. Relocalisation complète incluant les écoles, la santé et l'intégration communautaire.",
         "tags": [
           "Éducation",
           "Santé",
@@ -131,19 +483,19 @@
         ]
       },
       "youngWealth": {
-        "title": "Le jeune détenteur de patrimoine",
-        "age": "28–42 ans",
-        "description": "Entrepreneurs numériques et détenteurs de crypto-actifs recherchant une juridiction stable et favorable aux cryptomonnaies.",
+        "title": "Le jeune détenteur de fortune",
+        "age": "Âge 28–42 ans",
+        "description": "Entrepreneurs numériques et détenteurs de fortune crypto recherchant une juridiction stable, favorable à la crypto, avec un style de vie de classe mondiale.",
         "tags": [
           "Crypto",
           "Actifs numériques",
-          "Lifestyle"
+          "Style de vie"
         ]
       },
       "familyOffice": {
         "title": "Le Family Office du Golfe",
-        "age": "Multi-générationnel",
-        "description": "Family offices établis cherchant un hub de gouvernance européen, une planification successorale et une structuration patrimoniale institutionnelle.",
+        "age": "Multigénérationnel",
+        "description": "Family offices établis recherchant un centre de gouvernance européen, une planification successorale et une structuration de patrimoine de qualité institutionnelle.",
         "tags": [
           "Gouvernance",
           "Succession",
@@ -154,53 +506,53 @@
   },
   "founders": {
     "title": "Les Fondateurs",
-    "subtitle": "Deux décennies d'expertise combinée en conseil suisse",
+    "subtitle": "Deux décennies d'expertise combinée dans le conseil en Suisse",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Co-fondateur",
-      "bio": "Avocat suisse et titulaire d'un MBA. Adrian a établi plusieurs banques en Suisse et entretient des relations profondes avec la FINMA, les institutions bancaires privées et les autorités cantonales."
+      "bio": "Avocat suisse et titulaire d'un MBA. Adrian a fondé plusieurs banques en Suisse et entretient des relations privilégiées avec la FINMA, les institutions de banque privée et les autorités cantonales. Son expertise juridique et son réseau institutionnel constituent l'épine dorsale réglementaire de notre cabinet."
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Co-fondateur",
-      "bio": "Entrepreneur en série danois basé en Suisse. Avec plus de CHF 400 millions en publicité numérique gérée et plusieurs entreprises en Suisse et dans l'UE. Parle allemand, danois et anglais."
+      "bio": "Entrepreneur danois résidant en Suisse. Avec plus de 400 millions de CHF gérés en publicité numérique et plusieurs sociétés en Suisse et dans l'UE, Robin apporte une excellence opérationnelle et une compréhension approfondie de la structuration d'entreprise transfrontalière. Parle allemand, danois et anglais."
     }
   },
   "about": {
-    "pageTitle": "À propos",
+    "pageTitle": "À propos de nous",
     "pageSubtitle": "Indépendance, confidentialité et profondeur de service",
     "story": {
       "title": "Notre histoire",
-      "p1": "Move to Switzerland a été fondé sur une observation simple : les individus fortunés qui se relocalisent du Moyen-Orient vers la Suisse font face à un paysage de conseil inutilement fragmenté.",
-      "p2": "Nous avons créé un point de contact unique qui orchestre l'ensemble du parcours de relocalisation — de la structuration patrimoniale pré-immigration jusqu'au premier jour d'école de vos enfants.",
-      "p3": "Chaque engagement est traité avec la discrétion et la rigueur que nos clients attendent. Nous servons un nombre limité de familles à tout moment."
+      "p1": "Move to Switzerland a été fondé sur un constat simple : les particuliers fortunés se relocalisant du Moyen-Orient vers la Suisse font face à un paysage de conseil inutilement fragmenté. Conseillers fiscaux, avocats spécialisés en immigration, agents immobiliers et banquiers privés opèrent chacun de leur côté, laissant le client coordonner l'ensemble.",
+      "p2": "Nous avons créé un point de contact unique qui orchestre l'intégralité du parcours de relocalisation — de la structuration d'actifs pré-immigration jusqu'au premier jour d'école de vos enfants. Nos fondateurs combinent une solide expertise juridique et bancaire suisse avec une expérience entrepreneuriale pratique des opérations transfrontalières.",
+      "p3": "Chaque mission est traitée avec la discrétion et la rigueur que nos clients exigent. Nous servons un nombre limité de familles à tout moment, garantissant à chacune notre attention exclusive."
     },
     "values": {
       "title": "Nos valeurs",
       "independence": {
         "title": "Indépendance",
-        "description": "Nous ne sommes liés à aucune banque, cabinet d'avocats ou agence immobilière. Nos conseils sont toujours dans votre meilleur intérêt."
+        "description": "Nous ne sommes liés à aucune banque, cabinet d'avocats ou agence immobilière. Nos conseils sont toujours dans votre intérêt exclusif."
       },
       "confidentiality": {
         "title": "Confidentialité",
-        "description": "Chaque engagement est protégé par une stricte confidentialité. Nous ne divulguons jamais les relations ou détails de nos clients."
+        "description": "Chaque mission est protégée par une confidentialité stricte. Nous ne divulguons jamais l'identité ou les détails de nos clients."
       },
       "depth": {
         "title": "Profondeur de service",
-        "description": "Nous ne référons pas et n'oublions pas. Nous restons avec vous à chaque étape, de la première consultation à l'installation complète."
+        "description": "Nous ne nous contentons pas de vous orienter. Nous restons à vos côtés à chaque étape, de la première consultation jusqu'à votre installation complète."
       }
     },
     "offices": {
       "title": "Nos bureaux",
       "zurich": "Zurich",
       "zug": "Zoug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwytz"
     }
   },
   "contact": {
-    "pageTitle": "Contactez-nous",
-    "pageSubtitle": "Commencez votre voyage vers la Suisse",
-    "confidential": "Toutes les demandes sont traitées en toute confidentialité.",
+    "pageTitle": "Nous contacter",
+    "pageSubtitle": "Commencez votre parcours vers la Suisse",
+    "confidential": "Toutes les demandes sont traitées avec une confidentialité stricte.",
     "form": {
       "name": "Nom complet",
       "email": "Adresse e-mail",
@@ -210,8 +562,8 @@
       "hearAbout": "Comment avez-vous entendu parler de nous ? (optionnel)",
       "submit": "Envoyer la demande",
       "sending": "Envoi en cours...",
-      "success": "Merci. Votre demande a été reçue. Nous répondrons dans les 24 heures.",
-      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+      "success": "Merci. Votre demande a bien été reçue. Nous vous répondrons sous 24 heures.",
+      "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement."
     },
     "offices": {
       "title": "Nos bureaux"
@@ -219,7 +571,7 @@
   },
   "privacy": {
     "pageTitle": "Politique de confidentialité",
-    "content": "Cette politique de confidentialité explique comment Move to Switzerland collecte, utilise et protège vos données personnelles conformément à la loi suisse sur la protection des données (nDSG) et au Règlement général sur la protection des données de l'UE (RGPD)."
+    "content": "Cette politique de confidentialité explique comment Move to Switzerland collecte, utilise et protège vos données personnelles conformément à la loi suisse sur la protection des données (nLPD) et au Règlement général sur la protection des données (RGPD) de l'UE."
   },
   "imprint": {
     "pageTitle": "Mentions légales",
@@ -228,378 +580,26 @@
     "registration": "Registre du commerce"
   },
   "footer": {
-    "tagline": "Conseil premium en relocalisation pour individus et familles distingués.",
+    "tagline": "Conseil premium en relocalisation pour particuliers et familles de distinction.",
     "navigation": "Navigation",
-    "legal": "Légal",
+    "legal": "Juridique",
     "languages": "Langues",
     "rights": "Tous droits réservés.",
     "company": "Un service de WorkWorkWork AG",
-    "disclaimer": "Les services se limitent à la formation financière générale et aux conseils stratégiques et ne constituent pas des services financiers au sens de la loi sur les services financiers (LSFin). En particulier, aucun conseil sur des instruments financiers spécifiques, aucune gestion de portefeuille et aucune exécution ou transmission d'ordres n'est fourn"
+    "disclaimer": "Les services sont limités à l'éducation financière générale et à l'orientation stratégique et ne constituent pas des services financiers au sens de la Loi sur les services financiers (LSFin). En particulier, aucun conseil sur des instruments financiers spécifiques, aucune gestion de portefeuille et aucune exécution ou transmission d'ordres n'est fourni."
   },
   "servicesMeta": {
-    "title": "Nos Services — Move to Switzerland",
-    "description": "Services de conseil complets pour chaque dimension de votre relocalisation en Suisse."
-  },
-  "cta": {
-    "consultation": "Réserver une consultation confidentielle"
-  },
-  "whatsapp": {
-    "message": "Bonjour, je souhaite en savoir plus sur l'installation en Suisse."
-  },
-  "stickyBar": {
-    "text": "Prêt à commencer votre parcours suisse ?"
-  },
-  "whySwitzerlandPage": {
-    "meta": {
-      "title": "Pourquoi la Suisse — La destination mondiale de référence pour la richesse, la sécurité et la qualité de vie",
-      "description": "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation du stratégique et la sécurité familiale."
-    },
-    "hero": {
-      "title": "Pourquoi la Suisse",
-      "subtitle": "La destination mondiale de référence pour la préservation du patrimoine, la sécurité et la qualité de vie"
-    },
-    "neutrality": {
-      "title": "Neutralité politique",
-      "subtitle": "Un havre de stabilité dans un monde incertain",
-      "stat1": "500+",
-      "stat1Label": "Années de neutralité continue",
-      "stat2": "Zéro",
-      "stat2Label": "Alliances militaires",
-      "stat3": "Zéro",
-      "stat3Label": "Historique de confiscation d'actifs",
-      "p1": "La Suisse maintient sa neutralité politique depuis plus de 500 ans — la plus longue période de toutes les nations dans l'histoire moderne. Elle n'est membre ni de l'OTAN, ni de l'UE, ni d'aucune alliance militaire.",
-      "p2": "Pour les détenteurs de patrimoine, cela se traduit par une garantie sans précédent : la Suisse n'a jamais confisqué d'actifs privés, n'a jamais imposé de prélèvements d'urgence sur la fortune."
-    },
-    "banking": {
-      "title": "Banque et conseil stratégique",
-      "subtitle": "Le système bancaire privé le plus fiable au monde",
-      "stat1": "#1",
-      "stat1Label": "Centre mondial de banque privée",
-      "stat2": "CHF 7,9 T",
-      "stat2Label": "Actifs sous gestion",
-      "stat3": "243",
-      "stat3Label": "Banques agréées",
-      "p1": "La Suisse gère environ CHF 7,9 billions d'actifs, représentant environ 25% de l'ensemble du patrimoine privé transfrontalier mondial.",
-      "p2": "Les banques privées suisses offrent un niveau de gestion patrimoniale personnalisée inégalé ailleurs."
-    },
-    "education": {
-      "title": "Système éducatif",
-      "subtitle": "Une éducation de classe mondiale pour la prochaine génération",
-      "stat1": "Top 3",
-      "stat1Label": "Universités mondiales (ETH Zurich)",
-      "stat2": "50+",
-      "stat2Label": "Écoles internationales",
-      "stat3": "#1",
-      "stat3Label": "Indice d'innovation (13 années consécutives)",
-      "p1": "La Suisse abrite certaines des meilleures institutions éducatives au monde. L'ETH Zurich se classe régulièrement parmi les 3 premières universités mondiales.",
-      "p2": "Le système éducatif suisse combine rigueur académique et immersion multilingue."
-    },
-    "healthcare": {
-      "title": "Santé",
-      "subtitle": "Parmi les meilleurs systèmes de santé au monde",
-      "stat1": "#1",
-      "stat1Label": "Qualité des soins en Europe",
-      "stat2": "4,3",
-      "stat2Label": "Médecins pour 1 000 habitants",
-      "stat3": "83,4",
-      "stat3Label": "Espérance de vie (années)",
-      "p1": "Le système de santé suisse est régulièrement classé parmi les meilleurs au monde.",
-      "p2": "Pour les familles en cours de relocalisation, la Suisse offre la tranquillité d'esprit."
-    },
-    "tax": {
-      "title": "Système fiscal",
-      "subtitle": "Compétitif, transparent et démocratiquement protégé",
-      "stat1": "78%",
-      "stat1Label": "Ont voté contre l'impôt sur la fortune (nov. 2025)",
-      "stat2": "26",
-      "stat2Label": "Cantons en concurrence pour les résidents",
-      "stat3": "11,9%",
-      "stat3Label": "Taux d'imposition cantonal le plus bas",
-      "p1": "Le système fiscal suisse bénéficie d'une caractéristique unique : la concurrence cantonale.",
-      "p2": "Le régime d'imposition forfaitaire permet aux ressortissants étrangers qualifiés d'être imposés sur les dépenses de vie."
-    },
-    "qualityOfLife": {
-      "title": "Qualité de vie",
-      "subtitle": "Sécurité, infrastructure et beauté naturelle sans compromis",
-      "stat1": "#1",
-      "stat1Label": "Qualité de vie mondiale",
-      "stat2": "Top 3",
-      "stat2Label": "Pays les plus sûrs au monde",
-      "stat3": "99,9%",
-      "stat3Label": "Ponctualité des transports publics",
-      "p1": "La Suisse se classe régulièrement comme le pays n°1 mondial pour la qualité de vie.",
-      "p2": "La sécurité n'est pas une simple statistique en Suisse ; c'est une expérience vécue."
-    },
-    "business": {
-      "title": "Environnement des affaires",
-      "subtitle": "Où le commerce mondial rencontre la précision suisse",
-      "stat1": "1–2 semaines",
-      "stat1Label": "Délai de création d'entreprise",
-      "stat2": "#1",
-      "stat2Label": "Protection de la PI mondiale",
-      "stat3": "120+",
-      "stat3Label": "Accords commerciaux bilatéraux",
-      "p1": "La Suisse offre l'un des environnements les plus favorables aux entreprises au monde.",
-      "p2": "La main-d'œuvre suisse compte parmi les plus qualifiées et productives au monde."
-    }
-  },
-  "cantonsPage": {
-    "meta": {
-      "title": "Comparer les cantons suisses — Zurich vs Zoug vs Schwyz",
-      "description": "Comparaison interactive des cantons de Zurich, Zoug et Schwyz pour votre relocalisation."
-    },
-    "hero": {
-      "title": "Comparaison des cantons",
-      "subtitle": "Choisissez le canton suisse idéal pour votre famille et votre entreprise"
-    },
-    "filter": {
-      "all": "Tous les cantons",
-      "zurich": "Zurich",
-      "zug": "Zoug",
-      "schwyz": "Schwyz"
-    },
-    "sections": {
-      "taxRates": "Taux d'imposition",
-      "lifestyle": "Style de vie",
-      "schools": "Écoles internationales",
-      "banking": "Infrastructure bancaire",
-      "realEstate": "Immobilier",
-      "bestFor": "Idéal pour"
-    },
-    "zurich": {
-      "name": "Zurich",
-      "tagline": "Global city, cultural capital",
-      "tax": {
-        "corporate": "Approx. 19.7% effective corporate rate",
-        "personal": "Up to 39.8% top marginal rate (combined)",
-        "lumpSum": "CHF 400,000+ minimum taxable base"
-      },
-      "lifestyle": {
-        "character": "Cosmopolitan, culturally rich, urban",
-        "international": "Large international community (30%+ foreign residents)",
-        "culture": "Opera, art galleries, Michelin-starred dining, lakefront living",
-        "transport": "International airport, excellent rail connections"
-      },
-      "schools": {
-        "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (nearby)"
-        ]
-      },
-      "bankingInfo": "Home to UBS, Credit Suisse (now UBS), Julius Baer, and dozens of boutique private banks. Full-service crypto banking available (SEBA, Sygnum).",
-      "realEstate": {
-        "range": "CHF 15,000–35,000/m² (prime city), CHF 8,000–15,000/m² (Lake Zurich suburbs)",
-        "lexKoller": "Lex Koller applies: non-Swiss residents require authorization for residential property. B-permit holders may purchase primary residence."
-      },
-      "bestFor": {
-        "profile": "The urban professional, digital entrepreneur, or family seeking world-class culture and connectivity",
-        "ideal": "Ideal for: crypto entrepreneurs, corporate executives, families valuing urban lifestyle"
-      }
-    },
-    "zug": {
-      "name": "Zug",
-      "tagline": "Tax haven, crypto valley",
-      "tax": {
-        "corporate": "Approx. 11.9% effective corporate rate",
-        "personal": "Up to 22.4% top marginal rate (combined)",
-        "lumpSum": "CHF 250,000+ minimum taxable base"
-      },
-      "lifestyle": {
-        "character": "Compact, wealthy, lakeside, discreet",
-        "international": "Highly international (35%+ foreign residents, strong expat community)",
-        "culture": "Elegant lakeside town, close to mountains and Zurich",
-        "transport": "30 minutes to Zurich Airport, excellent rail"
-      },
-      "schools": {
-        "list": [
-          "International School of Zug and Luzern (ISZL)",
-          "Institut Montana Zugerberg",
-          "Swiss International School"
-        ]
-      },
-      "bankingInfo": "Crypto Valley ecosystem with blockchain-native banks. Traditional private banking through local branches of major Swiss banks. Family office concentration second only to Geneva.",
-      "realEstate": {
-        "range": "CHF 12,000–25,000/m² (Zug town), CHF 8,000–14,000/m² (surrounding villages)",
-        "lexKoller": "Lex Koller applies. B-permit holders can purchase primary residence. Zug has additional local requirements for some communes."
-      },
-      "bestFor": {
-        "profile": "The tax-optimising entrepreneur, family office, or crypto/fintech founder seeking the lowest possible tax burden",
-        "ideal": "Ideal for: family offices, forfait fiscal applicants, tech entrepreneurs"
-      }
-    },
-    "schwyz": {
-      "name": "Schwyz",
-      "tagline": "Discreet wealth, Alpine serenity",
-      "tax": {
-        "corporate": "Approx. 14.1% effective corporate rate",
-        "personal": "Up to 21.3% top marginal rate (combined)",
-        "lumpSum": "CHF 200,000+ minimum taxable base"
-      },
-      "lifestyle": {
-        "character": "Rural, traditional, supremely private",
-        "international": "Smaller international community, very discreet",
-        "culture": "Alpine landscapes, lake views, traditional Swiss charm",
-        "transport": "45 minutes to Zurich Airport, scenic commute"
-      },
-      "schools": {
-        "list": [
-          "International School of Zug and Luzern (Hünenberg campus, nearby)",
-          "Institut Montana (nearby)",
-          "Stiftsschule Einsiedeln"
-        ]
-      },
-      "bankingInfo": "Private banking through Schwyz-based cantonal bank and branches of major banks. Less institutional density than Zurich or Zug, but ideal for those valuing absolute privacy.",
-      "realEstate": {
-        "range": "CHF 6,000–14,000/m² (lakeside), CHF 4,000–8,000/m² (inland villages)",
-        "lexKoller": "Lex Koller applies. Generally more accessible pricing than Zurich or Zug with comparable or lower tax rates."
-      },
-      "bestFor": {
-        "profile": "The privacy-focused family or individual seeking the lowest taxes with an Alpine lifestyle and complete discretion",
-        "ideal": "Ideal for: multi-generational families, privacy-focused individuals, retirees"
-      }
-    }
-  },
-  "caseStudiesPage": {
-    "meta": {
-      "title": "Études de cas clients — Move to Switzerland",
-      "description": "Études de cas anonymisées de relocalisations suisses réussies."
-    },
-    "hero": {
-      "title": "Parcours clients",
-      "subtitle": "Études de cas anonymisées de relocalisations réelles"
-    },
-    "disclaimer": "Toutes les études de cas sont anonymisées. Les noms et détails ont été modifiés pour protéger la confidentialité.",
-    "cases": {
-      "techFounder": {
-        "title": "Le fondateur tech",
-        "subtitle": "Dubaï à Zoug en 9 mois",
-        "quote": "Nous avions besoin d'une juridiction qui comprenait notre modèle commercial digital et les besoins de sécurité de notre famille.",
-        "profile": "Entrepreneur tech basé à Dubaï, famille de 4, post-exit avec événement de liquidité significatif",
-        "timeline": {
-          "month1": "Initial consultation and canton assessment",
-          "month2": "Pre-immigration asset restructuring",
-          "month3": "Forfait fiscal negotiation initiated with Zug authorities",
-          "month4": "B-permit application submitted",
-          "month5": "International school secured (ISZL)",
-          "month6": "Real estate acquisition — lakeside property in Zug",
-          "month7": "Swiss private banking relationship established",
-          "month8": "Family relocation executed",
-          "month9": "Family office structure established, all services operational"
-        },
-        "challenges": [
-          "Complex multi-jurisdictional corporate structure requiring restructuring",
-          "Crypto holdings requiring specialized banking documentation",
-          "School placement mid-academic year",
-          "Coordinating dual tax residency transition"
-        ],
-        "services": [
-          "Pre-Immigration Asset Structuring",
-          "Lump-Sum Taxation (Forfait Fiscal)",
-          "Residency & Immigration",
-          "Family Office Establishment",
-          "Real Estate Advisory",
-          "Lifestyle Coordination"
-        ],
-        "outcome": "Full family relocation completed. Forfait fiscal approved. Children enrolled at ISZL. Family office operational with Swiss governance framework. Fee: undisclosed."
-      },
-      "bankingFamily": {
-        "title": "La famille bancaire",
-        "subtitle": "Beyrouth à Schwyz — relocalisation d'urgence",
-        "quote": "Quand les banques se sont effondrées, nous avions 72 heures pour prendre une décision.",
-        "profile": "Famille libanaise, 3 générations, portefeuille bancaire et immobilier significatif",
-        "timeline": {
-          "week1": "Emergency consultation — immediate threat assessment",
-          "week2": "Expedited B-permit application initiated",
-          "month1": "Temporary accommodation secured in Schwyz",
-          "month2": "Private banking onboarding (assets transferred from non-Lebanese holdings)",
-          "month3": "Permanent residence established",
-          "month4": "Children enrolled in international school",
-          "month6": "Estate restructuring completed",
-          "month9": "Full settlement — all three generations established",
-          "month12": "Ongoing retainer — estate management and succession planning"
-        },
-        "challenges": [
-          "Emergency timeline requiring parallel processing of all workstreams",
-          "Complex multi-generational estate structure",
-          "Assets trapped in Lebanese banking system",
-          "Three generations with different residency and care needs"
-        ],
-        "services": [
-          "Residency & Immigration",
-          "Private Banking & Wealth Management",
-          "Real Estate Advisory",
-          "Family Office Establishment",
-          "Health & Wellness Concierge",
-          "Lifestyle Coordination"
-        ],
-        "outcome": "All three generations successfully relocated. Private banking relationships established. Estate restructured under Swiss governance. Ongoing succession planning retainer in place."
-      },
-      "digitalNomad": {
-        "title": "Le nomade digital",
-        "subtitle": "Riyad à Zurich en 4 mois",
-        "quote": "J'avais besoin d'un pays qui traite la crypto comme une classe d'actifs légitime.",
-        "profile": "Ressortissant saoudien de 34 ans, portefeuille crypto significatif",
-        "timeline": {
-          "month1": "Consultation, canton selection, crypto wealth documentation strategy",
-          "month15": "B-permit application with detailed source-of-wealth documentation",
-          "month2": "Company formation (Swiss GmbH) for consulting operations",
-          "month3": "Crypto-friendly banking setup (SEBA Bank + traditional private bank)",
-          "month4": "Apartment secured in Zurich, full relocation completed"
-        },
-        "challenges": [
-          "Documenting crypto wealth chain from mining/early-stage purchases to current portfolio",
-          "Finding banking partners comfortable with 90%+ crypto-derived wealth",
-          "Navigating Swiss crypto tax classification for active trading vs. investment",
-          "B-permit for non-EU national with non-traditional wealth profile"
-        ],
-        "services": [
-          "Residency & Immigration",
-          "Company Formation & Corporate Structuring",
-          "Private Banking & Wealth Management",
-          "Lifestyle Coordination"
-        ],
-        "outcome": "B-permit granted. Swiss GmbH operational. Dual banking relationship (crypto + traditional) established. Full compliance framework for ongoing crypto trading. 4 months start to finish."
-      },
-      "gulfFamilyOffice": {
-        "title": "Le family office du Golfe",
-        "subtitle": "Family office koweïtien — SFO suisse établi",
-        "quote": "Nous avions de la conseil stratégique dans quatre juridictions, mais pas de gouvernance unifiée.",
-        "profile": "Family office koweïtien, CHF 200M+ AUM, multigénérationnel",
-        "timeline": {
-          "month1": "Scoping: governance audit, jurisdictional review, family charter assessment",
-          "month2": "Swiss SFO structure designed — AG incorporated in Zug",
-          "month3": "Board formation — 3 Swiss-resident independent directors placed",
-          "month4": "Investment committee established, banking mandates restructured",
-          "month5": "Governance framework documented and ratified by family council",
-          "month6": "Operational — all reporting lines, compliance, and audit frameworks active",
-          "ongoing": "Ongoing retainer: quarterly board meetings, annual governance review, ad-hoc advisory"
-        },
-        "challenges": [
-          "Aligning governance expectations across three generations with different investment philosophies",
-          "Consolidating reporting from four jurisdictions into unified Swiss framework",
-          "Placing qualified independent directors who understood both Swiss and GCC business culture",
-          "Designing succession framework acceptable to all family branches"
-        ],
-        "services": [
-          "Family Office Establishment",
-          "Independent Directorship & Board Services",
-          "Company Formation & Corporate Structuring",
-          "Private Banking & Wealth Management"
-        ],
-        "outcome": "Swiss SFO fully operational in Zug. 3 independent directors placed. Governance framework ratified by all family branches. Consolidated reporting across all jurisdictions. Ongoing retainer for quarterly governance and annual review."
-      }
-    }
+    "title": "Nos Services — S'installer en Suisse",
+    "description": "Services de conseil complets couvrant chaque dimension de votre relocalisation en Suisse."
   },
   "insights": {
     "meta": {
-      "title": "Perspectives — Move to Switzerland Conseil",
-      "description": "Perspectives d'experts sur la relocalisation en Suisse, la fiscalité, l'immobilier, la banque et le mode de vie pour les particuliers et familles fortunés."
+      "title": "Analyses — Move to Switzerland Advisory",
+      "description": "Analyses expertes sur la relocalisation en Suisse, la fiscalité, l'immobilier, la banque et le style de vie pour les familles fortunées."
     },
     "hero": {
-      "title": "Perspectives",
-      "subtitle": "Perspectives d'experts sur la relocalisation en Suisse, la fiscalité et la gestion de patrimoine"
+      "title": "Analyses",
+      "subtitle": "Perspectives d'experts sur la relocalisation, la fiscalité et la gestion de patrimoine en Suisse"
     },
     "readMore": "Lire l'article",
     "author": "Équipe de conseil Move to Switzerland",
@@ -607,229 +607,229 @@
     "relatedServices": "Services associés",
     "breadcrumb": {
       "home": "Accueil",
-      "insights": "Perspectives"
+      "insights": "Analyses"
     },
     "articles": {
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
         "categoryLabel": "Fiscalité",
         "readTime": "12 min de lecture",
-        "date": "1 avril 2026",
-        "title": "L'imposition forfaitaire suisse expliquée : Guide complet pour les résidents étrangers",
-        "metaDescription": "Guide complet de l'imposition forfaitaire suisse (forfait fiscal). Éligibilité, montants minimaux par canton et processus de demande.",
-        "excerpt": "Une analyse complète du régime suisse de forfait fiscal — conditions d'éligibilité, montants minimaux cantonaux et processus de demande étape par étape.",
+        "date": "1er avril 2026",
+        "title": "L'imposition d'après la dépense en Suisse : Guide complet pour les résidents étrangers",
+        "metaDescription": "Guide complet sur le forfait fiscal suisse. Découvrez l'éligibilité, les montants minimums par canton et le processus de demande étape par étape.",
+        "excerpt": "Une analyse détaillée du régime du forfait fiscal suisse — conditions d'éligibilité, montants cantonaux minimums, calculs de la base imposable et processus de demande.",
         "sectionCount": "9",
         "sections": {
           "0": {
-            "content": "Switzerland's lump-sum taxation regime — known as forfait fiscal or Pauschalbesteuerung — is one of the most attractive tax arrangements available to wealthy foreign nationals relocating to Switzerland. Under this system, qualifying individuals are taxed based on their living expenses rather than their worldwide income and assets. For high-net-worth individuals, particularly those with significant global income streams, this can result in substantially lower tax obligations compared to ordinary taxation."
+            "content": "Le régime d'imposition d'après la dépense en Suisse — connu sous le nom de forfait fiscal ou Pauschalbesteuerung — est l'un des dispositifs fiscaux les plus attractifs pour les ressortissants étrangers fortunés souhaitant s'installer en Suisse. Sous ce système, les personnes éligibles sont imposées en fonction de leurs dépenses courantes plutôt que sur leurs revenus et actifs mondiaux. Pour les particuliers fortunés, en particulier ceux ayant d'importants revenus mondiaux, cela peut se traduire par des obligations fiscales nettement inférieures à celles de l'imposition ordinaire."
           },
           "1": {
-            "heading": "What Is Lump-Sum Taxation?",
+            "heading": "Qu'est-ce que l'imposition d'après la dépense ?",
             "level": "2",
-            "content": "Lump-sum taxation is a special tax regime available to foreign nationals who take up or resume tax residence in Switzerland and do not engage in gainful employment within the country. Instead of declaring worldwide income and wealth, the taxpayer's tax base is determined by their annual living expenses in Switzerland — including housing costs, food, travel, education, staff costs, and other personal expenditures. The tax is then calculated by applying ordinary Swiss tax rates (federal, cantonal, and municipal) to this deemed taxable base. The system has been part of Swiss tax law for over a century and currently serves approximately 5,000 individuals across Switzerland, generating over CHF 900 million annually in tax revenue."
+            "content": "Le forfait fiscal est un régime fiscal spécial accessible aux ressortissants étrangers qui établissent ou reprennent une résidence fiscale en Suisse et qui n'y exercent aucune activité lucrative. Au lieu de déclarer leurs revenus et leur fortune mondiaux, la base imposable du contribuable est déterminée par ses dépenses annuelles de train de vie en Suisse — incluant le logement, la nourriture, les voyages, l'éducation, le personnel et autres dépenses personnelles. L'impôt est ensuite calculé en appliquant les taux d'imposition ordinaires suisses (fédéraux, cantonaux et communaux) à cette base imposable réputée. Ce système fait partie de la loi fiscale suisse depuis plus d'un siècle et concerne actuellement environ 5 000 personnes en Suisse, générant plus de 900 millions de CHF de recettes fiscales par an."
           },
           "2": {
-            "heading": "Eligibility Requirements",
+            "heading": "Conditions d'éligibilité",
             "level": "2",
-            "content": "To qualify for lump-sum taxation, an applicant must meet three fundamental criteria. First, the individual must be a foreign national — Swiss citizens are not eligible. Second, the individual must be taking up Swiss tax residence for the first time, or returning after an absence of at least 10 years. Third, and critically, the individual must not engage in any gainful employment in Switzerland. This includes employment, self-employment, and active management of a Swiss-based business. Passive activities such as managing personal investments or overseeing a family office (provided the office does not generate third-party revenue) are generally permissible. The spouse of the applicant must also meet the nationality criterion — if one spouse is Swiss, lump-sum taxation is not available to the couple."
+            "content": "Pour bénéficier du forfait fiscal, un demandeur doit répondre à trois critères fondamentaux. Premièrement, la personne doit être de nationalité étrangère — les citoyens suisses n'y sont pas éligibles. Deuxièmement, la personne doit établir sa résidence fiscale en Suisse pour la première fois, ou y revenir après une absence d'au moins 10 ans. Troisièmement, et c'est un point crucial, la personne ne doit exercer aucune activité lucrative en Suisse. Cela inclut l'emploi salarié, l'activité indépendante et la gestion active d'une entreprise basée en Suisse. Les activités passives telles que la gestion d'investissements personnels ou la supervision d'un family office (à condition que celui-ci ne génère pas de revenus de tiers) sont généralement autorisées. Le conjoint du demandeur doit également remplir le critère de nationalité — si l'un des époux est suisse, le forfait fiscal n'est pas accessible au couple."
           },
           "3": {
-            "heading": "How the Taxable Base Is Calculated",
+            "heading": "Comment la base imposable est-elle calculée ?",
             "level": "2",
-            "content": "The taxable base under lump-sum taxation is the higher of two calculations. The first is the actual worldwide living expenses of the taxpayer and their family. The second is a control calculation — a minimum threshold designed to prevent abuse. At the federal level, the minimum taxable income has been set at CHF 400,000 since the 2016 reform. Cantons set their own minimums, which range from approximately CHF 250,000 to over CHF 600,000 depending on the canton. The control calculation considers several factors: the fair rental value (or actual rent) of the taxpayer's Swiss residence multiplied by a factor (typically 3 to 7 depending on the canton), Swiss-source income (e.g., Swiss real estate income), and income from countries with which Switzerland has a double taxation agreement where the taxpayer claims treaty benefits."
+            "content": "La base imposable sous le régime du forfait fiscal est le montant le plus élevé entre deux calculs. Le premier correspond aux dépenses réelles de train de vie mondiales du contribuable et de sa famille. Le second est un calcul de contrôle — un seuil minimal conçu pour prévenir les abus. Au niveau fédéral, le revenu imposable minimum est fixé à 400 000 CHF depuis la réforme de 2016. Les cantons fixent leurs propres minimums, qui varient d'environ 250 000 CHF à plus de 600 000 CHF selon le canton. Le calcul de contrôle prend en compte plusieurs facteurs : la valeur locative (ou le loyer réel) de la résidence suisse du contribuable multipliée par un facteur (généralement de 3 à 7 selon le canton), les revenus de source suisse (par exemple, les revenus immobiliers suisses) et les revenus provenant de pays avec lesquels la Suisse a conclu une convention de double imposition où le contribuable revendique les avantages de ladite convention."
           },
           "4": {
-            "heading": "Minimum Amounts by Canton",
+            "heading": "Montants minimums par canton",
             "level": "3",
-            "content": "Cantonal minimums vary significantly and are a key factor in canton selection. Zug requires a minimum taxable income of approximately CHF 250,000, making it one of the most accessible cantons. Schwyz sets its minimum around CHF 250,000 as well. Lucerne requires approximately CHF 300,000. Valais and Graubünden set minimums around CHF 400,000. Geneva requires approximately CHF 400,000 minimum taxable income but has higher municipal tax rates. Zurich requires approximately CHF 400,000 and applies its standard progressive rates to the deemed base. Vaud, historically the canton with the most lump-sum taxpayers, requires approximately CHF 400,000. Bern has a minimum of approximately CHF 400,000. Note that several cantons have abolished lump-sum taxation at the cantonal level — Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, and Zürich city (though the canton still permits it in some municipalities). Always verify current availability with cantonal authorities."
+            "content": "Les minimums cantonaux varient considérablement et constituent un facteur clé dans le choix du canton. Zoug exige un revenu imposable minimum d'environ 250 000 CHF, ce qui en fait l'un des cantons les plus accessibles. Schwytz fixe également son minimum autour de 250 000 CHF. Lucerne exige environ 300 000 CHF. Le Valais et les Grisons fixent des minimums autour de 400 000 CHF. Genève exige environ 400 000 CHF de revenu imposable minimum mais possède des taux d'imposition communaux plus élevés. Zurich exige environ 400 000 CHF et applique ses taux progressifs standards à la base réputée. Vaud, historiquement le canton comptant le plus de contribuables au forfait, exige environ 400 000 CHF. Berne a un minimum d'environ 400 000 CHF. Notez que plusieurs cantons ont aboli le forfait fiscal au niveau cantonal — Bâle-Ville, Bâle-Campagne, Schaffhouse, Appenzell Rhodes-Extérieures et la ville de Zurich (bien que le canton l'autorise toujours dans certaines communes). Vérifiez toujours la disponibilité actuelle auprès des autorités cantonales."
           },
           "5": {
-            "heading": "The Application Process: Step by Step",
+            "heading": "Le processus de demande : Étape par étape",
             "level": "2",
-            "content": "The application process typically follows a structured path. In the pre-application phase, the prospective taxpayer works with qualified advisors to prepare a detailed summary of their personal and financial situation, select the optimal canton and municipality, and prepare preliminary calculations of the proposed taxable base. The formal application is submitted to the cantonal tax authority. It includes a detailed statement of anticipated living expenses, documentation of the applicant's financial situation, proof of the nationality requirement, and a declaration of no gainful Swiss employment. The cantonal authority reviews the application and may enter into a negotiation on the taxable base. This is a genuine negotiation — the authority has discretion and will assess whether the proposed base is reasonable given the applicant's apparent lifestyle and wealth. Once agreed, a formal tax ruling is issued, typically valid for a defined period (often the first tax year, with annual renewal). The taxpayer must file an annual declaration of living expenses to maintain the arrangement."
+            "content": "Le processus de demande suit généralement un parcours structuré. Lors de la phase de pré-demande, le futur contribuable travaille avec des conseillers qualifiés pour préparer un résumé détaillé de sa situation personnelle et financière, sélectionner le canton et la commune optimaux, et préparer des calculs préliminaires de la base imposable proposée. La demande formelle est soumise à l'autorité fiscale cantonale. Elle comprend un état détaillé des dépenses de train de vie prévues, une documentation sur la situation financière du demandeur, la preuve de la nationalité étrangère et une déclaration d'absence d'activité lucrative en Suisse. L'autorité cantonale examine la demande et peut engager une négociation sur la base imposable. Il s'agit d'une véritable négociation — l'autorité dispose d'un pouvoir d'appréciation et évaluera si la base proposée est raisonnable au regard du train de vie apparent et de la fortune du demandeur. Une fois l'accord conclu, une décision fiscale formelle (tax ruling) est émise, généralement valable pour une période définie. Le contribuable doit déposer une déclaration annuelle de ses dépenses pour maintenir l'accord."
           },
           "6": {
-            "heading": "Federal vs. Cantonal Lump-Sum Taxation",
+            "heading": "Fiscalité forfaitaire fédérale vs cantonale",
             "level": "2",
-            "content": "It is important to understand that lump-sum taxation operates at both the federal and cantonal/municipal levels. At the federal level, the minimum taxable income is CHF 400,000. Cantonal and municipal taxes are calculated separately, and each canton has its own minimum thresholds and rates. In practice, the total effective tax rate on lump-sum income typically ranges from 20% to 35% depending on the canton and municipality, compared to top marginal rates of 40%+ for ordinary taxpayers with high incomes. For an individual with a negotiated taxable base of CHF 500,000, for example, the total annual tax bill in Zug might be approximately CHF 100,000–120,000 — a fraction of what they would pay on their actual worldwide income under ordinary taxation."
+            "content": "Il est important de comprendre que l'imposition forfaitaire s'applique à la fois au niveau fédéral et au niveau cantonal/communal. Au niveau fédéral, le revenu imposable minimum est de 400 000 CHF. Les impôts cantonaux et communaux sont calculés séparément, et chaque canton possède ses propres seuils minimums et ses propres taux. En pratique, le taux d'imposition effectif total sur le revenu forfaitaire varie généralement de 20 % à 35 % selon le canton et la commune, contre des taux marginaux supérieurs à 40 % pour les contribuables ordinaires à hauts revenus. Pour une personne ayant une base imposable négociée de 500 000 CHF, par exemple, la facture fiscale annuelle totale à Zoug pourrait s'élever à environ 100 000–120 000 CHF — une fraction de ce qu'elle paierait sur ses revenus mondiaux réels sous le régime de l'imposition ordinaire."
           },
           "7": {
-            "heading": "Advantages and Considerations",
+            "heading": "Avantages et considérations",
             "level": "2",
-            "content": "The primary advantages of lump-sum taxation include predictable and often significantly lower tax bills, no requirement to disclose worldwide income and assets in detail, simplified tax compliance, and protection from Swiss wealth tax on non-Swiss assets. However, there are important considerations. Lump-sum taxpayers cannot claim deductions available to ordinary taxpayers (such as pension contributions). They cannot benefit from Swiss double taxation treaty rates lower than their domestic withholding rates in all cases. They must genuinely refrain from Swiss employment. And public referendums have challenged the regime in several cantons, creating some political risk — though the November 2025 federal vote, in which 78% voted against abolishing the regime, has significantly strengthened its long-term security."
+            "content": "Les principaux avantages de l'imposition d'après la dépense incluent des factures fiscales prévisibles et souvent nettement inférieures, aucune obligation de divulguer en détail ses revenus et actifs mondiaux, une conformité fiscale simplifiée et une protection contre l'impôt sur la fortune suisse pour les actifs non suisses. Cependant, il existe des considérations importantes. Les contribuables au forfait ne peuvent pas prétendre aux déductions accessibles aux contribuables ordinaires (telles que les cotisations de prévoyance). Ils ne peuvent pas bénéficier des taux des conventions de double imposition suisses inférieurs à leurs taux de retenue à la source domestiques dans tous les cas. Ils doivent réellement s'abstenir de toute activité lucrative en Suisse. Enfin, des référendums populaires ont contesté ce régime dans plusieurs cantons, créant un certain risque politique — bien que le vote fédéral de novembre 2025, où 78 % ont voté contre l'abolition du régime, ait considérablement renforcé sa sécurité à long terme."
           },
           "8": {
-            "heading": "Is Lump-Sum Taxation Right for You?",
+            "heading": "Le forfait fiscal est-il fait pour vous ?",
             "level": "2",
-            "content": "Lump-sum taxation is most beneficial for individuals with high worldwide income who do not need to work in Switzerland — typically retirees, investors, family wealth holders, and individuals living off passive income from businesses outside Switzerland. It is less suitable for individuals planning to actively manage a Swiss-based business or those with relatively modest worldwide income (where ordinary taxation might actually result in a lower bill). A detailed comparative analysis — ordinary taxation vs. lump-sum — should be prepared as part of your pre-immigration planning. We provide this analysis as part of our pre-immigration advisory service, ensuring you make this critical decision with full information."
+            "content": "L'imposition d'après la dépense est particulièrement bénéfique pour les personnes disposant de revenus mondiaux élevés qui n'ont pas besoin de travailler en Suisse — typiquement les retraités, les investisseurs, les détenteurs de fortune familiale et les personnes vivant de revenus passifs issus d'entreprises hors de Suisse. Elle est moins adaptée aux personnes prévoyant de gérer activement une entreprise basée en Suisse ou à celles ayant des revenus mondiaux relativement modestes (où l'imposition ordinaire pourrait s'avérer moins onéreuse). Une analyse comparative détaillée — imposition ordinaire vs forfait fiscal — doit être préparée dans le cadre de votre planification avant immigration. Nous fournissons cette analyse dans le cadre de notre service de conseil pré-immigration, vous garantissant de prendre cette décision cruciale en toute connaissance de cause."
           }
         },
-        "imageAlt": "Intérieur d'un bureau fiscal cantonal suisse avec documents officiels"
+        "imageAlt": "Intérieur d'un bureau fiscal cantonal suisse avec documents officiels sur un bureau en noyer"
       },
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
         "categoryLabel": "Immobilier",
         "readTime": "10 min de lecture",
-        "date": "1 avril 2026",
+        "date": "1er avril 2026",
         "title": "Lex Koller : Ce que les acheteurs étrangers doivent savoir sur l'immobilier suisse",
-        "metaDescription": "Comprendre la loi Lex Koller : restrictions de propriété pour les étrangers, exigences de permis et stratégies pratiques.",
-        "excerpt": "Naviguer les restrictions de propriété suisses pour les étrangers — des exigences Lex Koller aux différences cantonales et stratégies pour les acheteurs internationaux.",
+        "metaDescription": "Comprendre la loi suisse Lex Koller : restrictions sur la propriété étrangère, exigences de permis et différences cantonales.",
+        "excerpt": "Naviguez parmi les restrictions de propriété foncière pour les étrangers en Suisse — des exigences de la Lex Koller aux spécificités cantonales.",
         "sectionCount": "9",
         "sections": {
           "0": {
-            "content": "Switzerland's real estate market is among the most stable and desirable in the world — and among the most regulated for foreign buyers. The Federal Act on the Acquisition of Real Estate by Persons Abroad, commonly known as Lex Koller (or historically Lex Friedrich), governs how non-Swiss nationals can acquire residential property in Switzerland. Understanding this law is essential for anyone relocating to Switzerland and planning to purchase a home."
+            "content": "Le marché immobilier suisse est l'un des plus stables et des plus convoités au monde — et l'un des plus réglementés pour les acheteurs étrangers. La Loi fédérale sur l'acquisition d'immeubles par des personnes à l'étranger, communément appelée Lex Koller, régit la manière dont les ressortissants non suisses peuvent acquérir des biens résidentiels en Suisse. La compréhension de cette loi est essentielle pour toute personne se relocalisant en Suisse et prévoyant d'y acheter un logement."
           },
           "1": {
-            "heading": "What Is Lex Koller?",
+            "heading": "Qu'est-ce que la Lex Koller ?",
             "level": "2",
-            "content": "Lex Koller is a federal law that restricts the acquisition of residential real estate by foreign nationals who are not resident in Switzerland. Enacted in 1961 and revised multiple times since, the law's purpose is to prevent the \"foreign over-alienation\" of Swiss land — essentially, to ensure that Swiss real estate remains available to Swiss residents rather than being acquired as investment properties by non-residents. The law applies specifically to residential property. Commercial and industrial real estate is generally exempt, meaning foreign-owned companies can acquire office space, retail premises, and industrial property without Lex Koller restrictions."
+            "content": "La Lex Koller est une loi fédérale qui restreint l'acquisition d'immobilier résidentiel par des ressortissants étrangers qui ne résident pas en Suisse. Promulguée en 1961 et révisée à plusieurs reprises, cette loi a pour but d'empêcher l'emprise étrangère sur le sol suisse — essentiellement pour garantir que l'immobilier suisse reste accessible aux résidents suisses plutôt que d'être acquis comme placement par des non-résidents. La loi s'applique spécifiquement aux biens résidentiels. L'immobilier commercial et industriel est généralement exempté, ce qui signifie que des sociétés à capitaux étrangers peuvent acquérir des bureaux, des locaux commerciaux et des biens industriels sans les restrictions de la Lex Koller."
           },
           "2": {
-            "heading": "Who Is Affected?",
+            "heading": "Qui est concerné ?",
             "level": "2",
-            "content": "Lex Koller applies to persons abroad — defined as foreign nationals who do not have their permanent residence in Switzerland, and foreign-controlled companies. The key distinctions are as follows. EU/EFTA nationals with a valid residence permit (B or C permit) are treated essentially the same as Swiss nationals for the purpose of acquiring a primary residence. They can purchase residential property for their own use without authorization. Non-EU/EFTA nationals with a B permit can purchase a primary residence without authorization in most cantons, but face restrictions on secondary residences and investment properties. Persons without Swiss residence (regardless of nationality) require cantonal authorization to purchase residential property, and such authorization is subject to strict quotas. Swiss nationals living abroad are not affected — they can purchase freely."
+            "content": "La Lex Koller s'applique aux « personnes à l'étranger » — définies comme des ressortissants étrangers n'ayant pas leur domicile principal en Suisse, ainsi que des sociétés contrôlées par des étrangers. Les distinctions clés sont les suivantes : les ressortissants de l'UE/AELE munis d'un permis de séjour valide (permis B ou C) sont traités essentiellement comme des ressortissants suisses pour l'acquisition d'une résidence principale. Ils peuvent acheter un bien résidentiel pour leur propre usage sans autorisation. Les ressortissants hors UE/AELE munis d'un permis B peuvent acheter une résidence principale sans autorisation dans la plupart des cantons, mais font face à des restrictions pour les résidences secondaires et l'immobilier de rendement. Les personnes sans résidence en Suisse (quelle que soit leur nationalité) ont besoin d'une autorisation cantonale pour acheter un bien résidentiel, et cette autorisation est soumise à des quotas stricts. Les ressortissants suisses vivant à l'étranger ne sont pas concernés — ils peuvent acheter librement."
           },
           "3": {
-            "heading": "Types of Property and Restrictions",
+            "heading": "Types de biens et restrictions",
             "level": "2",
-            "content": "The restrictions vary by property type. Primary residence (Hauptwohnung): permit holders (B or C) can purchase a primary residence at their place of residence without authorization. The property must serve as their actual home. Secondary or holiday residences (Ferienwohnung): these are subject to the strictest restrictions. Purchase by non-residents requires cantonal authorization, which is allocated through a federal quota system (known as the contingent). The property must be in a recognized tourist area, and there are size limitations (typically a maximum of 200m² net living area). Investment/rental properties: non-resident foreigners generally cannot acquire residential investment properties. Permit holders can acquire investment properties subject to cantonal rules. Commercial property: generally exempt from Lex Koller."
+            "content": "Les restrictions varient selon le type de bien. Résidence principale (Hauptwohnung) : les détenteurs de permis (B ou C) peuvent acheter une résidence principale sur leur lieu de résidence sans autorisation. Le bien doit servir de domicile effectif. Résidences secondaires ou de vacances (Ferienwohnung) : celles-ci sont soumises aux restrictions les plus strictes. L'achat par des non-résidents nécessite une autorisation cantonale, allouée via un système de quotas fédéraux (le contingent). Le bien doit être situé dans une zone touristique reconnue, et il existe des limites de surface (généralement un maximum de 200 m² de surface habitable nette). Immobilier de rendement/investissement : les étrangers non résidents ne peuvent généralement pas acquérir de biens résidentiels de rendement. Les détenteurs de permis peuvent en acquérir selon les règles cantonales. Immobilier commercial : généralement exempté de la Lex Koller."
           },
           "4": {
-            "heading": "Cantonal Differences",
+            "heading": "Différences cantonales",
             "level": "2",
-            "content": "While Lex Koller is a federal law, implementation involves cantonal authorities, and there are meaningful differences in how cantons handle applications. Zurich is relatively straightforward for permit holders purchasing a primary residence. The cantonal land registry (Grundbuchamt) typically processes acquisitions without issue if the buyer has a valid permit and the property is at their registered address. Zug follows a similar approach but has some additional commune-level requirements. Certain municipalities in Zug require additional documentation or have waiting periods. Schwyz is generally accessible and, combined with lower property prices and very low tax rates, represents excellent value for relocating families. Geneva and Vaud have the highest demand from foreign buyers, leading to more scrutiny of applications. Geneva in particular has tight secondary residence quotas. Valais and Graubünden, as major tourist cantons, have the most developed regimes for authorizing holiday residence acquisitions."
+            "content": "Bien que la Lex Koller soit une loi fédérale, sa mise en œuvre implique les autorités cantonales, et il existe des différences notables dans la manière dont les cantons traitent les demandes. Zurich est relativement souple pour les détenteurs de permis achetant une résidence principale. Le registre foncier cantonal (Grundbuchamt) traite généralement les acquisitions sans difficulté si l'acheteur possède un permis valide et si le bien se situe à son adresse déclarée. Zoug suit une approche similaire mais impose certaines exigences supplémentaires au niveau communal. Certaines municipalités de Zoug exigent une documentation complémentaire ou imposent des périodes d'attente. Schwytz est généralement accessible et, combiné à des prix immobiliers plus bas et des taux d'imposition très faibles, représente une excellente opportunité pour les familles qui s'installent. Genève et Vaud connaissent la plus forte demande de la part des acheteurs étrangers, ce qui entraîne un examen plus approfondi des dossiers. Genève, en particulier, possède des quotas de résidence secondaire très serrés. Le Valais et les Grisons, en tant que grands cantons touristiques, possèdent les régimes les plus développés pour autoriser l'acquisition de résidences de vacances."
           },
           "5": {
-            "heading": "The Authorization Process",
+            "heading": "Le processus d'autorisation",
             "level": "3",
-            "content": "When authorization is required (typically for secondary residences or for buyers without a residence permit), the process involves several steps. The buyer submits an application to the cantonal authority responsible for Lex Koller matters — usually the cantonal Grundbuchamt or a dedicated department of justice. The application must include the purchase agreement (usually a preliminary \"Vorvertrag\"), proof of the buyer's connection to Switzerland or the specific location, evidence that the acquisition falls within one of the permitted categories, and confirmation that the property meets size and usage requirements. The cantonal authority reviews the application against the federal quota (for holiday residences) and cantonal criteria. Processing times vary from 2–6 weeks in smaller cantons to 2–3 months in Geneva or Vaud."
+            "content": "Lorsqu'une autorisation est requise (typiquement pour les résidences secondaires ou pour les acheteurs sans permis de séjour), le processus comprend plusieurs étapes. L'acheteur soumet une demande à l'autorité cantonale responsable de la Lex Koller — généralement le Grundbuchamt cantonal ou un département de justice dédié. La demande doit inclure l'acte de vente (généralement une promesse de vente ou « Vorvertrag »), la preuve du lien de l'acheteur avec la Suisse ou le lieu spécifique, la preuve que l'acquisition entre dans l'une des catégories autorisées, et la confirmation que le bien respecte les critères de taille et d'usage. L'autorité cantonale examine la demande au regard du quota fédéral (pour les résidences de vacances) et des critères cantonaux. Les délais de traitement varient de 2 à 6 semaines dans les petits cantons à 2 ou 3 mois à Genève ou Vaud."
           },
           "6": {
-            "heading": "Practical Strategies for Foreign Buyers",
+            "heading": "Stratégies pratiques pour les acheteurs étrangers",
             "level": "2",
-            "content": "For high-net-worth individuals relocating to Switzerland, several practical strategies can simplify the real estate acquisition process. The most straightforward approach is to obtain a B permit before purchasing property. With a valid residence permit, acquiring a primary residence becomes essentially the same process as for a Swiss citizen. For families who wish to purchase before their permit is issued, it is sometimes possible to enter into a conditional purchase agreement (Vorvertrag) that is contingent on the permit being granted. For those interested in acquiring secondary residences or investment properties, incorporating a Swiss company can sometimes provide a pathway, though this requires careful structuring to avoid being classified as a foreign-controlled company. Working with a specialized real estate advisor who understands both Lex Koller and the local market is essential. Off-market properties — common in the luxury segment — often represent the best opportunities and require an advisor with established networks."
+            "content": "Pour les personnes fortunées se relocalisant en Suisse, plusieurs stratégies pratiques peuvent simplifier le processus d'acquisition immobilière. L'approche la plus directe consiste à obtenir un permis B avant d'acheter un bien. Avec un permis de séjour valide, l'acquisition d'une résidence principale devient essentiellement le même processus que pour un citoyen suisse. Pour les familles souhaitant acheter avant la délivrance de leur permis, il est parfois possible de conclure une promesse de vente conditionnelle à l'octroi du permis. Pour ceux intéressés par l'acquisition de résidences secondaires ou de biens de rendement, la création d'une société suisse peut parfois offrir une voie, bien que cela nécessite une structuration minutieuse pour éviter d'être classé comme une société sous contrôle étranger. Collaborer avec un conseiller immobilier spécialisé comprenant à la fois la Lex Koller et le marché local est essentiel. Les propriétés hors marché — courantes dans le segment de luxe — représentent souvent les meilleures opportunités et nécessitent un conseiller disposant de réseaux établis."
           },
           "7": {
-            "heading": "Recent Developments and Outlook",
+            "heading": "Développements récents et perspectives",
             "level": "2",
-            "content": "There have been periodic discussions about reforming or abolishing Lex Koller. A 2017 federal proposal to loosen restrictions on commercial property acquisition was shelved, and more recent discussions have focused on tightening rather than loosening the law, particularly regarding secondary residences in tourist areas. For the foreseeable future, Lex Koller remains firmly in place. Relocating families should plan their real estate strategy in conjunction with their immigration timeline — the two are intimately connected, and proper coordination can save significant time and complexity."
+            "content": "Des discussions périodiques ont lieu concernant la réforme ou l'abolition de la Lex Koller. Une proposition fédérale de 2017 visant à assouplir les restrictions sur l'acquisition de biens commerciaux a été abandonnée, et les discussions plus récentes se sont concentrées sur le durcissement plutôt que sur l'assouplissement de la loi, en particulier concernant les résidences secondaires dans les zones touristiques. Pour l'avenir prévisible, la Lex Koller reste fermement en place. Les familles qui s'installent doivent planifier leur stratégie immobilière en lien avec leur calendrier d'immigration — les deux sont intimement liés, et une coordination adéquate peut faire gagner beaucoup de temps."
           },
           "8": {
-            "heading": "Property Prices: What to Expect",
+            "heading": "Prix de l'immobilier : À quoi s'attendre",
             "level": "2",
-            "content": "Swiss real estate prices, particularly in prime locations, are among the highest in the world. In Zurich city, expect CHF 15,000–35,000 per square metre for prime residential property. Gold Coast communities along Lake Zurich (Küsnacht, Zollikon, Herrliberg) command premiums of CHF 20,000–40,000/m². In Zug, town centre properties range from CHF 12,000–25,000/m², with surrounding villages from CHF 8,000–14,000/m². Schwyz offers more accessible pricing at CHF 6,000–14,000/m² lakeside and CHF 4,000–8,000/m² in inland villages. These prices reflect the quality, stability, and scarcity of Swiss real estate — and the fact that property in Switzerland has historically been one of the most reliable stores of value globally."
+            "content": "Les prix de l'immobilier suisse, en particulier dans les emplacements de premier choix, figurent parmi les plus élevés au monde. À Zurich-ville, comptez entre 15 000 et 35 000 CHF par mètre carré pour un bien résidentiel de prestige. Les communes de la « Gold Coast » le long du lac de Zurich (Küsnacht, Zollikon, Herrliberg) affichent des prix de 20 000 à 40 000 CHF/m². À Zoug, les biens du centre-ville varient de 12 000 à 25 000 CHF/m², et les villages environnants de 8 000 à 14 000 CHF/m². Schwytz offre des prix plus accessibles, entre 6 000 et 14 000 CHF/m² au bord du lac et 4 000 à 8 000 CHF/m² dans les terres. Ces prix reflètent la qualité, la stabilité et la rareté de l'immobilier suisse — et le fait que la pierre en Suisse a historiquement été l'une des réserves de valeur les plus fiables au monde."
           }
         },
-        "imageAlt": "Villa suisse de luxe au bord du lac avec toile de fond alpine"
+        "imageAlt": "Villa de luxe au bord d'un lac suisse avec les Alpes en arrière-plan à l'heure dorée"
       },
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
-        "categoryLabel": "Mode de vie",
+        "categoryLabel": "Style de vie",
         "readTime": "11 min de lecture",
-        "date": "1 avril 2026",
-        "title": "Les meilleures écoles internationales à Zurich, Zoug et Schwyz",
-        "metaDescription": "Guide complet des meilleures écoles internationales à Zurich, Zoug et Schwyz. Comparaison des programmes IB, américain, britannique et maturité suisse.",
-        "excerpt": "Comparez les meilleures écoles internationales de Zurich, Zoug et Schwyz — programmes IB, maturité suisse, internat, frais de scolarité et conseils d'admission.",
+        "date": "1er avril 2026",
+        "title": "Les meilleures écoles internationales à Zurich, Zoug et Schwytz",
+        "metaDescription": "Guide complet des meilleures écoles internationales à Zurich, Zoug et Schwytz. Comparez les programmes IB, américains, britanniques et suisses.",
+        "excerpt": "Comparez les meilleures écoles internationales à Zurich, Zoug et Schwytz — des programmes IB et de la maturité suisse aux options d'internat.",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "For families relocating to Switzerland, choosing the right school is often the single most important decision after canton selection. Switzerland is home to some of the finest international schools in the world, offering a range of curricula — International Baccalaureate (IB), American, British, and Swiss Matura — in multilingual environments that prepare children for global careers. This guide covers the leading international schools across three key relocation cantons: Zurich, Zug, and Schwyz."
+            "content": "Pour les familles qui s'installent en Suisse, le choix de l'école est souvent la décision la plus importante après celle du canton. La Suisse abrite certaines des meilleures écoles internationales au monde, proposant divers programmes — Baccalauréat International (IB), américain, britannique et Maturité suisse — dans des environnements multilingues qui préparent les enfants à des carrières mondiales. Ce guide couvre les principaux établissements dans trois cantons clés : Zurich, Zoug et Schwytz."
           },
           "1": {
-            "heading": "International Schools in Zurich",
+            "heading": "Écoles internationales à Zurich",
             "level": "2",
-            "content": "Zurich offers the widest selection of international schools in the German-speaking part of Switzerland, reflecting its status as the country's largest city and a major international business hub."
+            "content": "Zurich offre la plus large sélection d'écoles internationales en Suisse alémanique, reflétant son statut de plus grande ville du pays et de centre d'affaires international majeur."
           },
           "2": {
             "heading": "Zurich International School (ZIS)",
             "level": "3",
-            "content": "Zurich International School is one of the most established and highly regarded international schools in Switzerland. Founded in 1963, ZIS operates across four campuses in the Zurich area — Wädenswil, Kilchberg, Adliswil, and the new upper school campus in Adliswil. The school serves approximately 1,500 students aged 3–18 from over 55 nationalities. ZIS offers the IB Diploma Programme, IB Middle Years Programme (MYP), and the IB Primary Years Programme (PYP). The language of instruction is English, with strong German and additional language programmes. Annual tuition ranges from approximately CHF 30,000 for early childhood to CHF 42,000 for the upper school (Diploma Programme). Admissions are competitive, and families are encouraged to apply at least 6–12 months before their intended start date."
+            "content": "La Zurich International School est l'un des établissements les plus anciens et les plus réputés de Suisse. Fondée en 1963, la ZIS opère sur quatre campus dans la région de Zurich. L'école accueille environ 1 500 élèves de 3 à 18 ans représentant plus de 55 nationalités. La ZIS propose les programmes de l'IB (primaire, moyen et diplôme). La langue d'enseignement est l'anglais, avec de solides programmes en allemand. Les frais de scolarité annuels varient d'environ 30 000 CHF pour la petite enfance à 42 000 CHF pour le lycée. Les admissions sont sélectives et il est conseillé aux familles de postuler 6 à 12 mois à l'avance."
           },
           "3": {
             "heading": "Inter-Community School Zurich (ICS)",
             "level": "3",
-            "content": "Inter-Community School Zurich is located in Zumikon, on the prestigious Gold Coast east of the city. The school serves approximately 900 students aged 3–18. ICS offers the IB curriculum across all levels (PYP, MYP, DP) and is known for its inclusive, community-oriented approach. The school has a strong emphasis on mother-tongue language maintenance, which is particularly valuable for families relocating from non-English-speaking countries. Annual tuition is approximately CHF 28,000–38,000 depending on the grade level. ICS also offers an extensive after-school activities programme and excellent facilities including science labs, art studios, and sports facilities."
+            "content": "L'Inter-Community School Zurich est située à Zumikon, sur la prestigieuse Gold Coast. L'école accueille environ 900 élèves. L'ICS propose le programme de l'IB à tous les niveaux et est connue pour son approche inclusive et communautaire. Les frais annuels s'élèvent à environ 28 000–38 000 CHF selon le niveau scolaire. L'ICS propose également un vaste programme d'activités périscolaires et d'excellentes installations."
           },
           "4": {
             "heading": "Swiss International School (SIS) Zurich",
             "level": "3",
-            "content": "SIS Zurich offers a unique bilingual (English-German) programme that follows both the Swiss and international curricula. This is an excellent choice for families who want their children to integrate into Swiss society while maintaining an international education. SIS Zurich-Wollishofen campus serves students from kindergarten through secondary school. Annual tuition is approximately CHF 25,000–35,000. The bilingual model — with roughly equal instruction time in English and German — produces graduates who are fluent in both languages, giving them the option of either Swiss university entrance (via Matura) or international university applications (via IB or equivalent)."
+            "content": "La SIS Zurich propose un programme bilingue (anglais-allemand) unique qui suit à la fois les programmes suisses et internationaux. C'est un excellent choix pour les familles souhaitant que leurs enfants s'intègrent dans la société suisse tout en conservant une éducation internationale. Le modèle bilingue permet aux diplômés d'accéder aux universités suisses (via la maturité) ou internationales (via l'IB)."
           },
           "5": {
-            "heading": "International Schools in Zug",
+            "heading": "Écoles internationales à Zoug",
             "level": "2",
-            "content": "Zug, despite its relatively small size, offers excellent international schooling options — driven by its large international community (over 35% foreign residents) and its status as \"Crypto Valley.\""
+            "content": "Zoug, malgré sa petite taille, offre d'excellentes options scolaires internationales, portées par sa large communauté d'expatriés (plus de 35 % de résidents étrangers)."
           },
           "6": {
             "heading": "International School of Zug and Luzern (ISZL)",
             "level": "3",
-            "content": "ISZL is the premier international school in central Switzerland and consistently ranked among the top IB schools globally. With campuses in Hünenberg (Zug) and Riverside (Lucerne), ISZL serves approximately 1,400 students aged 3–18 from over 60 nationalities. The school offers the full IB continuum (PYP, MYP, DP) and is renowned for its academic excellence, achieving IB Diploma pass rates consistently above 95% with average scores well above the global mean. ISZL's facilities are world-class, including purpose-built science laboratories, performing arts centres, and extensive sports facilities including swimming pools and all-weather pitches. Annual tuition ranges from approximately CHF 28,000 for early childhood to CHF 40,000 for the Diploma Programme. ISZL has strong university placement records, with graduates regularly admitted to top universities including Oxbridge, Ivy League, ETH Zurich, and leading European institutions."
+            "content": "L'ISZL est l'école internationale de référence en Suisse centrale. Avec des campus à Hünenberg (Zoug) et Riverside (Lucerne), elle accueille environ 1 400 élèves. Reconnue pour son excellence académique, elle affiche des taux de réussite au diplôme de l'IB dépassant régulièrement 95 %. Les installations sont de classe mondiale. Les frais annuels varient d'environ 28 000 CHF à 40 000 CHF. Les diplômés sont régulièrement admis dans les meilleures universités (Oxbridge, Ivy League, ETH Zurich)."
           },
           "7": {
             "heading": "Institut Montana Zugerberg",
             "level": "3",
-            "content": "Institut Montana is a unique institution sitting at 1,000 metres elevation on the Zugerberg mountain overlooking Zug. Founded in 1926, it combines the traditions of a Swiss boarding school with a modern international curriculum. The school offers both the IB Diploma and the Swiss Matura, giving students a genuine choice of educational pathways. Boarding facilities are available, making it one of the few boarding school options in the Zurich/Zug region. Institut Montana serves approximately 300 students (roughly 60% boarding, 40% day students) from over 40 nationalities. Annual day student fees are approximately CHF 35,000–45,000, while boarding fees are approximately CHF 65,000–75,000. The school's mountain campus offers an exceptionally safe and focused learning environment."
+            "content": "L'Institut Montana est un établissement unique situé à 1 000 mètres d'altitude sur le mont Zugerberg. Fondé en 1926, il allie les traditions de l'internat suisse aux programmes internationaux modernes. L'école propose à la fois le diplôme de l'IB et la maturité suisse. Des options d'internat sont disponibles. Les frais annuels pour les externes sont d'environ 35 000–45 000 CHF, tandis que les frais d'internat s'élèvent à environ 65 000–75 000 CHF."
           },
           "8": {
-            "heading": "Curriculum Comparison: IB vs. Swiss Matura vs. American/British",
+            "heading": "Comparaison des programmes : IB vs Maturité suisse vs Américain/Britannique",
             "level": "2",
-            "content": "The International Baccalaureate (IB) Diploma is the most widely available international curriculum in Switzerland. It is recognized by universities worldwide and provides a broad, rigorous education across six subject groups. The IB is ideal for families who may relocate again, as it is globally portable. The Swiss Matura is the domestic Swiss university entrance qualification. It provides an exceptionally rigorous education with strong emphasis on mathematics, sciences, and languages. Graduates with a Swiss Matura have guaranteed admission to Swiss universities (including ETH Zurich), making it attractive for families committed to long-term residence. American curricula (following US Common Core standards with AP courses) are available at a few schools and are preferred by families planning to apply to US universities. British curricula (following the English National Curriculum with IGCSEs and A-Levels) are less common in the Zurich/Zug region but available at some schools."
+            "content": "Le diplôme de l'IB est le programme international le plus répandu en Suisse. Idéal pour les familles mobiles, il est reconnu mondialement. La Maturité suisse est la qualification nationale pour l'entrée à l'université. Elle est extrêmement rigoureuse, avec un accent sur les mathématiques et les langues. Les diplômés ont un accès garanti aux universités suisses (dont l'ETH Zurich). Les programmes américains et britanniques sont moins courants dans la région mais présents dans certains établissements, privilégiés par les familles visant ces systèmes universitaires spécifiques."
           },
           "9": {
-            "heading": "Admissions Timeline and Practical Advice",
+            "heading": "Calendrier des admissions et conseils pratiques",
             "level": "2",
-            "content": "International school admissions in Switzerland follow a structured timeline. Most schools open applications 12–18 months before the academic year begins (typically August/September start). For mid-year entry, applications should be submitted as early as possible, though most schools can accommodate mid-year arrivals with sufficient notice. Key considerations for relocating families include: apply early, as top schools have waiting lists for certain year groups; request a school visit or virtual tour before committing; consider the commute — Swiss public transport is excellent, but a 45-minute commute may be challenging for younger children; evaluate the school's integration support (ESL/EAL programmes) if your children are not native English speakers; and check whether the school offers mother-tongue language programmes to maintain your family's heritage language. We work closely with admissions teams at all major international schools and can facilitate introductions, campus visits, and priority placement for our clients."
+            "content": "La plupart des écoles ouvrent les candidatures 12 à 18 mois avant la rentrée d'août/septembre. Conseils clés : postulez tôt car les meilleures écoles ont des listes d'attente ; visitez les campus ; évaluez le temps de trajet (les transports publics suisses sont excellents) ; et vérifiez le soutien à l'intégration linguistique. Nous collaborons étroitement avec les équipes d'admission de toutes les grandes écoles internationales et pouvons faciliter les introductions et les placements prioritaires pour nos clients."
           }
         },
-        "imageAlt": "Campus d'école internationale suisse avec les Alpes en arrière-plan"
+        "imageAlt": "Campus d'une école internationale suisse avec les Alpes en arrière-plan"
       },
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
         "categoryLabel": "Relocalisation",
         "readTime": "9 min de lecture",
-        "date": "1 avril 2026",
-        "title": "Combien de temps faut-il pour déménager en Suisse ? Un calendrier réaliste",
-        "metaDescription": "Calendrier réaliste pour déménager en Suisse : scénarios de 3, 6, 9 et 12 mois.",
-        "excerpt": "Des relocalisations rapides en 3 mois aux programmes complets de 12 mois — comprenez ce qui détermine le calendrier de votre déménagement en Suisse.",
+        "date": "1er avril 2026",
+        "title": "Combien de temps prend une installation en Suisse ? Un calendrier réaliste",
+        "metaDescription": "Calendrier réaliste pour une installation en Suisse : scénarios à 3, 6, 9 et 12 mois. Découvrez les facteurs qui accélèrent ou retardent votre projet.",
+        "excerpt": "Des relocalisations express en 3 mois aux programmes complets sur 12 mois — comprenez ce qui influence les délais de votre installation en Suisse.",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "One of the first questions every prospective client asks is: \"How long will this take?\" The honest answer is that a well-executed Swiss relocation typically takes 6–12 months from first serious conversation to your family being settled, children in school, and all administrative matters resolved. However, timelines can range from as short as 3 months (for individuals with straightforward situations) to 18+ months (for complex family offices or multi-generational relocations). This guide breaks down realistic timelines based on common scenarios."
+            "content": "Une relocalisation suisse bien exécutée prend généralement de 6 à 12 mois, de la première conversation sérieuse jusqu'à l'installation complète de la famille. Cependant, les délais peuvent varier de 3 mois pour les situations simples à plus de 18 mois pour les family offices complexes."
           },
           "1": {
-            "heading": "The 3-Month Timeline: Fast Track",
+            "heading": "Le calendrier de 3 mois : Voie rapide",
             "level": "2",
-            "content": "A 3-month relocation is achievable but requires several favorable conditions: the individual is an EU/EFTA national (simplifying the permit process significantly), they are planning to rent rather than purchase property, they have a relatively straightforward financial situation, and school placement is either not needed or is for a single child at a school with availability. In a fast-track scenario, Month 1 covers canton selection, initial tax advisory, identification of rental properties, and B-permit application initiation. Month 2 involves signing a rental agreement, B-permit processing and approval (EU nationals typically receive approval within 2–4 weeks), health insurance setup, and school enrollment. Month 3 is the physical move — furniture shipping, Swiss bank account opening, municipal registration (Einwohnerkontrolle), and the initial settling-in period. This timeline is most common for single professionals or couples without school-age children who are EU/EFTA nationals relocating from within Europe."
+            "content": "Réalisable pour les ressortissants de l'UE/AELE prévoyant de louer plutôt que d'acheter, avec une situation financière simple. Le mois 1 est consacré au conseil fiscal et à la demande de permis B. Le mois 2 au bail et aux assurances. Le mois 3 au déménagement physique et à l'enregistrement municipal."
           },
           "2": {
-            "heading": "The 6-Month Timeline: Standard",
+            "heading": "Le calendrier de 6 mois : Standard",
             "level": "2",
-            "content": "Six months is the most common timeline for a well-prepared relocation. This timeline accommodates non-EU nationals (who face longer permit processing times), families with school-age children, individuals pursuing lump-sum taxation, and those who wish to purchase rather than rent their primary residence. Months 1–2 cover strategic planning: comprehensive financial review, canton and municipality selection, lump-sum taxation preliminary analysis, school research and campus visits, initial property search, and B-permit documentation preparation. Months 3–4 involve formal applications: B-permit application submission, lump-sum taxation formal application to cantonal authorities, school applications and placement confirmation, property shortlisting and viewings, and opening of a Swiss bank account (which can take 3–6 weeks for full onboarding). Months 5–6 are execution: B-permit approval and collection, property purchase or rental agreement signing, physical relocation, health insurance activation, municipal registration, children start school, and lifestyle setup (car registration, utility accounts, household staff permits if applicable)."
+            "content": "Le cas le plus fréquent pour les ressortissants hors UE, les familles avec enfants ou ceux optant pour le forfait fiscal. Les mois 1-2 sont consacrés à la stratégie et à la recherche scolaire. Les mois 3-4 aux demandes formelles (permis B, forfait fiscal, banque). Les mois 5-6 à l'exécution et l'installation finale."
           },
           "3": {
-            "heading": "The 9-Month Timeline: Complex",
+            "heading": "Le calendrier de 9 mois : Complexe",
             "level": "2",
-            "content": "Nine months is typical for relocations involving pre-immigration asset restructuring, family offices requiring Swiss corporate structures, multiple family members with separate permit requirements, luxury property purchases (due diligence, Lex Koller, notarial process), or families coming from non-standard jurisdictions. The additional time is primarily consumed by asset restructuring (which often needs to be completed before establishing Swiss tax residence, to avoid triggering Swiss tax on gains realized during the restructuring), corporate structure establishment (Swiss company formation itself takes 2–4 weeks, but designing the structure, capitalization, and banking takes longer), and property acquisition (from first viewing to notarial completion, a Swiss property purchase typically takes 3–5 months)."
+            "content": "Typique pour les dossiers nécessitant une restructuration d'actifs pré-immigration, la création de structures d'entreprise ou des acquisitions immobilières de luxe soumises à la Lex Koller."
           },
           "4": {
-            "heading": "The 12-Month Timeline: Full Program",
+            "heading": "Le calendrier de 12 mois : Programme complet",
             "level": "2",
-            "content": "A 12-month timeline is appropriate for the most comprehensive relocations — typically multi-generational families establishing a full presence including a family office, multiple properties, and complex governance structures. Months 1–3 cover strategy and planning: comprehensive family charter review, multi-jurisdictional tax analysis, corporate structure design, family office framework, school selection for multiple children, and property requirements definition. Months 4–6 involve pre-immigration execution: asset restructuring, corporate formations (Swiss AG or GmbH), director appointments, banking relationships initiated, property search intensified, and school applications submitted. Months 7–9 are the formal immigration phase: B-permit applications for all family members, lump-sum taxation negotiations, property acquisition (notarial process), and family office operational setup. Months 10–12 are the settlement phase: physical relocation, children start school, family office fully operational, household staff hired and permitted, community integration begins, and all administrative systems functional."
+            "content": "Approprié pour les familles multigénérationnelles établissant un family office complet, plusieurs propriétés et des structures de gouvernance complexes."
           },
           "5": {
-            "heading": "Factors That Speed Up Your Relocation",
+            "heading": "Facteurs accélérateurs",
             "level": "2",
-            "content": "Several factors can accelerate the timeline. EU/EFTA nationality reduces permit processing from months to weeks. Choosing to rent initially rather than purchasing property eliminates the 3–5 month property acquisition timeline. Having clean, well-documented source-of-wealth records accelerates both banking onboarding and tax authority negotiations. Selecting a canton with efficient administrative processes (Zug and Schwyz are notably efficient) helps. Applying to schools with available places in your children's year groups avoids waiting lists. Engaging qualified Swiss advisors early — particularly tax advisors and immigration specialists — ensures the application is right the first time, avoiding delays from rejections or requests for additional information."
+            "content": "La nationalité UE/AELE, opter pour la location initiale, disposer d'une documentation claire sur l'origine de la fortune et choisir des cantons efficaces comme Zoug ou Schwytz."
           },
           "6": {
-            "heading": "Factors That Delay Your Relocation",
+            "heading": "Facteurs de retard",
             "level": "2",
-            "content": "Common sources of delay include complex source-of-wealth documentation (particularly for crypto wealth or wealth from jurisdictions with limited transparency), multi-jurisdictional asset restructuring that requires coordination across several legal systems, contested lump-sum taxation negotiations where the cantonal authority disagrees with the proposed taxable base, school waiting lists (popular year groups at top schools can have waiting lists of 6–12 months), Lex Koller authorization requirements for property purchases by non-residents, and political or regulatory changes (though rare, changes in cantonal tax policy can require plan adjustments). It is always better to plan conservatively and arrive early than to rush and encounter problems that could have been avoided with better preparation."
+            "content": "La documentation complexe sur l'origine des fonds (crypto, juridictions peu transparentes), les listes d'attente scolaires et les autorisations Lex Koller."
           },
           "7": {
-            "heading": "Our Recommendation",
+            "heading": "Notre recommandation",
             "level": "2",
-            "content": "For most families, we recommend beginning the process at least 9 months before your target arrival date. This provides sufficient time for proper planning, accommodates unexpected delays, and ensures the best outcome for school placement and property selection. Starting early also allows you to take advantage of optimal timing for lump-sum taxation applications (typically aligned with the Swiss tax year starting January 1) and to coordinate the transition of your tax residency cleanly. The investment in proper planning pays dividends throughout the relocation — and for years afterward. A well-structured relocation sets the foundation for your family's entire Swiss experience."
+            "content": "Nous recommandons de commencer le processus au moins 9 mois avant la date d'arrivée visée pour garantir le meilleur placement scolaire et le choix immobilier optimal."
           }
         },
         "imageAlt": "Cartons de déménagement dans un appartement suisse haut de gamme avec vue sur le lac"
@@ -838,238 +838,203 @@
         "category": "banking",
         "categoryLabel": "Banque",
         "readTime": "10 min de lecture",
-        "date": "1 avril 2026",
-        "title": "Ouvrir un compte en banque privée suisse : Exigences et processus",
-        "metaDescription": "Tout sur l'ouverture d'un compte en banque privée suisse : exigences AML/KYC et ce que les banques attendent des clients internationaux.",
-        "excerpt": "Le guide définitif de la banque privée suisse — des exigences AML/KYC à la documentation patrimoniale et au choix du bon partenaire bancaire.",
+        "date": "1er avril 2026",
+        "title": "Ouvrir un compte de banque privée en Suisse : Exigences et processus",
+        "metaDescription": "Tout ce que vous devez savoir sur l'ouverture d'un compte de banque privée en Suisse : AML/KYC, origine de la fortune et attentes des banques.",
+        "excerpt": "Le guide définitif de la banque privée suisse — des exigences AML/KYC à la gestion de la fortune crypto et au choix du bon partenaire bancaire.",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Switzerland's private banking sector manages approximately CHF 7.9 trillion in assets — roughly 25% of all global cross-border private wealth. Opening a private banking relationship in Switzerland is a significant milestone in any relocation, providing access to world-class wealth management, custody services, and the stability of the Swiss financial system. However, the process is rigorous and requires careful preparation."
+            "content": "Le secteur de la banque privée en Suisse gère environ 7,9 billions de CHF d'actifs. Ouvrir une relation bancaire est une étape majeure de votre installation, offrant stabilité et gestion de classe mondiale."
           },
           "1": {
-            "heading": "The Swiss Banking Landscape",
+            "heading": "Le paysage bancaire suisse",
             "level": "2",
-            "content": "Switzerland hosts approximately 243 licensed banks, ranging from the two global giants (UBS and, until its 2023 merger, Credit Suisse) to dozens of boutique private banks and cantonal banks. For high-net-worth clients relocating to Switzerland, the relevant institutions fall into several categories. The major Swiss private banks — Julius Bär, Lombard Odier, Pictet, Vontobel, and EFG International — offer full-service private banking with minimum account sizes typically starting at CHF 1–5 million. Boutique and family-owned banks — such as Bordier, Mirabaud, and Reichmuth — provide even more personalized service, often with higher minimum thresholds. Crypto-native banks — SEBA Bank and Sygnum Bank — are Swiss-regulated banks offering integrated traditional and digital asset services, ideal for clients with significant cryptocurrency holdings. Cantonal banks (Kantonalbanken) offer standard banking services with state guarantees, suitable for day-to-day banking alongside a private banking relationship."
+            "content": "La Suisse compte environ 243 banques agréées. Les grandes banques privées (Julius Bär, Lombard Odier, Pictet, Vontobel) exigent généralement un dépôt minimal de 1 à 5 millions de CHF. Les banques spécialisées en crypto (SEBA, Sygnum) offrent des services intégrés pour les actifs numériques."
           },
           "2": {
-            "heading": "AML/KYC Requirements",
+            "heading": "Exigences AML/KYC",
             "level": "2",
-            "content": "Swiss banks are regulated by FINMA (the Swiss Financial Market Supervisory Authority) and must comply with comprehensive Anti-Money Laundering (AML) and Know Your Customer (KYC) requirements. These requirements have been significantly strengthened over the past decade, bringing Swiss banking in line with global standards while maintaining Swiss traditions of client service and discretion. The core requirements include identity verification — a valid passport (and usually a second form of ID), proof of address in Switzerland (or country of current residence), and biometric verification. Beneficial ownership documentation must be provided — if assets are held through structures (trusts, foundations, holding companies), the beneficial owner(s) must be identified. Source of wealth (SOW) documentation is the most important element — banks require a comprehensive narrative and supporting evidence explaining how the client accumulated their wealth. Source of funds (SOF) documentation explains where the specific funds being deposited originate — for example, which bank account they are being transferred from, and the transaction history of that account."
+            "content": "Réglementées par la FINMA, les banques doivent respecter les normes de lutte contre le blanchiment d'argent (AML) et de connaissance du client (KYC). La documentation sur l'origine de la fortune (SOW) est l'élément le plus crucial."
           },
           "3": {
-            "heading": "Source-of-Wealth Documentation: What Banks Expect",
+            "heading": "Origine de la fortune : Ce que les banques attendent",
             "level": "2",
-            "content": "The source-of-wealth documentation is where most clients encounter the greatest scrutiny. Swiss banks are thorough and will not proceed until they are fully satisfied. For business owners and entrepreneurs, banks will expect company financial statements (typically 3–5 years), evidence of ownership (share certificates, commercial register extracts), dividend distribution records, and sale/exit documentation if wealth derives from a business sale. For investors, banks will want to see investment account statements showing portfolio growth, historical trade confirmations, and evidence of the original capital that was invested. For inherited wealth, the bank will request estate documentation, probate records, will/testament copies, and evidence of the deceased's wealth origin. For real estate wealth, property valuation reports, purchase and sale contracts, and rental income records are required."
+            "content": "Pour les entrepreneurs, les banques exigent les états financiers (3-5 ans) et les preuves de dividendes ou de cession. Pour les héritages, les actes notariés et les preuves de l'origine de la fortune du défunt sont nécessaires."
           },
           "4": {
-            "heading": "What Banks Expect from Middle Eastern Clients",
+            "heading": "Attentes pour les clients du Moyen-Orient",
             "level": "3",
-            "content": "Swiss banks have extensive experience with clients from the GCC region and the broader Middle East. However, certain aspects of Middle Eastern wealth require additional documentation. For wealth derived from government positions or royal family connections, banks expect official appointment documentation, public records of the individual's role, and evidence separating personal wealth from state assets. For business wealth from the GCC, commercial licenses (trade licenses from DED, ADGM, DIFC, etc.), audited financial statements prepared to IFRS standards, and evidence of the business's operational history are required. Banks also appreciate a clear narrative — a well-prepared \"wealth story\" that explains in chronological order how the client's wealth was built, including key business milestones, investments, and liquidity events."
+            "content": "Les banques suisses ont une grande expérience avec la région du CCG. Elles apprécient un récit clair (« wealth story ») expliquant chronologiquement comment la fortune a été bâtie."
           },
           "5": {
-            "heading": "Crypto Wealth Documentation",
+            "heading": "Documentation de la fortune crypto",
             "level": "3",
-            "content": "For clients with significant cryptocurrency wealth, Switzerland is one of the most accommodating banking jurisdictions in the world. SEBA Bank and Sygnum Bank are fully regulated Swiss banks that specialize in digital assets. However, documenting crypto wealth requires a specific approach. Banks expect a complete chain of custody for crypto holdings — from initial acquisition (mining records, exchange purchase confirmations, OTC trade records) through to current holdings. Wallet addresses should be documentable with blockchain analytics showing the flow of assets. If wealth was created through early-stage crypto investments (e.g., purchasing Bitcoin before 2015), banks understand that exchange records may be incomplete, but expect whatever documentation exists plus a credible narrative. The tax treatment of crypto gains in the source country should be documented — banks want to see that appropriate tax obligations were met before funds enter Switzerland."
+            "content": "La Suisse est l'une des juridictions les plus accueillantes pour la crypto. Les banques exigent une chaîne de possession complète, des relevés de minage aux analyses blockchain."
           },
           "6": {
-            "heading": "The Account Opening Process",
+            "heading": "Le processus d'ouverture de compte",
             "level": "2",
-            "content": "The typical private bank account opening process follows a structured path. Initial contact is made through a referral (from an existing client, attorney, or advisor) or a direct approach. Banks generally prefer referrals, and a warm introduction from a trusted advisor can significantly smooth the process. A preliminary meeting — either in person at the bank's offices or via video conference — allows both parties to assess the fit. The bank evaluates the potential client's needs and risk profile, while the client evaluates the bank's services, team, and approach. If both parties wish to proceed, the bank issues a documentation checklist specific to the client's situation. The client (typically with advisor support) prepares and submits the required documentation. The bank's compliance team reviews the documentation — this internal review typically takes 2–6 weeks depending on the complexity of the case. If approved, the bank issues account opening documents for signature. Funds can then be transferred. From first contact to an operational account, the process typically takes 4–8 weeks for straightforward cases and 8–16 weeks for complex situations requiring enhanced due diligence."
+            "content": "Le processus prend généralement 4 à 8 semaines pour les cas simples. Une introduction par un conseiller de confiance facilite grandement l'acceptation du dossier par la conformité."
           },
           "7": {
-            "heading": "Choosing the Right Bank",
+            "heading": "Choisir la bonne banque",
             "level": "2",
-            "content": "Selecting the right private bank is a significant decision that should consider several factors: the minimum account size (ranging from CHF 500,000 to CHF 10 million+), the bank's expertise in your specific asset classes (crypto, real estate, private equity), language capabilities (Arabic-speaking relationship managers are available at several Swiss banks), the bank's approach to discretionary vs. advisory mandates, fee structure (management fees, custody fees, transaction fees — these vary significantly between institutions), digital capabilities (online banking, mobile apps, real-time reporting), and the bank's risk appetite for your specific client profile. Many clients maintain relationships with two banks — a major private bank for core wealth management and a specialized institution (e.g., a crypto-native bank) for specific asset classes. We provide introductions to relationship managers at all major Swiss private banks and can facilitate the selection and onboarding process based on your specific needs."
+            "content": "Les facteurs de choix incluent le dépôt minimal, l'expertise en classes d'actifs spécifiques (crypto, private equity) et la structure des frais. Nous facilitons les introductions et l'intégration."
           }
         },
-        "imageAlt": "Hall d'entrée d'une banque privée suisse avec sols en marbre"
+        "imageAlt": "Lobby intérieur d'une banque privée suisse avec sols en marbre et signalétique en laiton"
       },
       "swiss-residency-permits-guide": {
         "category": "immigration",
         "categoryLabel": "Immigration",
         "readTime": "11 min de lecture",
-        "date": "1 avril 2026",
+        "date": "1er avril 2026",
         "title": "Permis de séjour suisses : Permis B, Permis C et chemin vers la citoyenneté",
-        "metaDescription": "Guide complet des permis de séjour suisses : exigences, délais, regroupement familial et chemin vers la citoyenneté suisse.",
-        "excerpt": "Tout sur les permis de séjour suisses — exigences des permis B et C, délais de traitement, regroupement familial et chemin vers la citoyenneté.",
+        "metaDescription": "Guide complet des permis de séjour suisses : exigences pour les permis B et C, calendriers, inclusion familiale et chemin vers la citoyenneté.",
+        "excerpt": "Tout ce que vous devez savoir sur les permis suisses — exigences, délais de traitement, regroupement familial et naturalisation.",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Understanding Switzerland's residency permit system is fundamental to any relocation plan. The type of permit you hold affects everything — from your tax treatment and property rights to your family's stability and long-term options. This guide covers the main permit categories, their requirements, and the pathway from initial residence to Swiss citizenship."
+            "content": "Comprendre le système des permis de séjour est fondamental. Votre permis influence votre fiscalité, vos droits de propriété et votre stabilité à long terme."
           },
           "1": {
-            "heading": "Overview of the Swiss Permit System",
+            "heading": "Aperçu du système de permis",
             "level": "2",
-            "content": "Switzerland operates a tiered permit system that distinguishes between EU/EFTA nationals and third-country nationals. The main permit types relevant to relocating individuals are: the B permit (Aufenthaltsbewilligung/permis de séjour) — a residence permit that is renewable and the standard entry point; the C permit (Niederlassungsbewilligung/permis d'établissement) — a permanent settlement permit that provides greater rights and stability; the L permit — a short-term residence permit (up to one year, renewable once); and the G permit — a cross-border commuter permit. For high-net-worth individuals relocating to Switzerland, the B permit is the standard starting point, with a pathway to the C permit and eventually citizenship."
+            "content": "La Suisse distingue les ressortissants UE/AELE des ressortissants d'États tiers. Le permis B (séjour) est le point d'entrée standard, menant au permis C (établissement) puis à la citoyenneté."
           },
           "2": {
-            "heading": "The B Permit: Your Gateway to Switzerland",
+            "heading": "Le permis B : Votre porte d'entrée",
             "level": "2",
-            "content": "The B permit is the standard residence permit for foreign nationals living in Switzerland. However, the application process and conditions differ significantly based on nationality."
-          },
-          "3": {
-            "heading": "EU/EFTA Nationals",
-            "level": "3",
-            "content": "For EU/EFTA nationals, obtaining a B permit is relatively straightforward under the bilateral agreements between Switzerland and the EU. EU/EFTA nationals need to demonstrate either an employment contract with a Swiss employer, self-employment with evidence of economic activity, or sufficient financial resources to support themselves without recourse to social assistance (this is the category most relevant to high-net-worth individuals). The permit is granted for 5 years and is renewable. Application processing typically takes 2–4 weeks. The process involves registering at the municipal residents' office (Einwohnerkontrolle) with your passport, proof of health insurance, and evidence of financial resources or employment."
-          },
-          "4": {
-            "heading": "Non-EU/EFTA Nationals",
-            "level": "3",
-            "content": "For non-EU/EFTA nationals (including GCC, Middle Eastern, Asian, and other third-country nationals), the B permit process is more complex. Non-EU nationals generally need to demonstrate that their presence in Switzerland serves the country's economic interest — which is typically met through one of the following: establishing a business that creates jobs or contributes to the local economy, making a significant investment, or qualifying for lump-sum taxation (which creates substantial tax revenue for the canton and municipality). Cantonal authorities have significant discretion in granting B permits to non-EU nationals. Cantons that are keen to attract lump-sum taxpayers (Zug, Schwyz, Vaud, Valais, Graubünden) tend to have more streamlined processes. The application typically requires a detailed personal and financial dossier, a clear statement of the purpose of residence, evidence of suitable accommodation, proof of health insurance, and, if applicable, the lump-sum taxation application. Processing times for non-EU nationals range from 4–12 weeks, depending on the canton and the complexity of the application."
+            "content": "Pour les Européens, l'obtention est facilitée par les accords bilatéraux. Pour les autres, il faut démontrer un intérêt économique, souvent via l'établissement d'une entreprise ou le forfait fiscal."
           },
           "5": {
-            "heading": "The C Permit: Permanent Settlement",
+            "heading": "Le permis C : Établissement permanent",
             "level": "2",
-            "content": "The C permit provides permanent residence rights in Switzerland. It is the most secure form of residence — it is indefinite, provides greater protection against revocation, and gives the holder almost all the rights of a Swiss citizen (except voting rights and passport). For EU/EFTA nationals, the C permit is available after 5 years of continuous B-permit residence (reduced to 5 years from the previous 10 for most EU nations). For non-EU nationals, the standard waiting period is 10 years of continuous B-permit residence, though this can be reduced to 5 years for nationals of certain countries (USA, Canada, UK, and others with bilateral agreements) and in certain cantons. C-permit holders benefit from greater job market flexibility, stronger protection against deportation, no requirement to renew the permit (only the physical permit card needs renewal every 5 years), and improved access to Swiss mortgage financing."
+            "content": "Il offre des droits presque identiques à ceux des citoyens suisses (sauf le vote). Obtenu après 5 ou 10 ans de résidence continue selon la nationalité."
           },
           "6": {
-            "heading": "Family Inclusion",
+            "heading": "Inclusion familiale",
             "level": "2",
-            "content": "Family reunification is a right under Swiss law, subject to conditions. A B-permit holder can bring their spouse and children under 18 to Switzerland. The family members receive their own B permits. For EU/EFTA nationals, family reunification is broadly straightforward — spouses and dependent children are included in the permit application. For non-EU nationals, the permit holder must demonstrate adequate housing (size appropriate for the family) and sufficient financial resources to support all family members. Elderly parents and adult children face more restrictive reunification rules and may require separate permit applications with additional justification. It is important to plan family inclusion from the outset — including all family members in the initial application is significantly simpler than applying for family reunification after the fact."
+            "content": "Le regroupement familial permet au conjoint et aux enfants de moins de 18 ans de rejoindre le titulaire du permis sous réserve de conditions de logement et de ressources financières."
           },
           "7": {
-            "heading": "The Path to Swiss Citizenship",
+            "heading": "Le chemin vers la citoyenneté suisse",
             "level": "2",
-            "content": "Swiss citizenship can be obtained through naturalization after meeting residence requirements and passing a series of assessments. The requirements for ordinary naturalization include: 10 years of residence in Switzerland (with years spent between ages 8 and 18 counting double), at least 3 years in the same canton and 2 years in the same municipality (cantonal and municipal requirements vary), language proficiency (B1 spoken and A2 written in one national language — German, French, Italian, or Romansh), integration into the Swiss community (participation in local life, knowledge of Swiss customs and institutions), financial self-sufficiency (no social assistance dependency), and a clean criminal record. The naturalization process involves three levels of approval — municipal, cantonal, and federal. The total process from application to decision typically takes 1–3 years. Swiss citizenship confers one of the world's most powerful passports, Swiss voting rights, and an additional layer of stability and security for your family."
+            "content": "La naturalisation ordinaire requiert 10 ans de résidence, la maîtrise d'une langue nationale et une intégration réussie dans la communauté locale."
           }
         },
-        "imageAlt": "Passeport suisse et permis B sur un bureau en bois sombre"
+        "imageAlt": "Passeport suisse et documents de permis B sur un bureau en bois sombre"
       },
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
         "categoryLabel": "Relocalisation",
         "readTime": "9 min de lecture",
-        "date": "1 avril 2026",
-        "title": "Pourquoi les familles fortunées quittent les EAU pour la Suisse",
-        "metaDescription": "Pourquoi les familles fortunées quittent Dubaï et Abu Dhabi pour la Suisse : facteurs géopolitiques, sécurité, éducation et stabilité à long terme.",
-        "excerpt": "Examen de la tendance croissante des familles fortunées quittant les EAU pour la Suisse — des risques géopolitiques à l'éducation et la qualité de vie.",
+        "date": "1er avril 2026",
+        "title": "Pourquoi les familles fortunées quittent les Émirats pour la Suisse",
+        "metaDescription": "Pourquoi les familles fortunées quittent Dubaï et Abou Dabi pour la Suisse : facteurs géopolitiques, sécurité, éducation et stabilité à long terme.",
+        "excerpt": "Analyse de la tendance croissante des familles quittant les Émirats pour la Suisse — des risques géopolitiques à la perspective générationnelle.",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "The UAE — and Dubai in particular — has been one of the world's most successful wealth magnets of the past two decades. Zero personal income tax, world-class infrastructure, and a business-friendly regulatory environment have attracted entrepreneurs, family offices, and high-net-worth individuals from across the globe. Yet a growing number of these same families are making the decision to relocate to Switzerland. This article examines the drivers behind this shift and what Switzerland offers that the UAE cannot."
+            "content": "Bien que les Émirats arabes unis soient un pôle d'attraction majeur, un nombre croissant de familles choisit de se relocaliser en Suisse pour des raisons de stabilité pérenne."
           },
           "1": {
-            "heading": "The Geopolitical Factor",
+            "heading": "Le facteur géopolitique",
             "level": "2",
-            "content": "The Middle East, despite the UAE's relative stability, remains one of the world's most geopolitically volatile regions. The proximity of the UAE to Iran (less than 200 km across the Strait of Hormuz), ongoing tensions in Yemen, the after-effects of the Abraham Accords, and broader regional power dynamics create a latent risk environment that many wealthy families are increasingly uncomfortable with. Switzerland, by contrast, has maintained political neutrality for over 500 years. It has not participated in any military conflict since 1815, is not a member of NATO or any military alliance, and sits at the geographic and political centre of Europe. For families whose wealth was built in the Gulf but who wish to secure that wealth in a jurisdiction immune to regional instability, Switzerland represents the gold standard."
+            "content": "La Suisse, avec sa neutralité de plus de 500 ans, offre une sécurité que les régions plus volatiles ne peuvent garantir. C'est le sanctuaire par excellence pour sécuriser un patrimoine."
           },
           "2": {
-            "heading": "Security and Personal Safety",
+            "heading": "Sécurité et sûreté personnelle",
             "level": "2",
-            "content": "While the UAE has excellent personal security within its borders, the broader security environment in the region — and the concentration of wealth in a relatively small geographic area — creates concerns that are difficult to mitigate. Switzerland consistently ranks among the top 3 safest countries in the world. Violent crime is virtually non-existent, personal security infrastructure is world-class (without the visible security presence common in the Gulf), and the country's small size and mountainous geography provide natural security. For families with children, Switzerland offers a level of everyday safety that translates into a fundamentally different quality of life — children walk to school, play in public parks, and move freely in a way that is rarely possible in the UAE."
+            "content": "La Suisse figure au top 3 des pays les plus sûrs. Pour les familles, cela signifie une liberté de mouvement pour les enfants quasi impossible à Dubaï (marche vers l'école, parcs publics)."
           },
           "3": {
-            "heading": "Education: The Long Game",
+            "heading": "L'éducation : Le jeu à long terme",
             "level": "2",
-            "content": "Education is often the tipping point that triggers a relocation decision. While the UAE has invested heavily in international schools, Swiss education offers something qualitatively different. Switzerland is home to ETH Zurich (consistently ranked top 3 globally), the University of Zurich, EPFL, and a network of over 50 international schools with deeply established traditions. The Swiss education system combines academic rigour with multilingual immersion, outdoor education, and a level of safety and stability that boarding schools in the UK or US cannot match. For families thinking about the next generation — where their children will build networks, which universities they will attend, which communities they will grow up in — Switzerland offers a long-term educational ecosystem that is unparalleled."
-          },
-          "4": {
-            "heading": "Healthcare and Quality of Life",
-            "level": "2",
-            "content": "Switzerland's healthcare system is consistently ranked among the world's best. Universal mandatory coverage, world-leading hospitals (Universitätsspital Zurich, Hirslanden, Inselspital Bern), and physician density of 4.3 per 1,000 residents ensure that medical care is never a concern. Beyond healthcare, Switzerland's quality of life encompasses pristine natural environments, efficient public infrastructure, and a social contract that prioritizes clean air, clean water, safe communities, and cultural richness. The daily lived experience in Switzerland — from the precision of public transport to the quality of tap water — reflects a society that has optimized for quality of life over generations."
+            "content": "L'écosystème éducatif suisse, de l'ETH Zurich aux écoles internationales historiques, offre une immersion multilingue et une stabilité inégalée pour préparer la prochaine génération."
           },
           "5": {
-            "heading": "Tax Comparison: Not as Simple as Zero vs. Something",
+            "heading": "Comparaison fiscale",
             "level": "2",
-            "content": "The most common objection to relocating from the UAE to Switzerland is tax. The UAE levies no personal income tax, while Switzerland does. However, the comparison is more nuanced than it appears. Swiss lump-sum taxation allows qualifying individuals to be taxed on living expenses rather than worldwide income — the effective tax rate for a well-structured lump-sum arrangement can be significantly lower than many alternative jurisdictions. The UAE introduced a 9% corporate tax in 2023, and VAT has been in place since 2018, eroding the \"zero tax\" advantage for businesses. Switzerland's cantonal competition means that cantons like Zug and Schwyz offer some of the lowest tax rates in the developed world. For families with wealth to protect across generations, the question is not \"zero tax today\" but \"what is the total cost of jurisdiction over 30 years?\" — and when you factor in political stability, asset protection, inheritance law, and the value of a Swiss passport, Switzerland often competes more effectively than the headline tax rates suggest."
+            "content": "La question n'est pas « zéro impôt aujourd'hui », mais le coût total sur 30 ans. Le forfait fiscal et la protection des actifs rendent la Suisse très compétitive à long terme."
           },
           "6": {
-            "heading": "The Generational Perspective",
+            "heading": "La perspective générationnelle",
             "level": "2",
-            "content": "Perhaps the most compelling driver of the UAE-to-Switzerland shift is generational thinking. The UAE is barely 50 years old as a nation. Its prosperity is concentrated in a specific sector (hydrocarbons, with diversification underway) and dependent on the continued wisdom of its leadership. Switzerland has been a stable, prosperous confederation for over 700 years. Its institutions, legal frameworks, and democratic traditions have survived centuries of change. For families thinking about where their grandchildren will live — where wealth will be protected, where a passport will provide security, where institutions will still function in 2060 or 2080 — Switzerland's centuries-old track record provides a level of confidence that no jurisdiction founded in the 1970s can match."
-          },
-          "7": {
-            "heading": "Making the Transition",
-            "level": "2",
-            "content": "The UAE-to-Switzerland relocation is one of the most well-trodden paths in international wealth migration. Swiss banks, tax advisors, and relocation specialists are deeply experienced in serving Gulf-origin families. Arabic-speaking professionals are available at most major Swiss institutions, and the cultural bridge — built over decades of business, education, and personal relationships — is well-established. The practical transition involves coordinating the exit from UAE residency (which has its own implications for visa status, business licensing, and banking) with the entry into Swiss residency. This coordination is where professional advisory is most valuable — ensuring that the transition is clean, tax-efficient, and that nothing falls through the gaps. We specialize in exactly this transition and work with families from across the GCC region to execute seamless relocations to Switzerland."
+            "content": "La Suisse est une confédération stable depuis 700 ans. Pour les familles pensant à leurs petits-enfants, cette longévité institutionnelle est un argument décisif."
           }
         },
-        "imageAlt": "Horizon de Dubaï se fondant dans les Alpes suisses"
+        "imageAlt": "Skyline de Dubaï transitionnant vers les Alpes suisses dans une composition cinématographique"
       },
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
         "categoryLabel": "Gestion de patrimoine",
         "readTime": "12 min de lecture",
-        "date": "1 avril 2026",
-        "title": "Créer un Family Office en Suisse : Structure, gouvernance et banque",
-        "metaDescription": "Guide complet pour créer un family office en Suisse : SFO vs MFO, types de sociétés suisses et relations bancaires.",
-        "excerpt": "Tout pour créer un family office suisse — du choix SFO vs MFO aux types de sociétés suisses, cadres de gouvernance et relations bancaires.",
+        "date": "1er avril 2026",
+        "title": "Établir un Family Office en Suisse : Structure, Gouvernance et Banque",
+        "metaDescription": "Guide complet pour établir un family office en Suisse : structures SFO vs MFO, types de sociétés suisses, gouvernance et banques.",
+        "excerpt": "Tout ce qu'il faut savoir pour établir un family office suisse — du choix entre SFO et MFO aux cadres de gouvernance et au choix entre Zoug et Zurich.",
         "sectionCount": "8",
         "sections": {
           "0": {
-            "content": "Switzerland is one of the world's leading jurisdictions for family offices, hosting an estimated 3,500–4,000 family office structures that collectively manage trillions of Swiss francs in assets. The combination of political stability, banking infrastructure, legal certainty, and a deep pool of qualified professionals makes Switzerland the natural choice for families seeking to professionalize their wealth management. This guide covers the key considerations in establishing a Swiss family office."
+            "content": "La Suisse abrite environ 4 000 structures de family offices. C'est le choix naturel pour les familles souhaitant professionnaliser la gestion de leur fortune."
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "heading": "Single Family Office (SFO) vs Multi-Family Office (MFO)",
             "level": "2",
-            "content": "The first structural decision is whether to establish a single family office (SFO) serving exclusively one family, or to join a multi-family office (MFO) that serves multiple families. An SFO provides complete control over investment strategy, governance, and confidentiality. It typically requires assets under management of CHF 100 million or more to be cost-effective, as the operating costs of a fully staffed SFO (including CEO, CIO, CFO, compliance, and administration) can range from CHF 1–3 million annually. An MFO provides professional wealth management services to multiple families, sharing the cost of infrastructure, compliance, and expertise. MFOs are suitable for families with CHF 20–100 million in assets who want institutional-grade management without the full cost of a dedicated office. For families in the CHF 100–500 million range, a hybrid approach is common: a dedicated SFO for core governance, family coordination, and strategic decisions, combined with MFO or private bank partnerships for investment execution and specialized expertise."
+            "content": "Un SFO offre un contrôle total mais nécessite généralement plus de 100 millions de CHF d'actifs pour être rentable. Un MFO permet de partager les coûts d'infrastructure."
           },
           "2": {
-            "heading": "Swiss Company Structures for Family Offices",
+            "heading": "Structures de sociétés suisses",
             "level": "2",
-            "content": "The most common legal structures for Swiss family offices are the AG (Aktiengesellschaft / corporation) and the GmbH (Gesellschaft mit beschränkter Haftung / limited liability company). The AG is the preferred structure for larger family offices. It requires minimum share capital of CHF 100,000 (at least 20% paid up at incorporation, i.e., CHF 20,000), offers flexibility in share structure (including bearer vs. registered shares, though bearer shares now require disclosure of beneficial owners), and provides the formal governance framework (board of directors, auditors) that institutional counterparts expect. The GmbH requires minimum capital of CHF 20,000 (fully paid up at incorporation) and is simpler to administer. It is suitable for smaller family offices where the governance requirements of an AG are not necessary. Regardless of structure, a Swiss company serving as a family office must have at least one director who is resident in Switzerland."
-          },
-          "3": {
-            "heading": "Governance Requirements",
-            "level": "2",
-            "content": "Swiss family office governance should address several key areas. Board composition should typically include a mix of family members and independent professionals. Swiss best practice suggests at least one independent director with relevant financial expertise, and ideally a majority-independent board for larger offices. An investment committee — separate from the board — should establish investment policy, risk parameters, asset allocation targets, and performance monitoring. A family charter or constitution formalizes the family's values, decision-making processes, succession rules, and the office's mandate. Compliance and reporting frameworks must meet Swiss regulatory requirements. Regular reporting to family members — quarterly at minimum — should cover investment performance, risk metrics, fees, and governance matters. Professional audit (statutory or voluntary) provides transparency and accountability."
-          },
-          "4": {
-            "heading": "Banking Relationships",
-            "level": "2",
-            "content": "A Swiss family office typically maintains relationships with multiple banks. The custodian bank holds and safeguards the family's financial assets. Major Swiss banks (UBS, Julius Bär, Pictet, Lombard Odier) all provide institutional-grade custody services suitable for family offices. The execution bank(s) handle trade execution, foreign exchange, and lending. Some family offices use a single bank for both custody and execution; others prefer to separate these functions for risk management and competitive pricing. Cash management accounts at one or more Swiss banks handle operational expenses and short-term liquidity. For family offices with digital asset allocations, crypto-native banks (SEBA Bank, Sygnum Bank) provide regulated custody and trading infrastructure."
+            "content": "La SA (Société Anonyme) est privilégiée pour les grands offices, offrant flexibilité et prestige. La Sàrl (Société à responsabilité limitée) est plus simple à administrer."
           },
           "5": {
-            "heading": "Zug vs. Zurich: Choosing Your Location",
+            "heading": "Zoug vs Zurich : Choisir son emplacement",
             "level": "2",
-            "content": "The two leading locations for Swiss family offices are Zurich and Zug, each with distinct advantages. Zurich offers the deepest pool of professional talent (investment managers, lawyers, auditors, compliance officers), proximity to Switzerland's largest financial centre, excellent international connectivity (Zurich Airport), and a vibrant cultural scene. However, Zurich has higher office costs and higher personal tax rates. Zug offers significantly lower corporate and personal tax rates, a thriving family office ecosystem (second only to Geneva nationally), excellent connectivity (25 minutes from Zurich by train), a welcoming cantonal administration experienced in serving family offices, and the Crypto Valley ecosystem for offices with digital asset allocations. For many family offices, the optimal solution is a Zug corporate domicile (for tax efficiency) with team members who may live in Zurich or other nearby locations."
-          },
-          "6": {
-            "heading": "Regulatory Considerations",
-            "level": "2",
-            "content": "Swiss family offices benefit from a relatively light regulatory environment, but must navigate several requirements. AML compliance is required if the office manages financial assets. Under the Financial Institutions Act (FINIG) and the Financial Services Act (FIDLEG), asset managers for third-party assets require FINMA authorization. However, a pure SFO managing only the family's own assets is generally exempt from this requirement. Tax obligations for the office entity include corporate income tax, capital tax, and VAT (if applicable). Employer obligations (social security contributions, pension fund, accident insurance) apply if the office employs staff in Switzerland. Proper structuring at the outset avoids costly regulatory complications later."
+            "content": "Zurich offre le vivier de talents le plus profond, tandis que Zoug propose des taux d'imposition nettement plus bas et un écosystème « Crypto Valley » unique."
           },
           "7": {
-            "heading": "Timeline and Costs",
+            "heading": "Calendrier et coûts",
             "level": "2",
-            "content": "Establishing a Swiss family office from scratch typically takes 3–6 months, from initial structure design through to a fully operational entity. The key milestones include: structure design and legal documentation (2–4 weeks), company incorporation (1–2 weeks for the commercial register process), bank account opening (3–6 weeks including compliance review), team recruitment or placement (4–12 weeks depending on roles), and IT and operational setup (2–4 weeks). Setup costs (legal fees, incorporation, initial compliance setup) typically range from CHF 50,000–150,000 depending on complexity. Ongoing annual costs for a mid-sized SFO (3–5 staff) typically range from CHF 1–2 million including salaries, office costs, audit, legal, and compliance. We advise families on the optimal structure for their situation and manage the entire setup process, from incorporation through to the first board meeting."
+            "content": "L'établissement complet prend 3 à 6 mois. Les coûts d'installation varient de 50 000 à 150 000 CHF selon la complexité des structures."
           }
         },
-        "imageAlt": "Salle de conseil d'un family office suisse avec vue alpine"
+        "imageAlt": "Salle de réunion d'un family office suisse avec vue alpine à travers des vitres"
       }
     }
   },
   "faq": {
     "items": [
       {
-        "question": "How long does it take to relocate to Switzerland?",
-        "answer": "A typical Swiss relocation takes 6-12 months from initial consultation to full settlement. Fast-track relocations for EU/EFTA nationals can be completed in as little as 3 months, while complex multi-generational relocations with family offices may take 12-18 months."
+        "question": "Combien de temps faut-il pour s'installer en Suisse ?",
+        "answer": "Une relocalisation type prend 6 à 12 mois. Cela peut être réduit à 3 mois pour les citoyens de l'UE/AELE, tandis que les dossiers complexes avec family office peuvent nécessiter jusqu'à 18 mois."
       },
       {
-        "question": "What is lump-sum taxation (forfait fiscal) in Switzerland?",
-        "answer": "Lump-sum taxation is a special tax regime for qualifying foreign nationals who do not work in Switzerland. Instead of being taxed on worldwide income, your tax base is determined by your living expenses in Switzerland. Minimum amounts range from CHF 250,000 to CHF 600,000+ depending on the canton."
+        "question": "Qu'est-ce que l'imposition d'après la dépense (forfait fiscal) ?",
+        "answer": "C'est un régime spécial pour les étrangers ne travaillant pas en Suisse. L'impôt est basé sur vos dépenses de train de vie plutôt que sur vos revenus mondiaux. Les seuils minimums varient de 250 000 à 600 000 CHF+ selon le canton."
       },
       {
-        "question": "Can foreigners buy property in Switzerland?",
-        "answer": "Yes, but subject to the Lex Koller law. Foreign nationals with a valid Swiss residence permit (B or C permit) can purchase a primary residence. Secondary and investment properties face stricter restrictions and may require cantonal authorization."
+        "question": "Les étrangers peuvent-ils acheter de l'immobilier en Suisse ?",
+        "answer": "Oui, mais sous réserve de la loi Lex Koller. Les détenteurs de permis B ou C peuvent acheter leur résidence principale. Les résidences secondaires sont soumises à des quotas et autorisations plus stricts."
       },
       {
-        "question": "Which Swiss canton is best for relocation?",
-        "answer": "The best canton depends on your priorities. Zug offers the lowest tax rates and a thriving international community. Zurich provides the most cosmopolitan lifestyle and best connectivity. Schwyz combines very low taxes with Alpine privacy. We advise on canton selection based on your specific tax, lifestyle, and family needs."
+        "question": "Quel canton suisse est le meilleur pour s'installer ?",
+        "answer": "Zoug pour la fiscalité la plus basse, Zurich pour le style de vie cosmopolite et la connectivité, Schwytz pour la confidentialité et la nature. Nous vous conseillons selon vos priorités spécifiques."
       },
       {
-        "question": "How do I open a Swiss private bank account?",
-        "answer": "Opening a Swiss private bank account requires comprehensive AML/KYC documentation including identity verification, source of wealth documentation, and source of funds evidence. The process typically takes 4-8 weeks for straightforward cases. We facilitate introductions and documentation preparation."
+        "question": "Comment ouvrir un compte de banque privée en Suisse ?",
+        "answer": "Cela nécessite une documentation AML/KYC complète (origine de la fortune et des fonds). Le processus prend environ 4 à 8 semaines. Nous vous assistons dans la préparation du dossier et les introductions."
       },
       {
-        "question": "What residency permits are available in Switzerland?",
-        "answer": "The main permits are: B-permit (residence, renewable, standard entry point), C-permit (permanent settlement, available after 5-10 years), L-permit (short-term), and G-permit (cross-border). For high-net-worth individuals, the B-permit linked to lump-sum taxation is the most common pathway."
+        "question": "Quels permis de séjour sont disponibles en Suisse ?",
+        "answer": "Les principaux sont le permis B (séjour) et le permis C (établissement). Pour les personnes fortunées, le permis B lié au forfait fiscal est la voie la plus courante."
       }
     ]
   },
   "cookieConsent": {
-    "message": "Nous utilisons des cookies pour améliorer votre expérience. Les cookies essentiels sont nécessaires au fonctionnement du site. Les cookies analytiques nous aident à améliorer notre service.",
+    "message": "Nous utilisons des cookies pour améliorer votre expérience. Les cookies essentiels sont nécessaires au fonctionnement du site. Les cookies d'analyse nous aident à améliorer notre service.",
     "acceptAll": "Tout accepter",
     "essentialOnly": "Essentiels uniquement"
   }
