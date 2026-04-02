@@ -1,0 +1,1060 @@
+{
+  "metadata": {
+    "title": "Mutare in Elvetia — Consultanta Premium pentru Relocare",
+    "description": "Un serviciu specializat de relocare si consultanta strategica pentru persoane si familii cu averi ridicate care se muta in Elvetia."
+  },
+  "nav": {
+    "home": "Acasa",
+    "services": "Servicii",
+    "whySwitzerland": "De ce Elvetia",
+    "cantons": "Cantoane",
+    "caseStudies": "Studii de caz",
+    "about": "Despre noi",
+    "contact": "Contact",
+    "privacy": "Politica de confidentialitate",
+    "imprint": "Impressum",
+    "beginJourney": "Incepeti calatoria",
+    "insights": "Perspective"
+  },
+  "hero": {
+    "headline": "Drumul dumneavoastra catre Elvetia",
+    "subheadline": "Un serviciu specializat de relocare si consultanta strategica pentru persoane si familii cu averi ridicate",
+    "cta": "Programati o consultatie confidentiala"
+  },
+  "cta": {
+    "consultation": "Programati o consultatie confidentiala"
+  },
+  "whatsapp": {
+    "message": "Buna ziua, sunt interesat(a) sa aflu mai multe despre relocarea in Elvetia."
+  },
+  "stickyBar": {
+    "text": "Sunteti pregatit(a) sa incepeti calatoria elvetiana?"
+  },
+  "whySwitzerland": {
+    "title": "De ce Elvetia",
+    "subtitle": "O natiune construita pe stabilitate, discretie si excelenta",
+    "stats": {
+      "millionaires": {
+        "value": "142.000",
+        "label": "Milionari care se relocheaza la nivel global in 2025 — un record istoric"
+      },
+      "inflow": {
+        "value": "+3.000",
+        "label": "Flux net de milionari catre Elvetia in 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Ani de neutralitate politica"
+      },
+      "banking": {
+        "value": "#1",
+        "label": "Cel mai robust sistem de private banking din lume"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Au votat impotriva impozitului pe avere (noiembrie 2025)"
+      },
+      "safety": {
+        "value": "Zero",
+        "label": "Istoric de confiscare a activelor sau aliante militare"
+      }
+    }
+  },
+  "whySwitzerlandPage": {
+    "meta": {
+      "title": "De ce Elvetia — Destinatia premiera mondiala pentru avere, securitate si calitatea vietii",
+      "description": "Descoperiti de ce Elvetia este cea mai de incredere jurisdictie din lume pentru conservarea averii, securitatea familiei si calitatea vietii. Peste 500 de ani de neutralitate, #1 in private banking, educatie de clasa mondiala."
+    },
+    "hero": {
+      "title": "De ce Elvetia",
+      "subtitle": "Destinatia premiera mondiala pentru conservarea averii, securitate si calitatea vietii"
+    },
+    "neutrality": {
+      "title": "Neutralitate politica",
+      "subtitle": "Un sanctuar de stabilitate intr-o lume incerta",
+      "stat1": "500+",
+      "stat1Label": "Ani de neutralitate continua",
+      "stat2": "Zero",
+      "stat2Label": "Aliante militare",
+      "stat3": "Zero",
+      "stat3Label": "Istoric de confiscare a activelor",
+      "p1": "Elvetia a mentinut neutralitatea politica timp de peste 500 de ani — cea mai lunga perioada din istoria moderna a oricarei natiuni. Nu este membra NATO, UE sau a vreunei aliante militare. Aceasta neutralitate nu este pasiva: este o politica deliberata, inscrisa in Constitutie, care a supravietuit celor doua Razboaie Mondiale, Razboiului Rece si fiecarei crize geopolitice a erei moderne.",
+      "p2": "Pentru detinatorii de averi, aceasta se traduce intr-o garantie fara egal: Elvetia nu a confiscat niciodata active private, nu a impus niciodata taxe de urgenta pe avere si nu a participat niciodata la genul de instabilitate politica care pune in pericol averea personala in alte jurisdictii. Activele dumneavoastra in Elvetia sunt protejate de un cadru juridic si politic care a rezistat timp de o jumatate de mileniu."
+    },
+    "banking": {
+      "title": "Banking si administrarea averii",
+      "subtitle": "Cel mai de incredere sistem de private banking din lume",
+      "stat1": "#1",
+      "stat1Label": "Centru global de private banking",
+      "stat2": "CHF 7,9T",
+      "stat2Label": "Active administrate",
+      "stat3": "243",
+      "stat3Label": "Banci autorizate",
+      "p1": "Elvetia administreaza aproximativ 7,9 trilioane CHF in active, reprezentand circa 25% din totalul averii private transfrontaliere globale. Sistemul bancar elvetian este reglementat de FINMA, unul dintre cele mai riguroase organisme de reglementare financiara din lume, asigurand ca averea dumneavoastra este gestionata conform celor mai inalte standarde de conformitate si securitate.",
+      "p2": "Bancile private elvetiene ofera un nivel de administrare personalizata a averii fara egal. De la planificarea patrimoniala multi-generationala la mandate de investitii sofisticate, profunzimea expertizei disponibile in Zurich, Geneva si Zug este pur si simplu fara egal. Pentru familiile care transfera avere peste granite, Elvetia ofera infrastructura institutionala si discretia pe care alte jurisdictii nu le pot garanta."
+    },
+    "education": {
+      "title": "Sistemul educational",
+      "subtitle": "Educatie de clasa mondiala pentru generatia viitoare",
+      "stat1": "Top 3",
+      "stat1Label": "Universitati la nivel global (ETH Zurich)",
+      "stat2": "50+",
+      "stat2Label": "Scoli internationale",
+      "stat3": "#1",
+      "stat3Label": "Indicele inovatiei (13 ani consecutivi)",
+      "p1": "Elvetia gazduieste unele dintre cele mai prestigioase institutii de invatamant din lume. ETH Zurich se claseaza constant in primele 3 universitati la nivel global, iar reteaua de peste 50 de scoli internationale — inclusiv Institut Le Rosey, Zuoz Academy si International School of Zug and Luzern — ofera o educatie exceptionala pentru familiile de expati.",
+      "p2": "Sistemul educational elvetian combina rigoarea academica cu imersiunea multilingva. Copiii care frecventeaza scoli internationale dobandesc fluenta in mai multe limbi, urmand curricula IB, britanice sau americane. Pentru familiile care se relocheaza din Orientul Mijlociu, aceasta reprezinta o oportunitate de a oferi copiilor o educatie cu adevarat globala intr-unul dintre cele mai sigure medii de pe pamant."
+    },
+    "healthcare": {
+      "title": "Sistemul de sanatate",
+      "subtitle": "Printre cele mai bune sisteme de sanatate din lume",
+      "stat1": "#1",
+      "stat1Label": "Calitatea sanatatii in Europa",
+      "stat2": "4,3",
+      "stat2Label": "Medici la 1.000 de locuitori",
+      "stat3": "83,4",
+      "stat3Label": "Speranta de viata (ani)",
+      "p1": "Sistemul de sanatate elvetian este clasat constant printre cele mai bune din lume. Cu asigurare universala obligatorie, spitale de top mondial si o densitate a medicilor care depaseste cu mult majoritatea natiunilor, rezidentii au acces la ingrijire medicala exceptionala. Centre majore precum Universitatsspital Zurich si Hirslanden ofera tratamente de ultima ora si programe executive de sanatate.",
+      "p2": "Pentru familiile care se relocheaza, Elvetia ofera linistea sufleteasca de a sti ca sanatatea familiei dumneavoastra se afla in cele mai bune maini posibile. Programele de screening medical executiv, retelele de medici specialisti si serviciile medicale multilingve fara cusur asigura ca sanatatea nu este niciodata o preocupare."
+    },
+    "tax": {
+      "title": "Sistemul fiscal",
+      "subtitle": "Competitiv, transparent si protejat democratic",
+      "stat1": "78%",
+      "stat1Label": "Au votat impotriva impozitului pe avere (nov. 2025)",
+      "stat2": "26",
+      "stat2Label": "Cantoane care concureaza pentru rezidenti",
+      "stat3": "11,9%",
+      "stat3Label": "Cea mai scazuta rata de impozit cantonal pe profit",
+      "p1": "Sistemul fiscal elvetian beneficiaza de o caracteristica unica: competitia cantonala. Cu 26 de cantoane care isi stabilesc propriile cote de impozitare, persoanele fizice si companiile pot alege locatii aliniate cu obiectivele lor financiare. Cantoane precum Zug si Schwyz ofera unele dintre cele mai scazute rate de impozit din lumea dezvoltata.",
+      "p2": "Regimul de impozitare forfetara (forfait fiscal) permite resortisantilor straini eligibili sa fie impozitati pe cheltuielile de trai in locul venitului mondial — un avantaj semnificativ pentru persoanele cu averi ridicate. In noiembrie 2025, cetatenii elvetieni au votat 78% impotriva introducerii unui impozit federal pe avere, reafirmand angajamentul tarii de a proteja averea privata prin mandat democratic."
+    },
+    "qualityOfLife": {
+      "title": "Calitatea vietii",
+      "subtitle": "Siguranta, infrastructura si frumusete naturala fara compromis",
+      "stat1": "#1",
+      "stat1Label": "Calitatea vietii la nivel global",
+      "stat2": "Top 3",
+      "stat2Label": "Cele mai sigure tari din lume",
+      "stat3": "99,9%",
+      "stat3Label": "Punctualitatea transportului public",
+      "p1": "Elvetia se claseaza constant pe locul #1 la nivel global in ceea ce priveste calitatea vietii. De la peisajele alpine imaculate pana la orasele impecabil intretinute, fiecare aspect al vietii cotidiene reflecta un angajament pentru excelenta. Sistemul de transport public — care conecteaza fiecare sat, oras si metropola — functioneaza cu legendara precizie elvetiana.",
+      "p2": "Siguranta nu este doar o statistica in Elvetia; este o experienta traita. Criminalitatea violenta este practic inexistenta, securitatea personala este considerata de la sine inteleasa, iar infrastructura sociala — de la parcuri si spatii publice la institutii culturale — este mentinuta la cele mai inalte standarde. Pentru familiile care se relocheaza din regiuni cu preocupari de securitate, Elvetia ofera o transformare a calitatii vietii zilnice."
+    },
+    "business": {
+      "title": "Mediul de afaceri",
+      "subtitle": "Unde comertul global intalneste precizia elvetiana",
+      "stat1": "1-2 saptamani",
+      "stat1Label": "Timp de inregistrare a companiei",
+      "stat2": "#1",
+      "stat2Label": "Protectia proprietatii intelectuale la nivel mondial",
+      "stat3": "120+",
+      "stat3Label": "Acorduri comerciale bilaterale",
+      "p1": "Elvetia ofera unul dintre cele mai favorabile medii de afaceri din lume. Inregistrarea unei companii poate fi finalizata in doar una pana la doua saptamani, protectia proprietatii intelectuale este cea mai puternica la nivel global, iar reteaua de peste 120 de acorduri comerciale bilaterale ofera acces facil la piata unica a UE si nu numai.",
+      "p2": "Forta de munca elvetiana este printre cele mai educate si productive din lume, cu o traditie solida de discretie si profesionalism. Pentru antreprenori si family office-uri care isi stabilesc operatiunile in Elvetia, combinatia de stabilitate politica, certitudine juridica, protectie a proprietatii intelectuale si acces pe piata creeaza o fundatie fara egal pentru cresterea afacerii."
+    }
+  },
+  "cantonsPage": {
+    "meta": {
+      "title": "Comparatie cantoane elvetiene — Zurich vs Zug vs Schwyz pentru relocare",
+      "description": "Comparatie interactiva a cantoanelor Zurich, Zug si Schwyz. Comparati ratele de impozitare, stilul de viata, scolile internationale, serviciile bancare si piata imobiliara pentru relocarea dumneavoastra in Elvetia."
+    },
+    "hero": {
+      "title": "Comparatia cantoanelor",
+      "subtitle": "Alegeti cantonul elvetian potrivit pentru familia, afacerea si stilul dumneavoastra de viata"
+    },
+    "filter": {
+      "all": "Toate cantoanele",
+      "zurich": "Zurich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    },
+    "sections": {
+      "taxRates": "Rate de impozitare",
+      "lifestyle": "Stil de viata si caracter",
+      "schools": "Scoli internationale",
+      "banking": "Infrastructura bancara",
+      "realEstate": "Imobiliare",
+      "bestFor": "Ideal pentru"
+    },
+    "zurich": {
+      "name": "Zurich",
+      "tagline": "Oras global, capitala culturala",
+      "tax": {
+        "corporate": "Aprox. 19,7% rata efectiva de impozit pe profit",
+        "personal": "Pana la 39,8% rata marginala maxima (combinata)",
+        "lumpSum": "Baza impozabila minima CHF 400.000+"
+      },
+      "lifestyle": {
+        "character": "Cosmopolit, bogat cultural, urban",
+        "international": "Comunitate internationala mare (30%+ rezidenti straini)",
+        "culture": "Opera, galerii de arta, restaurante cu stele Michelin, viata pe malul lacului",
+        "transport": "Aeroport international, conexiuni feroviare excelente"
+      },
+      "schools": {
+        "list": [
+          "Inter-Community School Zurich (ICS)",
+          "Zurich International School (ZIS)",
+          "Swiss International School",
+          "Lyceum Alpinum Zuoz (in apropiere)"
+        ]
+      },
+      "bankingInfo": "Sediul UBS, Credit Suisse (acum UBS), Julius Baer si al zecilor de banci private boutique. Servicii bancare crypto disponibile (SEBA, Sygnum).",
+      "realEstate": {
+        "range": "CHF 15.000-35.000/m2 (centrul orasului), CHF 8.000-15.000/m2 (suburbiile lacului Zurich)",
+        "lexKoller": "Se aplica Lex Koller: rezidentii non-elvetieni au nevoie de autorizatie pentru proprietati rezidentiale. Titularii de permis B pot achizitiona resedinta principala."
+      },
+      "bestFor": {
+        "profile": "Profesionistul urban, antreprenorul digital sau familia care cauta cultura si conectivitate de clasa mondiala",
+        "ideal": "Ideal pentru: antreprenori crypto, directori corporativi, familii care pretuiesc stilul de viata urban"
+      }
+    },
+    "zug": {
+      "name": "Zug",
+      "tagline": "Paradis fiscal, Crypto Valley",
+      "tax": {
+        "corporate": "Aprox. 11,9% rata efectiva de impozit pe profit",
+        "personal": "Pana la 22,4% rata marginala maxima (combinata)",
+        "lumpSum": "Baza impozabila minima CHF 250.000+"
+      },
+      "lifestyle": {
+        "character": "Compact, prosper, pe malul lacului, discret",
+        "international": "Extrem de international (35%+ rezidenti straini, comunitate puternica de expati)",
+        "culture": "Oras elegant pe malul lacului, aproape de munti si Zurich",
+        "transport": "30 minute pana la Aeroportul Zurich, conexiuni feroviare excelente"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (ISZL)",
+          "Institut Montana Zugerberg",
+          "Swiss International School"
+        ]
+      },
+      "bankingInfo": "Ecosistemul Crypto Valley cu banci native blockchain. Private banking traditional prin filiale locale ale marilor banci elvetiene. Concentrare de family office-uri pe locul doi dupa Geneva.",
+      "realEstate": {
+        "range": "CHF 12.000-25.000/m2 (orasul Zug), CHF 8.000-14.000/m2 (satele inconjuratoare)",
+        "lexKoller": "Se aplica Lex Koller. Titularii de permis B pot achizitiona resedinta principala. Zug are cerinte locale suplimentare pentru unele comune."
+      },
+      "bestFor": {
+        "profile": "Antreprenorul care optimizeaza fiscal, family office-ul sau fondatorul crypto/fintech care cauta cea mai scazuta sarcina fiscala posibila",
+        "ideal": "Ideal pentru: family office-uri, solicitanti de forfait fiscal, antreprenori tech"
+      }
+    },
+    "schwyz": {
+      "name": "Schwyz",
+      "tagline": "Avere discreta, serenitate alpina",
+      "tax": {
+        "corporate": "Aprox. 14,1% rata efectiva de impozit pe profit",
+        "personal": "Pana la 21,3% rata marginala maxima (combinata)",
+        "lumpSum": "Baza impozabila minima CHF 200.000+"
+      },
+      "lifestyle": {
+        "character": "Rural, traditional, extrem de privat",
+        "international": "Comunitate internationala mai mica, foarte discreta",
+        "culture": "Peisaje alpine, privelistri lacustre, farmec elvetian traditional",
+        "transport": "45 minute pana la Aeroportul Zurich, naveta pitoreasca"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (campusul Hunenberg, in apropiere)",
+          "Institut Montana (in apropiere)",
+          "Stiftsschule Einsiedeln"
+        ]
+      },
+      "bankingInfo": "Private banking prin banca cantonala Schwyz si filiale ale bancilor mari. Densitate institutionala mai mica decat Zurich sau Zug, dar ideala pentru cei care pretuiesc confidentialitatea absoluta.",
+      "realEstate": {
+        "range": "CHF 6.000-14.000/m2 (pe malul lacului), CHF 4.000-8.000/m2 (sate interioare)",
+        "lexKoller": "Se aplica Lex Koller. Preturi in general mai accesibile decat Zurich sau Zug, cu rate de impozitare comparabile sau mai mici."
+      },
+      "bestFor": {
+        "profile": "Familia sau persoana axata pe confidentialitate, care cauta cele mai scazute impozite, un stil de viata alpin si discretie totala",
+        "ideal": "Ideal pentru: familii multi-generationale, persoane axate pe confidentialitate, pensionari"
+      }
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Studii de caz ale clientilor — Mutare in Elvetia",
+      "description": "Studii de caz anonimizate ale relocarilor reussite in Elvetia. Aflati cum antreprenorii, familiile si family office-urile navigheaza calatoria catre Elvetia."
+    },
+    "hero": {
+      "title": "Parcursurile clientilor",
+      "subtitle": "Studii de caz anonimizate din relocari reale"
+    },
+    "disclaimer": "Toate studiile de caz sunt anonimizate. Numele, detaliile de identificare si cifrele specifice au fost modificate pentru a proteja confidentialitatea clientilor.",
+    "cases": {
+      "techFounder": {
+        "title": "Fondatorul tech",
+        "subtitle": "Din Dubai in Zug in 9 luni",
+        "quote": "Aveam nevoie de o jurisdictie care sa inteleaga atat modelul nostru de afaceri digitale, cat si nevoile de securitate pe termen lung ale familiei noastre. Elvetia a livrat pe ambele fronturi.",
+        "profile": "Antreprenor tech din Dubai, familie de 4 persoane, post-exit cu eveniment semnificativ de lichiditate",
+        "timeline": {
+          "month1": "Consultatie initiala si evaluarea cantoanelor",
+          "month2": "Restructurarea activelor pre-imigrare",
+          "month3": "Negocierea forfait fiscal initiata cu autoritatile din Zug",
+          "month4": "Cererea de permis B depusa",
+          "month5": "Locul la scoala internationala asigurat (ISZL)",
+          "month6": "Achizitie imobiliara — proprietate pe malul lacului in Zug",
+          "month7": "Relatie de private banking elvetian stabilita",
+          "month8": "Relocarea familiei executata",
+          "month9": "Structura de family office stabilita, toate serviciile operationale"
+        },
+        "challenges": [
+          "Structura corporativa complexa multi-jurisdictionala care necesita restructurare",
+          "Detineri crypto care necesitau documentatie bancara specializata",
+          "Plasament scolar in mijlocul anului academic",
+          "Coordonarea tranzitiei duale a resedintei fiscale"
+        ],
+        "services": [
+          "Structurarea activelor pre-imigrare",
+          "Impozitare forfetara (Forfait Fiscal)",
+          "Rezidenta si imigrare",
+          "Infiintarea family office-ului",
+          "Consultanta imobiliara",
+          "Coordonarea stilului de viata"
+        ],
+        "outcome": "Relocarea completa a familiei finalizata. Forfait fiscal aprobat. Copiii inscrisi la ISZL. Family office operational cu cadru de guvernanta elvetian. Onorariu: nedivulgat."
+      },
+      "bankingFamily": {
+        "title": "Familia din banking",
+        "subtitle": "Din Beirut in Schwyz — relocare de urgenta",
+        "quote": "Cand bancile s-au prabusit, am avut 72 de ore sa luam o decizie. Consilierii nostri aveau infrastructura elvetiana pregatita.",
+        "profile": "Familie libaneza, 3 generatii, portofoliu semnificativ de banking si imobiliare, circumstante de urgenta",
+        "timeline": {
+          "week1": "Consultatie de urgenta — evaluarea imediata a amenintarii",
+          "week2": "Cerere expeditiva de permis B initiata",
+          "month1": "Cazare temporara asigurata in Schwyz",
+          "month2": "Integrare private banking (active transferate din detineri non-libaneze)",
+          "month3": "Rezidenta permanenta stabilita",
+          "month4": "Copiii inscrisi la scoala internationala",
+          "month6": "Restructurare patrimoniala finalizata",
+          "month9": "Stabilire completa — toate trei generatiile stabilite",
+          "month12": "Mandat continuu — administrare patrimoniala si planificarea succesiunii"
+        },
+        "challenges": [
+          "Cronologie de urgenta necesitand procesarea paralela a tuturor fluxurilor de lucru",
+          "Structura patrimoniala complexa multi-generationala",
+          "Active blocate in sistemul bancar libanez",
+          "Trei generatii cu nevoi diferite de rezidenta si ingrijire"
+        ],
+        "services": [
+          "Rezidenta si imigrare",
+          "Private banking si administrarea averii",
+          "Consultanta imobiliara",
+          "Infiintarea family office-ului",
+          "Concierge sanatate si wellness",
+          "Coordonarea stilului de viata"
+        ],
+        "outcome": "Toate trei generatiile relocate cu succes. Relatii de private banking stabilite. Patrimoniul restructurat sub guvernanta elvetiana. Planificarea continua a succesiunii in mandat permanent."
+      },
+      "digitalNomad": {
+        "title": "Nomadul digital",
+        "subtitle": "Din Riyadh in Zurich in 4 luni",
+        "quote": "Aveam nevoie de o tara care trateaza crypto ca o clasa de active legitima si ofera infrastructura reala pentru construirea unei afaceri. Zurich a fost alegerea evidenta.",
+        "profile": "Cetatean saudit de 34 de ani, portofoliu semnificativ de criptomonede, trader si investitor activ, necasatorit",
+        "timeline": {
+          "month1": "Consultatie, selectia cantonului, strategia de documentare a averii crypto",
+          "month15": "Cerere de permis B cu documentare detaliata a sursei averii",
+          "month2": "Inregistrarea companiei (GmbH elvetian) pentru operatiuni de consultanta",
+          "month3": "Configurare bancara crypto-friendly (SEBA Bank + banca privata traditionala)",
+          "month4": "Apartament asigurat in Zurich, relocare completa finalizata"
+        },
+        "challenges": [
+          "Documentarea lantului de avere crypto de la mining/achizitii in stadiu incipient pana la portofoliul curent",
+          "Gasirea partenerilor bancari confortabili cu avere derivata 90%+ din crypto",
+          "Navigarea clasificarii fiscale elvetiene a crypto pentru trading activ vs. investitie",
+          "Permis B pentru cetatean non-UE cu profil de avere netraditional"
+        ],
+        "services": [
+          "Rezidenta si imigrare",
+          "Inregistrare companie si structurare corporativa",
+          "Private banking si administrarea averii",
+          "Coordonarea stilului de viata"
+        ],
+        "outcome": "Permis B acordat. GmbH elvetian operational. Relatie bancara duala (crypto + traditionala) stabilita. Cadru complet de conformitate pentru trading crypto continuu. 4 luni de la inceput la final."
+      },
+      "gulfFamilyOffice": {
+        "title": "Family office-ul din Golf",
+        "subtitle": "Family office kuweitiano — SFO elvetian stabilit",
+        "quote": "Aveam administrarea averii in patru jurisdictii, dar fara guvernanta unificata. Elvetia ne-a oferit structura de care familia noastra avea nevoie pentru generatia urmatoare.",
+        "profile": "Family office kuweitiano, AUM CHF 200M+, multi-generational, operand in GCC, Londra si Elvetia",
+        "timeline": {
+          "month1": "Analiza: audit de guvernanta, revizuire jurisdictionala, evaluarea cartei familiei",
+          "month2": "Structura SFO elvetiana proiectata — AG incorporata in Zug",
+          "month3": "Formarea consiliului de administratie — 3 directori independenti rezidenti in Elvetia plasati",
+          "month4": "Comitetul de investitii stabilit, mandatele bancare restructurate",
+          "month5": "Cadrul de guvernanta documentat si ratificat de consiliul familiei",
+          "month6": "Operational — toate liniile de raportare, conformitate si audit active",
+          "ongoing": "Mandat continuu: sedinte trimestriale ale consiliului, revizuire anuala a guvernantei, consultanta ad-hoc"
+        },
+        "challenges": [
+          "Alinierea asteptarilor de guvernanta intre trei generatii cu filosofii de investitii diferite",
+          "Consolidarea raportarii din patru jurisdictii intr-un cadru elvetian unificat",
+          "Plasarea directorilor independenti calificati care intelegeau atat cultura de afaceri elvetiana, cat si pe cea din GCC",
+          "Proiectarea unui cadru de succesiune acceptabil pentru toate ramurile familiei"
+        ],
+        "services": [
+          "Infiintarea family office-ului",
+          "Directori independenti si servicii de consiliu",
+          "Inregistrare companie si structurare corporativa",
+          "Private banking si administrarea averii"
+        ],
+        "outcome": "SFO elvetian complet operational in Zug. 3 directori independenti plasati. Cadrul de guvernanta ratificat de toate ramurile familiei. Raportare consolidata din toate jurisdictiile. Mandat continuu pentru guvernanta trimestriala si revizuire anuala."
+      }
+    }
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "subtitle": "Consultanta cuprinzatoare in fiecare dimensiune a relocarii dumneavoastra",
+    "learnMore": "Aflati mai multe",
+    "pageTitle": "Servicii",
+    "pageSubtitle": "Consultanta completa pentru relocarea dumneavoastra in Elvetia",
+    "items": {
+      "assetStructuring": {
+        "title": "Structurarea activelor pre-imigrare",
+        "description": "Realizarea castigurilor inainte de rezidenta elvetiana; restructurarea participatiilor, trusturilor si structurilor corporative din EAU; documentatie cuprinzatoare a sursei averii.",
+        "detail": "Lucram cu consilierii dumneavoastra existenti pentru a asigura ca structura activelor este optimizata inainte de stabilirea resedintei fiscale elvetiene. Aceasta include revizuirea participatiilor, aranjamentelor de trust si structurilor corporative in EAU si nu numai, asigurand documentatie clara a sursei averii care satisface cerintele bancare si ale autoritatilor fiscale elvetiene."
+      },
+      "lumpSum": {
+        "title": "Impozitare forfetara (Forfait Fiscal)",
+        "description": "Negocierea completa a deciziei fiscale cantonale; determinarea bazei impozabile; administrarea continua a conformitatii anuale.",
+        "detail": "Regimul de impozitare forfetara din Elvetia ofera persoanelor eligibile o baza fiscala calculata pe cheltuielile de trai, nu pe venitul mondial. Ne ocupam de negocierea completa cu autoritatile cantonale, determinam baza impozabila optima si administram conformitatea anuala continua pentru a asigura ca aranjamentul dumneavoastra ramane in vigoare."
+      },
+      "residency": {
+        "title": "Rezidenta si imigrare",
+        "description": "Consultanta privind selectia cantonului; administrarea cererii de permis B; planificarea includerii familiei; calea catre permisul C si cetatenie.",
+        "detail": "Alegerea cantonului potrivit este poate cea mai importanta decizie din procesul de relocare. Oferim consultanta privind selectia cantonului pe baza situatiei fiscale, preferintelor de stil de viata si nevoilor familiei. Apoi administram intreaga cerere de permis B, includerea familiei si trasam calea catre permisul C si, in final, cetatenia elvetiana."
+      },
+      "companyFormation": {
+        "title": "Inregistrarea companiei si structurarea corporativa",
+        "description": "Holdinguri elvetiene; structuri de proprietate intelectuala; coordonare cu entitati din EAU; inregistrare si conformitate TVA.",
+        "detail": "Fie ca aveti nevoie de un holding elvetian, o structura de licentiere a proprietatii intelectuale sau coordonare intre entitatile existente din EAU si noile operatiuni elvetiene, ne ocupam de intregul proces. Aceasta include inregistrarea TVA, conformitatea corporativa si asigurarea ca structura corporativa este atat eficienta fiscal, cat si pe deplin conforma."
+      },
+      "familyOffice": {
+        "title": "Infiintarea family office-ului",
+        "description": "Consultanta pentru family office individual si multi-familial; introduceri in private banking; structurarea trusturilor si fundatiilor; planificarea succesiunii.",
+        "detail": "Pentru familiile care necesita infrastructura dedicata de administrare a averii, oferim consultanta privind infiintarea de family office-uri individuale sau multi-familiale in Elvetia. Aceasta include introduceri la banci private de top, structurarea trusturilor si fundatiilor pentru protectia activelor si planificarea cuprinzatoare a succesiunii care tine cont de complexitatile transfrontaliere."
+      },
+      "directorship": {
+        "title": "Directori independenti si servicii de consiliu",
+        "description": "Plasarea directorilor rezidenti in Elvetia; servicii de secretariat corporativ; suport de guvernanta si conformitate.",
+        "detail": "Multe structuri corporative elvetiene necesita un director rezident in Elvetia. Oferim directori independenti calificati, servicii de secretariat corporativ si suport continuu de guvernanta pentru a asigura ca entitatile dumneavoastra elvetiene indeplinesc toate cerintele de reglementare, in timp ce dumneavoastra va concentrati pe afacere."
+      },
+      "realEstate": {
+        "title": "Consultanta imobiliara",
+        "description": "Navigarea Lex Koller; acces la proprietati off-market; structurarea achizitiilor; coordonare notariala.",
+        "detail": "Reglementarile imobiliare elvetiene, in special restrictiile Lex Koller privind cumparatorii straini, necesita navigare de specialitate. Oferim acces la proprietati off-market in locatii premium, structuram achizitiile pentru conformitate cu toate reglementarile si coordonam cu notarii pentru a asigura tranzactii fluide."
+      },
+      "health": {
+        "title": "Concierge sanatate si wellness",
+        "description": "Configurarea asigurarii obligatorii de sanatate; introduceri la medici specialisti; screening medical executiv; asistenta medicala.",
+        "detail": "Sistemul de sanatate elvetian necesita asigurare obligatorie si poate fi complex de navigat. Configuram asigurarea de sanatate, va introducem la medici specialisti de top, organizam screening-uri medicale executive si servim ca asistent medical permanent pentru a asigura ca dumneavoastra si familia primiti cea mai buna ingrijire."
+      },
+      "lifestyle": {
+        "title": "Coordonarea stilului de viata si integrare",
+        "description": "Plasarea la scoli internationale; permise de munca pentru personal domestic; programe de integrare pentru partener; introduceri in comunitate; orientare culturala.",
+        "detail": "Succesul relocarii dumneavoastra se extinde mult dincolo de documente. Ne ocupam de plasarea copiilor la scoli internationale, permisele de munca ale personalului domestic, integrarea si introducerea in comunitate a partenerului si orientarea culturala cuprinzatoare pentru a asigura ca intreaga familie se simte acasa in Elvetia din prima zi."
+      }
+    },
+    "overview": "Prezentare generala"
+  },
+  "clients": {
+    "title": "Pe cine deservim",
+    "subtitle": "Consultanta noastra este adaptata profilului si obiectivelor dumneavoastra specifice",
+    "profiles": {
+      "entrepreneur": {
+        "title": "Antreprenorul consacrat",
+        "age": "Varsta 40-60",
+        "description": "Proprietari de afaceri pre-exit sau post-exit care doresc sa stabileasca rezidenta elvetiana inainte de un eveniment de lichiditate. Angajament tipic: 12-24 luni.",
+        "tags": ["Planificare pre-exit", "Structurarea activelor", "Forfait Fiscal"]
+      },
+      "family": {
+        "title": "Familia care se relocheaza",
+        "age": "Copii de varsta scolara",
+        "description": "Familii care prioritizeaza securitatea, educatia si calitatea vietii. Relocare cuprinzatoare incluzand scoli, sanatate si integrare in comunitate.",
+        "tags": ["Educatie", "Sanatate", "Comunitate"]
+      },
+      "youngWealth": {
+        "title": "Tanarul detinator de avere",
+        "age": "Varsta 28-42",
+        "description": "Antreprenori digitali si detinatori de avere crypto care cauta o jurisdictie stabila, favorabila crypto, cu un stil de viata de clasa mondiala.",
+        "tags": ["Crypto", "Active digitale", "Stil de viata"]
+      },
+      "familyOffice": {
+        "title": "Family office-ul din Golf",
+        "age": "Multi-generational",
+        "description": "Family office-uri consacrate care cauta un hub european de guvernanta, planificarea succesiunii si structurarea averii la nivel institutional.",
+        "tags": ["Guvernanta", "Succesiune", "Institutional"]
+      }
+    }
+  },
+  "founders": {
+    "title": "Fondatorii",
+    "subtitle": "Doua decenii de expertiza combinata in consultanta elvetiana",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Co-fondator",
+      "bio": "Avocat elvetian si absolvent MBA. Adrian a infiintat mai multe banci in Elvetia si mentine relatii profunde cu FINMA, institutiile de private banking si autoritatile cantonale. Expertiza sa juridica si reteaua institutionala formeaza coloana vertebrala de reglementare a consultantei noastre."
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Co-fondator",
+      "bio": "Antreprenor serial danez cu baza in Elvetia. Cu peste 400 de milioane CHF in publicitate digitala administrata si mai multe companii in Elvetia si UE, Robin aduce excelenta operationala si o intelegere profunda a structurarii afacerilor transfrontaliere. Vorbeste germana, daneza si engleza."
+    }
+  },
+  "about": {
+    "pageTitle": "Despre noi",
+    "pageSubtitle": "Independenta, confidentialitate si profunzimea serviciilor",
+    "story": {
+      "title": "Povestea noastra",
+      "p1": "Move to Switzerland a fost fondat pe o observatie simpla: persoanele cu averi ridicate care se relocheaza din Orientul Mijlociu in Elvetia se confrunta cu un peisaj de consultanta inutil de fragmentat. Consilierii fiscali, avocatii de imigrare, agentii imobiliari si bancherii privati opereaza fiecare izolat, lasand clientul sa coordoneze intre ei.",
+      "p2": "Am creat un singur punct de contact care orchestreaza intreaga calatorie de relocare — de la structurarea activelor pre-imigrare pana la prima zi a copiilor la scoala. Fondatorii nostri combina expertiza profunda juridica si bancara elvetiana cu experienta practica antreprenoriala in operatiuni transfrontaliere.",
+      "p3": "Fiecare angajament este gestionat cu discretia si minutiozitatea pe care clientii nostri le asteapta. Deservim un numar limitat de familii la un moment dat, asigurand ca fiecare primeste atentia noastra neimpartita."
+    },
+    "values": {
+      "title": "Valorile noastre",
+      "independence": {
+        "title": "Independenta",
+        "description": "Nu suntem legati de nicio banca, firma de avocatura sau agentie imobiliara. Consultanta noastra este intotdeauna in interesul dumneavoastra."
+      },
+      "confidentiality": {
+        "title": "Confidentialitate",
+        "description": "Fiecare angajament este protejat de confidentialitate stricta. Nu dezvaluim niciodata relatiile cu clientii sau detaliile acestora."
+      },
+      "depth": {
+        "title": "Profunzimea serviciilor",
+        "description": "Nu referim si uitam. Ramanem alaturi de dumneavoastra la fiecare pas, de la prima consultatie pana la stabilirea completa."
+      }
+    },
+    "offices": {
+      "title": "Birourile noastre",
+      "zurich": "Zurich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contactati-ne",
+    "pageSubtitle": "Incepeti calatoria catre Elvetia",
+    "confidential": "Toate solicitarile sunt tratate cu stricta confidentialitate.",
+    "form": {
+      "name": "Nume complet",
+      "email": "Adresa de email",
+      "phone": "Numar de telefon (optional)",
+      "country": "Tara de rezidenta actuala",
+      "message": "Mesajul dumneavoastra",
+      "hearAbout": "Cum ati auzit de noi? (optional)",
+      "submit": "Trimiteti solicitarea",
+      "sending": "Se trimite...",
+      "success": "Va multumim. Solicitarea dumneavoastra a fost primita. Vom raspunde in 24 de ore.",
+      "error": "Ceva nu a functionat. Va rugam sa incercati din nou sau sa ne contactati direct."
+    },
+    "offices": {
+      "title": "Birourile noastre"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Politica de confidentialitate",
+    "content": "Aceasta politica de confidentialitate explica modul in care Move to Switzerland colecteaza, utilizeaza si protejeaza datele dumneavoastra personale in conformitate cu legea elvetiana privind protectia datelor (nDSG) si Regulamentul General al UE privind Protectia Datelor (GDPR)."
+  },
+  "imprint": {
+    "pageTitle": "Impressum",
+    "company": "WorkWorkWork AG",
+    "address": "Elvetia",
+    "registration": "Registrul comertului"
+  },
+  "footer": {
+    "tagline": "Consultanta premium de relocare pentru persoane si familii distinse.",
+    "navigation": "Navigare",
+    "legal": "Legal",
+    "languages": "Limbi",
+    "rights": "Toate drepturile rezervate.",
+    "company": "Un serviciu al WorkWorkWork AG",
+    "disclaimer": "Serviciile se limiteaza la educatie financiara generala si orientare strategica si nu constituie servicii financiare in sensul Legii serviciilor financiare (FIDLEG). In special, nu se ofera consultanta privind instrumente financiare specifice, nu se realizeaza administrare de portofoliu si nu se executa sau transmit ordine"
+  },
+  "servicesMeta": {
+    "title": "Serviciile noastre — Mutare in Elvetia",
+    "description": "Servicii cuprinzatoare de consultanta in fiecare dimensiune a relocarii dumneavoastra in Elvetia."
+  },
+  "insights": {
+    "meta": {
+      "title": "Perspective — Consultanta pentru mutarea in Elvetia",
+      "description": "Perspective de specialitate privind relocarea in Elvetia, impozitare, imobiliare, banking si stil de viata pentru persoane si familii cu averi ridicate."
+    },
+    "hero": {
+      "title": "Perspective",
+      "subtitle": "Perspective de specialitate privind relocarea in Elvetia, impozitare si administrarea averii"
+    },
+    "readMore": "Cititi articolul",
+    "author": "Echipa de consultanta Move to Switzerland",
+    "authorSubtitle": "Consultanta de specialitate",
+    "relatedServices": "Servicii conexe",
+    "breadcrumb": {
+      "home": "Acasa",
+      "insights": "Perspective"
+    },
+    "articles": {
+      "swiss-lump-sum-taxation-guide": {
+        "category": "taxation",
+        "categoryLabel": "Impozitare",
+        "readTime": "12 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Impozitarea forfetara elvetiana explicata: ghid complet pentru rezidentii straini",
+        "metaDescription": "Ghid complet privind impozitarea forfetara elvetiana (forfait fiscal). Aflati despre eligibilitate, sumele minime pe cantoane, modul de calcul al bazei impozabile si procesul pas cu pas de aplicare.",
+        "excerpt": "O analiza cuprinzatoare a regimului de forfait fiscal din Elvetia — cerinte de eligibilitate, sume minime cantonale, calculele bazei impozabile si procesul pas cu pas de aplicare.",
+        "sectionCount": "9",
+        "sections": {
+          "0": {
+            "content": "Regimul de impozitare forfetara din Elvetia — cunoscut sub numele de forfait fiscal sau Pauschalbesteuerung — este unul dintre cele mai atractive aranjamente fiscale disponibile resortisantilor straini bogati care se relocheaza in Elvetia. In cadrul acestui sistem, persoanele eligibile sunt impozitate pe baza cheltuielilor de trai, nu pe venitul si activele mondiale. Pentru persoanele cu averi ridicate, in special cele cu fluxuri semnificative de venit global, aceasta poate rezulta in obligatii fiscale substantial mai mici comparativ cu impozitarea ordinara."
+          },
+          "1": {
+            "heading": "Ce este impozitarea forfetara?",
+            "level": "2",
+            "content": "Impozitarea forfetara este un regim fiscal special disponibil resortisantilor straini care isi stabilesc sau reiau rezidenta fiscala in Elvetia si nu desfasoara activitati lucrative in tara. In loc sa declare venitul si averea mondiale, baza fiscala a contribuabilului este determinata de cheltuielile anuale de trai in Elvetia — incluzand costurile de locuire, alimentatie, calatorii, educatie, personal si alte cheltuieli personale. Impozitul este apoi calculat prin aplicarea cotelor ordinare elvetiene de impozitare (federale, cantonale si municipale) la aceasta baza impozabila estimata. Sistemul face parte din legislatia fiscala elvetiana de peste un secol si deserveste in prezent aproximativ 5.000 de persoane in toata Elvetia, generand anual peste 900 de milioane CHF in venituri fiscale."
+          },
+          "2": {
+            "heading": "Cerinte de eligibilitate",
+            "level": "2",
+            "content": "Pentru a se califica pentru impozitarea forfetara, un solicitant trebuie sa indeplineasca trei criterii fundamentale. In primul rand, persoana trebuie sa fie resortisant strain — cetatenii elvetieni nu sunt eligibili. In al doilea rand, persoana trebuie sa isi stabileasca rezidenta fiscala elvetiana pentru prima data sau sa revina dupa o absenta de cel putin 10 ani. In al treilea rand, si in mod critic, persoana nu trebuie sa desfasoare nicio activitate lucrativa in Elvetia. Aceasta include angajarea, activitatile independente si administrarea activa a unei afaceri cu sediul in Elvetia. Activitatile pasive precum administrarea investitiilor personale sau supravegherea unui family office (cu conditia ca acesta sa nu genereze venituri de la terti) sunt in general permise. Sotul/sotia solicitantului trebuie, de asemenea, sa indeplineasca criteriul de nationalitate — daca unul dintre soti este elvetian, impozitarea forfetara nu este disponibila pentru cuplu."
+          },
+          "3": {
+            "heading": "Cum se calculeaza baza impozabila",
+            "level": "2",
+            "content": "Baza impozabila in cadrul impozitarii forfetare este cea mai mare dintre doua calcule. Primul este cheltuielile de trai mondiale efective ale contribuabilului si ale familiei sale. Al doilea este un calcul de control — un prag minim conceput pentru a preveni abuzurile. La nivel federal, venitul impozabil minim a fost stabilit la 400.000 CHF de la reforma din 2016. Cantoanele isi stabilesc propriile minime, care variaza de la aproximativ 250.000 CHF la peste 600.000 CHF in functie de canton. Calculul de control ia in considerare mai multi factori: valoarea locativa a resedintei elvetiene a contribuabilului multiplicata cu un factor (de obicei 3 pana la 7 in functie de canton), venitul din surse elvetiene si venitul din tari cu care Elvetia are un acord de dubla impunere unde contribuabilul revendica beneficii de tratat."
+          },
+          "4": {
+            "heading": "Sume minime pe cantoane",
+            "level": "3",
+            "content": "Minimele cantonale variaza semnificativ si sunt un factor cheie in selectia cantonului. Zug necesita un venit impozabil minim de aproximativ 250.000 CHF, fiind unul dintre cele mai accesibile cantoane. Schwyz stabileste minimul in jurul a 250.000 CHF de asemenea. Lucerna necesita aproximativ 300.000 CHF. Valais si Graubunden stabilesc minimele la circa 400.000 CHF. Geneva necesita un venit impozabil minim de aproximativ 400.000 CHF, dar are rate municipale de impozitare mai mari. Zurich necesita aproximativ 400.000 CHF si aplica ratele sale progresive standard la baza estimata. Vaud, istoric cantonul cu cei mai multi contribuabili forfetari, necesita aproximativ 400.000 CHF. Berna are un minim de aproximativ 400.000 CHF. Mai multe cantoane au abolit impozitarea forfetara la nivel cantonal — Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden si orasul Zurich (desi cantonul o permite inca in unele municipalitati). Verificati intotdeauna disponibilitatea curenta cu autoritatile cantonale."
+          },
+          "5": {
+            "heading": "Procesul de aplicare: pas cu pas",
+            "level": "2",
+            "content": "Procesul de aplicare urmeaza de obicei un parcurs structurat. In faza de pre-aplicare, viitorul contribuabil lucreaza cu consilieri calificati pentru a pregati un rezumat detaliat al situatiei personale si financiare, a selecta cantonul si municipalitatea optime si a pregati calculele preliminare ale bazei impozabile propuse. Cererea formala este depusa la autoritatea fiscala cantonala. Aceasta include o declaratie detaliata a cheltuielilor de trai anticipate, documentatia situatiei financiare a solicitantului, dovada cerintei de nationalitate si o declaratie de nedesfasurare a activitatii lucrative in Elvetia. Autoritatea cantonala analizeaza cererea si poate intra intr-o negociere privind baza impozabila. Aceasta este o negociere reala — autoritatea are putere discretionara si va evalua daca baza propusa este rezonabila, tinand cont de stilul de viata si averea aparente ale solicitantului. Odata convenita, se emite o decizie fiscala formala, de obicei valabila pentru o perioada definita. Contribuabilul trebuie sa depuna o declaratie anuala a cheltuielilor de trai pentru a mentine aranjamentul."
+          },
+          "6": {
+            "heading": "Impozitare forfetara federala vs. cantonala",
+            "level": "2",
+            "content": "Este important de inteles ca impozitarea forfetara functioneaza atat la nivel federal, cat si cantonal/municipal. La nivel federal, venitul impozabil minim este de 400.000 CHF. Impozitele cantonale si municipale sunt calculate separat, iar fiecare canton are propriile praguri minime si rate. In practica, rata efectiva totala de impozitare pe venitul forfetar variaza de obicei intre 20% si 35% in functie de canton si municipalitate, comparativ cu rate marginale de top de 40%+ pentru contribuabilii ordinari cu venituri ridicate. De exemplu, pentru o persoana cu o baza impozabila negociata de 500.000 CHF, factura fiscala totala anuala in Zug ar putea fi de aproximativ 100.000-120.000 CHF — o fractiune din ceea ce ar plati pe venitul mondial efectiv sub impozitarea ordinara."
+          },
+          "7": {
+            "heading": "Avantaje si consideratii",
+            "level": "2",
+            "content": "Principalele avantaje ale impozitarii forfetare includ facturi fiscale previzibile si adesea semnificativ mai mici, lipsa obligatiei de a declara in detaliu venitul si activele mondiale, conformitate fiscala simplificata si protectie impotriva impozitului elvetian pe avere pentru activele din afara Elvetiei. Cu toate acestea, exista consideratii importante. Contribuabilii forfetari nu pot solicita deducerile disponibile contribuabililor ordinari (cum ar fi contributiile la pensii). Nu pot beneficia de ratele conventiilor elvetiene de dubla impunere mai mici decat ratele lor de retinere la sursa din toate cazurile. Trebuie sa se abtina cu adevarat de la angajarea in Elvetia. Iar referendumurile publice au contestat regimul in mai multe cantoane, creand un oarecare risc politic — desi votul federal din noiembrie 2025, in care 78% au votat impotriva abolirii regimului, a consolidat semnificativ securitatea sa pe termen lung."
+          },
+          "8": {
+            "heading": "Este impozitarea forfetara potrivita pentru dumneavoastra?",
+            "level": "2",
+            "content": "Impozitarea forfetara este cel mai benefica pentru persoanele cu venituri mondiale ridicate care nu au nevoie sa lucreze in Elvetia — de obicei pensionari, investitori, detinatori de avere familiala si persoane care traiesc din venituri pasive din afaceri din afara Elvetiei. Este mai putin potrivita pentru persoanele care planifica sa administreze activ o afacere cu sediul in Elvetia sau pentru cele cu venituri mondiale relativ modeste (unde impozitarea ordinara ar putea rezulta de fapt intr-o factura mai mica). O analiza comparativa detaliata — impozitare ordinara vs. forfetara — ar trebui pregatita ca parte a planificarii pre-imigrare. Oferim aceasta analiza ca parte a serviciului nostru de consultanta pre-imigrare, asigurand ca luati aceasta decizie critica cu informatii complete."
+          }
+        },
+        "imageAlt": "Interior birou fiscal cantonal elvetian cu documente oficiale pe un birou de nuc"
+      },
+      "lex-koller-swiss-real-estate": {
+        "category": "real-estate",
+        "categoryLabel": "Imobiliare",
+        "readTime": "10 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Lex Koller: ce trebuie sa stie cumparatorii straini despre imobiliarele elvetiene",
+        "metaDescription": "Intelegerea legii Lex Koller din Elvetia: restrictii de proprietate straina asupra imobiliarelor, cerinte de autorizare, diferente cantonale si strategii practice pentru cumparatorii non-elvetieni.",
+        "excerpt": "Navigati restrictiile elvetiene privind proprietatea imobiliara straina — de la cerintele Lex Koller la diferentele cantonale, procesele de autorizare si strategii pentru cumparatorii internationali.",
+        "sectionCount": "9",
+        "sections": {
+          "0": {
+            "content": "Piata imobiliara elvetiana este printre cele mai stabile si dezirabile din lume — si printre cele mai reglementate pentru cumparatorii straini. Legea federala privind achizitia de proprietati imobiliare de catre persoane din strainatate, cunoscuta sub numele de Lex Koller (sau istoric Lex Friedrich), guverneaza modul in care resortisantii straini pot achizitiona proprietati rezidentiale in Elvetia. Intelegerea acestei legi este esentiala pentru oricine se relocheaza in Elvetia si planifica sa cumpere o locuinta."
+          },
+          "1": {
+            "heading": "Ce este Lex Koller?",
+            "level": "2",
+            "content": "Lex Koller este o lege federala care restrictioneza achizitia de proprietati imobiliare rezidentiale de catre resortisanti straini care nu sunt rezidenti in Elvetia. Adoptata in 1961 si revizuita de mai multe ori de atunci, scopul legii este de a preveni supra-instrainarea terenului elvetian — in esenta, de a asigura ca imobiliarele elvetiene raman disponibile pentru rezidentii elvetieni, in loc sa fie achizitionate ca proprietati de investitii de catre nerezidenti. Legea se aplica in mod specific proprietatilor rezidentiale. Imobiliarele comerciale si industriale sunt in general exceptate, ceea ce inseamna ca companiile detinute de straini pot achizitiona spatii de birouri, spatii comerciale si proprietati industriale fara restrictiile Lex Koller."
+          },
+          "2": {
+            "heading": "Cine este afectat?",
+            "level": "2",
+            "content": "Lex Koller se aplica persoanelor din strainatate — definite ca resortisanti straini care nu au rezidenta permanenta in Elvetia si companiile controlate de straini. Cetatenii UE/AELS cu un permis de sedere valid (permis B sau C) sunt tratati esential la fel ca cetatenii elvetieni in scopul achizitiei unei resedinte principale. Pot achizitiona proprietati rezidentiale pentru uz propriu fara autorizare. Resortisantii non-UE/non-AELS cu permis B pot achizitiona o resedinta principala fara autorizare in majoritatea cantoanelor, dar se confrunta cu restrictii pentru resedinte secundare si proprietati de investitii. Persoanele fara rezidenta elvetiana (indiferent de nationalitate) necesita autorizare cantonala pentru a achizitiona proprietati rezidentiale, iar aceasta autorizare este supusa unor cote stricte."
+          },
+          "3": {
+            "heading": "Tipuri de proprietati si restrictii",
+            "level": "2",
+            "content": "Restrictiile variaza in functie de tipul proprietatii. Resedinta principala: titularii de permise (B sau C) pot achizitiona o resedinta principala la locul de rezidenta fara autorizare. Proprietatea trebuie sa serveasca drept locuinta efectiva. Resedinte secundare sau de vacanta: acestea sunt supuse celor mai stricte restrictii. Achizitia de catre nerezidenti necesita autorizare cantonala, care este alocata printr-un sistem federal de cote. Proprietatea trebuie sa fie intr-o zona turistica recunoscuta si exista limitari de dimensiune (de obicei maximum 200m2 suprafata locuibila neta). Proprietati de investitii/inchiriere: strainii nerezidenti nu pot in general achizitiona proprietati rezidentiale de investitii. Proprietati comerciale: in general exceptate de la Lex Koller."
+          },
+          "4": {
+            "heading": "Diferente cantonale",
+            "level": "2",
+            "content": "Desi Lex Koller este o lege federala, implementarea implica autoritati cantonale, si exista diferente semnificative in modul in care cantoanele gestioneaza cererile. Zurich este relativ simplu pentru titularii de permise care achizitioneaza o resedinta principala. Zug urmeaza o abordare similara, dar are unele cerinte suplimentare la nivelul comunelor. Schwyz este in general accesibil si, combinat cu preturi mai mici si rate foarte scazute de impozitare, reprezinta o valoare excelenta pentru familiile care se relocheaza. Geneva si Vaud au cea mai mare cerere din partea cumparatorilor straini, ceea ce duce la o analiza mai atenta a cererilor. Valais si Graubunden, ca principale cantoane turistice, au cele mai dezvoltate regimuri de autorizare a achizitiilor de resedinte de vacanta."
+          },
+          "5": {
+            "heading": "Procesul de autorizare",
+            "level": "3",
+            "content": "Cand autorizarea este necesara, procesul implica mai multi pasi. Cumparatorul depune o cerere la autoritatea cantonala responsabila de Lex Koller. Cererea trebuie sa includa contractul de cumparare (de obicei un Vorvertrag preliminar), dovada legaturii cumparatorului cu Elvetia sau cu locatia specifica, dovezi ca achizitia se incadreaza intr-una din categoriile permise si confirmarea ca proprietatea indeplineste cerintele de dimensiune si utilizare. Autoritatea cantonala analizeaza cererea in raport cu cota federala si criteriile cantonale. Timpii de procesare variaza de la 2-6 saptamani in cantoanele mai mici la 2-3 luni in Geneva sau Vaud."
+          },
+          "6": {
+            "heading": "Strategii practice pentru cumparatorii straini",
+            "level": "2",
+            "content": "Pentru persoanele cu averi ridicate care se relocheaza in Elvetia, mai multe strategii practice pot simplifica procesul de achizitie imobiliara. Cea mai directa abordare este obtinerea unui permis B inainte de achizitia proprietatii. Cu un permis de sedere valid, achizitia unei resedinte principale devine esential acelasi proces ca pentru un cetatean elvetian. Pentru familiile care doresc sa cumpere inainte de emiterea permisului, este uneori posibil sa se incheie un contract de cumparare conditionat (Vorvertrag) care este contingent de acordarea permisului. Colaborarea cu un consultant imobiliar specializat care intelege atat Lex Koller, cat si piata locala este esentiala."
+          },
+          "7": {
+            "heading": "Evolutii recente si perspectiva",
+            "level": "2",
+            "content": "Au existat discutii periodice despre reformarea sau abolirea Lex Koller. O propunere federala din 2017 de a relaxa restrictiile privind achizitia de proprietati comerciale a fost abandonata, iar discutiile mai recente s-au axat pe inasprirea, nu relaxarea legii, in special in ceea ce priveste resedintele secundare in zonele turistice. Pentru viitorul previzibil, Lex Koller ramane ferm in vigoare. Familiile care se relocheaza ar trebui sa-si planifice strategia imobiliara in concordanta cu calendarul de imigrare — cele doua sunt intim legate, iar o coordonare adecvata poate economisi timp si complexitate semnificative."
+          },
+          "8": {
+            "heading": "Preturi imobiliare: la ce sa va asteptati",
+            "level": "2",
+            "content": "Preturile imobiliare elvetiene, in special in locatiile prime, sunt printre cele mai ridicate din lume. In centrul Zurich-ului, asteptati-va la 15.000-35.000 CHF per metru patrat pentru proprietati rezidentiale prime. Comunitatile Gold Coast de-a lungul lacului Zurich comanda prime de 20.000-40.000 CHF/m2. In Zug, proprietatile din centrul orasului variaza intre 12.000-25.000 CHF/m2, cu satele inconjuratoare de la 8.000-14.000 CHF/m2. Schwyz ofera preturi mai accesibile la 6.000-14.000 CHF/m2 pe malul lacului si 4.000-8.000 CHF/m2 in satele interioare."
+          }
+        },
+        "imageAlt": "Vila elvetiana de lux pe malul lacului cu fundal alpin la ora de aur"
+      },
+      "best-international-schools-zurich-zug-schwyz": {
+        "category": "lifestyle",
+        "categoryLabel": "Stil de viata",
+        "readTime": "11 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Cele mai bune scoli internationale din Zurich, Zug si Schwyz",
+        "metaDescription": "Ghid cuprinzator al celor mai bune scoli internationale din Zurich, Zug si Schwyz. Comparati curricula IB, americane, britanice si elvetiene, taxe, calendare de admitere si optiuni de internat.",
+        "excerpt": "Comparati cele mai bune scoli internationale din Zurich, Zug si Schwyz — de la programele IB si Matura elvetiana la optiunile de internat, taxe de scolarizare si orientare privind admiterile.",
+        "sectionCount": "10",
+        "sections": {
+          "0": {
+            "content": "Pentru familiile care se relocheaza in Elvetia, alegerea scolii potrivite este adesea cea mai importanta decizie dupa selectia cantonului. Elvetia gazduieste unele dintre cele mai prestigioase scoli internationale din lume, oferind o gama de curricule — Bacalaureat International (IB), americane, britanice si Matura elvetiana — in medii multilingve care pregatesc copiii pentru cariere globale."
+          },
+          "1": {
+            "heading": "Scoli internationale in Zurich",
+            "level": "2",
+            "content": "Zurich ofera cea mai larga selectie de scoli internationale din partea germanofona a Elvetiei, reflectand statutul sau de cel mai mare oras al tarii si centru important de afaceri internationale."
+          },
+          "2": {
+            "heading": "Zurich International School (ZIS)",
+            "level": "3",
+            "content": "Zurich International School este una dintre cele mai consacrate si apreciate scoli internationale din Elvetia. Fondata in 1963, ZIS opereaza pe patru campusuri in zona Zurich. Scoala deserveste aproximativ 1.500 de elevi cu varste intre 3 si 18 ani din peste 55 de nationalitati. ZIS ofera programul IB Diploma, IB Middle Years Programme (MYP) si IB Primary Years Programme (PYP). Taxele anuale de scolarizare variaza de la aproximativ 30.000 CHF pentru educatia timpurie pana la 42.000 CHF pentru scoala superioara."
+          },
+          "3": {
+            "heading": "Inter-Community School Zurich (ICS)",
+            "level": "3",
+            "content": "Inter-Community School Zurich este situata in Zumikon, pe prestigiosul Gold Coast la est de oras. Scoala deserveste aproximativ 900 de elevi cu varste intre 3 si 18 ani. ICS ofera curricula IB la toate nivelurile (PYP, MYP, DP) si este cunoscuta pentru abordarea sa incluziva, orientata spre comunitate. Taxele anuale de scolarizare sunt de aproximativ 28.000-38.000 CHF in functie de nivelul clasei."
+          },
+          "4": {
+            "heading": "Swiss International School (SIS) Zurich",
+            "level": "3",
+            "content": "SIS Zurich ofera un program bilingv unic (engleza-germana) care urmeaza atat curricula elvetiana, cat si internationala. Aceasta este o alegere excelenta pentru familiile care doresc ca copiii lor sa se integreze in societatea elvetiana, mentinand totodata o educatie internationala. Taxele anuale de scolarizare sunt de aproximativ 25.000-35.000 CHF."
+          },
+          "5": {
+            "heading": "Scoli internationale in Zug",
+            "level": "2",
+            "content": "Zug, in ciuda dimensiunii sale relativ mici, ofera optiuni excelente de educatie internationala — sustinute de comunitatea sa internationala mare (peste 35% rezidenti straini) si de statutul sau de Crypto Valley."
+          },
+          "6": {
+            "heading": "International School of Zug and Luzern (ISZL)",
+            "level": "3",
+            "content": "ISZL este scoala internationala premiera din centrul Elvetiei si se claseaza constant printre cele mai bune scoli IB la nivel global. Cu campusuri in Hunenberg (Zug) si Riverside (Lucerna), ISZL deserveste aproximativ 1.400 de elevi cu varste intre 3 si 18 ani din peste 60 de nationalitati. Scoala ofera continuumul complet IB (PYP, MYP, DP) si este renumita pentru excelenta sa academica. Taxele anuale variaza de la aproximativ 28.000 CHF pentru educatia timpurie la 40.000 CHF pentru Programul Diploma."
+          },
+          "7": {
+            "heading": "Institut Montana Zugerberg",
+            "level": "3",
+            "content": "Institut Montana este o institutie unica situata la o altitudine de 1.000 de metri pe muntele Zugerberg, cu vedere spre Zug. Fondata in 1926, combina traditiile unui internat elvetian cu o curricula internationala moderna. Scoala ofera atat Diploma IB, cat si Matura elvetiana, oferind elevilor o alegere reala a parcursurilor educationale. Taxele anuale pentru elevii externi sunt de aproximativ 35.000-45.000 CHF, iar taxele de internat sunt de aproximativ 65.000-75.000 CHF."
+          },
+          "8": {
+            "heading": "Comparatia curriculelor: IB vs. Matura elvetiana vs. Americana/Britanica",
+            "level": "2",
+            "content": "Diploma de Bacalaureat International (IB) este cea mai raspandita curricula internationala in Elvetia. Este recunoscuta de universitati din intreaga lume si ofera o educatie larga si riguroasa. IB este ideal pentru familiile care ar putea sa se relocheaze din nou, deoarece este portabil la nivel global. Matura elvetiana este calificarea domestica de admitere la universitate. Ofera o educatie exceptional de riguroasa, cu accent puternic pe matematica, stiinte si limbi. Absolventii cu Matura elvetiana au admitere garantata la universitatile elvetiene (inclusiv ETH Zurich)."
+          },
+          "9": {
+            "heading": "Calendarul admiterilor si sfaturi practice",
+            "level": "2",
+            "content": "Admiterile la scolile internationale din Elvetia urmeaza un calendar structurat. Majoritatea scolilor deschid cererile cu 12-18 luni inainte de inceperea anului academic. Consideratii cheie pentru familiile care se relocheaza includ: aplicati devreme, deoarece scolile de top au liste de asteptare; solicitati o vizita la scoala inainte de a va angaja; luati in considerare naveta; evaluati suportul de integrare al scolii daca copiii dumneavoastra nu sunt vorbitori nativi de engleza; si verificati daca scoala ofera programe de limba materna."
+          }
+        },
+        "imageAlt": "Campusul unei scoli internationale elvetiene cu Alpii in fundal"
+      },
+      "relocating-to-switzerland-timeline": {
+        "category": "relocation",
+        "categoryLabel": "Relocare",
+        "readTime": "9 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Cat dureaza relocarea in Elvetia? Un calendar realist",
+        "metaDescription": "Calendar realist pentru relocarea in Elvetia: scenarii de 3, 6, 9 si 12 luni. Ce factori accelereaza sau intarzie relocarea dumneavoastra in Elvetia.",
+        "excerpt": "De la relocari rapide de 3 luni la programe cuprinzatoare de 12 luni — intelegeti ce influenteaza calendarul si cum sa va planificati mutarea in Elvetia.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Una dintre primele intrebari pe care le pune fiecare potential client este: Cat va dura? Raspunsul onest este ca o relocare elvetiana bine executata dureaza de obicei 6-12 luni de la prima conversatie serioasa pana la stabilirea familiei, inscrierea copiilor la scoala si rezolvarea tuturor chestiunilor administrative."
+          },
+          "1": {
+            "heading": "Calendarul de 3 luni: parcurs rapid",
+            "level": "2",
+            "content": "O relocare de 3 luni este realizabila, dar necesita mai multe conditii favorabile: persoana este cetatean UE/AELS, planifica sa inchirieze in loc sa cumpere proprietate, are o situatie financiara relativ simpla si plasamentul scolar fie nu este necesar, fie este pentru un singur copil. Luna 1 acopera selectia cantonului, consultanta fiscala initiala, identificarea proprietatilor de inchiriat si initierea cererii de permis B. Luna 2 implica semnarea unui contract de inchiriere, procesarea si aprobarea permisului B, configurarea asigurarii de sanatate si inscrierea la scoala. Luna 3 este mutarea fizica."
+          },
+          "2": {
+            "heading": "Calendarul de 6 luni: standard",
+            "level": "2",
+            "content": "Sase luni este cel mai comun calendar pentru o relocare bine pregatita. Acest calendar se potriveste cetatenilor non-UE, familiilor cu copii de varsta scolara, persoanelor care urmaresc impozitarea forfetara si celor care doresc sa cumpere in loc sa inchirieze resedinta principala. Lunile 1-2 acopera planificarea strategica. Lunile 3-4 implica cereri formale. Lunile 5-6 sunt executia."
+          },
+          "3": {
+            "heading": "Calendarul de 9 luni: complex",
+            "level": "2",
+            "content": "Noua luni este tipic pentru relocarile care implica restructurarea activelor pre-imigrare, family office-uri care necesita structuri corporative elvetiene, mai multi membri ai familiei cu cerinte separate de permis, achizitii de proprietati de lux sau familii provenind din jurisdictii non-standard."
+          },
+          "4": {
+            "heading": "Calendarul de 12 luni: program complet",
+            "level": "2",
+            "content": "Un calendar de 12 luni este adecvat pentru cele mai cuprinzatoare relocari — de obicei familii multi-generationale care stabilesc o prezenta completa incluzand un family office, mai multe proprietati si structuri complexe de guvernanta."
+          },
+          "5": {
+            "heading": "Factori care accelereaza relocarea",
+            "level": "2",
+            "content": "Mai multi factori pot accelera calendarul. Cetatenia UE/AELS reduce procesarea permisului de la luni la saptamani. Alegerea de a inchiria initial in loc de a cumpara elimina calendarul de 3-5 luni al achizitiei imobiliare. Detinerea unor documente curate si bine organizate privind sursa averii accelereaza atat integrarea bancara, cat si negocierile cu autoritatile fiscale. Selectarea unui canton cu procese administrative eficiente (Zug si Schwyz sunt notabil eficiente) ajuta."
+          },
+          "6": {
+            "heading": "Factori care intarzie relocarea",
+            "level": "2",
+            "content": "Sursele comune de intarziere includ documentarea complexa a sursei averii (in special pentru avere crypto sau avere din jurisdictii cu transparenta limitata), restructurarea activelor multi-jurisdictionala care necesita coordonare intre mai multe sisteme juridice, negocieri contestate de impozitare forfetara, liste de asteptare la scoli, cerinte de autorizare Lex Koller si schimbari politice sau de reglementare."
+          },
+          "7": {
+            "heading": "Recomandarea noastra",
+            "level": "2",
+            "content": "Pentru majoritatea familiilor, recomandam sa incepeti procesul cu cel putin 9 luni inainte de data de sosire dorita. Aceasta ofera timp suficient pentru o planificare adecvata, acomodeaza intarzierile neasteptate si asigura cel mai bun rezultat pentru plasamentul scolar si selectia proprietatii."
+          }
+        },
+        "imageAlt": "Cutii de mutare intr-un apartament elegant elvetian cu vedere la lac"
+      },
+      "opening-swiss-private-bank-account": {
+        "category": "banking",
+        "categoryLabel": "Banking",
+        "readTime": "10 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Deschiderea unui cont bancar privat elvetian: cerinte si proces",
+        "metaDescription": "Tot ce trebuie sa stiti despre deschiderea unui cont bancar privat elvetian: cerinte AML/KYC, documentatia sursei averii si ce asteapta bancile de la clientii internationali.",
+        "excerpt": "Ghidul definitiv al private banking-ului elvetian — de la cerintele AML/KYC si documentatia sursei averii la gestionarea averii crypto si alegerea partenerului bancar potrivit.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Sectorul de private banking elvetian administreaza aproximativ 7,9 trilioane CHF in active — circa 25% din totalul averii private transfrontaliere globale. Deschiderea unei relatii de private banking in Elvetia este un pas important in orice relocare, oferind acces la administrare a averii de clasa mondiala, servicii de custodie si stabilitatea sistemului financiar elvetian."
+          },
+          "1": {
+            "heading": "Peisajul bancar elvetian",
+            "level": "2",
+            "content": "Elvetia gazduieste aproximativ 243 de banci autorizate, variind de la gigantii globali (UBS si Credit Suisse) la zeci de banci private boutique si banci cantonale. Marile banci private elvetiene — Julius Bar, Lombard Odier, Pictet, Vontobel si EFG International — ofera private banking cu servicii complete. Bancile native crypto — SEBA Bank si Sygnum Bank — sunt banci elvetiene complet reglementate care ofera servicii integrate de active traditionale si digitale."
+          },
+          "2": {
+            "heading": "Cerinte AML/KYC",
+            "level": "2",
+            "content": "Bancile elvetiene sunt reglementate de FINMA si trebuie sa respecte cerinte cuprinzatoare de Anti-Spalare a Banilor (AML) si Cunoaste-ti Clientul (KYC). Cerintele de baza includ verificarea identitatii, documentatia beneficiarului real, documentatia sursei averii (SOW) si documentatia sursei fondurilor (SOF)."
+          },
+          "3": {
+            "heading": "Documentatia sursei averii: ce asteapta bancile",
+            "level": "2",
+            "content": "Documentatia sursei averii este punctul in care majoritatea clientilor intalnesc cea mai mare scrutinare. Bancile elvetiene sunt minutioase si nu vor continua pana nu sunt pe deplin satisfacute. Pentru proprietarii de afaceri si antreprenori, bancile vor astepta situatii financiare ale companiei, dovada proprietatii, inregistrari ale distribuirii dividendelor si documentatia de vanzare/exit. Pentru investitori, bancile vor dori sa vada extrasele conturilor de investitii. Pentru avere mostenita, banca va solicita documentatie succesorala."
+          },
+          "4": {
+            "heading": "Ce asteapta bancile de la clientii din Orientul Mijlociu",
+            "level": "3",
+            "content": "Bancile elvetiene au experienta vasta cu clienti din regiunea GCC si Orientul Mijlociu largit. Pentru avere derivata din functii guvernamentale sau conexiuni cu familia regala, bancile asteapta documentatie oficiala de numire si dovezi care separa averea personala de activele statului. Pentru avere de afaceri din GCC, sunt necesare licente comerciale, situatii financiare auditate intocmite conform standardelor IFRS si dovezi ale istoricului operational al afacerii."
+          },
+          "5": {
+            "heading": "Documentatia averii crypto",
+            "level": "3",
+            "content": "Pentru clientii cu avere semnificativa in criptomonede, Elvetia este una dintre cele mai prietenoase jurisdictii bancare din lume. Bancile asteapta un lant complet de custodie pentru detinerile crypto — de la achizitia initiala prin la detinerile curente. Adresele de portofel ar trebui sa fie documentabile cu analize blockchain care arata fluxul activelor."
+          },
+          "6": {
+            "heading": "Procesul de deschidere a contului",
+            "level": "2",
+            "content": "Procesul tipic de deschidere a unui cont de private banking urmeaza un parcurs structurat. De la primul contact la un cont operational, procesul dureaza de obicei 4-8 saptamani pentru cazuri simple si 8-16 saptamani pentru situatii complexe care necesita due diligence extins."
+          },
+          "7": {
+            "heading": "Alegerea bancii potrivite",
+            "level": "2",
+            "content": "Selectarea bancii private potrivite este o decizie semnificativa care ar trebui sa ia in considerare mai multi factori: dimensiunea minima a contului, expertiza bancii in clasele dumneavoastra specifice de active, capabilitatile lingvistice, structura comisioanelor si capabilitatile digitale. Multi clienti mentin relatii cu doua banci. Oferim introduceri la manageri de relatii de la toate bancile private majore elvetiene."
+          }
+        },
+        "imageAlt": "Lobby interior de banca privata elvetiana cu pardoseli de marmura si signalistica de alama"
+      },
+      "swiss-residency-permits-guide": {
+        "category": "immigration",
+        "categoryLabel": "Imigrare",
+        "readTime": "11 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Permise de rezidenta elvetiene: Permis B, Permis C si calea catre cetatenie",
+        "metaDescription": "Ghid cuprinzator al permiselor de rezidenta elvetiene: cerinte pentru permisul B si C, calendare, reintregirea familiei, diferente cantonale si calea catre cetatenia elvetiana.",
+        "excerpt": "Tot ce trebuie sa stiti despre permisele de rezidenta elvetiene — cerintele pentru permisul B si C, calendarele de procesare, reintregirea familiei si calea catre cetatenia elvetiana.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Intelegerea sistemului elvetian de permise de rezidenta este fundamentala pentru orice plan de relocare. Tipul de permis pe care il detineti afecteaza totul — de la tratamentul fiscal si drepturile de proprietate la stabilitatea familiei si optiunile pe termen lung."
+          },
+          "1": {
+            "heading": "Prezentare generala a sistemului de permise elvetian",
+            "level": "2",
+            "content": "Elvetia opereaza un sistem de permise pe niveluri care distinge intre cetatenii UE/AELS si cetatenii statelor terte. Principalele tipuri de permise relevante pentru persoanele care se relocheaza sunt: permisul B — un permis de rezidenta reinnoibil si punctul standard de intrare; permisul C — un permis de stabilire permanenta care ofera drepturi si stabilitate mai mari; permisul L — un permis de rezidenta de scurta durata; si permisul G — un permis de navetist transfrontalier."
+          },
+          "2": {
+            "heading": "Permisul B: poarta dumneavoastra catre Elvetia",
+            "level": "2",
+            "content": "Permisul B este permisul standard de rezidenta pentru resortisantii straini care locuiesc in Elvetia. Cu toate acestea, procesul de aplicare si conditiile difera semnificativ in functie de nationalitate."
+          },
+          "3": {
+            "heading": "Cetateni UE/AELS",
+            "level": "3",
+            "content": "Pentru cetatenii UE/AELS, obtinerea unui permis B este relativ simpla in baza acordurilor bilaterale dintre Elvetia si UE. Cetatenii UE/AELS trebuie sa demonstreze fie un contract de munca cu un angajator elvetian, activitate independenta sau resurse financiare suficiente. Permisul este acordat pe 5 ani si este reinnoibil. Procesarea cererii dureaza de obicei 2-4 saptamani."
+          },
+          "4": {
+            "heading": "Cetateni non-UE/non-AELS",
+            "level": "3",
+            "content": "Pentru cetatenii non-UE/non-AELS, procesul permisului B este mai complex. Cetatenii non-UE trebuie in general sa demonstreze ca prezenta lor in Elvetia serveste interesului economic al tarii. Autoritatile cantonale au o putere discretionara semnificativa in acordarea permiselor B cetatenilor non-UE. Timpii de procesare variaza de la 4-12 saptamani."
+          },
+          "5": {
+            "heading": "Permisul C: stabilirea permanenta",
+            "level": "2",
+            "content": "Permisul C ofera drepturi de rezidenta permanenta in Elvetia. Este cea mai sigura forma de rezidenta — este pe durata nedeterminata, ofera protectie mai mare impotriva revocarii si acorda titularului aproape toate drepturile unui cetatean elvetian (cu exceptia dreptului de vot si a pasaportului). Pentru cetatenii UE/AELS, permisul C este disponibil dupa 5 ani de rezidenta continua cu permis B. Pentru cetatenii non-UE, perioada standard de asteptare este de 10 ani."
+          },
+          "6": {
+            "heading": "Includerea familiei",
+            "level": "2",
+            "content": "Reintregirea familiei este un drept conform legii elvetiene, sub rezerva conditiilor. Un titular de permis B poate aduce sotul/sotia si copiii sub 18 ani in Elvetia. Este important sa planificati includerea familiei de la inceput — includerea tuturor membrilor familiei in cererea initiala este semnificativ mai simpla decat aplicarea pentru reintregirea familiei ulterior."
+          },
+          "7": {
+            "heading": "Calea catre cetatenia elvetiana",
+            "level": "2",
+            "content": "Cetatenia elvetiana poate fi obtinuta prin naturalizare dupa indeplinirea cerintelor de rezidenta si promovarea unei serii de evaluari. Cerintele includ: 10 ani de rezidenta in Elvetia, cel putin 3 ani in acelasi canton si 2 ani in aceeasi municipalitate, competenta lingvistica (B1 vorbit si A2 scris intr-o limba nationala), integrarea in comunitatea elvetiana si un cazier judiciar curat. Cetatenia elvetiana confera unul dintre cele mai puternice pasapoarte din lume."
+          }
+        },
+        "imageAlt": "Pasaport elvetian si documente de permis B pe un birou de lemn inchis la culoare"
+      },
+      "why-wealthy-families-leaving-uae-for-switzerland": {
+        "category": "relocation",
+        "categoryLabel": "Relocare",
+        "readTime": "9 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "De ce familiile bogate pleaca din EAU in Elvetia",
+        "metaDescription": "De ce familiile cu averi ridicate se relocheaza din Dubai si Abu Dhabi in Elvetia: factori geopolitici, securitate, educatie, sanatate si stabilitate pe termen lung.",
+        "excerpt": "Examinarea tendintei crescande a familiilor bogate de a se reloca din EAU in Elvetia — de la riscuri geopolitice si gandire generationala la educatie, sanatate si stil de viata.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "EAU — si Dubai in special — a fost unul dintre cele mai de succes magneti de avere din ultimele doua decenii. Impozit zero pe venitul personal, infrastructura de clasa mondiala si un mediu de reglementare prietenos cu afacerile au atras antreprenori si persoane cu averi ridicate din intreaga lume. Cu toate acestea, un numar tot mai mare dintre aceste familii iau decizia de a se reloca in Elvetia."
+          },
+          "1": {
+            "heading": "Factorul geopolitic",
+            "level": "2",
+            "content": "Orientul Mijlociu, in ciuda stabilitatii relative a EAU, ramane una dintre cele mai volatile regiuni geopolitice din lume. Proximitatea EAU fata de Iran, tensiunile continue din Yemen si dinamicile mai largi de putere regionala creeaza un mediu de risc latent. Elvetia, prin contrast, a mentinut neutralitatea politica timp de peste 500 de ani si se afla in centrul geografic si politic al Europei."
+          },
+          "2": {
+            "heading": "Securitate si siguranta personala",
+            "level": "2",
+            "content": "Elvetia se claseaza constant printre cele mai sigure 3 tari din lume. Criminalitatea violenta este practic inexistenta, iar infrastructura de securitate personala este de clasa mondiala. Pentru familiile cu copii, Elvetia ofera un nivel de siguranta zilnica care se traduce intr-o calitate a vietii fundamental diferita — copiii merg pe jos la scoala, se joaca in parcurile publice si se deplaseaza liber."
+          },
+          "3": {
+            "heading": "Educatie: jocul pe termen lung",
+            "level": "2",
+            "content": "Educatia este adesea punctul de cotitura care declansseaza o decizie de relocare. Elvetia gazduieste ETH Zurich (clasat constant in top 3 global), Universitatea din Zurich, EPFL si o retea de peste 50 de scoli internationale cu traditii profund stabilite. Sistemul educational elvetian combina rigoarea academica cu imersiunea multilingva, educatia in aer liber si un nivel de siguranta si stabilitate fara egal."
+          },
+          "4": {
+            "heading": "Sanatate si calitatea vietii",
+            "level": "2",
+            "content": "Sistemul de sanatate elvetian este clasat constant printre cele mai bune din lume. Asigurare universala obligatorie, spitale de top mondial si densitatea medicilor de 4,3 la 1.000 de locuitori asigura ca ingrijirea medicala nu este niciodata o preocupare. Experienta cotidiana traita in Elvetia reflecta o societate care a optimizat pentru calitatea vietii de-a lungul generatiilor."
+          },
+          "5": {
+            "heading": "Comparatia fiscala: nu este atat de simpla cum pare",
+            "level": "2",
+            "content": "Impozitarea forfetara elvetiana permite persoanelor eligibile sa fie impozitate pe cheltuielile de trai, nu pe venitul mondial. EAU a introdus un impozit corporativ de 9% in 2023 si TVA din 2018, erodand avantajul impozit zero. Competitia cantonala din Elvetia inseamna ca cantoane precum Zug si Schwyz ofera unele dintre cele mai scazute rate de impozitare din lumea dezvoltata. Pentru familiile cu avere de protejat peste generatii, Elvetia concureaza adesea mai eficient decat sugereaza ratele nominale de impozitare."
+          },
+          "6": {
+            "heading": "Perspectiva generationala",
+            "level": "2",
+            "content": "Poate cel mai convingator factor al tranzitiei EAU-Elvetia este gandirea generationala. EAU are cu greu 50 de ani ca natiune. Elvetia a fost o confederatie stabila si prospera timp de peste 700 de ani. Institutiile, cadrele juridice si traditiile democratice ale sale au supravietuit secole de schimbari. Pentru familiile care se gandesc unde vor trai nepotii lor, parcursul de secole al Elvetiei ofera un nivel de incredere pe care nicio jurisdictie fondata in anii 1970 nu il poate egala."
+          },
+          "7": {
+            "heading": "Realizarea tranzitiei",
+            "level": "2",
+            "content": "Relocarea EAU-Elvetia este una dintre cele mai bine batute cai in migratia internationala a averii. Bancile, consilierii fiscali si specialistii in relocare elvetieni au experienta profunda in deservirea familiilor originare din Golf. Profesionisti vorbitori de araba sunt disponibili la majoritatea institutiilor elvetiene majore. Tranzitia practica implica coordonarea iesirii din rezidenta din EAU cu intrarea in rezidenta elvetiana. Aceasta coordonare este punctul in care consultanta profesionala este cea mai valoroasa."
+          }
+        },
+        "imageAlt": "Linia orizontala a Dubaiului trecand in Alpii elvetieni intr-o compozitie cinematica split"
+      },
+      "setting-up-family-office-switzerland": {
+        "category": "wealth-management",
+        "categoryLabel": "Administrarea averii",
+        "readTime": "12 min de citit",
+        "date": "1 aprilie 2026",
+        "title": "Infiintarea unui family office in Elvetia: structura, guvernanta si banking",
+        "metaDescription": "Ghid complet pentru infiintarea unui family office in Elvetia: structuri SFO vs MFO, tipuri de companii elvetiene, cadre de guvernanta, relatii bancare si comparatia Zug vs Zurich.",
+        "excerpt": "Tot ce aveti nevoie pentru a infiinta un family office elvetian — de la alegerea structurilor SFO vs MFO si tipurilor de companii elvetiene la cadre de guvernanta, banking si decizia Zug vs Zurich.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Elvetia este una dintre jurisdictiile de varf din lume pentru family office-uri, gazduind un estimat 3.500-4.000 de structuri de family office care administreaza colectiv trilioane de franci elvetieni in active. Combinatia de stabilitate politica, infrastructura bancara, certitudine juridica si un bazin profund de profesionisti calificati face din Elvetia alegerea naturala pentru familiile care doresc sa-si profesionalizeze administrarea averii."
+          },
+          "1": {
+            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "level": "2",
+            "content": "Prima decizie structurala este daca sa infiintati un single family office (SFO) care deserveste exclusiv o singura familie, sau sa va alaturati unui multi-family office (MFO) care deserveste mai multe familii. Un SFO ofera control complet asupra strategiei de investitii, guvernantei si confidentialitatii. Necesita de obicei active administrate de 100 de milioane CHF sau mai mult. Un MFO ofera servicii profesionale de administrare a averii pentru mai multe familii, fiind potrivit pentru familii cu 20-100 de milioane CHF in active."
+          },
+          "2": {
+            "heading": "Structuri de companii elvetiene pentru family office-uri",
+            "level": "2",
+            "content": "Cele mai comune structuri juridice pentru family office-urile elvetiene sunt AG (Aktiengesellschaft / societate pe actiuni) si GmbH (Gesellschaft mit beschrankter Haftung / societate cu raspundere limitata). AG este structura preferata pentru family office-urile mai mari, necesitand un capital social minim de 100.000 CHF. GmbH necesita un capital minim de 20.000 CHF si este mai simplu de administrat."
+          },
+          "3": {
+            "heading": "Cerinte de guvernanta",
+            "level": "2",
+            "content": "Guvernanta family office-ului elvetian ar trebui sa abordeze mai multe domenii cheie: compozitia consiliului, un comitet de investitii separat de consiliu, o carta sau constitutie a familiei, cadre de conformitate si raportare si audit profesional."
+          },
+          "4": {
+            "heading": "Relatii bancare",
+            "level": "2",
+            "content": "Un family office elvetian mentine de obicei relatii cu mai multe banci. Banca custode detine si protejeaza activele financiare ale familiei. Banca de executie gestioneaza executia tranzactiilor, schimbul valutar si creditarea. Conturile de administrare a lichiditatilor gestioneaza cheltuielile operationale. Pentru family office-urile cu alocari in active digitale, bancile native crypto (SEBA Bank, Sygnum Bank) ofera infrastructura reglementata."
+          },
+          "5": {
+            "heading": "Zug vs. Zurich: alegerea locatiei",
+            "level": "2",
+            "content": "Cele doua locatii de top pentru family office-urile elvetiene sunt Zurich si Zug, fiecare cu avantaje distincte. Zurich ofera cel mai profund bazin de talent profesional si conectivitate internationala excelenta. Zug ofera rate de impozitare semnificativ mai mici, un ecosistem prosper de family office-uri si ecosistemul Crypto Valley. Pentru multe family office-uri, solutia optima este un domiciliu corporativ in Zug cu membri ai echipei in Zurich."
+          },
+          "6": {
+            "heading": "Considerente de reglementare",
+            "level": "2",
+            "content": "Family office-urile elvetiene beneficiaza de un mediu de reglementare relativ usor, dar trebuie sa navigheze mai multe cerinte. Conformitatea AML este necesara daca biroul administreaza active financiare. Un SFO pur care administreaza doar activele proprii ale familiei este in general exceptat de la autorizarea FINMA. Structurarea adecvata de la inceput evita complicatii reglementare costisitoare ulterior."
+          },
+          "7": {
+            "heading": "Calendar si costuri",
+            "level": "2",
+            "content": "Infiintarea unui family office elvetian de la zero dureaza de obicei 3-6 luni. Costurile de configurare variaza de obicei intre 50.000-150.000 CHF in functie de complexitate. Costurile anuale continue pentru un SFO de dimensiune medie (3-5 angajati) variaza de obicei intre 1-2 milioane CHF. Oferim consultanta familiilor privind structura optima si administram intregul proces de configurare."
+          }
+        },
+        "imageAlt": "Sala de consiliu a unui family office elvetian cu vedere la Alpi prin ferestre de sticla"
+      }
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Cat dureaza relocarea in Elvetia?",
+        "answer": "O relocare tipica in Elvetia dureaza 6-12 luni de la consultatia initiala pana la stabilirea completa. Relocarile rapide pentru cetatenii UE/AELS pot fi finalizate in doar 3 luni, in timp ce relocarile complexe multi-generationale cu family office-uri pot dura 12-18 luni."
+      },
+      {
+        "question": "Ce este impozitarea forfetara (forfait fiscal) in Elvetia?",
+        "answer": "Impozitarea forfetara este un regim fiscal special pentru resortisanti straini eligibili care nu lucreaza in Elvetia. In loc sa fiti impozitat pe venitul mondial, baza fiscala este determinata de cheltuielile de trai in Elvetia. Sumele minime variaza de la 250.000 CHF la peste 600.000 CHF in functie de canton."
+      },
+      {
+        "question": "Pot strainii sa cumpere proprietati in Elvetia?",
+        "answer": "Da, dar sub rezerva legii Lex Koller. Resortisantii straini cu un permis de rezidenta elvetian valid (permis B sau C) pot achizitiona o resedinta principala. Resedintele secundare si proprietatile de investitii se confrunta cu restrictii mai stricte si pot necesita autorizare cantonala."
+      },
+      {
+        "question": "Care canton elvetian este cel mai bun pentru relocare?",
+        "answer": "Cel mai bun canton depinde de prioritatile dumneavoastra. Zug ofera cele mai scazute rate de impozitare si o comunitate internationala prospera. Zurich ofera cel mai cosmopolit stil de viata si cea mai buna conectivitate. Schwyz combina impozite foarte scazute cu intimitate alpina. Oferim consultanta privind selectia cantonului pe baza nevoilor dumneavoastra specifice fiscale, de stil de viata si familiale."
+      },
+      {
+        "question": "Cum deschid un cont bancar privat elvetian?",
+        "answer": "Deschiderea unui cont bancar privat elvetian necesita documentatie cuprinzatoare AML/KYC inclusiv verificarea identitatii, documentatia sursei averii si dovada sursei fondurilor. Procesul dureaza de obicei 4-8 saptamani pentru cazuri simple. Facilitam introduceri si pregatirea documentatiei."
+      },
+      {
+        "question": "Ce permise de rezidenta sunt disponibile in Elvetia?",
+        "answer": "Principalele permise sunt: permisul B (rezidenta, reinnoibil, punct standard de intrare), permisul C (stabilire permanenta, disponibil dupa 5-10 ani), permisul L (scurta durata) si permisul G (navetist transfrontalier). Pentru persoanele cu averi ridicate, permisul B legat de impozitarea forfetara este cea mai comuna cale."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "Utilizam cookie-uri pentru a imbunatati experienta dumneavoastra. Cookie-urile esentiale sunt necesare pentru functionarea site-ului. Cookie-urile de analiza ne ajuta sa imbunatatim serviciul nostru.",
+    "acceptAll": "Accepta toate",
+    "essentialOnly": "Doar esentiale"
+  }
+}
