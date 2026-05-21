@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://movetoswitzerland.vercel.app/sitemap.xml',
+    sitemap: 'https://move-to-switzerland.com/sitemap.xml',
   };
 }

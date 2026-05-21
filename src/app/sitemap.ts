@@ -3,7 +3,7 @@ import { locales } from '@/i18n/config';
 import { serviceSlugs } from '@/lib/services';
 import { insightSlugs } from '@/content/insights';
 
-const baseUrl = 'https://move-to-switzerland.vercel.app';
+const baseUrl = 'https://move-to-switzerland.com';
 const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/insights', '/about', '/contact', '/privacy', '/imprint'];
 const servicePages = Object.values(serviceSlugs).map((slug) => `/services/${slug}`);
 const insightPages = insightSlugs.map((slug) => `/insights/${slug}`);

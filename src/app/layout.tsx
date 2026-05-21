@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://move-to-switzerland.com'),
   title: 'Move to Switzerland — Premium Relocation Advisory',
   description: 'A specialist relocation and wealth advisory service for high-net-worth individuals and families relocating to Switzerland.',
 };

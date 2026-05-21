@@ -3,8 +3,8 @@
 Premium multilingual relocation and concierge advisory site for high-net-worth and ultra-high-net-worth individuals and families moving to Switzerland.
 
 ## Live product
-- Live site: https://move-to-switzerland.vercel.app/en
-- Status: deployed on Vercel, final custom domain still pending
+- Live site: https://move-to-switzerland.com/en
+- Status: live on Vercel with custom domain configured
 - Brand owners: Adrian Burgi and Robin Roy Krigslund-Hansen
 
 ## Purpose

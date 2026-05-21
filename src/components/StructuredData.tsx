@@ -1,4 +1,4 @@
-const siteUrl = 'https://move-to-switzerland.vercel.app';
+const siteUrl = 'https://move-to-switzerland.com';
 
 export function OrganizationSchema() {
   const schema = {

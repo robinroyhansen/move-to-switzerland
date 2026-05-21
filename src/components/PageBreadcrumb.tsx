@@ -4,7 +4,7 @@ import { usePathname } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
 import { BreadcrumbSchema } from './StructuredData';
 
-const siteUrl = 'https://move-to-switzerland.vercel.app';
+const siteUrl = 'https://move-to-switzerland.com';
 
 const pageNames: Record<string, string> = {
   '': 'Home',

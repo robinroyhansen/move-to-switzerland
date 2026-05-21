@@ -104,7 +104,7 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
             '@type': 'Article',
             headline: t(`articles.${slug}.title`),
             description: t(`articles.${slug}.metaDescription`),
-            image: `https://move-to-switzerland.vercel.app${meta.image}`,
+            image: `https://move-to-switzerland.com${meta.image}`,
             datePublished: meta.date,
             dateModified: meta.date,
             author: {
@@ -114,11 +114,11 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
             publisher: {
               '@type': 'Organization',
               name: 'Move to Switzerland',
-              url: 'https://move-to-switzerland.vercel.app',
+              url: 'https://move-to-switzerland.com',
             },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': `https://move-to-switzerland.vercel.app/en/insights/${slug}`,
+              '@id': `https://move-to-switzerland.com/en/insights/${slug}`,
             },
           }),
         }}
@@ -136,13 +136,13 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://move-to-switzerland.vercel.app',
+                item: 'https://move-to-switzerland.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
                 name: 'Insights',
-                item: 'https://move-to-switzerland.vercel.app/en/insights',
+                item: 'https://move-to-switzerland.com/en/insights',
               },
               {
                 '@type': 'ListItem',
