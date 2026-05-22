@@ -5,13 +5,32 @@ import { Link, usePathname } from '@/i18n/routing';
 import { localeNames, type Locale } from '@/i18n/config';
 import { useState, useEffect } from 'react';
 
-export function Header() {
+type HeaderProps = {
+  site?: 'move' | 'swissarrival';
+};
+
+const swissArrivalNavCopy: Record<string, { guide: string; contact: string; cta: string; languages: string }> = {
+  en: { guide: 'Guide', contact: 'Contact', cta: 'Launch list', languages: 'Languages' },
+  da: { guide: 'Guide', contact: 'Kontakt', cta: 'Skriv dig på listen', languages: 'Sprog' },
+  de: { guide: 'Guide', contact: 'Kontakt', cta: 'Launch-Liste', languages: 'Sprachen' },
+  fr: { guide: 'Guide', contact: 'Contact', cta: 'Liste de lancement', languages: 'Langues' },
+};
+
+export function Header({ site = 'move' }: HeaderProps) {
   const t = useTranslations('nav');
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
+  const brandInitial = isSwissArrival ? 'S' : 'M';
+  const brandHref = isSwissArrival ? '/swiss-arrival' : '/';
+  const languageOptions = isSwissArrival
+    ? (['en', 'da', 'de', 'fr'] as Locale[])
+    : (Object.keys(localeNames) as Locale[]);
+  const swissCopy = swissArrivalNavCopy[locale] ?? swissArrivalNavCopy.en;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -25,16 +44,21 @@ export function Header() {
     setLangOpen(false);
   }, [pathname]);
 
-  const navItems = [
-    { href: '/' as const, label: t('home') },
-    { href: '/services' as const, label: t('services') },
-    { href: '/why-switzerland' as const, label: t('whySwitzerland') },
-    { href: '/cantons' as const, label: t('cantons') },
-    { href: '/case-studies' as const, label: t('caseStudies') },
-    { href: '/insights' as const, label: t('insights') },
-    { href: '/about' as const, label: t('about') },
-    { href: '/contact' as const, label: t('contact') },
-  ];
+  const navItems = isSwissArrival
+    ? [
+        { href: '/swiss-arrival' as const, label: swissCopy.guide },
+        { href: '/contact' as const, label: swissCopy.contact },
+      ]
+    : [
+        { href: '/' as const, label: t('home') },
+        { href: '/services' as const, label: t('services') },
+        { href: '/why-switzerland' as const, label: t('whySwitzerland') },
+        { href: '/cantons' as const, label: t('cantons') },
+        { href: '/case-studies' as const, label: t('caseStudies') },
+        { href: '/insights' as const, label: t('insights') },
+        { href: '/about' as const, label: t('about') },
+        { href: '/contact' as const, label: t('contact') },
+      ];
 
   return (
     <>
@@ -48,12 +72,12 @@ export function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18 sm:h-22">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
+            <Link href={brandHref} className="flex items-center gap-3 group">
               <div className="w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center group-hover:border-gold transition-colors">
-                <span className="text-gold font-serif text-sm font-bold">M</span>
+                <span className="text-gold font-serif text-sm font-bold">{brandInitial}</span>
               </div>
               <span className="text-gold font-serif text-lg sm:text-xl font-semibold tracking-wide">
-                Move to Switzerland
+                {brandName}
               </span>
             </Link>
 
@@ -93,7 +117,7 @@ export function Header() {
                   <>
                     <div className="fixed inset-0 z-10" onClick={() => setLangOpen(false)} />
                     <div className="absolute end-0 top-full mt-3 bg-navy-light/95 header-glass border border-gold/15 rounded-xl shadow-2xl shadow-navy/40 py-2 min-w-[180px] z-20">
-                      {(Object.entries(localeNames) as [Locale, string][]).map(([code, name]) => (
+                      {languageOptions.map((code) => (
                         <Link
                           key={code}
                           href={pathname}
@@ -105,7 +129,7 @@ export function Header() {
                               : 'text-text-light/60 hover:text-gold hover:bg-gold/5'
                           }`}
                         >
-                          {name}
+                          {localeNames[code]}
                         </Link>
                       ))}
                     </div>
@@ -117,7 +141,7 @@ export function Header() {
                 href="/contact"
                 className="bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
               >
-                {t('beginJourney')}
+                {isSwissArrival ? swissCopy.cta : t('beginJourney')}
               </Link>
             </nav>
 
@@ -191,16 +215,16 @@ export function Header() {
                   onClick={() => setMobileOpen(false)}
                   className="block bg-gold text-navy text-center py-3.5 text-sm font-semibold tracking-wider uppercase rounded-sm"
                 >
-                  {t('beginJourney')}
+                  {isSwissArrival ? swissCopy.cta : t('beginJourney')}
                 </Link>
               </div>
             </nav>
 
             {/* Languages */}
             <div className="px-8 pb-8 pt-4">
-              <p className="text-xs text-text-light/30 uppercase tracking-[0.2em] mb-4">Languages</p>
+              <p className="text-xs text-text-light/30 uppercase tracking-[0.2em] mb-4">{isSwissArrival ? swissCopy.languages : 'Languages'}</p>
               <div className="flex flex-wrap gap-2">
-                {(Object.entries(localeNames) as [Locale, string][]).map(([code, name]) => (
+                {languageOptions.map((code) => (
                   <Link
                     key={code}
                     href={pathname}
@@ -212,7 +236,7 @@ export function Header() {
                         : 'border-text-light/15 text-text-light/40 hover:border-gold/40 hover:text-gold/70'
                     }`}
                   >
-                    {name}
+                    {localeNames[code]}
                   </Link>
                 ))}
               </div>

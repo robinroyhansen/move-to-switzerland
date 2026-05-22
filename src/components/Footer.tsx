@@ -4,10 +4,67 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { localeNames, type Locale } from '@/i18n/config';
 
-export function Footer() {
+type FooterProps = {
+  site?: 'move' | 'swissarrival';
+};
+
+const swissArrivalFooterCopy: Record<string, { tagline: string; guide: string; contact: string; rights: string; company: string }> = {
+  en: {
+    tagline: 'A practical digital guide for expats preparing a move to Switzerland.',
+    guide: 'Guide',
+    contact: 'Contact',
+    rights: 'All rights reserved.',
+    company: 'A WorkWorkWork AG project',
+  },
+  da: {
+    tagline: 'En praktisk digital guide til expats, der forbereder en flytning til Schweiz.',
+    guide: 'Guide',
+    contact: 'Kontakt',
+    rights: 'Alle rettigheder forbeholdes.',
+    company: 'Et WorkWorkWork AG-projekt',
+  },
+  de: {
+    tagline: 'Ein praktischer digitaler Guide für Expats, die einen Umzug in die Schweiz vorbereiten.',
+    guide: 'Guide',
+    contact: 'Kontakt',
+    rights: 'Alle Rechte vorbehalten.',
+    company: 'Ein Projekt der WorkWorkWork AG',
+  },
+  fr: {
+    tagline: 'Un guide digital pratique pour les expatriés qui préparent leur installation en Suisse.',
+    guide: 'Guide',
+    contact: 'Contact',
+    rights: 'Tous droits réservés.',
+    company: 'Un projet WorkWorkWork AG',
+  },
+};
+
+export function Footer({ site = 'move' }: FooterProps) {
   const t = useTranslations();
   const locale = useLocale() as Locale;
   const pathname = usePathname();
+  const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
+  const brandInitial = isSwissArrival ? 'S' : 'M';
+  const languageOptions = isSwissArrival
+    ? (['en', 'da', 'de', 'fr'] as Locale[])
+    : (Object.keys(localeNames) as Locale[]);
+  const swissCopy = swissArrivalFooterCopy[locale] ?? swissArrivalFooterCopy.en;
+  const navigationItems = isSwissArrival
+    ? [
+        { href: '/swiss-arrival' as const, label: swissCopy.guide },
+        { href: '/contact' as const, label: swissCopy.contact },
+      ]
+    : [
+        { href: '/' as const, label: t('nav.home') },
+        { href: '/services' as const, label: t('nav.services') },
+        { href: '/why-switzerland' as const, label: t('nav.whySwitzerland') },
+        { href: '/cantons' as const, label: t('nav.cantons') },
+        { href: '/case-studies' as const, label: t('nav.caseStudies') },
+        { href: '/insights' as const, label: t('nav.insights') },
+        { href: '/about' as const, label: t('nav.about') },
+        { href: '/contact' as const, label: t('nav.contact') },
+      ];
 
   return (
     <footer className="bg-navy-dark text-text-light/60">
@@ -20,14 +77,14 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-5">
               <div className="w-7 h-7 rounded-full border border-gold/30 flex items-center justify-center">
-                <span className="text-gold font-serif text-xs font-bold">M</span>
+                <span className="text-gold font-serif text-xs font-bold">{brandInitial}</span>
               </div>
               <h3 className="text-gold font-serif text-xl font-semibold tracking-wide">
-                Move to Switzerland
+                {brandName}
               </h3>
             </div>
             <p className="text-sm leading-relaxed text-text-light/35">
-              {t('footer.tagline')}
+              {isSwissArrival ? swissCopy.tagline : t('footer.tagline')}
             </p>
           </div>
 
@@ -37,16 +94,7 @@ export function Footer() {
               {t('footer.navigation')}
             </h4>
             <ul className="space-y-3.5">
-              {[
-                { href: '/' as const, label: t('nav.home') },
-                { href: '/services' as const, label: t('nav.services') },
-                { href: '/why-switzerland' as const, label: t('nav.whySwitzerland') },
-                { href: '/cantons' as const, label: t('nav.cantons') },
-                { href: '/case-studies' as const, label: t('nav.caseStudies') },
-                { href: '/insights' as const, label: t('nav.insights') },
-                { href: '/about' as const, label: t('nav.about') },
-                { href: '/contact' as const, label: t('nav.contact') },
-              ].map((item) => (
+              {navigationItems.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
@@ -90,7 +138,7 @@ export function Footer() {
               {t('footer.languages')}
             </h4>
             <div className="flex flex-wrap gap-2">
-              {(Object.entries(localeNames) as [Locale, string][]).map(([code, name]) => (
+              {languageOptions.map((code) => (
                 <Link
                   key={code}
                   href={pathname}
@@ -101,39 +149,43 @@ export function Footer() {
                       : 'border-text-light/10 text-text-light/30 hover:border-gold/40 hover:text-gold/60'
                   }`}
                 >
-                  {name}
+                  {localeNames[code]}
                 </Link>
               ))}
             </div>
           </div>
         </div>
 
-        {/* Trust strip */}
-        <div className="mt-16 mb-12 text-center">
-          <p className="text-xs text-text-light/25 tracking-[0.2em] uppercase">
-            Swiss-registered entity
-            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-            Zurich
-            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-            Zug
-            <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-            Schwyz
-          </p>
-        </div>
+        {!isSwissArrival && (
+          <>
+            {/* Trust strip */}
+            <div className="mt-16 mb-12 text-center">
+              <p className="text-xs text-text-light/25 tracking-[0.2em] uppercase">
+                Swiss-registered entity
+                <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+                Zurich
+                <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+                Zug
+                <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
+                Schwyz
+              </p>
+            </div>
 
-        {/* Regulatory disclaimer */}
-        <div className="border-t border-text-light/5 pt-8 mb-8">
-          <p className="text-[11px] leading-relaxed text-text-light/20 max-w-4xl mx-auto text-center">
-            {t('footer.disclaimer')}
-          </p>
-        </div>
+            {/* Regulatory disclaimer */}
+            <div className="border-t border-text-light/5 pt-8 mb-8">
+              <p className="text-[11px] leading-relaxed text-text-light/20 max-w-4xl mx-auto text-center">
+                {t('footer.disclaimer')}
+              </p>
+            </div>
+          </>
+        )}
 
         {/* Bottom bar */}
         <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-text-light/20">
-            &copy; {new Date().getFullYear()} Move to Switzerland. {t('footer.rights')}
+            &copy; {new Date().getFullYear()} {brandName}. {isSwissArrival ? swissCopy.rights : t('footer.rights')}
           </p>
-          <p className="text-xs text-text-light/20">{t('footer.company')}</p>
+          <p className="text-xs text-text-light/20">{isSwissArrival ? swissCopy.company : t('footer.company')}</p>
         </div>
       </div>
     </footer>

@@ -13,6 +13,7 @@ const pageNames: Record<string, string> = {
   '/cantons': 'Cantons',
   '/case-studies': 'Case Studies',
   '/insights': 'Insights',
+  '/swiss-arrival': 'Swiss Arrival',
   '/about': 'About',
   '/contact': 'Contact',
   '/privacy': 'Privacy Policy',

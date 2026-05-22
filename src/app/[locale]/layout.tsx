@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -39,6 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
+  const site = (await headers()).get('x-openclaw-site') === 'swissarrival' ? 'swissarrival' : 'move';
 
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
@@ -50,17 +52,17 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={rtl ? 'rtl' : 'ltr'}>
       <head>
-        <OrganizationSchema />
-        <LocalBusinessSchema />
+        {site === 'move' && <OrganizationSchema />}
+        {site === 'move' && <LocalBusinessSchema />}
       </head>
       <body className="font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>
-          <Header />
+          <Header site={site} />
           <PageBreadcrumb />
           <main className="flex-1">{children}</main>
-          <Footer />
-          <WhatsAppButton />
-          <StickyCtaBar />
+          <Footer site={site} />
+          {site === 'move' && <WhatsAppButton />}
+          <StickyCtaBar site={site} />
           <CookieConsent />
         </NextIntlClientProvider>
       </body>
