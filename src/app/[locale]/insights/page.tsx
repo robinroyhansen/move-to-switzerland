@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { ConsultationCta } from '@/components/ConsultationCta';
 import { InsightsContent } from './InsightsContent';
 
 type Props = {
@@ -23,5 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function InsightsPage() {
-  return <InsightsContent />;
+  return (
+    <>
+      <InsightsContent />
+      <ConsultationCta />
+    </>
+  );
 }

@@ -1,7 +1,11 @@
-import { useTranslations } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/routing';
+import { getLegalCopy } from '@/lib/legal-copy';
 
-export default function PrivacyPage() {
-  const t = useTranslations();
+export default async function PrivacyPage() {
+  const locale = await getLocale();
+  const t = await getTranslations();
+  const copy = getLegalCopy(locale);
 
   return (
     <>
@@ -20,35 +24,22 @@ export default function PrivacyPage() {
             <p className="text-charcoal/60 leading-relaxed mb-10 font-light">{t('privacy.content')}</p>
             
             <div className="space-y-10 text-sm text-charcoal/50 leading-relaxed">
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">1. Data Controller</h2>
-                <p className="font-light">WorkWorkWork AG, Switzerland, is the data controller responsible for the processing of your personal data through this website.</p>
-              </div>
-              
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">2. Data We Collect</h2>
-                <p className="font-light">We collect personal data that you voluntarily provide through our confidential intake form, including your name, email address, phone number, country of residence, nationality or citizenship, relocation goals, expected timeline, service interests, preferred contact method, referral source, and message content.</p>
-              </div>
-              
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">3. Purpose of Processing</h2>
-                <p className="font-light">Your data is processed solely for the purpose of assessing your inquiry, routing it to the appropriate private response workflow, and providing our advisory services. We do not use your data for marketing purposes without your explicit consent.</p>
-              </div>
-              
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">4. Data Retention</h2>
-                <p className="font-light">We retain your personal data only for as long as necessary to fulfill the purpose for which it was collected, or as required by applicable law.</p>
-              </div>
-              
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">5. Your Rights</h2>
-                <p className="font-light">Under the Swiss Federal Act on Data Protection (nDSG) and GDPR, you have the right to access, rectify, delete, or restrict the processing of your personal data. To exercise these rights, please contact us at info@movetoswitzerland.com.</p>
-              </div>
-              
-              <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">6. Contact</h2>
-                <p className="font-light">For any privacy-related inquiries, please contact: info@movetoswitzerland.com</p>
-              </div>
+              {copy.privacySections.map((section, index) => (
+                <div key={section.title}>
+                  <h2 className="font-serif text-lg text-navy font-semibold mb-3">
+                    {section.title}
+                  </h2>
+                  <p className="font-light">{section.text}</p>
+                  {index === copy.privacySections.length - 1 && (
+                    <Link
+                      href="/contact"
+                      className="mt-4 inline-flex rounded-full border border-gold/35 px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.14em] text-gold transition-colors hover:bg-gold hover:text-navy"
+                    >
+                      {t('nav.contact')}
+                    </Link>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>

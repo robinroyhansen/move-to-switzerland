@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState } from 'react';
 import { ScrollReveal } from '@/components/ScrollReveal';
-import { ConsultationCta } from '@/components/ConsultationCta';
 
 const cantonKeys = ['zurich', 'zug', 'schwyz'] as const;
 type CantonKey = (typeof cantonKeys)[number];
@@ -202,9 +201,6 @@ export function CantonsContent() {
         </div>
       </section>
 
-      {/* CTA */}
-      <div className="gold-divider" />
-      <ConsultationCta />
     </>
   );
 }

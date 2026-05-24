@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { AnimatedStat } from '@/components/AnimatedStat';
-import { ConsultationCta } from '@/components/ConsultationCta';
 
 interface SectionProps {
   sectionKey: string;
@@ -138,9 +137,6 @@ export function WhySwitzerlandContent() {
         </div>
       ))}
 
-      {/* CTA */}
-      <div className="gold-divider" />
-      <ConsultationCta />
     </>
   );
 }

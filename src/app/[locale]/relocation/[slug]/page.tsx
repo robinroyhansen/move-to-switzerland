@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
-import { FAQSchema } from '@/components/StructuredData';
+import { FAQSchema, ServiceSchema } from '@/components/StructuredData';
 import { locales } from '@/i18n/config';
 import {
   getConversionCopy,
@@ -55,7 +55,7 @@ export default async function RelocationPathPage({ params }: Props) {
 
   if (!path) notFound();
 
-  const copy = getConversionCopy(locale);
+const copy = getConversionCopy(locale);
   const related = getRelocationPaths(locale).filter((item) => item.slug !== path.slug).slice(0, 3);
   const faqItems = [
     {
@@ -75,6 +75,12 @@ export default async function RelocationPathPage({ params }: Props) {
   return (
     <>
       <FAQSchema faqs={faqItems} />
+      <ServiceSchema
+        name={path.title}
+        description={path.metaDescription}
+        url={'https://move-to-switzerland.com/' + locale + '/relocation/' + path.slug}
+        areaServed={['Switzerland', ...path.likelyCantons]}
+      />
 
       <section className="bg-navy pb-20 pt-36">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

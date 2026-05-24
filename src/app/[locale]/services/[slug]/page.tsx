@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import { ConsultationCta } from '@/components/ConsultationCta';
+import { ServiceSchema } from '@/components/StructuredData';
 import {
   serviceKeys,
   serviceSlugs,
@@ -64,14 +65,14 @@ async function ServiceDetailContent({
 }: {
   paramsPromise: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await paramsPromise;
+  const { locale, slug } = await paramsPromise;
   const key = serviceSlugToKey[slug];
   if (!key) notFound();
 
-  return <ServicePageInner serviceKey={key} />;
+  return <ServicePageInner serviceKey={key} locale={locale} />;
 }
 
-function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
+function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; locale: string }) {
   const t = useTranslations();
   const currentIndex = serviceKeys.indexOf(serviceKey);
 
@@ -80,6 +81,13 @@ function ServicePageInner({ serviceKey }: { serviceKey: ServiceKey }) {
 
   return (
     <>
+      <ServiceSchema
+        name={t(`services.items.${serviceKey}.title`)}
+        description={t(`services.items.${serviceKey}.description`)}
+        url={'https://move-to-switzerland.com/' + locale + '/services/' + serviceSlugs[serviceKey]}
+        serviceType={t(`services.items.${serviceKey}.title`)}
+      />
+
       {/* Header */}
       <section className="pt-36 pb-20 bg-navy">
         <div className="max-w-4xl mx-auto px-4 text-center">

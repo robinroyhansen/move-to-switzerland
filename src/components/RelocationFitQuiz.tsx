@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { useLocale } from 'next-intl';
 import { ConversionLink } from '@/components/ConversionLink';
 import { trackConversion } from '@/lib/analytics';
-import { getConversionCopy, type QuizResultKey } from '@/lib/conversion-copy';
+import type { ConversionCopy, QuizResultKey } from '@/lib/conversion-copy';
 
 type QuestionKey = 'profile' | 'priority' | 'origin' | 'timeline';
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
@@ -53,10 +53,12 @@ function mapPrimaryGoal(answers: Answers) {
   return 'family-relocation';
 }
 
-export function RelocationFitQuiz() {
+type RelocationFitQuizProps = {
+  quizCopy: ConversionCopy['quiz'];
+};
+
+export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
   const locale = useLocale();
-  const copy = getConversionCopy(locale);
-  const quizCopy = copy.quiz;
   const [answers, setAnswers] = useState<Answers>({
     profile: 'entrepreneur',
     priority: 'tax',

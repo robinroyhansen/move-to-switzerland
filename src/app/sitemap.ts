@@ -7,7 +7,7 @@ import { insightSlugs } from '@/content/insights';
 
 const baseUrl = 'https://move-to-switzerland.com';
 const swissArrivalBaseUrl = 'https://swissarrival.com';
-const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/insights', '/about', '/contact', '/privacy', '/imprint'];
+const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/insights', '/relocation', '/about', '/contact', '/privacy', '/imprint'];
 const swissArrivalLocales = ['en', 'da', 'de', 'fr'] as const;
 const swissArrivalHosts = new Set(['swissarrival.com', 'www.swissarrival.com']);
 const servicePages = Object.values(serviceSlugs).map((slug) => `/services/${slug}`);

@@ -8,7 +8,6 @@ export function OrganizationSchema() {
     description:
       'A specialist relocation and wealth advisory service for high-net-worth individuals and families relocating to Switzerland.',
     url: siteUrl,
-    email: 'info@movetoswitzerland.com',
     logo: `${siteUrl}/images/logo.png`,
     parentOrganization: {
       '@type': 'Organization',
@@ -107,7 +106,6 @@ export function LocalBusinessSchema() {
     description:
       'Premium relocation and wealth advisory for UHNW individuals moving to Switzerland.',
     url: siteUrl,
-    email: 'info@movetoswitzerland.com',
     address: {
       '@type': 'PostalAddress',
       addressLocality: office.addressLocality,
@@ -187,6 +185,77 @@ export function BreadcrumbSchema({
       position: index + 1,
       name: item.name,
       ...(item.url ? { item: item.url } : {}),
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function ServiceSchema({
+  name,
+  description,
+  url,
+  serviceType = 'Swiss relocation advisory',
+  areaServed = ['Switzerland'],
+}: {
+  name: string;
+  description: string;
+  url: string;
+  serviceType?: string;
+  areaServed?: string[];
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name,
+    description,
+    serviceType,
+    url,
+    provider: {
+      '@type': 'Organization',
+      name: 'Move to Switzerland',
+      url: siteUrl,
+    },
+    areaServed: areaServed.map((name) => ({
+      '@type': name === 'Switzerland' ? 'Country' : 'Place',
+      name,
+    })),
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'Private clients, entrepreneurs, families, and family offices',
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function ItemListSchema({
+  name,
+  items,
+}: {
+  name: string;
+  items: Array<{ name: string; url: string; description?: string }>;
+}) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+      ...(item.description ? { description: item.description } : {}),
     })),
   };
 

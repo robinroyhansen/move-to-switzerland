@@ -1,7 +1,11 @@
-import { useTranslations } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/routing';
+import { getLegalCopy } from '@/lib/legal-copy';
 
-export default function ImprintPage() {
-  const t = useTranslations();
+export default async function ImprintPage() {
+  const locale = await getLocale();
+  const t = await getTranslations();
+  const copy = getLegalCopy(locale);
 
   return (
     <>
@@ -32,20 +36,28 @@ export default function ImprintPage() {
                 <h2 className="font-serif text-lg text-navy font-semibold mb-3">
                   {t('imprint.registration')}
                 </h2>
-                <p className="text-sm font-light">Registered in the Commercial Register of the Canton of Schwyz, Switzerland.</p>
+                <p className="text-sm font-light">{copy.imprint.registrationText}</p>
               </div>
 
               <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">Contact</h2>
-                <div className="space-y-1 text-sm font-light">
-                  <p>Email: info@movetoswitzerland.com</p>
-                </div>
+                <h2 className="font-serif text-lg text-navy font-semibold mb-3">
+                  {copy.imprint.contactTitle}
+                </h2>
+                <p className="text-sm font-light">{copy.imprint.contactText}</p>
+                <Link
+                  href="/contact"
+                  className="mt-4 inline-flex rounded-full border border-gold/35 px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.14em] text-gold transition-colors hover:bg-gold hover:text-navy"
+                >
+                  {t('nav.contact')}
+                </Link>
               </div>
 
               <div>
-                <h2 className="font-serif text-lg text-navy font-semibold mb-3">Disclaimer</h2>
+                <h2 className="font-serif text-lg text-navy font-semibold mb-3">
+                  {copy.imprint.disclaimerTitle}
+                </h2>
                 <p className="text-sm leading-relaxed font-light">
-                  The content of this website has been prepared with the greatest possible care. However, we cannot guarantee the accuracy, completeness, or timeliness of the content. The use of the content of this website is at the user&apos;s own risk.
+                  {copy.imprint.disclaimerText}
                 </p>
               </div>
             </div>

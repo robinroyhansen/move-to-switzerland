@@ -367,18 +367,18 @@
       "bestFor": "Best for"
     },
     "zurich": {
-      "name": "Zurich",
-      "tagline": "Global city, cultural capital",
+      "name": "Zürich",
+      "tagline": "Global by, kulturell hovedstad",
       "tax": {
-        "corporate": "Approx. 19.7% effective corporate rate",
-        "personal": "Up to 39.8% top marginal rate (combined)",
-        "lumpSum": "CHF 400,000+ minimum taxable base"
+        "corporate": "Ca. 19,7 % effektiv selskapsskatt",
+        "personal": "Opptil 39,8 % høyeste marginalskatt (samlet)",
+        "lumpSum": "CHF 400 000+ minimum skattegrunnlag"
       },
       "lifestyle": {
-        "character": "Cosmopolitan, culturally rich, urban",
-        "international": "Large international community (30%+ foreign residents)",
-        "culture": "Opera, art galleries, Michelin-starred dining, lakefront living",
-        "transport": "International airport, excellent rail connections"
+        "character": "Kosmopolitisk, kulturelt rikt og urbant",
+        "international": "Stort internasjonalt miljø (30 % + utenlandske innbyggere)",
+        "culture": "Opera, kunstgallerier, Michelin-restauranter og liv ved sjøen",
+        "transport": "Internasjonal flyplass og svært gode togforbindelser"
       },
       "schools": {
         "list": [
@@ -388,29 +388,29 @@
           "Lyceum Alpinum Zuoz (nearby)"
         ]
       },
-      "bankingInfo": "Home to UBS, Credit Suisse (now UBS), Julius Baer, and dozens of boutique private banks. Full-service crypto banking available (SEBA, Sygnum).",
+      "bankingInfo": "Hjemsted for UBS, Credit Suisse (nå UBS), Julius Bär og dusinvis av nisjebanker innen private banking. Fullservice kryptobank er tilgjengelig gjennom SEBA og Sygnum.",
       "realEstate": {
-        "range": "CHF 15,000–35,000/m² (prime city), CHF 8,000–15,000/m² (Lake Zurich suburbs)",
-        "lexKoller": "Lex Koller applies: non-Swiss residents require authorization for residential property. B-permit holders may purchase primary residence."
+        "range": "CHF 15 000–35 000/m² (prime city), CHF 8 000–15 000/m² (forsteder ved Zürichsjøen)",
+        "lexKoller": "Lex Koller gjelder: personer uten sveitsisk bosted trenger godkjenning for boligeiendom. B-tillatelsesinnehavere kan kjøpe primærbolig."
       },
       "bestFor": {
-        "profile": "The urban professional, digital entrepreneur, or family seeking world-class culture and connectivity",
-        "ideal": "Ideal for: crypto entrepreneurs, corporate executives, families valuing urban lifestyle"
+        "profile": "Den urbane profesjonelle, digitale gründeren eller familien som ønsker kultur og forbindelser i verdensklasse",
+        "ideal": "Ideelt for: kryptogründere, ledere og familier som verdsetter en urban livsstil"
       }
     },
     "zug": {
       "name": "Zug",
-      "tagline": "Tax haven, crypto valley",
+      "tagline": "Skattegunstig base og Crypto Valley",
       "tax": {
-        "corporate": "Approx. 11.9% effective corporate rate",
-        "personal": "Up to 22.4% top marginal rate (combined)",
-        "lumpSum": "CHF 250,000+ minimum taxable base"
+        "corporate": "Ca. 11,9 % effektiv selskapsskatt",
+        "personal": "Opptil 22,4 % høyeste marginalskatt (samlet)",
+        "lumpSum": "CHF 250 000+ minimum skattegrunnlag"
       },
       "lifestyle": {
-        "character": "Compact, wealthy, lakeside, discreet",
-        "international": "Highly international (35%+ foreign residents, strong expat community)",
-        "culture": "Elegant lakeside town, close to mountains and Zurich",
-        "transport": "30 minutes to Zurich Airport, excellent rail"
+        "character": "Kompakt, velstående, diskret og ved sjøen",
+        "international": "Svært internasjonalt (35 % + utenlandske innbyggere, sterkt expat-miljø)",
+        "culture": "Elegant by ved sjøen, nær fjellene og Zürich",
+        "transport": "30 minutter til Zürich lufthavn, svært gode togforbindelser"
       },
       "schools": {
         "list": [
@@ -419,29 +419,29 @@
           "Swiss International School"
         ]
       },
-      "bankingInfo": "Crypto Valley ecosystem with blockchain-native banks. Traditional private banking through local branches of major Swiss banks. Family office concentration second only to Geneva.",
+      "bankingInfo": "Crypto Valley-økosystem med blockchain-native banker. Tradisjonell private banking via lokale filialer av store sveitsiske banker. Konsentrasjon av family offices kun overgått av Genève.",
       "realEstate": {
-        "range": "CHF 12,000–25,000/m² (Zug town), CHF 8,000–14,000/m² (surrounding villages)",
-        "lexKoller": "Lex Koller applies. B-permit holders can purchase primary residence. Zug has additional local requirements for some communes."
+        "range": "CHF 12 000–25 000/m² (Zug by), CHF 8 000–14 000/m² (omliggende landsbyer)",
+        "lexKoller": "Lex Koller gjelder. B-tillatelsesinnehavere kan kjøpe primærbolig. Zug har tilleggskrav i enkelte kommuner."
       },
       "bestFor": {
-        "profile": "The tax-optimising entrepreneur, family office, or crypto/fintech founder seeking the lowest possible tax burden",
-        "ideal": "Ideal for: family offices, forfait fiscal applicants, tech entrepreneurs"
+        "profile": "Den skatteoptimaliserende gründeren, family office eller krypto/fintech-gründeren som søker lavest mulig skattebelastning",
+        "ideal": "Ideelt for: family offices, forfait fiscal-søkere og teknologigründere"
       }
     },
     "schwyz": {
       "name": "Schwyz",
-      "tagline": "Discreet wealth, Alpine serenity",
+      "tagline": "Diskret formue og alpin ro",
       "tax": {
-        "corporate": "Approx. 14.1% effective corporate rate",
-        "personal": "Up to 21.3% top marginal rate (combined)",
-        "lumpSum": "CHF 200,000+ minimum taxable base"
+        "corporate": "Ca. 14,1 % effektiv selskapsskatt",
+        "personal": "Opptil 21,3 % høyeste marginalskatt (samlet)",
+        "lumpSum": "CHF 200 000+ minimum skattegrunnlag"
       },
       "lifestyle": {
-        "character": "Rural, traditional, supremely private",
-        "international": "Smaller international community, very discreet",
-        "culture": "Alpine landscapes, lake views, traditional Swiss charm",
-        "transport": "45 minutes to Zurich Airport, scenic commute"
+        "character": "Landlig, tradisjonelt og svært privat",
+        "international": "Mindre internasjonalt miljø, svært diskret",
+        "culture": "Alpelandskap, innsjøutsikt og tradisjonell sveitsisk sjarm",
+        "transport": "45 minutter til Zürich lufthavn, naturskjønn pendling"
       },
       "schools": {
         "list": [
@@ -450,14 +450,14 @@
           "Stiftsschule Einsiedeln"
         ]
       },
-      "bankingInfo": "Private banking through Schwyz-based cantonal bank and branches of major banks. Less institutional density than Zurich or Zug, but ideal for those valuing absolute privacy.",
+      "bankingInfo": "Private banking gjennom kantonalbanken i Schwyz og filialer av større banker. Mindre institusjonell tetthet enn Zürich eller Zug, men ideelt for dem som verdsetter maksimal diskresjon.",
       "realEstate": {
-        "range": "CHF 6,000–14,000/m² (lakeside), CHF 4,000–8,000/m² (inland villages)",
-        "lexKoller": "Lex Koller applies. Generally more accessible pricing than Zurich or Zug with comparable or lower tax rates."
+        "range": "CHF 6 000–14 000/m² (ved sjøen), CHF 4 000–8 000/m² (innlandsbyer)",
+        "lexKoller": "Lex Koller gjelder. Generelt mer tilgjengelige priser enn Zürich eller Zug, med sammenlignbare eller lavere skattesatser."
       },
       "bestFor": {
-        "profile": "The privacy-focused family or individual seeking the lowest taxes with an Alpine lifestyle and complete discretion",
-        "ideal": "Ideal for: multi-generational families, privacy-focused individuals, retirees"
+        "profile": "Familien eller personen som prioriterer diskresjon, lave skatter, alpin livsstil og full fortrolighet",
+        "ideal": "Ideelt for: flergenerasjonsfamilier, diskresjonsorienterte personer og pensjonister"
       }
     }
   },
@@ -1043,28 +1043,28 @@
   "faq": {
     "items": [
       {
-        "question": "How long does it take to relocate to Switzerland?",
-        "answer": "A typical Swiss relocation takes 6-12 months from initial consultation to full settlement. Fast-track relocations for EU/EFTA nationals can be completed in as little as 3 months, while complex multi-generational relocations with family offices may take 12-18 months."
+        "question": "Hvor lang tid tar det å flytte til Sveits?",
+        "answer": "En typisk sveitsisk relokasjon tar 6-12 måneder fra første konsultasjon til full bosetting. Hurtigløp for EU/EFTA-borgere kan gjennomføres på så lite som 3 måneder, mens komplekse flergenerasjonsrelokasjoner med family office kan ta 12-18 måneder."
       },
       {
-        "question": "What is lump-sum taxation (forfait fiscal) in Switzerland?",
-        "answer": "Lump-sum taxation is a special tax regime for qualifying foreign nationals who do not work in Switzerland. Instead of being taxed on worldwide income, your tax base is determined by your living expenses in Switzerland. Minimum amounts range from CHF 250,000 to CHF 600,000+ depending on the canton."
+        "question": "Hva er pauschalbeskatning (forfait fiscal) i Sveits?",
+        "answer": "Pauschalbeskatning er en særskilt skatteordning for kvalifiserte utenlandske statsborgere som ikke arbeider i Sveits. I stedet for å bli beskattet av global inntekt fastsettes skattegrunnlaget etter levekostnadene i Sveits. Minimumsbeløp varierer fra CHF 250 000 til CHF 600 000+ avhengig av kanton."
       },
       {
-        "question": "Can foreigners buy property in Switzerland?",
-        "answer": "Yes, but subject to the Lex Koller law. Foreign nationals with a valid Swiss residence permit (B or C permit) can purchase a primary residence. Secondary and investment properties face stricter restrictions and may require cantonal authorization."
+        "question": "Kan utlendinger kjøpe eiendom i Sveits?",
+        "answer": "Ja, men underlagt Lex Koller. Utenlandske statsborgere med gyldig sveitsisk oppholdstillatelse (B- eller C-tillatelse) kan kjøpe primærbolig. Sekundærboliger og investeringseiendommer har strengere restriksjoner og kan kreve kantonal godkjenning."
       },
       {
-        "question": "Which Swiss canton is best for relocation?",
-        "answer": "The best canton depends on your priorities. Zug offers the lowest tax rates and a thriving international community. Zurich provides the most cosmopolitan lifestyle and best connectivity. Schwyz combines very low taxes with Alpine privacy. We advise on canton selection based on your specific tax, lifestyle, and family needs."
+        "question": "Hvilken sveitsisk kanton passer best for relokasjon?",
+        "answer": "Den beste kantonen avhenger av prioritetene dine. Zug tilbyr lave skattesatser og et sterkt internasjonalt miljø. Zürich gir mest kosmopolitisk livsstil og best forbindelse. Schwyz kombinerer lave skatter med alpin diskresjon. Vi rådgir om kantonvalg basert på skatt, livsstil og familiens behov."
       },
       {
-        "question": "How do I open a Swiss private bank account?",
-        "answer": "Opening a Swiss private bank account requires comprehensive AML/KYC documentation including identity verification, source of wealth documentation, and source of funds evidence. The process typically takes 4-8 weeks for straightforward cases. We facilitate introductions and documentation preparation."
+        "question": "Hvordan åpner jeg en sveitsisk private banking-konto?",
+        "answer": "Å åpne en sveitsisk private banking-konto krever omfattende AML/KYC-dokumentasjon, inkludert identitetsbekreftelse, dokumentasjon av formuens opprinnelse og midlenes kilde. Prosessen tar normalt 4-8 uker for ukompliserte saker. Vi tilrettelegger introduksjoner og dokumentasjonsforberedelser."
       },
       {
-        "question": "What residency permits are available in Switzerland?",
-        "answer": "The main permits are: B-permit (residence, renewable, standard entry point), C-permit (permanent settlement, available after 5-10 years), L-permit (short-term), and G-permit (cross-border). For high-net-worth individuals, the B-permit linked to lump-sum taxation is the most common pathway."
+        "question": "Hvilke oppholdstillatelser finnes i Sveits?",
+        "answer": "De viktigste tillatelsene er B-tillatelse (opphold, fornybar, vanlig inngang), C-tillatelse (permanent opphold, tilgjengelig etter 5-10 år), L-tillatelse (korttid) og G-tillatelse (grensependler). For formuende personer er B-tillatelse knyttet til pauschalbeskatning ofte den vanligste veien."
       }
     ]
   },

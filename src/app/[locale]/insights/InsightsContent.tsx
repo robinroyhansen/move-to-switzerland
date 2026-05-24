@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { insightSlugs, insights } from '@/content/insights';
 import { ScrollReveal } from '@/components/ScrollReveal';
-import { ConsultationCta } from '@/components/ConsultationCta';
 
 const categoryColors: Record<string, string> = {
   taxation: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
@@ -96,8 +95,6 @@ export function InsightsContent() {
         </div>
       </section>
 
-      {/* CTA */}
-      <ConsultationCta />
     </>
   );
 }

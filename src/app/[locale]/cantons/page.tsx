@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { ConsultationCta } from '@/components/ConsultationCta';
 import { CantonsContent } from './CantonsContent';
 
 type Props = {
@@ -23,5 +24,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function CantonsPage() {
-  return <CantonsContent />;
+  return (
+    <>
+      <CantonsContent />
+      <div className="gold-divider" />
+      <ConsultationCta />
+    </>
+  );
 }

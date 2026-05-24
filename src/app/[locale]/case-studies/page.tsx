@@ -1,5 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
+import { ConsultationCta } from '@/components/ConsultationCta';
+import { getConversionCopy } from '@/lib/conversion-copy';
 import { CaseStudiesContent } from './CaseStudiesContent';
 
 type Props = {
@@ -22,6 +24,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function CaseStudiesPage() {
-  return <CaseStudiesContent />;
+export default async function CaseStudiesPage({ params }: Props) {
+  const { locale } = await params;
+  const copy = getConversionCopy(locale);
+
+  return (
+    <>
+      <CaseStudiesContent caseSnapshots={copy.caseSnapshots} />
+      <div className="gold-divider" />
+      <ConsultationCta />
+    </>
+  );
 }

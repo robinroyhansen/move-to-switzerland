@@ -1,6 +1,4 @@
-'use client';
-
-import { useLocale } from 'next-intl';
+import { getLocale } from 'next-intl/server';
 import { ScrollReveal } from './ScrollReveal';
 import Image from 'next/image';
 import { ConversionLink } from '@/components/ConversionLink';
@@ -10,8 +8,8 @@ interface ConsultationCtaProps {
   variant?: 'navy' | 'cream';
 }
 
-export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
-  const locale = useLocale();
+export async function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
+  const locale = await getLocale();
   const copy = getConversionCopy(locale);
 
   if (variant === 'cream') {

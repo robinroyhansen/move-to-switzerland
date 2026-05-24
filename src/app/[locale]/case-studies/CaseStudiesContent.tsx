@@ -1,10 +1,9 @@
 'use client';
 
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { ScrollReveal } from '@/components/ScrollReveal';
-import { ConsultationCta } from '@/components/ConsultationCta';
-import { getConversionCopy } from '@/lib/conversion-copy';
+import type { ConversionCopy } from '@/lib/conversion-copy';
 
 const caseKeys = ['techFounder', 'bankingFamily', 'digitalNomad', 'gulfFamilyOffice'] as const;
 type CaseKey = (typeof caseKeys)[number];
@@ -16,10 +15,12 @@ const caseIcons: Record<CaseKey, string> = {
   gulfFamilyOffice: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z',
 };
 
-export function CaseStudiesContent() {
+type CaseStudiesContentProps = {
+  caseSnapshots: ConversionCopy['caseSnapshots'];
+};
+
+export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
   const t = useTranslations();
-  const locale = useLocale();
-  const copy = getConversionCopy(locale);
 
   return (
     <>
@@ -104,7 +105,7 @@ export function CaseStudiesContent() {
                   <div className="p-8 sm:p-10 space-y-10">
                     {/* Snapshot */}
                     <div className="grid gap-3 sm:grid-cols-2">
-                      {copy.caseSnapshots[caseKey].map((item) => (
+                      {caseSnapshots[caseKey].map((item) => (
                         <div key={item.label} className="rounded-md border border-navy/[0.06] bg-cream/65 p-4">
                           <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-gold/75">
                             {item.label}
@@ -200,9 +201,6 @@ export function CaseStudiesContent() {
         </div>
       </section>
 
-      {/* CTA */}
-      <div className="gold-divider" />
-      <ConsultationCta />
     </>
   );
 }
