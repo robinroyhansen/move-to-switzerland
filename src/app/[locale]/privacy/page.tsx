@@ -27,12 +27,12 @@ export default function PrivacyPage() {
               
               <div>
                 <h2 className="font-serif text-lg text-navy font-semibold mb-3">2. Data We Collect</h2>
-                <p className="font-light">We collect personal data that you voluntarily provide through our contact form, including your name, email address, phone number, country of residence, and message content.</p>
+                <p className="font-light">We collect personal data that you voluntarily provide through our confidential intake form, including your name, email address, phone number, country of residence, nationality or citizenship, relocation goals, expected timeline, service interests, preferred contact method, referral source, and message content.</p>
               </div>
               
               <div>
                 <h2 className="font-serif text-lg text-navy font-semibold mb-3">3. Purpose of Processing</h2>
-                <p className="font-light">Your data is processed solely for the purpose of responding to your inquiry and providing our advisory services. We do not use your data for marketing purposes without your explicit consent.</p>
+                <p className="font-light">Your data is processed solely for the purpose of assessing your inquiry, routing it to the appropriate private response workflow, and providing our advisory services. We do not use your data for marketing purposes without your explicit consent.</p>
               </div>
               
               <div>

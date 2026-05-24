@@ -29,7 +29,8 @@ The site is designed to establish trust with referral-driven private-clients who
 - Localization is handled via `next-intl`
 - Structured SEO coverage includes sitemap, hreflang, and JSON-LD
 - WhatsApp CTA is part of the live conversion flow
-- Final domain choice is still unresolved and affects launch completion
+- Production domain is configured at `move-to-switzerland.com`
+- The confidential intake form posts to `/api/contact` and sends through a server-side Resend workflow when configured
 
 ## Important content rules
 - Keep the tone discreet, premium, and UHNW-appropriate
@@ -46,6 +47,21 @@ The site is designed to establish trust with referral-driven private-clients who
 ```bash
 npm install
 npm run dev
+```
+
+## Contact form environment
+The private recipient must stay server-side only. Do not expose it through `NEXT_PUBLIC_*` variables or frontend copy.
+
+```bash
+RESEND_API_KEY=...
+CONTACT_TO_EMAIL=...
+CONTACT_FROM_EMAIL="Move to Switzerland <contact@move-to-switzerland.com>"
+```
+
+Optional local smoke testing:
+
+```bash
+CONTACT_FORM_DRY_RUN=true npm run dev
 ```
 
 ## Documentation status
