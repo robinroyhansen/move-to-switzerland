@@ -608,7 +608,7 @@ const contactCopies: Record<string, ContactCopy> = {
         },
         {
           "value": "whatsapp",
-          "label": "WHATSAPPMARQUE"
+          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -1178,7 +1178,7 @@ const contactCopies: Record<string, ContactCopy> = {
         },
         {
           "value": "whatsapp",
-          "label": "WHATSAPP MARKA"
+          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -2318,7 +2318,7 @@ const contactCopies: Record<string, ContactCopy> = {
         },
         {
           "value": "whatsapp",
-          "label": "WHATSAPPMARCA"
+          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [

@@ -6,6 +6,15 @@ export const relocationPathSlugs = [
   'from-denmark',
   'from-uae',
   'from-uk',
+  'from-saudi-arabia',
+  'from-qatar',
+  'from-kuwait',
+  'from-singapore',
+  'from-hong-kong',
+  'from-usa',
+  'from-germany',
+  'from-norway',
+  'move-company-to-switzerland',
   'swiss-residence-permit-entrepreneurs',
   'lump-sum-taxation-switzerland',
   'zug-relocation-advisor',
@@ -98,7 +107,7 @@ export type ConversionCopy = {
     compareRoute: string;
     askSituation: string;
   };
-  relocationPaths: Record<RelocationPathSlug, RelocationPath>;
+  relocationPaths: Partial<Record<RelocationPathSlug, RelocationPath>>;
 };
 
 const conversionCopies: Record<string, ConversionCopy> = {
@@ -8136,17 +8145,296 @@ const conversionCopies: Record<string, ConversionCopy> = {
   }
 };
 
+const extraRelocationPaths: Partial<Record<RelocationPathSlug, RelocationPath>> = {
+  "from-saudi-arabia": {
+    "slug": "from-saudi-arabia",
+    "audience": "Saudi founders, investors, and families",
+    "title": "Move to Switzerland from Saudi Arabia",
+    "description": "A Swiss relocation route for Saudi entrepreneurs and families coordinating residency, banking readiness, schools, housing, and canton selection.",
+    "metaDescription": "Swiss relocation advisory for Saudi founders, investors, and families. Plan permits, banking, schools, tax, housing, and canton selection.",
+    "startingPoint": "Saudi Arabia",
+    "likelyCantons": [
+      "Zurich",
+      "Zug",
+      "Geneva",
+      "Vaud"
+    ],
+    "urgentQuestions": [
+      "Which Swiss canton fits the family's school, privacy, and banking priorities?",
+      "How should Saudi source-of-wealth documentation be prepared before bank introductions?",
+      "Can permits, housing, schools, and advisor coordination move in parallel?"
+    ],
+    "workstreams": [
+      "Saudi departure and Swiss arrival timeline",
+      "Banking readiness and wealth-documentation narrative",
+      "School, housing, and canton comparison",
+      "Permit application, insurance, and settlement sequence"
+    ],
+    "proofPoints": [
+      "Designed for families moving significant assets and daily life together",
+      "Keeps banking, permits, schools, and housing in one coordinated sequence",
+      "Useful before sensitive documents are shared with banks or advisors"
+    ]
+  },
+  "from-qatar": {
+    "slug": "from-qatar",
+    "audience": "Qatar-based private clients",
+    "title": "Move to Switzerland from Qatar",
+    "description": "A discreet path for Qatar-based families, executives, and investors comparing Swiss residency, private banking, schooling, and settlement.",
+    "metaDescription": "Swiss relocation advisory for Qatar-based families and investors. Coordinate permits, private banking, schools, housing, and canton choice.",
+    "startingPoint": "Qatar",
+    "likelyCantons": [
+      "Geneva",
+      "Vaud",
+      "Zurich",
+      "Zug"
+    ],
+    "urgentQuestions": [
+      "Which canton offers the right mix of discretion, schools, and bank access?",
+      "How should existing GCC advisors stay coordinated with Swiss execution?",
+      "What should be resolved before school visits or housing commitments?"
+    ],
+    "workstreams": [
+      "Residency route and family inclusion",
+      "Private banking readiness and advisor coordination",
+      "International school shortlist and visit schedule",
+      "Housing, insurance, healthcare, and daily settlement"
+    ],
+    "proofPoints": [
+      "Built for clients who value discretion before public commitments",
+      "Connects lifestyle decisions with banking and permit timing",
+      "Keeps existing family-office or legal advisors aligned"
+    ]
+  },
+  "from-kuwait": {
+    "slug": "from-kuwait",
+    "audience": "Kuwaiti family offices and families",
+    "title": "Move to Switzerland from Kuwait",
+    "description": "A Swiss relocation and governance route for Kuwaiti families coordinating residency, banking, succession, schools, and a stable European base.",
+    "metaDescription": "Swiss relocation advisory for Kuwaiti families and family offices. Plan permits, private banking, governance, schools, and settlement.",
+    "startingPoint": "Kuwait",
+    "likelyCantons": [
+      "Zug",
+      "Geneva",
+      "Vaud",
+      "Schwyz"
+    ],
+    "urgentQuestions": [
+      "Should the Swiss move be structured around family residence, governance, or both?",
+      "Which canton best fits privacy, tax, and family logistics?",
+      "How should banking, board, and reporting workstreams be sequenced?"
+    ],
+    "workstreams": [
+      "Family profile and governance scoping",
+      "Canton comparison for residence, privacy, and family-office needs",
+      "Private banking and source-of-wealth preparation",
+      "Schooling, housing, healthcare, and family settlement"
+    ],
+    "proofPoints": [
+      "Useful for multi-generational families that need governance and relocation connected",
+      "Designed for confidential Swiss setup before public commitments",
+      "Coordinates family, bank, board, and settlement dependencies"
+    ]
+  },
+  "from-singapore": {
+    "slug": "from-singapore",
+    "audience": "Singapore-based founders and family offices",
+    "title": "Move to Switzerland from Singapore",
+    "description": "A route for Singapore-based entrepreneurs and family offices comparing Switzerland as a European residence, banking, governance, and lifestyle base.",
+    "metaDescription": "Swiss relocation advisory for Singapore-based founders and family offices. Compare residency, tax, banking, governance, schools, and cantons.",
+    "startingPoint": "Singapore",
+    "likelyCantons": [
+      "Zurich",
+      "Zug",
+      "Geneva",
+      "Vaud"
+    ],
+    "urgentQuestions": [
+      "What changes when a Singapore base is complemented by Swiss residence?",
+      "Which workstreams must be sequenced before family relocation?",
+      "How should banking and governance be prepared for a Swiss-facing setup?"
+    ],
+    "workstreams": [
+      "Singapore exit or dual-base planning",
+      "Swiss residence and canton comparison",
+      "Banking, governance, and advisor coordination",
+      "Schools, housing, insurance, and daily settlement"
+    ],
+    "proofPoints": [
+      "Built for clients comparing two high-quality jurisdictions",
+      "Keeps Swiss lifestyle decisions connected to banking and governance",
+      "Useful before committing to a canton, lease, or school track"
+    ]
+  },
+  "from-hong-kong": {
+    "slug": "from-hong-kong",
+    "audience": "Hong Kong entrepreneurs and families",
+    "title": "Move to Switzerland from Hong Kong",
+    "description": "A private Swiss relocation path for Hong Kong founders, wealth holders, and families seeking a stable European base with strong schools and banking.",
+    "metaDescription": "Swiss relocation advisory for Hong Kong founders and families. Plan residency, banking, schools, tax, housing, and canton selection.",
+    "startingPoint": "Hong Kong",
+    "likelyCantons": [
+      "Zurich",
+      "Zug",
+      "Geneva",
+      "Vaud"
+    ],
+    "urgentQuestions": [
+      "Which Swiss canton fits an international family coming from Hong Kong?",
+      "How should banking documentation and source-of-wealth history be prepared?",
+      "What can be decided before school visits and housing searches?"
+    ],
+    "workstreams": [
+      "Hong Kong departure and Swiss arrival timeline",
+      "Canton comparison for schools, tax, banking, and daily life",
+      "Residence permits and family inclusion",
+      "Private banking readiness, housing, and settlement"
+    ],
+    "proofPoints": [
+      "Good fit for families prioritizing stability, schools, and discretion",
+      "Coordinates practical settlement with bank and permit dependencies",
+      "Useful before sensitive documents are circulated"
+    ]
+  },
+  "from-usa": {
+    "slug": "from-usa",
+    "audience": "US founders, executives, and families",
+    "title": "Move to Switzerland from the USA",
+    "description": "A Swiss relocation route for US-connected clients who need careful coordination around residency, advisors, banking, schools, and ongoing tax complexity.",
+    "metaDescription": "Swiss relocation advisory for US founders and families. Coordinate residency, banking, advisors, schools, tax complexity, and settlement.",
+    "startingPoint": "United States",
+    "likelyCantons": [
+      "Zurich",
+      "Geneva",
+      "Vaud",
+      "Zug"
+    ],
+    "urgentQuestions": [
+      "How should US tax and reporting advisors stay connected to the Swiss plan?",
+      "Which canton fits the family's school, banking, and travel needs?",
+      "What should be clarified before residency and housing commitments?"
+    ],
+    "workstreams": [
+      "US advisor and Swiss advisor coordination",
+      "Residence route and family inclusion",
+      "Canton comparison for schools, travel, and banking",
+      "Banking readiness, housing, healthcare, and settlement"
+    ],
+    "proofPoints": [
+      "Built for cases where US reporting complexity must stay visible",
+      "Keeps Swiss decisions connected to existing US advisors",
+      "Useful before banking, housing, or school commitments are made"
+    ]
+  },
+  "from-germany": {
+    "slug": "from-germany",
+    "audience": "German entrepreneurs and families",
+    "title": "Move to Switzerland from Germany",
+    "description": "A practical Swiss relocation route for German founders and families comparing residence, canton choice, business setup, schools, and cross-border timing.",
+    "metaDescription": "Swiss relocation advisory for German entrepreneurs and families. Plan residency, canton choice, tax timing, business setup, schools, and settlement.",
+    "startingPoint": "Germany",
+    "likelyCantons": [
+      "Zurich",
+      "Zug",
+      "Schwyz",
+      "Thurgau"
+    ],
+    "urgentQuestions": [
+      "When should German departure planning and Swiss residence planning be sequenced?",
+      "Which canton fits business ownership, family life, and commute patterns?",
+      "How should permits, housing, schools, and advisors be coordinated?"
+    ],
+    "workstreams": [
+      "German departure and Swiss arrival timeline",
+      "Canton comparison for tax, schools, and business operations",
+      "Permit application and family inclusion",
+      "Housing, insurance, banking, and settlement setup"
+    ],
+    "proofPoints": [
+      "Best for founders and families who need timing handled precisely",
+      "Connects canton choice with practical school and housing realities",
+      "Keeps German and Swiss advisors coordinated"
+    ]
+  },
+  "from-norway": {
+    "slug": "from-norway",
+    "audience": "Norwegian founders and wealth holders",
+    "title": "Move to Switzerland from Norway",
+    "description": "A Swiss relocation route for Norwegian entrepreneurs, investors, and families evaluating tax residency, permits, canton choice, schools, and banking.",
+    "metaDescription": "Swiss relocation advisory for Norwegian founders and families. Coordinate tax residency, permits, banking, schools, canton choice, and settlement.",
+    "startingPoint": "Norway",
+    "likelyCantons": [
+      "Zug",
+      "Schwyz",
+      "Zurich",
+      "Vaud"
+    ],
+    "urgentQuestions": [
+      "When should Norwegian exit planning be aligned with Swiss residence timing?",
+      "Which canton fits privacy, family life, and tax priorities?",
+      "What should be coordinated before bank introductions or school decisions?"
+    ],
+    "workstreams": [
+      "Norwegian departure and Swiss arrival timeline",
+      "Canton comparison for family, tax, and banking priorities",
+      "Residence permits and family inclusion",
+      "Banking readiness, housing, schools, and settlement"
+    ],
+    "proofPoints": [
+      "Built for wealth holders who need tax timing and family logistics connected",
+      "Useful before committing to a canton or school track",
+      "Coordinates existing advisors with Swiss execution"
+    ]
+  },
+  "move-company-to-switzerland": {
+    "slug": "move-company-to-switzerland",
+    "audience": "Founders moving business substance",
+    "title": "Move a Company to Switzerland",
+    "description": "A founder-led route for moving company substance, board setup, banking, permits, and family relocation into one coordinated Swiss plan.",
+    "metaDescription": "Move a company to Switzerland with coordinated advisory for company formation, substance, banking, residence permits, tax, and family relocation.",
+    "startingPoint": "International",
+    "likelyCantons": [
+      "Zug",
+      "Zurich",
+      "Vaud",
+      "Schwyz"
+    ],
+    "urgentQuestions": [
+      "Should the Swiss company be formed before or after the residence route is clear?",
+      "What substance will the canton, bank, and counterparties expect?",
+      "How do founder permits, family relocation, and corporate banking affect each other?"
+    ],
+    "workstreams": [
+      "Founder profile, company substance, and canton fit review",
+      "Company formation, governance, and board setup",
+      "Corporate banking readiness and documentation",
+      "Founder permit, family relocation, housing, and settlement"
+    ],
+    "proofPoints": [
+      "Built for founders who need company and family workstreams aligned",
+      "Connects substance, permits, banking, and settlement in the right order",
+      "Reduces delays from isolated legal, banking, and relocation advice"
+    ]
+  }
+};
+
 export function getConversionCopy(locale = 'en'): ConversionCopy {
   const normalized = locale.toLowerCase().split('-')[0];
   return conversionCopies[normalized] ?? conversionCopies.en;
 }
 
 export function getRelocationPaths(locale = 'en'): RelocationPath[] {
-  const copy = getConversionCopy(locale);
-  return relocationPathSlugs.map((slug) => copy.relocationPaths[slug]);
+  return relocationPathSlugs
+    .map((slug) => getRelocationPath(locale, slug))
+    .filter((path): path is RelocationPath => Boolean(path));
 }
 
 export function getRelocationPath(locale: string, slug: string): RelocationPath | undefined {
   if (!relocationPathSlugs.includes(slug as RelocationPathSlug)) return undefined;
-  return getConversionCopy(locale).relocationPaths[slug as RelocationPathSlug];
+  const typedSlug = slug as RelocationPathSlug;
+  return (
+    getConversionCopy(locale).relocationPaths[typedSlug] ??
+    conversionCopies.en.relocationPaths[typedSlug] ??
+    extraRelocationPaths[typedSlug]
+  );
 }

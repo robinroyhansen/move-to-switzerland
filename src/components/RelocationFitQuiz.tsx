@@ -26,6 +26,20 @@ function getResultKey(answers: Answers): QuizResultKey {
   return 'zug';
 }
 
+function getFitScore(answers: Answers, resultKey: QuizResultKey) {
+  let score = 76;
+
+  if (answers.timeline === 'urgent' || answers.timeline === 'under-3-months') score += 6;
+  if (answers.priority === 'tax' || answers.priority === 'business') score += 5;
+  if (answers.profile === 'family-office' || answers.profile === 'private-wealth') score += 4;
+  if (resultKey === 'zug' && (answers.origin === 'uae' || answers.origin === 'gcc')) score += 4;
+  if (resultKey === 'zurich' && (answers.priority === 'schools' || answers.priority === 'urban')) score += 4;
+  if (resultKey === 'schwyz' && answers.priority === 'privacy') score += 5;
+  if (resultKey === 'vaudGeneva' && answers.priority === 'tax') score += 4;
+
+  return Math.min(score, 94);
+}
+
 function mapProfile(profile: string) {
   if (profile === 'family-office') return 'family-office';
   if (profile === 'entrepreneur') return 'entrepreneur';
@@ -60,6 +74,29 @@ export function RelocationFitQuiz() {
     ...quizCopy.results[resultKey],
     services: resultServices[resultKey],
   };
+  const fitScore = useMemo(() => getFitScore(answers, resultKey), [answers, resultKey]);
+  const selectedAnswerRows = useMemo(
+    () =>
+      quizCopy.questions.map((question) => ({
+        label: question.label,
+        value:
+          question.options.find((option) => option.value === answers[question.key])?.label ??
+          answers[question.key],
+      })),
+    [answers, quizCopy.questions]
+  );
+  const whatsappHref = useMemo(() => {
+    const summary = selectedAnswerRows.map((row) => row.label + ': ' + row.value).join('\n');
+    const message = [
+      quizCopy.likelyRoute,
+      result.title,
+      result.summary,
+      '',
+      summary,
+    ].join('\n');
+
+    return 'https://wa.me/41789328584?text=' + encodeURIComponent(message);
+  }, [quizCopy.likelyRoute, result.summary, result.title, selectedAnswerRows]);
 
   function setAnswer(key: QuestionKey, value: string) {
     setAnswers((current) => ({ ...current, [key]: value }));
@@ -142,13 +179,13 @@ export function RelocationFitQuiz() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
-            <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-gold/70">
+            <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-gold">
               {quizCopy.eyebrow}
             </p>
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
               {quizCopy.title}
             </h2>
-            <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-text-light/50">
+            <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-text-light/68">
               {quizCopy.description}
             </p>
           </div>
@@ -157,7 +194,7 @@ export function RelocationFitQuiz() {
             <div className="grid gap-5 sm:grid-cols-2">
               {quizCopy.questions.map((question) => (
                 <div key={question.key}>
-                  <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-text-light/35">
+                  <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-text-light/62">
                     {question.label}
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -172,7 +209,7 @@ export function RelocationFitQuiz() {
                           className={`rounded-full border px-4 py-2.5 text-sm font-medium transition-all duration-200 ${
                             selected
                               ? 'border-gold bg-gold text-navy'
-                              : 'border-text-light/10 text-text-light/55 hover:border-gold/60 hover:text-gold'
+                              : 'border-text-light/20 text-text-light/72 hover:border-gold/70 hover:text-gold'
                           }`}
                         >
                           {option.label}
@@ -185,9 +222,35 @@ export function RelocationFitQuiz() {
             </div>
 
             <div className="mt-8 rounded-md bg-cream p-6 text-charcoal">
-              <p className="text-xs font-medium uppercase tracking-[0.2em] text-gold">{quizCopy.likelyRoute}</p>
-              <h3 className="mt-3 font-serif text-2xl font-semibold text-navy">{result.title}</h3>
-              <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{result.summary}</p>
+              <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-navy">{quizCopy.likelyRoute}</p>
+                  <h3 className="mt-3 font-serif text-2xl font-semibold text-navy">{result.title}</h3>
+                  <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/72">{result.summary}</p>
+                </div>
+                <div className="shrink-0 rounded-full border border-gold/25 bg-white px-5 py-4 text-center shadow-sm">
+                  <p className="font-serif text-3xl font-semibold text-navy">{fitScore}%</p>
+                </div>
+              </div>
+
+              <div className="mt-5 h-2 overflow-hidden rounded-full bg-navy/10">
+                <div
+                  className="h-full rounded-full bg-gold"
+                  style={{ width: fitScore + '%' }}
+                  aria-hidden="true"
+                />
+              </div>
+
+              <div className="mt-5 grid gap-2 sm:grid-cols-2">
+                {selectedAnswerRows.map((row) => (
+                  <div key={row.label} className="rounded-sm border border-navy/8 bg-white px-4 py-3">
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-charcoal/80">
+                      {row.label}
+                    </p>
+                    <p className="mt-1 text-sm font-medium text-charcoal/70">{row.value}</p>
+                  </div>
+                ))}
+              </div>
 
               <form onSubmit={submitResult} className="mt-6 grid gap-3 sm:grid-cols-[1fr_1fr_auto]">
                 <input
@@ -227,15 +290,28 @@ export function RelocationFitQuiz() {
                   href="/contact"
                   eventName="quiz_full_intake_click"
                   eventParams={{ result: result.title }}
-                  className="text-sm font-medium text-gold hover:text-gold-dark"
+                  className="text-sm font-semibold text-navy hover:text-gold-dark"
                 >
                   {quizCopy.fullIntake}
                 </ConversionLink>
+                <a
+                  href={whatsappHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() =>
+                    trackConversion('quiz_whatsapp_click', {
+                      result: result.title,
+                    })
+                  }
+                  className="text-sm font-medium text-charcoal/72 hover:text-charcoal"
+                >
+                  WhatsApp
+                </a>
                 <ConversionLink
                   href="/swiss-arrival"
                   eventName="quiz_swiss_arrival_click"
                   eventParams={{ result: result.title }}
-                  className="text-sm font-medium text-charcoal/45 hover:text-charcoal"
+                  className="text-sm font-medium text-charcoal/75 hover:text-charcoal"
                 >
                   {quizCopy.guide}
                 </ConversionLink>

@@ -10,8 +10,8 @@ export function CookieConsent() {
   useEffect(() => {
     const consent = localStorage.getItem('cookie-consent');
     if (!consent) {
-      // Small delay for smoother UX
-      const timer = setTimeout(() => setVisible(true), 1500);
+      // Delay avoids making the consent notice the largest first-paint element.
+      const timer = setTimeout(() => setVisible(true), 5000);
       return () => clearTimeout(timer);
     }
   }, []);

@@ -103,6 +103,8 @@ export function Header({ site = 'move' }: HeaderProps) {
                 <button
                   onClick={() => setLangOpen(!langOpen)}
                   className="flex items-center gap-1.5 text-[12px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
+                  aria-label={swissCopy.languages}
+                  aria-expanded={langOpen}
                 >
                   {localeNames[locale]}
                   <svg
@@ -190,6 +192,7 @@ export function Header({ site = 'move' }: HeaderProps) {
               <button
                 onClick={() => setMobileOpen(false)}
                 className="text-text-light/60 hover:text-gold transition-colors"
+                aria-label="Close menu"
               >
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />

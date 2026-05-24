@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
+import { FAQSchema } from '@/components/StructuredData';
 import { locales } from '@/i18n/config';
 import {
   getConversionCopy,
@@ -56,9 +57,25 @@ export default async function RelocationPathPage({ params }: Props) {
 
   const copy = getConversionCopy(locale);
   const related = getRelocationPaths(locale).filter((item) => item.slug !== path.slug).slice(0, 3);
+  const faqItems = [
+    {
+      question: path.urgentQuestions[0],
+      answer: [copy.relocationPage.coordinateTitle, ...path.workstreams.slice(0, 2)].join(' '),
+    },
+    {
+      question: copy.relocationPage.likelyCantons + ': ' + path.likelyCantons.join(', '),
+      answer: [copy.relocationPage.startingPoint + ': ' + path.startingPoint, path.proofPoints[0]].join(' '),
+    },
+    {
+      question: path.urgentQuestions[1] ?? copy.relocationPage.askSituation,
+      answer: path.proofPoints.slice(1).join(' ') || path.description,
+    },
+  ].filter((item) => item.question && item.answer);
 
   return (
     <>
+      <FAQSchema faqs={faqItems} />
+
       <section className="bg-navy pb-20 pt-36">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <nav className="mb-10 flex items-center gap-2 text-xs text-text-light/30">
@@ -171,6 +188,33 @@ export default async function RelocationPathPage({ params }: Props) {
             {path.proofPoints.map((point) => (
               <div key={point} className="rounded-md border border-text-light/10 bg-text-light/[0.035] p-5">
                 <p className="text-sm font-light leading-relaxed text-text-light/58">{point}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white py-20 sm:py-28">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10 max-w-3xl">
+            <div className="gold-line" />
+            <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl">
+              {copy.relocationPage.questionsTitle}
+            </h2>
+            <p className="mt-4 text-base font-light leading-relaxed text-charcoal/55">
+              {copy.relocationPage.questionsText}
+            </p>
+          </div>
+
+          <div className="divide-y divide-navy/8 rounded-lg border border-navy/[0.06] bg-cream/60">
+            {faqItems.map((item, index) => (
+              <div key={item.question + index} className="grid gap-3 p-6 md:grid-cols-[0.75fr_1.25fr]">
+                <h3 className="font-serif text-xl font-semibold leading-snug text-navy">
+                  {item.question}
+                </h3>
+                <p className="text-sm font-light leading-relaxed text-charcoal/62">
+                  {item.answer}
+                </p>
               </div>
             ))}
           </div>

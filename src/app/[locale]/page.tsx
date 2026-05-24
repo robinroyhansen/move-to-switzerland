@@ -13,6 +13,7 @@ import {
   serviceSlugs,
 } from '@/lib/services';
 import { getConversionCopy, getRelocationPaths } from '@/lib/conversion-copy';
+import { getContactCopy } from '@/lib/contact-copy';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { AnimatedStat } from '@/components/AnimatedStat';
 import { ConsultationCta } from '@/components/ConsultationCta';
@@ -24,6 +25,7 @@ export default function HomePage() {
   const t = useTranslations();
   const locale = useLocale();
   const copy = getConversionCopy(locale);
+  const contactCopy = getContactCopy(locale);
   const relocationPaths = getRelocationPaths(locale);
   const heroRef = useRef<HTMLDivElement>(null);
   const parallaxRef = useRef<HTMLDivElement>(null);
@@ -72,7 +74,7 @@ export default function HomePage() {
             fill
             className="object-cover opacity-25"
             priority
-            quality={85}
+            quality={65}
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy/65 via-navy/45 to-navy" />
@@ -154,14 +156,62 @@ export default function HomePage() {
       {/* Trust Strip */}
       <section className="bg-navy-dark py-5">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-xs text-text-light/25 tracking-[0.25em] uppercase">
+          <p className="text-xs text-text-light/65 tracking-[0.25em] uppercase">
             {copy.home.trustStrip.map((item, index) => (
               <span key={item}>
-                {index > 0 && <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />}
+                {index > 0 && <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/50 align-middle" />}
                 {item}
               </span>
             ))}
           </p>
+        </div>
+      </section>
+
+      {/* Contact confidence */}
+      <section className="bg-cream py-20 sm:py-28">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:px-8">
+          <ScrollReveal>
+            <div>
+              <div className="gold-line" />
+              <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl lg:text-5xl">
+                {contactCopy.aside.title}
+              </h2>
+              <div className="mt-5 space-y-4 text-base font-light leading-relaxed text-charcoal/55">
+                {contactCopy.aside.paragraphs.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid gap-4 sm:grid-cols-2">
+            {[
+              {
+                title: contactCopy.sections.situationTitle,
+                text: contactCopy.sections.situationText,
+              },
+              {
+                title: contactCopy.sections.coordinationTitle,
+                text: contactCopy.sections.coordinationText,
+              },
+              {
+                title: contactCopy.sections.responseTitle,
+                text: contactCopy.sections.responseText,
+              },
+              {
+                title: contactCopy.confidential,
+                text: contactCopy.noSensitive,
+              },
+            ].map((item, index) => (
+              <ScrollReveal key={item.title} delay={index * 60}>
+                <div className="h-full rounded-lg border border-navy/[0.06] bg-white p-6 shadow-sm">
+                  <span className="font-serif text-2xl text-gold/70">{String(index + 1).padStart(2, '0')}</span>
+                  <h3 className="mt-4 font-serif text-xl font-semibold text-navy">{item.title}</h3>
+                  <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/55">{item.text}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -348,6 +398,56 @@ export default function HomePage() {
               </ScrollReveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Anonymized proof */}
+      <section className="bg-white py-20 sm:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="mb-12 max-w-3xl">
+              <div className="gold-line" />
+              <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl lg:text-5xl">
+                {t('caseStudiesPage.hero.title')}
+              </h2>
+              <p className="mt-4 text-base font-light leading-relaxed text-charcoal/55">
+                {t('caseStudiesPage.hero.subtitle')}
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid gap-4 lg:grid-cols-4">
+            {([
+              ['techFounder', copy.caseSnapshots.techFounder],
+              ['bankingFamily', copy.caseSnapshots.bankingFamily],
+              ['digitalNomad', copy.caseSnapshots.digitalNomad],
+              ['gulfFamilyOffice', copy.caseSnapshots.gulfFamilyOffice],
+            ] as const).map(([caseKey, rows], index) => (
+              <ScrollReveal key={caseKey} delay={index * 70}>
+                <div className="h-full rounded-lg border border-navy/[0.06] bg-cream/65 p-6">
+                  <h3 className="font-serif text-xl font-semibold text-navy">
+                    {t(`caseStudiesPage.cases.${caseKey}.title`)}
+                  </h3>
+                  <div className="mt-5 space-y-4">
+                    {rows.map((row) => (
+                      <div key={row.label}>
+                        <p className="text-[11px] font-medium uppercase tracking-[0.18em] text-gold/70">
+                          {row.label}
+                        </p>
+                        <p className="mt-1 text-sm font-light leading-relaxed text-charcoal/65">
+                          {row.value}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+
+          <p className="mt-7 max-w-3xl text-xs font-light leading-relaxed text-charcoal/65">
+            {t('caseStudiesPage.disclaimer')}
+          </p>
         </div>
       </section>
 

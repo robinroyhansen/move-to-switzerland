@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
+import { Cormorant_Garamond, DM_Sans } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -18,6 +19,22 @@ type Props = {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 };
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-dm-sans',
+});
+
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  display: 'swap',
+  variable: '--font-cormorant',
+});
 
 export async function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -55,7 +72,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         {site === 'move' && <OrganizationSchema />}
         {site === 'move' && <LocalBusinessSchema />}
       </head>
-      <body className="font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col">
+      <body className={[dmSans.variable, cormorant.variable, 'font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col'].join(' ')}>
         <NextIntlClientProvider messages={messages}>
           <Header site={site} />
           <PageBreadcrumb />

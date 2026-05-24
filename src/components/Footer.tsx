@@ -83,7 +83,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                 {brandName}
               </h3>
             </div>
-            <p className="text-sm leading-relaxed text-text-light/35">
+            <p className="text-sm leading-relaxed text-text-light/72">
               {isSwissArrival ? swissCopy.tagline : t('footer.tagline')}
             </p>
           </div>
@@ -98,7 +98,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
+                    className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                   >
                     {item.label}
                   </Link>
@@ -116,7 +116,7 @@ export function Footer({ site = 'move' }: FooterProps) {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
+                  className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.privacy')}
                 </Link>
@@ -124,7 +124,7 @@ export function Footer({ site = 'move' }: FooterProps) {
               <li>
                 <Link
                   href="/imprint"
-                  className="text-sm text-text-light/40 hover:text-gold transition-colors duration-300"
+                  className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.imprint')}
                 </Link>
@@ -146,7 +146,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                   className={`text-xs px-3 py-1.5 rounded-full border transition-all duration-300 ${
                     locale === code
                       ? 'border-gold text-gold bg-gold/5'
-                      : 'border-text-light/10 text-text-light/30 hover:border-gold/40 hover:text-gold/60'
+                      : 'border-text-light/20 text-text-light/68 hover:border-gold/40 hover:text-gold'
                   }`}
                 >
                   {localeNames[code]}
@@ -160,7 +160,7 @@ export function Footer({ site = 'move' }: FooterProps) {
           <>
             {/* Trust strip */}
             <div className="mt-16 mb-12 text-center">
-              <p className="text-xs text-text-light/25 tracking-[0.2em] uppercase">
+              <p className="text-xs text-text-light/68 tracking-[0.2em] uppercase">
                 Swiss-registered entity
                 <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
                 Zurich
@@ -173,7 +173,7 @@ export function Footer({ site = 'move' }: FooterProps) {
 
             {/* Regulatory disclaimer */}
             <div className="border-t border-text-light/5 pt-8 mb-8">
-              <p className="text-[11px] leading-relaxed text-text-light/20 max-w-4xl mx-auto text-center">
+              <p className="text-[11px] leading-relaxed text-text-light/65 max-w-4xl mx-auto text-center">
                 {t('footer.disclaimer')}
               </p>
             </div>
@@ -182,10 +182,10 @@ export function Footer({ site = 'move' }: FooterProps) {
 
         {/* Bottom bar */}
         <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-text-light/20">
+          <p className="text-xs text-text-light/65">
             &copy; {new Date().getFullYear()} {brandName}. {isSwissArrival ? swissCopy.rights : t('footer.rights')}
           </p>
-          <p className="text-xs text-text-light/20">{isSwissArrival ? swissCopy.company : t('footer.company')}</p>
+          <p className="text-xs text-text-light/65">{isSwissArrival ? swissCopy.company : t('footer.company')}</p>
         </div>
       </div>
     </footer>
