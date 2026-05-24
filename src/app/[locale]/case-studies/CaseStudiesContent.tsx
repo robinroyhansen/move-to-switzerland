@@ -15,6 +15,33 @@ const caseIcons: Record<CaseKey, string> = {
   gulfFamilyOffice: 'M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z',
 };
 
+const caseSnapshots: Record<CaseKey, Array<{ label: string; value: string }>> = {
+  techFounder: [
+    { label: 'Starting point', value: 'Dubai, post-exit founder' },
+    { label: 'Swiss base', value: 'Zug family residence' },
+    { label: 'Core risk', value: 'Crypto wealth documentation' },
+    { label: 'Result', value: 'Permit, school, banking, office active' },
+  ],
+  bankingFamily: [
+    { label: 'Starting point', value: 'Beirut, emergency relocation' },
+    { label: 'Swiss base', value: 'Schwyz privacy-first settlement' },
+    { label: 'Core risk', value: 'Three-generation estate complexity' },
+    { label: 'Result', value: 'Family settled with Swiss governance' },
+  ],
+  digitalNomad: [
+    { label: 'Starting point', value: 'Riyadh, crypto investor' },
+    { label: 'Swiss base', value: 'Zurich apartment and GmbH' },
+    { label: 'Core risk', value: 'Non-traditional wealth profile' },
+    { label: 'Result', value: 'Permit and dual banking setup' },
+  ],
+  gulfFamilyOffice: [
+    { label: 'Starting point', value: 'Kuwait, multi-jurisdiction office' },
+    { label: 'Swiss base', value: 'Zug single family office' },
+    { label: 'Core risk', value: 'Governance across generations' },
+    { label: 'Result', value: 'Swiss board and reporting live' },
+  ],
+};
+
 export function CaseStudiesContent() {
   const t = useTranslations();
 
@@ -99,6 +126,20 @@ export function CaseStudiesContent() {
                   </div>
 
                   <div className="p-8 sm:p-10 space-y-10">
+                    {/* Snapshot */}
+                    <div className="grid gap-3 sm:grid-cols-2">
+                      {caseSnapshots[caseKey].map((item) => (
+                        <div key={item.label} className="rounded-md border border-navy/[0.06] bg-cream/65 p-4">
+                          <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-gold/75">
+                            {item.label}
+                          </p>
+                          <p className="mt-2 text-sm font-medium leading-relaxed text-charcoal/70">
+                            {item.value}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+
                     {/* Profile */}
                     <div>
                       <p className="text-charcoal/60 leading-relaxed">

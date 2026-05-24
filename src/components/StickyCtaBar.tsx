@@ -2,9 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import { useLocale } from 'next-intl';
-import { Link } from '@/i18n/routing';
 import { usePathname } from '@/i18n/routing';
 import { useState, useEffect } from 'react';
+import { ConversionLink } from '@/components/ConversionLink';
 
 const swissArrivalCta: Record<string, string> = {
   en: 'Join the launch list',
@@ -40,12 +40,14 @@ export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
       }`}
     >
       <div className="bg-navy/95 backdrop-blur-lg border-t border-gold/20 px-4 py-3 safe-area-bottom">
-        <Link
+        <ConversionLink
           href="/contact"
+          eventName="sticky_cta_click"
+          eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
           className="block w-full bg-gold text-navy text-center py-3.5 rounded-sm text-sm font-semibold tracking-[0.12em] uppercase hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20"
         >
           {label}
-        </Link>
+        </ConversionLink>
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { localeNames, type Locale } from '@/i18n/config';
 import { useState, useEffect } from 'react';
+import { ConversionLink } from '@/components/ConversionLink';
 
 type HeaderProps = {
   site?: 'move' | 'swissarrival';
@@ -137,12 +138,14 @@ export function Header({ site = 'move' }: HeaderProps) {
                 )}
               </div>
 
-              <Link
+              <ConversionLink
                 href="/contact"
+                eventName="header_cta_click"
+                eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
                 className="bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
               >
                 {isSwissArrival ? swissCopy.cta : t('beginJourney')}
-              </Link>
+              </ConversionLink>
             </nav>
 
             {/* Mobile toggle */}
@@ -210,13 +213,15 @@ export function Header({ site = 'move' }: HeaderProps) {
               ))}
 
               <div className="pt-8">
-                <Link
+                <ConversionLink
                   href="/contact"
+                  eventName="mobile_header_cta_click"
+                  eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
                   onClick={() => setMobileOpen(false)}
                   className="block bg-gold text-navy text-center py-3.5 text-sm font-semibold tracking-wider uppercase rounded-sm"
                 >
                   {isSwissArrival ? swissCopy.cta : t('beginJourney')}
-                </Link>
+                </ConversionLink>
               </div>
             </nav>
 

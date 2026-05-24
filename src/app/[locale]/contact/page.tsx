@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { type ReactNode, useEffect, useState } from 'react';
 import { ScrollReveal } from '@/components/ScrollReveal';
+import { trackConversion } from '@/lib/analytics';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
@@ -136,6 +137,7 @@ export default function ContactPage() {
     e.preventDefault();
     setStatus('sending');
     setErrorMessage('');
+    trackConversion('contact_form_submit_attempt');
 
     const form = e.currentTarget;
     const formData = new FormData(form);
@@ -152,6 +154,9 @@ export default function ContactPage() {
     if (selectedServices.length === 0) {
       setErrorMessage('Please select at least one service area.');
       setStatus('error');
+      trackConversion('contact_form_validation_error', {
+        field: 'servicesNeeded',
+      });
       return;
     }
 
@@ -170,14 +175,21 @@ export default function ContactPage() {
       if (res.ok) {
         setStatus('success');
         form.reset();
+        trackConversion('contact_form_submit_success');
       } else {
         const data = await res.json().catch(() => null);
         setErrorMessage(data?.error || t('contact.form.error'));
         setStatus('error');
+        trackConversion('contact_form_submit_error', {
+          status: res.status,
+        });
       }
     } catch {
       setErrorMessage(t('contact.form.error'));
       setStatus('error');
+      trackConversion('contact_form_submit_error', {
+        status: 'network',
+      });
     }
   }
 
