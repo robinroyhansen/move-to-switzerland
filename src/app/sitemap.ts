@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
 import { locales } from '@/i18n/config';
 import { serviceSlugs } from '@/lib/services';
-import { relocationPathSlugs } from '@/lib/relocation-paths';
+import { relocationPathSlugs } from '@/lib/conversion-copy';
 import { insightSlugs } from '@/content/insights';
 
 const baseUrl = 'https://move-to-switzerland.com';

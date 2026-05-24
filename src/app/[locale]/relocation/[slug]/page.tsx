@@ -5,10 +5,11 @@ import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { locales } from '@/i18n/config';
 import {
+  getConversionCopy,
   getRelocationPath,
   relocationPathSlugs,
-  relocationPaths,
-} from '@/lib/relocation-paths';
+  getRelocationPaths,
+} from '@/lib/conversion-copy';
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -28,7 +29,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const path = getRelocationPath(slug);
+  const path = getRelocationPath(locale, slug);
 
   if (!path) return {};
 
@@ -48,12 +49,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function RelocationPathPage({ params }: Props) {
-  const { slug } = await params;
-  const path = getRelocationPath(slug);
+  const { locale, slug } = await params;
+  const path = getRelocationPath(locale, slug);
 
   if (!path) notFound();
 
-  const related = relocationPaths.filter((item) => item.slug !== path.slug).slice(0, 3);
+  const copy = getConversionCopy(locale);
+  const related = getRelocationPaths(locale).filter((item) => item.slug !== path.slug).slice(0, 3);
 
   return (
     <>
@@ -61,7 +63,7 @@ export default async function RelocationPathPage({ params }: Props) {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <nav className="mb-10 flex items-center gap-2 text-xs text-text-light/30">
             <Link href="/" className="transition-colors hover:text-gold">
-              Home
+              {copy.relocationPage.home}
             </Link>
             <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -86,7 +88,7 @@ export default async function RelocationPathPage({ params }: Props) {
               eventParams={{ path: path.slug }}
               className="inline-flex items-center justify-center rounded-full bg-gold px-7 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy transition-colors hover:bg-gold-dark"
             >
-              Request a private assessment
+              {copy.cta.privateAssessment}
             </ConversionLink>
             <ConversionLink
               href="/#relocation-fit"
@@ -94,7 +96,7 @@ export default async function RelocationPathPage({ params }: Props) {
               eventParams={{ path: path.slug }}
               className="inline-flex items-center justify-center rounded-full border border-text-light/15 px-7 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-text-light/70 transition-colors hover:border-gold/60 hover:text-gold"
             >
-              Take the canton fit quiz
+              {copy.relocationPage.takeQuiz}
             </ConversionLink>
           </div>
         </div>
@@ -102,9 +104,9 @@ export default async function RelocationPathPage({ params }: Props) {
 
       <section className="bg-navy-dark py-5">
         <div className="mx-auto flex max-w-5xl flex-wrap gap-3 px-4 text-xs uppercase tracking-[0.18em] text-text-light/30 sm:px-6 lg:px-8">
-          <span>Starting point: {path.startingPoint}</span>
+          <span>{copy.relocationPage.startingPoint}: {path.startingPoint}</span>
           <span className="text-gold/35">/</span>
-          <span>Likely cantons: {path.likelyCantons.join(', ')}</span>
+          <span>{copy.relocationPage.likelyCantons}: {path.likelyCantons.join(', ')}</span>
         </div>
       </section>
 
@@ -113,10 +115,10 @@ export default async function RelocationPathPage({ params }: Props) {
           <div>
             <div className="gold-line" />
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl">
-              The questions to answer before committing
+              {copy.relocationPage.questionsTitle}
             </h2>
             <p className="mt-5 text-base font-light leading-relaxed text-charcoal/55">
-              Serious relocation planning starts before forms, leases, school visits, or bank introductions. These are the decisions that usually drive the route.
+              {copy.relocationPage.questionsText}
             </p>
           </div>
 
@@ -135,10 +137,10 @@ export default async function RelocationPathPage({ params }: Props) {
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12 max-w-3xl">
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.24em] text-gold/75">
-              Workstream sequence
+              {copy.relocationPage.workstreamSequence}
             </p>
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl">
-              What we coordinate for this route
+              {copy.relocationPage.coordinateTitle}
             </h2>
           </div>
 
@@ -146,7 +148,7 @@ export default async function RelocationPathPage({ params }: Props) {
             {path.workstreams.map((workstream, index) => (
               <div key={workstream} className="rounded-lg border border-navy/[0.06] bg-cream/70 p-6">
                 <span className="text-xs font-medium uppercase tracking-[0.18em] text-gold/70">
-                  Workstream {String(index + 1).padStart(2, '0')}
+                  {copy.relocationPage.workstream} {String(index + 1).padStart(2, '0')}
                 </span>
                 <p className="mt-4 text-base font-medium leading-relaxed text-charcoal/75">{workstream}</p>
               </div>
@@ -159,10 +161,10 @@ export default async function RelocationPathPage({ params }: Props) {
         <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.24em] text-gold/75">
-              Why clients use us
+              {copy.relocationPage.whyClientsUseUs}
             </p>
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl">
-              The value is coordination, not another isolated opinion
+              {copy.relocationPage.valueTitle}
             </h2>
           </div>
           <div className="grid gap-3">
@@ -181,7 +183,7 @@ export default async function RelocationPathPage({ params }: Props) {
             <div>
               <div className="gold-line" />
               <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl">
-                Compare another route
+                {copy.relocationPage.compareRoute}
               </h2>
             </div>
             <ConversionLink
@@ -190,7 +192,7 @@ export default async function RelocationPathPage({ params }: Props) {
               eventParams={{ path: path.slug }}
               className="inline-flex w-fit rounded-full border border-gold/35 px-6 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-gold transition-colors hover:bg-gold hover:text-navy"
             >
-              Ask about my situation
+              {copy.relocationPage.askSituation}
             </ConversionLink>
           </div>
 

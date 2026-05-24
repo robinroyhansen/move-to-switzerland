@@ -1,14 +1,19 @@
 'use client';
 
+import { useLocale } from 'next-intl';
 import { ScrollReveal } from './ScrollReveal';
 import Image from 'next/image';
 import { ConversionLink } from '@/components/ConversionLink';
+import { getConversionCopy } from '@/lib/conversion-copy';
 
 interface ConsultationCtaProps {
   variant?: 'navy' | 'cream';
 }
 
 export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
+  const locale = useLocale();
+  const copy = getConversionCopy(locale);
+
   if (variant === 'cream') {
     return (
       <section className="py-24 sm:py-32 bg-cream">
@@ -16,10 +21,10 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
           <div className="max-w-3xl mx-auto px-4 text-center">
             <div className="gold-line-center" />
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-navy font-semibold mb-8 luxury-heading">
-              Ready to understand the right Swiss route?
+              {copy.cta.creamTitle}
             </h2>
             <p className="text-charcoal/50 mb-12 text-lg font-light leading-relaxed">
-              Start with a private assessment, or use the guide path if you are still early in the decision.
+              {copy.cta.creamText}
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
               <ConversionLink
@@ -28,7 +33,7 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
                 eventParams={{ variant }}
                 className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy shadow-lg shadow-gold/15 transition-all duration-300 hover:bg-gold-dark"
               >
-                Request a private assessment
+                {copy.cta.privateAssessment}
               </ConversionLink>
               <ConversionLink
                 href="/swiss-arrival"
@@ -36,7 +41,7 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
                 eventParams={{ variant }}
                 className="inline-flex items-center justify-center rounded-full border border-navy/10 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy/60 transition-all duration-300 hover:border-gold/50 hover:text-gold"
               >
-                Get the Swiss Arrival guide
+                {copy.cta.guide}
               </ConversionLink>
             </div>
           </div>
@@ -60,10 +65,10 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
           <div className="gold-line-center" />
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-white font-semibold mb-8 luxury-heading">
-            Ready to turn Switzerland into an executable plan?
+            {copy.cta.navyTitle}
           </h2>
           <p className="text-text-light/50 mb-12 text-lg font-light leading-relaxed">
-            Share the essentials privately, or start with the Swiss Arrival guide if you are still comparing options.
+            {copy.cta.navyText}
           </p>
           <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
             <ConversionLink
@@ -72,7 +77,7 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
               eventParams={{ variant }}
               className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy shadow-lg shadow-gold/15 transition-all duration-300 hover:bg-gold-dark"
             >
-              Request a private assessment
+              {copy.cta.privateAssessment}
             </ConversionLink>
             <ConversionLink
               href="/swiss-arrival"
@@ -80,7 +85,7 @@ export function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
               eventParams={{ variant }}
               className="inline-flex items-center justify-center rounded-full border border-text-light/15 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-text-light/70 transition-all duration-300 hover:border-gold/60 hover:text-gold"
             >
-              Get the Swiss Arrival guide
+              {copy.cta.guide}
             </ConversionLink>
           </div>
         </div>

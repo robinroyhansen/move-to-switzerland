@@ -1,106 +1,29 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import { useLocale } from 'next-intl';
 import { ConversionLink } from '@/components/ConversionLink';
 import { trackConversion } from '@/lib/analytics';
+import { getConversionCopy, type QuizResultKey } from '@/lib/conversion-copy';
 
 type QuestionKey = 'profile' | 'priority' | 'origin' | 'timeline';
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
 type Answers = Record<QuestionKey, string>;
 
-const questions: Array<{
-  key: QuestionKey;
-  label: string;
-  options: Array<{ value: string; label: string }>;
-}> = [
-  {
-    key: 'profile',
-    label: 'Who is moving?',
-    options: [
-      { value: 'entrepreneur', label: 'Founder' },
-      { value: 'family', label: 'Family' },
-      { value: 'family-office', label: 'Family office' },
-      { value: 'private-wealth', label: 'Private wealth' },
-    ],
-  },
-  {
-    key: 'priority',
-    label: 'What matters most?',
-    options: [
-      { value: 'tax', label: 'Tax planning' },
-      { value: 'schools', label: 'Schools' },
-      { value: 'privacy', label: 'Privacy' },
-      { value: 'business', label: 'Business setup' },
-      { value: 'urban', label: 'City access' },
-    ],
-  },
-  {
-    key: 'origin',
-    label: 'Current base',
-    options: [
-      { value: 'denmark', label: 'Denmark' },
-      { value: 'uae', label: 'UAE' },
-      { value: 'uk', label: 'UK' },
-      { value: 'gcc', label: 'GCC' },
-      { value: 'eu', label: 'EU' },
-      { value: 'other', label: 'Other' },
-    ],
-  },
-  {
-    key: 'timeline',
-    label: 'Expected timing',
-    options: [
-      { value: 'urgent', label: 'Urgent' },
-      { value: 'under-3-months', label: 'Under 3 months' },
-      { value: '3-6-months', label: '3-6 months' },
-      { value: 'early-planning', label: 'Early planning' },
-    ],
-  },
-];
-
-const originLabels: Record<string, string> = {
-  denmark: 'Denmark',
-  uae: 'United Arab Emirates',
-  uk: 'United Kingdom',
-  gcc: 'GCC',
-  eu: 'European Union',
-  other: 'Other or not specified',
+const resultServices: Record<QuizResultKey, string[]> = {
+  zug: ['residence-permits', 'company-formation', 'private-banking', 'full-coordination'],
+  zurich: ['residence-permits', 'schooling', 'real-estate', 'private-banking'],
+  schwyz: ['residence-permits', 'lump-sum-taxation', 'real-estate', 'full-coordination'],
+  vaudGeneva: ['residence-permits', 'lump-sum-taxation', 'schooling', 'full-coordination'],
 };
 
-const resultCopy = {
-  zug: {
-    title: 'Zug first, with Zurich as the practical backup',
-    summary:
-      'Your answers point toward Zug for tax, company formation, banking access, and founder infrastructure. Zurich should stay in the comparison if schools, hiring, or daily city access matter.',
-    services: ['residence-permits', 'company-formation', 'private-banking', 'full-coordination'],
-  },
-  zurich: {
-    title: 'Zurich first, with Zug and Schwyz benchmarked',
-    summary:
-      'Your answers point toward Zurich for schools, airport access, international community, banking density, and daily life. Zug or Schwyz may still win if tax privacy outranks city access.',
-    services: ['residence-permits', 'schooling', 'real-estate', 'private-banking'],
-  },
-  schwyz: {
-    title: 'Schwyz first, with Zug as the operational comparison',
-    summary:
-      'Your answers point toward Schwyz for privacy, lower-tax living, and a quieter family base. The tradeoff is less institutional density than Zurich or Zug, so sequencing matters.',
-    services: ['residence-permits', 'lump-sum-taxation', 'real-estate', 'full-coordination'],
-  },
-  vaudGeneva: {
-    title: 'Vaud or Geneva first, with forfait feasibility checked early',
-    summary:
-      'Your answers point toward a French-speaking canton where lump-sum taxation, schools, and international family infrastructure can be assessed together before committing.',
-    services: ['residence-permits', 'lump-sum-taxation', 'schooling', 'full-coordination'],
-  },
-};
-
-function getResult(answers: Answers) {
-  if (answers.priority === 'privacy') return resultCopy.schwyz;
-  if (answers.origin === 'uk' && answers.priority === 'tax') return resultCopy.vaudGeneva;
-  if (answers.profile === 'private-wealth' && answers.priority === 'tax') return resultCopy.vaudGeneva;
-  if (answers.priority === 'schools' || answers.priority === 'urban') return resultCopy.zurich;
-  return resultCopy.zug;
+function getResultKey(answers: Answers): QuizResultKey {
+  if (answers.priority === 'privacy') return 'schwyz';
+  if (answers.origin === 'uk' && answers.priority === 'tax') return 'vaudGeneva';
+  if (answers.profile === 'private-wealth' && answers.priority === 'tax') return 'vaudGeneva';
+  if (answers.priority === 'schools' || answers.priority === 'urban') return 'zurich';
+  return 'zug';
 }
 
 function mapProfile(profile: string) {
@@ -117,6 +40,9 @@ function mapPrimaryGoal(answers: Answers) {
 }
 
 export function RelocationFitQuiz() {
+  const locale = useLocale();
+  const copy = getConversionCopy(locale);
+  const quizCopy = copy.quiz;
   const [answers, setAnswers] = useState<Answers>({
     profile: 'entrepreneur',
     priority: 'tax',
@@ -129,7 +55,11 @@ export function RelocationFitQuiz() {
   const [errorMessage, setErrorMessage] = useState('');
   const [startedAt] = useState(() => Date.now().toString());
 
-  const result = useMemo(() => getResult(answers), [answers]);
+  const resultKey = useMemo(() => getResultKey(answers), [answers]);
+  const result = {
+    ...quizCopy.results[resultKey],
+    services: resultServices[resultKey],
+  };
 
   function setAnswer(key: QuestionKey, value: string) {
     setAnswers((current) => ({ ...current, [key]: value }));
@@ -147,7 +77,7 @@ export function RelocationFitQuiz() {
     const payload = {
       name,
       email,
-      country: originLabels[answers.origin],
+      country: quizCopy.originLabels[answers.origin],
       enquiryType: mapProfile(answers.profile),
       primaryGoal: mapPrimaryGoal(answers),
       timeline: answers.timeline,
@@ -169,7 +99,7 @@ export function RelocationFitQuiz() {
         `Summary: ${result.summary}`,
         `Profile: ${answers.profile}`,
         `Priority: ${answers.priority}`,
-        `Origin: ${originLabels[answers.origin]}`,
+        `Origin: ${quizCopy.originLabels[answers.origin]}`,
         `Timeline: ${answers.timeline}`,
       ].join('\n'),
     };
@@ -189,7 +119,7 @@ export function RelocationFitQuiz() {
 
       if (!response.ok) {
         const data = await response.json().catch(() => null);
-        throw new Error(data?.error || 'The result could not be sent right now.');
+        throw new Error(data?.error || quizCopy.error);
       }
 
       setStatus('success');
@@ -200,7 +130,7 @@ export function RelocationFitQuiz() {
       });
     } catch (error) {
       setStatus('error');
-      setErrorMessage(error instanceof Error ? error.message : 'The result could not be sent right now.');
+      setErrorMessage(error instanceof Error ? error.message : quizCopy.error);
       trackConversion('quiz_result_error', {
         result: result.title,
       });
@@ -213,19 +143,19 @@ export function RelocationFitQuiz() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-gold/70">
-              Canton fit quiz
+              {quizCopy.eyebrow}
             </p>
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl lg:text-5xl">
-              Find the Swiss route worth discussing first
+              {quizCopy.title}
             </h2>
             <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-text-light/50">
-              A four-question filter for serious movers. It will not replace advice, but it gives the first consultation a sharper starting point.
+              {quizCopy.description}
             </p>
           </div>
 
           <div className="rounded-lg border border-gold/15 bg-text-light/[0.03] p-5 sm:p-8">
             <div className="grid gap-5 sm:grid-cols-2">
-              {questions.map((question) => (
+              {quizCopy.questions.map((question) => (
                 <div key={question.key}>
                   <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-text-light/35">
                     {question.label}
@@ -255,7 +185,7 @@ export function RelocationFitQuiz() {
             </div>
 
             <div className="mt-8 rounded-md bg-cream p-6 text-charcoal">
-              <p className="text-xs font-medium uppercase tracking-[0.2em] text-gold">Likely first route</p>
+              <p className="text-xs font-medium uppercase tracking-[0.2em] text-gold">{quizCopy.likelyRoute}</p>
               <h3 className="mt-3 font-serif text-2xl font-semibold text-navy">{result.title}</h3>
               <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{result.summary}</p>
 
@@ -264,7 +194,7 @@ export function RelocationFitQuiz() {
                   type="text"
                   value={name}
                   onChange={(event) => setName(event.target.value)}
-                  placeholder="Name"
+                  placeholder={quizCopy.namePlaceholder}
                   required
                   className="rounded-sm border border-navy/10 bg-white px-4 py-3 text-sm text-charcoal placeholder-charcoal/30"
                 />
@@ -272,7 +202,7 @@ export function RelocationFitQuiz() {
                   type="email"
                   value={email}
                   onChange={(event) => setEmail(event.target.value)}
-                  placeholder="Email"
+                  placeholder={quizCopy.emailPlaceholder}
                   required
                   className="rounded-sm border border-navy/10 bg-white px-4 py-3 text-sm text-charcoal placeholder-charcoal/30"
                 />
@@ -281,12 +211,12 @@ export function RelocationFitQuiz() {
                   disabled={status === 'sending'}
                   className="rounded-full bg-navy px-5 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-text-light transition-colors hover:bg-navy-light disabled:opacity-50"
                 >
-                  {status === 'sending' ? 'Sending' : 'Send plan'}
+                  {status === 'sending' ? quizCopy.sending : quizCopy.sendPlan}
                 </button>
               </form>
 
               {status === 'success' && (
-                <p className="mt-3 text-sm text-green-700">Your quiz result was sent. We will use it as context for the first reply.</p>
+                <p className="mt-3 text-sm text-green-700">{quizCopy.success}</p>
               )}
               {status === 'error' && (
                 <p className="mt-3 text-sm text-red-700">{errorMessage}</p>
@@ -299,7 +229,7 @@ export function RelocationFitQuiz() {
                   eventParams={{ result: result.title }}
                   className="text-sm font-medium text-gold hover:text-gold-dark"
                 >
-                  Complete the full confidential intake
+                  {quizCopy.fullIntake}
                 </ConversionLink>
                 <ConversionLink
                   href="/swiss-arrival"
@@ -307,7 +237,7 @@ export function RelocationFitQuiz() {
                   eventParams={{ result: result.title }}
                   className="text-sm font-medium text-charcoal/45 hover:text-charcoal"
                 >
-                  Get the Swiss Arrival guide
+                  {quizCopy.guide}
                 </ConversionLink>
               </div>
             </div>

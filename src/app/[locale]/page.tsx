@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
@@ -12,7 +12,7 @@ import {
   profileImages,
   serviceSlugs,
 } from '@/lib/services';
-import { relocationPaths } from '@/lib/relocation-paths';
+import { getConversionCopy, getRelocationPaths } from '@/lib/conversion-copy';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { AnimatedStat } from '@/components/AnimatedStat';
 import { ConsultationCta } from '@/components/ConsultationCta';
@@ -20,46 +20,11 @@ import { FAQSchema } from '@/components/StructuredData';
 import { ConversionLink } from '@/components/ConversionLink';
 import { RelocationFitQuiz } from '@/components/RelocationFitQuiz';
 
-const heroProof = [
-  { label: 'Swiss-based coordination', value: 'Zurich, Zug, Schwyz' },
-  { label: 'Private intake', value: 'No sensitive documents' },
-  { label: 'Built for', value: 'Founders, families, family offices' },
-  { label: 'Workstreams', value: 'Permits, tax, banking, schools' },
-];
-
-const planRows = [
-  ['01', 'Residency route', 'B-permit, family inclusion, timing'],
-  ['02', 'Canton decision', 'Tax, school, housing, commute'],
-  ['03', 'Bank readiness', 'Source-of-wealth story and introductions'],
-  ['04', 'Settlement', 'Housing, insurance, schools, daily setup'],
-];
-
-const processSteps = [
-  {
-    title: 'Private assessment',
-    text: 'We map the family, business, citizenship, timeline, and sensitive constraints before any documents are requested.',
-  },
-  {
-    title: 'Swiss route plan',
-    text: 'You get a practical canton and workstream sequence covering permits, tax, banking, housing, schools, and settlement.',
-  },
-  {
-    title: 'Coordinated execution',
-    text: 'One accountable point keeps lawyers, banks, schools, real estate, and existing advisors moving in the right order.',
-  },
-];
-
-const swissSignals = [
-  'Canton comparison before commitment',
-  'Permit timeline matched with school intake',
-  'Banking documentation prepared before introductions',
-  'Housing search aligned with tax and commute realities',
-  'Existing advisors kept in the loop instead of replaced',
-  'No passports, bank statements, or sensitive files through public forms',
-];
-
 export default function HomePage() {
   const t = useTranslations();
+  const locale = useLocale();
+  const copy = getConversionCopy(locale);
+  const relocationPaths = getRelocationPaths(locale);
   const heroRef = useRef<HTMLDivElement>(null);
   const parallaxRef = useRef<HTMLDivElement>(null);
 
@@ -116,14 +81,14 @@ export default function HomePage() {
           <div>
             <div className="mb-7 inline-flex rounded-full border border-gold/25 px-5 py-2">
               <span className="text-xs font-medium uppercase tracking-[0.28em] text-gold">
-                Swiss relocation advisory
+                {copy.home.heroBadge}
               </span>
             </div>
             <h1 className="luxury-heading mb-7 max-w-4xl font-serif text-4xl font-semibold leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              Move to Switzerland with permits, tax, banking, schools, and settlement coordinated.
+              {copy.home.heroTitle}
             </h1>
             <p className="mb-9 max-w-2xl text-lg font-light leading-relaxed text-text-light/62 sm:text-xl">
-              Private Swiss-based advisory for entrepreneurs, wealth holders, families, and family offices relocating to Zurich, Zug, Schwyz, Geneva, Vaud, and beyond.
+              {copy.home.heroSubtitle}
             </p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <ConversionLink
@@ -131,19 +96,19 @@ export default function HomePage() {
                 eventName="hero_consultation_click"
                 className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy shadow-lg shadow-gold/15 transition-all duration-300 hover:bg-gold-dark"
               >
-                Request a private assessment
+                {copy.cta.privateAssessment}
               </ConversionLink>
               <ConversionLink
                 href="/swiss-arrival"
                 eventName="hero_guide_click"
                 className="inline-flex items-center justify-center rounded-full border border-text-light/15 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-text-light/75 transition-all duration-300 hover:border-gold/60 hover:text-gold"
               >
-                Get the Swiss Arrival guide
+                {copy.cta.guide}
               </ConversionLink>
             </div>
 
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
-              {heroProof.map((item) => (
+              {copy.home.heroProof.map((item) => (
                 <div key={item.label} className="rounded-md border border-text-light/10 bg-text-light/[0.03] px-4 py-3">
                   <p className="text-[11px] uppercase tracking-[0.18em] text-text-light/30">{item.label}</p>
                   <p className="mt-1 text-sm font-medium text-text-light/75">{item.value}</p>
@@ -155,13 +120,13 @@ export default function HomePage() {
           <div className="hidden lg:block">
             <div className="rounded-lg border border-gold/20 bg-navy/75 p-6 shadow-2xl shadow-navy-dark/30 backdrop-blur-sm">
               <div className="mb-6 flex items-center justify-between">
-                <p className="text-xs font-medium uppercase tracking-[0.24em] text-gold/80">Swiss move plan</p>
+                <p className="text-xs font-medium uppercase tracking-[0.24em] text-gold/80">{copy.home.planTitle}</p>
                 <span className="rounded-full border border-gold/20 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-text-light/40">
-                  First 30 days
+                  {copy.home.planPeriod}
                 </span>
               </div>
               <div className="space-y-3">
-                {planRows.map(([number, title, text]) => (
+                {copy.home.planRows.map(([number, title, text]) => (
                   <div key={number} className="grid grid-cols-[44px_1fr] gap-4 rounded-md bg-text-light/[0.035] p-4">
                     <span className="font-serif text-2xl text-gold/75">{number}</span>
                     <div>
@@ -172,7 +137,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="mt-5 text-xs font-light leading-relaxed text-text-light/35">
-                The goal is not more advice. It is a sequence that prevents permits, banking, schools, and housing from blocking each other.
+                {copy.home.planFooter}
               </p>
             </div>
           </div>
@@ -190,13 +155,12 @@ export default function HomePage() {
       <section className="bg-navy-dark py-5">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-xs text-text-light/25 tracking-[0.25em] uppercase">
-            Private assessment
-            <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />
-            Swiss canton comparison
-            <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />
-            Bank-ready documentation
-            <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />
-            Family settlement
+            {copy.home.trustStrip.map((item, index) => (
+              <span key={item}>
+                {index > 0 && <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />}
+                {item}
+              </span>
+            ))}
           </p>
         </div>
       </section>
@@ -208,16 +172,16 @@ export default function HomePage() {
             <div className="mb-14 max-w-3xl">
               <div className="gold-line" />
               <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl lg:text-5xl">
-                From first conversation to a Swiss plan you can execute
+                {copy.home.processTitle}
               </h2>
               <p className="mt-5 text-lg font-light leading-relaxed text-charcoal/55">
-                High-value relocations fail when workstreams move separately. The first step is a clear operating model before anyone requests documents.
+                {copy.home.processText}
               </p>
             </div>
           </ScrollReveal>
 
           <div className="grid gap-5 md:grid-cols-3">
-            {processSteps.map((step, index) => (
+            {copy.home.processSteps.map((step, index) => (
               <ScrollReveal key={step.title} delay={index * 80}>
                 <div className="h-full rounded-lg border border-navy/[0.06] bg-white p-7 shadow-sm">
                   <span className="font-serif text-4xl text-gold/65">{String(index + 1).padStart(2, '0')}</span>
@@ -267,19 +231,19 @@ export default function HomePage() {
           <ScrollReveal>
             <div>
               <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-gold/70">
-                What gets coordinated
+                {copy.home.signalsBadge}
               </p>
               <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl">
-                Specific Swiss execution, not generic relocation talk
+                {copy.home.signalsTitle}
               </h2>
               <p className="mt-5 text-base font-light leading-relaxed text-text-light/48">
-                The value proposition is operational: fewer gaps between tax, permits, banking, housing, schools, and the first normal day in Switzerland.
+                {copy.home.signalsText}
               </p>
             </div>
           </ScrollReveal>
 
           <div className="grid gap-3 sm:grid-cols-2">
-            {swissSignals.map((signal, index) => (
+            {copy.home.signals.map((signal, index) => (
               <ScrollReveal key={signal} delay={index * 50}>
                 <div className="flex min-h-24 items-start gap-4 rounded-md border border-text-light/10 bg-text-light/[0.035] p-5">
                   <span className="mt-0.5 font-serif text-xl text-gold/70">{String(index + 1).padStart(2, '0')}</span>
@@ -345,10 +309,10 @@ export default function HomePage() {
               <div className="max-w-2xl">
                 <div className="gold-line" />
                 <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl lg:text-5xl">
-                  Popular relocation paths
+                  {copy.home.pathsTitle}
                 </h2>
                 <p className="mt-4 text-base font-light leading-relaxed text-charcoal/55">
-                  High-intent visitors should not have to translate generic service pages into their own situation.
+                  {copy.home.pathsText}
                 </p>
               </div>
               <ConversionLink
@@ -356,7 +320,7 @@ export default function HomePage() {
                 eventName="paths_consultation_click"
                 className="inline-flex w-fit items-center justify-center rounded-full border border-gold/35 px-6 py-3 text-xs font-semibold uppercase tracking-[0.14em] text-gold transition-colors hover:bg-gold hover:text-navy"
               >
-                Discuss my route
+                {copy.home.discussRoute}
               </ConversionLink>
             </div>
           </ScrollReveal>
