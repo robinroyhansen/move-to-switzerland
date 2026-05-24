@@ -8418,6 +8418,4089 @@ const extraRelocationPaths: Partial<Record<RelocationPathSlug, RelocationPath>> 
   }
 };
 
+const extraRelocationPathCopies: Record<string, Partial<Record<RelocationPathSlug, RelocationPath>>> = {
+  "de": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Saudische Gründer, Investoren und Familien",
+      "title": "Umzug von Saudi-Arabien in die Schweiz",
+      "description": "Eine Schweizer Umzugsroute für saudische Unternehmer und Familien, die Wohnsitz, Bankbereitschaft, Schulen, Wohnraum und Kantonsauswahl koordiniert.",
+      "metaDescription": "Schweizer Umzugsberatung für saudische Gründer, Investoren und Familien. Baugenehmigungen, Bankwesen, Schulen, Steuern, Wohnen und Kantonsauswahl.",
+      "startingPoint": "Saudi-Arabien",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Welcher Schweizer Kanton passt zu den Schul-, Privatsphäre- und Bankprioritäten der Familie?",
+        "Wie sollte die saudische source-of-wealth-Dokumentation vor der Bankeinführung vorbereitet werden?",
+        "Können Genehmigungen, Unterbringung, Schulen und Beraterkoordination parallel erfolgen?"
+      ],
+      "workstreams": [
+        "Zeitleiste für die Abreise aus Saudi-Arabien und die Ankunft in der Schweiz",
+        "Erzählung über Bankbereitschaft und Vermögensdokumentation",
+        "Schul-, Wohn- und Kantonsvergleich",
+        "Reihenfolge der Genehmigungsbeantragung, Versicherung und Abrechnung"
+      ],
+      "proofPoints": [
+        "Konzipiert für Familien, die bedeutende Vermögenswerte und das tägliche Leben gemeinsam bewegen",
+        "Hält Bankgeschäfte, Genehmigungen, Schulen und Wohnen in einer koordinierten Reihenfolge",
+        "Nützlich, bevor sensible Dokumente an Banken oder Berater weitergegeben werden"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Privatkunden mit Sitz in Katar",
+      "title": "Umzug von Katar in die Schweiz",
+      "description": "Ein diskreter Weg für in Katar ansässige Familien, Führungskräfte und Investoren zum Vergleich von Schweizer Wohnsitz, Private Banking, Schulbildung und Niederlassung.",
+      "metaDescription": "Schweizer Umzugsberatung für in Katar ansässige Familien und Investoren. Koordinieren Sie Bewilligungen, Private Banking, Schulen, Wohnraum und Kantonswahl.",
+      "startingPoint": "Katar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Welcher Kanton bietet die richtige Mischung aus Diskretion, Schulen und Bankzugang?",
+        "Wie sollten bestehende GCC-Berater mit der Schweizer Ausführung koordiniert bleiben?",
+        "Was sollte vor Schulbesuchen oder Wohnungsverpflichtungen geklärt werden?"
+      ],
+      "workstreams": [
+        "Aufenthaltsroute und Familienintegration",
+        "Private-Banking-Bereitschaft und Beraterkoordination",
+        "Auswahlliste und Besuchsplan für internationale Schulen",
+        "Wohnen, Versicherung, Gesundheitsversorgung und tägliche Abrechnung"
+      ],
+      "proofPoints": [
+        "Entwickelt für Kunden, denen Diskretion wichtiger ist als öffentliche Verpflichtungen",
+        "Verbindet Lifestyle-Entscheidungen mit Bankgeschäften und der Genehmigungsplanung",
+        "Hält bestehende Family-Office- oder Rechtsberater auf dem Laufenden"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Kuwaitische Family Offices und Familien",
+      "title": "Umzug von Kuwait in die Schweiz",
+      "description": "Ein Schweizer Umzugs- und Governance-Weg für kuwaitische Familien, der Wohnsitz, Bankgeschäfte, Nachfolge, Schulen und eine stabile europäische Basis koordiniert.",
+      "metaDescription": "Schweizer Umzugsberatung für kuwaitische Familien und Family Offices. Plangenehmigungen, Private Banking, Governance, Schulen und Siedlung.",
+      "startingPoint": "Kuwait",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Sollte der Umzug in die Schweiz nach dem Wohnsitz der Familie, der Regierungsführung oder beidem strukturiert sein?",
+        "Welcher Kanton passt am besten zu Datenschutz, Steuern und Familienlogistik?",
+        "Wie sollten Bank-, Vorstands- und Berichtsarbeitsabläufe sequenziert werden?"
+      ],
+      "workstreams": [
+        "Familienprofil und Governance-Scoping",
+        "Kantonsvergleich für Wohn-, Privatsphäre- und Family-Office-Bedürfnisse",
+        "Private Banking und source-of-wealth-Vorbereitung",
+        "Schule, Wohnen, Gesundheitsversorgung und Familienansiedlung"
+      ],
+      "proofPoints": [
+        "Nützlich für Familien mit mehreren Generationen, die eine Verbindung zwischen Governance und Umzug benötigen",
+        "Konzipiert für vertrauliche Schweizer Einrichtung vor öffentlichen Verpflichtungen",
+        "Koordiniert Familien-, Bank-, Vorstands- und Siedlungsabhängigkeiten"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Gründer und Family Offices mit Sitz in Singapur",
+      "title": "Umzug von Singapur in die Schweiz",
+      "description": "Eine Route für in Singapur ansässige Unternehmer und Family Offices, die die Schweiz als europäischen Wohn-, Bank-, Governance- und Lifestyle-Standort vergleichen.",
+      "metaDescription": "Schweizer Umzugsberatung für in Singapur ansässige Gründer und Family Offices. Vergleichen Sie Wohnsitz, Steuern, Banken, Verwaltung, Schulen und Kantone.",
+      "startingPoint": "Singapur",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Was ändert sich, wenn eine Basis in Singapur durch einen Wohnsitz in der Schweiz ergänzt wird?",
+        "Welche Arbeitsabläufe müssen vor dem Familienumzug sequenziert werden?",
+        "Wie sollten Banking und Governance auf ein auf die Schweiz ausgerichtetes Setup vorbereitet sein?"
+      ],
+      "workstreams": [
+        "Ausstieg aus Singapur oder Dual-Base-Planung",
+        "Schweizer Wohnort- und Kantonsvergleich",
+        "Bank-, Governance- und Beraterkoordination",
+        "Schulen, Wohnen, Versicherungen und tägliche Abrechnung"
+      ],
+      "proofPoints": [
+        "Entwickelt für Kunden, die zwei hochwertige Gerichtsbarkeiten vergleichen",
+        "Hält Schweizer Lifestyle-Entscheidungen mit Banking und Governance in Verbindung",
+        "Nützlich, bevor Sie sich auf einen Kanton, einen Pachtvertrag oder eine Schullaufbahn festlegen"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Unternehmer und Familien aus Hongkong",
+      "title": "Umzug von Hongkong in die Schweiz",
+      "description": "Ein privater Umzugsweg in die Schweiz für Gründer, Vermögensinhaber und Familien aus Hongkong, die eine stabile europäische Basis mit starken Schulen und Banken suchen.",
+      "metaDescription": "Schweizer Umzugsberatung für Gründer und Familien aus Hongkong. Planen Sie Wohnsitz, Bankwesen, Schulen, Steuern, Wohnraum und Kantonsauswahl.",
+      "startingPoint": "Hongkong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Welcher Schweizer Kanton passt zu einer internationalen Familie aus Hongkong?",
+        "Wie sollten die Bankunterlagen und der source-of-wealth-Verlauf vorbereitet werden?",
+        "Was kann vor Schulbesuchen und Wohnungssuchen entschieden werden?"
+      ],
+      "workstreams": [
+        "Abflugzeitplan für Hongkong und Ankunft in der Schweiz",
+        "Kantonsvergleich für Schule, Steuern, Bankwesen und Alltag",
+        "Aufenthaltsgenehmigungen und Familieneingliederung",
+        "Private-Banking-Bereitschaft, Wohnraum und Abwicklung"
+      ],
+      "proofPoints": [
+        "Gut geeignet für Familien, die Wert auf Stabilität, Schulen und Diskretion legen",
+        "Koordiniert die praktische Abwicklung mit Bank- und Genehmigungsabhängigkeiten",
+        "Nützlich, bevor sensible Dokumente in Umlauf gebracht werden"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Gründer, Führungskräfte und Familien von US",
+      "title": "Umzug vom USA in die Schweiz",
+      "description": "Eine Schweizer Umzugsroute für mit US verbundene Kunden, die eine sorgfältige Koordination in Bezug auf Wohnsitz, Berater, Bankwesen, Schulen und anhaltende Steuerkomplexität benötigen.",
+      "metaDescription": "Schweizer Umzugsberatung für US-Gründer und -Familien. Koordinieren Sie Wohnsitz, Bankwesen, Berater, Schulen, Steuerkomplexität und Abrechnung.",
+      "startingPoint": "Vereinigte Staaten",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Wie sollten die Steuer- und Reportingberater von US mit dem Schweizer Plan in Verbindung bleiben?",
+        "Welcher Kanton passt zu den Schul-, Bank- und Reisebedürfnissen der Familie?",
+        "Was ist vor der Aufenthalts- und Wohnungszusage zu klären?"
+      ],
+      "workstreams": [
+        "US-Berater und Schweizer Beraterkoordination",
+        "Wohnweg und Familieneingliederung",
+        "Kantonsvergleich für Schulen, Reisen und Banken",
+        "Bankbereitschaft, Wohnen, Gesundheitswesen und Abwicklung"
+      ],
+      "proofPoints": [
+        "Entwickelt für Fälle, in denen die Komplexität der US-Berichte sichtbar bleiben muss",
+        "Hält Schweizer Entscheidungen mit bestehenden US-Beratern in Verbindung",
+        "Nützlich, bevor Bank-, Wohnungs- oder Schulverpflichtungen eingegangen werden"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Deutsche Unternehmer und Familien",
+      "title": "Umzug von Deutschland in die Schweiz",
+      "description": "Eine praktische Schweizer Umzugsroute für deutsche Gründer und Familien mit einem Vergleich von Wohnort, Kantonswahl, Unternehmensgründung, Schulen und grenzüberschreitendem Timing.",
+      "metaDescription": "Schweizer Umzugsberatung für deutsche Unternehmer und Familien. Planen Sie den Wohnsitz, die Wahl des Kantons, den Steuerzeitpunkt, die Unternehmensgründung, die Schulen und die Ansiedlung.",
+      "startingPoint": "Deutschland",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Wann sollten die deutsche Ausreiseplanung und die schweizerische Aufenthaltsplanung aufeinanderfolgen?",
+        "Welcher Kanton passt zu Unternehmensbesitz, Familienleben und Pendlerverhalten?",
+        "Wie sollen Genehmigungen, Unterbringung, Schulen und Berater koordiniert werden?"
+      ],
+      "workstreams": [
+        "Deutsche Abflug- und Schweizer Ankunftszeitleiste",
+        "Kantonsvergleich für Steuern, Schulen und Betriebe",
+        "Genehmigungsantrag und Familieneingliederung",
+        "Wohnungs-, Versicherungs-, Bank- und Abwicklungseinrichtung"
+      ],
+      "proofPoints": [
+        "Am besten für Gründer und Familien geeignet, die eine präzise zeitliche Regelung benötigen",
+        "Verbindet die Wahl des Kantons mit der praktischen Schul- und Wohnrealität",
+        "Sorgt für die Koordination deutscher und schweizerischer Berater"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Norwegische Gründer und Vermögensinhaber",
+      "title": "Umzug von Norwegen in die Schweiz",
+      "description": "Eine Schweizer Umzugsroute für norwegische Unternehmer, Investoren und Familien, die steuerliche Ansässigkeit, Genehmigungen, Kantonswahl, Schulen und Bankwesen prüfen.",
+      "metaDescription": "Schweizer Umzugsberatung für norwegische Gründer und Familien. Koordinieren Sie steuerliche Ansässigkeit, Genehmigungen, Bankgeschäfte, Schulen, Kantonswahl und Abwicklung.",
+      "startingPoint": "Norwegen",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Wann sollte die norwegische Ausreiseplanung an den Zeitpunkt des Aufenthalts in der Schweiz angepasst werden?",
+        "Welcher Kanton passt zu Privatsphäre, Familienleben und Steuerprioritäten?",
+        "Was sollte vor Bankeinführungen oder Schulentscheidungen abgestimmt werden?"
+      ],
+      "workstreams": [
+        "Zeitleiste der norwegischen Abreise und der Schweizer Ankunft",
+        "Kantonsvergleich für Familien-, Steuer- und Bankprioritäten",
+        "Aufenthaltsgenehmigungen und Familieneingliederung",
+        "Bankbereitschaft, Wohnen, Schulen und Siedlung"
+      ],
+      "proofPoints": [
+        "Entwickelt für Vermögensinhaber, die Steuerplanung und Familienlogistik miteinander verbinden müssen",
+        "Nützlich, bevor Sie sich auf einen Kantons- oder Schulweg festlegen",
+        "Koordiniert bestehende Berater mit der Schweizer Ausführung"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Gründer bewegen Geschäftssubstanz",
+      "title": "Verlegen Sie ein Unternehmen in die Schweiz",
+      "description": "Ein vom Gründer geleiteter Weg zur Übertragung von Unternehmenssubstanz, Vorstandsaufbau, Bankgeschäften, Genehmigungen und Familienumzug in einen koordinierten Schweizer Plan.",
+      "metaDescription": "Umzug eines Unternehmens in die Schweiz mit koordinierter Beratung zu Unternehmensgründung, Substanz, Bankgeschäften, Aufenthaltsgenehmigungen, Steuern und Familienumzug.",
+      "startingPoint": "International",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Sollte die Schweizer Gesellschaft gegründet werden, bevor oder nachdem die Wohnsitzroute klar ist?",
+        "Welche Substanz erwarten Kanton, Bank und Gegenparteien?",
+        "Wie wirken sich Gründergenehmigungen, Familienumzüge und Firmenkundengeschäft gegenseitig aus?"
+      ],
+      "workstreams": [
+        "Gründerprofil, Firmensubstanz und Kantonstauglichkeitsprüfung",
+        "Unternehmensgründung, Governance und Vorstandsaufbau",
+        "Bereitschaft und Dokumentation für das Firmenkundengeschäft",
+        "Gründererlaubnis, Familienumzug, Unterbringung und Ansiedlung"
+      ],
+      "proofPoints": [
+        "Entwickelt für Gründer, die eine Abstimmung der Arbeitsabläufe in Unternehmen und Familie benötigen",
+        "Verbindet Substanz, Genehmigungen, Bankgeschäfte und Abrechnung in der richtigen Reihenfolge",
+        "Reduziert Verzögerungen durch isolierte Rechts-, Bank- und Umzugsberatung"
+      ]
+    }
+  },
+  "fr": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Fondateurs, investisseurs et familles saoudiens",
+      "title": "S'installer en Suisse depuis l'Arabie Saoudite",
+      "description": "Une route de réinstallation en Suisse pour les entrepreneurs et les familles saoudiens qui coordonne la résidence, la préparation bancaire, les écoles, le logement et la sélection du canton.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs, investisseurs et familles saoudiens. Planifier les permis, les opérations bancaires, les écoles, les impôts, le logement et la sélection des cantons.",
+      "startingPoint": "Arabie Saoudite",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quel canton suisse correspond aux priorités de la famille en matière d'école, de confidentialité et de banque ?",
+        "Comment la documentation saoudienne source-of-wealth doit-elle être préparée avant les introductions bancaires ?",
+        "Les permis, les logements, les écoles et la coordination des conseillers peuvent-ils évoluer en parallèle ?"
+      ],
+      "workstreams": [
+        "Chronologie des départs saoudiens et des arrivées suisses",
+        "Préparation bancaire et récit de documentation du patrimoine",
+        "Comparaison entre écoles, logements et cantons",
+        "Demande de permis, assurance et séquence de règlement"
+      ],
+      "proofPoints": [
+        "Conçu pour les familles qui déplacent ensemble des biens importants et la vie quotidienne",
+        "Maintient les opérations bancaires, les permis, les écoles et le logement dans une séquence coordonnée",
+        "Utile avant que des documents sensibles ne soient partagés avec des banques ou des conseillers"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Clients privés basés au Qatar",
+      "title": "Déménager du Qatar vers la Suisse",
+      "description": "Un parcours discret pour les familles, les dirigeants et les investisseurs basés au Qatar comparant la résidence en Suisse, la banque privée, la scolarité et l'installation.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les familles et les investisseurs basés au Qatar. Coordonnez les permis, les banques privées, les écoles, le logement et le choix du canton.",
+      "startingPoint": "Qatar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Quel canton offre le bon mélange de discrétion, d’écoles et d’accès bancaire ?",
+        "Comment les conseillers GCC existants devraient-ils rester coordonnés avec l'exécution suisse ?",
+        "Que faut-il résoudre avant les visites scolaires ou les engagements en matière de logement ?"
+      ],
+      "workstreams": [
+        "Parcours de résidence et inclusion familiale",
+        "Préparation à la banque privée et coordination des conseillers",
+        "Liste restreinte des écoles internationales et calendrier des visites",
+        "Logement, assurance, soins de santé et règlement quotidien"
+      ],
+      "proofPoints": [
+        "Conçu pour les clients qui apprécient la discrétion avant les engagements publics",
+        "Relie les décisions de style de vie aux opérations bancaires et au calendrier des permis",
+        "Maintient les conseillers familiaux ou juridiques existants alignés"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Family offices et familles koweïtiens",
+      "title": "S'installer en Suisse depuis le Koweït",
+      "description": "Une voie de relocalisation et de gouvernance en Suisse pour les familles koweïtiennes coordonnant la résidence, les opérations bancaires, la succession, les écoles et une base européenne stable.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les familles koweïtiennes et les family offices. Planifier les permis, la banque privée, la gouvernance, les écoles et l'établissement.",
+      "startingPoint": "Koweït",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Le déménagement suisse doit-il être structuré autour de la résidence familiale, de la gouvernance, ou des deux ?",
+        "Quel canton correspond le mieux à la vie privée, à la fiscalité et à la logistique familiale ?",
+        "Comment les flux de travail liés aux opérations bancaires, au conseil d’administration et au reporting doivent-ils être séquencés ?"
+      ],
+      "workstreams": [
+        "Profil familial et portée de la gouvernance",
+        "Comparaison des cantons pour les besoins en matière de résidence, de confidentialité et de family office",
+        "Banque privée et préparation source-of-wealth",
+        "Scolarité, logement, soins de santé et établissement familial"
+      ],
+      "proofPoints": [
+        "Utile pour les familles multigénérationnelles qui ont besoin de connexion entre gouvernance et réinstallation",
+        "Conçu pour une configuration suisse confidentielle avant les engagements publics",
+        "Coordonne les dépendances de la famille, de la banque, du conseil d’administration et de l’établissement"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Fondateurs et family offices basés à Singapour",
+      "title": "S'installer en Suisse depuis Singapour",
+      "description": "Un itinéraire pour les entrepreneurs et les family offices basés à Singapour comparant la Suisse en tant que base européenne de résidence, de banque, de gouvernance et de style de vie.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les family offices basés à Singapour. Comparez la résidence, la fiscalité, les banques, la gouvernance, les écoles et les cantons.",
+      "startingPoint": "Singapour",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Qu'est-ce qui change lorsqu'une base à Singapour est complétée par une résidence en Suisse ?",
+        "Quels axes de travail doivent être séquencés avant le déménagement familial ?",
+        "Comment le secteur bancaire et la gouvernance devraient-ils se préparer à une configuration orientée vers la Suisse ?"
+      ],
+      "workstreams": [
+        "Plan de sortie de Singapour ou de double base",
+        "Comparaison de résidence et de cantons en Suisse",
+        "Banque, gouvernance et coordination des conseillers",
+        "Écoles, logement, assurance et règlement quotidien"
+      ],
+      "proofPoints": [
+        "Conçu pour les clients comparant deux juridictions de haute qualité",
+        "Maintient les décisions de style de vie suisses liées à la banque et à la gouvernance",
+        "Utile avant de s'engager dans un canton, un bail ou une filière scolaire"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Entrepreneurs et familles de Hong Kong",
+      "title": "S'installer en Suisse depuis Hong Kong",
+      "description": "Un parcours de relocalisation privé en Suisse pour les fondateurs, les détenteurs de richesses et les familles de Hong Kong à la recherche d'une base européenne stable avec des écoles et des services bancaires solides.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles de Hong Kong. Planifiez la résidence, les opérations bancaires, les écoles, les impôts, le logement et la sélection du canton.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quel canton suisse convient à une famille internationale venant de Hong Kong?",
+        "Comment préparer la documentation bancaire et l’historique de source-of-wealth ?",
+        "Que peut-on décider avant les visites scolaires et les recherches de logement ?"
+      ],
+      "workstreams": [
+        "Horaires de départ de Hong Kong et d’arrivée en Suisse",
+        "Comparaison des cantons pour les écoles, les impôts, les banques et la vie quotidienne",
+        "Permis de séjour et inclusion familiale",
+        "Préparation à la banque privée, logement et règlement"
+      ],
+      "proofPoints": [
+        "Bon ajustement pour les familles privilégiant la stabilité, les écoles et la discrétion",
+        "Coordonne le règlement pratique avec les dépendances bancaires et de permis",
+        "Utile avant la diffusion de documents sensibles"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Fondateurs, dirigeants et familles de US",
+      "title": "Déménager en Suisse depuis le USA",
+      "description": "Un itinéraire de réinstallation en Suisse pour les clients connectés à US qui ont besoin d'une coordination minutieuse autour de la résidence, des conseillers, des services bancaires, des écoles et de la complexité fiscale continue.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles de US. Coordonnez la résidence, les opérations bancaires, les conseillers, les écoles, la complexité fiscale et le règlement.",
+      "startingPoint": "États-Unis",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Comment les conseillers fiscaux et reporting de US doivent-ils rester connectés au plan suisse ?",
+        "Quel canton répond aux besoins scolaires, bancaires et de voyage de la famille ?",
+        "Que faut-il clarifier avant les engagements en matière de résidence et de logement ?"
+      ],
+      "workstreams": [
+        "Coordination des conseillers US et des conseillers suisses",
+        "Parcours de résidence et inclusion familiale",
+        "Comparaison des cantons pour les écoles, les voyages et les banques",
+        "Préparation bancaire, logement, soins de santé et règlement"
+      ],
+      "proofPoints": [
+        "Conçu pour les cas où la complexité des rapports US doit rester visible",
+        "Maintient les décisions suisses connectées aux conseillers US existants",
+        "Utile avant de prendre des engagements bancaires, de logement ou d'école"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Entrepreneurs et familles allemands",
+      "title": "S'installer en Suisse depuis l'Allemagne",
+      "description": "Un itinéraire de relocalisation suisse pratique pour les fondateurs et les familles allemands comparant la résidence, le choix du canton, la création d'entreprise, les écoles et le calendrier transfrontalier.",
+      "metaDescription": "Conseil en matière de déménagement en Suisse pour les entrepreneurs et les familles allemands. Planifiez la résidence, le choix du canton, le calendrier fiscal, la création d'entreprise, les écoles et l'installation.",
+      "startingPoint": "Allemagne",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Quand faut-il séquencer la planification du départ en Allemagne et la planification du séjour en Suisse ?",
+        "Quel canton convient le mieux à la propriété d’entreprise, à la vie de famille et aux déplacements domicile-travail ?",
+        "Comment les permis, le logement, les écoles et les conseillers doivent-ils être coordonnés ?"
+      ],
+      "workstreams": [
+        "Chronologie des départs allemands et des arrivées suisses",
+        "Comparaison des cantons pour les opérations fiscales, scolaires et commerciales",
+        "Demande de permis et inclusion familiale",
+        "Configuration du logement, de l'assurance, de la banque et de l'établissement"
+      ],
+      "proofPoints": [
+        "Idéal pour les fondateurs et les familles qui ont besoin d’un timing géré avec précision",
+        "Relie le choix du canton aux réalités pratiques de l’école et du logement",
+        "Assure la coordination des conseillers allemands et suisses"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Fondateurs et détenteurs de richesses norvégiens",
+      "title": "Déménager en Suisse depuis la Norvège",
+      "description": "Une voie de réinstallation en Suisse pour les entrepreneurs, les investisseurs et les familles norvégiens évaluant la résidence fiscale, les permis, le choix du canton, les écoles et les services bancaires.",
+      "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles norvégiennes. Coordonnez la résidence fiscale, les permis, les opérations bancaires, les écoles, le choix du canton et l'établissement.",
+      "startingPoint": "Norvège",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quand la planification de sortie norvégienne devrait-elle être alignée sur le calendrier de résidence en Suisse ?",
+        "Quel canton correspond aux priorités en matière de vie privée, de vie familiale et fiscale ?",
+        "Que faut-il coordonner avant les introductions bancaires ou les décisions scolaires ?"
+      ],
+      "workstreams": [
+        "Chronologie des départs norvégiens et des arrivées suisses",
+        "Comparaison des cantons pour les priorités familiales, fiscales et bancaires",
+        "Permis de séjour et inclusion familiale",
+        "Préparation bancaire, logement, écoles et établissement"
+      ],
+      "proofPoints": [
+        "Conçu pour les détenteurs de patrimoine qui ont besoin de synchronisation fiscale et de logistique familiale connectée",
+        "Utile avant de s'engager dans une filière canton ou école",
+        "Coordonne les conseillers existants avec l’exécution suisse"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Les fondateurs déplacent la substance de leur entreprise",
+      "title": "Déménager une entreprise en Suisse",
+      "description": "Un itinéraire dirigé par le fondateur pour déplacer la substance de l'entreprise, la configuration du conseil d'administration, les opérations bancaires, les permis et la relocalisation de la famille dans un seul plan suisse coordonné.",
+      "metaDescription": "Déplacez une entreprise en Suisse avec des conseils coordonnés en matière de création d'entreprise, de substance, de services bancaires, de permis de séjour, de fiscalité et de déménagement familial.",
+      "startingPoint": "Internationale",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "La société suisse doit-elle être créée avant ou après que la voie de résidence soit claire ?",
+        "Quel contenu le canton, la banque et les contreparties attendent-ils ?",
+        "Comment les permis de fondateur, le déménagement familial et les services bancaires d’entreprise s’influencent-ils mutuellement ?"
+      ],
+      "workstreams": [
+        "Profil du fondateur, substance de l'entreprise et examen de l'adéquation du canton",
+        "Création d'entreprise, gouvernance et configuration du conseil d'administration",
+        "Préparation et documentation pour les services bancaires d'entreprise",
+        "Permis de fondateur, déménagement familial, logement et installation"
+      ],
+      "proofPoints": [
+        "Conçu pour les fondateurs qui ont besoin d'aligner les flux de travail de l'entreprise et de la famille",
+        "Relie la substance, les permis, les opérations bancaires et le règlement dans le bon ordre",
+        "Réduit les délais liés aux conseils juridiques, bancaires et de réinstallation isolés"
+      ]
+    }
+  },
+  "ar": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "المؤسسون والمستثمرون والعائلات السعودية",
+      "title": "انتقل إلى سويسرا من المملكة العربية السعودية",
+      "description": "طريق انتقال سويسري لرواد الأعمال والعائلات السعودية، حيث يقوم بتنسيق الإقامة، والاستعداد المصرفي، والمدارس، والإسكان، واختيار الكانتونات.",
+      "metaDescription": "استشارات النقل السويسرية للمؤسسين والمستثمرين والعائلات السعودية. تصاريح الخطة، والخدمات المصرفية، والمدارس، والضرائب، والإسكان، واختيار الكانتونات.",
+      "startingPoint": "المملكة العربية السعودية",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "ما هو الكانتون السويسري الذي يناسب المدرسة والخصوصية والأولويات المصرفية للعائلة؟",
+        "كيف ينبغي إعداد وثائق source-of-wealth السعودية قبل تقديم البنك؟",
+        "هل يمكن أن تتحرك التصاريح والإسكان والمدارس وتنسيق المستشارين بالتوازي؟"
+      ],
+      "workstreams": [
+        "رحيل السعودية والجدول الزمني للوصول السويسري",
+        "الاستعداد المصرفي وسرد توثيق الثروة",
+        "مقارنة المدارس والإسكان والكانتونات",
+        "طلب التصريح والتأمين وتسلسل التسوية"
+      ],
+      "proofPoints": [
+        "مصممة للعائلات التي تقوم بنقل الأصول المهمة والحياة اليومية معًا",
+        "يحافظ على الخدمات المصرفية والتصاريح والمدارس والإسكان في تسلسل واحد منسق",
+        "مفيد قبل مشاركة المستندات الحساسة مع البنوك أو المستشارين"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "عملاء القطاع الخاص في قطر",
+      "title": "الانتقال إلى سويسرا من قطر",
+      "description": "مسار سري للعائلات والمديرين التنفيذيين والمستثمرين المقيمين في قطر، حيث يقارن بين الإقامة السويسرية والخدمات المصرفية الخاصة والتعليم والتسوية.",
+      "metaDescription": "استشارات النقل السويسرية للعائلات والمستثمرين المقيمين في قطر. تنسيق التصاريح والخدمات المصرفية الخاصة والمدارس والإسكان واختيار الكانتونات.",
+      "startingPoint": "قطر",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "ما هي الكانتون الذي يقدم المزيج المناسب من حرية التصرف والمدارس والوصول إلى البنوك؟",
+        "كيف ينبغي لمستشاري GCC الحاليين أن يظلوا منسقين مع التنفيذ السويسري؟",
+        "ما الذي يجب حله قبل الزيارات المدرسية أو التزامات السكن؟"
+      ],
+      "workstreams": [
+        "مسار الإقامة وإدماج الأسرة",
+        "جاهزية الخدمات المصرفية الخاصة وتنسيق المستشارين",
+        "القائمة المختصرة للمدارس الدولية وجدول الزيارة",
+        "السكن والتأمين والرعاية الصحية والتسوية اليومية"
+      ],
+      "proofPoints": [
+        "مصمم للعملاء الذين يقدرون التقدير قبل الالتزامات العامة",
+        "يربط قرارات نمط الحياة مع الخدمات المصرفية وتوقيت التصاريح",
+        "يحافظ على محاذاة مكتب العائلة أو المستشارين القانونيين الحاليين"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "مكاتب وعائلات العائلة الكويتية",
+      "title": "الانتقال إلى سويسرا من الكويت",
+      "description": "طريق سويسري للانتقال والحوكمة للعائلات الكويتية، حيث يقوم بتنسيق الإقامة والخدمات المصرفية والخلافة والمدارس وقاعدة أوروبية مستقرة.",
+      "metaDescription": "استشارات النقل السويسرية للعائلات الكويتية ومكاتب العائلات. تصاريح الخطة، والخدمات المصرفية الخاصة، والحكم، والمدارس، والتسوية.",
+      "startingPoint": "الكويت",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "هل ينبغي أن تتمحور الخطوة السويسرية حول إقامة الأسرة، أو الحكم، أو كليهما؟",
+        "ما هي الكانتون الذي يناسب الخصوصية والضرائب والخدمات اللوجستية العائلية؟",
+        "كيف ينبغي تسلسل مسارات العمل المصرفية ومجلس الإدارة وإعداد التقارير؟"
+      ],
+      "workstreams": [
+        "ملف تعريف الأسرة ونطاق الإدارة",
+        "مقارنة كانتون فيما يتعلق باحتياجات الإقامة والخصوصية والمكاتب العائلية",
+        "الخدمات المصرفية الخاصة وإعداد source-of-wealth",
+        "التعليم والإسكان والرعاية الصحية والتسوية الأسرية"
+      ],
+      "proofPoints": [
+        "مفيد للعائلات متعددة الأجيال التي تحتاج إلى الاتصال بالحكم والانتقال",
+        "مصممة للإعداد السويسري السري قبل الالتزامات العامة",
+        "ينسق تبعيات الأسرة والبنك ومجلس الإدارة والتسوية"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "المؤسسون والمكاتب العائلية المقيمون في سنغافورة",
+      "title": "الانتقال إلى سويسرا من سنغافورة",
+      "description": "طريق لرواد الأعمال والمكاتب العائلية المقيمين في سنغافورة، والذي يقارن سويسرا باعتبارها مقرًا أوروبيًا للإقامة والخدمات المصرفية والحوكمة وأسلوب الحياة.",
+      "metaDescription": "استشارات النقل السويسرية للمؤسسين والمكاتب العائلية المقيمين في سنغافورة. قارن بين الإقامة والضرائب والخدمات المصرفية والحكم والمدارس والكانتونات.",
+      "startingPoint": "سنغافورة",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "ما الذي يتغير عندما يتم استكمال قاعدة سنغافورة بالإقامة السويسرية؟",
+        "ما هي مسارات العمل التي يجب تسلسلها قبل نقل الأسرة؟",
+        "فكيف ينبغي إعداد القطاع المصرفي والحوكمة للتعامل مع بيئة ذات واجهة سويسرية؟"
+      ],
+      "workstreams": [
+        "خروج سنغافورة أو التخطيط المزدوج",
+        "الإقامة السويسرية ومقارنة الكانتونات",
+        "التنسيق المصرفي والحوكمة والمستشارين",
+        "المدارس والسكن والتأمين والتسوية اليومية"
+      ],
+      "proofPoints": [
+        "مصمم للعملاء الذين يقارنون بين ولايتين قضائيتين عاليتي الجودة",
+        "تحافظ على ارتباط قرارات نمط الحياة السويسرية بالأعمال المصرفية والحوكمة",
+        "مفيد قبل الالتزام بمقاطعة أو عقد إيجار أو مسار مدرسي"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "رجال الأعمال والعائلات في هونغ كونغ",
+      "title": "الانتقال إلى سويسرا من هونج كونج",
+      "description": "مسار انتقال سويسري خاص لمؤسسي هونج كونج وأصحاب الثروات والعائلات التي تسعى إلى قاعدة أوروبية مستقرة مع مدارس ومصارف قوية.",
+      "metaDescription": "استشارات النقل السويسرية لمؤسسي وعائلات هونج كونج. خطة الإقامة، والخدمات المصرفية، والمدارس، والضرائب، والإسكان، واختيار الكانتون.",
+      "startingPoint": "هونج كونج",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "ما هو الكانتون السويسري الذي يناسب عائلة دولية قادمة من هونغ كونغ؟",
+        "كيف ينبغي إعداد الوثائق المصرفية وتاريخ source-of-wealth؟",
+        "ما الذي يمكن تحديده قبل الزيارات المدرسية وتفتيش السكن؟"
+      ],
+      "workstreams": [
+        "مغادرة هونج كونج والجدول الزمني للوصول السويسري",
+        "مقارنة كانتون للمدارس والضرائب والبنوك والحياة اليومية",
+        "تصاريح الإقامة وإدماج الأسرة",
+        "جاهزية الخدمات المصرفية الخاصة والإسكان والتسوية"
+      ],
+      "proofPoints": [
+        "مناسب جيدًا للعائلات التي تعطي الأولوية للاستقرار والمدارس والتقدير",
+        "ينسق التسوية العملية مع تبعيات البنك والتصريح",
+        "مفيد قبل توزيع المستندات الحساسة"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "مؤسسو US والمديرون التنفيذيون والعائلات",
+      "title": "انتقل إلى سويسرا من USA",
+      "description": "طريق نقل سويسري للعملاء المتصلين بـ US والذين يحتاجون إلى تنسيق دقيق حول الإقامة والمستشارين والخدمات المصرفية والمدارس والتعقيد الضريبي المستمر.",
+      "metaDescription": "استشارات النقل السويسرية لمؤسسي وعائلات US. تنسيق الإقامة والخدمات المصرفية والمستشارين والمدارس والتعقيد الضريبي والتسوية.",
+      "startingPoint": "الولايات المتحدة",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "كيف يجب أن يظل مستشارو الضرائب وإعداد التقارير في US على اتصال بالخطة السويسرية؟",
+        "ما هي الكانتون الذي يناسب احتياجات العائلة من حيث المدرسة، والخدمات المصرفية، والسفر؟",
+        "ما الذي يجب توضيحه قبل التزامات الإقامة والسكن؟"
+      ],
+      "workstreams": [
+        "مستشار US وتنسيق المستشار السويسري",
+        "طريق الإقامة وإدماج الأسرة",
+        "مقارنة كانتون للمدارس والسفر والخدمات المصرفية",
+        "الاستعداد المصرفي والإسكان والرعاية الصحية والتسوية"
+      ],
+      "proofPoints": [
+        "مصمم للحالات التي يجب أن يظل فيها تعقيد إعداد التقارير US مرئيًا",
+        "يبقي القرارات السويسرية مرتبطة بمستشاري US الحاليين",
+        "مفيد قبل تقديم الالتزامات المصرفية أو الإسكان أو المدرسة"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "رجال الأعمال والعائلات الألمانية",
+      "title": "الانتقال إلى سويسرا من ألمانيا",
+      "description": "طريق انتقال عملي في سويسرا للمؤسسين والعائلات الألمانية يقارن بين أماكن الإقامة واختيار الكانتونات وإعداد الأعمال والمدارس والتوقيت عبر الحدود.",
+      "metaDescription": "استشارات النقل السويسرية لرواد الأعمال والعائلات الألمانية. خطة الإقامة واختيار الكانتون وتوقيت الضرائب وإعداد الأعمال والمدارس والتسوية.",
+      "startingPoint": "ألمانيا",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "متى يجب أن يتم التسلسل بين تخطيط المغادرة الألماني وتخطيط الإقامة السويسرية؟",
+        "ما هي الكانتون الذي يناسب ملكية الأعمال، والحياة الأسرية، وأنماط التنقل؟",
+        "كيف ينبغي تنسيق التصاريح والإسكان والمدارس والمستشارين؟"
+      ],
+      "workstreams": [
+        "المغادرة الألمانية والجدول الزمني للوصول السويسري",
+        "مقارنة كانتون للضرائب والمدارس والعمليات التجارية",
+        "طلب تصريح وإدماج الأسرة",
+        "إعداد الإسكان والتأمين والخدمات المصرفية والتسوية"
+      ],
+      "proofPoints": [
+        "الأفضل للمؤسسين والعائلات الذين يحتاجون إلى التعامل مع التوقيت بدقة",
+        "يربط اختيار الكانتون مع الواقع العملي للمدرسة والإسكان",
+        "يحافظ على التنسيق بين المستشارين الألمان والسويسريين"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "المؤسسون النرويجيون وأصحاب الثروات",
+      "title": "الانتقال إلى سويسرا من النرويج",
+      "description": "طريق نقل سويسري لرواد الأعمال والمستثمرين والأسر النرويجيين الذين يقومون بتقييم الإقامة الضريبية والتصاريح واختيار الكانتونات والمدارس والخدمات المصرفية.",
+      "metaDescription": "استشارات النقل السويسرية للمؤسسين والعائلات النرويجية. تنسيق الإقامة الضريبية، والتصاريح، والخدمات المصرفية، والمدارس، واختيار الكانتونات، والتسوية.",
+      "startingPoint": "النرويج",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "متى يجب أن يتوافق تخطيط الخروج النرويجي مع توقيت الإقامة في سويسرا؟",
+        "ما هي الكانتونات التي تناسب الخصوصية والحياة الأسرية والأولويات الضريبية؟",
+        "ما الذي يجب تنسيقه قبل التقديمات البنكية أو القرارات المدرسية؟"
+      ],
+      "workstreams": [
+        "المغادرة النرويجية والجدول الزمني للوصول السويسري",
+        "مقارنة كانتون للأولويات العائلية والضريبية والمصرفية",
+        "تصاريح الإقامة وإدماج الأسرة",
+        "الاستعداد المصرفي والإسكان والمدارس والتسوية"
+      ],
+      "proofPoints": [
+        "مصمم لأصحاب الثروات الذين يحتاجون إلى توصيل التوقيت الضريبي والخدمات اللوجستية العائلية",
+        "مفيد قبل الالتزام بمسار كانتون أو مدرسة",
+        "ينسق المستشارين الحاليين مع التنفيذ السويسري"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "المؤسسون ينقلون مادة الأعمال",
+      "title": "نقل شركة إلى سويسرا",
+      "description": "طريق يقوده المؤسس لنقل مواد الشركة، وإعداد مجلس الإدارة، والخدمات المصرفية، والتصاريح، ونقل الأسرة إلى خطة سويسرية منسقة واحدة.",
+      "metaDescription": "انقل شركة إلى سويسرا مع استشارات منسقة لتأسيس الشركة، والمضمون، والخدمات المصرفية، وتصاريح الإقامة، والضرائب، ونقل الأسرة.",
+      "startingPoint": "دولي",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "هل يجب تأسيس الشركة السويسرية قبل أو بعد إخلاء طريق الإقامة؟",
+        "ما هو المضمون الذي يتوقعه الكانتون والبنك والأطراف المقابلة؟",
+        "كيف تؤثر تصاريح المؤسس، ونقل الأسرة، والخدمات المصرفية للشركات على بعضها البعض؟"
+      ],
+      "workstreams": [
+        "الملف التعريفي للمؤسس، وجوهر الشركة، ومراجعة الكانتون الملائمة",
+        "تشكيل الشركة والحوكمة وإعداد مجلس الإدارة",
+        "الاستعداد والتوثيق للخدمات المصرفية للشركات",
+        "تصريح المؤسس ونقل الأسرة والسكن والاستيطان"
+      ],
+      "proofPoints": [
+        "مصمم للمؤسسين الذين يحتاجون إلى توافق مسارات عمل الشركة والعائلة",
+        "يربط بين المواد والتصاريح والخدمات المصرفية والتسوية بالترتيب الصحيح",
+        "يقلل من التأخير الناتج عن النصائح القانونية والمصرفية والنقل المعزولة"
+      ]
+    }
+  },
+  "fa": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "بنیانگذاران، سرمایه گذاران و خانواده های سعودی",
+      "title": "از عربستان سعودی به سوئیس نقل مکان کنید",
+      "description": "یک مسیر جابجایی سوئیس برای کارآفرینان و خانواده‌های سعودی که هماهنگی‌های مربوط به اقامت، آمادگی بانکی، مدارس، مسکن و انتخاب کانتون را انجام می‌دهند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای بنیانگذاران، سرمایه گذاران و خانواده های سعودی. مجوزهای طرح، بانکداری، مدارس، مالیات، مسکن و انتخاب کانتون.",
+      "startingPoint": "عربستان سعودی",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "کدام کانتون سوئیس با اولویت های مدرسه، حریم خصوصی و بانکی خانواده مطابقت دارد؟",
+        "اسناد source-of-wealth عربستان چگونه باید قبل از معرفی بانک تهیه شود؟",
+        "آیا مجوزها، مسکن، مدارس و هماهنگی مشاوران می توانند به صورت موازی حرکت کنند؟"
+      ],
+      "workstreams": [
+        "جدول زمانی حرکت عربستان و ورود سوئیس",
+        "آمادگی بانکی و روایت اسناد ثروت",
+        "مقایسه مدرسه، مسکن و کانتون",
+        "درخواست مجوز، بیمه و ترتیب تسویه حساب"
+      ],
+      "proofPoints": [
+        "طراحی شده برای خانواده هایی که دارایی های مهم و زندگی روزمره را با هم جا به جا می کنند",
+        "بانکداری، مجوزها، مدارس و مسکن را در یک توالی هماهنگ نگه می دارد",
+        "قبل از به اشتراک گذاشتن اسناد حساس با بانک ها یا مشاوران مفید است"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "مشتریان خصوصی مستقر در قطر",
+      "title": "از قطر به سوئیس بروید",
+      "description": "مسیری محتاطانه برای خانواده ها، مدیران و سرمایه گذاران مقیم قطر که اقامت سوئیس، بانکداری خصوصی، تحصیل و اسکان را مقایسه می کنند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای خانواده ها و سرمایه گذاران مقیم قطر. مجوزهای هماهنگ، بانکداری خصوصی، مدارس، مسکن و انتخاب کانتون.",
+      "startingPoint": "قطر",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "کدام کانتون ترکیب مناسبی از اختیار، مدارس و دسترسی به بانک را ارائه می دهد؟",
+        "مشاوران موجود GCC چگونه باید با اجرای سوئیس هماهنگ باشند؟",
+        "چه چیزی باید قبل از بازدید از مدرسه یا تعهدات مسکن حل شود؟"
+      ],
+      "workstreams": [
+        "مسیر اقامت و شمول خانواده",
+        "آمادگی بانک خصوصی و هماهنگی مشاور",
+        "لیست کوتاه مدارس بین المللی و برنامه بازدید",
+        "مسکن، بیمه، مراقبت های بهداشتی و اسکان روزانه"
+      ],
+      "proofPoints": [
+        "ساخته شده برای مشتریانی که به صلاحدید قبل از تعهدات عمومی اهمیت می دهند",
+        "تصمیمات مربوط به شیوه زندگی را با بانکداری و زمان بندی مجوزها مرتبط می کند",
+        "مشاوران حقوقی یا دفتر خانواده موجود را در یک راستا نگه می دارد"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "دفاتر و خانواده های خانواده کویتی",
+      "title": "از کویت به سوئیس حرکت کنید",
+      "description": "یک مسیر جابجایی سوئیسی و راه حکومتی برای خانواده‌های کویتی که اقامت، بانکداری، جانشینی، مدارس و یک پایگاه اروپایی پایدار را هماهنگ می‌کند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای خانواده ها و دفاتر خانواده کویتی. مجوزهای طرح، بانکداری خصوصی، حاکمیت، مدارس و شهرک سازی.",
+      "startingPoint": "کویت",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "آیا حرکت سوئیس باید بر اساس محل اقامت خانوادگی، حکومت، یا هر دو ساختار شود؟",
+        "کدام کانتون برای حفظ حریم خصوصی، مالیات و تدارکات خانواده مناسب تر است؟",
+        "روندهای کاری بانکی، هیئت مدیره و گزارشگری چگونه باید ترتیب داده شوند؟"
+      ],
+      "workstreams": [
+        "نمایه خانواده و محدوده حاکمیت",
+        "مقایسه کانتون برای اقامت، حریم خصوصی و نیازهای خانوادگی-دفتر",
+        "بانکداری خصوصی و آماده سازی source-of-wealth",
+        "تحصیل، مسکن، بهداشت و درمان و اسکان خانواده"
+      ],
+      "proofPoints": [
+        "مفید برای خانواده های چند نسلی که نیاز به حکمرانی و جابجایی متصل دارند",
+        "طراحی شده برای راه اندازی محرمانه سوئیس قبل از تعهدات عمومی",
+        "وابستگی های خانواده، بانک، هیئت مدیره و تسویه حساب را هماهنگ می کند"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "بنیانگذاران و دفاتر خانوادگی مستقر در سنگاپور",
+      "title": "از سنگاپور به سوییس بروید",
+      "description": "مسیری برای کارآفرینان مستقر در سنگاپور و دفاتر خانوادگی که سوئیس را به عنوان یک اقامتگاه اروپایی، بانکداری، حکومتداری و پایگاه سبک زندگی مقایسه می کنند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای بنیانگذاران و دفاتر خانوادگی مستقر در سنگاپور. اقامت، مالیات، بانکداری، حاکمیت، مدارس و کانتون ها را مقایسه کنید.",
+      "startingPoint": "سنگاپور",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "هنگامی که یک پایگاه سنگاپور با اقامت سوئیس تکمیل می شود، چه تغییری می کند؟",
+        "کدام جریان های کاری باید قبل از جابجایی خانواده ترتیب داده شوند؟",
+        "بانکداری و حاکمیت چگونه باید برای راه اندازی سوئیس آماده شود؟"
+      ],
+      "workstreams": [
+        "خروج از سنگاپور یا برنامه ریزی دو پایه",
+        "مقایسه اقامت سوئیس و کانتون",
+        "بانکداری، حاکمیت، و هماهنگی مشاور",
+        "مدارس، مسکن، بیمه و اسکان روزانه"
+      ],
+      "proofPoints": [
+        "ساخته شده برای مشتریانی که دو حوزه قضایی با کیفیت بالا را مقایسه می کنند",
+        "تصمیمات سبک زندگی سوئیسی را به بانکداری و حکمرانی مرتبط نگه می دارد",
+        "قبل از تعهد به یک کانتون، اجاره یا پیست مدرسه مفید است"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "کارآفرینان و خانواده های هنگ کنگی",
+      "title": "از هنگ کنگ به سوئیس حرکت کنید",
+      "description": "یک مسیر خصوصی جابجایی سوئیس برای بنیانگذاران هنگ کنگ، دارندگان ثروت، و خانواده هایی که به دنبال یک پایگاه اروپایی پایدار با مدارس قوی و بانکداری هستند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای بنیانگذاران و خانواده های هنگ کنگ. برای اقامت، بانکداری، مدارس، مالیات، مسکن و انتخاب کانتون برنامه ریزی کنید.",
+      "startingPoint": "هنگ کنگ",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "کدام کانتون سوئیس برای خانواده بین المللی که از هنگ کنگ آمده اند مناسب است؟",
+        "اسناد بانکی و تاریخچه source-of-wealth چگونه باید تهیه شود؟",
+        "قبل از بازدید از مدرسه و جستجوی مسکن چه چیزی را می توان تصمیم گرفت؟"
+      ],
+      "workstreams": [
+        "جدول زمانی حرکت هنگ کنگ و ورود سوئیس",
+        "مقایسه کانتون برای مدارس، مالیات، بانکداری و زندگی روزمره",
+        "اجازه اقامت و شمول خانواده",
+        "آمادگی بانک خصوصی، مسکن و تسویه حساب"
+      ],
+      "proofPoints": [
+        "مناسب برای خانواده هایی که ثبات، مدارس و اختیار را در اولویت قرار می دهند",
+        "تسویه عملی را با وابستگی های بانک و مجوز هماهنگ می کند",
+        "قبل از انتشار اسناد حساس مفید است"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "بنیانگذاران، مدیران و خانواده های US",
+      "title": "از USA به سوییس بروید",
+      "description": "یک مسیر جابجایی سوئیس برای مشتریان متصل به US که به هماهنگی دقیق در مورد محل اقامت، مشاوران، بانکداری، مدارس و پیچیدگی مالیاتی مداوم نیاز دارند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای بنیانگذاران و خانواده های US. هماهنگی اقامت، بانکداری، مشاوران، مدارس، پیچیدگی مالیاتی و تسویه حساب.",
+      "startingPoint": "ایالات متحده",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "مشاوران مالیاتی و گزارش دهی US چگونه باید به طرح سوئیس متصل بمانند؟",
+        "کدام کانتون متناسب با نیازهای مدرسه، بانک و سفر خانواده است؟",
+        "قبل از تعهدات سکونت و مسکن چه چیزی باید روشن شود؟"
+      ],
+      "workstreams": [
+        "مشاور US و هماهنگی مشاور سوئیسی",
+        "مسیر سکونت و شمول خانواده",
+        "مقایسه کانتون برای مدارس، سفر و بانکداری",
+        "آمادگی بانکی، مسکن، بهداشت و درمان و تسویه حساب"
+      ],
+      "proofPoints": [
+        "برای مواردی ساخته شده است که پیچیدگی گزارش US باید قابل مشاهده باشد",
+        "تصمیمات سوئیس را به مشاوران موجود US متصل نگه می دارد",
+        "قبل از انجام تعهدات بانکی، مسکن یا مدرسه مفید است"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "کارآفرینان و خانواده های آلمانی",
+      "title": "از آلمان به سوئیس بروید",
+      "description": "یک مسیر عملی جابجایی سوئیس برای بنیان‌گذاران و خانواده‌های آلمانی که محل سکونت، انتخاب کانتون، راه‌اندازی کسب‌وکار، مدارس و زمان‌بندی فرامرزی را مقایسه می‌کند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای کارآفرینان و خانواده های آلمانی. محل سکونت، انتخاب کانتون، زمان بندی مالیات، راه اندازی کسب و کار، مدارس و اسکان را برنامه ریزی کنید.",
+      "startingPoint": "آلمان",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "برنامه ریزی خروج آلمان و برنامه ریزی اقامت سوئیس چه زمانی باید ترتیب داده شوند؟",
+        "کدام کانتون با مالکیت کسب و کار، زندگی خانوادگی و الگوهای رفت و آمد مناسب است؟",
+        "مجوزها، مسکن، مدارس و مشاوران چگونه باید هماهنگ شوند؟"
+      ],
+      "workstreams": [
+        "جدول زمانی حرکت آلمان و ورود سوئیس",
+        "مقایسه کانتون برای مالیات، مدارس و عملیات تجاری",
+        "درخواست مجوز و شمول خانواده",
+        "راه اندازی مسکن، بیمه، بانک و تسویه حساب"
+      ],
+      "proofPoints": [
+        "بهترین برای بنیانگذاران و خانواده هایی که نیاز به زمان بندی دقیق دارند",
+        "انتخاب کانتون را با واقعیت های مدرسه عملی و مسکن مرتبط می کند",
+        "مشاوران آلمانی و سوئیسی را هماهنگ نگه می دارد"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "بنیانگذاران و صاحبان ثروت نروژی",
+      "title": "از نروژ به سوییس بروید",
+      "description": "یک مسیر جابجایی سوئیس برای کارآفرینان، سرمایه گذاران و خانواده های نروژی که اقامت مالیاتی، مجوزها، انتخاب کانتون، مدارس و بانکداری را ارزیابی می کنند.",
+      "metaDescription": "مشاوره جابجایی سوئیس برای بنیانگذاران و خانواده های نروژی. اقامت مالیاتی، مجوزها، بانکداری، مدارس، انتخاب کانتون و اسکان را هماهنگ کنید.",
+      "startingPoint": "نروژ",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "چه زمانی باید برنامه ریزی خروج نروژ با زمان بندی اقامت سوئیس هماهنگ شود؟",
+        "کدام کانتون متناسب با حریم خصوصی، زندگی خانوادگی و اولویت های مالیاتی است؟",
+        "چه چیزی باید قبل از معرفی بانک یا تصمیمات مدرسه هماهنگ شود؟"
+      ],
+      "workstreams": [
+        "جدول زمانی حرکت نروژ و ورود سوئیس",
+        "مقایسه کانتون برای اولویت های خانوادگی، مالیاتی و بانکی",
+        "اجازه اقامت و شمول خانواده",
+        "آمادگی بانکی، مسکن، مدارس و تسویه حساب"
+      ],
+      "proofPoints": [
+        "ساخته شده برای دارندگان ثروت که نیاز به زمان بندی مالیاتی و تدارکات خانواده دارند",
+        "قبل از رفتن به پیست کانتون یا مدرسه مفید است",
+        "مشاوران موجود را با اجرای سوئیس هماهنگ می کند"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "بنیانگذاران در حال حرکت مواد کسب و کار",
+      "title": "انتقال یک شرکت به سوئیس",
+      "description": "مسیری تحت رهبری بنیانگذار برای انتقال مواد شرکت، راه اندازی هیئت مدیره، بانکداری، مجوزها و جابجایی خانواده در یک طرح هماهنگ سوئیسی.",
+      "metaDescription": "انتقال یک شرکت به سوئیس با مشاوره هماهنگ برای تشکیل شرکت، ماهیت، بانکداری، اجازه اقامت، مالیات و جابجایی خانواده.",
+      "startingPoint": "بین المللی",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "آیا شرکت سوئیسی باید قبل از مشخص شدن مسیر اقامت تشکیل شود یا بعد از آن؟",
+        "کانتون، بانک و طرف مقابل چه ماده ای را انتظار دارند؟",
+        "مجوزهای مؤسس، جابجایی خانواده و بانکداری شرکتی چه تأثیری بر یکدیگر دارند؟"
+      ],
+      "workstreams": [
+        "نمایه بنیانگذار، ماده شرکت و بررسی تناسب کانتون",
+        "تشکیل شرکت، اداره و راه اندازی هیئت مدیره",
+        "آمادگی بانکداری شرکتی و اسناد",
+        "جواز موسس، جابجایی خانواده، مسکن و اسکان"
+      ],
+      "proofPoints": [
+        "ساخته شده برای بنیانگذارانی که نیاز به همسویی با جریان کاری شرکت و خانواده دارند",
+        "مواد، مجوزها، بانکداری و تسویه حساب را به ترتیب درست به هم متصل می کند",
+        "تاخیرهای ناشی از مشاوره حقوقی، بانکی و جابجایی مجزا را کاهش می دهد"
+      ]
+    }
+  },
+  "tr": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Suudi kurucular, yatırımcılar ve aileler",
+      "title": "Suudi Arabistan'dan İsviçre'ye taşınma",
+      "description": "Suudi girişimciler ve aileler için ikamet, bankacılık hazırlığı, okullar, barınma ve kanton seçimini koordine eden bir İsviçre yer değiştirme rotası.",
+      "metaDescription": "Suudi kurucular, yatırımcılar ve aileler için İsviçre'de yer değiştirme danışmanlığı. İzinleri, bankacılığı, okulları, vergiyi, barınmayı ve kanton seçimini planlayın.",
+      "startingPoint": "Suudi Arabistan",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hangi İsviçre kantonu ailenin okul, mahremiyet ve bankacılık önceliklerine uyuyor?",
+        "Banka tanıtımlarından önce Suudi source-of-wealth dokümantasyonu nasıl hazırlanmalı?",
+        "İzinler, barınma, okullar ve danışman koordinasyonu paralel hareket edebilir mi?"
+      ],
+      "workstreams": [
+        "Suudi kalkış ve İsviçre varış zaman çizelgesi",
+        "Bankacılık hazırlığı ve servet belgeleme anlatımı",
+        "Okul, konut ve kanton karşılaştırması",
+        "İzin başvurusu, sigorta ve yerleşim sırası"
+      ],
+      "proofPoints": [
+        "Önemli varlıkları ve günlük yaşamı bir arada taşıyan aileler için tasarlandı",
+        "Bankacılık, izinler, okullar ve barınma işlemlerini tek bir koordineli sırada tutar",
+        "Hassas belgeler bankalar veya danışmanlarla paylaşılmadan önce faydalıdır"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Katar merkezli özel müşteriler",
+      "title": "Katar'dan İsviçre'ye taşınma",
+      "description": "Katar merkezli aileler, yöneticiler ve yatırımcılar için İsviçre'de ikamet, özel bankacılık, eğitim ve yerleşimi karşılaştıran gizli bir yol.",
+      "metaDescription": "Katar merkezli aileler ve yatırımcılar için İsviçre'de taşınma danışmanlığı. İzinleri, özel bankacılığı, okulları, barınmayı ve kanton seçimini koordine edin.",
+      "startingPoint": "Katar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Hangi kanton takdir yetkisi, okullar ve banka erişiminin doğru karışımını sunuyor?",
+        "Mevcut GCC danışmanları İsviçre uygulamasıyla nasıl koordineli kalmalıdır?",
+        "Okul ziyaretleri veya konaklama taahhütlerinden önce nelerin çözülmesi gerekir?"
+      ],
+      "workstreams": [
+        "İkamet rotası ve aile katılımı",
+        "Özel bankacılık hazırlığı ve danışman koordinasyonu",
+        "Uluslararası okul kısa listesi ve ziyaret programı",
+        "Barınma, sigorta, sağlık hizmetleri ve günlük yerleşim"
+      ],
+      "proofPoints": [
+        "Kamu taahhütlerinden önce takdir yetkisine önem veren müşteriler için tasarlandı",
+        "Yaşam tarzı kararlarını bankacılık ve izin zamanlamasına bağlar",
+        "Mevcut aile ofisi veya hukuk danışmanlarının uyum içinde kalmasını sağlar"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Kuveytli aile ofisleri ve aileler",
+      "title": "Kuveyt'ten İsviçre'ye taşınmak",
+      "description": "Kuveytli aileler için ikamet, bankacılık, veraset, okullar ve istikrarlı bir Avrupa tabanını koordine eden bir İsviçre yer değiştirme ve yönetim rotası.",
+      "metaDescription": "Kuveytli aileler ve aile ofisleri için İsviçre'ye taşınma danışmanlığı. Plan izinleri, özel bankacılık, yönetim, okullar ve yerleşim.",
+      "startingPoint": "Kuveyt",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "İsviçre hamlesi aile ikametgahı, yönetim veya her ikisi etrafında mı yapılandırılmalı?",
+        "Hangi kanton gizlilik, vergi ve aile lojistiğine en uygun?",
+        "Bankacılık, yönetim kurulu ve raporlama iş akışları nasıl sıralanmalıdır?"
+      ],
+      "workstreams": [
+        "Aile profili ve yönetim kapsamı",
+        "İkamet, mahremiyet ve aile ofisi ihtiyaçları için Kanton karşılaştırması",
+        "Özel bankacılık ve source-of-wealth hazırlığı",
+        "Okullaşma, barınma, sağlık hizmetleri ve aile yerleşimi"
+      ],
+      "proofPoints": [
+        "Yönetişime ve yer değiştirmeye ihtiyaç duyan çok kuşaklı aileler için kullanışlıdır",
+        "Kamu taahhütlerinden önce İsviçre'de gizli kurulum için tasarlandı",
+        "Aile, banka, yönetim kurulu ve yerleşim bağımlılıklarını koordine eder"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Singapur merkezli kurucular ve aile ofisleri",
+      "title": "Singapur'dan İsviçre'ye taşınmak",
+      "description": "Singapur merkezli girişimciler ve aile ofisleri için İsviçre'yi Avrupa'da ikamet, bankacılık, yönetim ve yaşam tarzı üssü olarak karşılaştıran bir rota.",
+      "metaDescription": "Singapur merkezli kurucular ve aile ofisleri için İsviçre'ye taşınma danışmanlığı. İkamet, vergi, bankacılık, yönetim, okullar ve kantonları karşılaştırın.",
+      "startingPoint": "Singapur",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Singapur üssü İsviçre ikametgahıyla tamamlandığında ne değişir?",
+        "Ailenin taşınmasından önce hangi iş akışlarının sıralanması gerekir?",
+        "İsviçre'ye dönük bir kurulum için bankacılık ve yönetim nasıl hazırlanmalı?"
+      ],
+      "workstreams": [
+        "Singapur çıkışı veya çift tabanlı planlama",
+        "İsviçre ikametgahı ve kanton karşılaştırması",
+        "Bankacılık, yönetim ve danışman koordinasyonu",
+        "Okullar, konut, sigorta ve günlük yerleşim"
+      ],
+      "proofPoints": [
+        "İki yüksek kaliteli yargı bölgesini karşılaştıran müşteriler için tasarlandı",
+        "İsviçre yaşam tarzı kararlarını bankacılık ve yönetimle bağlantılı tutar",
+        "Bir kantona, kiraya veya okul yoluna başvurmadan önce faydalıdır"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Hong Konglu girişimciler ve aileler",
+      "title": "Hong Kong'dan İsviçre'ye taşınmak",
+      "description": "Güçlü okullar ve bankacılık ile istikrarlı bir Avrupa üssü arayan Hong Kong kurucuları, varlık sahipleri ve aileler için özel bir İsviçre taşınma yolu.",
+      "metaDescription": "Hong Kong'un kurucuları ve aileleri için İsviçre'ye taşınma tavsiyesi. İkamet, bankacılık, okullar, vergi, barınma ve kanton seçimini planlayın.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hangi İsviçre kantonu Hong Kong'dan gelen uluslararası bir aileye uygundur?",
+        "Bankacılık dokümantasyonu ve source-of-wealth geçmişi nasıl hazırlanmalı?",
+        "Okul ziyaretleri ve ev aramalarından önce nelere karar verilebilir?"
+      ],
+      "workstreams": [
+        "Hong Kong kalkış ve İsviçre varış zaman çizelgesi",
+        "Okullar, vergi, bankacılık ve günlük yaşam için Kanton karşılaştırması",
+        "Oturma izinleri ve aile katılımı",
+        "Özel bankacılığa hazırlık, konut ve yerleşim"
+      ],
+      "proofPoints": [
+        "İstikrara, okullara ve takdir yetkisine öncelik veren aileler için iyi uyum",
+        "Banka ve izin bağımlılıklarıyla pratik anlaşmayı koordine eder",
+        "Hassas belgeler dağıtılmadan önce kullanışlıdır"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US kurucuları, yöneticileri ve aileleri",
+      "title": "USA'dan İsviçre'ye taşın",
+      "description": "İkamet, danışmanlar, bankacılık, okullar ve devam eden vergi karmaşıklığı konularında dikkatli bir koordinasyona ihtiyaç duyan US bağlantılı müşteriler için İsviçre'ye taşınma rotası.",
+      "metaDescription": "US kurucuları ve aileleri için İsviçre'ye taşınma tavsiyesi. İkamet, bankacılık, danışmanlar, okullar, vergi karmaşıklığı ve uzlaşmayı koordine edin.",
+      "startingPoint": "Amerika Birleşik Devletleri",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "US vergi ve raporlama danışmanları İsviçre planına nasıl bağlı kalmalıdır?",
+        "Ailenin okul, bankacılık ve seyahat ihtiyaçlarını hangi kanton karşılıyor?",
+        "İkamet ve konut taahhütlerinden önce nelerin açıklığa kavuşturulması gerekiyor?"
+      ],
+      "workstreams": [
+        "US danışmanı ve İsviçreli danışman koordinasyonu",
+        "İkamet rotası ve aile katılımı",
+        "Okullar, seyahat ve bankacılık için Kanton karşılaştırması",
+        "Bankacılık hazırlığı, konut, sağlık hizmetleri ve yerleşim"
+      ],
+      "proofPoints": [
+        "US raporlama karmaşıklığının görünür kalması gereken durumlar için tasarlandı",
+        "İsviçre kararlarını mevcut US danışmanlarına bağlı tutar",
+        "Bankacılık, konut veya okul taahhütleri yapılmadan önce faydalıdır"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Alman girişimciler ve aileler",
+      "title": "Almanya'dan İsviçre'ye taşınmak",
+      "description": "Alman kurucular ve aileler için ikamet yerini, kanton seçimini, iş kurulumunu, okulları ve sınır ötesi zamanlamayı karşılaştıran pratik bir İsviçre taşınma rotası.",
+      "metaDescription": "Alman girişimciler ve aileler için İsviçre'ye taşınma danışmanlığı. İkametgahı, kanton seçimini, vergi zamanlamasını, iş kurulumunu, okulları ve yerleşimi planlayın.",
+      "startingPoint": "Almanya",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Almanya kalkış planlaması ve İsviçre ikamet planlaması ne zaman sıralanmalıdır?",
+        "Hangi kanton iş sahipliğine, aile yaşamına ve işe gidip gelme alışkanlıklarına uyuyor?",
+        "İzinler, barınma, okullar ve danışmanlar nasıl koordine edilmelidir?"
+      ],
+      "workstreams": [
+        "Almanya kalkış ve İsviçre varış zaman çizelgesi",
+        "Vergi, okullar ve ticari faaliyetler için Kanton karşılaştırması",
+        "İzin başvurusu ve aile katılımı",
+        "Konut, sigorta, bankacılık ve yerleşim kurulumu"
+      ],
+      "proofPoints": [
+        "Zamanlamanın hassas bir şekilde ele alınmasına ihtiyaç duyan kurucular ve aileler için en iyisi",
+        "Kanton seçimini pratik okul ve barınma gerçekleriyle birleştirir",
+        "Alman ve İsviçreli danışmanları koordineli tutar"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Norveçli kurucular ve servet sahipleri",
+      "title": "Norveç'ten İsviçre'ye taşınmak",
+      "description": "Norveçli girişimciler, yatırımcılar ve vergi mukimliği, izinler, kanton seçimi, okullar ve bankacılığı değerlendiren aileler için İsviçre'ye taşınma rotası.",
+      "metaDescription": "Norveçli kurucular ve aileler için İsviçre'ye taşınma tavsiyesi. Vergi mukimliğini, izinleri, bankacılığı, okulları, kanton seçimini ve yerleşimi koordine edin.",
+      "startingPoint": "Norveç",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Norveç çıkış planlaması ne zaman İsviçre'de ikamet zamanlaması ile uyumlu hale getirilmelidir?",
+        "Hangi kanton mahremiyet, aile hayatı ve vergi önceliklerine uyuyor?",
+        "Banka tanıtımları veya okul kararları öncesinde neler koordine edilmeli?"
+      ],
+      "workstreams": [
+        "Norveç kalkış ve İsviçre varış zaman çizelgesi",
+        "Aile, vergi ve bankacılık öncelikleri açısından Kanton karşılaştırması",
+        "Oturma izinleri ve aile katılımı",
+        "Bankacılık hazırlığı, konut, okullar ve yerleşim"
+      ],
+      "proofPoints": [
+        "Vergi zamanlamasına ve aile lojistiğine bağlı olan varlık sahipleri için tasarlandı",
+        "Bir kantona veya okul yoluna katılmadan önce kullanışlıdır",
+        "Mevcut danışmanları İsviçre uygulamalarıyla koordine eder"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Kurucular iş içeriğini taşıyor",
+      "title": "Bir Şirketi İsviçre'ye Taşımak",
+      "description": "Şirket içeriğini, yönetim kurulu kurulumunu, bankacılığı, izinleri ve ailenin taşınmasını tek bir koordineli İsviçre planına taşımak için kurucunun liderliğinde bir rota.",
+      "metaDescription": "Şirket kuruluşu, esas, bankacılık, oturma izinleri, vergi ve ailenin taşınması konularında koordineli danışmanlık hizmetiyle bir şirketi İsviçre'ye taşıyın.",
+      "startingPoint": "Uluslararası",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "İsviçre şirketi ikamet rotası belli olmadan önce mi yoksa sonra mı kurulmalı?",
+        "Kanton, banka ve karşı taraflar hangi esası bekleyecek?",
+        "Kurucu izinleri, ailenin taşınması ve kurumsal bankacılık birbirini nasıl etkiler?"
+      ],
+      "workstreams": [
+        "Kurucu profili, şirket özü ve kanton uyumu incelemesi",
+        "Şirket oluşumu, yönetimi ve yönetim kurulu kurulumu",
+        "Kurumsal bankacılık hazırlığı ve dokümantasyonu",
+        "Kurucu izni, ailenin taşınması, barınma ve yerleşim"
+      ],
+      "proofPoints": [
+        "Şirket ve aile iş akışlarının uyumlu hale getirilmesine ihtiyaç duyan kurucular için tasarlandı",
+        "Maddeyi, izinleri, bankacılığı ve ödemeyi doğru sırayla birbirine bağlar",
+        "Yasal, bankacılık ve taşınma tavsiyelerinden kaynaklanan gecikmeleri azaltır"
+      ]
+    }
+  },
+  "ru": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Саудовские основатели, инвесторы и семьи",
+      "title": "Переезд в Швейцарию из Саудовской Аравии",
+      "description": "Швейцарский маршрут переезда для саудовских предпринимателей и семей, координирующий вид на жительство, банковскую готовность, школы, жилье и выбор кантона.",
+      "metaDescription": "Консультации по переезду в Швейцарию для саудовских основателей, инвесторов и семей. Разрешения на планирование, банковское дело, школы, налоги, жилье и выбор кантона.",
+      "startingPoint": "Саудовская Аравия",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Какой швейцарский кантон соответствует школьным, личным и банковским приоритетам семьи?",
+        "Как следует подготовить саудовскую документацию source-of-wealth перед представлением банка?",
+        "Могут ли разрешения, жилье, школы и координация работы консультантов осуществляться параллельно?"
+      ],
+      "workstreams": [
+        "График вылета из Саудовской Аравии и прибытия в Швейцарию",
+        "Готовность банковского сектора и документация о богатстве",
+        "Сравнение школы, жилья и кантонов",
+        "Заявление на получение разрешения, страхование и последовательность расчетов"
+      ],
+      "proofPoints": [
+        "Предназначен для семей, перемещающих значительные активы и совместную повседневную жизнь.",
+        "Содержит банковские операции, разрешения, школы и жилье в одной скоординированной последовательности.",
+        "Полезно до того, как конфиденциальные документы будут переданы банкам или консультантам."
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Частные клиенты из Катара",
+      "title": "Переезд в Швейцарию из Катара",
+      "description": "Незаметный путь для семей, руководителей и инвесторов из Катара, сравнивающий вид на жительство в Швейцарии, частное банковское обслуживание, обучение и поселение.",
+      "metaDescription": "Консультации по переезду в Швейцарию для семей и инвесторов из Катара. Согласуйте разрешения, частное банковское обслуживание, школы, жилье и выбор кантона.",
+      "startingPoint": "Катар",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Какой кантон предлагает правильное сочетание конфиденциальности, школ и доступа к банкам?",
+        "Как существующие советники GCC должны координировать свои действия со швейцарским исполнением?",
+        "Что следует решить перед посещением школы или обязательствами по обеспечению жильем?"
+      ],
+      "workstreams": [
+        "Путь проживания и семейная инклюзивность",
+        "Готовность к частному банковскому обслуживанию и координация консультантов",
+        "Список международных школ и график посещений",
+        "Жилье, страхование, здравоохранение и повседневные расчеты"
+      ],
+      "proofPoints": [
+        "Создан для клиентов, которые ценят конфиденциальность выше публичных обязательств.",
+        "Связывает решения об образе жизни с банковскими операциями и сроками разрешений",
+        "Обеспечивает согласованность работы существующих семейных офисов или юридических консультантов"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Кувейтские семейные офисы и семьи",
+      "title": "Переехать в Швейцарию из Кувейта",
+      "description": "Швейцарский маршрут переезда и управления для кувейтских семей, координирующий проживание, банковское дело, наследование, школы и стабильную европейскую базу.",
+      "metaDescription": "Консультации по переезду в Швейцарию для кувейтских семей и семейных офисов. Разрешения на планирование, частное банковское дело, управление, школы и поселения.",
+      "startingPoint": "Кувейт",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Должен ли переезд в Швейцарию быть структурирован вокруг проживания семьи, управления или того и другого?",
+        "Какой кантон лучше всего подходит для обеспечения конфиденциальности, налогообложения и семейной логистики?",
+        "Как следует строить рабочие процессы банковского дела, совета директоров и отчетности?"
+      ],
+      "workstreams": [
+        "Профиль семьи и масштабы управления",
+        "Сравнение кантонов с точки зрения проживания, конфиденциальности и потребностей семейного офиса",
+        "Приват-банкинг и подготовка source-of-wealth",
+        "Школьное образование, жилье, здравоохранение и семейное поселение"
+      ],
+      "proofPoints": [
+        "Полезно для семей, состоящих из нескольких поколений, которым необходимо управление и переезд.",
+        "Разработан для конфиденциальной настройки в Швейцарии до принятия публичных обязательств.",
+        "Координирует семейные, банковские, советские и расчетные зависимости."
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Учредители и семейные офисы в Сингапуре",
+      "title": "Переехать в Швейцарию из Сингапура",
+      "description": "Маршрут для сингапурских предпринимателей и семейных офисов, сравнивающий Швейцарию как европейскую базу проживания, банковского дела, управления и образа жизни.",
+      "metaDescription": "Консультации по переезду в Швейцарию для основателей и семейных офисов из Сингапура. Сравните резидентство, налоги, банковское дело, управление, школы и кантоны.",
+      "startingPoint": "Сингапур",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Что изменится, когда база в Сингапуре будет дополнена резидентством в Швейцарии?",
+        "Какие рабочие потоки необходимо упорядочить перед переездом семьи?",
+        "Как следует подготовить банковское дело и управление к ситуации, ориентированной на Швейцарию?"
+      ],
+      "workstreams": [
+        "Выход Сингапура или планирование двойной базы",
+        "Сравнение проживания в Швейцарии и кантона",
+        "Координация банковского дела, управления и консультантов",
+        "Школы, жилье, страхование и повседневные расчеты"
+      ],
+      "proofPoints": [
+        "Создан для клиентов, сравнивающих две высококачественные юрисдикции",
+        "Сохраняет связь решений швейцарского образа жизни с банковским делом и управлением",
+        "Полезно перед тем, как отправиться в кантон, арендовать или школьный трек."
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Гонконгские предприниматели и семьи",
+      "title": "Переезд в Швейцарию из Гонконга",
+      "description": "Частный путь переезда в Швейцарию для основателей Гонконга, владельцев богатства и семей, ищущих стабильную европейскую базу с сильными школами и банковским делом.",
+      "metaDescription": "Консультации по переезду в Швейцарию для основателей и семей из Гонконга. Спланируйте место жительства, банковское дело, школы, налоги, жилье и выбор кантона.",
+      "startingPoint": "Гонконг",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Какой швейцарский кантон подойдет международной семье, приезжающей из Гонконга?",
+        "Как следует подготовить банковскую документацию и историю source-of-wealth?",
+        "Что можно решить до посещения школы и поиска жилья?"
+      ],
+      "workstreams": [
+        "График вылета из Гонконга и прибытия в Швейцарию",
+        "Сравнение школ, налогов, банковского дела и повседневной жизни в кантонах",
+        "Вид на жительство и включение семьи",
+        "Готовность частного банковского обслуживания, жилье и поселение"
+      ],
+      "proofPoints": [
+        "Подходит для семей, отдающих приоритет стабильности, школе и конфиденциальности.",
+        "Координирует практический расчет с банком и разрешительными зависимостями",
+        "Полезно перед распространением конфиденциальных документов."
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Основатели, руководители и семьи US",
+      "title": "Переезд в Швейцарию с USA",
+      "description": "Маршрут переезда в Швейцарию для клиентов, подключенных к US, которым требуется тщательная координация по вопросам проживания, консультантов, банковского дела, школ и текущих налоговых сложностей.",
+      "metaDescription": "Консультации по переезду в Швейцарию для основателей и семей US. Координация резидентства, банковского дела, консультантов, школ, налоговых сложностей и урегулирования.",
+      "startingPoint": "Соединенные Штаты",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Как консультанты по налогам и отчетности US должны оставаться на связи со швейцарским планом?",
+        "Какой кантон соответствует школьным, банковским и туристическим потребностям семьи?",
+        "Что следует уточнить перед обязательствами по проживанию и жилью?"
+      ],
+      "workstreams": [
+        "Координация советника US и швейцарского советника",
+        "Маршрут проживания и семейное включение",
+        "Сравнение школ, путешествий и банковского дела в кантонах",
+        "Готовность банковского сектора, жилищного строительства, здравоохранения и расселения"
+      ],
+      "proofPoints": [
+        "Создано для случаев, когда сложность отчетности US должна оставаться видимой.",
+        "Обеспечивает связь швейцарских решений с существующими советниками US.",
+        "Полезно до того, как будут приняты обязательства по банковскому делу, жилью или учебе."
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Немецкие предприниматели и семьи",
+      "title": "Переезд в Швейцарию из Германии",
+      "description": "Практичный маршрут переезда в Швейцарию для немецких основателей и семей, сравнивающий место жительства, выбор кантона, организацию бизнеса, школы и время пересечения границы.",
+      "metaDescription": "Консультации по переезду в Швейцарию для немецких предпринимателей и семей. Спланируйте место жительства, выбор кантона, сроки уплаты налогов, организацию бизнеса, школы и поселение.",
+      "startingPoint": "Германия",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Когда следует согласовывать планирование отъезда из Германии и планирование проживания в Швейцарии?",
+        "Какой кантон подходит для владения бизнесом, семейной жизни и способа передвижения на работу?",
+        "Как следует координировать разрешения, жилье, школы и консультантов?"
+      ],
+      "workstreams": [
+        "График отправления из Германии и прибытия в Швейцарию",
+        "Сравнение кантона по налогам, школам и бизнес-операциям",
+        "Заявление на получение разрешения и включение семьи",
+        "Организация жилья, страхования, банковского дела и расчетов"
+      ],
+      "proofPoints": [
+        "Лучше всего подходит для основателей и семей, которым необходимо точно рассчитать время.",
+        "Связывает выбор кантона с практическими школьными и жилищными реалиями",
+        "Обеспечивает координацию действий немецких и швейцарских советников"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Норвежские основатели и держатели богатства",
+      "title": "Переехать в Швейцарию из Норвегии",
+      "description": "Маршрут переезда в Швейцарию для норвежских предпринимателей, инвесторов и семей, оценивающих налоговое резидентство, разрешения, выбор кантона, школы и банковское дело.",
+      "metaDescription": "Консультации по переезду в Швейцарию для норвежских основателей и семей. Координация налогового резидентства, разрешений, банковского дела, школ, выбора кантона и поселения.",
+      "startingPoint": "Норвегия",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Когда норвежское планирование выезда должно быть согласовано со сроками проживания в Швейцарии?",
+        "Какой кантон соответствует конфиденциальности, семейной жизни и налоговым приоритетам?",
+        "Что следует согласовать перед представлением банка или школьным решением?"
+      ],
+      "workstreams": [
+        "График вылета из Норвегии и прибытия в Швейцарию",
+        "Сравнение кантонов по семейным, налоговым и банковским приоритетам",
+        "Вид на жительство и включение семьи",
+        "Готовность банковского дела, жилье, школы и поселения"
+      ],
+      "proofPoints": [
+        "Создан для владельцев богатства, которым необходимо учитывать сроки уплаты налогов и семейную логистику.",
+        "Полезно перед тем, как отправиться в кантон или школьный трек.",
+        "Координирует существующих советников со швейцарским исполнением"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Учредители продвигают бизнес-содержание",
+      "title": "Переместить компанию в Швейцарию",
+      "description": "Маршрут под руководством основателя для перемещения содержания компании, формирования правления, банковских операций, разрешений и переезда семьи в один скоординированный швейцарский план.",
+      "metaDescription": "Переместите компанию в Швейцарию с координированными консультациями по вопросам создания компании, ее содержания, банковского дела, вида на жительство, налогообложения и переезда семьи.",
+      "startingPoint": "Международный",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Следует ли создавать швейцарскую компанию до или после того, как будет определен маршрут проживания?",
+        "Какого содержания будут ожидать кантон, банк и контрагенты?",
+        "Как разрешения учредителей, переезд семьи и корпоративный банкинг влияют друг на друга?"
+      ],
+      "workstreams": [
+        "Профиль основателя, суть компании и обзор соответствия кантонам",
+        "Формирование компании, управление и формирование совета директоров",
+        "Готовность и документация для корпоративного банкинга",
+        "Разрешение учредителя, переезд семьи, жилье и поселение"
+      ],
+      "proofPoints": [
+        "Создан для основателей, которым необходимо согласовать рабочие процессы компании и семьи.",
+        "Соединяет вещество, разрешения, банковские операции и расчеты в правильном порядке.",
+        "Сокращает задержки из-за отдельных юридических, банковских консультаций и консультаций по переезду."
+      ]
+    }
+  },
+  "hi": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "सऊदी संस्थापक, निवेशक और परिवार",
+      "title": "सऊदी अरब से स्विट्ज़रलैंड चले जाओ",
+      "description": "सऊदी उद्यमियों और परिवारों के लिए एक स्विस स्थानांतरण मार्ग जो निवास, बैंकिंग तैयारी, स्कूलों, आवास और कैंटन चयन का समन्वय करता है।",
+      "metaDescription": "सऊदी संस्थापकों, निवेशकों और परिवारों के लिए स्विस स्थानांतरण सलाह। योजना परमिट, बैंकिंग, स्कूल, कर, आवास और कैंटन चयन।",
+      "startingPoint": "सऊदी अरब",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "कौन सा स्विस कैंटन परिवार के स्कूल, गोपनीयता और बैंकिंग प्राथमिकताओं में फिट बैठता है?",
+        "बैंक परिचय से पहले सऊदी source-of-wealth दस्तावेज़ कैसे तैयार किया जाना चाहिए?",
+        "क्या परमिट, आवास, स्कूल और सलाहकार समन्वय समानांतर में चल सकते हैं?"
+      ],
+      "workstreams": [
+        "सऊदी प्रस्थान और स्विस आगमन समयरेखा",
+        "बैंकिंग तत्परता और धन-दस्तावेज़ीकरण कथा",
+        "स्कूल, आवास और कैंटन तुलना",
+        "परमिट आवेदन, बीमा और निपटान क्रम"
+      ],
+      "proofPoints": [
+        "महत्वपूर्ण संपत्तियों और दैनिक जीवन को एक साथ ले जाने वाले परिवारों के लिए डिज़ाइन किया गया",
+        "बैंकिंग, परमिट, स्कूल और आवास को एक समन्वित क्रम में रखता है",
+        "संवेदनशील दस्तावेज़ों को बैंकों या सलाहकारों के साथ साझा करने से पहले उपयोगी"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "कतर स्थित निजी ग्राहक",
+      "title": "कतर से स्विट्ज़रलैंड चले जाओ",
+      "description": "कतर स्थित परिवारों, अधिकारियों और निवेशकों के लिए स्विस रेजीडेंसी, निजी बैंकिंग, स्कूली शिक्षा और निपटान की तुलना करने वाला एक विवेकपूर्ण मार्ग।",
+      "metaDescription": "कतर स्थित परिवारों और निवेशकों के लिए स्विस स्थानांतरण सलाह। समन्वय परमिट, निजी बैंकिंग, स्कूल, आवास और कैंटन विकल्प।",
+      "startingPoint": "कतर",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "कौन सा कैंटन विवेक, स्कूल और बैंक पहुंच का सही मिश्रण प्रदान करता है?",
+        "मौजूदा GCC सलाहकारों को स्विस निष्पादन के साथ कैसे समन्वयित रहना चाहिए?",
+        "स्कूल दौरे या आवास प्रतिबद्धताओं से पहले क्या हल किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "निवास मार्ग और परिवार समावेशन",
+        "निजी बैंकिंग तत्परता और सलाहकार समन्वय",
+        "इंटरनेशनल स्कूल शॉर्टलिस्ट और विजिट शेड्यूल",
+        "आवास, बीमा, स्वास्थ्य देखभाल, और दैनिक निपटान"
+      ],
+      "proofPoints": [
+        "उन ग्राहकों के लिए बनाया गया है जो सार्वजनिक प्रतिबद्धताओं से पहले विवेक को महत्व देते हैं",
+        "जीवनशैली संबंधी निर्णयों को बैंकिंग और परमिट समय से जोड़ता है",
+        "मौजूदा परिवार-कार्यालय या कानूनी सलाहकारों को जोड़े रखता है"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "कुवैती परिवार कार्यालय और परिवार",
+      "title": "कुवैत से स्विट्ज़रलैंड चले जाओ",
+      "description": "कुवैती परिवारों के लिए एक स्विस स्थानांतरण और शासन मार्ग जो निवास, बैंकिंग, उत्तराधिकार, स्कूलों और एक स्थिर यूरोपीय आधार का समन्वय करता है।",
+      "metaDescription": "कुवैती परिवारों और पारिवारिक कार्यालयों के लिए स्विस स्थानांतरण सलाह। योजना परमिट, निजी बैंकिंग, शासन, स्कूल और निपटान।",
+      "startingPoint": "कुवैत",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "क्या स्विस कदम को पारिवारिक निवास, शासन, या दोनों के आसपास संरचित किया जाना चाहिए?",
+        "कौन सा कैंटन गोपनीयता, कर और पारिवारिक लॉजिस्टिक्स के लिए सबसे उपयुक्त है?",
+        "बैंकिंग, बोर्ड और रिपोर्टिंग वर्कस्ट्रीम को कैसे अनुक्रमित किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "पारिवारिक प्रोफ़ाइल और शासन का दायरा",
+        "निवास, गोपनीयता और परिवार-कार्यालय आवश्यकताओं के लिए कैंटन तुलना",
+        "निजी बैंकिंग और source-of-wealth तैयारी",
+        "स्कूली शिक्षा, आवास, स्वास्थ्य देखभाल, और पारिवारिक निपटान"
+      ],
+      "proofPoints": [
+        "बहु-पीढ़ी वाले परिवारों के लिए उपयोगी जिन्हें शासन और स्थानांतरण से जुड़े होने की आवश्यकता है",
+        "सार्वजनिक प्रतिबद्धताओं से पहले गोपनीय स्विस सेटअप के लिए डिज़ाइन किया गया",
+        "परिवार, बैंक, बोर्ड और निपटान निर्भरता का समन्वय करता है"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "सिंगापुर स्थित संस्थापक और पारिवारिक कार्यालय",
+      "title": "सिंगापुर से स्विट्ज़रलैंड चले जाओ",
+      "description": "सिंगापुर स्थित उद्यमियों और पारिवारिक कार्यालयों के लिए एक मार्ग जो स्विट्जरलैंड की तुलना यूरोपीय निवास, बैंकिंग, शासन और जीवन शैली के आधार के रूप में करता है।",
+      "metaDescription": "सिंगापुर स्थित संस्थापकों और पारिवारिक कार्यालयों के लिए स्विस स्थानांतरण सलाह। रेजीडेंसी, कर, बैंकिंग, शासन, स्कूलों और कैंटन की तुलना करें।",
+      "startingPoint": "सिंगापुर",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "जब सिंगापुर बेस को स्विस निवास से पूरक किया जाता है तो क्या परिवर्तन होता है?",
+        "पारिवारिक स्थानांतरण से पहले कौन सी कार्यधाराओं को अनुक्रमित किया जाना चाहिए?",
+        "स्विस-सामना वाले सेटअप के लिए बैंकिंग और प्रशासन को कैसे तैयार किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "सिंगापुर निकास या दोहरे आधार योजना",
+        "स्विस निवास और कैंटन तुलना",
+        "बैंकिंग, शासन और सलाहकार समन्वय",
+        "स्कूल, आवास, बीमा, और दैनिक निपटान"
+      ],
+      "proofPoints": [
+        "दो उच्च-गुणवत्ता वाले न्यायक्षेत्रों की तुलना करने वाले ग्राहकों के लिए बनाया गया",
+        "स्विस जीवनशैली संबंधी निर्णयों को बैंकिंग और शासन से जोड़े रखता है",
+        "कैंटन, लीज़, या स्कूल ट्रैक के लिए प्रतिबद्ध होने से पहले उपयोगी"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "हांगकांग के उद्यमी और परिवार",
+      "title": "हांगकांग से स्विट्ज़रलैंड चले जाओ",
+      "description": "हांगकांग के संस्थापकों, धन धारकों और मजबूत स्कूलों और बैंकिंग के साथ एक स्थिर यूरोपीय आधार चाहने वाले परिवारों के लिए एक निजी स्विस स्थानांतरण पथ।",
+      "metaDescription": "हांगकांग के संस्थापकों और परिवारों के लिए स्विस स्थानांतरण सलाह। रेजीडेंसी, बैंकिंग, स्कूल, कर, आवास और कैंटन चयन की योजना बनाएं।",
+      "startingPoint": "हांगकांग",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "कौन सा स्विस कैंटन हांगकांग से आने वाले एक अंतरराष्ट्रीय परिवार के लिए उपयुक्त है?",
+        "बैंकिंग दस्तावेज़ीकरण और source-of-wealth इतिहास कैसे तैयार किया जाना चाहिए?",
+        "स्कूल दौरे और आवास तलाशी से पहले क्या निर्णय लिया जा सकता है?"
+      ],
+      "workstreams": [
+        "हांगकांग प्रस्थान और स्विस आगमन समयरेखा",
+        "स्कूलों, कर, बैंकिंग और दैनिक जीवन के लिए कैंटन तुलना",
+        "निवास परमिट और परिवार समावेशन",
+        "निजी बैंकिंग तैयारी, आवास और निपटान"
+      ],
+      "proofPoints": [
+        "स्थिरता, स्कूल और विवेक को प्राथमिकता देने वाले परिवारों के लिए उपयुक्त",
+        "बैंक और परमिट निर्भरता के साथ व्यावहारिक निपटान का समन्वय करता है",
+        "संवेदनशील दस्तावेज़ों को प्रसारित करने से पहले उपयोगी"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US के संस्थापक, अधिकारी और परिवार",
+      "title": "USA से स्विट्जरलैंड जाएँ",
+      "description": "US से जुड़े ग्राहकों के लिए एक स्विस स्थानांतरण मार्ग, जिन्हें रेजीडेंसी, सलाहकारों, बैंकिंग, स्कूलों और चल रही कर जटिलता के आसपास सावधानीपूर्वक समन्वय की आवश्यकता है।",
+      "metaDescription": "US संस्थापकों और परिवारों के लिए स्विस स्थानांतरण सलाह। रेजीडेंसी, बैंकिंग, सलाहकारों, स्कूलों, कर जटिलता और निपटान का समन्वय करें।",
+      "startingPoint": "संयुक्त राज्य अमेरिका",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "US कर और रिपोर्टिंग सलाहकारों को स्विस योजना से कैसे जुड़े रहना चाहिए?",
+        "कौन सा कैंटन परिवार की स्कूल, बैंकिंग और यात्रा आवश्यकताओं के लिए उपयुक्त है?",
+        "निवास और आवास प्रतिबद्धताओं से पहले क्या स्पष्ट किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "US सलाहकार और स्विस सलाहकार समन्वय",
+        "निवास मार्ग एवं पारिवारिक समावेशन",
+        "स्कूलों, यात्रा और बैंकिंग के लिए कैंटन तुलना",
+        "बैंकिंग तैयारी, आवास, स्वास्थ्य देखभाल और निपटान"
+      ],
+      "proofPoints": [
+        "ऐसे मामलों के लिए बनाया गया है जहां US रिपोर्टिंग जटिलता दृश्यमान रहनी चाहिए",
+        "स्विस निर्णयों को मौजूदा US सलाहकारों से जोड़े रखता है",
+        "बैंकिंग, आवास, या स्कूल संबंधी प्रतिबद्धताएँ पूरी करने से पहले उपयोगी"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "जर्मन उद्यमी और परिवार",
+      "title": "जर्मनी से स्विट्ज़रलैंड चले जाओ",
+      "description": "जर्मन संस्थापकों और परिवारों के लिए निवास, कैंटन पसंद, व्यवसाय सेटअप, स्कूलों और सीमा पार समय की तुलना करने वाला एक व्यावहारिक स्विस स्थानांतरण मार्ग।",
+      "metaDescription": "जर्मन उद्यमियों और परिवारों के लिए स्विस स्थानांतरण सलाह। योजना निवास, कैंटन विकल्प, कर समय, व्यवसाय सेटअप, स्कूल और निपटान।",
+      "startingPoint": "जर्मनी",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "जर्मन प्रस्थान योजना और स्विस निवास योजना को कब अनुक्रमित किया जाना चाहिए?",
+        "कौन सा कैंटन व्यवसाय स्वामित्व, पारिवारिक जीवन और आवागमन पैटर्न में फिट बैठता है?",
+        "परमिट, आवास, स्कूल और सलाहकारों का समन्वय कैसे किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "जर्मन प्रस्थान और स्विस आगमन समयरेखा",
+        "कर, स्कूलों और व्यवसाय संचालन के लिए कैंटन तुलना",
+        "परमिट आवेदन और पारिवारिक समावेशन",
+        "आवास, बीमा, बैंकिंग और निपटान सेटअप"
+      ],
+      "proofPoints": [
+        "उन संस्थापकों और परिवारों के लिए सर्वश्रेष्ठ जिन्हें समय का सटीक प्रबंधन करने की आवश्यकता है",
+        "कैंटन की पसंद को व्यावहारिक स्कूल और आवास की वास्तविकताओं से जोड़ता है",
+        "जर्मन और स्विस सलाहकारों को समन्वित रखता है"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "नॉर्वेजियन संस्थापक और धन धारक",
+      "title": "नॉर्वे से स्विट्ज़रलैंड चले जाओ",
+      "description": "कर निवास, परमिट, कैंटन विकल्प, स्कूलों और बैंकिंग का मूल्यांकन करने वाले नॉर्वेजियन उद्यमियों, निवेशकों और परिवारों के लिए एक स्विस स्थानांतरण मार्ग।",
+      "metaDescription": "नॉर्वेजियन संस्थापकों और परिवारों के लिए स्विस स्थानांतरण सलाह। कर निवास, परमिट, बैंकिंग, स्कूल, कैंटन चयन और निपटान का समन्वय करें।",
+      "startingPoint": "नॉर्वे",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "नॉर्वेजियन निकास योजना को स्विस निवास समय के साथ कब जोड़ा जाना चाहिए?",
+        "कौन सा कैंटन गोपनीयता, पारिवारिक जीवन और कर प्राथमिकताओं में फिट बैठता है?",
+        "बैंक परिचय या स्कूल निर्णयों से पहले क्या समन्वयित किया जाना चाहिए?"
+      ],
+      "workstreams": [
+        "नॉर्वेजियन प्रस्थान और स्विस आगमन समयरेखा",
+        "परिवार, कर और बैंकिंग प्राथमिकताओं के लिए कैंटन तुलना",
+        "निवास परमिट और परिवार समावेशन",
+        "बैंकिंग तैयारी, आवास, स्कूल और निपटान"
+      ],
+      "proofPoints": [
+        "उन धन धारकों के लिए बनाया गया है जिन्हें कर समय और पारिवारिक रसद से जुड़े होने की आवश्यकता है",
+        "कैंटन या स्कूल ट्रैक पर जाने से पहले उपयोगी",
+        "मौजूदा सलाहकारों को स्विस निष्पादन के साथ समन्वयित करता है"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "संस्थापक व्यवसायिक पदार्थ को आगे बढ़ा रहे हैं",
+      "title": "एक कंपनी को स्विट्जरलैंड ले जाएं",
+      "description": "कंपनी के पदार्थ, बोर्ड सेटअप, बैंकिंग, परमिट और परिवार के स्थानांतरण को एक समन्वित स्विस योजना में ले जाने के लिए संस्थापक के नेतृत्व वाला मार्ग।",
+      "metaDescription": "कंपनी गठन, पदार्थ, बैंकिंग, निवास परमिट, कर और पारिवारिक स्थानांतरण के लिए समन्वित सलाह के साथ एक कंपनी को स्विट्जरलैंड में स्थानांतरित करें।",
+      "startingPoint": "अंतर्राष्ट्रीय",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "क्या स्विस कंपनी का गठन निवास मार्ग स्पष्ट होने से पहले या बाद में किया जाना चाहिए?",
+        "कैंटन, बैंक और प्रतिपक्ष किस पदार्थ की अपेक्षा करेंगे?",
+        "संस्थापक परमिट, पारिवारिक स्थानांतरण और कॉर्पोरेट बैंकिंग एक दूसरे को कैसे प्रभावित करते हैं?"
+      ],
+      "workstreams": [
+        "संस्थापक प्रोफ़ाइल, कंपनी सार, और कैंटन फ़िट समीक्षा",
+        "कंपनी का गठन, प्रशासन और बोर्ड सेटअप",
+        "कॉर्पोरेट बैंकिंग तैयारी और दस्तावेज़ीकरण",
+        "संस्थापक की अनुमति, पारिवारिक स्थानांतरण, आवास और निपटान"
+      ],
+      "proofPoints": [
+        "उन संस्थापकों के लिए बनाया गया है जिन्हें कंपनी और पारिवारिक कार्यप्रवाह को संरेखित करने की आवश्यकता है",
+        "सामग्री, परमिट, बैंकिंग और निपटान को सही क्रम में जोड़ता है",
+        "पृथक कानूनी, बैंकिंग और स्थानांतरण सलाह से होने वाली देरी को कम करता है"
+      ]
+    }
+  },
+  "da": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Saudiarabiske grundlæggere, investorer og familier",
+      "title": "Flyt til Schweiz fra Saudi-Arabien",
+      "description": "En schweizisk flytterute for saudiske iværksættere og familier, der koordinerer ophold, bankberedskab, skoler, boliger og valg af kantoner.",
+      "metaDescription": "Schweizisk flytningsrådgivning for saudiske grundlæggere, investorer og familier. Plantilladelser, bankvirksomhed, skoler, skat, boliger og valg af kantoner.",
+      "startingPoint": "Saudi-Arabien",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvilken schweizisk kanton passer til familiens skole-, privatlivs- og bankprioriteter?",
+        "Hvordan skal Saudi source-of-wealth-dokumentation udarbejdes før bankintroduktioner?",
+        "Kan tilladelser, boliger, skoler og rådgiverkoordinering flytte parallelt?"
+      ],
+      "workstreams": [
+        "Saudi afgang og schweizisk ankomst tidslinje",
+        "Bankberedskab og formuedokumentationsfortælling",
+        "Skole, bolig og kanton sammenligning",
+        "Tilladelsesansøgning, forsikring og afregningsrækkefølge"
+      ],
+      "proofPoints": [
+        "Designet til familier, der flytter betydelige aktiver og dagligdag sammen",
+        "Holder bank, tilladelser, skoler og boliger i én koordineret rækkefølge",
+        "Nyttigt før følsomme dokumenter deles med banker eller rådgivere"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Qatar-baserede privatkunder",
+      "title": "Flyt til Schweiz fra Qatar",
+      "description": "En diskret vej for Qatar-baserede familier, ledere og investorer, der sammenligner schweizisk bopæl, private banking, skolegang og bosættelse.",
+      "metaDescription": "Schweizisk flytningsrådgivning for Qatar-baserede familier og investorer. Koordinere tilladelser, private banking, skoler, boliger og kantonvalg.",
+      "startingPoint": "Qatar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Hvilken kanton tilbyder den rigtige blanding af diskretion, skoler og bankadgang?",
+        "Hvordan skal eksisterende GCC-rådgivere forblive koordinerede med den schweiziske udførelse?",
+        "Hvad skal løses før skolebesøg eller boligtilsagn?"
+      ],
+      "workstreams": [
+        "Opholdsvej og familieinklusion",
+        "Private banking parathed og rådgiverkoordinering",
+        "International skole shortlist og besøgsplan",
+        "Bolig, forsikring, sundhedspleje og daglig afregning"
+      ],
+      "proofPoints": [
+        "Bygget til kunder, der værdsætter diskretion før offentlige forpligtelser",
+        "Forbinder livsstilsbeslutninger med bank- og tilladelsestiming",
+        "Holder eksisterende familiekontor eller juridiske rådgivere på linje"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Kuwaitiske familiekontorer og familier",
+      "title": "Flyt til Schweiz fra Kuwait",
+      "description": "En schweizisk flytnings- og regeringsrute for kuwaitiske familier, der koordinerer ophold, bank, arv, skoler og en stabil europæisk base.",
+      "metaDescription": "Schweizisk flytningsrådgivning for kuwaitiske familier og familiekontorer. Plantilladelser, private banking, regeringsførelse, skoler og afvikling.",
+      "startingPoint": "Kuwait",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Skal den schweiziske flytning struktureres omkring familiens bopæl, regeringsførelse eller begge dele?",
+        "Hvilken kanton passer bedst til privatliv, skat og familielogistik?",
+        "Hvordan skal bank-, bestyrelses- og rapporteringsarbejdsstrømme sekvenseres?"
+      ],
+      "workstreams": [
+        "Familieprofil og governance scoping",
+        "Kantonsammenligning for behov for bolig, privatliv og familiekontor",
+        "Private banking og source-of-wealth forberedelse",
+        "Skolegang, bolig, sundhedspleje og familieafvikling"
+      ],
+      "proofPoints": [
+        "Nyttigt for familier med flere generationer, der har brug for styring og flytning forbundet",
+        "Designet til fortrolig schweizisk opsætning før offentlige forpligtelser",
+        "Koordinerer familie-, bank-, bestyrelses- og bosættelsesafhængigheder"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Singapore-baserede grundlæggere og familiekontorer",
+      "title": "Flyt til Schweiz fra Singapore",
+      "description": "En rute for Singapore-baserede iværksættere og familiekontorer, der sammenligner Schweiz som en europæisk bolig-, bank-, regerings- og livsstilsbase.",
+      "metaDescription": "Schweizisk flytningsrådgivning for Singapore-baserede grundlæggere og familiekontorer. Sammenlign bopæl, skat, bank, regeringsførelse, skoler og kantoner.",
+      "startingPoint": "Singapore",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvad ændrer sig, når en Singapore-base suppleres med schweizisk bopæl?",
+        "Hvilke arbejdsstrømme skal sekvenseres før familieflytning?",
+        "Hvordan skal bank- og regeringsførelse forberedes til et schweizisk-vendt setup?"
+      ],
+      "workstreams": [
+        "Singapore exit eller dual-base planlægning",
+        "Sammenligning af schweizisk bopæl og kanton",
+        "Bank-, governance- og rådgiverkoordinering",
+        "Skoler, bolig, forsikring og daglig afvikling"
+      ],
+      "proofPoints": [
+        "Bygget til kunder, der sammenligner to jurisdiktioner af høj kvalitet",
+        "Holder schweiziske livsstilsbeslutninger forbundet med bank og regeringsførelse",
+        "Nyttigt, før du forpligter dig til en kanton, lejekontrakt eller skolebane"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Hong Kong iværksættere og familier",
+      "title": "Flyt til Schweiz fra Hong Kong",
+      "description": "En privat schweizisk udflytningsvej for Hong Kong-stiftere, formueindehavere og familier, der søger en stabil europæisk base med stærke skoler og banker.",
+      "metaDescription": "Schweizisk flytningsrådgivning for Hong Kong-stiftere og -familier. Planlæg bopæl, bank, skoler, skat, bolig og kantonvalg.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvilken schweizisk kanton passer til en international familie, der kommer fra Hong Kong?",
+        "Hvordan skal bankdokumentation og source-of-wealth-historik udarbejdes?",
+        "Hvad kan besluttes inden skolebesøg og boligsøgning?"
+      ],
+      "workstreams": [
+        "Hong Kong afgang og schweizisk ankomsttidslinje",
+        "Kantonsammenligning for skoler, skat, bank og dagligdag",
+        "Opholdstilladelse og familieinklusion",
+        "Private banking parathed, bolig og afvikling"
+      ],
+      "proofPoints": [
+        "Passer godt til familier, der prioriterer stabilitet, skoler og diskretion",
+        "Koordinerer praktisk afregning med bank og tilladelsesafhængigheder",
+        "Nyttigt før følsomme dokumenter rundsendes"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US grundlæggere, ledere og familier",
+      "title": "Flyt til Schweiz fra USA",
+      "description": "En schweizisk flytterute for US-forbundne kunder, der har brug for omhyggelig koordinering omkring ophold, rådgivere, bank, skoler og løbende skattekompleksitet.",
+      "metaDescription": "Schweizisk flytningsrådgivning for US-stiftere og familier. Koordiner bopæl, bank, rådgivere, skoler, skattekompleksitet og afregning.",
+      "startingPoint": "USA",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Hvordan skal US skatte- og rapporteringsrådgivere forblive forbundet med den schweiziske plan?",
+        "Hvilken kanton passer til familiens skole-, bank- og rejsebehov?",
+        "Hvad skal afklares inden opholds- og boligtilsagn?"
+      ],
+      "workstreams": [
+        "US rådgiver og schweizisk rådgiver koordinering",
+        "Opholdsrute og familieinklusion",
+        "Kantonsammenligning for skoler, rejser og bankvirksomhed",
+        "Bankberedskab, bolig, sundhedspleje og afvikling"
+      ],
+      "proofPoints": [
+        "Bygget til tilfælde, hvor US rapporteringskompleksitet skal forblive synlig",
+        "Holder schweiziske beslutninger forbundet med eksisterende US-rådgivere",
+        "Nyttigt før bank-, bolig- eller skoleforpligtelser indgås"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "tyske iværksættere og familier",
+      "title": "Flyt til Schweiz fra Tyskland",
+      "description": "En praktisk schweizisk flytterute for tyske grundlæggere og familier, der sammenligner bopæl, kantonvalg, virksomhedsopsætning, skoler og grænseoverskridende timing.",
+      "metaDescription": "Schweizisk flytterådgivning for tyske iværksættere og familier. Planlæg bopæl, valg af kanton, skattetidspunkt, forretningsopsætning, skoler og bosættelse.",
+      "startingPoint": "Tyskland",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Hvornår skal tysk afrejseplanlægning og schweizisk opholdsplanlægning sekventeres?",
+        "Hvilken kanton passer til virksomhedsejerskab, familieliv og pendlingsmønstre?",
+        "Hvordan skal tilladelser, boliger, skoler og rådgivere koordineres?"
+      ],
+      "workstreams": [
+        "Tidslinje for tysk afgang og schweizisk ankomst",
+        "Kantonsammenligning for skat, skoler og forretningsdrift",
+        "Tilladelsesansøgning og familieoptagelse",
+        "Bolig-, forsikrings-, bank- og afregningsopsætning"
+      ],
+      "proofPoints": [
+        "Bedst for stiftere og familier, der har brug for at håndtere timing præcist",
+        "Forbinder kantonvalg med praktisk skole- og boligrealitet",
+        "Holder tyske og schweiziske rådgivere koordineret"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "norske stiftere og formuehavere",
+      "title": "Flyt til Schweiz fra Norge",
+      "description": "En schweizisk flytterute for norske iværksættere, investorer og familier, der vurderer skattemæssigt ophold, tilladelser, kantonvalg, skoler og bankvirksomhed.",
+      "metaDescription": "Schweizisk flytterådgivning for norske stiftere og familier. Koordinere skattemæssig bopæl, tilladelser, bankvirksomhed, skoler, valg af kantoner og afregning.",
+      "startingPoint": "Norge",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvornår skal norsk udrejseplanlægning tilpasses den schweiziske opholdstid?",
+        "Hvilken kanton passer til privatliv, familieliv og skatteprioriteter?",
+        "Hvad skal koordineres før bankintroduktioner eller skolebeslutninger?"
+      ],
+      "workstreams": [
+        "Tidslinje for norsk afgang og schweizisk ankomst",
+        "Kantonsammenligning for familie-, skatte- og bankprioriteter",
+        "Opholdstilladelse og familieinklusion",
+        "Bankberedskab, bolig, skoler og afvikling"
+      ],
+      "proofPoints": [
+        "Bygget til formueindehavere, der har brug for skattetiming og familielogistik forbundet",
+        "Nyttigt, før du forpligter dig til en kanton eller skolebane",
+        "Koordinerer eksisterende rådgivere med schweizisk udførelse"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Grundlæggere flytter virksomhedsstof",
+      "title": "Flyt en virksomhed til Schweiz",
+      "description": "En grundlægger-ledet rute til at flytte virksomhedsstof, bestyrelsesopsætning, bankvirksomhed, tilladelser og familieflytning til én koordineret schweizisk plan.",
+      "metaDescription": "Flyt en virksomhed til Schweiz med koordineret rådgivning om virksomhedsstiftelse, substans, bank, opholdstilladelse, skat og familieflytning.",
+      "startingPoint": "International",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Skal det schweiziske selskab dannes før eller efter, at opholdsruten er klar?",
+        "Hvilken substans vil kantonen, banken og modparterne forvente?",
+        "Hvordan påvirker grundlæggertilladelser, familieflytning og virksomhedsbanker hinanden?"
+      ],
+      "workstreams": [
+        "Stifterprofil, virksomhedsstof og kantonpasningsanmeldelse",
+        "Virksomhedsdannelse, ledelse og bestyrelsesopsætning",
+        "Virksomhedsbankberedskab og dokumentation",
+        "Stiftertilladelse, familieflytning, bolig og bosætning"
+      ],
+      "proofPoints": [
+        "Bygget til grundlæggere, der har brug for ensartede arbejdsstrømme i virksomheden og familien",
+        "Forbinder substans, tilladelser, bankvirksomhed og afregning i den rigtige rækkefølge",
+        "Reducerer forsinkelser fra isoleret juridisk rådgivning, bank- og flytterådgivning"
+      ]
+    }
+  },
+  "it": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Fondatori, investitori e famiglie sauditi",
+      "title": "Trasferirsi in Svizzera dall'Arabia Saudita",
+      "description": "Un percorso di delocalizzazione svizzero per imprenditori e famiglie saudite che coordina residenza, preparazione bancaria, scuole, alloggi e selezione dei cantoni.",
+      "metaDescription": "Consulenza sul trasferimento in Svizzera per fondatori, investitori e famiglie saudite. Permessi di pianificazione, banche, scuole, tasse, alloggi e selezione dei cantoni.",
+      "startingPoint": "Arabia Saudita",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quale cantone svizzero si adatta alle priorità scolastiche, private e bancarie della famiglia?",
+        "Come dovrebbe essere preparata la documentazione saudita source-of-wealth prima dell'introduzione in banca?",
+        "È possibile che permessi, alloggi, scuole e coordinamento dei consulenti si muovano parallelamente?"
+      ],
+      "workstreams": [
+        "Cronologia della partenza saudita e dell'arrivo svizzero",
+        "Preparazione bancaria e narrativa sulla documentazione della ricchezza",
+        "Scuola, alloggio e cantoni a confronto",
+        "Richiesta di autorizzazione, assicurazione e sequenza di liquidazione"
+      ],
+      "proofPoints": [
+        "Progettato per le famiglie che trasferiscono insieme beni significativi e vivono insieme la vita quotidiana",
+        "Mantiene banche, permessi, scuole e alloggi in un'unica sequenza coordinata",
+        "Utile prima che i documenti sensibili vengano condivisi con banche o consulenti"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Clienti privati con sede in Qatar",
+      "title": "Trasferirsi in Svizzera dal Qatar",
+      "description": "Un percorso discreto per famiglie, dirigenti e investitori residenti in Qatar che confrontano residenza svizzera, private banking, istruzione e insediamento.",
+      "metaDescription": "Consulenza in materia di ricollocamento svizzero per famiglie e investitori residenti in Qatar. Coordinare permessi, private banking, scuole, alloggi e scelta dei cantoni.",
+      "startingPoint": "Qatar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Quale cantone offre il giusto mix di discrezione, scuole e accesso alle banche?",
+        "In che modo i consulenti GCC esistenti dovrebbero rimanere coordinati con l'esecuzione svizzera?",
+        "Cosa si dovrebbe risolvere prima delle visite scolastiche o degli impegni abitativi?"
+      ],
+      "workstreams": [
+        "Percorso di residenza e inclusione familiare",
+        "Preparazione al private banking e coordinamento dei consulenti",
+        "Elenco dei candidati alle scuole internazionali e programma delle visite",
+        "Alloggio, assicurazione, assistenza sanitaria e liquidazione giornaliera"
+      ],
+      "proofPoints": [
+        "Costruito per i clienti che apprezzano la discrezione prima degli impegni pubblici",
+        "Collega le decisioni sullo stile di vita con le tempistiche bancarie e di autorizzazione",
+        "Mantiene allineati i family office o i consulenti legali esistenti"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Family office e famiglie kuwaitiane",
+      "title": "Trasferirsi in Svizzera dal Kuwait",
+      "description": "Un percorso svizzero di ricollocazione e governance per le famiglie kuwaitiane che coordina residenza, attività bancaria, successione, scuole e una base europea stabile.",
+      "metaDescription": "Consulenza svizzera sulla ricollocazione per famiglie e family office kuwaitiani. Pianificare i permessi, il private banking, la governance, le scuole e gli insediamenti.",
+      "startingPoint": "Kuwait",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Il trasferimento svizzero dovrebbe essere strutturato attorno alla residenza familiare, alla governance o a entrambi?",
+        "Quale cantone si adatta meglio a privacy, tasse e logistica familiare?",
+        "Come dovrebbero essere sequenziati i flussi di lavoro bancari, del consiglio di amministrazione e di reporting?"
+      ],
+      "workstreams": [
+        "Profilo familiare e ambito di governance",
+        "Confronto cantonale per esigenze di residenza, privacy e family office",
+        "Private banking e preparazione source-of-wealth",
+        "Scuola, alloggio, assistenza sanitaria e insediamento familiare"
+      ],
+      "proofPoints": [
+        "Utile per le famiglie multigenerazionali che necessitano di governance e trasferimento collegati",
+        "Progettato per l'installazione svizzera riservata prima degli impegni pubblici",
+        "Coordina le dipendenze della famiglia, della banca, del consiglio di amministrazione e degli insediamenti"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Fondatori e family office con sede a Singapore",
+      "title": "Trasferirsi in Svizzera da Singapore",
+      "description": "Un percorso per imprenditori e family office con sede a Singapore che mette a confronto la Svizzera come base europea di residenza, sistema bancario, governance e stile di vita.",
+      "metaDescription": "Consulenza in materia di ricollocazione svizzera per fondatori e family office con sede a Singapore. Confronta residenza, tasse, banche, governance, scuole e cantoni.",
+      "startingPoint": "Singapore",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Cosa cambia quando alla base di Singapore si aggiunge la residenza in Svizzera?",
+        "Quali flussi di lavoro devono essere sequenziati prima del trasferimento della famiglia?",
+        "Come dovrebbero essere preparate il settore bancario e la governance per un assetto rivolto alla Svizzera?"
+      ],
+      "workstreams": [
+        "Uscita da Singapore o pianificazione a doppia base",
+        "Residenza svizzera e confronto tra cantoni",
+        "Coordinamento bancario, governance e advisor",
+        "Scuole, alloggi, assicurazioni e liquidazione giornaliera"
+      ],
+      "proofPoints": [
+        "Creato per i clienti che confrontano due giurisdizioni di alta qualità",
+        "Mantiene le decisioni sullo stile di vita svizzero collegate al settore bancario e alla governance",
+        "Utile prima di impegnarsi in un cantone, in un contratto di locazione o in un percorso scolastico"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Imprenditori e famiglie di Hong Kong",
+      "title": "Trasferirsi in Svizzera da Hong Kong",
+      "description": "Un percorso di trasferimento privato in Svizzera per fondatori, detentori di patrimoni e famiglie di Hong Kong che cercano una base europea stabile con scuole e servizi bancari forti.",
+      "metaDescription": "Consulenza svizzera sul trasferimento per fondatori e famiglie di Hong Kong. Pianifica residenza, banche, scuole, tasse, alloggi e selezione del cantone.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quale cantone svizzero è adatto a una famiglia internazionale proveniente da Hong Kong?",
+        "Come devono essere preparate la documentazione bancaria e lo storico source-of-wealth?",
+        "Cosa si può decidere prima delle visite scolastiche e delle ricerche di alloggio?"
+      ],
+      "workstreams": [
+        "Cronologia della partenza da Hong Kong e dell'arrivo in Svizzera",
+        "Confronto cantonale per scuole, tasse, banche e vita quotidiana",
+        "Permessi di soggiorno e inclusione familiare",
+        "Disponibilità, alloggio e liquidazione del private banking"
+      ],
+      "proofPoints": [
+        "Ideale per le famiglie che danno priorità alla stabilità, alla scuola e alla discrezione",
+        "Coordina la risoluzione pratica con le dipendenze bancarie e di autorizzazione",
+        "Utile prima che vengano fatti circolare documenti sensibili"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Fondatori, dirigenti e famiglie di US",
+      "title": "Trasferisciti in Svizzera da USA",
+      "description": "Un percorso di trasferimento svizzero per i clienti connessi a US che necessitano di un attento coordinamento in merito a residenza, consulenti, servizi bancari, scuole e complessità fiscale continua.",
+      "metaDescription": "Consulenza sul trasferimento svizzero per fondatori e famiglie di US. Coordinare residenza, servizi bancari, consulenti, scuole, complessità fiscale e liquidazione.",
+      "startingPoint": "Stati Uniti",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "In che modo i consulenti fiscali e di rendicontazione di US dovrebbero rimanere collegati al piano svizzero?",
+        "Quale cantone si adatta alle esigenze scolastiche, bancarie e di viaggio della famiglia?",
+        "Cosa occorre chiarire prima degli impegni di residenza e abitativi?"
+      ],
+      "workstreams": [
+        "Advisor US e coordinamento degli advisor svizzeri",
+        "Percorso di residenza e inclusione familiare",
+        "Confronto cantonale per scuole, viaggi e banche",
+        "Preparazione bancaria, alloggi, assistenza sanitaria e liquidazione"
+      ],
+      "proofPoints": [
+        "Costruito per i casi in cui la complessità del reporting US deve rimanere visibile",
+        "Mantiene le decisioni svizzere collegate ai consulenti US esistenti",
+        "Utile prima di prendere impegni bancari, immobiliari o scolastici"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Imprenditori e famiglie tedesche",
+      "title": "Trasferirsi in Svizzera dalla Germania",
+      "description": "Un pratico percorso di ricollocazione in Svizzera per fondatori e famiglie tedesche che confronta residenza, scelta del cantone, avvio dell'impresa, scuole e tempistiche transfrontaliere.",
+      "metaDescription": "Consulenza sulla delocalizzazione svizzera per imprenditori e famiglie tedesche. Pianifica la residenza, la scelta del cantone, i tempi fiscali, l'avvio dell'attività, le scuole e l'insediamento.",
+      "startingPoint": "Germania",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Quando bisognerebbe concatenare la pianificazione della partenza tedesca e quella del soggiorno svizzero?",
+        "Quale cantone si adatta meglio alla proprietà delle imprese, alla vita familiare e ai modelli di pendolarismo?",
+        "Come coordinare permessi, alloggi, scuole e consulenti?"
+      ],
+      "workstreams": [
+        "Orario della partenza tedesca e dell'arrivo svizzero",
+        "Confronto cantonale per imposte, scuole e operazioni commerciali",
+        "Richiesta permesso e inclusione familiare",
+        "Sistemazione abitativa, assicurativa, bancaria e di insediamento"
+      ],
+      "proofPoints": [
+        "Ideale per fondatori e famiglie che necessitano di tempistiche gestite con precisione",
+        "Collega la scelta cantonale con le realtà pratiche scolastiche e abitative",
+        "Mantiene coordinati i consulenti tedeschi e svizzeri"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Fondatori e detentori di ricchezza norvegesi",
+      "title": "Trasferirsi in Svizzera dalla Norvegia",
+      "description": "Un percorso di delocalizzazione svizzero per imprenditori, investitori e famiglie norvegesi che valutano residenza fiscale, permessi, scelta del cantone, scuole e attività bancarie.",
+      "metaDescription": "Consulenza sul trasferimento svizzero per fondatori e famiglie norvegesi. Coordinare residenza fiscale, permessi, servizi bancari, scuole, scelta del cantone e liquidazione.",
+      "startingPoint": "Norvegia",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quando la pianificazione di uscita norvegese dovrebbe essere allineata ai tempi di residenza in Svizzera?",
+        "Quale cantone si adatta alla privacy, alla vita familiare e alle priorità fiscali?",
+        "Cosa dovrebbe essere coordinato prima delle presentazioni bancarie o delle decisioni scolastiche?"
+      ],
+      "workstreams": [
+        "Cronologia delle partenze norvegesi e degli arrivi svizzeri",
+        "Confronto cantonale sulle priorità familiari, fiscali e bancarie",
+        "Permessi di soggiorno e inclusione familiare",
+        "Preparazione bancaria, alloggi, scuole e insediamenti"
+      ],
+      "proofPoints": [
+        "Costruito per i detentori di patrimoni che necessitano di tempistiche fiscali e logistica familiare connesse",
+        "Utile prima di impegnarsi in un cantone o in un percorso scolastico",
+        "Coordina i consulenti esistenti con l'esecuzione svizzera"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "I fondatori spostano la sostanza aziendale",
+      "title": "Trasferire un'azienda in Svizzera",
+      "description": "Un percorso guidato dal fondatore per trasferire la sostanza aziendale, la costituzione del consiglio di amministrazione, i servizi bancari, i permessi e il trasferimento della famiglia in un unico piano svizzero coordinato.",
+      "metaDescription": "Trasferire un'azienda in Svizzera con consulenza coordinata per costituzione di società, sostanza, banche, permessi di soggiorno, tasse e trasferimenti familiari.",
+      "startingPoint": "Internazionale",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "La società svizzera deve essere costituita prima o dopo che sia chiaro il percorso di residenza?",
+        "Quale sostanza si aspettano il Cantone, la banca e le controparti?",
+        "In che modo i permessi del fondatore, il trasferimento della famiglia e il corporate banking si influenzano a vicenda?"
+      ],
+      "workstreams": [
+        "Profilo del fondatore, sostanza dell'azienda e revisione dell'idoneità del cantone",
+        "Costituzione della società, governance e istituzione del consiglio di amministrazione",
+        "Preparazione e documentazione bancaria aziendale",
+        "Permesso di fondatore, trasferimento della famiglia, alloggio e insediamento"
+      ],
+      "proofPoints": [
+        "Progettato per i fondatori che necessitano di flussi di lavoro aziendali e familiari allineati",
+        "Collega sostanza, permessi, operazioni bancarie e liquidazione nel giusto ordine",
+        "Riduce i ritardi derivanti da consulenze legali, bancarie e di trasferimento isolate"
+      ]
+    }
+  },
+  "zh": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "沙特创始人、投资者和家族",
+      "title": "从沙特阿拉伯搬到瑞士",
+      "description": "为沙特企业家和家庭提供的瑞士搬迁路线，协调居住、银行准备、学校、住房和州选择。",
+      "metaDescription": "为沙特创始人、投资者和家庭提供瑞士搬迁咨询。规划许可证、银行、学校、税务、住房和州选择。",
+      "startingPoint": "沙特阿拉伯",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "哪个瑞士州适合该家庭的学校、隐私和银行业务优先事项？",
+        "银行介绍前沙特source-of-wealth文件应该如何准备？",
+        "许可证、住房、学校和顾问协调可以并行进行吗？"
+      ],
+      "workstreams": [
+        "沙特出发和瑞士抵达时间表",
+        "银行业准备情况和财富文件叙述",
+        "学校、住房和各州比较",
+        "许可证申请、保险和结算顺序"
+      ],
+      "proofPoints": [
+        "专为将重要资产和日常生活一起转移的家庭而设计",
+        "使银行、许可证、学校和住房保持在一个协调的顺序中",
+        "在与银行或顾问共享敏感文件之前很有用"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "卡塔尔私人客户",
+      "title": "从卡塔尔搬到瑞士",
+      "description": "为卡塔尔家庭、高管和投资者提供比较瑞士居留权、私人银行、教育和定居的谨慎途径。",
+      "metaDescription": "为卡塔尔家庭和投资者提供瑞士搬迁咨询。协调许可证、私人银行、学校、住房和州选择。",
+      "startingPoint": "卡塔尔",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "哪个州提供适当的自由裁量权、学校和银行准入组合？",
+        "现有的 MTSKEP3TOKEN 顾问应如何与 Swiss 执行保持协调？",
+        "在学校参观或住房承诺之前应该解决什么问题？"
+      ],
+      "workstreams": [
+        "居住路线和家庭融入",
+        "私人银行准备和顾问协调",
+        "国际学校入围名单及参观日程",
+        "住房、保险、医疗、日常结算"
+      ],
+      "proofPoints": [
+        "专为重视自由裁量权而非公开承诺的客户而打造",
+        "将生活方式决策与银行业务联系起来并允许时机",
+        "使现有的家族办公室或法律顾问保持一致"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "科威特家族办公室和家族",
+      "title": "从科威特搬到瑞士",
+      "description": "科威特家庭的瑞士搬迁和治理路线，协调居住、银行、继承、学校和稳定的欧洲基地。",
+      "metaDescription": "瑞士为科威特家庭和家族办公室提供搬迁咨询服务。规划许可证、私人银行、治理、学校和定居点。",
+      "startingPoint": "科威特",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "瑞士的迁徙应该围绕家庭居住、治理还是两者兼而有之？",
+        "哪个州最适合隐私、税务和家庭后勤？",
+        "银行、董事会和报告工作流程应如何排序？"
+      ],
+      "workstreams": [
+        "家族概况和治理范围",
+        "广州在居住、隐私和家族办公室需求方面的比较",
+        "私人银行和source-of-wealth准备",
+        "就学、住房、医疗、家庭安置"
+      ],
+      "proofPoints": [
+        "对于需要连接治理和搬迁的多代家庭很有用",
+        "专为在公开承诺之前进行保密的瑞士设置而设计",
+        "协调家庭、银行、董事会和定居点的依赖关系"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "新加坡创始人和家族办公室",
+      "title": "从新加坡搬到瑞士",
+      "description": "新加坡企业家和家族办公室将瑞士作为欧洲居住、银行、治理和生活方式基地的路线。",
+      "metaDescription": "为新加坡创始人和家族办公室提供瑞士搬迁咨询。比较居住权、税务、银行、治理、学校和州。",
+      "startingPoint": "新加坡",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "当新加坡基地与瑞士居住地相辅相成时，会发生什么变化？",
+        "在家庭搬迁之前必须对哪些工作流程进行排序？",
+        "银行和治理应该如何为面向瑞士的设置做好准备？"
+      ],
+      "workstreams": [
+        "新加坡退出或双基地规划",
+        "瑞士居住地和州的比较",
+        "银行、治理和顾问协调",
+        "学校、住房、保险、日常结算"
+      ],
+      "proofPoints": [
+        "专为比较两个高质量司法管辖区的客户而设计",
+        "让瑞士人的生活方式决策与银行业和治理保持联系",
+        "在进入州、租赁或学校跑道之前有用"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "香港企业家及家庭",
+      "title": "从香港移居瑞士",
+      "description": "为香港创始人、财富持有者和寻求拥有强大学校和银行业务的稳定欧洲基地的香港创始人、财富持有者和家庭提供的私人瑞士移民途径。",
+      "metaDescription": "为香港创始人及其家族提供瑞士搬迁咨询。规划居住、银行、学校、税务、住房和州选择。",
+      "startingPoint": "香港",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "瑞士哪个州适合来自香港的国际家庭？",
+        "应如何准备银行文件和 source-of-wealth 历史记录？",
+        "在学校参观和寻找住房之前可以决定什么？"
+      ],
+      "workstreams": [
+        "香港出发和瑞士抵达时间表",
+        "广州的学校、税务、银行和日常生活比较",
+        "居留许可和家庭包容",
+        "私人银行准备、住房和结算"
+      ],
+      "proofPoints": [
+        "适合优先考虑稳定、学校和自由裁量权的家庭",
+        "与银行协调实际结算并许可依赖性",
+        "在敏感文件分发之前有用"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US 创始人、高管和家族",
+      "title": "从 USA 迁移到瑞士",
+      "description": "瑞士搬迁路线，适用于需要在居住、顾问、银行、学校和持续税务复杂性方面进行仔细协调的 US 连接客户。",
+      "metaDescription": "为 US 创始人和家族提供瑞士搬迁咨询。协调居住、银行、顾问、学校、税务复杂性和结算。",
+      "startingPoint": "美国",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "US 税务和报告顾问应如何与瑞士计划保持联系？",
+        "哪个州适合该家庭的学校、银行业务和旅行需求？",
+        "在做出居住和住房承诺之前应该澄清什么？"
+      ],
+      "workstreams": [
+        "US 顾问和瑞士顾问协调",
+        "居住路线和家庭融入",
+        "广州的学校、旅游和银行业务比较",
+        "银行业准备、住房、医疗保健和结算"
+      ],
+      "proofPoints": [
+        "专为 US 报告复杂性必须保持可见的情况而构建",
+        "让瑞士的决策与现有的 US 顾问保持联系",
+        "在做出银行、住房或学校承诺之前有用"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "德国企业家和家庭",
+      "title": "从德国搬到瑞士",
+      "description": "为德国创始人和家庭提供的实用瑞士搬迁路线，比较居住地、州选择、企业设置、学校和跨境时间安排。",
+      "metaDescription": "为德国企业家和家庭提供瑞士搬迁咨询。规划居住、州选择、纳税时间、企业设置、学校和定居。",
+      "startingPoint": "德国",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "德国出境计划和瑞士居住计划应何时排序？",
+        "哪个州适合企业所有权、家庭生活和通勤模式？",
+        "许可证、住房、学校和顾问应如何协调？"
+      ],
+      "workstreams": [
+        "德国出发和瑞士抵达时间表",
+        "各州税务、学校和商业运营比较",
+        "许可申请和家庭融入",
+        "住房、保险、银行和结算设置"
+      ],
+      "proofPoints": [
+        "最适合需要精确处理时间的创始人和家族",
+        "将州选择与学校和住房的实际情况联系起来",
+        "保持德国和瑞士顾问的协调"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "挪威创始人和财富持有者",
+      "title": "从挪威搬到瑞士",
+      "description": "为挪威企业家、投资者和家庭提供的瑞士移民路线，评估税务居住权、许可证、州选择、学校和银行业务。",
+      "metaDescription": "为挪威创始人和家庭提供瑞士搬迁咨询。协调税务居住、许可证、银行、学校、州选择和定居。",
+      "startingPoint": "挪威",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "挪威的出境计划何时应与瑞士的居住时间保持一致？",
+        "哪个州适合隐私、家庭生活和税收优先事项？",
+        "在银行介绍或学校决定之前应该协调什么？"
+      ],
+      "workstreams": [
+        "挪威出发和瑞士抵达时间表",
+        "各州家庭、税务和银行优先事项的比较",
+        "居留许可和家庭包容",
+        "银行准备、住房、学校和结算"
+      ],
+      "proofPoints": [
+        "专为需要纳税时间和家庭物流连接的财富持有者而设计",
+        "在参加州或学校田径比赛之前有用",
+        "协调现有顾问与瑞士执行人员"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "创始人转移业务实质",
+      "title": "将公司迁至瑞士",
+      "description": "一种由创始人主导的路线，将公司实质、董事会设置、银行业务、许可证和家庭搬迁纳入一个协调一致的瑞士计划。",
+      "metaDescription": "将公司迁往瑞士，为公司组建、实质、银行、居留许可、税务和家庭搬迁提供协调咨询。",
+      "startingPoint": "国际",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "瑞士公司应该在居住路线明确之前还是之后设立？",
+        "州政府、银行和交易对手会期待什么内容？",
+        "创始人许可、家庭搬迁和企业银行业务如何相互影响？"
+      ],
+      "workstreams": [
+        "创始人简介、公司实质和 Canton Fit 审查",
+        "公司组建、治理和董事会设置",
+        "企业银行业务准备情况和文件",
+        "创始人许可、家庭搬迁、住房和安置"
+      ],
+      "proofPoints": [
+        "专为需要协调公司和家庭工作流程的创始人而打造",
+        "以正确的顺序连接物质、许可证、银行业务和结算",
+        "减少因孤立的法律、银行和搬迁建议而造成的延误"
+      ]
+    }
+  },
+  "pt": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Fundadores, investidores e famílias sauditas",
+      "title": "Mude-se da Arábia Saudita para a Suíça",
+      "description": "Uma rota de realocação suíça para empresários e famílias sauditas, coordenando residência, preparação bancária, escolas, habitação e seleção de cantões.",
+      "metaDescription": "Consultoria de relocação suíça para fundadores, investidores e famílias sauditas. Planeje licenças, serviços bancários, escolas, impostos, habitação e seleção de cantões.",
+      "startingPoint": "Arábia Saudita",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Qual cantão suíço se adapta às prioridades escolares, de privacidade e bancárias da família?",
+        "Como a documentação saudita source-of-wealth deve ser preparada antes das apresentações bancárias?",
+        "As licenças, habitação, escolas e coordenação de conselheiros podem mover-se em paralelo?"
+      ],
+      "workstreams": [
+        "Cronograma de partida saudita e chegada à Suíça",
+        "Prontidão bancária e narrativa de documentação de riqueza",
+        "Comparação entre escola, habitação e cantão",
+        "Solicitação de licença, seguro e sequência de liquidação"
+      ],
+      "proofPoints": [
+        "Projetado para famílias que movimentam ativos significativos e a vida diária em conjunto",
+        "Mantém bancos, licenças, escolas e moradias em uma sequência coordenada",
+        "Útil antes que documentos confidenciais sejam compartilhados com bancos ou consultores"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Clientes privados baseados no Catar",
+      "title": "Mudar-se do Catar para a Suíça",
+      "description": "Um caminho discreto para famílias, executivos e investidores residentes no Catar comparando residência na Suíça, serviços bancários privados, escolaridade e assentamento.",
+      "metaDescription": "Consultoria de realocação suíça para famílias e investidores residentes no Catar. Coordenar licenças, serviços bancários privados, escolas, habitação e escolha de cantão.",
+      "startingPoint": "Catar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Qual cantão oferece a combinação certa de discrição, escolas e acesso a bancos?",
+        "Como os consultores GCC existentes devem permanecer coordenados com a execução suíça?",
+        "O que deve ser resolvido antes das visitas escolares ou dos compromissos habitacionais?"
+      ],
+      "workstreams": [
+        "Rota da residência e inclusão familiar",
+        "Preparação para serviços bancários privados e coordenação de consultores",
+        "Lista de escolas internacionais e cronograma de visitas",
+        "Habitação, seguros, cuidados de saúde e liquidação diária"
+      ],
+      "proofPoints": [
+        "Construído para clientes que valorizam a discrição antes dos compromissos públicos",
+        "Conecta decisões de estilo de vida com serviços bancários e permite o tempo",
+        "Mantém os escritórios familiares ou consultores jurídicos existentes alinhados"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Family offices e famílias do Kuwait",
+      "title": "Mudar-se do Kuwait para a Suíça",
+      "description": "Uma rota suíça de realocação e governança para famílias do Kuwait, coordenando residência, serviços bancários, sucessão, escolas e uma base europeia estável.",
+      "metaDescription": "Consultoria de realocação suíça para famílias e family offices do Kuwait. Planejar licenças, serviços bancários privados, governança, escolas e assentamentos.",
+      "startingPoint": "Kuwait",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "A mudança suíça deveria ser estruturada em torno da residência familiar, da governança ou de ambos?",
+        "Qual cantão se adapta melhor à privacidade, impostos e logística familiar?",
+        "Como os fluxos de trabalho bancário, do conselho e de relatórios devem ser sequenciados?"
+      ],
+      "workstreams": [
+        "Perfil familiar e escopo de governança",
+        "Comparação de Cantão para necessidades de residência, privacidade e escritório familiar",
+        "Preparação de private banking e source-of-wealth",
+        "Escolaridade, moradia, saúde e assentamento familiar"
+      ],
+      "proofPoints": [
+        "Útil para famílias multigeracionais que precisam de governança e realocação conectadas",
+        "Projetado para configuração suíça confidencial antes de compromissos públicos",
+        "Coordena dependências familiares, bancárias, de diretoria e de liquidação"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Fundadores e escritórios familiares baseados em Cingapura",
+      "title": "Mudar-se de Cingapura para a Suíça",
+      "description": "Uma rota para empreendedores e escritórios familiares baseados em Cingapura comparando a Suíça como base europeia de residência, serviços bancários, governança e estilo de vida.",
+      "metaDescription": "Consultoria de realocação suíça para fundadores e family offices baseados em Cingapura. Compare residência, impostos, bancos, governança, escolas e cantões.",
+      "startingPoint": "Singapura",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "O que muda quando uma base em Singapura é complementada por uma residência na Suíça?",
+        "Quais fluxos de trabalho devem ser sequenciados antes da realocação da família?",
+        "Como devem os bancos e a governação ser preparados para uma configuração voltada para a Suíça?"
+      ],
+      "workstreams": [
+        "Saída de Singapura ou planejamento de base dupla",
+        "Residência suíça e comparação de cantões",
+        "Coordenação bancária, de governança e de consultores",
+        "Escolas, habitação, seguros e liquidação diária"
+      ],
+      "proofPoints": [
+        "Criado para clientes que comparam duas jurisdições de alta qualidade",
+        "Mantém as decisões de estilo de vida suíças conectadas ao setor bancário e à governança",
+        "Útil antes de se comprometer com um cantão, arrendamento ou escola"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Empreendedores e famílias de Hong Kong",
+      "title": "Mudar-se de Hong Kong para a Suíça",
+      "description": "Um caminho privado de realocação na Suíça para fundadores, detentores de riqueza e famílias de Hong Kong que buscam uma base europeia estável com escolas e bancos fortes.",
+      "metaDescription": "Consultoria de relocação suíça para fundadores e famílias de Hong Kong. Planeje residência, bancos, escolas, impostos, habitação e seleção de cantões.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Qual cantão suíço acomoda uma família internacional vinda de Hong Kong?",
+        "Como deve ser preparada a documentação bancária e o histórico do source-of-wealth?",
+        "O que pode ser decidido antes das visitas às escolas e da procura de habitação?"
+      ],
+      "workstreams": [
+        "Cronograma de partida de Hong Kong e chegada à Suíça",
+        "Comparação de cantão para escolas, impostos, bancos e vida diária",
+        "Autorizações de residência e inclusão familiar",
+        "Preparação, habitação e liquidação de serviços bancários privados"
+      ],
+      "proofPoints": [
+        "Boa opção para famílias que priorizam estabilidade, escolas e discrição",
+        "Coordena a liquidação prática com dependências bancárias e de licenças",
+        "Útil antes da circulação de documentos confidenciais"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Fundadores, executivos e famílias da US",
+      "title": "Mude-se para a Suíça a partir do USA",
+      "description": "Uma rota de realocação suíça para clientes conectados ao US que precisam de coordenação cuidadosa em torno de residência, consultores, bancos, escolas e complexidade tributária contínua.",
+      "metaDescription": "Consultoria de relocação suíça para fundadores e famílias da US. Coordenar residência, serviços bancários, consultores, escolas, complexidade tributária e liquidação.",
+      "startingPoint": "Estados Unidos",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Como os consultores fiscais e de relatórios US devem permanecer conectados ao plano suíço?",
+        "Qual cantão atende às necessidades escolares, bancárias e de viagem da família?",
+        "O que deve ser esclarecido antes dos compromissos de residência e habitação?"
+      ],
+      "workstreams": [
+        "Consultor US e coordenação de consultor suíço",
+        "Rota de residência e inclusão familiar",
+        "Comparação de Cantão para escolas, viagens e serviços bancários",
+        "Preparação bancária, habitação, saúde e liquidação"
+      ],
+      "proofPoints": [
+        "Criado para casos em que a complexidade dos relatórios US deve permanecer visível",
+        "Mantém as decisões suíças conectadas aos consultores US existentes",
+        "Útil antes de compromissos bancários, habitacionais ou escolares serem assumidos"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Empresários e famílias alemãs",
+      "title": "Mudar-se da Alemanha para a Suíça",
+      "description": "Uma rota prática de realocação na Suíça para fundadores e famílias alemãs comparando residência, escolha de cantão, configuração de negócios, escolas e tempo transfronteiriço.",
+      "metaDescription": "Assessoria de realocação suíça para empresários e famílias alemãs. Planeje residência, escolha de cantão, calendário de impostos, configuração de negócios, escolas e liquidação.",
+      "startingPoint": "Alemanha",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Quando o planejamento de partida alemão e o planejamento de residência na Suíça devem ser sequenciados?",
+        "Qual cantão se adapta à propriedade empresarial, à vida familiar e aos padrões de deslocamento diário?",
+        "Como devem ser coordenadas as licenças, a habitação, as escolas e os conselheiros?"
+      ],
+      "workstreams": [
+        "Cronograma de partida alemã e chegada na Suíça",
+        "Comparação de Cantão para impostos, escolas e operações comerciais",
+        "Solicitação de autorização e inclusão familiar",
+        "Configuração de habitação, seguros, serviços bancários e liquidação"
+      ],
+      "proofPoints": [
+        "Melhor para fundadores e famílias que precisam de tempo controlado com precisão",
+        "Conecta a escolha do cantão com as realidades práticas da escola e da habitação",
+        "Mantém os consultores alemães e suíços coordenados"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Fundadores e detentores de riqueza noruegueses",
+      "title": "Mudar-se da Noruega para a Suíça",
+      "description": "Uma rota de realocação na Suíça para empreendedores, investidores e famílias norueguesas que avaliam residência fiscal, autorizações, escolha de cantão, escolas e serviços bancários.",
+      "metaDescription": "Consultoria de realocação suíça para fundadores e famílias norueguesas. Coordenar residência fiscal, autorizações, serviços bancários, escolas, escolha de cantão e liquidação.",
+      "startingPoint": "Noruega",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Quando deve o planeamento de saída da Noruega estar alinhado com o calendário de residência na Suíça?",
+        "Qual cantão se enquadra nas prioridades de privacidade, vida familiar e impostos?",
+        "O que deve ser coordenado antes da introdução dos bancos ou das decisões escolares?"
+      ],
+      "workstreams": [
+        "Cronograma de partida norueguesa e chegada à Suíça",
+        "Comparação de Cantão para prioridades familiares, fiscais e bancárias",
+        "Autorizações de residência e inclusão familiar",
+        "Preparação bancária, habitação, escolas e liquidação"
+      ],
+      "proofPoints": [
+        "Criado para detentores de riqueza que precisam de sincronia fiscal e logística familiar conectada",
+        "Útil antes de se comprometer com um cantão ou escola",
+        "Coordena os consultores existentes com a execução suíça"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Fundadores movendo substância empresarial",
+      "title": "Mover uma empresa para a Suíça",
+      "description": "Uma rota liderada pelo fundador para transferir a substância da empresa, a configuração do conselho, os serviços bancários, as licenças e a realocação da família em um plano suíço coordenado.",
+      "metaDescription": "Mude uma empresa para a Suíça com consultoria coordenada para formação de empresa, substância, serviços bancários, autorizações de residência, impostos e realocação familiar.",
+      "startingPoint": "Internacional",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "A empresa suíça deve ser formada antes ou depois de a rota de residência estar clara?",
+        "Que substância o cantão, o banco e as contrapartes esperarão?",
+        "Como as licenças de fundador, a realocação familiar e os serviços bancários corporativos afetam uns aos outros?"
+      ],
+      "workstreams": [
+        "Perfil do fundador, substância da empresa e avaliação de adequação ao cantão",
+        "Formação da empresa, governança e configuração do conselho",
+        "Preparação e documentação bancária corporativa",
+        "Licença de fundador, realocação familiar, moradia e assentamento"
+      ],
+      "proofPoints": [
+        "Criado para fundadores que precisam de fluxos de trabalho empresariais e familiares alinhados",
+        "Conecta substância, licenças, serviços bancários e liquidação na ordem certa",
+        "Reduz atrasos decorrentes de aconselhamento jurídico, bancário e de relocação isolados"
+      ]
+    }
+  },
+  "he": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "מייסדי סעודיה, משקיעים ומשפחות",
+      "title": "לעבור לשוויץ מסעודיה",
+      "description": "מסלול רילוקיישן שוויצרי ליזמים ומשפחות סעודיות המתאם מגורים, מוכנות בנקאית, בתי ספר, דיור ובחירת קנטונים.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למייסדים, משקיעים ומשפחות סעודיה. היתרי תכנון, בנקאות, בתי ספר, מסים, דיור ובחירת קנטונים.",
+      "startingPoint": "ערב הסעודית",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "איזה קנטון שוויצרי מתאים לסדר העדיפויות של בית הספר, הפרטיות והבנקאות של המשפחה?",
+        "כיצד יש להכין את תיעוד source-of-wealth הסעודי לפני הצגת הבנקים?",
+        "האם היתרים, דיור, בתי ספר ותיאום יועצים יכולים לנוע במקביל?"
+      ],
+      "workstreams": [
+        "ציר זמן יציאה סעודיה וציר זמן הגעה של שוויץ",
+        "נכונות בנקאית ונרטיב תיעוד עושר",
+        "השוואה בין בתי ספר, דיור וקנטונים",
+        "בקשת היתר, רצף ביטוח ופשרה"
+      ],
+      "proofPoints": [
+        "מיועד למשפחות המעבירות נכסים משמעותיים וחיי היום יום ביחד",
+        "שומר בנקאות, היתרים, בתי ספר ודיור ברצף מתואם אחד",
+        "שימושי לפני שיתוף מסמכים רגישים עם בנקים או יועצים"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "לקוחות פרטיים מבוססי קטאר",
+      "title": "לעבור לשוויץ מקטאר",
+      "description": "נתיב דיסקרטי למשפחות, מנהלים ומשקיעים מבוססי קטאר המשווים תושבות שוויצרית, בנקאות פרטית, לימודים והתיישבות.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למשפחות ומשקיעים מבוססי קטאר. לתאם היתרים, בנקאות פרטית, בתי ספר, דיור ובחירת קנטונים.",
+      "startingPoint": "קטאר",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "איזה קנטון מציע את השילוב הנכון של שיקול דעת, בתי ספר וגישה לבנק?",
+        "כיצד יועצי GCC הקיימים צריכים להישאר מתואמים עם הביצוע השוויצרי?",
+        "מה צריך לפתור לפני ביקורים בבית הספר או התחייבויות לדיור?"
+      ],
+      "workstreams": [
+        "מסלול מגורים ושילוב משפחה",
+        "מוכנות בנקאות פרטית ותיאום יועצים",
+        "רשימת בתי ספר בינלאומיים ולוח זמנים לביקורים",
+        "דיור, ביטוח, בריאות והתיישבות יומיומית"
+      ],
+      "proofPoints": [
+        "נבנה עבור לקוחות שמעריכים שיקול דעת לפני התחייבויות ציבוריות",
+        "מחבר החלטות אורח חיים עם בנקאות ותזמון היתרים",
+        "שומר על התאמה בין משרד המשפחה או היועצים המשפטיים"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "משרדי משפחה ומשפחות כווית",
+      "title": "לעבור לשוויץ מכווית",
+      "description": "מסלול רילוקיישן וממשל שוויצרי עבור משפחות כווית המתאם מגורים, בנקאות, ירושה, בתי ספר ובסיס אירופאי יציב.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למשפחות כווית ולמשרדי משפחה. היתרי תכנון, בנקאות פרטית, ממשל, בתי ספר והתיישבות.",
+      "startingPoint": "כווית",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "האם המהלך השוויצרי צריך להיות מובנה סביב מגורים משפחתיים, ממשל או שניהם?",
+        "איזה קנטון הכי מתאים לפרטיות, מס ולוגיסטיקה משפחתית?",
+        "כיצד יש לסדר את זרמי העבודה של בנקאות, דירקטוריון ודיווח?"
+      ],
+      "workstreams": [
+        "פרופיל משפחתי והיקף ממשל",
+        "השוואת קנטונים לצורכי מגורים, פרטיות ומשפחה",
+        "בנקאות פרטית והכנת source-of-wealth",
+        "לימודים, דיור, בריאות והתיישבות משפחתית"
+      ],
+      "proofPoints": [
+        "שימושי למשפחות רב-דוריות הזקוקות למשילות ולרילוקיישן מחוברים",
+        "עוצב עבור הגדרה שוויצרית סודית לפני התחייבויות ציבוריות",
+        "מתאם תלות במשפחה, בבנק, בדירקטוריון ובהתנחלויות"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "מייסדים ומשרדי משפחה מסינגפור",
+      "title": "לעבור לשוויץ מסינגפור",
+      "description": "מסלול ליזמים ומשרדי משפחה מסינגפור המשווים את שוויץ כבסיס מגורים, בנקאות, ממשל ואורח חיים אירופי.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למייסדים ומשרדי משפחה מסינגפור. השווה תושבות, מס, בנקאות, ממשל, בתי ספר וקנטונים.",
+      "startingPoint": "סינגפור",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "מה משתנה כאשר משלימים בסיס סינגפורי על ידי מגורים בשוויץ?",
+        "אילו זרמי עבודה חייבים להיות מסודרים לפני רילוקיישן משפחתי?",
+        "כיצד יש להכין את הבנקאות והממשל למערך הפונה לשווייץ?"
+      ],
+      "workstreams": [
+        "תכנון יציאה מסינגפור או בסיס כפול",
+        "השוואת מגורים וקנטונים בשוויץ",
+        "בנקאות, ממשל ותיאום יועצים",
+        "בתי ספר, דיור, ביטוח והתיישבות יומיומית"
+      ],
+      "proofPoints": [
+        "נבנה עבור לקוחות המשווים בין שני תחומי שיפוט איכותיים",
+        "שומר על החלטות סגנון חיים שוויצרי מחוברות לבנקאות ולממשל",
+        "שימושי לפני התחייבות לקנטון, חכירה או מסלול לימודים"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "יזמים ומשפחות בהונג קונג",
+      "title": "לעבור לשוויץ מהונג קונג",
+      "description": "מסלול רילוקיישן שוויצרי פרטי עבור מייסדי הונג קונג, בעלי עושר ומשפחות המחפשות בסיס אירופאי יציב עם בתי ספר ובנקאות חזקים.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למייסדי הונג קונג ולמשפחות. תכנן מגורים, בנקאות, בתי ספר, מס, דיור ובחירת קנטונים.",
+      "startingPoint": "הונג קונג",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "איזה קנטון שוויצרי מתאים למשפחה בינלאומית שמגיעה מהונג קונג?",
+        "כיצד יש להכין תיעוד בנקאי והיסטוריית source-of-wealth?",
+        "מה ניתן להחליט לפני ביקורי בית ספר וחיפושי דיור?"
+      ],
+      "workstreams": [
+        "ציר זמן יציאה מהונג קונג וציר זמן הגעה של שוויץ",
+        "השוואת קנטונים לבתי ספר, מס, בנקאות וחיי היומיום",
+        "אישורי שהייה ושילוב משפחות",
+        "מוכנות לבנקאות פרטית, דיור והתיישבות"
+      ],
+      "proofPoints": [
+        "התאמה טובה למשפחות המעדיפות יציבות, בתי ספר ושיקול דעת",
+        "מתאם הסדר מעשי עם תלות בבנק ובהיתרים",
+        "שימושי לפני הפצת מסמכים רגישים"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "מייסדי US, מנהלים ומשפחות",
+      "title": "עבור לשוויץ מה- USA",
+      "description": "מסלול רילוקיישן שוויצרי עבור לקוחות הקשורים ל-US הזקוקים לתיאום קפדני סביב מגורים, יועצים, בנקאות, בתי ספר ומורכבות מס מתמשכת.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למייסדי ומשפחות US. תיאום תושבות, בנקאות, יועצים, בתי ספר, מורכבות מס והסדר.",
+      "startingPoint": "ארצות הברית",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "כיצד צריכים יועצי המס והדיווח של US להישאר מחוברים לתוכנית השוויצרית?",
+        "איזה קנטון מתאים לצורכי בית הספר, הבנקאות והנסיעות של המשפחה?",
+        "מה צריך להבהיר לפני התחייבויות מגורים ודיור?"
+      ],
+      "workstreams": [
+        "יועץ US ותיאום יועץ שוויצרי",
+        "מסלול מגורים ושילוב משפחות",
+        "השוואת קנטונים לבתי ספר, נסיעות ובנקים",
+        "מוכנות בנקאית, דיור, בריאות והתיישבות"
+      ],
+      "proofPoints": [
+        "נבנה למקרים שבהם מורכבות הדיווח של US חייבת להישאר גלויה",
+        "שומר על החלטות שוויצריות מחוברות ליועצי US הקיימים",
+        "שימושי לפני התחייבויות בנקאות, דיור או בית ספר"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "יזמים ומשפחות גרמניות",
+      "title": "לעבור לשוויץ מגרמניה",
+      "description": "מסלול רילוקיישן שוויצרי מעשי עבור מייסדים ומשפחות גרמנים המשווה מגורים, בחירת קנטונים, הקמת עסקים, בתי ספר ותזמון חוצה גבולות.",
+      "metaDescription": "ייעוץ רילוקיישן שוויצרי ליזמים ומשפחות גרמנים. תכנן מקום מגורים, בחירת קנטון, תזמון מס, הקמת עסקים, בתי ספר והתיישבות.",
+      "startingPoint": "גרמניה",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "מתי יש לרצף את תכנון היציאה הגרמני ותכנון מגורים בשוויץ?",
+        "איזה קנטון מתאים לבעלות עסק, חיי משפחה ודפוסי נסיעה?",
+        "כיצד יש לתאם היתרים, מגורים, בתי ספר ויועצים?"
+      ],
+      "workstreams": [
+        "ציר זמן יציאה גרמנית וציר זמן הגעה שוויצרי",
+        "השוואת קנטונים עבור מס, בתי ספר ופעילות עסקית",
+        "בקשת היתר ושילוב משפחה",
+        "מערך דיור, ביטוח, בנקאות והתנחלויות"
+      ],
+      "proofPoints": [
+        "הכי מתאים למייסדים ולמשפחות שזקוקים לטיפול בתזמון מדויק",
+        "מחבר את הבחירה בקנטון עם מציאות בית ספר מעשי ודיור",
+        "שומר על תיאום בין היועצים הגרמנים והשוויצרים"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "מייסדים ובעלי עושר נורבגיים",
+      "title": "לעבור לשוויץ מנורבגיה",
+      "description": "מסלול רילוקיישן שוויצרי עבור יזמים, משקיעים ומשפחות נורבגיות שמעריכים תושבות מס, היתרים, בחירת קנטונים, בתי ספר ובנקאות.",
+      "metaDescription": "ייעוץ ברילוקיישן שוויצרי למייסדים ומשפחות נורבגיות. תיאום תושבות מס, היתרים, בנקאות, בתי ספר, בחירת קנטונים והתיישבות.",
+      "startingPoint": "נורבגיה",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "מתי יש להתאים את תכנון היציאה הנורבגי לתזמון המגורים בשוויץ?",
+        "איזה קנטון מתאים לפרטיות, חיי משפחה וסדרי עדיפויות מס?",
+        "מה צריך לתאם לפני כניסות לבנק או החלטות בית ספר?"
+      ],
+      "workstreams": [
+        "ציר זמן יציאה נורבגי ושווייץ",
+        "השוואת קנטונים עבור סדרי עדיפויות משפחתיים, מסים ובנקים",
+        "אישורי שהייה ושילוב משפחות",
+        "מוכנות בנקאית, דיור, בתי ספר והתיישבות"
+      ],
+      "proofPoints": [
+        "נבנה עבור מחזיקי עושר שזקוקים לתזמון מס וללוגיסטיקה משפחתית מחוברת",
+        "שימושי לפני התחייבות למסלול קנטון או בית ספר",
+        "מתאם יועצים קיימים עם ביצוע שוויצרי"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "מייסדים מעבירים חומר עסקי",
+      "title": "העבר חברה לשוויץ",
+      "description": "מסלול בהובלת המייסדים להעברת חומרי חברה, הקמת לוח, בנקאות, אישורים והעברת משפחות לתוכנית שוויצרית אחת מתואמת.",
+      "metaDescription": "העבר חברה לשוויץ עם ייעוץ מתואם להקמת חברה, מהות, בנקאות, היתרי שהייה, מס והעברת משפחות.",
+      "startingPoint": "בינלאומי",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "האם החברה השוויצרית צריכה להיווצר לפני או אחרי שמסלול המגורים ברור?",
+        "לאיזה חומר יצפו הקנטון, הבנק והצדדים שכנגד?",
+        "כיצד משפיעים היתרי מייסד, רילוקיישן משפחתי ובנקאות תאגידית זה על זה?"
+      ],
+      "workstreams": [
+        "פרופיל המייסד, חומר החברה ובדיקת התאמה לקנטון",
+        "הקמת חברה, ממשל והקמת דירקטוריון",
+        "מוכנות ותיעוד בנקאי תאגידי",
+        "אישור מייסד, העברת משפחות, מגורים והתיישבות"
+      ],
+      "proofPoints": [
+        "נבנה עבור מייסדים שצריכים התאמה בין זרמי עבודה של חברה ומשפחה",
+        "מחבר את החומר, ההיתרים, הבנקאות וההסדר בסדר הנכון",
+        "מצמצם עיכובים כתוצאה מייעוץ משפטי, בנקאי ורילוקיישן בודד"
+      ]
+    }
+  },
+  "ko": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "사우디 창립자, 투자자 및 가족",
+      "title": "사우디아라비아에서 스위스로 이주",
+      "description": "거주, 은행 준비, 학교, 주택 및 캔톤 선택을 조정하는 사우디 기업가 및 가족을 위한 스위스 이주 경로입니다.",
+      "metaDescription": "사우디 창업자, 투자자 및 가족을 위한 스위스 이주 자문. 계획 허가, 은행, 학교, 세금, 주택 및 주 선택.",
+      "startingPoint": "사우디아라비아",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "가족의 학교, 개인 정보 보호 및 은행 업무 우선 순위에 맞는 스위스 주는 어디입니까?",
+        "은행 도입 전에 사우디 source-of-wealth 문서를 어떻게 준비해야 합니까?",
+        "허가, 주택, 학교 및 고문 조정이 동시에 진행될 수 있습니까?"
+      ],
+      "workstreams": [
+        "사우디 출발 및 스위스 도착 일정",
+        "은행 준비 상태 및 자산 문서 설명",
+        "학교, 주택 및 캔톤 비교",
+        "허가 신청, 보험, 정산 순서"
+      ],
+      "proofPoints": [
+        "중요한 자산과 일상을 함께 이동하는 가족을 위해 설계되었습니다.",
+        "은행 업무, 허가증, 학교 및 주택을 하나의 조화로운 순서로 유지합니다.",
+        "민감한 문서를 은행이나 자문가와 공유하기 전에 유용합니다."
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "카타르 기반 개인 고객",
+      "title": "카타르에서 스위스로 이주",
+      "description": "스위스 거주, 프라이빗 뱅킹, 교육 및 정착을 비교하는 카타르 기반 가족, 임원 및 투자자를 위한 신중한 경로입니다.",
+      "metaDescription": "카타르에 거주하는 가족 및 투자자를 위한 스위스 이주 자문. 허가, 프라이빗 뱅킹, 학교, 주택 및 캔톤 선택을 조정합니다.",
+      "startingPoint": "카타르",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "재량권, 학교 및 은행 접근권의 적절한 조합을 제공하는 주는 어디입니까?",
+        "기존 GCC 자문가는 어떻게 스위스 실행과 조화를 유지해야 합니까?",
+        "학교 방문이나 숙소 예약 전에 무엇을 해결해야 합니까?"
+      ],
+      "workstreams": [
+        "거주 경로 및 가족 포함",
+        "프라이빗 뱅킹 준비 및 자문가 조정",
+        "국제학교 후보자 명단 및 방문 일정",
+        "주택, 보험, 의료, 생활결제"
+      ],
+      "proofPoints": [
+        "공개적인 약속보다 재량권을 중요시하는 고객을 위해 제작되었습니다.",
+        "라이프스타일 결정을 은행 업무 및 허가 시기와 연결합니다.",
+        "기존 가족 사무실 또는 법률 자문을 계속 조정합니다."
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "쿠웨이트 가족 사무실 및 가족",
+      "title": "쿠웨이트에서 스위스로 이주",
+      "description": "거주, 금융, 승계, 학교 및 안정적인 유럽 기반을 조정하는 쿠웨이트 가족을 위한 스위스 이주 및 거버넌스 경로입니다.",
+      "metaDescription": "쿠웨이트 가족 및 패밀리 오피스를 위한 스위스 이주 자문. 허가, 프라이빗 뱅킹, 거버넌스, 학교 및 정착을 계획합니다.",
+      "startingPoint": "쿠웨이트",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "스위스의 움직임은 가족 거주, 거버넌스 또는 둘 다를 중심으로 구성되어야 합니까?",
+        "개인 정보 보호, 세금 및 가족 물류에 가장 적합한 주는 어디입니까?",
+        "뱅킹, 이사회 및 보고 작업 흐름의 순서를 어떻게 지정해야 합니까?"
+      ],
+      "workstreams": [
+        "가족 프로필 및 거버넌스 범위 지정",
+        "주거, 개인 정보 보호 및 가족 사무실 요구 사항에 대한 캔톤 비교",
+        "프라이빗 뱅킹 및 source-of-wealth 준비",
+        "학교, 주택, 의료, 가족 정착"
+      ],
+      "proofPoints": [
+        "거버넌스와 이주 연결이 필요한 다세대 가족에게 유용합니다.",
+        "공개 약속 전 스위스 기밀 설정을 위해 설계되었습니다.",
+        "가족, 은행, 이사회 및 합의 종속성을 조정합니다."
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "싱가포르 기반 창업자와 패밀리 오피스",
+      "title": "싱가포르에서 스위스로 이동",
+      "description": "스위스를 유럽의 거주지, 금융, 거버넌스 및 라이프스타일 기반으로 비교하는 싱가포르 기반 기업가 및 패밀리 오피스를 위한 경로입니다.",
+      "metaDescription": "싱가포르 기반 창업자와 패밀리 오피스를 위한 스위스 이주 자문. 거주지, 세금, 은행 업무, 거버넌스, 학교 및 주를 비교하십시오.",
+      "startingPoint": "싱가포르",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "싱가포르 기지에 스위스 거주지가 추가되면 어떤 변화가 있나요?",
+        "가족 재배치 전에 어떤 작업 흐름을 순서대로 지정해야 합니까?",
+        "스위스를 향한 설정을 위해 은행 및 거버넌스는 어떻게 준비되어야 합니까?"
+      ],
+      "workstreams": [
+        "싱가포르 출국 또는 이중 기지 계획",
+        "스위스 거주지와 캔톤 비교",
+        "은행 업무, 거버넌스 및 자문가 조정",
+        "학교, 주택, 보험, 생활결제"
+      ],
+      "proofPoints": [
+        "두 개의 고품질 관할권을 비교하는 고객을 위해 구축됨",
+        "스위스 라이프스타일 결정을 은행 및 거버넌스와 연계하여 유지합니다.",
+        "캔톤, 임대 또는 학교 트랙을 계약하기 전에 유용합니다."
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "홍콩 기업가와 가족",
+      "title": "홍콩에서 스위스로 이동",
+      "description": "강력한 학교와 은행을 갖춘 안정적인 유럽 기반을 원하는 홍콩 창업자, 부자 및 가족을 위한 개인 스위스 이주 경로입니다.",
+      "metaDescription": "홍콩 창업자와 가족을 위한 스위스 이주 자문. 거주지, 은행, 학교, 세금, 주택 및 주 선택을 계획합니다.",
+      "startingPoint": "홍콩",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "홍콩에서 온 국제 가족에게 적합한 스위스 주는 어느 곳입니까?",
+        "은행 서류와 source-of-wealth 내역은 어떻게 준비해야 합니까?",
+        "학교 방문 및 주거지 검색 전에 무엇을 결정할 수 있나요?"
+      ],
+      "workstreams": [
+        "홍콩 출발 및 스위스 도착 일정",
+        "학교, 세금, 은행 및 일상 생활에 대한 광저우 비교",
+        "거주 허가 및 가족 포함",
+        "프라이빗 뱅킹 준비, 주택 및 정착"
+      ],
+      "proofPoints": [
+        "안정성, 학교 및 재량권을 우선시하는 가족에게 적합",
+        "은행 및 허가 종속성과 실질적인 합의를 조정합니다.",
+        "민감한 문서가 유통되기 전에 유용합니다."
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US 창립자, 임원 및 가족",
+      "title": "USA에서 스위스로 이동",
+      "description": "거주지, 고문, 은행, 학교 및 지속적인 세금 복잡성에 대한 신중한 조정이 필요한 US 연결 고객을 위한 스위스 재배치 경로입니다.",
+      "metaDescription": "US 창립자와 가족을 위한 스위스 이주 자문. 거주지, 은행, 고문, 학교, 세금 복잡성 및 정산을 조정합니다.",
+      "startingPoint": "미국",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "US 세금 및 보고 자문가는 어떻게 스위스 계획과 연결을 유지해야 합니까?",
+        "어느 주가 가족의 학교, 은행 업무, 여행 요구 사항에 적합합니까?",
+        "거주 및 주택 약속 전에 무엇을 명확히 해야 합니까?"
+      ],
+      "workstreams": [
+        "US 고문 및 스위스 고문 조정",
+        "거주 경로 및 가족 포함",
+        "학교, 여행, 은행에 대한 캔톤 비교",
+        "은행 준비, 주택, 의료 및 결제"
+      ],
+      "proofPoints": [
+        "US 보고 복잡성이 계속 표시되어야 하는 경우를 위해 구축되었습니다.",
+        "스위스 결정을 기존 US 자문가와 계속 연결합니다.",
+        "은행 업무, 주택 또는 학교 약속을 잡기 전에 유용합니다."
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "독일 기업가와 가족",
+      "title": "독일에서 스위스로 이주",
+      "description": "거주지, 주 선택, 사업 설립, 학교 및 국경 간 시기를 비교하는 독일 창업자와 가족을 위한 실용적인 스위스 이주 경로입니다.",
+      "metaDescription": "독일 기업가와 가족을 위한 스위스 이주 자문. 거주지, 주 선택, 세금 시기, 사업 설립, 학교 및 정착을 계획합니다.",
+      "startingPoint": "독일",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "독일 출국 계획과 스위스 거주 계획은 언제 순서대로 진행해야 합니까?",
+        "기업 소유, 가족 생활, 출퇴근 패턴에 적합한 주는 어디인가요?",
+        "허가, 주택, 학교 및 고문은 어떻게 조정되어야 합니까?"
+      ],
+      "workstreams": [
+        "독일 출발 및 스위스 도착 일정",
+        "세금, 학교 및 사업 운영에 대한 광저우 비교",
+        "신청 및 가족 포함 허가",
+        "주택, 보험, 은행, 결제 설정"
+      ],
+      "proofPoints": [
+        "타이밍을 정확하게 처리해야 하는 창업자와 가족에게 가장 적합합니다.",
+        "캔톤 선택과 실제 학교 및 주택 현실을 연결합니다.",
+        "독일과 스위스 고문의 조정을 유지합니다."
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "노르웨이 창립자 및 부자",
+      "title": "노르웨이에서 스위스로 이주",
+      "description": "세금 거주, 허가, 캔톤 선택, 학교 및 은행 업무를 평가하는 노르웨이 기업가, 투자자 및 가족을 위한 스위스 이주 경로입니다.",
+      "metaDescription": "노르웨이 창업자와 가족을 위한 스위스 이주 자문. 세금 거주, 허가, 은행 업무, 학교, 주 선택 및 정착을 조정합니다.",
+      "startingPoint": "노르웨이",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "노르웨이 출국 계획은 언제 스위스 거주 시기와 일치해야 합니까?",
+        "개인 정보 보호, 가족 생활 및 세금 우선순위에 적합한 주는 어디입니까?",
+        "은행 소개나 학교 결정 전에 무엇을 조정해야 합니까?"
+      ],
+      "workstreams": [
+        "노르웨이 출발 및 스위스 도착 일정",
+        "가족, 세금 및 은행 우선 순위에 대한 캔톤 비교",
+        "거주 허가 및 가족 포함",
+        "은행 준비, 주택, 학교 및 정착"
+      ],
+      "proofPoints": [
+        "세금 납부 시기와 가족 물류 연결이 필요한 자산 보유자를 위해 제작되었습니다.",
+        "캔톤이나 학교 트랙에 참여하기 전에 유용합니다.",
+        "스위스 실행을 통해 기존 자문을 조정합니다."
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "사업 실체를 옮기는 창업자들",
+      "title": "회사를 스위스로 이전",
+      "description": "회사 자산, 이사회 설립, 은행 업무, 허가증, 가족 이주를 하나의 조화로운 스위스 계획으로 옮기기 위한 창립자 주도 경로입니다.",
+      "metaDescription": "회사 설립, 실체, 금융, 거주 허가, 세금 및 가족 이주에 대한 조정 자문을 통해 회사를 스위스로 이전하세요.",
+      "startingPoint": "국제",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "스위스 회사는 거주 경로가 확정되기 이전에 설립되어야 합니까, 아니면 이후에 설립되어야 합니까?",
+        "주(州), 은행, 거래상대방은 어떤 내용을 기대하는가?",
+        "창업자 허가, 가족 이전, 기업 금융은 서로 어떤 영향을 미치나요?"
+      ],
+      "workstreams": [
+        "설립자 프로필, 회사 내용 및 캔톤 핏 검토",
+        "회사 설립, 거버넌스 및 이사회 구성",
+        "기업 뱅킹 준비 및 문서화",
+        "창업자 허가, 가족 이주, 주택 및 정착"
+      ],
+      "proofPoints": [
+        "회사와 가족의 작업 흐름을 조정해야 하는 창업자를 위해 제작되었습니다.",
+        "물질, 허가, 은행, 결제를 올바른 순서로 연결합니다.",
+        "고립된 법률, 은행 업무, 재배치 조언으로 인한 지연을 줄입니다."
+      ]
+    }
+  },
+  "no": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Saudiarabiske grunnleggere, investorer og familier",
+      "title": "Flytt til Sveits fra Saudi-Arabia",
+      "description": "En sveitsisk flytterute for saudiske gründere og familier som koordinerer bosted, bankberedskap, skoler, boliger og valg av kantoner.",
+      "metaDescription": "Sveitsisk flytterådgivning for saudiske grunnleggere, investorer og familier. Plantillatelser, bank, skoler, skatt, bolig og valg av kantoner.",
+      "startingPoint": "Saudi-Arabia",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvilken sveitsisk kanton passer til familiens skole-, personvern- og bankprioriteringer?",
+        "Hvordan bør Saudi source-of-wealth-dokumentasjon utarbeides før bankintroduksjoner?",
+        "Kan tillatelser, boliger, skoler og rådgiverkoordinering bevege seg parallelt?"
+      ],
+      "workstreams": [
+        "Saudiarabisk avgang og sveitsisk ankomsttidslinje",
+        "Bankberedskap og fortelling om formuesdokumentasjon",
+        "Sammenligning av skole, bolig og kanton",
+        "Tillatelsessøknad, forsikring og oppgjørssekvens"
+      ],
+      "proofPoints": [
+        "Designet for familier som flytter betydelige eiendeler og dagliglivet sammen",
+        "Holder banktjenester, tillatelser, skoler og boliger i én koordinert sekvens",
+        "Nyttig før sensitive dokumenter deles med banker eller rådgivere"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Qatar-baserte privatkunder",
+      "title": "Flytt til Sveits fra Qatar",
+      "description": "En diskret vei for Qatar-baserte familier, ledere og investorer som sammenligner sveitsisk bosted, private banktjenester, skolegang og bosetting.",
+      "metaDescription": "Sveitsisk flytterådgivning for Qatar-baserte familier og investorer. Koordinere tillatelser, private banktjenester, skoler, boliger og valg av kantoner.",
+      "startingPoint": "Qatar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Hvilken kanton tilbyr den rette blandingen av diskresjon, skoler og banktilgang?",
+        "Hvordan bør eksisterende GCC-rådgivere holde seg koordinert med sveitsisk utførelse?",
+        "Hva bør løses før skolebesøk eller boligforpliktelser?"
+      ],
+      "workstreams": [
+        "Oppholdsvei og familieinkludering",
+        "Private banking-beredskap og rådgiverkoordinering",
+        "Internasjonal skolekortliste og besøksplan",
+        "Bolig, forsikring, helsetjenester og daglig oppgjør"
+      ],
+      "proofPoints": [
+        "Bygget for kunder som verdsetter skjønn før offentlige forpliktelser",
+        "Kobler livsstilsbeslutninger med bank og tillatelsestiming",
+        "Holder eksisterende familiekontor eller juridiske rådgivere på linje"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Kuwaitiske familiekontorer og familier",
+      "title": "Flytt til Sveits fra Kuwait",
+      "description": "En sveitsisk flytte- og styrerute for kuwaitiske familier som koordinerer bosted, bank, arv, skoler og en stabil europeisk base.",
+      "metaDescription": "Sveitsisk flytterådgivning for kuwaitiske familier og familiekontorer. Plantillatelser, privat bankvirksomhet, styring, skoler og bosetting.",
+      "startingPoint": "Kuwait",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Bør den sveitsiske flyttingen struktureres rundt familiebolig, styresett eller begge deler?",
+        "Hvilken kanton passer best for personvern, skatt og familielogistikk?",
+        "Hvordan bør bank-, styre- og rapporteringsarbeidsstrømmer sekvenseres?"
+      ],
+      "workstreams": [
+        "Familieprofil og styringsomfang",
+        "Kantonsammenligning for behov for bolig, personvern og familiekontor",
+        "Private banking og source-of-wealth forberedelse",
+        "Skolegang, bolig, helsevesen og familieoppgjør"
+      ],
+      "proofPoints": [
+        "Nyttig for familier med flere generasjoner som trenger styring og flytting tilkoblet",
+        "Designet for konfidensielt sveitsisk oppsett før offentlige forpliktelser",
+        "Koordinerer familie-, bank-, styre- og oppgjørsavhengigheter"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Singapore-baserte grunnleggere og familiekontorer",
+      "title": "Flytt til Sveits fra Singapore",
+      "description": "En rute for Singapore-baserte gründere og familiekontorer som sammenligner Sveits som en europeisk bolig-, bank-, styre- og livsstilsbase.",
+      "metaDescription": "Sveitsisk flytterådgivning for Singapore-baserte grunnleggere og familiekontorer. Sammenlign bosted, skatt, bank, styresett, skoler og kantoner.",
+      "startingPoint": "Singapore",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hva endres når en Singapore-base kompletteres med sveitsisk bolig?",
+        "Hvilke arbeidsstrømmer må sekvenseres før familieflytting?",
+        "Hvordan bør bank og styring forberedes for et sveitsisk-vendt oppsett?"
+      ],
+      "workstreams": [
+        "Singapore exit eller dual-base planlegging",
+        "Sammenligning av sveitsisk bolig og kanton",
+        "Bank-, styrings- og rådgiverkoordinering",
+        "Skoler, bolig, forsikring og daglig oppgjør"
+      ],
+      "proofPoints": [
+        "Bygget for kunder som sammenligner to jurisdiksjoner av høy kvalitet",
+        "Holder sveitsiske livsstilsbeslutninger knyttet til bank og styring",
+        "Nyttig før du forplikter deg til en kanton, leiekontrakt eller skolebane"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Hong Kong gründere og familier",
+      "title": "Flytt til Sveits fra Hong Kong",
+      "description": "En privat sveitsisk flyttevei for Hong Kong-grunnleggere, formuesinnehavere og familier som søker en stabil europeisk base med sterke skoler og banktjenester.",
+      "metaDescription": "Sveitsisk flytterådgivning for grunnleggere og familier i Hong Kong. Planlegg bosted, bank, skoler, skatt, bolig og valg av kantoner.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Hvilken sveitsisk kanton passer til en internasjonal familie som kommer fra Hong Kong?",
+        "Hvordan bør bankdokumentasjon og source-of-wealth-historikk utarbeides?",
+        "Hva kan avgjøres før skolebesøk og boligsøk?"
+      ],
+      "workstreams": [
+        "Hong Kong avgang og sveitsisk ankomsttid",
+        "Kantonsammenligning for skoler, skatt, bank og dagligliv",
+        "Oppholdstillatelse og familieinkludering",
+        "Private banking beredskap, bolig og oppgjør"
+      ],
+      "proofPoints": [
+        "Passer godt for familier som prioriterer stabilitet, skoler og diskresjon",
+        "Koordinerer praktisk oppgjør med bank- og tillatelsesavhengigheter",
+        "Nyttig før sensitive dokumenter sirkuleres"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "US grunnleggere, ledere og familier",
+      "title": "Flytt til Sveits fra USA",
+      "description": "En sveitsisk flytterute for US-tilknyttede kunder som trenger nøye koordinering rundt bosted, rådgivere, bank, skoler og pågående skattekompleksitet.",
+      "metaDescription": "Sveitsisk flytterådgivning for US-gründere og familier. Koordinere bosted, bank, rådgivere, skoler, skattekompleksitet og oppgjør.",
+      "startingPoint": "USA",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Hvordan bør US skatte- og rapporteringsrådgivere holde seg tilkoblet den sveitsiske planen?",
+        "Hvilken kanton passer familiens skole-, bank- og reisebehov?",
+        "Hva bør avklares før bo- og boligforpliktelser?"
+      ],
+      "workstreams": [
+        "US rådgiver og sveitsisk rådgiver koordinering",
+        "Oppholdsvei og familieinkludering",
+        "Kantonsammenligning for skoler, reiser og banktjenester",
+        "Bankberedskap, bolig, helsetjenester og oppgjør"
+      ],
+      "proofPoints": [
+        "Bygget for tilfeller der US-rapporteringskompleksiteten må forbli synlig",
+        "Holder sveitsiske beslutninger knyttet til eksisterende US-rådgivere",
+        "Nyttig før bank-, bolig- eller skoleforpliktelser inngås"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Tyske gründere og familier",
+      "title": "Flytt til Sveits fra Tyskland",
+      "description": "En praktisk sveitsisk flytterute for tyske grunnleggere og familier som sammenligner bosted, kantonvalg, forretningsoppsett, skoler og grenseoverskridende timing.",
+      "metaDescription": "Sveitsisk flytterådgivning for tyske gründere og familier. Planlegg bosted, valg av kanton, skattetidspunkt, forretningsoppsett, skoler og bosetting.",
+      "startingPoint": "Tyskland",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Når bør tysk avreiseplanlegging og sveitsisk boligplanlegging sekvenseres?",
+        "Hvilken kanton passer bedriftseierskap, familieliv og pendlingsmønstre?",
+        "Hvordan skal tillatelser, boliger, skoler og rådgivere koordineres?"
+      ],
+      "workstreams": [
+        "Tidslinje for tysk avgang og sveitsisk ankomst",
+        "Kantonsammenligning for skatt, skoler og forretningsdrift",
+        "Tillatelsessøknad og familieinkludering",
+        "Oppsett av bolig, forsikring, bank og oppgjør"
+      ],
+      "proofPoints": [
+        "Best for gründere og familier som trenger at timingen håndteres nøyaktig",
+        "Kobler kantonvalg med praktisk skole- og boligrealitet",
+        "Holder tyske og sveitsiske rådgivere koordinert"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Norske gründere og formueshavere",
+      "title": "Flytt til Sveits fra Norge",
+      "description": "En sveitsisk flytterute for norske gründere, investorer og familier som vurderer skatteopphold, tillatelser, kantonvalg, skoler og banktjenester.",
+      "metaDescription": "Sveitsisk flytterådgivning for norske gründere og familier. Koordinere skattemessig bosted, tillatelser, bank, skoler, valg av kanton og bosetting.",
+      "startingPoint": "Norge",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Når bør norsk utreiseplanlegging tilpasses sveitsisk oppholdstid?",
+        "Hvilken kanton passer privatliv, familieliv og skatteprioriteringer?",
+        "Hva bør koordineres før bankintroduksjoner eller skolevedtak?"
+      ],
+      "workstreams": [
+        "Norsk avgang og sveitsisk ankomsttid",
+        "Kantonsammenligning for familie-, skatte- og bankprioriteringer",
+        "Oppholdstillatelse og familieinkludering",
+        "Bankberedskap, bolig, skoler og oppgjør"
+      ],
+      "proofPoints": [
+        "Bygget for formuesinnehavere som trenger skattetiming og familielogistikk tilkoblet",
+        "Nyttig før du forplikter deg til en kanton eller skolebane",
+        "Koordinerer eksisterende rådgivere med sveitsisk utførelse"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Grunnleggere flytter virksomhetsstoff",
+      "title": "Flytt et selskap til Sveits",
+      "description": "En grunnleggerledet rute for flytting av selskapsstoff, styreoppsett, banktjenester, tillatelser og familieflytting til én koordinert sveitsisk plan.",
+      "metaDescription": "Flytt et selskap til Sveits med koordinert rådgivning for selskapsdannelse, substans, bankvirksomhet, oppholdstillatelser, skatt og familieflytting.",
+      "startingPoint": "Internasjonal",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Skal det sveitsiske selskapet dannes før eller etter at boligruten er klar?",
+        "Hvilken substans vil kantonen, banken og motpartene forvente?",
+        "Hvordan påvirker grunnleggertillatelser, familieflytting og bedriftsbanker hverandre?"
+      ],
+      "workstreams": [
+        "Grunnleggerprofil, selskapsstoff og kantonpassformvurdering",
+        "Selskapsdannelse, styring og styreoppsett",
+        "Bedriftsbankberedskap og dokumentasjon",
+        "Stiftertillatelse, familieflytting, bolig og bosetting"
+      ],
+      "proofPoints": [
+        "Bygget for gründere som trenger selskaps- og familiearbeid på linje",
+        "Kobler sammen substans, tillatelser, bank og oppgjør i riktig rekkefølge",
+        "Reduserer forsinkelser fra isolert juridisk rådgivning, bank- og flytterådgivning"
+      ]
+    }
+  },
+  "ro": {
+    "from-saudi-arabia": {
+      "slug": "from-saudi-arabia",
+      "audience": "Fondatori, investitori și familii saudite",
+      "title": "Mută-te în Elveția din Arabia Saudită",
+      "description": "O rută de relocare elvețiană pentru antreprenorii și familiile saudite care coordonează rezidența, pregătirea bancară, școli, locuințe și selecția cantoanelor.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii, investitorii și familiile saudite. Permise de planificare, servicii bancare, școli, taxe, locuințe și selecția cantoanelor.",
+      "startingPoint": "Arabia Saudită",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Care canton elvețian se potrivește școlii, confidențialității și priorităților bancare ale familiei?",
+        "Cum ar trebui să fie pregătită documentația saudită source-of-wealth înainte de introducerea băncii?",
+        "Pot permisele, locuințele, școlile și coordonarea consilierului să se deplaseze în paralel?"
+      ],
+      "workstreams": [
+        "Cronologie pentru plecarea saudită și sosirea în Elveția",
+        "Pregătirea bancară și narațiunea documentării averii",
+        "Comparație școală, locuințe și canton",
+        "Cererea de permis, asigurarea și secvența de decontare"
+      ],
+      "proofPoints": [
+        "Conceput pentru familiile care mută împreună bunuri semnificative și viața de zi cu zi",
+        "Păstrează banca, permisele, școlile și locuințele într-o secvență coordonată",
+        "Util înainte ca documentele sensibile să fie partajate cu bănci sau consilieri"
+      ]
+    },
+    "from-qatar": {
+      "slug": "from-qatar",
+      "audience": "Clienți privați din Qatar",
+      "title": "Mută-te în Elveția din Qatar",
+      "description": "O cale discretă pentru familiile, directorii și investitorii din Qatar, comparând rezidența în Elveția, serviciile bancare private, școala și stabilirea.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru familiile și investitorii din Qatar. Coordonați permise, servicii bancare private, școli, locuințe și alegerea cantonului.",
+      "startingPoint": "Qatar",
+      "likelyCantons": [
+        "Geneva",
+        "Vaud",
+        "Zurich",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Care canton oferă combinația potrivită de discreție, școli și acces la bancă?",
+        "Cum ar trebui consilierii GCC existenți să rămână coordonați cu execuția elvețiană?",
+        "Ce ar trebui rezolvat înainte de vizitele la școală sau angajamentele de locuințe?"
+      ],
+      "workstreams": [
+        "Traseul de rezidență și incluziunea în familie",
+        "Pregătirea pentru servicii bancare private și coordonarea consultanților",
+        "Lista scurtă a școlilor internaționale și programul vizitelor",
+        "Locuință, asigurări, asistență medicală și decontare zilnică"
+      ],
+      "proofPoints": [
+        "Creat pentru clienții care apreciază discreția înaintea angajamentelor publice",
+        "Conectează deciziile legate de stilul de viață cu operațiunile bancare și sincronizarea permiselor",
+        "Menține alinierea consilierilor de familie sau a consilierilor juridici existenți"
+      ]
+    },
+    "from-kuwait": {
+      "slug": "from-kuwait",
+      "audience": "Birouri și familii din Kuweiti",
+      "title": "Mută-te în Elveția din Kuweit",
+      "description": "O rută elvețiană de relocare și guvernare pentru familiile kuweitene care coordonează rezidența, activitatea bancară, succesiunea, școlile și o bază europeană stabilă.",
+      "metaDescription": "Consiliere elvețiană de relocare pentru familiile kuweitiene și birourile de familie. Permise de planificare, servicii bancare private, guvernare, școli și decontare.",
+      "startingPoint": "Kuweit",
+      "likelyCantons": [
+        "Zug",
+        "Geneva",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Ar trebui ca mutarea elvețiană să fie structurată în jurul reședinței familiei, guvernării sau ambelor?",
+        "Care canton se potrivește cel mai bine cu confidențialitatea, taxele și logistica familiei?",
+        "Cum ar trebui să fie ordonate fluxurile de lucru bancare, consiliu de administrație și raportare?"
+      ],
+      "workstreams": [
+        "Profilul familiei și domeniul de aplicare al guvernării",
+        "Comparație de canton pentru nevoile de reședință, confidențialitate și birou de familie",
+        "Private banking și pregătirea source-of-wealth",
+        "Școlarizare, locuință, asistență medicală și așezare familială"
+      ],
+      "proofPoints": [
+        "Util pentru familiile cu mai multe generații care au nevoie de guvernare și relocare conectate",
+        "Proiectat pentru configurarea confidențială elvețiană înainte de angajamentele publice",
+        "Coordonează dependențele de familie, bancă, consiliu și decontare"
+      ]
+    },
+    "from-singapore": {
+      "slug": "from-singapore",
+      "audience": "Fondatori și birouri de familie din Singapore",
+      "title": "Mută-te în Elveția din Singapore",
+      "description": "Un traseu pentru antreprenorii și birourile de familie din Singapore care compară Elveția ca bază europeană de reședință, bancare, guvernanță și stil de viață.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și birourile de familie din Singapore. Comparați rezidența, impozitul, banca, guvernanța, școlile și cantoanele.",
+      "startingPoint": "Singapore",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Ce se schimbă atunci când o bază din Singapore este completată de reședința elvețiană?",
+        "Ce fluxuri de lucru trebuie ordonate înainte de mutarea familiei?",
+        "Cum ar trebui să fie pregătite banca și guvernanța pentru o configurație orientată spre Elveția?"
+      ],
+      "workstreams": [
+        "Ieșire din Singapore sau planificare cu bază dublă",
+        "Comparație reședința elvețiană și cantonul",
+        "Coordonare bancară, guvernanță și consultanță",
+        "Școli, locuințe, asigurări și decontare zilnică"
+      ],
+      "proofPoints": [
+        "Creat pentru clienții care compară două jurisdicții de înaltă calitate",
+        "Menține deciziile legate de stilul de viață elvețian legat de sectorul bancar și de guvernanță",
+        "Util înainte de a te angaja într-un canton, închiriere sau pistă școlară"
+      ]
+    },
+    "from-hong-kong": {
+      "slug": "from-hong-kong",
+      "audience": "Antreprenori și familii din Hong Kong",
+      "title": "Mută-te în Elveția din Hong Kong",
+      "description": "O cale privată de relocare elvețiană pentru fondatorii din Hong Kong, deținătorii de avere și familiile care caută o bază europeană stabilă, cu școli și servicii bancare puternice.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și familiile din Hong Kong. Planificați rezidența, activitățile bancare, școlile, taxele, locuința și selecția cantoanelor.",
+      "startingPoint": "Hong Kong",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Geneva",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "În ce canton elvețian se potrivește o familie internațională venită din Hong Kong?",
+        "Cum ar trebui pregătite documentația bancară și istoricul source-of-wealth?",
+        "Ce se poate decide înainte de vizitele la școală și căutările de locuințe?"
+      ],
+      "workstreams": [
+        "Ora de plecare din Hong Kong și sosire în Elveția",
+        "Comparație de canton pentru școli, taxe, servicii bancare și viața de zi cu zi",
+        "Permise de ședere și includere familială",
+        "Pregătirea pentru servicii bancare private, locuințe și decontare"
+      ],
+      "proofPoints": [
+        "Potrivit pentru familiile care acordă prioritate stabilității, școlilor și discreției",
+        "Coordonează decontarea practică cu dependențele băncii și a permiselor",
+        "Util înainte ca documentele sensibile să fie distribuite"
+      ]
+    },
+    "from-usa": {
+      "slug": "from-usa",
+      "audience": "Fondatorii, directorii și familiile US",
+      "title": "Mută-te în Elveția de la USA",
+      "description": "O rută de relocare elvețiană pentru clienții conectați la US care au nevoie de o coordonare atentă în ceea ce privește rezidența, consilierii, serviciile bancare, școlile și complexitatea fiscală continuă.",
+      "metaDescription": "Consiliere elvețiană de relocare pentru fondatorii și familiile US. Coordonați rezidența, serviciile bancare, consilierii, școlile, complexitatea fiscală și decontarea.",
+      "startingPoint": "Statele Unite ale Americii",
+      "likelyCantons": [
+        "Zurich",
+        "Geneva",
+        "Vaud",
+        "Zug"
+      ],
+      "urgentQuestions": [
+        "Cum ar trebui consilierii fiscali și de raportare US să rămână conectați la planul elvețian?",
+        "Care canton se potrivește nevoilor de școală, bancare și de călătorie ale familiei?",
+        "Ce ar trebui clarificat înainte de angajamentele privind rezidența și locuința?"
+      ],
+      "workstreams": [
+        "Coordonarea consilierului US și consilierului elvețian",
+        "Traseul de rezidență și includerea familiei",
+        "Comparație de canton pentru școli, călătorii și servicii bancare",
+        "Pregătire bancară, locuințe, asistență medicală și decontare"
+      ],
+      "proofPoints": [
+        "Creat pentru cazurile în care complexitatea raportării US trebuie să rămână vizibilă",
+        "Păstrează deciziile elvețiene conectate la consilierii US existenți",
+        "Util înainte ca angajamentele bancare, locuințe sau școlare să fie luate"
+      ]
+    },
+    "from-germany": {
+      "slug": "from-germany",
+      "audience": "Antreprenori și familii germane",
+      "title": "Mută-te în Elveția din Germania",
+      "description": "O rută practică de relocare elvețiană pentru fondatorii și familiile germane care compară reședința, alegerea cantonului, configurarea afacerii, școlile și calendarul transfrontalier.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru antreprenorii și familiile germane. Planificați rezidența, alegerea cantonului, calendarul fiscal, configurarea afacerii, școli și decontare.",
+      "startingPoint": "Germania",
+      "likelyCantons": [
+        "Zurich",
+        "Zug",
+        "Schwyz",
+        "Thurgau"
+      ],
+      "urgentQuestions": [
+        "Când ar trebui să fie succesivă planificarea plecării în Germania și planificarea rezidenței în Elveția?",
+        "Care canton se potrivește dreptului de proprietate asupra afacerii, vieții de familie și tiparelor de navetă?",
+        "Cum ar trebui coordonate permisele, locuințele, școlile și consilierii?"
+      ],
+      "workstreams": [
+        "Ora de plecare din Germania și sosire în Elveția",
+        "Comparație de canton pentru taxe, școli și operațiuni comerciale",
+        "Cererea de permis și includerea în familie",
+        "Configurare pentru locuințe, asigurări, servicii bancare și decontare"
+      ],
+      "proofPoints": [
+        "Cel mai bun pentru fondatori și familii care au nevoie de sincronizare gestionată cu precizie",
+        "Conectează alegerea cantonului cu realitățile practice ale școlii și locuințelor",
+        "Menține coordonați consilierii germani și elvețieni"
+      ]
+    },
+    "from-norway": {
+      "slug": "from-norway",
+      "audience": "Fondatori norvegieni și deținători de avere",
+      "title": "Mută-te în Elveția din Norvegia",
+      "description": "O rută de relocare elvețiană pentru antreprenorii, investitorii și familiile norvegiene care evaluează rezidența fiscală, permisele, alegerea cantonului, școli și servicii bancare.",
+      "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și familiile norvegiene. Coordonați rezidența fiscală, permisele, serviciile bancare, școlile, alegerea cantonului și decontarea.",
+      "startingPoint": "Norvegia",
+      "likelyCantons": [
+        "Zug",
+        "Schwyz",
+        "Zurich",
+        "Vaud"
+      ],
+      "urgentQuestions": [
+        "Când ar trebui să se alinieze planificarea ieșirii norvegiene cu calendarul de reședință elvețian?",
+        "Care canton se potrivește cu confidențialitatea, viața de familie și prioritățile fiscale?",
+        "Ce ar trebui coordonat înainte de introducerea băncii sau deciziile școlare?"
+      ],
+      "workstreams": [
+        "Cronologia de plecare în Norvegia și sosire în Elveția",
+        "Comparație de canton pentru priorități familiale, fiscale și bancare",
+        "Permise de ședere și includere familială",
+        "Pregătire bancară, locuințe, școli și decontare"
+      ],
+      "proofPoints": [
+        "Creat pentru deținătorii de avere care au nevoie de sincronizare fiscală și logistică familială conectată",
+        "Util înainte de a te angaja într-un canton sau școală",
+        "Coordonează consilierii existenți cu execuția elvețiană"
+      ]
+    },
+    "move-company-to-switzerland": {
+      "slug": "move-company-to-switzerland",
+      "audience": "Fondatorii mută substanța afacerii",
+      "title": "Mutați o companie în Elveția",
+      "description": "O cale condusă de fondator pentru mutarea substanței companiei, configurarea consiliului de administrație, operațiunile bancare, permisele și relocarea familiei într-un singur plan elvețian coordonat.",
+      "metaDescription": "Mutați o companie în Elveția cu consultanță coordonată pentru formarea companiei, substanța, activități bancare, permise de ședere, impozite și relocarea familiei.",
+      "startingPoint": "Internațional",
+      "likelyCantons": [
+        "Zug",
+        "Zurich",
+        "Vaud",
+        "Schwyz"
+      ],
+      "urgentQuestions": [
+        "Ar trebui să se înființeze compania elvețiană înainte sau după ce ruta de reședință este clară?",
+        "La ce substanță se vor aștepta cantonul, banca și contrapărțile?",
+        "Cum se afectează reciproc permisele de fondator, relocarea familiei și serviciile bancare corporative?"
+      ],
+      "workstreams": [
+        "Profilul fondatorului, substanța companiei și evaluarea conformității cantonului",
+        "Formarea companiei, guvernarea și înființarea consiliului de administrație",
+        "Pregătirea și documentația pentru servicii bancare corporative",
+        "Permis de fondator, relocarea familiei, locuință și așezare"
+      ],
+      "proofPoints": [
+        "Creat pentru fondatorii care au nevoie de alinierea fluxurilor de lucru ale companiei și ale familiei",
+        "Conectează substanța, permisele, operațiunile bancare și decontarea în ordinea corectă",
+        "Reduce întârzierile de la sfaturi juridice, bancare și de relocare izolate"
+      ]
+    }
+  }
+};
+
 export function getConversionCopy(locale = 'en'): ConversionCopy {
   const normalized = locale.toLowerCase().split('-')[0];
   return conversionCopies[normalized] ?? conversionCopies.en;
@@ -8431,9 +12514,11 @@ export function getRelocationPaths(locale = 'en'): RelocationPath[] {
 
 export function getRelocationPath(locale: string, slug: string): RelocationPath | undefined {
   if (!relocationPathSlugs.includes(slug as RelocationPathSlug)) return undefined;
+  const normalized = locale.toLowerCase().split('-')[0];
   const typedSlug = slug as RelocationPathSlug;
   return (
     getConversionCopy(locale).relocationPaths[typedSlug] ??
+    extraRelocationPathCopies[normalized]?.[typedSlug] ??
     conversionCopies.en.relocationPaths[typedSlug] ??
     extraRelocationPaths[typedSlug]
   );
