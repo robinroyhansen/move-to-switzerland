@@ -23,12 +23,11 @@ The site is designed to establish trust with referral-driven private-clients who
 - Why Switzerland pages and canton comparison
 - Case studies, about, contact, privacy, and imprint flows
 - 15-language rollout with RTL support where required
-- Mobile sticky CTA and WhatsApp conversion path
+- Mobile sticky CTA and private intake conversion path
 
 ## Integrations and platform notes
 - Localization is handled via `next-intl`
 - Structured SEO coverage includes sitemap, hreflang, and JSON-LD
-- WhatsApp CTA is part of the live conversion flow
 - Production domain is configured at `move-to-switzerland.com`
 - The confidential intake form posts to `/api/contact` and sends through a server-side Resend workflow when configured
 

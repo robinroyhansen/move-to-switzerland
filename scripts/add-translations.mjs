@@ -17,9 +17,6 @@ const newTranslations = {
     cta: {
       consultation: "Vertrauliche Beratung buchen"
     },
-    whatsapp: {
-      message: "Hallo, ich interessiere mich für einen Umzug in die Schweiz."
-    },
     stickyBar: {
       text: "Bereit für Ihre Reise in die Schweiz?"
     },
@@ -207,7 +204,6 @@ const newKeys = {
   nav: { whySwitzerland: en.nav.whySwitzerland, cantons: en.nav.cantons, caseStudies: en.nav.caseStudies },
   hero: { cta: en.hero.cta },
   cta: en.cta,
-  whatsapp: en.whatsapp,
   stickyBar: en.stickyBar,
   whySwitzerlandPage: en.whySwitzerlandPage,
   cantonsPage: en.cantonsPage,

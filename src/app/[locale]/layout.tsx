@@ -8,7 +8,6 @@ import { routing } from '@/i18n/routing';
 import { isRtl, type Locale } from '@/i18n/config';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { StickyCtaBar } from '@/components/StickyCtaBar';
 import { OrganizationSchema, LocalBusinessSchema } from '@/components/StructuredData';
 import { PageBreadcrumb } from '@/components/PageBreadcrumb';
@@ -78,7 +77,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           <PageBreadcrumb />
           <main className="flex-1">{children}</main>
           <Footer site={site} />
-          {site === 'move' && <WhatsAppButton />}
           <StickyCtaBar site={site} />
           <CookieConsent />
         </NextIntlClientProvider>

@@ -225,10 +225,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Phone"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -415,10 +411,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefon"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -605,10 +597,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Téléphone"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -795,10 +783,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "الهاتف"
-        },
-        {
-          "value": "whatsapp",
-          "label": "واتساب"
         }
       ],
       "advisorOptions": [
@@ -985,10 +969,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "تلفن"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -1175,10 +1155,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefon"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -1365,10 +1341,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Телефон"
-        },
-        {
-          "value": "whatsapp",
-          "label": "ЧТО ТАКОЕ БРЕНД"
         }
       ],
       "advisorOptions": [
@@ -1555,10 +1527,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "फ़ोन"
-        },
-        {
-          "value": "whatsapp",
-          "label": "व्हाट्सएपब्रांड"
         }
       ],
       "advisorOptions": [
@@ -1745,10 +1713,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefon"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -1935,10 +1899,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefono"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -2125,10 +2085,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "电话"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -2315,10 +2271,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefone"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -2505,10 +2457,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "טלפון"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -2695,10 +2643,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "전화"
-        },
-        {
-          "value": "whatsapp",
-          "label": "왓츠앱브랜드"
         }
       ],
       "advisorOptions": [
@@ -2885,10 +2829,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefon"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [
@@ -3075,10 +3015,6 @@ const contactCopies: Record<string, ContactCopy> = {
         {
           "value": "phone",
           "label": "Telefon"
-        },
-        {
-          "value": "whatsapp",
-          "label": "WhatsApp"
         }
       ],
       "advisorOptions": [

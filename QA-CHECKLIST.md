@@ -149,7 +149,7 @@
 - [ ] Priority loading on hero/LCP image (`priority` or `fetchpriority="high"`)
 - [ ] No broken image links (console errors)
 - [ ] Favicon set (multiple sizes: 16×16, 32×32, 180×180 apple-touch)
-- [ ] OG image renders correctly when shared on LinkedIn/WhatsApp/Telegram
+- [ ] OG image renders correctly when shared on LinkedIn/Telegram
 - [ ] Images look sharp on Retina displays (2x resolution available)
 - [ ] Swiss/alpine imagery is original or properly licensed (no generic stock)
 - [ ] No text baked into images (inaccessible, untranslatable)

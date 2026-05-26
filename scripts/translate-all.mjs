@@ -28,7 +28,6 @@ updateLocale('fr', {
   nav: { whySwitzerland: "Pourquoi la Suisse", cantons: "Cantons", caseStudies: "Études de cas" },
   hero: { cta: "Réserver une consultation confidentielle" },
   cta: { consultation: "Réserver une consultation confidentielle" },
-  whatsapp: { message: "Bonjour, je souhaite en savoir plus sur l'installation en Suisse." },
   stickyBar: { text: "Prêt à commencer votre parcours suisse ?" },
   whySwitzerlandPage: {
     meta: { title: "Pourquoi la Suisse — La destination mondiale de référence pour la richesse, la sécurité et la qualité de vie", description: "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation du patrimoine et la sécurité familiale." },
@@ -65,7 +64,6 @@ updateLocale('ar', {
   nav: { whySwitzerland: "لماذا سويسرا", cantons: "الكانتونات", caseStudies: "دراسات الحالة" },
   hero: { cta: "احجز استشارة سرية" },
   cta: { consultation: "احجز استشارة سرية" },
-  whatsapp: { message: "مرحباً، أنا مهتم بمعرفة المزيد عن الانتقال إلى سويسرا." },
   stickyBar: { text: "هل أنت مستعد لبدء رحلتك السويسرية؟" },
   whySwitzerlandPage: {
     meta: { title: "لماذا سويسرا — الوجهة العالمية الأولى للثروة والأمان وجودة الحياة", description: "اكتشف لماذا سويسرا هي الولاية القضائية الأكثر ثقة في العالم للحفاظ على الثروة وأمان العائلة." },
@@ -102,7 +100,6 @@ updateLocale('fa', {
   nav: { whySwitzerland: "چرا سوئیس", cantons: "کانتون‌ها", caseStudies: "مطالعات موردی" },
   hero: { cta: "رزرو مشاوره محرمانه" },
   cta: { consultation: "رزرو مشاوره محرمانه" },
-  whatsapp: { message: "سلام، من علاقه‌مند به کسب اطلاعات بیشتر درباره مهاجرت به سوئیس هستم." },
   stickyBar: { text: "آیا آماده شروع سفر سوئیسی خود هستید؟" },
   whySwitzerlandPage: {
     meta: { title: "چرا سوئیس — برترین مقصد جهانی برای ثروت، امنیت و کیفیت زندگی", description: "کشف کنید چرا سوئیس قابل اعتمادترین حوزه قضایی جهان برای حفظ ثروت و امنیت خانواده است." },
@@ -133,7 +130,6 @@ updateLocale('tr', {
   nav: { whySwitzerland: "Neden İsviçre", cantons: "Kantonlar", caseStudies: "Vaka Çalışmaları" },
   hero: { cta: "Gizli Danışmanlık Randevusu Al" },
   cta: { consultation: "Gizli Danışmanlık Randevusu Al" },
-  whatsapp: { message: "Merhaba, İsviçre'ye taşınma hakkında daha fazla bilgi almak istiyorum." },
   stickyBar: { text: "İsviçre yolculuğunuza başlamaya hazır mısınız?" },
   whySwitzerlandPage: {
     meta: { title: "Neden İsviçre — Servet, Güvenlik ve Yaşam Kalitesi İçin Dünyanın Premier Destinasyonu", description: "İsviçre'nin neden servet koruma ve aile güvenliği için dünyanın en güvenilir yargı alanı olduğunu keşfedin." },
@@ -164,7 +160,6 @@ updateLocale('ru', {
   nav: { whySwitzerland: "Почему Швейцария", cantons: "Кантоны", caseStudies: "Кейсы" },
   hero: { cta: "Записаться на конфиденциальную консультацию" },
   cta: { consultation: "Записаться на конфиденциальную консультацию" },
-  whatsapp: { message: "Здравствуйте, я хотел бы узнать больше о переезде в Швейцарию." },
   stickyBar: { text: "Готовы начать свой путь в Швейцарию?" },
   whySwitzerlandPage: {
     meta: { title: "Почему Швейцария — Лучшее направление для благосостояния, безопасности и качества жизни", description: "Узнайте, почему Швейцария — самая надёжная юрисдикция в мире для сохранения капитала и безопасности семьи." },
@@ -195,7 +190,6 @@ updateLocale('hi', {
   nav: { whySwitzerland: "स्विट्जरलैंड क्यों", cantons: "कैंटन", caseStudies: "केस स्टडी" },
   hero: { cta: "गोपनीय परामर्श बुक करें" },
   cta: { consultation: "गोपनीय परामर्श बुक करें" },
-  whatsapp: { message: "नमस्ते, मुझे स्विट्जरलैंड में स्थानांतरण के बारे में अधिक जानने में रुचि है।" },
   stickyBar: { text: "अपनी स्विस यात्रा शुरू करने के लिए तैयार हैं?" },
   whySwitzerlandPage: {
     meta: { title: "स्विट्जरलैंड क्यों — धन, सुरक्षा और जीवन की गुणवत्ता के लिए विश्व का प्रमुख गंतव्य", description: "जानें कि स्विट्जरलैंड धन संरक्षण और पारिवारिक सुरक्षा के लिए दुनिया का सबसे भरोसेमंद अधिकार क्षेत्र क्यों है।" },
@@ -219,7 +213,6 @@ updateLocale('da', {
   nav: { whySwitzerland: "Hvorfor Schweiz", cantons: "Kantoner", caseStudies: "Cases" },
   hero: { cta: "Book en fortrolig konsultation" },
   cta: { consultation: "Book en fortrolig konsultation" },
-  whatsapp: { message: "Hej, jeg er interesseret i at høre mere om at flytte til Schweiz." },
   stickyBar: { text: "Klar til at starte din rejse til Schweiz?" },
   whySwitzerlandPage: {
     meta: { title: "Hvorfor Schweiz — Verdens førende destination for rigdom, sikkerhed og livskvalitet", description: "Opdag hvorfor Schweiz er verdens mest betroede jurisdiktion for formuebevarelse og familiesikkerhed." },
@@ -250,7 +243,6 @@ updateLocale('it', {
   nav: { whySwitzerland: "Perché la Svizzera", cantons: "Cantoni", caseStudies: "Casi studio" },
   hero: { cta: "Prenota una consulenza riservata" },
   cta: { consultation: "Prenota una consulenza riservata" },
-  whatsapp: { message: "Buongiorno, sono interessato a saperne di più sul trasferimento in Svizzera." },
   stickyBar: { text: "Pronti a iniziare il vostro percorso svizzero?" },
   whySwitzerlandPage: {
     meta: { title: "Perché la Svizzera — La destinazione mondiale premier per ricchezza, sicurezza e qualità della vita", description: "Scoprite perché la Svizzera è la giurisdizione più affidabile al mondo per la conservazione del patrimonio." },
@@ -274,7 +266,6 @@ updateLocale('zh', {
   nav: { whySwitzerland: "为什么选择瑞士", cantons: "州比较", caseStudies: "案例研究" },
   hero: { cta: "预约保密咨询" },
   cta: { consultation: "预约保密咨询" },
-  whatsapp: { message: "您好，我有兴趣了解更多关于移居瑞士的信息。" },
   stickyBar: { text: "准备好开始您的瑞士之旅了吗？" },
   whySwitzerlandPage: {
     meta: { title: "为什么选择瑞士 — 全球财富、安全与生活品质的首选目的地", description: "了解为什么瑞士是全球最值得信赖的财富保护和家庭安全管辖区。" },
@@ -298,7 +289,6 @@ updateLocale('pt', {
   nav: { whySwitzerland: "Por que a Suíça", cantons: "Cantões", caseStudies: "Estudos de caso" },
   hero: { cta: "Agendar consulta confidencial" },
   cta: { consultation: "Agendar consulta confidencial" },
-  whatsapp: { message: "Olá, tenho interesse em saber mais sobre a mudança para a Suíça." },
   stickyBar: { text: "Pronto para começar sua jornada suíça?" },
   whySwitzerlandPage: {
     meta: { title: "Por que a Suíça — O principal destino mundial para riqueza, segurança e qualidade de vida", description: "Descubra por que a Suíça é a jurisdição mais confiável do mundo para preservação de patrimônio." },
@@ -322,7 +312,6 @@ updateLocale('he', {
   nav: { whySwitzerland: "למה שוויץ", cantons: "קנטונים", caseStudies: "מקרי בוחן" },
   hero: { cta: "לקבוע ייעוץ חסוי" },
   cta: { consultation: "לקבוע ייעוץ חסוי" },
-  whatsapp: { message: "שלום, אני מעוניין ללמוד עוד על מעבר לשוויץ." },
   stickyBar: { text: "מוכנים להתחיל את המסע השוויצרי שלכם?" },
   whySwitzerlandPage: {
     meta: { title: "למה שוויץ — היעד המוביל בעולם לעושר, ביטחון ואיכות חיים", description: "גלו מדוע שוויץ היא תחום השיפוט האמין ביותר בעולם לשימור הון וביטחון משפחתי." },
@@ -346,7 +335,6 @@ updateLocale('ko', {
   nav: { whySwitzerland: "왜 스위스인가", cantons: "주(칸톤)", caseStudies: "사례 연구" },
   hero: { cta: "비밀 상담 예약" },
   cta: { consultation: "비밀 상담 예약" },
-  whatsapp: { message: "안녕하세요, 스위스 이주에 대해 자세히 알고 싶습니다." },
   stickyBar: { text: "스위스 여정을 시작할 준비가 되셨나요?" },
   whySwitzerlandPage: {
     meta: { title: "왜 스위스인가 — 부, 안전, 삶의 질을 위한 세계 최고의 목적지", description: "스위스가 자산 보존과 가족 안전을 위한 세계에서 가장 신뢰받는 관할권인 이유를 알아보세요." },

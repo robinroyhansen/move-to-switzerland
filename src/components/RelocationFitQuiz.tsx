@@ -87,18 +87,6 @@ export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
       })),
     [answers, quizCopy.questions]
   );
-  const whatsappHref = useMemo(() => {
-    const summary = selectedAnswerRows.map((row) => row.label + ': ' + row.value).join('\n');
-    const message = [
-      quizCopy.likelyRoute,
-      result.title,
-      result.summary,
-      '',
-      summary,
-    ].join('\n');
-
-    return 'https://wa.me/41789328584?text=' + encodeURIComponent(message);
-  }, [quizCopy.likelyRoute, result.summary, result.title, selectedAnswerRows]);
 
   function setAnswer(key: QuestionKey, value: string) {
     setAnswers((current) => ({ ...current, [key]: value }));
@@ -296,19 +284,6 @@ export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
                 >
                   {quizCopy.fullIntake}
                 </ConversionLink>
-                <a
-                  href={whatsappHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() =>
-                    trackConversion('quiz_whatsapp_click', {
-                      result: result.title,
-                    })
-                  }
-                  className="text-sm font-medium text-charcoal/72 hover:text-charcoal"
-                >
-                  WhatsApp
-                </a>
                 <ConversionLink
                   href="/swiss-arrival"
                   eventName="quiz_swiss_arrival_click"

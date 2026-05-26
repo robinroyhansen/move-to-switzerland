@@ -69,7 +69,6 @@ const serviceLabels: Record<string, string> = {
 const contactMethodLabels: Record<string, string> = {
   email: 'Email',
   phone: 'Phone',
-  whatsapp: 'WhatsApp',
 };
 
 const advisorLabels: Record<string, string> = {
@@ -250,7 +249,7 @@ function buildEmail(payload: IntakePayload) {
     `Lead priority: ${priority}`,
     `Name: ${payload.name}`,
     `Email: ${payload.email}`,
-    `Phone/WhatsApp: ${payload.phone || 'Not provided'}`,
+    `Phone: ${payload.phone || 'Not provided'}`,
     `Country: ${payload.country}`,
     `Nationality: ${payload.nationality || 'Not provided'}`,
     `Inquiry type: ${optionLabel(payload.enquiryType, enquiryTypeLabels)}`,
@@ -277,7 +276,7 @@ function buildEmail(payload: IntakePayload) {
       <table style="border-collapse:collapse;width:100%;max-width:760px;font-size:14px;">
         ${row('Name', payload.name)}
         ${row('Email', payload.email)}
-        ${row('Phone/WhatsApp', payload.phone || '')}
+        ${row('Phone', payload.phone || '')}
         ${row('Country', payload.country)}
         ${row('Nationality', payload.nationality || '')}
         ${row('Inquiry type', optionLabel(payload.enquiryType, enquiryTypeLabels))}
