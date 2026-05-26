@@ -14,6 +14,25 @@ const cantonAccentColors: Record<CantonKey, string> = {
   schwyz: 'border-gold',
 };
 
+const schoolLinks: Record<CantonKey, string[]> = {
+  zurich: [
+    'https://www.icsz.ch/',
+    'https://www.zis.ch/',
+    'https://www.swissinternationalschool.ch/en/our-schools/sis-zuerich-wollishofen/',
+    'https://www.lyceum-alpinum.ch/',
+  ],
+  zug: [
+    'https://www.iszl.ch/',
+    'https://www.montana-zug.ch/en/',
+    'https://www.swissinternationalschool.ch/en/our-schools/sis-rotkreuz-zug/',
+  ],
+  schwyz: [
+    'https://www.iszl.ch/',
+    'https://www.montana-zug.ch/en/',
+    'https://www.stiftsschule-einsiedeln.ch/',
+  ],
+};
+
 function SectionHeader({ title, icon }: { title: string; icon: string }) {
   return (
     <div className="flex items-center gap-3 mb-5">
@@ -142,10 +161,27 @@ export function CantonsContent() {
                         icon="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                       />
                       <ul className="space-y-2">
-                        {(t.raw(`cantonsPage.${canton}.schools.list`) as string[]).map((school: string) => (
+                        {(t.raw(`cantonsPage.${canton}.schools.list`) as string[]).map((school: string, index) => (
                           <li key={school} className="text-sm text-charcoal/60 flex items-start gap-2">
                             <span className="w-1 h-1 rounded-full bg-gold mt-2 flex-shrink-0" />
-                            {school}
+                            <a
+                              href={schoolLinks[canton][index]}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="group inline-flex items-start gap-1.5 leading-relaxed transition-colors hover:text-gold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                            >
+                              <span>{school}</span>
+                              <svg
+                                className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-charcoal/30 transition-colors group-hover:text-gold"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                strokeWidth={1.8}
+                                aria-hidden="true"
+                              >
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H18m0 0v4.5M18 6l-7.5 7.5M6 6h4.5M6 6v12h12v-4.5" />
+                              </svg>
+                            </a>
                           </li>
                         ))}
                       </ul>
