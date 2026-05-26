@@ -10,8 +10,13 @@ type IntakePayload = {
   primaryGoal: string;
   timeline: string;
   servicesNeeded: string[];
+  preferredCantons?: string[];
   targetCanton?: string;
   familySize?: string;
+  relocationYear?: string;
+  advisoryScope?: string;
+  schoolAgeRange?: string;
+  urgencyReason?: string;
   existingAdvisors?: string;
   preferredContact: string;
   hearAbout?: string;
@@ -22,6 +27,7 @@ type IntakePayload = {
   locale?: string;
   pageUrl?: string;
   referrer?: string;
+  attribution?: string;
 };
 
 const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
@@ -75,6 +81,24 @@ const advisorLabels: Record<string, string> = {
   yes: 'Yes',
   no: 'No',
   'not-sure': 'Not sure',
+};
+
+const advisoryScopeLabels: Record<string, string> = {
+  'personal-only': 'Personal only',
+  family: 'Family',
+  company: 'Company',
+  'family-office': 'Family office',
+};
+
+const cantonLabels: Record<string, string> = {
+  undecided: 'Undecided',
+  zurich: 'Zurich',
+  zug: 'Zug',
+  schwyz: 'Schwyz',
+  nidwalden: 'Nidwalden',
+  obwalden: 'Obwalden',
+  lucerne: 'Lucerne',
+  other: 'Other',
 };
 
 function cleanString(value: unknown, maxLength = 500): string {
@@ -143,8 +167,13 @@ function buildPayload(body: Record<string, unknown>): IntakePayload {
     primaryGoal: cleanString(body.primaryGoal, 80),
     timeline: cleanString(body.timeline, 80),
     servicesNeeded: cleanArray(body.servicesNeeded),
+    preferredCantons: cleanArray(body.preferredCantons),
     targetCanton: cleanString(body.targetCanton, 120),
     familySize: cleanString(body.familySize, 120),
+    relocationYear: cleanString(body.relocationYear, 80),
+    advisoryScope: cleanString(body.advisoryScope, 80),
+    schoolAgeRange: cleanString(body.schoolAgeRange, 240),
+    urgencyReason: cleanString(body.urgencyReason, 500),
     existingAdvisors: cleanString(body.existingAdvisors, 80),
     preferredContact: cleanString(body.preferredContact, 80),
     hearAbout: cleanString(body.hearAbout, 240),
@@ -155,6 +184,7 @@ function buildPayload(body: Record<string, unknown>): IntakePayload {
     locale: cleanString(body.locale, 20),
     pageUrl: cleanString(body.pageUrl, 500),
     referrer: cleanString(body.referrer, 500),
+    attribution: cleanString(body.attribution, 1000),
   };
 }
 
@@ -185,6 +215,10 @@ function validatePayload(payload: IntakePayload): string | null {
 
   if (!payload.preferredContact || !contactMethodLabels[payload.preferredContact]) {
     return 'Please select a preferred response method.';
+  }
+
+  if (payload.preferredContact === 'phone' && !payload.phone) {
+    return 'Please add a phone number or choose email as the preferred response.';
   }
 
   if (payload.privacyConsent !== 'yes') {
@@ -240,6 +274,7 @@ function row(label: string, value: string): string {
 function buildEmail(payload: IntakePayload) {
   const priority = leadPriority(payload);
   const services = payload.servicesNeeded.map((service) => optionLabel(service, serviceLabels)).join(', ');
+  const preferredCantons = (payload.preferredCantons || []).map((canton) => optionLabel(canton, cantonLabels)).join(', ');
 
   const subject = `[Move to Switzerland] ${priority} inquiry: ${optionLabel(payload.primaryGoal, primaryGoalLabels)} / ${optionLabel(payload.timeline, timelineLabels)}`;
 
@@ -256,14 +291,20 @@ function buildEmail(payload: IntakePayload) {
     `Primary goal: ${optionLabel(payload.primaryGoal, primaryGoalLabels)}`,
     `Timeline: ${optionLabel(payload.timeline, timelineLabels)}`,
     `Services needed: ${services}`,
+    `Preferred cantons: ${preferredCantons || 'Not provided'}`,
     `Target canton/city: ${payload.targetCanton || 'Not provided'}`,
     `Family members relocating: ${payload.familySize || 'Not provided'}`,
+    `Expected relocation year: ${payload.relocationYear || 'Not provided'}`,
+    `Advisory scope: ${optionLabel(payload.advisoryScope || '', advisoryScopeLabels)}`,
+    `Children needing school placement: ${payload.schoolAgeRange || 'Not provided'}`,
+    `Urgency reason: ${payload.urgencyReason || 'Not provided'}`,
     `Existing Swiss advisors: ${optionLabel(payload.existingAdvisors || '', advisorLabels)}`,
     `Preferred response: ${optionLabel(payload.preferredContact, contactMethodLabels)}`,
     `How they heard about us: ${payload.hearAbout || 'Not provided'}`,
     `Locale: ${payload.locale || 'Not provided'}`,
     `Page URL: ${payload.pageUrl || 'Not provided'}`,
     `Referrer: ${payload.referrer || 'Not provided'}`,
+    `Attribution: ${payload.attribution || 'Not provided'}`,
     '',
     'Message:',
     payload.message,
@@ -283,18 +324,47 @@ function buildEmail(payload: IntakePayload) {
         ${row('Primary goal', optionLabel(payload.primaryGoal, primaryGoalLabels))}
         ${row('Timeline', optionLabel(payload.timeline, timelineLabels))}
         ${row('Services needed', services)}
+        ${row('Preferred cantons', preferredCantons || '')}
         ${row('Target canton/city', payload.targetCanton || '')}
         ${row('Family members relocating', payload.familySize || '')}
+        ${row('Expected relocation year', payload.relocationYear || '')}
+        ${row('Advisory scope', optionLabel(payload.advisoryScope || '', advisoryScopeLabels))}
+        ${row('Children needing school placement', payload.schoolAgeRange || '')}
+        ${row('Urgency reason', payload.urgencyReason || '')}
         ${row('Existing Swiss advisors', optionLabel(payload.existingAdvisors || '', advisorLabels))}
         ${row('Preferred response', optionLabel(payload.preferredContact, contactMethodLabels))}
         ${row('Heard about us', payload.hearAbout || '')}
         ${row('Locale', payload.locale || '')}
         ${row('Page URL', payload.pageUrl || '')}
         ${row('Referrer', payload.referrer || '')}
+        ${row('Attribution', payload.attribution || '')}
       </table>
       <h2 style="font-size:16px;margin:24px 0 8px;">Message</h2>
       <div style="white-space:pre-wrap;border:1px solid #eee;background:#fafafa;padding:14px;">${escapeHtml(payload.message)}</div>
       <p style="margin-top:18px;color:#777;font-size:12px;">Do not request or send sensitive documents until a private channel is agreed.</p>
+    </div>`;
+
+  return { subject, text, html };
+}
+
+function buildAutoReply(payload: IntakePayload) {
+  const subject = 'Your Move to Switzerland inquiry has been received';
+  const text = [
+    `Dear ${payload.name},`,
+    '',
+    'Thank you for your confidential inquiry. We have received it and will review the relocation context privately before responding through your selected channel.',
+    '',
+    'Please do not send passports, bank statements, or sensitive documents until a private channel has been agreed.',
+    '',
+    'Move to Switzerland',
+  ].join('\n');
+
+  const html = `
+    <div style="font-family:Arial,sans-serif;line-height:1.55;color:#111;">
+      <p>Dear ${escapeHtml(payload.name)},</p>
+      <p>Thank you for your confidential inquiry. We have received it and will review the relocation context privately before responding through your selected channel.</p>
+      <p>Please do not send passports, bank statements, or sensitive documents until a private channel has been agreed.</p>
+      <p>Move to Switzerland</p>
     </div>`;
 
   return { subject, text, html };
@@ -331,6 +401,29 @@ async function sendWithResend(payload: IntakePayload) {
     const detail = await response.text().catch(() => '');
     throw new Error(`Resend delivery failed: ${response.status} ${detail.slice(0, 200)}`);
   }
+
+  if (process.env.CONTACT_AUTOREPLY_ENABLED === 'true') {
+    const autoReply = buildAutoReply(payload);
+    const autoReplyResponse = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        from,
+        to: [payload.email],
+        subject: autoReply.subject,
+        text: autoReply.text,
+        html: autoReply.html,
+      }),
+    });
+
+    if (!autoReplyResponse.ok) {
+      const detail = await autoReplyResponse.text().catch(() => '');
+      console.error(`Contact autoreply failed: ${autoReplyResponse.status} ${detail.slice(0, 200)}`);
+    }
+  }
 }
 
 export async function POST(request: NextRequest) {
@@ -357,6 +450,7 @@ export async function POST(request: NextRequest) {
         primaryGoal: payload.primaryGoal,
         timeline: payload.timeline,
         servicesCount: payload.servicesNeeded.length,
+        preferredCantonsCount: payload.preferredCantons?.length || 0,
         locale: payload.locale,
       });
       return NextResponse.json({ success: true });
