@@ -267,6 +267,44 @@
         "profile": "La famiglia o l'individuo orientato alla privacy che cerca le tasse più basse con uno stile di vita alpino e totale discrezione",
         "ideal": "Ideale per: famiglie multigenerazionali, individui attenti alla privacy, pensionati"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Shortlist ampliata",
+      "title": "Altri cantoni fiscalmente efficienti da valutare",
+      "subtitle": "Questi cantoni non sono i tre principali punti di confronto, ma spesso meritano spazio in una seria shortlist fiscale e di stile di vita.",
+      "taxEfficient": "Fiscalmente efficiente",
+      "labels": {
+        "corporate": "Società",
+        "personal": "Imposta personale",
+        "schoolAccess": "Accesso alle scuole",
+        "bestFor": "Ideale per"
+      },
+      "items": [
+        {
+          "name": "Nidvaldo",
+          "tagline": "Bassa fiscalità, discrezione, vicino a Lucerna e Zurigo.",
+          "corporate": "Circa 11,9% di aliquota effettiva per le società.",
+          "personal": "Basso carico fiscale personale, soprattutto intorno a Hergiswil e Stans.",
+          "schoolAccess": "Buon accesso alle opzioni scolastiche di Lucerna, Zugo e Zurigo.",
+          "bestFor": "Imprenditori e family office che desiderano efficienza simile a Zugo con una base più tranquilla."
+        },
+        {
+          "name": "Obvaldo",
+          "tagline": "Opzione alpina e lacustre tranquilla con forte appeal fiscale.",
+          "corporate": "Circa 12,7% di aliquota effettiva per le società.",
+          "personal": "Aliquote personali attraenti e comuni orientati alla riservatezza.",
+          "schoolAccess": "Da abbinare idealmente alla pianificazione scolastica a Lucerna o Zugo.",
+          "bestFor": "Famiglie attente alla privacy che privilegiano tasse basse, spazio e discrezione rispetto alla densità urbana."
+        },
+        {
+          "name": "Lucerna",
+          "tagline": "Stile di vita equilibrato con efficienza fiscale pratica.",
+          "corporate": "Circa 12,2% di aliquota effettiva per le società.",
+          "personal": "Fiscalità personale da moderata ad attraente con infrastruttura urbana più solida.",
+          "schoolAccess": "Forte infrastruttura familiare e accesso a ISZL e alle scuole della Svizzera centrale.",
+          "bestFor": "Famiglie che vogliono una base vivibile con sanità, scuole, accesso aeroportuale e tasse ancora competitive."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

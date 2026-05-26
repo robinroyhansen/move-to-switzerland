@@ -267,6 +267,44 @@
         "profile": "Den privatlivsfokuserede familie eller enkeltperson, der søger de laveste skatter med en alpin livsstil og fuldstændig diskretion",
         "ideal": "Ideel til: generationsfamilier, privatlivsfokuserede personer, pensionister"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Udvidet shortlist",
+      "title": "Andre skatteeffektive kantoner værd at drøfte",
+      "subtitle": "Disse kantoner er ikke de tre primære sammenligningspunkter, men de hører ofte hjemme på en seriøs skatte- og livsstilsshortlist.",
+      "taxEfficient": "Skatteeffektiv",
+      "labels": {
+        "corporate": "Selskab",
+        "personal": "Personlig skat",
+        "schoolAccess": "Skoleadgang",
+        "bestFor": "Bedst til"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Lav skat, diskret, tæt på Luzern og Zürich.",
+          "corporate": "Ca. 11,9% effektiv selskabsskattesats.",
+          "personal": "Lav personlig skattebelastning, især omkring Hergiswil og Stans.",
+          "schoolAccess": "God adgang til skolemuligheder i Luzern, Zug og Zürich.",
+          "bestFor": "Iværksættere og family offices, der ønsker Zug-lignende effektivitet med en roligere base."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Roligt alpe- og søområde med stærk skattemæssig appel.",
+          "corporate": "Ca. 12,7% effektiv selskabsskattesats.",
+          "personal": "Attraktive personlige satser og kommuner med fokus på diskretion.",
+          "schoolAccess": "Fungerer bedst sammen med skoleplanlægning i Luzern eller Zug.",
+          "bestFor": "Familier, der prioriterer lav skat, plads og diskretion højere end bymæssig tæthed."
+        },
+        {
+          "name": "Luzern",
+          "tagline": "Balanceret livsstil med praktisk skatteeffektivitet.",
+          "corporate": "Ca. 12,2% effektiv selskabsskattesats.",
+          "personal": "Moderat til attraktiv personlig skat med stærkere urban infrastruktur.",
+          "schoolAccess": "Stærk familieinfrastruktur og adgang til ISZL og skoler i det centrale Schweiz.",
+          "bestFor": "Familier, der ønsker en levende base med sundhed, skoler, lufthavnsadgang og stadig konkurrencedygtige skatter."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

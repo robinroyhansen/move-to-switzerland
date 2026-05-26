@@ -267,6 +267,44 @@
         "profile": "Alp yaşam tarzı ve tam bir gizlilik içinde en düşük vergileri arayan, mahremiyet odaklı aile veya bireyler",
         "ideal": "İdeal olanlar: çok kuşaklı aileler, mahremiyet odaklı bireyler, emekliler"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Genişletilmiş kısa liste",
+      "title": "Değerlendirilmeye değer diğer vergi verimli kantonlar",
+      "subtitle": "Bu kantonlar ilk üç ana karşılaştırma noktası değildir, ancak ciddi bir vergi ve yaşam tarzı kısa listesinde sıkça yer alır.",
+      "taxEfficient": "Vergi verimli",
+      "labels": {
+        "corporate": "Kurumlar",
+        "personal": "Kişisel vergi",
+        "schoolAccess": "Okul erişimi",
+        "bestFor": "En uygun"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Düşük vergi, yüksek gizlilik, Lucerne ve Zürih'e yakın.",
+          "corporate": "Yaklaşık %11,9 efektif kurumlar vergisi oranı.",
+          "personal": "Özellikle Hergiswil ve Stans çevresinde düşük kişisel vergi yükü.",
+          "schoolAccess": "Lucerne, Zug ve Zürih okul seçeneklerine iyi erişim.",
+          "bestFor": "Zug benzeri verimliliği daha sakin bir merkezle isteyen girişimciler ve family office'ler."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Güçlü vergi avantajı olan sakin Alp ve göl seçeneği.",
+          "corporate": "Yaklaşık %12,7 efektif kurumlar vergisi oranı.",
+          "personal": "Cazip kişisel oranlar ve gizliliğe önem veren belediyeler.",
+          "schoolAccess": "Lucerne veya Zug okul planlamasıyla birlikte en iyi çalışır.",
+          "bestFor": "Düşük vergi, alan ve mahremiyeti şehir yoğunluğunun önüne koyan aileler."
+        },
+        {
+          "name": "Lucerne",
+          "tagline": "Pratik vergi verimliliğiyle dengeli yaşam tarzı.",
+          "corporate": "Yaklaşık %12,2 efektif kurumlar vergisi oranı.",
+          "personal": "Daha güçlü kentsel altyapıyla orta ile cazip arası kişisel vergi.",
+          "schoolAccess": "Güçlü aile altyapısı, ISZL ve Orta İsviçre okullarına erişim.",
+          "bestFor": "Sağlık, okullar, havaalanı erişimi ve hâlâ rekabetçi vergiler isteyen aileler."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

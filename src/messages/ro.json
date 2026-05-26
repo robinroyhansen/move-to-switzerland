@@ -267,6 +267,44 @@
         "profile": "Familia sau persoana axată pe confidențialitate care caută cele mai mici impozite, cu un stil de viață alpin și discreție totală",
         "ideal": "Ideal pentru: familii multigeneraționale, persoane care pun preț pe viața privată, pensionari"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Listă extinsă",
+      "title": "Alte cantoane eficiente fiscal de discutat",
+      "subtitle": "Aceste cantoane nu sunt cele trei repere principale de comparație, dar apar des într-o listă serioasă de fiscalitate și stil de viață.",
+      "taxEfficient": "Eficient fiscal",
+      "labels": {
+        "corporate": "Companii",
+        "personal": "Impozit personal",
+        "schoolAccess": "Acces la școli",
+        "bestFor": "Potrivit pentru"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Taxe reduse, discreție, aproape de Lucerna și Zurich.",
+          "corporate": "Aprox. 11,9% rată efectivă de impozit pe profit.",
+          "personal": "Povară fiscală personală redusă, mai ales în jurul Hergiswil și Stans.",
+          "schoolAccess": "Acces bun la opțiuni școlare în Lucerna, Zug și Zurich.",
+          "bestFor": "Antreprenori și family office-uri care vor eficiență apropiată de Zug într-o bază mai liniștită."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Opțiune liniștită între Alpi și lac, cu atracție fiscală puternică.",
+          "corporate": "Aprox. 12,7% rată efectivă de impozit pe profit.",
+          "personal": "Rate personale atractive și municipalități orientate spre discreție.",
+          "schoolAccess": "Funcționează cel mai bine cu planificare școlară în Lucerna sau Zug.",
+          "bestFor": "Familii axate pe confidențialitate, care prioritizează taxele reduse, spațiul și discreția în locul densității urbane."
+        },
+        {
+          "name": "Lucerna",
+          "tagline": "Stil de viață echilibrat cu eficiență fiscală practică.",
+          "corporate": "Aprox. 12,2% rată efectivă de impozit pe profit.",
+          "personal": "Impozitare personală moderată spre atractivă, cu infrastructură urbană mai puternică.",
+          "schoolAccess": "Infrastructură familială solidă și acces la ISZL și la școlile din Elveția centrală.",
+          "bestFor": "Familii care vor o bază locuibilă cu sănătate, școli, acces la aeroport și taxe încă competitive."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

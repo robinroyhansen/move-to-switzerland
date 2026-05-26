@@ -267,6 +267,44 @@
         "profile": "A família ou indivíduo focado em privacidade que busca os menores impostos com um estilo de vida alpino e total discrição",
         "ideal": "Ideal para: famílias multigeracionais, indivíduos focados em privacidade, aposentados"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Lista alargada",
+      "title": "Outros cantões fiscalmente eficientes a considerar",
+      "subtitle": "Estes cantões não são os três principais pontos de comparação, mas muitas vezes pertencem a uma shortlist séria de fiscalidade e estilo de vida.",
+      "taxEfficient": "Fiscalmente eficiente",
+      "labels": {
+        "corporate": "Empresas",
+        "personal": "Imposto pessoal",
+        "schoolAccess": "Acesso a escolas",
+        "bestFor": "Melhor para"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Baixa tributação, discrição, perto de Lucerna e Zurique.",
+          "corporate": "Cerca de 11,9% de taxa efetiva de imposto sobre empresas.",
+          "personal": "Baixa carga fiscal pessoal, especialmente em torno de Hergiswil e Stans.",
+          "schoolAccess": "Bom acesso a opções escolares em Lucerna, Zug e Zurique.",
+          "bestFor": "Empreendedores e family offices que querem eficiência parecida com Zug numa base mais tranquila."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Opção tranquila entre Alpes e lago, com forte atratividade fiscal.",
+          "corporate": "Cerca de 12,7% de taxa efetiva de imposto sobre empresas.",
+          "personal": "Taxas pessoais atrativas e municípios focados em discrição.",
+          "schoolAccess": "Funciona melhor com planeamento escolar em Lucerna ou Zug.",
+          "bestFor": "Famílias focadas em privacidade que priorizam baixa tributação, espaço e discrição em vez de densidade urbana."
+        },
+        {
+          "name": "Lucerna",
+          "tagline": "Estilo de vida equilibrado com eficiência fiscal prática.",
+          "corporate": "Cerca de 12,2% de taxa efetiva de imposto sobre empresas.",
+          "personal": "Imposto pessoal moderado a atrativo, com infraestrutura urbana mais forte.",
+          "schoolAccess": "Forte infraestrutura familiar e acesso à ISZL e às escolas da Suíça central.",
+          "bestFor": "Famílias que querem uma base habitável com saúde, escolas, acesso ao aeroporto e impostos ainda competitivos."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

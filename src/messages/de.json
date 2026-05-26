@@ -267,6 +267,44 @@
         "profile": "Privatsphäre-orientierte Familien oder Einzelpersonen, die niedrigste Steuern bei alpinem Lebensstil und vollständiger Diskretion suchen",
         "ideal": "Ideal für: Mehrgenerationenfamilien, Personen mit Fokus auf Privatsphäre, Rentner"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Erweiterte Shortlist",
+      "title": "Weitere steuerlich effiziente Kantone",
+      "subtitle": "Diese Kantone sind nicht die ersten drei Vergleichsanker, gehören aber oft in eine ernsthafte Steuer- und Lifestyle-Shortlist.",
+      "taxEfficient": "Steuereffizient",
+      "labels": {
+        "corporate": "Unternehmen",
+        "personal": "Private Steuern",
+        "schoolAccess": "Schulzugang",
+        "bestFor": "Geeignet für"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Niedrige Steuern, diskret, nahe bei Luzern und Zürich.",
+          "corporate": "Ca. 11,9 % effektiver Unternehmenssteuersatz.",
+          "personal": "Niedrige private Steuerbelastung, besonders rund um Hergiswil und Stans.",
+          "schoolAccess": "Guter Zugang zu Schulen in Luzern, Zug und Zürich.",
+          "bestFor": "Unternehmer und Family Offices, die Zug-ähnliche Effizienz mit einem ruhigeren Standort suchen."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Ruhige Alpen- und Seenlage mit starker steuerlicher Attraktivität.",
+          "corporate": "Ca. 12,7 % effektiver Unternehmenssteuersatz.",
+          "personal": "Attraktive private Steuersätze und Gemeinden mit hoher Diskretion.",
+          "schoolAccess": "Am besten mit Schulplanung in Luzern oder Zug kombinieren.",
+          "bestFor": "Diskretionsorientierte Familien, die niedrige Steuern, Raum und Ruhe höher gewichten als städtische Dichte."
+        },
+        {
+          "name": "Luzern",
+          "tagline": "Ausgewogener Lebensstil mit praktischer Steuereffizienz.",
+          "corporate": "Ca. 12,2 % effektiver Unternehmenssteuersatz.",
+          "personal": "Moderate bis attraktive private Steuerbelastung mit stärkerer urbaner Infrastruktur.",
+          "schoolAccess": "Starke Familieninfrastruktur und Zugang zu ISZL sowie Schulen der Zentralschweiz.",
+          "bestFor": "Familien, die einen lebenswerten Standort mit Gesundheitswesen, Schulen, Flughafenzugang und weiterhin wettbewerbsfähigen Steuern suchen."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

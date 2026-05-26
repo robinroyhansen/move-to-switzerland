@@ -267,6 +267,44 @@
         "profile": "The privacy-focused family or individual seeking the lowest taxes with an Alpine lifestyle and complete discretion",
         "ideal": "Ideal for: multi-generational families, privacy-focused individuals, retirees"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Expanded shortlist",
+      "title": "Other tax-efficient cantons worth discussing",
+      "subtitle": "These cantons are not the first three comparison anchors, but they often belong in a serious tax and lifestyle shortlist.",
+      "taxEfficient": "Tax-efficient",
+      "labels": {
+        "corporate": "Corporate",
+        "personal": "Personal tax",
+        "schoolAccess": "School access",
+        "bestFor": "Best for"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Low-tax, discreet, close to Lucerne and Zurich.",
+          "corporate": "Approx. 11.9% effective corporate rate.",
+          "personal": "Low personal tax burden, especially around Hergiswil and Stans.",
+          "schoolAccess": "Good access to Lucerne, Zug, and Zurich school options.",
+          "bestFor": "Entrepreneurs and family offices who want Zug-like efficiency with a quieter base."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Quiet Alpine and lake option with strong tax appeal.",
+          "corporate": "Approx. 12.7% effective corporate rate.",
+          "personal": "Attractive personal rates and privacy-focused municipalities.",
+          "schoolAccess": "Best paired with Lucerne or Zug school planning.",
+          "bestFor": "Privacy-focused families who prioritise low tax, space, and discretion over city density."
+        },
+        {
+          "name": "Lucerne",
+          "tagline": "Balanced lifestyle with practical tax efficiency.",
+          "corporate": "Approx. 12.2% effective corporate rate.",
+          "personal": "Moderate-to-attractive personal tax with stronger urban infrastructure.",
+          "schoolAccess": "Strong family infrastructure and access to ISZL and central Switzerland schools.",
+          "bestFor": "Families who want a livable base with healthcare, schools, airport access, and still-competitive taxes."
+        }
+      ]
     }
   },
   "caseStudiesPage": {

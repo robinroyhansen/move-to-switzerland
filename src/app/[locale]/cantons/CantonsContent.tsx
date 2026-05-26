@@ -33,6 +33,15 @@ const schoolLinks: Record<CantonKey, string[]> = {
   ],
 };
 
+type SecondaryCanton = {
+  name: string;
+  tagline: string;
+  corporate: string;
+  personal: string;
+  schoolAccess: string;
+  bestFor: string;
+};
+
 function SectionHeader({ title, icon }: { title: string; icon: string }) {
   return (
     <div className="flex items-center gap-3 mb-5">
@@ -50,6 +59,7 @@ export function CantonsContent() {
   const [activeFilter, setActiveFilter] = useState<'all' | CantonKey>('all');
 
   const visibleCantons = activeFilter === 'all' ? cantonKeys : [activeFilter];
+  const secondaryCantons = t.raw('cantonsPage.otherTaxEfficient.items') as SecondaryCanton[];
 
   return (
     <>
@@ -234,6 +244,66 @@ export function CantonsContent() {
               </ScrollReveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-cream pb-20 sm:pb-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="border-t border-navy/8 pt-14 sm:pt-16">
+              <div className="max-w-3xl">
+                <p className="mb-3 text-xs font-medium uppercase tracking-[0.22em] text-gold">
+                  {t('cantonsPage.otherTaxEfficient.eyebrow')}
+                </p>
+                <h2 className="font-serif text-3xl font-semibold text-navy sm:text-4xl luxury-heading">
+                  {t('cantonsPage.otherTaxEfficient.title')}
+                </h2>
+                <p className="mt-4 text-sm font-light leading-relaxed text-charcoal/60 sm:text-base">
+                  {t('cantonsPage.otherTaxEfficient.subtitle')}
+                </p>
+              </div>
+
+              <div className="mt-9 grid gap-5 md:grid-cols-3">
+                {secondaryCantons.map((canton) => (
+                  <article key={canton.name} className="rounded-lg border border-navy/8 bg-white p-6 shadow-sm">
+                    <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gold">
+                      {t('cantonsPage.otherTaxEfficient.taxEfficient')}
+                    </p>
+                    <h3 className="mt-3 font-serif text-2xl font-semibold text-navy">{canton.name}</h3>
+                    <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/58">
+                      {canton.tagline}
+                    </p>
+
+                    <dl className="mt-5 space-y-3">
+                      {[
+                        [t('cantonsPage.otherTaxEfficient.labels.corporate'), canton.corporate],
+                        [t('cantonsPage.otherTaxEfficient.labels.personal'), canton.personal],
+                        [t('cantonsPage.otherTaxEfficient.labels.schoolAccess'), canton.schoolAccess],
+                      ].map(([label, value]) => (
+                        <div key={label} className="rounded-md bg-cream/60 p-3">
+                          <dt className="text-[11px] font-medium uppercase tracking-[0.14em] text-charcoal/38">
+                            {label}
+                          </dt>
+                          <dd className="mt-1 text-sm font-medium leading-relaxed text-charcoal/68">
+                            {value}
+                          </dd>
+                        </div>
+                      ))}
+                    </dl>
+
+                    <div className="mt-5 rounded-md border border-gold/14 bg-gold/5 p-4">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-gold">
+                        {t('cantonsPage.otherTaxEfficient.labels.bestFor')}
+                      </p>
+                      <p className="mt-2 text-sm font-medium leading-relaxed text-navy">
+                        {canton.bestFor}
+                      </p>
+                    </div>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
         </div>
       </section>
 

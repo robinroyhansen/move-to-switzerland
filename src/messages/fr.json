@@ -267,6 +267,44 @@
         "profile": "La famille ou le particulier soucieux de sa vie privée, recherchant les impôts les plus bas avec un style de vie alpin et une discrétion totale",
         "ideal": "Idéal pour : familles multigénérationnelles, personnes privilégiant la confidentialité, retraités"
       }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Shortlist élargie",
+      "title": "Autres cantons fiscalement efficaces à considérer",
+      "subtitle": "Ces cantons ne sont pas les trois points de comparaison principaux, mais ils méritent souvent une place dans une vraie shortlist fiscale et de style de vie.",
+      "taxEfficient": "Fiscalement efficace",
+      "labels": {
+        "corporate": "Sociétés",
+        "personal": "Impôt personnel",
+        "schoolAccess": "Accès aux écoles",
+        "bestFor": "Idéal pour"
+      },
+      "items": [
+        {
+          "name": "Nidwald",
+          "tagline": "Fiscalité basse, discrétion, proximité de Lucerne et Zurich.",
+          "corporate": "Environ 11,9 % de taux effectif d'imposition des sociétés.",
+          "personal": "Charge fiscale personnelle basse, surtout autour de Hergiswil et Stans.",
+          "schoolAccess": "Bon accès aux options scolaires de Lucerne, Zoug et Zurich.",
+          "bestFor": "Entrepreneurs et family offices qui veulent une efficacité proche de Zoug dans un cadre plus calme."
+        },
+        {
+          "name": "Obwald",
+          "tagline": "Option alpine et lacustre calme, avec un fort attrait fiscal.",
+          "corporate": "Environ 12,7 % de taux effectif d'imposition des sociétés.",
+          "personal": "Taux personnels attractifs et communes orientées discrétion.",
+          "schoolAccess": "À combiner idéalement avec une planification scolaire à Lucerne ou Zoug.",
+          "bestFor": "Familles recherchant la confidentialité, une fiscalité basse, de l'espace et de la discrétion plutôt que la densité urbaine."
+        },
+        {
+          "name": "Lucerne",
+          "tagline": "Équilibre entre qualité de vie et efficacité fiscale pratique.",
+          "corporate": "Environ 12,2 % de taux effectif d'imposition des sociétés.",
+          "personal": "Fiscalité personnelle modérée à attractive, avec une infrastructure urbaine plus forte.",
+          "schoolAccess": "Solide infrastructure familiale et accès à l'ISZL ainsi qu'aux écoles de Suisse centrale.",
+          "bestFor": "Familles qui veulent une base agréable avec santé, écoles, accès aéroportuaire et fiscalité encore compétitive."
+        }
+      ]
     }
   },
   "caseStudiesPage": {
