@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
 export default function AboutPage() {
@@ -94,31 +95,46 @@ export default function AboutPage() {
 
       {/* Founders */}
       <section className="py-24 sm:py-28 bg-cream">
-        <div className="max-w-4xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <ScrollReveal>
-            <div className="text-center mb-16">
+            <div className="mx-auto mb-16 max-w-3xl text-center">
               <div className="gold-line-center" />
               <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-navy font-semibold luxury-heading">
                 {t('founders.title')}
               </h2>
+              <p className="mt-5 text-sm font-light leading-relaxed text-charcoal/55 sm:text-base">
+                {t('founders.subtitle')}
+              </p>
             </div>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {(['adrian', 'robin'] as const).map((founder, i) => (
               <ScrollReveal key={founder} delay={i * 150}>
                 <div className="bg-white rounded-lg p-8 sm:p-10 shadow-sm border border-navy/[0.04] card-lift">
-                  <div className="w-20 h-20 rounded-full bg-navy/[0.06] flex items-center justify-center mb-7">
-                    <span className="text-2xl font-serif text-navy font-bold">
-                      {t(`founders.${founder}.name`).charAt(0)}
-                    </span>
-                  </div>
+                  {founder === 'adrian' ? (
+                    <div className="relative mb-7 h-32 w-32 overflow-hidden rounded-full border border-gold/25 bg-navy/[0.06] shadow-sm">
+                      <Image
+                        src="/images/founders/adrian-burgi.jpg"
+                        alt={t('founders.adrian.name')}
+                        fill
+                        sizes="128px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                  ) : (
+                    <div className="mb-7 flex h-32 w-32 items-center justify-center rounded-full bg-navy/[0.06]">
+                      <span className="text-2xl font-serif text-navy font-bold">
+                        {t(`founders.${founder}.name`).charAt(0)}
+                      </span>
+                    </div>
+                  )}
                   <h3 className="font-serif text-xl text-navy font-semibold mb-1">
                     {t(`founders.${founder}.name`)}
                   </h3>
                   <p className="text-xs text-gold uppercase tracking-[0.2em] mb-5">
                     {t(`founders.${founder}.role`)}
                   </p>
-                  <p className="text-sm text-charcoal/50 leading-relaxed">
+                  <p className="text-sm text-charcoal/58 leading-relaxed">
                     {t(`founders.${founder}.bio`)}
                   </p>
                 </div>
