@@ -23,6 +23,7 @@ export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
   const pathname = usePathname();
   const [visible, setVisible] = useState(false);
   const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const isContactPage = pathname === '/contact';
   const label = isSwissArrival ? swissArrivalCta[locale] ?? swissArrivalCta.en : t('cta.consultation');
 
   useEffect(() => {
@@ -32,6 +33,10 @@ export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  if (isContactPage) {
+    return null;
+  }
 
   return (
     <div
@@ -44,7 +49,7 @@ export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
           href="/contact"
           eventName="sticky_cta_click"
           eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
-          className="block w-full bg-gold text-navy text-center py-3.5 rounded-sm text-sm font-semibold tracking-[0.12em] uppercase hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20"
+          className="block w-full rounded-sm bg-gold px-4 py-3.5 text-center text-sm font-semibold leading-snug text-navy shadow-lg shadow-gold/20 transition-all duration-300 hover:bg-gold-light"
         >
           {label}
         </ConversionLink>

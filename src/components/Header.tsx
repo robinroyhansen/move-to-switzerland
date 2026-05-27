@@ -73,11 +73,11 @@ export function Header({ site = 'move' }: HeaderProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18 sm:h-22">
             {/* Logo */}
-            <Link href={brandHref} className="flex items-center gap-3 group">
-              <div className="w-8 h-8 rounded-full border border-gold/40 flex items-center justify-center group-hover:border-gold transition-colors">
+            <Link href={brandHref} className="group flex min-w-0 items-center gap-3">
+              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gold/40 transition-colors group-hover:border-gold">
                 <span className="text-gold font-serif text-sm font-bold">{brandInitial}</span>
               </div>
-              <span className="text-gold font-serif text-lg sm:text-xl font-semibold tracking-wide">
+              <span className="truncate font-serif text-base font-semibold text-gold sm:text-xl">
                 {brandName}
               </span>
             </Link>
@@ -221,7 +221,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                   eventName="mobile_header_cta_click"
                   eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
                   onClick={() => setMobileOpen(false)}
-                  className="block bg-gold text-navy text-center py-3.5 text-sm font-semibold tracking-wider uppercase rounded-sm"
+                  className="block rounded-sm bg-gold px-4 py-3.5 text-center text-sm font-semibold leading-snug text-navy"
                 >
                   {isSwissArrival ? swissCopy.cta : t('beginJourney')}
                 </ConversionLink>

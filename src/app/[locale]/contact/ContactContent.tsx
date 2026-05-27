@@ -31,7 +31,7 @@ function RadioPills({
   return (
     <div className="flex flex-wrap gap-2.5" role="radiogroup" aria-label={label}>
       {options.map((option) => (
-        <label key={option.value} className="group cursor-pointer">
+        <label key={option.value} className="group max-w-full cursor-pointer">
           <input
             type="radio"
             name={name}
@@ -39,7 +39,7 @@ function RadioPills({
             required={required}
             className="peer sr-only"
           />
-          <span className="inline-flex min-h-11 items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-sm font-medium text-charcoal/65 transition-all duration-200 peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
+          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
             {option.label}
           </span>
         </label>
@@ -52,9 +52,9 @@ function CheckboxPills({ name, options, label }: { name: string; options: Option
   return (
     <div className="flex flex-wrap gap-2.5" role="group" aria-label={label}>
       {options.map((option) => (
-        <label key={option.value} className="group cursor-pointer">
+        <label key={option.value} className="group max-w-full cursor-pointer">
           <input type="checkbox" name={name} value={option.value} className="peer sr-only" />
-          <span className="inline-flex min-h-11 items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-sm font-medium text-charcoal/65 transition-all duration-200 peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
+          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
             {option.label}
           </span>
         </label>
@@ -71,7 +71,7 @@ function FieldLabel({
   required?: boolean;
 }) {
   return (
-    <label className="mb-2.5 block text-xs font-medium uppercase tracking-[0.15em] text-charcoal/50">
+    <label className="mb-2.5 block text-[0.78rem] font-semibold leading-snug text-charcoal/55">
       {children}
       {required && <span aria-hidden="true"> *</span>}
     </label>
@@ -79,7 +79,7 @@ function FieldLabel({
 }
 
 const inputClass =
-  'w-full rounded-sm border border-navy/8 bg-cream/40 px-4 py-3.5 text-sm text-charcoal placeholder-charcoal/25 transition-all duration-300 focus:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold';
+  'w-full min-w-0 rounded-sm border border-navy/8 bg-cream/40 px-4 py-3.5 text-base leading-relaxed text-charcoal placeholder-charcoal/25 transition-all duration-300 focus:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold sm:text-sm';
 
 function FieldError({ message }: { message?: string }) {
   if (!message) return null;
@@ -89,11 +89,13 @@ function FieldError({ message }: { message?: string }) {
 
 function ProgressStep({ index, title }: { index: number; title: string }) {
   return (
-    <div className="flex min-w-[9rem] flex-1 items-center gap-3 rounded-full border border-navy/8 bg-cream/50 px-3 py-2">
+    <div className="flex min-w-0 flex-1 items-center gap-3 rounded-full border border-navy/8 bg-cream/50 px-3 py-2">
       <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-navy text-xs font-semibold text-gold">
         {index}
       </span>
-      <span className="text-xs font-medium uppercase tracking-[0.12em] text-charcoal/55">{title.replace(/^\d+\.\s*/, '')}</span>
+      <span className="min-w-0 text-start text-[0.72rem] font-semibold leading-snug text-charcoal/55">
+        {title.replace(/^\d+\.\s*/, '')}
+      </span>
     </div>
   );
 }
@@ -255,29 +257,29 @@ export default function ContactPage() {
 
   return (
     <>
-      <section className="bg-navy pb-20 pt-36">
-        <div className="mx-auto max-w-4xl px-4 text-center">
+      <section className="bg-navy pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pb-20 lg:pt-36">
+        <div className="mx-auto max-w-4xl px-5 text-start sm:px-6 sm:text-center">
           <div className="gold-line-center" />
-          <h1 className="luxury-heading mb-5 font-serif text-4xl font-semibold text-white sm:text-5xl lg:text-6xl">
+          <h1 className="mb-5 font-serif text-4xl font-semibold leading-[1.02] text-text-light break-words hyphens-auto sm:text-5xl lg:text-6xl">
             {copy.pageTitle}
           </h1>
-          <p className="text-lg font-light text-text-light/55">
+          <p className="max-w-3xl text-base font-light leading-relaxed text-text-light/65 sm:mx-auto sm:text-lg">
             {copy.pageSubtitle}
           </p>
         </div>
       </section>
 
-      <section className="bg-cream py-24">
+      <section className="bg-cream py-12 sm:py-16 lg:py-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-12">
             <div className="lg:col-span-3">
               <ScrollReveal>
-                <div className="rounded-lg border border-navy/[0.04] bg-white p-6 shadow-sm sm:p-10">
-                  <div className="mb-8 flex items-start gap-3">
+                <div className="rounded-lg border border-navy/[0.04] bg-white p-5 shadow-sm sm:p-8 lg:p-10">
+                  <div className="mb-8 flex items-start gap-3 rounded-lg border border-gold/10 bg-gold/5 p-4">
                     <svg className="mt-0.5 h-4 w-4 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2Zm10-10V7a4 4 0 0 0-8 0v4h8Z" />
                     </svg>
-                    <div>
+                    <div className="min-w-0">
                       <p className="text-xs italic text-charcoal/45">{copy.confidential}</p>
                       <p className="mt-1 text-sm font-light leading-relaxed text-charcoal/55">
                         {copy.noSensitive}
@@ -296,9 +298,9 @@ export default function ContactPage() {
                       <p className="mx-auto mt-3 max-w-md font-light leading-relaxed text-charcoal/65">{enhanced.status.successText}</p>
                     </div>
                   ) : (
-                    <form ref={formRef} onSubmit={handleSubmit} className="space-y-10" noValidate>
+                    <form ref={formRef} onSubmit={handleSubmit} className="space-y-8 sm:space-y-10" noValidate>
                       <input type="hidden" name="formStartedAt" value={startedAt} />
-                      <div className="absolute left-[-9999px] top-auto h-px w-px overflow-hidden">
+                      <div className="sr-only" aria-hidden="true">
                         <label>
                           Company website
                           <input type="text" name="companyWebsite" tabIndex={-1} autoComplete="off" />
@@ -311,7 +313,7 @@ export default function ContactPage() {
                         <ProgressStep index={3} title={copy.sections.responseTitle} />
                       </div>
 
-                      <fieldset className="space-y-5">
+                      <fieldset className="space-y-6">
                         <div>
                           <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.situationTitle}</p>
                           <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
@@ -350,7 +352,7 @@ export default function ContactPage() {
                         </div>
                       </fieldset>
 
-                      <fieldset className="space-y-5 border-t border-navy/8 pt-10">
+                      <fieldset className="space-y-6 border-t border-navy/8 pt-8 sm:pt-10">
                         <div>
                           <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.coordinationTitle}</p>
                           <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
@@ -384,14 +386,14 @@ export default function ContactPage() {
                           <button
                             type="button"
                             onClick={() => setOptionalOpen((open) => !open)}
-                            className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
+                            className="flex w-full flex-col items-start gap-3 px-5 py-4 text-start sm:flex-row sm:items-center sm:justify-between sm:gap-4"
                             aria-expanded={optionalOpen}
                           >
-                            <span>
+                            <span className="min-w-0">
                               <span className="block font-serif text-xl font-semibold text-navy">{enhanced.optionalContextTitle}</span>
                               <span className="mt-1 block text-sm font-light leading-relaxed text-charcoal/55">{enhanced.optionalContextText}</span>
                             </span>
-                            <span className="shrink-0 rounded-full border border-gold/25 px-3 py-1 text-xs font-medium uppercase tracking-[0.12em] text-gold">
+                            <span className="inline-flex max-w-full shrink-0 rounded-full border border-gold/25 px-3 py-1 text-start text-xs font-semibold leading-snug text-gold">
                               {optionalOpen ? enhanced.hideOptional : enhanced.showOptional}
                             </span>
                           </button>
@@ -424,7 +426,7 @@ export default function ContactPage() {
                         </div>
                       </fieldset>
 
-                      <fieldset className="space-y-5 border-t border-navy/8 pt-10">
+                      <fieldset className="space-y-6 border-t border-navy/8 pt-8 sm:pt-10">
                         <div>
                           <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.responseTitle}</p>
                           <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
@@ -475,7 +477,7 @@ export default function ContactPage() {
                           <FieldError message={errors.message} />
                         </div>
 
-                        <label className="flex items-start gap-3 rounded-sm border border-navy/8 bg-cream/40 p-4 text-sm font-light leading-relaxed text-charcoal/60">
+                        <label className="flex items-start gap-3 rounded-sm border border-navy/8 bg-cream/40 p-4 text-sm font-light leading-relaxed text-charcoal/65">
                           <input type="checkbox" name="privacyConsent" value="yes" required className="mt-1 h-4 w-4 rounded border-navy/20 text-gold" />
                           <span>
                             {enhanced.privacy.beforeLink}
@@ -497,7 +499,7 @@ export default function ContactPage() {
                       <button
                         type="submit"
                         disabled={status === 'sending'}
-                        className="sticky bottom-4 z-10 w-full rounded-full bg-navy px-6 py-4 text-sm font-medium uppercase tracking-[0.15em] text-text-light shadow-xl shadow-navy/15 transition-all duration-300 hover:bg-navy-light disabled:opacity-50"
+                        className="sticky bottom-3 z-20 min-h-[3.25rem] w-full rounded-full bg-navy px-6 py-4 text-center text-sm font-semibold leading-snug text-text-light shadow-xl shadow-navy/15 transition-all duration-300 hover:bg-navy-light disabled:opacity-50"
                       >
                         {status === 'sending' ? enhanced.status.sending : copy.submit}
                       </button>
@@ -509,49 +511,49 @@ export default function ContactPage() {
 
             <aside className="lg:col-span-2">
               <ScrollReveal delay={150}>
-                <div className="sticky top-28 space-y-6">
-                <div className="rounded-lg bg-navy p-8 sm:p-10">
-                  <h2 className="mb-6 font-serif text-2xl font-semibold text-gold">
-                    {copy.aside.title}
-                  </h2>
-                  <div className="space-y-6 text-sm font-light leading-relaxed text-text-light/45">
-                    {copy.aside.paragraphs.map((paragraph) => (
-                      <p key={paragraph}>{paragraph}</p>
-                    ))}
-                  </div>
+                <div className="space-y-6 lg:sticky lg:top-28">
+                  <div className="rounded-lg bg-navy p-7 sm:p-10">
+                    <h2 className="mb-6 font-serif text-2xl font-semibold text-gold">
+                      {copy.aside.title}
+                    </h2>
+                    <div className="space-y-6 text-sm font-light leading-relaxed text-text-light/60">
+                      {copy.aside.paragraphs.map((paragraph) => (
+                        <p key={paragraph}>{paragraph}</p>
+                      ))}
+                    </div>
 
-                  <div className="mt-10 space-y-5 border-t border-text-light/10 pt-8">
-                    {copy.aside.items.map((item) => (
-                      <div key={item} className="flex items-start gap-3">
-                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                        <p className="text-sm text-text-light/55">{item}</p>
-                      </div>
-                    ))}
+                    <div className="mt-10 space-y-5 border-t border-text-light/10 pt-8">
+                      {copy.aside.items.map((item) => (
+                        <div key={item} className="flex items-start gap-3">
+                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                          <p className="min-w-0 text-sm leading-relaxed text-text-light/65">{item}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-                <div className="rounded-lg border border-navy/8 bg-white p-7 shadow-sm">
-                  <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.process.title}</h2>
-                  <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{enhanced.process.intro}</p>
-                  <ol className="mt-6 space-y-4">
-                    {enhanced.process.steps.map((step, index) => (
-                      <li key={step} className="flex gap-3 text-sm leading-relaxed text-charcoal/65">
-                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold/12 text-xs font-semibold text-gold">{index + 1}</span>
-                        <span>{step}</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-                <div className="rounded-lg border border-gold/15 bg-gold/5 p-7">
-                  <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.trust.title}</h2>
-                  <div className="mt-5 space-y-3">
-                    {enhanced.trust.items.map((item) => (
-                      <div key={item} className="flex items-start gap-3">
-                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                        <p className="text-sm text-charcoal/65">{item}</p>
-                      </div>
-                    ))}
+                  <div className="rounded-lg border border-navy/8 bg-white p-7 shadow-sm">
+                    <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.process.title}</h2>
+                    <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{enhanced.process.intro}</p>
+                    <ol className="mt-6 space-y-4">
+                      {enhanced.process.steps.map((step, index) => (
+                        <li key={step} className="flex gap-3 text-sm leading-relaxed text-charcoal/65">
+                          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold/12 text-xs font-semibold text-gold">{index + 1}</span>
+                          <span>{step}</span>
+                        </li>
+                      ))}
+                    </ol>
                   </div>
-                </div>
+                  <div className="rounded-lg border border-gold/15 bg-gold/5 p-7">
+                    <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.trust.title}</h2>
+                    <div className="mt-5 space-y-3">
+                      {enhanced.trust.items.map((item) => (
+                        <div key={item} className="flex items-start gap-3">
+                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                          <p className="min-w-0 text-sm leading-relaxed text-charcoal/65">{item}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </ScrollReveal>
             </aside>
