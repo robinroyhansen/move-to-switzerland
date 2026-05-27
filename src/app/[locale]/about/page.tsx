@@ -6,6 +6,18 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 
 export default function AboutPage() {
   const t = useTranslations();
+  const getFounderBioParagraphs = (founder: 'adrian' | 'robin') => {
+    try {
+      const raw = t.raw(`founders.${founder}.bioParagraphs`);
+      if (Array.isArray(raw) && raw.every((paragraph) => typeof paragraph === 'string')) {
+        return raw;
+      }
+    } catch {
+      // Older locale files only have the compact bio field.
+    }
+
+    return [t(`founders.${founder}.bio`)];
+  };
 
   return (
     <>
@@ -107,10 +119,10 @@ export default function AboutPage() {
               </p>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-10">
             {(['adrian', 'robin'] as const).map((founder, i) => (
               <ScrollReveal key={founder} delay={i * 150}>
-                <div className="bg-white rounded-lg p-8 sm:p-10 shadow-sm border border-navy/[0.04] card-lift">
+                <div className="h-full bg-white rounded-lg p-8 sm:p-10 lg:p-12 shadow-sm border border-navy/[0.04] card-lift">
                   {founder === 'adrian' ? (
                     <div className="relative mb-7 h-32 w-32 overflow-hidden rounded-full border border-gold/25 bg-navy/[0.06] shadow-sm">
                       <Image
@@ -134,9 +146,11 @@ export default function AboutPage() {
                   <p className="text-xs text-gold uppercase tracking-[0.2em] mb-5">
                     {t(`founders.${founder}.role`)}
                   </p>
-                  <p className="text-sm text-charcoal/58 leading-relaxed">
-                    {t(`founders.${founder}.bio`)}
-                  </p>
+                  <div className="space-y-4 text-sm leading-7 text-charcoal/58">
+                    {getFounderBioParagraphs(founder).map((paragraph) => (
+                      <p key={paragraph}>{paragraph}</p>
+                    ))}
+                  </div>
                 </div>
               </ScrollReveal>
             ))}
