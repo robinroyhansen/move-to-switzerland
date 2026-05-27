@@ -6,6 +6,11 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 
 export default function AboutPage() {
   const t = useTranslations();
+  const founderImages = {
+    adrian: '/images/founders/adrian-burgi.jpg',
+    robin: '/images/founders/robin-krigslund-hansen.jpg',
+  } as const;
+
   const getFounderBioParagraphs = (founder: 'adrian' | 'robin') => {
     try {
       const raw = t.raw(`founders.${founder}.bioParagraphs`);
@@ -123,23 +128,15 @@ export default function AboutPage() {
             {(['adrian', 'robin'] as const).map((founder, i) => (
               <ScrollReveal key={founder} delay={i * 150}>
                 <div className="h-full bg-white rounded-lg p-8 sm:p-10 lg:p-12 shadow-sm border border-navy/[0.04] card-lift">
-                  {founder === 'adrian' ? (
-                    <div className="relative mb-7 h-32 w-32 overflow-hidden rounded-full border border-gold/25 bg-navy/[0.06] shadow-sm">
-                      <Image
-                        src="/images/founders/adrian-burgi.jpg"
-                        alt={t('founders.adrian.name')}
-                        fill
-                        sizes="128px"
-                        className="object-cover object-top"
-                      />
-                    </div>
-                  ) : (
-                    <div className="mb-7 flex h-32 w-32 items-center justify-center rounded-full bg-navy/[0.06]">
-                      <span className="text-2xl font-serif text-navy font-bold">
-                        {t(`founders.${founder}.name`).charAt(0)}
-                      </span>
-                    </div>
-                  )}
+                  <div className="relative mb-7 h-32 w-32 overflow-hidden rounded-full border border-gold/25 bg-navy/[0.06] shadow-sm">
+                    <Image
+                      src={founderImages[founder]}
+                      alt={t(`founders.${founder}.name`)}
+                      fill
+                      sizes="128px"
+                      className={founder === 'adrian' ? 'object-cover object-top' : 'object-cover object-center'}
+                    />
+                  </div>
                   <h3 className="font-serif text-xl text-navy font-semibold mb-1">
                     {t(`founders.${founder}.name`)}
                   </h3>
