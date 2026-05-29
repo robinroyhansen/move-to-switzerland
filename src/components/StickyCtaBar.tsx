@@ -6,25 +6,19 @@ import { usePathname } from '@/i18n/routing';
 import { useState, useEffect } from 'react';
 import { ConversionLink } from '@/components/ConversionLink';
 
-const swissArrivalCta: Record<string, string> = {
-  en: 'Join the launch list',
-  da: 'Skriv dig på listen',
-  de: 'Zur Launch-Liste',
-  fr: 'Rejoindre la liste',
-};
-
 type StickyCtaBarProps = {
   site?: 'move' | 'swissarrival';
 };
 
 export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
   const t = useTranslations();
+  const swissT = useTranslations('swissArrivalNav');
   const locale = useLocale();
   const pathname = usePathname();
   const [visible, setVisible] = useState(false);
   const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
   const isContactPage = pathname === '/contact';
-  const label = isSwissArrival ? swissArrivalCta[locale] ?? swissArrivalCta.en : t('cta.consultation');
+  const label = isSwissArrival ? swissT('cta') : t('cta.consultation');
 
   useEffect(() => {
     const handleScroll = () => {

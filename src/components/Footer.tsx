@@ -8,39 +8,10 @@ type FooterProps = {
   site?: 'move' | 'swissarrival';
 };
 
-const swissArrivalFooterCopy: Record<string, { tagline: string; guide: string; contact: string; rights: string; company: string }> = {
-  en: {
-    tagline: 'A practical digital guide for expats preparing a move to Switzerland.',
-    guide: 'Guide',
-    contact: 'Contact',
-    rights: 'All rights reserved.',
-    company: 'A WorkWorkWork AG project',
-  },
-  da: {
-    tagline: 'En praktisk digital guide til expats, der forbereder en flytning til Schweiz.',
-    guide: 'Guide',
-    contact: 'Kontakt',
-    rights: 'Alle rettigheder forbeholdes.',
-    company: 'Et WorkWorkWork AG-projekt',
-  },
-  de: {
-    tagline: 'Ein praktischer digitaler Guide für Expats, die einen Umzug in die Schweiz vorbereiten.',
-    guide: 'Guide',
-    contact: 'Kontakt',
-    rights: 'Alle Rechte vorbehalten.',
-    company: 'Ein Projekt der WorkWorkWork AG',
-  },
-  fr: {
-    tagline: 'Un guide digital pratique pour les expatriés qui préparent leur installation en Suisse.',
-    guide: 'Guide',
-    contact: 'Contact',
-    rights: 'Tous droits réservés.',
-    company: 'Un projet WorkWorkWork AG',
-  },
-};
-
 export function Footer({ site = 'move' }: FooterProps) {
   const t = useTranslations();
+  const swissNavT = useTranslations('swissArrivalNav');
+  const swissFooterT = useTranslations('swissArrivalFooter');
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
@@ -49,11 +20,10 @@ export function Footer({ site = 'move' }: FooterProps) {
   const languageOptions = isSwissArrival
     ? (['en', 'da', 'de', 'fr'] as Locale[])
     : (Object.keys(localeNames) as Locale[]);
-  const swissCopy = swissArrivalFooterCopy[locale] ?? swissArrivalFooterCopy.en;
   const navigationItems = isSwissArrival
     ? [
-        { href: '/swiss-arrival' as const, label: swissCopy.guide },
-        { href: '/contact' as const, label: swissCopy.contact },
+        { href: '/swiss-arrival' as const, label: swissNavT('guide') },
+        { href: '/contact' as const, label: swissNavT('contact') },
       ]
     : [
         { href: '/' as const, label: t('nav.home') },
@@ -84,7 +54,7 @@ export function Footer({ site = 'move' }: FooterProps) {
               </h3>
             </div>
             <p className="text-sm leading-relaxed text-text-light/72">
-              {isSwissArrival ? swissCopy.tagline : t('footer.tagline')}
+              {isSwissArrival ? swissFooterT('tagline') : t('footer.tagline')}
             </p>
           </div>
 
@@ -161,13 +131,13 @@ export function Footer({ site = 'move' }: FooterProps) {
             {/* Trust strip */}
             <div className="mt-16 mb-12 text-center">
               <p className="text-xs text-text-light/68 tracking-[0.2em] uppercase">
-                Swiss-registered entity
+                {t('footer.trustSwissEntity')}
                 <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-                Zurich
+                {t('about.offices.zurich')}
                 <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-                Zug
+                {t('about.offices.zug')}
                 <span className="inline-block mx-3 w-1 h-1 rounded-full bg-gold/40 align-middle" />
-                Schwyz
+                {t('about.offices.schwyz')}
               </p>
             </div>
 
@@ -183,9 +153,9 @@ export function Footer({ site = 'move' }: FooterProps) {
         {/* Bottom bar */}
         <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-text-light/65">
-            &copy; {new Date().getFullYear()} {brandName}. {isSwissArrival ? swissCopy.rights : t('footer.rights')}
+            &copy; {new Date().getFullYear()} {brandName}. {isSwissArrival ? swissFooterT('rights') : t('footer.rights')}
           </p>
-          <p className="text-xs text-text-light/65">{isSwissArrival ? swissCopy.company : t('footer.company')}</p>
+          <p className="text-xs text-text-light/65">{isSwissArrival ? swissFooterT('company') : t('footer.company')}</p>
         </div>
       </div>
     </footer>

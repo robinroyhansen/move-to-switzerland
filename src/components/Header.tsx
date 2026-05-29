@@ -10,15 +10,10 @@ type HeaderProps = {
   site?: 'move' | 'swissarrival';
 };
 
-const swissArrivalNavCopy: Record<string, { guide: string; contact: string; cta: string; languages: string }> = {
-  en: { guide: 'Guide', contact: 'Contact', cta: 'Launch list', languages: 'Languages' },
-  da: { guide: 'Guide', contact: 'Kontakt', cta: 'Skriv dig på listen', languages: 'Sprog' },
-  de: { guide: 'Guide', contact: 'Kontakt', cta: 'Launch-Liste', languages: 'Sprachen' },
-  fr: { guide: 'Guide', contact: 'Contact', cta: 'Liste de lancement', languages: 'Langues' },
-};
-
 export function Header({ site = 'move' }: HeaderProps) {
   const t = useTranslations('nav');
+  const footerT = useTranslations('footer');
+  const swissT = useTranslations('swissArrivalNav');
   const locale = useLocale() as Locale;
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -31,7 +26,7 @@ export function Header({ site = 'move' }: HeaderProps) {
   const languageOptions = isSwissArrival
     ? (['en', 'da', 'de', 'fr'] as Locale[])
     : (Object.keys(localeNames) as Locale[]);
-  const swissCopy = swissArrivalNavCopy[locale] ?? swissArrivalNavCopy.en;
+  const languageLabel = footerT('languages');
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -47,8 +42,8 @@ export function Header({ site = 'move' }: HeaderProps) {
 
   const navItems = isSwissArrival
     ? [
-        { href: '/swiss-arrival' as const, label: swissCopy.guide },
-        { href: '/contact' as const, label: swissCopy.contact },
+        { href: '/swiss-arrival' as const, label: swissT('guide') },
+        { href: '/contact' as const, label: swissT('contact') },
       ]
     : [
         { href: '/' as const, label: t('home') },
@@ -103,7 +98,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                 <button
                   onClick={() => setLangOpen(!langOpen)}
                   className="flex items-center gap-1.5 text-[12px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
-                  aria-label={swissCopy.languages}
+                  aria-label={languageLabel}
                   aria-expanded={langOpen}
                 >
                   {localeNames[locale]}
@@ -146,7 +141,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                 eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
                 className="bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
               >
-                {isSwissArrival ? swissCopy.cta : t('beginJourney')}
+                {isSwissArrival ? swissT('cta') : t('beginJourney')}
               </ConversionLink>
             </nav>
 
@@ -154,7 +149,7 @@ export function Header({ site = 'move' }: HeaderProps) {
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="xl:hidden text-text-light p-2"
-              aria-label="Toggle menu"
+              aria-label={t('menu')}
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {mobileOpen ? (
@@ -192,7 +187,7 @@ export function Header({ site = 'move' }: HeaderProps) {
               <button
                 onClick={() => setMobileOpen(false)}
                 className="text-text-light/60 hover:text-gold transition-colors"
-                aria-label="Close menu"
+                aria-label={t('closeMenu')}
               >
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
@@ -223,14 +218,14 @@ export function Header({ site = 'move' }: HeaderProps) {
                   onClick={() => setMobileOpen(false)}
                   className="block rounded-sm bg-gold px-4 py-3.5 text-center text-sm font-semibold leading-snug text-navy"
                 >
-                  {isSwissArrival ? swissCopy.cta : t('beginJourney')}
+                  {isSwissArrival ? swissT('cta') : t('beginJourney')}
                 </ConversionLink>
               </div>
             </nav>
 
-            {/* Languages */}
-            <div className="px-8 pb-8 pt-4">
-              <p className="text-xs text-text-light/30 uppercase tracking-[0.2em] mb-4">{isSwissArrival ? swissCopy.languages : 'Languages'}</p>
+          {/* Languages */}
+          <div className="px-8 pb-8 pt-4">
+            <p className="text-xs text-text-light/30 uppercase tracking-[0.2em] mb-4">{languageLabel}</p>
               <div className="flex flex-wrap gap-2">
                 {languageOptions.map((code) => (
                   <Link

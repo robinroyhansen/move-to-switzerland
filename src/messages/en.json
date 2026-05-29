@@ -14,7 +14,9 @@
     "privacy": "Privacy Policy",
     "imprint": "Imprint",
     "beginJourney": "Begin Your Journey",
-    "insights": "Insights"
+    "insights": "Insights",
+    "menu": "Toggle menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
     "headline": "Your Path to Switzerland",
@@ -305,6 +307,13 @@
           "bestFor": "Families who want a livable base with healthcare, schools, airport access, and still-competitive taxes."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Corporate",
+      "personalIncome": "Personal Income",
+      "lumpSum": "Lump-Sum",
+      "priceRange": "Price Range",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,6 +445,16 @@
         ],
         "outcome": "Swiss SFO fully operational in Zug. 3 independent directors placed. Governance framework ratified by all family branches. Consolidated reporting across all jurisdictions. Ongoing retainer for quarterly governance and annual review."
       }
+    },
+    "labels": {
+      "case": "Case",
+      "timeline": "Timeline",
+      "month": "Month",
+      "week": "Week",
+      "ongoing": "Ongoing",
+      "keyChallenges": "Key Challenges",
+      "servicesEngaged": "Services Engaged",
+      "outcome": "Outcome"
     }
   },
   "services": {
@@ -636,7 +655,8 @@
     "languages": "Languages",
     "rights": "All rights reserved.",
     "company": "A service by WorkWorkWork AG",
-    "disclaimer": "The services are limited to general financial education and strategic guidance and do not constitute financial services within the meaning of the Financial Services Act (FIDLEG). In particular, no advice on specific financial instruments, no portfolio management and no execution or transmission of orders is provided"
+    "disclaimer": "The services are limited to general financial education and strategic guidance and do not constitute financial services within the meaning of the Financial Services Act (FIDLEG). In particular, no advice on specific financial instruments, no portfolio management and no execution or transmission of orders is provided",
+    "trustSwissEntity": "Swiss-registered entity"
   },
   "servicesMeta": {
     "title": "Our Services — Move to Switzerland",
@@ -1122,5 +1142,1204 @@
     "message": "We use cookies to enhance your experience. Essential cookies are required for the website to function. Analytics cookies help us improve our service.",
     "acceptAll": "Accept All",
     "essentialOnly": "Essential Only"
+  },
+  "contactCopy": {
+    "pageTitle": "Confidential Relocation Intake",
+    "pageSubtitle": "Share the essentials privately so we can assess the right Swiss path before the first conversation.",
+    "confidential": "All inquiries are treated with strict confidentiality.",
+    "noSensitive": "Do not send passports, bank statements, or sensitive documents through this form.",
+    "serviceError": "Please select at least one service area.",
+    "sections": {
+      "situationTitle": "1. Your Situation",
+      "situationText": "The basics help us route the inquiry correctly without asking for sensitive documentation.",
+      "coordinationTitle": "2. What Needs Coordinating",
+      "coordinationText": "Select every area that may be relevant. A precise answer is not required at this stage.",
+      "responseTitle": "3. How To Respond",
+      "responseText": "We will use this information only to assess and respond to your inquiry."
+    },
+    "labels": {
+      "enquiryType": "I am enquiring as",
+      "primaryGoal": "Primary goal",
+      "country": "Country of Current Residence",
+      "nationality": "Nationality or citizenship",
+      "timeline": "Timeline",
+      "servicesNeeded": "Services needed",
+      "targetCanton": "Target canton or city",
+      "familySize": "Family members relocating",
+      "existingAdvisors": "Existing Swiss advisors",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number (optional)",
+      "hearAbout": "How did you hear about us? (optional)",
+      "preferredContact": "Preferred response",
+      "message": "Your Message"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zurich, Schwyz, undecided...",
+      "familySize": "Just me, couple, family of 4...",
+      "message": "What should we understand before the first confidential conversation?"
+    },
+    "submit": "Submit Confidential Intake",
+    "privacyConsent": "I consent to Move to Switzerland processing this information to respond to my inquiry. I understand I should not submit sensitive documents through this form.",
+    "aside": {
+      "title": "Private Review",
+      "paragraphs": [
+        "This intake is designed for relocation, residency, tax, family-office, and settlement inquiries where discretion matters.",
+        "A concise first submission is enough. If the matter is suitable, the next step is a private consultation before any documents are requested."
+      ],
+      "items": [
+        "Confidential review",
+        "No public recipient address exposed",
+        "No sensitive documents requested",
+        "Response routed through a private server-side workflow"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Private individual"
+        },
+        {
+          "value": "family-office",
+          "label": "Family office"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Entrepreneur"
+        },
+        {
+          "value": "advisor",
+          "label": "Advisor for a client"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Relocate myself or my family"
+        },
+        {
+          "value": "tax-residency",
+          "label": "Swiss tax and residency planning"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Company or family-office setup"
+        },
+        {
+          "value": "settlement",
+          "label": "Real estate, schools, and settlement"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Banking and wealth coordination"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Swiss Arrival guide"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Urgent"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Under 3 months"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 months"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 months"
+        },
+        {
+          "value": "early-planning",
+          "label": "Early planning"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Residence permits"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Lump-sum taxation"
+        },
+        {
+          "value": "company-formation",
+          "label": "Company formation"
+        },
+        {
+          "value": "family-office",
+          "label": "Family office"
+        },
+        {
+          "value": "real-estate",
+          "label": "Real estate"
+        },
+        {
+          "value": "schooling",
+          "label": "Schools"
+        },
+        {
+          "value": "private-banking",
+          "label": "Private banking"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Health concierge"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Full relocation coordination"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "Email"
+        },
+        {
+          "value": "phone",
+          "label": "Phone"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Yes"
+        },
+        {
+          "value": "no",
+          "label": "No"
+        },
+        {
+          "value": "not-sure",
+          "label": "Not sure"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Confidential Swiss Relocation Intake - Move to Switzerland",
+      "description": "Submit a private Swiss relocation inquiry for residency, tax, family office, schools, banking, and settlement planning."
+    },
+    "progressTitle": "Intake progress",
+    "optionalContextTitle": "Additional planning context",
+    "optionalContextText": "Optional ranges are enough. Do not include passports, account statements, or sensitive documents.",
+    "showOptional": "Add optional planning context",
+    "hideOptional": "Hide optional planning context",
+    "labels": {
+      "relocationYear": "Expected relocation year",
+      "preferredCantons": "Preferred cantons",
+      "advisoryScope": "Advisory scope",
+      "schoolAgeRange": "Children needing school placement",
+      "urgencyReason": "What is driving the timing?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, flexible...",
+      "schoolAgeRange": "Ages 6 and 11, boarding option, no children...",
+      "urgencyReason": "School year, tax year, permit timing, property search..."
+    },
+    "validation": {
+      "required": "Please complete this required field.",
+      "email": "Please enter a valid email address.",
+      "servicesNeeded": "Please select at least one service area.",
+      "preferredContact": "Please select how we should respond.",
+      "phoneRequired": "Please add a phone number or choose email as the preferred response.",
+      "consent": "Please confirm the privacy consent.",
+      "submitError": "The inquiry could not be sent right now. Please try again later."
+    },
+    "status": {
+      "sending": "Sending...",
+      "successTitle": "Inquiry received",
+      "successText": "Thank you. We will review the intake privately and respond through your selected channel."
+    },
+    "process": {
+      "title": "What happens next",
+      "intro": "A short first submission is enough. If the matter is suitable, the next step is a private consultation before documents are requested.",
+      "steps": [
+        "Private review of the relocation profile",
+        "Initial fit assessment for canton, residency, tax, family, and business needs",
+        "Confidential reply through the selected response channel"
+      ]
+    },
+    "trust": {
+      "title": "Confidentiality standards",
+      "items": [
+        "Swiss-registered entity",
+        "Private server-side routing",
+        "No public recipient address exposed",
+        "No sensitive documents requested through the form",
+        "No WhatsApp handoff"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal-only",
+          "label": "Personal only"
+        },
+        {
+          "value": "family",
+          "label": "Family"
+        },
+        {
+          "value": "company",
+          "label": "Company"
+        },
+        {
+          "value": "family-office",
+          "label": "Family office"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Undecided"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerne"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "I consent to Move to Switzerland processing this information to respond to my inquiry and accept the ",
+      "linkText": "privacy policy",
+      "afterLink": ". I understand I should not submit sensitive documents through this form."
+    },
+    "honeypotLabel": "Company website"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Ready to understand the right Swiss route?",
+      "creamText": "Start with a private assessment, or use the guide path if you are still early in the decision.",
+      "navyTitle": "Ready to turn Switzerland into an executable plan?",
+      "navyText": "Share the essentials privately, or start with the Swiss Arrival guide if you are still comparing options.",
+      "privateAssessment": "Request a private assessment",
+      "guide": "Get the Swiss Arrival guide"
+    },
+    "home": {
+      "heroBadge": "Swiss relocation advisory",
+      "heroTitle": "Move to Switzerland with permits, tax, banking, schools, and settlement coordinated.",
+      "heroSubtitle": "Private Swiss-based advisory for entrepreneurs, wealth holders, families, and family offices relocating to Zurich, Zug, Schwyz, Geneva, Vaud, and beyond.",
+      "heroProof": [
+        {
+          "label": "Swiss-based coordination",
+          "value": "Zurich, Zug, Schwyz"
+        },
+        {
+          "label": "Private intake",
+          "value": "No sensitive documents"
+        },
+        {
+          "label": "Built for",
+          "value": "Founders, families, family offices"
+        },
+        {
+          "label": "Workstreams",
+          "value": "Permits, tax, banking, schools"
+        }
+      ],
+      "planTitle": "Swiss move plan",
+      "planPeriod": "First 30 days",
+      "planRows": [
+        [
+          "01",
+          "Residency route",
+          "B-permit, family inclusion, timing"
+        ],
+        [
+          "02",
+          "Canton decision",
+          "Tax, school, housing, commute"
+        ],
+        [
+          "03",
+          "Bank readiness",
+          "Source-of-wealth story and introductions"
+        ],
+        [
+          "04",
+          "Settlement",
+          "Housing, insurance, schools, daily setup"
+        ]
+      ],
+      "planFooter": "The goal is not more advice. It is a sequence that prevents permits, banking, schools, and housing from blocking each other.",
+      "trustStrip": [
+        "Private assessment",
+        "Swiss canton comparison",
+        "Bank-ready documentation",
+        "Family settlement"
+      ],
+      "processTitle": "From first conversation to a Swiss plan you can execute",
+      "processText": "High-value relocations fail when workstreams move separately. The first step is a clear operating model before anyone requests documents.",
+      "processSteps": [
+        {
+          "title": "Private assessment",
+          "text": "We map the family, business, citizenship, timeline, and sensitive constraints before any documents are requested."
+        },
+        {
+          "title": "Swiss route plan",
+          "text": "You get a practical canton and workstream sequence covering permits, tax, banking, housing, schools, and settlement."
+        },
+        {
+          "title": "Coordinated execution",
+          "text": "One accountable point keeps lawyers, banks, schools, real estate, and existing advisors moving in the right order."
+        }
+      ],
+      "signalsBadge": "What gets coordinated",
+      "signalsTitle": "Specific Swiss execution, not generic relocation talk",
+      "signalsText": "The value proposition is operational: fewer gaps between tax, permits, banking, housing, schools, and the first normal day in Switzerland.",
+      "signals": [
+        "Canton comparison before commitment",
+        "Permit timeline matched with school intake",
+        "Banking documentation prepared before introductions",
+        "Housing search aligned with tax and commute realities",
+        "Existing advisors kept in the loop instead of replaced",
+        "No passports, bank statements, or sensitive files through public forms"
+      ],
+      "pathsTitle": "Popular relocation paths",
+      "pathsText": "High-intent visitors should not have to translate generic service pages into their own situation.",
+      "discussRoute": "Discuss my route"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Starting point",
+          "value": "Dubai, post-exit founder"
+        },
+        {
+          "label": "Swiss base",
+          "value": "Zug family residence"
+        },
+        {
+          "label": "Core risk",
+          "value": "Crypto wealth documentation"
+        },
+        {
+          "label": "Result",
+          "value": "Permit, school, banking, office active"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Starting point",
+          "value": "Beirut, emergency relocation"
+        },
+        {
+          "label": "Swiss base",
+          "value": "Schwyz privacy-first settlement"
+        },
+        {
+          "label": "Core risk",
+          "value": "Three-generation estate complexity"
+        },
+        {
+          "label": "Result",
+          "value": "Family settled with Swiss governance"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Starting point",
+          "value": "Riyadh, crypto investor"
+        },
+        {
+          "label": "Swiss base",
+          "value": "Zurich apartment and GmbH"
+        },
+        {
+          "label": "Core risk",
+          "value": "Non-traditional wealth profile"
+        },
+        {
+          "label": "Result",
+          "value": "Permit and dual banking setup"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Starting point",
+          "value": "Kuwait, multi-jurisdiction office"
+        },
+        {
+          "label": "Swiss base",
+          "value": "Zug single family office"
+        },
+        {
+          "label": "Core risk",
+          "value": "Governance across generations"
+        },
+        {
+          "label": "Result",
+          "value": "Swiss board and reporting live"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Canton fit quiz",
+      "title": "Find the Swiss route worth discussing first",
+      "description": "A four-question filter for serious movers. It will not replace advice, but it gives the first consultation a sharper starting point.",
+      "likelyRoute": "Likely first route",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "sendPlan": "Send plan",
+      "sending": "Sending",
+      "success": "Your quiz result was sent. We will use it as context for the first reply.",
+      "error": "The result could not be sent right now.",
+      "fullIntake": "Complete the full confidential intake",
+      "guide": "Get the Swiss Arrival guide",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Who is moving?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Founder"
+            },
+            {
+              "value": "family",
+              "label": "Family"
+            },
+            {
+              "value": "family-office",
+              "label": "Family office"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Private wealth"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "What matters most?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Tax planning"
+            },
+            {
+              "value": "schools",
+              "label": "Schools"
+            },
+            {
+              "value": "privacy",
+              "label": "Privacy"
+            },
+            {
+              "value": "business",
+              "label": "Business setup"
+            },
+            {
+              "value": "urban",
+              "label": "City access"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Current base",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Denmark"
+            },
+            {
+              "value": "uae",
+              "label": "UAE"
+            },
+            {
+              "value": "uk",
+              "label": "UK"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "EU"
+            },
+            {
+              "value": "other",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Expected timing",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Urgent"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Under 3 months"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 months"
+            },
+            {
+              "value": "early-planning",
+              "label": "Early planning"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Denmark",
+        "uae": "United Arab Emirates",
+        "uk": "United Kingdom",
+        "gcc": "GCC",
+        "eu": "European Union",
+        "other": "Other or not specified"
+      },
+      "results": {
+        "zug": {
+          "title": "Zug first, with Zurich as the practical backup",
+          "summary": "Your answers point toward Zug for tax, company formation, banking access, and founder infrastructure. Zurich should stay in the comparison if schools, hiring, or daily city access matter."
+        },
+        "zurich": {
+          "title": "Zurich first, with Zug and Schwyz benchmarked",
+          "summary": "Your answers point toward Zurich for schools, airport access, international community, banking density, and daily life. Zug or Schwyz may still win if tax privacy outranks city access."
+        },
+        "schwyz": {
+          "title": "Schwyz first, with Zug as the operational comparison",
+          "summary": "Your answers point toward Schwyz for privacy, lower-tax living, and a quieter family base. The tradeoff is less institutional density than Zurich or Zug, so sequencing matters."
+        },
+        "vaudGeneva": {
+          "title": "Vaud or Geneva first, with forfait feasibility checked early",
+          "summary": "Your answers point toward a French-speaking canton where lump-sum taxation, schools, and international family infrastructure can be assessed together before committing."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Home",
+      "takeQuiz": "Take the canton fit quiz",
+      "startingPoint": "Starting point",
+      "likelyCantons": "Likely cantons",
+      "questionsTitle": "The questions to answer before committing",
+      "questionsText": "Serious relocation planning starts before forms, leases, school visits, or bank introductions. These are the decisions that usually drive the route.",
+      "workstreamSequence": "Workstream sequence",
+      "coordinateTitle": "What we coordinate for this route",
+      "workstream": "Workstream",
+      "whyClientsUseUs": "Why clients use us",
+      "valueTitle": "The value is coordination, not another isolated opinion",
+      "compareRoute": "Compare another route",
+      "askSituation": "Ask about my situation"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Danish founders and families",
+        "title": "Move to Switzerland from Denmark",
+        "description": "A practical path for Danish entrepreneurs, investors, and families comparing Swiss residency, tax, banking, schools, and settlement.",
+        "metaDescription": "Relocation advisory for Danish entrepreneurs and families moving to Switzerland. Compare cantons, permits, tax, banking, schools, and settlement.",
+        "startingPoint": "Denmark",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich"
+        ],
+        "urgentQuestions": [
+          "When should Danish tax exit planning begin?",
+          "Which Swiss canton fits family life and business ownership?",
+          "How should banking, schools, housing, and permits be sequenced?"
+        ],
+        "workstreams": [
+          "Danish exit and Swiss entry timeline",
+          "Canton comparison for tax, schools, and airport access",
+          "B-permit application and family inclusion",
+          "Private banking and source-of-wealth preparation"
+        ],
+        "proofPoints": [
+          "Built for cross-border founders who need one accountable coordinator",
+          "Covers practical settlement, not only tax theory",
+          "Designed for families that need school timing handled early"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "UAE residents and post-exit founders",
+        "title": "Move to Switzerland from the UAE",
+        "description": "A coordinated relocation route for UAE-based founders, investors, and families moving wealth, residency, schools, and governance to Switzerland.",
+        "metaDescription": "Swiss relocation advisory for UAE residents, founders, and families. Coordinate permits, banking, wealth documentation, schools, and canton selection.",
+        "startingPoint": "UAE",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Geneva"
+        ],
+        "urgentQuestions": [
+          "How should source-of-wealth documentation be prepared for Swiss banks?",
+          "Can a UAE company structure be reorganized before Swiss residency?",
+          "Which canton makes sense for family, banking, and business access?"
+        ],
+        "workstreams": [
+          "Pre-immigration asset and company review",
+          "Swiss banking readiness and documentation narrative",
+          "Residence permit and family relocation sequence",
+          "International school shortlisting and visits"
+        ],
+        "proofPoints": [
+          "Strong fit for crypto, private equity, and operating-company wealth",
+          "Parallel handling of permits, banking, housing, and schools",
+          "Useful for families moving quickly after a liquidity event"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "UK non-doms, founders, and family offices",
+        "title": "Move to Switzerland from the UK",
+        "description": "A Swiss relocation path for UK residents reviewing tax residency, family settlement, wealth governance, banking, and long-term security.",
+        "metaDescription": "Swiss relocation advisory for UK residents, founders, non-doms, and family offices moving to Switzerland. Plan residency, tax, banking, and schools.",
+        "startingPoint": "United Kingdom",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "When does UK tax residency end and Swiss tax residency begin?",
+          "Is lump-sum taxation viable for the family profile?",
+          "Which school and canton combination protects the family timeline?"
+        ],
+        "workstreams": [
+          "UK departure and Swiss arrival timeline",
+          "Forfait fiscal feasibility review",
+          "School, housing, and canton comparison",
+          "Banking, governance, and advisor coordination"
+        ],
+        "proofPoints": [
+          "Built for families who need a clean move, not fragmented advice",
+          "Connects Swiss lifestyle decisions with tax and banking realities",
+          "Keeps existing UK advisors coordinated with Swiss execution"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Saudi founders, investors, and families",
+        "title": "Move to Switzerland from Saudi Arabia",
+        "description": "A Swiss relocation route for Saudi entrepreneurs and families coordinating residency, banking readiness, schools, housing, and canton selection.",
+        "metaDescription": "Swiss relocation advisory for Saudi founders, investors, and families. Plan permits, banking, schools, tax, housing, and canton selection.",
+        "startingPoint": "Saudi Arabia",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Which Swiss canton fits the family's school, privacy, and banking priorities?",
+          "How should Saudi source-of-wealth documentation be prepared before bank introductions?",
+          "Can permits, housing, schools, and advisor coordination move in parallel?"
+        ],
+        "workstreams": [
+          "Saudi departure and Swiss arrival timeline",
+          "Banking readiness and wealth-documentation narrative",
+          "School, housing, and canton comparison",
+          "Permit application, insurance, and settlement sequence"
+        ],
+        "proofPoints": [
+          "Designed for families moving significant assets and daily life together",
+          "Keeps banking, permits, schools, and housing in one coordinated sequence",
+          "Useful before sensitive documents are shared with banks or advisors"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Qatar-based private clients",
+        "title": "Move to Switzerland from Qatar",
+        "description": "A discreet path for Qatar-based families, executives, and investors comparing Swiss residency, private banking, schooling, and settlement.",
+        "metaDescription": "Swiss relocation advisory for Qatar-based families and investors. Coordinate permits, private banking, schools, housing, and canton choice.",
+        "startingPoint": "Qatar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Which canton offers the right mix of discretion, schools, and bank access?",
+          "How should existing GCC advisors stay coordinated with Swiss execution?",
+          "What should be resolved before school visits or housing commitments?"
+        ],
+        "workstreams": [
+          "Residency route and family inclusion",
+          "Private banking readiness and advisor coordination",
+          "International school shortlist and visit schedule",
+          "Housing, insurance, healthcare, and daily settlement"
+        ],
+        "proofPoints": [
+          "Built for clients who value discretion before public commitments",
+          "Connects lifestyle decisions with banking and permit timing",
+          "Keeps existing family-office or legal advisors aligned"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Kuwaiti family offices and families",
+        "title": "Move to Switzerland from Kuwait",
+        "description": "A Swiss relocation and governance route for Kuwaiti families coordinating residency, banking, succession, schools, and a stable European base.",
+        "metaDescription": "Swiss relocation advisory for Kuwaiti families and family offices. Plan permits, private banking, governance, schools, and settlement.",
+        "startingPoint": "Kuwait",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Should the Swiss move be structured around family residence, governance, or both?",
+          "Which canton best fits privacy, tax, and family logistics?",
+          "How should banking, board, and reporting workstreams be sequenced?"
+        ],
+        "workstreams": [
+          "Family profile and governance scoping",
+          "Canton comparison for residence, privacy, and family-office needs",
+          "Private banking and source-of-wealth preparation",
+          "Schooling, housing, healthcare, and family settlement"
+        ],
+        "proofPoints": [
+          "Useful for multi-generational families that need governance and relocation connected",
+          "Designed for confidential Swiss setup before public commitments",
+          "Coordinates family, bank, board, and settlement dependencies"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Singapore-based founders and family offices",
+        "title": "Move to Switzerland from Singapore",
+        "description": "A route for Singapore-based entrepreneurs and family offices comparing Switzerland as a European residence, banking, governance, and lifestyle base.",
+        "metaDescription": "Swiss relocation advisory for Singapore-based founders and family offices. Compare residency, tax, banking, governance, schools, and cantons.",
+        "startingPoint": "Singapore",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "What changes when a Singapore base is complemented by Swiss residence?",
+          "Which workstreams must be sequenced before family relocation?",
+          "How should banking and governance be prepared for a Swiss-facing setup?"
+        ],
+        "workstreams": [
+          "Singapore exit or dual-base planning",
+          "Swiss residence and canton comparison",
+          "Banking, governance, and advisor coordination",
+          "Schools, housing, insurance, and daily settlement"
+        ],
+        "proofPoints": [
+          "Built for clients comparing two high-quality jurisdictions",
+          "Keeps Swiss lifestyle decisions connected to banking and governance",
+          "Useful before committing to a canton, lease, or school track"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Hong Kong entrepreneurs and families",
+        "title": "Move to Switzerland from Hong Kong",
+        "description": "A private Swiss relocation path for Hong Kong founders, wealth holders, and families seeking a stable European base with strong schools and banking.",
+        "metaDescription": "Swiss relocation advisory for Hong Kong founders and families. Plan residency, banking, schools, tax, housing, and canton selection.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Which Swiss canton fits an international family coming from Hong Kong?",
+          "How should banking documentation and source-of-wealth history be prepared?",
+          "What can be decided before school visits and housing searches?"
+        ],
+        "workstreams": [
+          "Hong Kong departure and Swiss arrival timeline",
+          "Canton comparison for schools, tax, banking, and daily life",
+          "Residence permits and family inclusion",
+          "Private banking readiness, housing, and settlement"
+        ],
+        "proofPoints": [
+          "Good fit for families prioritizing stability, schools, and discretion",
+          "Coordinates practical settlement with bank and permit dependencies",
+          "Useful before sensitive documents are circulated"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "US founders, executives, and families",
+        "title": "Move to Switzerland from the USA",
+        "description": "A Swiss relocation route for US-connected clients who need careful coordination around residency, advisors, banking, schools, and ongoing tax complexity.",
+        "metaDescription": "Swiss relocation advisory for US founders and families. Coordinate residency, banking, advisors, schools, tax complexity, and settlement.",
+        "startingPoint": "United States",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "How should US tax and reporting advisors stay connected to the Swiss plan?",
+          "Which canton fits the family's school, banking, and travel needs?",
+          "What should be clarified before residency and housing commitments?"
+        ],
+        "workstreams": [
+          "US advisor and Swiss advisor coordination",
+          "Residence route and family inclusion",
+          "Canton comparison for schools, travel, and banking",
+          "Banking readiness, housing, healthcare, and settlement"
+        ],
+        "proofPoints": [
+          "Built for cases where US reporting complexity must stay visible",
+          "Keeps Swiss decisions connected to existing US advisors",
+          "Useful before banking, housing, or school commitments are made"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "German entrepreneurs and families",
+        "title": "Move to Switzerland from Germany",
+        "description": "A practical Swiss relocation route for German founders and families comparing residence, canton choice, business setup, schools, and cross-border timing.",
+        "metaDescription": "Swiss relocation advisory for German entrepreneurs and families. Plan residency, canton choice, tax timing, business setup, schools, and settlement.",
+        "startingPoint": "Germany",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "When should German departure planning and Swiss residence planning be sequenced?",
+          "Which canton fits business ownership, family life, and commute patterns?",
+          "How should permits, housing, schools, and advisors be coordinated?"
+        ],
+        "workstreams": [
+          "German departure and Swiss arrival timeline",
+          "Canton comparison for tax, schools, and business operations",
+          "Permit application and family inclusion",
+          "Housing, insurance, banking, and settlement setup"
+        ],
+        "proofPoints": [
+          "Best for founders and families who need timing handled precisely",
+          "Connects canton choice with practical school and housing realities",
+          "Keeps German and Swiss advisors coordinated"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Norwegian founders and wealth holders",
+        "title": "Move to Switzerland from Norway",
+        "description": "A Swiss relocation route for Norwegian entrepreneurs, investors, and families evaluating tax residency, permits, canton choice, schools, and banking.",
+        "metaDescription": "Swiss relocation advisory for Norwegian founders and families. Coordinate tax residency, permits, banking, schools, canton choice, and settlement.",
+        "startingPoint": "Norway",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "When should Norwegian exit planning be aligned with Swiss residence timing?",
+          "Which canton fits privacy, family life, and tax priorities?",
+          "What should be coordinated before bank introductions or school decisions?"
+        ],
+        "workstreams": [
+          "Norwegian departure and Swiss arrival timeline",
+          "Canton comparison for family, tax, and banking priorities",
+          "Residence permits and family inclusion",
+          "Banking readiness, housing, schools, and settlement"
+        ],
+        "proofPoints": [
+          "Built for wealth holders who need tax timing and family logistics connected",
+          "Useful before committing to a canton or school track",
+          "Coordinates existing advisors with Swiss execution"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Founders moving business substance",
+        "title": "Move a Company to Switzerland",
+        "description": "A founder-led route for moving company substance, board setup, banking, permits, and family relocation into one coordinated Swiss plan.",
+        "metaDescription": "Move a company to Switzerland with coordinated advisory for company formation, substance, banking, residence permits, tax, and family relocation.",
+        "startingPoint": "International",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Should the Swiss company be formed before or after the residence route is clear?",
+          "What substance will the canton, bank, and counterparties expect?",
+          "How do founder permits, family relocation, and corporate banking affect each other?"
+        ],
+        "workstreams": [
+          "Founder profile, company substance, and canton fit review",
+          "Company formation, governance, and board setup",
+          "Corporate banking readiness and documentation",
+          "Founder permit, family relocation, housing, and settlement"
+        ],
+        "proofPoints": [
+          "Built for founders who need company and family workstreams aligned",
+          "Connects substance, permits, banking, and settlement in the right order",
+          "Reduces delays from isolated legal, banking, and relocation advice"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Entrepreneurs and active business owners",
+        "title": "Swiss Residence Permit for Entrepreneurs",
+        "description": "A founder-focused route through Swiss residency, company substance, banking, source-of-wealth documentation, and family settlement.",
+        "metaDescription": "Swiss residence permit advisory for entrepreneurs. Plan canton selection, company formation, banking, permits, and family relocation.",
+        "startingPoint": "International",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Should the Swiss company be formed before or after permit submission?",
+          "What economic substance does the canton expect?",
+          "How should business wealth be documented for banks and authorities?"
+        ],
+        "workstreams": [
+          "Founder profile and canton fit assessment",
+          "Company formation and governance setup",
+          "Permit application and family inclusion",
+          "Banking readiness, leases, insurance, and settlement"
+        ],
+        "proofPoints": [
+          "Best for founders who need business and family workstreams aligned",
+          "Connects permits with company substance and banking credibility",
+          "Reduces delays from incomplete documentation sequencing"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "High-net-worth individuals",
+        "title": "Lump-Sum Taxation in Switzerland",
+        "description": "A discreet planning route for eligible foreign nationals assessing forfait fiscal, canton choice, living-cost base, and residency timing.",
+        "metaDescription": "Lump-sum taxation advisory in Switzerland. Assess forfait fiscal eligibility, canton choice, taxable base, permits, and relocation timing.",
+        "startingPoint": "International",
+        "likelyCantons": [
+          "Vaud",
+          "Geneva",
+          "Valais",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Is forfait fiscal realistic for the family profile?",
+          "Which cantons are worth approaching first?",
+          "What lifestyle and housing assumptions drive the taxable base?"
+        ],
+        "workstreams": [
+          "Eligibility and canton shortlist",
+          "Tax ruling preparation and authority dialogue",
+          "Residence permit and housing coordination",
+          "Banking, insurance, and annual compliance handover"
+        ],
+        "proofPoints": [
+          "Combines tax ruling work with the real relocation plan",
+          "Keeps canton negotiation connected to lifestyle reality",
+          "Useful before public commitments or sensitive documentation"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Founders, family offices, and crypto investors",
+        "title": "Zug Relocation Advisor",
+        "description": "A focused relocation path for clients considering Zug for tax, crypto banking, company formation, international schools, and family life.",
+        "metaDescription": "Zug relocation advisor for entrepreneurs, family offices, and crypto investors. Coordinate permits, company setup, banking, schools, and housing.",
+        "startingPoint": "International",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Is Zug the right fit, or only the obvious one?",
+          "Can banking, school places, and housing be secured on the same timeline?",
+          "What corporate substance is needed for the planned structure?"
+        ],
+        "workstreams": [
+          "Zug fit assessment against Zurich, Schwyz, and Vaud",
+          "Permit and company formation sequencing",
+          "Crypto-friendly and traditional banking introductions",
+          "School, housing, insurance, and daily settlement setup"
+        ],
+        "proofPoints": [
+          "Designed for clients who need speed without losing discretion",
+          "Balances low-tax appeal with practical family logistics",
+          "Useful for crypto-native wealth and active operating companies"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Data Controller",
+        "text": "WorkWorkWork AG in Switzerland is responsible for the processing of personal data submitted through this website."
+      },
+      {
+        "title": "2. Data We Collect",
+        "text": "We collect only the information voluntarily shared through the intake form, such as contact details, current country, nationality, relocation goals, timeline, service interests, and message content."
+      },
+      {
+        "title": "3. Purpose of Processing",
+        "text": "The information is used to assess the inquiry, prepare a private response, and coordinate relevant advisory work. Sensitive documents should not be submitted through public forms."
+      },
+      {
+        "title": "4. Data Retention",
+        "text": "Personal data is retained only for as long as needed to respond to the inquiry, support an advisory relationship, or comply with applicable legal obligations."
+      },
+      {
+        "title": "5. Your Rights",
+        "text": "Under Swiss data protection law and the GDPR where applicable, you may request access, correction, deletion, or restriction of your personal data."
+      },
+      {
+        "title": "6. Contact",
+        "text": "Privacy requests and legal inquiries can be submitted through the contact form. They are routed privately and handled without exposing a public email address."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Registered in the Commercial Register of the Canton of Schwyz, Switzerland.",
+      "contactTitle": "Contact",
+      "contactText": "Please use the confidential contact form for inquiries. Public email addresses are intentionally not displayed on this website.",
+      "disclaimerTitle": "Disclaimer",
+      "disclaimerText": "The content of this website is provided for general information and orientation. It does not constitute tax, legal, investment, or financial advice. Any relocation decision should be reviewed with qualified professional advisors."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Switzerland",
+      "uae": "United Arab Emirates",
+      "saudiArabia": "Saudi Arabia",
+      "qatar": "Qatar",
+      "kuwait": "Kuwait",
+      "bahrain": "Bahrain"
+    }
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Practical Switzerland moving guide for expats",
+    "metaDescription": "A practical e-book for expats moving to Switzerland, covering permits, housing, insurance, taxes, schools and first-month admin.",
+    "language": "English",
+    "eyebrow": "Swiss Arrival",
+    "title": "The practical expat guide to moving to Switzerland",
+    "subtitle": "A clear e-book for people who want the real checklist: permits, housing, health insurance, schools, taxes, first-month admin and the small surprises that make Switzerland hard to decode from abroad.",
+    "primaryCta": "Join the launch list",
+    "secondaryCta": "See what is inside",
+    "briefingLabel": "Swiss move briefing",
+    "proof": [
+      "Written from 13+ years of Swiss relocation experience",
+      "Built for EU and international expats",
+      "Available in Danish, English, German and French"
+    ],
+    "problemKicker": "Reality first",
+    "problemTitle": "Built for the messy part before life feels settled",
+    "problemBody": "Moving to Switzerland is not difficult because one task is impossible. It is difficult because every decision depends on another one: canton, permit, address, insurance, school, tax and bank setup. Swiss Arrival turns that pile of admin into a calm sequence.",
+    "chaptersKicker": "Inside the guide",
+    "chaptersTitle": "What the e-book helps you handle",
+    "chapters": [
+      {
+        "title": "Before you move",
+        "body": "Choose a canton, understand permit routes, prepare documents and avoid the housing mistakes that create delays."
+      },
+      {
+        "title": "Your first 30 days",
+        "body": "Register locally, activate health insurance, open a bank account, arrange phone and internet, and get the right documents in order."
+      },
+      {
+        "title": "Money and paperwork",
+        "body": "Understand Swiss costs, salary expectations, deposits, tax basics, mandatory insurance and what needs attention first."
+      },
+      {
+        "title": "Family and daily life",
+        "body": "Schools, childcare, transport, language, shopping, healthcare access and the routines that make the country easier to live in."
+      }
+    ],
+    "timelineKicker": "Sequence",
+    "timelineTitle": "A simple moving sequence",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Plan the move",
+        "body": "Decide where you should land, what paperwork is needed and what can wait until after arrival."
+      },
+      {
+        "label": "02",
+        "title": "Secure the basics",
+        "body": "Handle housing, registration, insurance and banking in the right order so the process does not stall."
+      },
+      {
+        "label": "03",
+        "title": "Settle properly",
+        "body": "Move from survival mode to normal life with schools, transport, healthcare, tax and local routines under control."
+      }
+    ],
+    "bundleKicker": "Digital product",
+    "bundleTitle": "Launch package",
+    "bundleBody": "The first version is planned as a practical digital product, not a vague inspiration guide.",
+    "bundleItems": [
+      "The Swiss Arrival e-book",
+      "First-month admin checklist",
+      "Canton decision worksheet",
+      "Cost and deposit planner"
+    ],
+    "finalTitle": "Get notified when Swiss Arrival opens",
+    "finalBody": "The launch page is being prepared now. Join the list and we will send the e-book details when the first edition is ready.",
+    "finalCta": "Contact us"
+  },
+  "swissArrivalNav": {
+    "guide": "Guide",
+    "contact": "Contact",
+    "cta": "Launch list"
+  },
+  "swissArrivalFooter": {
+    "tagline": "A practical digital guide for expats preparing a move to Switzerland.",
+    "rights": "All rights reserved.",
+    "company": "A WorkWorkWork AG project"
   }
 }

@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       locale,
       publishedTime: meta?.date,
-      authors: ['Move to Switzerland Advisory Team'],
+      authors: [t('author')],
       images: meta ? [{ url: meta.image, width: 1200, height: 675 }] : undefined,
     },
   };

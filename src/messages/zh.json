@@ -14,7 +14,9 @@
     "privacy": "隐私政策",
     "imprint": "法律声明",
     "beginJourney": "开启您的旅程",
-    "insights": "深度洞察"
+    "insights": "深度洞察",
+    "menu": "切换菜单",
+    "closeMenu": "关闭菜单"
   },
   "hero": {
     "headline": "您的瑞士移居之路",
@@ -93,7 +95,7 @@
     "education": {
       "title": "教育体系",
       "subtitle": "为下一代提供世界顶尖的学习环境",
-      "stat1": "Top 3",
+      "stat1": "前三名",
       "stat1Label": "全球大学排名（苏黎世联邦理工学院）",
       "stat2": "50+",
       "stat2Label": "国际学校数量",
@@ -131,7 +133,7 @@
       "subtitle": "安全、基础设施与自然美景的完美融合",
       "stat1": "#1",
       "stat1Label": "全球生活品质排名",
-      "stat2": "Top 3",
+      "stat2": "前三名",
       "stat2Label": "全球最安全国家",
       "stat3": "99.9%",
       "stat3Label": "公共交通准点率",
@@ -305,6 +307,13 @@
           "bestFor": "希望拥有宜居基地、医疗、学校、机场通达性和仍具竞争力税负的家庭。"
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "企业税",
+      "personalIncome": "个人所得税",
+      "lumpSum": "包税制",
+      "priceRange": "价格范围",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,6 +445,16 @@
         ],
         "outcome": "位于楚格的瑞士 SFO 全面投入运行。3 名独立董事到任。治理框架获各家族分支批准。跨管辖区整合汇报完成。目前提供季度治理及年度审查的长期顾问服务。"
       }
+    },
+    "labels": {
+      "case": "案例",
+      "timeline": "时间线",
+      "month": "月",
+      "week": "周",
+      "ongoing": "持续",
+      "keyChallenges": "主要挑战",
+      "servicesEngaged": "使用的服务",
+      "outcome": "结果"
     }
   },
   "services": {
@@ -504,7 +523,7 @@
         "tags": [
           "退出前规划",
           "资产结构规划",
-          "Forfait Fiscal"
+          "包税制"
         ]
       },
       "family": {
@@ -636,7 +655,8 @@
     "languages": "语言",
     "rights": "保留所有权利。",
     "company": "WorkWorkWork AG 旗下服务",
-    "disclaimer": "本服务仅限于一般财务教育和战略指导，不构成《金融服务法》(FIDLEG) 含义下的金融服务。特别是，我们不提供针对特定金融工具的建议、不提供投资组合管理，亦不提供订单的执行或传递。"
+    "disclaimer": "本服务仅限于一般财务教育和战略指导，不构成《金融服务法》(FIDLEG) 含义下的金融服务。特别是，我们不提供针对特定金融工具的建议、不提供投资组合管理，亦不提供订单的执行或传递。",
+    "trustSwissEntity": "瑞士注册实体"
   },
   "servicesMeta": {
     "title": "服务项目 — 移居瑞士",
@@ -1122,5 +1142,1134 @@
     "message": "我们使用 Cookie 以提升您的浏览体验。核心 Cookie 是网站运行所必需的，而分析类 Cookie 则帮助我们改进服务。",
     "acceptAll": "全部接受",
     "essentialOnly": "仅必要"
+  },
+  "contactCopy": {
+    "pageTitle": "机密搬迁接收",
+    "pageSubtitle": "私下分享要点，以便我们可以在第一次对话之前评估正确的瑞士道路。",
+    "confidential": "所有询问均严格保密。",
+    "noSensitive": "请勿通过此表格发送护照、银行对账单或敏感文件。",
+    "serviceError": "请至少选择一个服务区域。",
+    "sections": {
+      "situationTitle": "1. 你的情况",
+      "situationText": "基础知识帮助我们正确地进行查询，而无需索要敏感文件。",
+      "coordinationTitle": "2. 需要协调什么",
+      "coordinationText": "选择可能相关的每个区域。现阶段不需要准确的答案。",
+      "responseTitle": "3. 如何回应",
+      "responseText": "我们将仅使用此信息来评估和回复您的询问。"
+    },
+    "labels": {
+      "enquiryType": "我询问的是",
+      "primaryGoal": "主要目标",
+      "country": "现居住国家",
+      "nationality": "国籍或公民身份",
+      "timeline": "时间轴",
+      "servicesNeeded": "需要服务",
+      "targetCanton": "目标州或城市",
+      "familySize": "家庭成员搬迁",
+      "existingAdvisors": "现有瑞士顾问",
+      "name": "全名",
+      "email": "电子邮件地址",
+      "phone": "电话号码（可选）",
+      "hearAbout": "您是如何得知我们的？ （可选）",
+      "preferredContact": "首选回复",
+      "message": "您的留言"
+    },
+    "placeholders": {
+      "targetCanton": "楚格、苏黎世、施维茨，尚未决定……",
+      "familySize": "只有我，夫妻，一家四口......",
+      "message": "在第一次保密谈话之前我们应该了解什么？"
+    },
+    "submit": "提交机密信息",
+    "privacyConsent": "我同意 Move to Switzerland 处理此信息以回复我的询问。我了解我不应该通过此表格提交敏感文件。",
+    "aside": {
+      "title": "私人评论",
+      "paragraphs": [
+        "此受理专为搬迁、居住、税务、家族办公室和定居查询而设计，这些方面的自由裁量权很重要。",
+        "简洁的第一次提交就足够了。如果事情合适，下一步是在索取任何文件之前进行私人协商。"
+      ],
+      "items": [
+        "机密审查",
+        "没有暴露公共收件人地址",
+        "不要求提供敏感文件",
+        "通过专用服务器端工作流程路由的响应"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "私人"
+        },
+        {
+          "value": "family-office",
+          "label": "家族办公室"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "企业家"
+        },
+        {
+          "value": "advisor",
+          "label": "客户顾问"
+        },
+        {
+          "value": "other",
+          "label": "其他"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "重新安置我自己或我的家人"
+        },
+        {
+          "value": "tax-residency",
+          "label": "瑞士税务和居住规划"
+        },
+        {
+          "value": "company-family-office",
+          "label": "公司或家族办公室设置"
+        },
+        {
+          "value": "settlement",
+          "label": "房地产、学校和定居点"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "银行与财富协调"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Swiss Arrival 指南"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "紧急"
+        },
+        {
+          "value": "under-3-months",
+          "label": "3个月以下"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6个月"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 个月"
+        },
+        {
+          "value": "early-planning",
+          "label": "早期规划"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "居留许可"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "一次性征税"
+        },
+        {
+          "value": "company-formation",
+          "label": "公司成立"
+        },
+        {
+          "value": "family-office",
+          "label": "家族办公室"
+        },
+        {
+          "value": "real-estate",
+          "label": "房地产"
+        },
+        {
+          "value": "schooling",
+          "label": "学校"
+        },
+        {
+          "value": "private-banking",
+          "label": "私人银行"
+        },
+        {
+          "value": "health-concierge",
+          "label": "健康礼宾"
+        },
+        {
+          "value": "full-coordination",
+          "label": "全面搬迁协调"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "邮箱"
+        },
+        {
+          "value": "phone",
+          "label": "电话"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "是的"
+        },
+        {
+          "value": "no",
+          "label": "没有"
+        },
+        {
+          "value": "not-sure",
+          "label": "不确定"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "瑞士移居保密咨询表 - Move to Switzerland",
+      "description": "提交关于瑞士居留、税务、家族办公室、学校、银行和安置规划的私人咨询。"
+    },
+    "progressTitle": "表单进度",
+    "optionalContextTitle": "补充规划信息",
+    "optionalContextText": "提供大致范围即可。请不要提交护照、账户流水或敏感文件。",
+    "showOptional": "添加可选规划信息",
+    "hideOptional": "隐藏可选信息",
+    "labels": {
+      "relocationYear": "预计移居年份",
+      "preferredCantons": "偏好州",
+      "advisoryScope": "咨询范围",
+      "schoolAgeRange": "需要学校安排的子女",
+      "urgencyReason": "时间安排的主要原因"
+    },
+    "placeholders": {
+      "relocationYear": "2026、2027、时间灵活...",
+      "schoolAgeRange": "6 岁和 11 岁、寄宿选项、无子女...",
+      "urgencyReason": "学年、税务年度、许可时间、房产搜索..."
+    },
+    "validation": {
+      "required": "请填写此必填字段。",
+      "email": "请输入有效的电子邮件地址。",
+      "servicesNeeded": "请至少选择一个服务领域。",
+      "preferredContact": "请选择我们应如何回复您。",
+      "phoneRequired": "请添加电话号码，或选择电子邮件作为回复方式。",
+      "consent": "请确认隐私同意。",
+      "submitError": "目前无法发送咨询。请稍后再试。"
+    },
+    "status": {
+      "sending": "正在发送...",
+      "successTitle": "已收到咨询",
+      "successText": "谢谢。我们会私下审核并通过您选择的方式回复。"
+    },
+    "process": {
+      "title": "接下来会发生什么",
+      "intro": "简短的首次提交已经足够。如果事项适合，下一步是在要求文件前进行私密咨询。",
+      "steps": [
+        "私密审核移居资料",
+        "初步评估州、居留、税务、家庭和业务需求的匹配度",
+        "通过所选回复渠道进行保密回复"
+      ]
+    },
+    "trust": {
+      "title": "保密标准",
+      "items": [
+        "瑞士注册实体",
+        "私密服务器端路由",
+        "不公开收件人地址",
+        "不通过表单索取敏感文件",
+        "不转接到 WhatsApp"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal",
+          "label": "仅个人"
+        },
+        {
+          "value": "family",
+          "label": "家庭"
+        },
+        {
+          "value": "company",
+          "label": "公司"
+        },
+        {
+          "value": "family-office",
+          "label": "家族办公室"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "未决定"
+        },
+        {
+          "value": "zurich",
+          "label": "苏黎世"
+        },
+        {
+          "value": "zug",
+          "label": "楚格"
+        },
+        {
+          "value": "schwyz",
+          "label": "施维茨"
+        },
+        {
+          "value": "nidwalden",
+          "label": "下瓦尔登"
+        },
+        {
+          "value": "obwalden",
+          "label": "上瓦尔登"
+        },
+        {
+          "value": "lucerne",
+          "label": "卢塞恩"
+        },
+        {
+          "value": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "我同意 Move to Switzerland 处理这些信息以回复我的咨询，并接受",
+      "linkText": "隐私政策",
+      "afterLink": "。我理解不应通过此表单提交敏感文件。"
+    },
+    "honeypotLabel": "公司网站"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "准备好了解正确的瑞士路线了吗？",
+      "creamText": "从私人评估开始，或者如果您仍处于决策初期，请使用指导路径。",
+      "navyTitle": "准备好将瑞士变成一个可执行的计划了吗？",
+      "navyText": "私下分享要点，或者如果您仍在比较选项，请从 Swiss Arrival 指南开始。",
+      "privateAssessment": "请求私人评估",
+      "guide": "获取 Swiss Arrival 指南"
+    },
+    "home": {
+      "heroBadge": "瑞士搬迁咨询",
+      "heroTitle": "搬到瑞士，并协调好许可证、税务、银行、学校和定居。",
+      "heroSubtitle": "为搬迁到苏黎世、楚格、施维茨、日内瓦、沃州等地的企业家、财富持有者、家族和家族办公室提供瑞士私人咨询服务。",
+      "heroProof": [
+        {
+          "label": "瑞士协调",
+          "value": "苏黎世、楚格、施维茨"
+        },
+        {
+          "label": "私人咨询入口",
+          "value": "没有敏感文件"
+        },
+        {
+          "label": "专为",
+          "value": "创始人、家族、家族办公室"
+        },
+        {
+          "label": "工作流程",
+          "value": "许可证、税务、银行、学校"
+        }
+      ],
+      "planTitle": "瑞士迁居计划",
+      "planPeriod": "前 30 天",
+      "planRows": [
+        [
+          "01",
+          "驻地路线",
+          "B 许可证、家庭包容、时间安排"
+        ],
+        [
+          "02",
+          "州选择",
+          "税收、学校、住房、通勤"
+        ],
+        [
+          "03",
+          "银行准备情况",
+          "财富来源故事及介绍"
+        ],
+        [
+          "04",
+          "定居",
+          "住房、保险、学校、日常安排"
+        ]
+      ],
+      "planFooter": "目标不是更多建议。这是一个防止许可证、银行、学校和住房相互阻碍的序列。",
+      "trustStrip": [
+        "私人评估",
+        "瑞士各州比较",
+        "银行就绪文档",
+        "家庭安置"
+      ],
+      "processTitle": "从第一次谈话到您可以执行的瑞士计划",
+      "processText": "当工作流单独移动时，高价值的重新定位会失败。第一步是在任何人请求文件之前建立清晰的操作模型。",
+      "processSteps": [
+        {
+          "title": "私人评估",
+          "text": "在索取任何文件之前，我们会先了解家庭、企业、公民身份、时间表和敏感限制。"
+        },
+        {
+          "title": "瑞士航线图",
+          "text": "您将获得实用的州和工作流程序列，涵盖许可证、税务、银行、住房、学校和定居点。"
+        },
+        {
+          "title": "协调执行",
+          "text": "一个责任点可以让律师、银行、学校、房地产和现有顾问按照正确的顺序运作。"
+        }
+      ],
+      "signalsBadge": "协调什么",
+      "signalsTitle": "具体的瑞士执行，而不是一般的搬迁谈话",
+      "signalsText": "价值主张具有可操作性：税收、许可证、银行、住房、学校和瑞士第一天正常生活之间的差距越来越小。",
+      "signals": [
+        "承诺前比较各州",
+        "许可时间表与入学时间相匹配",
+        "介绍前准备的银行文件",
+        "住房搜索符合税收和通勤现实",
+        "现有顾问保持在循环中而不是被替换",
+        "不得通过公共表格提供护照、银行对账单或敏感文件"
+      ],
+      "pathsTitle": "热门搬迁路径",
+      "pathsText": "高意图的访问者不应该将通用服务页面翻译成他们自己的情况。",
+      "discussRoute": "讨论我的路线"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "起点",
+          "value": "迪拜，退出后创始人"
+        },
+        {
+          "label": "瑞士基地",
+          "value": "楚格家族住宅"
+        },
+        {
+          "label": "核心风险",
+          "value": "加密财富文档"
+        },
+        {
+          "label": "结果",
+          "value": "许可证、学校、银行、办公室活跃"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "起点",
+          "value": "贝鲁特，紧急搬迁"
+        },
+        {
+          "label": "瑞士基地",
+          "value": "施维茨州隐私优先定居点"
+        },
+        {
+          "label": "核心风险",
+          "value": "三代遗产复杂性"
+        },
+        {
+          "label": "结果",
+          "value": "家族与瑞士政府达成和解"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "起点",
+          "value": "利雅得，加密货币投资者"
+        },
+        {
+          "label": "瑞士基地",
+          "value": "苏黎世公寓和有限公司"
+        },
+        {
+          "label": "核心风险",
+          "value": "非传统财富概况"
+        },
+        {
+          "label": "结果",
+          "value": "许可和双重银行设置"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "起点",
+          "value": "科威特，多管辖区办事处"
+        },
+        {
+          "label": "瑞士基地",
+          "value": "楚格单一家族办公室"
+        },
+        {
+          "label": "核心风险",
+          "value": "代际治理"
+        },
+        {
+          "label": "结果",
+          "value": "瑞士董事会和现场报道"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "广东健身测验",
+      "title": "先找到值得讨论的瑞士航线",
+      "description": "针对严肃行动者的四个问题过滤器。它不会取代建议，但它为第一次咨询提供了一个更清晰的起点。",
+      "likelyRoute": "可能是第一条路线",
+      "namePlaceholder": "姓名",
+      "emailPlaceholder": "邮箱",
+      "sendPlan": "发送计划",
+      "sending": "正在发送",
+      "success": "您的测验结果已发送。我们将使用它作为第一个回复的上下文。",
+      "error": "现在无法发送结果。",
+      "fullIntake": "完成完整的保密信息",
+      "guide": "获取 Swiss Arrival 指南",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "谁在搬家？",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "创始人"
+            },
+            {
+              "value": "family",
+              "label": "家人"
+            },
+            {
+              "value": "family-office",
+              "label": "家族办公室"
+            },
+            {
+              "value": "private-wealth",
+              "label": "私人财富"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "什么最重要？",
+          "options": [
+            {
+              "value": "tax",
+              "label": "税务筹划"
+            },
+            {
+              "value": "schools",
+              "label": "学校"
+            },
+            {
+              "value": "privacy",
+              "label": "隐私"
+            },
+            {
+              "value": "business",
+              "label": "业务设置"
+            },
+            {
+              "value": "urban",
+              "label": "城市访问"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "当前基地",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "丹麦"
+            },
+            {
+              "value": "uae",
+              "label": "阿联酋"
+            },
+            {
+              "value": "uk",
+              "label": "英国"
+            },
+            {
+              "value": "gcc",
+              "label": "海湾合作委员会"
+            },
+            {
+              "value": "eu",
+              "label": "欧盟"
+            },
+            {
+              "value": "other",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "预计时间",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "紧急"
+            },
+            {
+              "value": "under-3-months",
+              "label": "3个月以下"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6个月"
+            },
+            {
+              "value": "early-planning",
+              "label": "早期规划"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "丹麦",
+        "uae": "阿拉伯联合酋长国",
+        "uk": "英国",
+        "gcc": "海湾合作委员会",
+        "eu": "欧盟",
+        "other": "其他或未指定"
+      },
+      "results": {
+        "zug": {
+          "title": "楚格第一，苏黎世作为实际备份",
+          "summary": "您的答案在税收、公司组建、银行准入和创始人基础设施方面都指向楚格。如果学校、招聘或日常城市交通很重要，苏黎世应该留在比较中。"
+        },
+        "zurich": {
+          "title": "苏黎世优先，楚格和施维茨作为基准",
+          "summary": "您的答案指向苏黎世的学校、机场交通、国际社区、银行密度和日常生活。如果税收隐私比城市准入更重要，楚格或施维茨仍可能获胜。"
+        },
+        "schwyz": {
+          "title": "施维茨州第一，楚格州作为运营比较",
+          "summary": "您的答案指向施维茨州的隐私、较低的税收生活和更安静的家庭基础。代价是机构密度低于苏黎世或楚格，因此排序很重要。\n首先"
+        },
+        "vaudGeneva": {
+          "title": "沃州或日内瓦，并尽早检查放弃的可行性",
+          "summary": "您的答案指向法语州，在承诺之前可以一起评估一次性税收、学校和国际家庭基础设施。"
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "首页",
+      "takeQuiz": "参加州匹配测验",
+      "startingPoint": "起点",
+      "likelyCantons": "可能的州",
+      "questionsTitle": "提交之前要回答的问题",
+      "questionsText": "在表格、租约、学校参观或银行介绍之前就开始认真的搬迁计划。这些是通常驱动路线的决定。",
+      "workstreamSequence": "工作流程顺序",
+      "coordinateTitle": "我们为此路线协调的内容",
+      "workstream": "工作流程",
+      "whyClientsUseUs": "客户为何选择我们",
+      "valueTitle": "价值在于协调，而不是另一种孤立的观点",
+      "compareRoute": "比较另一条路线",
+      "askSituation": "询问我的情况"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "丹麦创始人和家族",
+        "title": "从丹麦搬到瑞士",
+        "description": "丹麦企业家、投资者和家庭比较瑞士居住权、税务、银行、学校和定居的实用途径。",
+        "metaDescription": "为移居瑞士的丹麦企业家和家庭提供搬迁咨询。比较各州、许可证、税务、银行、学校和定居点。",
+        "startingPoint": "丹麦",
+        "likelyCantons": [
+          "楚格",
+          "施维茨",
+          "苏黎世"
+        ],
+        "urgentQuestions": [
+          "丹麦退税计划应何时开始？",
+          "瑞士哪个州适合家庭生活和企业所有权？",
+          "银行、学校、住房和许可证应如何排序？"
+        ],
+        "workstreams": [
+          "丹麦退出和瑞士入境时间表",
+          "各州税务、学校和机场交通比较",
+          "B许可证申请和家庭融入",
+          "私人银行和财富来源准备"
+        ],
+        "proofPoints": [
+          "专为需要一名负责协调员的跨境创始人而打造",
+          "涵盖实际定居，而不仅仅是税务理论",
+          "专为需要尽早处理上学时间的家庭而设计"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "阿联酋居民和退出后创始人",
+        "title": "从阿联酋搬到瑞士",
+        "description": "为阿联酋创始人、投资者和家庭提供协调一致的搬迁路线，将财富、居住权、学校和治理转移到瑞士。",
+        "metaDescription": "为阿联酋居民、创始人和家庭提供瑞士搬迁咨询。协调许可证、银行、财富文件、学校和州选择。",
+        "startingPoint": "阿联酋",
+        "likelyCantons": [
+          "楚格",
+          "苏黎世",
+          "日内瓦"
+        ],
+        "urgentQuestions": [
+          "瑞士银行应如何准备财富来源文件？",
+          "在获得瑞士居留权之前可以重组阿联酋公司结构吗？",
+          "哪个州适合家庭、银行和企业访问？"
+        ],
+        "workstreams": [
+          "移民前资产和公司审查",
+          "瑞士银行业准备情况和文件说明",
+          "居留许可和家庭搬迁顺序",
+          "国际学校入围及参观"
+        ],
+        "proofPoints": [
+          "非常适合加密货币、私募股权和运营公司财富",
+          "许可证、银行、住房和学校的并行处理",
+          "对于流动性事件后迅速行动的家庭有用"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "英国非本地人、创始人和家族办公室",
+        "title": "从英国搬到瑞士",
+        "description": "英国居民的瑞士搬迁途径，审查税务居住权、家庭定居、财富治理、银行业务和长期安全。",
+        "metaDescription": "为移居瑞士的英国居民、创始人、非本地居民和家族办公室提供瑞士搬迁咨询。规划居住、税务、银行和学校。",
+        "startingPoint": "英国",
+        "likelyCantons": [
+          "日内瓦",
+          "沃州",
+          "苏黎世",
+          "楚格"
+        ],
+        "urgentQuestions": [
+          "英国税务居民身份何时结束，瑞士税务居民身份何时开始？",
+          "一次性征税对家庭情况是否可行？",
+          "哪所学校和州的组合可以保护家庭时间表？"
+        ],
+        "workstreams": [
+          "英国出发和瑞士抵达时间表",
+          "福费特财政可行性审查",
+          "学校、住房和各州比较",
+          "银行、治理和顾问协调"
+        ],
+        "proofPoints": [
+          "专为需要干净搬家而不是支离破碎的建议的家庭而建",
+          "将瑞士生活方式决策与税务和银行现实联系起来",
+          "保持现有英国顾问与瑞士执行的协调"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "沙特创始人、投资者和家族",
+        "title": "从沙特阿拉伯搬到瑞士",
+        "description": "为沙特企业家和家庭提供的瑞士搬迁路线，协调居住、银行准备、学校、住房和州选择。",
+        "metaDescription": "为沙特创始人、投资者和家庭提供瑞士搬迁咨询。规划许可证、银行、学校、税务、住房和州选择。",
+        "startingPoint": "沙特阿拉伯",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "哪个瑞士州适合该家庭的学校、隐私和银行业务优先事项？",
+          "银行介绍前沙特source-of-wealth文件应该如何准备？",
+          "许可证、住房、学校和顾问协调可以并行进行吗？"
+        ],
+        "workstreams": [
+          "沙特出发和瑞士抵达时间表",
+          "银行业准备情况和财富文件叙述",
+          "学校、住房和各州比较",
+          "许可证申请、保险和结算顺序"
+        ],
+        "proofPoints": [
+          "专为将重要资产和日常生活一起转移的家庭而设计",
+          "使银行、许可证、学校和住房保持在一个协调的顺序中",
+          "在与银行或顾问共享敏感文件之前很有用"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "卡塔尔私人客户",
+        "title": "从卡塔尔搬到瑞士",
+        "description": "为卡塔尔家庭、高管和投资者提供比较瑞士居留权、私人银行、教育和定居的谨慎途径。",
+        "metaDescription": "为卡塔尔家庭和投资者提供瑞士搬迁咨询。协调许可证、私人银行、学校、住房和州选择。",
+        "startingPoint": "卡塔尔",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "哪个州提供适当的自由裁量权、学校和银行准入组合？",
+          "现有的 MTSKEP3TOKEN 顾问应如何与 Swiss 执行保持协调？",
+          "在学校参观或住房承诺之前应该解决什么问题？"
+        ],
+        "workstreams": [
+          "居住路线和家庭融入",
+          "私人银行准备和顾问协调",
+          "国际学校入围名单及参观日程",
+          "住房、保险、医疗、日常结算"
+        ],
+        "proofPoints": [
+          "专为重视自由裁量权而非公开承诺的客户而打造",
+          "将生活方式决策与银行业务联系起来并允许时机",
+          "使现有的家族办公室或法律顾问保持一致"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "科威特家族办公室和家族",
+        "title": "从科威特搬到瑞士",
+        "description": "科威特家庭的瑞士搬迁和治理路线，协调居住、银行、继承、学校和稳定的欧洲基地。",
+        "metaDescription": "瑞士为科威特家庭和家族办公室提供搬迁咨询服务。规划许可证、私人银行、治理、学校和定居点。",
+        "startingPoint": "科威特",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "瑞士的迁徙应该围绕家庭居住、治理还是两者兼而有之？",
+          "哪个州最适合隐私、税务和家庭后勤？",
+          "银行、董事会和报告工作流程应如何排序？"
+        ],
+        "workstreams": [
+          "家族概况和治理范围",
+          "广州在居住、隐私和家族办公室需求方面的比较",
+          "私人银行和source-of-wealth准备",
+          "就学、住房、医疗、家庭安置"
+        ],
+        "proofPoints": [
+          "对于需要连接治理和搬迁的多代家庭很有用",
+          "专为在公开承诺之前进行保密的瑞士设置而设计",
+          "协调家庭、银行、董事会和定居点的依赖关系"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "新加坡创始人和家族办公室",
+        "title": "从新加坡搬到瑞士",
+        "description": "新加坡企业家和家族办公室将瑞士作为欧洲居住、银行、治理和生活方式基地的路线。",
+        "metaDescription": "为新加坡创始人和家族办公室提供瑞士搬迁咨询。比较居住权、税务、银行、治理、学校和州。",
+        "startingPoint": "新加坡",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "当新加坡基地与瑞士居住地相辅相成时，会发生什么变化？",
+          "在家庭搬迁之前必须对哪些工作流程进行排序？",
+          "银行和治理应该如何为面向瑞士的设置做好准备？"
+        ],
+        "workstreams": [
+          "新加坡退出或双基地规划",
+          "瑞士居住地和州的比较",
+          "银行、治理和顾问协调",
+          "学校、住房、保险、日常结算"
+        ],
+        "proofPoints": [
+          "专为比较两个高质量司法管辖区的客户而设计",
+          "让瑞士人的生活方式决策与银行业和治理保持联系",
+          "在进入州、租赁或学校跑道之前有用"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "香港企业家及家庭",
+        "title": "从香港移居瑞士",
+        "description": "为香港创始人、财富持有者和寻求拥有强大学校和银行业务的稳定欧洲基地的香港创始人、财富持有者和家庭提供的私人瑞士移民途径。",
+        "metaDescription": "为香港创始人及其家族提供瑞士搬迁咨询。规划居住、银行、学校、税务、住房和州选择。",
+        "startingPoint": "香港",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "瑞士哪个州适合来自香港的国际家庭？",
+          "应如何准备银行文件和 source-of-wealth 历史记录？",
+          "在学校参观和寻找住房之前可以决定什么？"
+        ],
+        "workstreams": [
+          "香港出发和瑞士抵达时间表",
+          "广州的学校、税务、银行和日常生活比较",
+          "居留许可和家庭包容",
+          "私人银行准备、住房和结算"
+        ],
+        "proofPoints": [
+          "适合优先考虑稳定、学校和自由裁量权的家庭",
+          "与银行协调实际结算并许可依赖性",
+          "在敏感文件分发之前有用"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "US 创始人、高管和家族",
+        "title": "从 USA 迁移到瑞士",
+        "description": "瑞士搬迁路线，适用于需要在居住、顾问、银行、学校和持续税务复杂性方面进行仔细协调的 US 连接客户。",
+        "metaDescription": "为 US 创始人和家族提供瑞士搬迁咨询。协调居住、银行、顾问、学校、税务复杂性和结算。",
+        "startingPoint": "美国",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "US 税务和报告顾问应如何与瑞士计划保持联系？",
+          "哪个州适合该家庭的学校、银行业务和旅行需求？",
+          "在做出居住和住房承诺之前应该澄清什么？"
+        ],
+        "workstreams": [
+          "US 顾问和瑞士顾问协调",
+          "居住路线和家庭融入",
+          "广州的学校、旅游和银行业务比较",
+          "银行业准备、住房、医疗保健和结算"
+        ],
+        "proofPoints": [
+          "专为 US 报告复杂性必须保持可见的情况而构建",
+          "让瑞士的决策与现有的 US 顾问保持联系",
+          "在做出银行、住房或学校承诺之前有用"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "德国企业家和家庭",
+        "title": "从德国搬到瑞士",
+        "description": "为德国创始人和家庭提供的实用瑞士搬迁路线，比较居住地、州选择、企业设置、学校和跨境时间安排。",
+        "metaDescription": "为德国企业家和家庭提供瑞士搬迁咨询。规划居住、州选择、纳税时间、企业设置、学校和定居。",
+        "startingPoint": "德国",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "德国出境计划和瑞士居住计划应何时排序？",
+          "哪个州适合企业所有权、家庭生活和通勤模式？",
+          "许可证、住房、学校和顾问应如何协调？"
+        ],
+        "workstreams": [
+          "德国出发和瑞士抵达时间表",
+          "各州税务、学校和商业运营比较",
+          "许可申请和家庭融入",
+          "住房、保险、银行和结算设置"
+        ],
+        "proofPoints": [
+          "最适合需要精确处理时间的创始人和家族",
+          "将州选择与学校和住房的实际情况联系起来",
+          "保持德国和瑞士顾问的协调"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "挪威创始人和财富持有者",
+        "title": "从挪威搬到瑞士",
+        "description": "为挪威企业家、投资者和家庭提供的瑞士移民路线，评估税务居住权、许可证、州选择、学校和银行业务。",
+        "metaDescription": "为挪威创始人和家庭提供瑞士搬迁咨询。协调税务居住、许可证、银行、学校、州选择和定居。",
+        "startingPoint": "挪威",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "挪威的出境计划何时应与瑞士的居住时间保持一致？",
+          "哪个州适合隐私、家庭生活和税收优先事项？",
+          "在银行介绍或学校决定之前应该协调什么？"
+        ],
+        "workstreams": [
+          "挪威出发和瑞士抵达时间表",
+          "各州家庭、税务和银行优先事项的比较",
+          "居留许可和家庭包容",
+          "银行准备、住房、学校和结算"
+        ],
+        "proofPoints": [
+          "专为需要纳税时间和家庭物流连接的财富持有者而设计",
+          "在参加州或学校田径比赛之前有用",
+          "协调现有顾问与瑞士执行人员"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "创始人转移业务实质",
+        "title": "将公司迁至瑞士",
+        "description": "一种由创始人主导的路线，将公司实质、董事会设置、银行业务、许可证和家庭搬迁纳入一个协调一致的瑞士计划。",
+        "metaDescription": "将公司迁往瑞士，为公司组建、实质、银行、居留许可、税务和家庭搬迁提供协调咨询。",
+        "startingPoint": "国际",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "瑞士公司应该在居住路线明确之前还是之后设立？",
+          "州政府、银行和交易对手会期待什么内容？",
+          "创始人许可、家庭搬迁和企业银行业务如何相互影响？"
+        ],
+        "workstreams": [
+          "创始人简介、公司实质和 Canton Fit 审查",
+          "公司组建、治理和董事会设置",
+          "企业银行业务准备情况和文件",
+          "创始人许可、家庭搬迁、住房和安置"
+        ],
+        "proofPoints": [
+          "专为需要协调公司和家庭工作流程的创始人而打造",
+          "以正确的顺序连接物质、许可证、银行业务和结算",
+          "减少因孤立的法律、银行和搬迁建议而造成的延误"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "企业家和活跃的企业主",
+        "title": "瑞士企业家居留许可",
+        "description": "一条以创始人为中心的途径，涵盖瑞士居留权、公司实质、银行业务、财富来源文件和家庭安置。",
+        "metaDescription": "瑞士企业家居留许可咨询。规划州选择、公司组建、银行业务、许可证和家庭搬迁。",
+        "startingPoint": "国际",
+        "likelyCantons": [
+          "楚格",
+          "苏黎世",
+          "沃州"
+        ],
+        "urgentQuestions": [
+          "瑞士公司应该在提交许可证之前还是之后成立？",
+          "该州期望获得什么经济实质？",
+          "应如何向银行和当局记录企业财富？"
+        ],
+        "workstreams": [
+          "创始人简介和canton fit评估",
+          "公司组建和治理设置",
+          "许可申请和家庭融入",
+          "银行准备、租赁、保险和定居"
+        ],
+        "proofPoints": [
+          "最适合需要协调业务和家庭工作流程的创始人",
+          "将许可证与公司实质和银行信誉联系起来",
+          "减少因不完整的文档排序而造成的延迟"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "高净值人士",
+        "title": "瑞士的一次性征税",
+        "description": "为符合条件的外国人提供谨慎的规划路线，评估放弃财政、州选择、生活成本基础和居住时间。",
+        "metaDescription": "瑞士一次性税务咨询。评估放弃财政资格、州选择、纳税基础、许可证和搬迁时间。",
+        "startingPoint": "国际",
+        "likelyCantons": [
+          "沃州",
+          "日内瓦",
+          "瓦莱州",
+          "施维茨",
+          "楚格"
+        ],
+        "urgentQuestions": [
+          "放弃财政对于家庭状况来说是否现实？",
+          "哪些州值得首先接近？",
+          "哪些生活方式和住房假设决定了应税基数？"
+        ],
+        "workstreams": [
+          "资格和州入围名单",
+          "税务裁决准备及权威对话",
+          "居留许可和住房协调",
+          "银行、保险和年度合规移交"
+        ],
+        "proofPoints": [
+          "将税务裁决工作与实际搬迁计划结合起来",
+          "让州级谈判与生活方式现实保持联系",
+          "在公开承诺或敏感文件之前有用"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "创始人、家族办公室和加密货币投资者",
+        "title": "楚格搬迁顾问",
+        "description": "为考虑楚格税务、加密银行、公司组建、国际学校和家庭生活的客户提供的重点搬迁路径。",
+        "metaDescription": "楚格企业家、家族办公室和加密货币投资者的搬迁顾问。协调许可证、公司设立、银行、学校和住房。",
+        "startingPoint": "国际",
+        "likelyCantons": [
+          "楚格"
+        ],
+        "urgentQuestions": [
+          "Zug 是合适的人选，还是只是显而易见的人选？",
+          "银行、学校名额和住房能否在同一时间内得到保障？",
+          "计划的结构需要什么公司实质内容？"
+        ],
+        "workstreams": [
+          "Zug 针对苏黎世、施维茨和沃州的适合性评估",
+          "许可证和公司组建顺序",
+          "加密友好和传统银行介绍",
+          "学校、住房、保险、日常定居设置"
+        ],
+        "proofPoints": [
+          "专为需要速度而又不失去判断力的客户而设计",
+          "平衡低税收吸引力与实用的家庭后勤",
+          "对加密原生财富和活跃运营公司有用"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. 数据控制方",
+        "text": "位于瑞士的 WorkWorkWork AG 负责处理通过本网站提交的个人数据。"
+      },
+      {
+        "title": "2. 我们收集的数据",
+        "text": "我们只收集您通过表格自愿提供的信息，例如联系方式、当前居住国、国籍、搬迁目标、时间安排、感兴趣的服务以及留言内容。"
+      },
+      {
+        "title": "3. 处理目的",
+        "text": "这些信息用于评估咨询请求、准备私密回复，并协调相关顾问工作。敏感文件不应通过公开表格提交。"
+      },
+      {
+        "title": "4. 数据保留",
+        "text": "个人数据仅在回复咨询、支持顾问关系或遵守适用法律义务所需期间内保留。"
+      },
+      {
+        "title": "5. 您的权利",
+        "text": "根据瑞士数据保护法以及适用情况下的 GDPR，您可以请求访问、更正、删除或限制处理您的个人数据。"
+      },
+      {
+        "title": "6. 联系",
+        "text": "隐私和法律请求可通过联系表格提交。我们会私密处理，不在网站公开电子邮件地址。"
+      }
+    ],
+    "imprint": {
+      "registrationText": "注册于瑞士施维茨州商业登记处。",
+      "contactTitle": "联系",
+      "contactText": "请使用保密联系表格提交咨询。本网站有意不显示公开电子邮件地址。",
+      "disclaimerTitle": "免责声明",
+      "disclaimerText": "本网站内容仅用于一般信息和方向说明，不构成税务、法律、投资或金融建议。任何搬迁决定都应由合格专业顾问进行审阅。"
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "瑞士",
+      "uae": "阿拉伯联合酋长国",
+      "saudiArabia": "沙特阿拉伯",
+      "qatar": "卡塔尔",
+      "kuwait": "科威特",
+      "bahrain": "巴林"
+    }
+  },
+  "swissArrivalNav": {
+    "guide": "指南",
+    "contact": "联系",
+    "cta": "加入发布名单"
+  },
+  "swissArrivalFooter": {
+    "tagline": "面向准备移居瑞士的外籍人士的实用数字指南。",
+    "rights": "版权所有。",
+    "company": "WorkWorkWork AG 项目"
   }
 }

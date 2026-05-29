@@ -10,11 +10,13 @@
     "cantons": "Cantoane",
     "caseStudies": "Studii de caz",
     "about": "Despre noi",
-    "contact": "Contact",
+    "contact": "Contactați-ne",
     "privacy": "Politica de confidențialitate",
     "imprint": "Mențiuni legale",
     "beginJourney": "Începeți călătoria",
-    "insights": "Perspective"
+    "insights": "Perspective",
+    "menu": "Deschide/închide meniul",
+    "closeMenu": "Închide meniul"
   },
   "hero": {
     "headline": "Calea dumneavoastră către Elveția",
@@ -71,9 +73,9 @@
       "subtitle": "Un sanctuar al stabilității într-o lume incertă",
       "stat1": "500+",
       "stat1Label": "Ani de neutralitate continuă",
-      "stat2": "Zero",
+      "stat2": "Zero cazuri",
       "stat2Label": "Alianțe militare",
-      "stat3": "Zero",
+      "stat3": "Zero cazuri",
       "stat3Label": "Istoric de confiscare a activelor",
       "p1": "Elveția și-a menținut neutralitatea politică de peste 500 de ani — cea mai lungă perioadă a oricărei națiuni din istoria modernă. Nu este membră NATO, UE sau a vreunei alianțe militare. Această neutralitate nu este pasivă: este o politică deliberată, consacrată constituțional, care a supraviețuit celor două războaie mondiale, Războiului Rece și fiecărei tulburări geopolitice a erei moderne.",
       "p2": "Pentru deținătorii de capital, acest lucru se traduce printr-o garanție fără egal: Elveția nu a confiscat niciodată active private, nu a impus niciodată taxe de urgență pe avere și nu a participat niciodată la instabilitatea politică ce periclitează averea personală în alte jurisdicții. Activele dumneavoastră în Elveția sunt protejate de un cadru legal și politic care a rezistat timp de jumătate de mileniu."
@@ -93,7 +95,7 @@
     "education": {
       "title": "Sistemul de educație",
       "subtitle": "Învățare de clasă mondială pentru generația următoare",
-      "stat1": "Top 3",
+      "stat1": "În top 3",
       "stat1Label": "Universități la nivel global (ETH Zurich)",
       "stat2": "50+",
       "stat2Label": "Școli internaționale",
@@ -131,7 +133,7 @@
       "subtitle": "Siguranță, infrastructură și frumusețe naturală fără compromisuri",
       "stat1": "#1",
       "stat1Label": "Calitatea vieții la nivel global",
-      "stat2": "Top 3",
+      "stat2": "În top 3",
       "stat2Label": "Cele mai sigure țări din lume",
       "stat3": "99,9%",
       "stat3Label": "Punctualitatea transportului public",
@@ -305,6 +307,13 @@
           "bestFor": "Familii care vor o bază locuibilă cu sănătate, școli, acces la aeroport și taxe încă competitive."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Companii",
+      "personalIncome": "Venit personal",
+      "lumpSum": "Impozitare forfetară",
+      "priceRange": "Interval de preț",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -389,7 +398,6 @@
         "profile": "Cetățean saudit de 34 de ani, portofoliu semnificativ de criptomonede, trader și investitor activ, celibatar",
         "timeline": {
           "month1": "Consultație, selecția cantonului, strategia de documentare a averii crypto",
-          "month1.5": "Cerere pentru permisul B cu documentație detaliată privind sursa averii",
           "month2": "Înființarea companiei (GmbH elvețian) pentru operațiuni de consultanță",
           "month3": "Configurarea bancară crypto-friendly (SEBA Bank + bancă privată tradițională)",
           "month4": "Apartament asigurat în Zurich, relocare completă finalizată",
@@ -437,6 +445,16 @@
         ],
         "outcome": "SFO elvețian complet operațional în Zug. 3 directori independenți numiți. Cadru de guvernanță ratificat de toate ramurile familiei. Raportare consolidată în toate jurisdicțiile. Mandat continuu pentru guvernanță trimestrială și revizuire anuală."
       }
+    },
+    "labels": {
+      "case": "Caz",
+      "timeline": "Cronologie",
+      "month": "Lună",
+      "week": "Săptămână",
+      "ongoing": "În curs",
+      "keyChallenges": "Provocări principale",
+      "servicesEngaged": "Servicii implicate",
+      "outcome": "Rezultat"
     }
   },
   "services": {
@@ -505,7 +523,7 @@
         "tags": [
           "Planificare pre-exit",
           "Structurarea activelor",
-          "Forfait Fiscal"
+          "Impozitare forfait fiscal"
         ]
       },
       "family": {
@@ -523,7 +541,7 @@
         "age": "Vârsta 28–42",
         "description": "Antreprenori digitali și deținători de avere crypto care caută o jurisdicție stabilă, favorabilă crypto, cu un stil de viață de clasă mondială.",
         "tags": [
-          "Crypto",
+          "Cripto",
           "Active Digitale",
           "Stil de viață"
         ]
@@ -633,11 +651,12 @@
   "footer": {
     "tagline": "Consultanță premium pentru relocare, destinată persoanelor și familiilor distinse.",
     "navigation": "Navigare",
-    "legal": "Legal",
+    "legal": "Informații legale",
     "languages": "Limbi",
     "rights": "Toate drepturile rezervate.",
     "company": "Un serviciu oferit de WorkWorkWork AG",
-    "disclaimer": "Serviciile sunt limitate la educație financiară generală și îndrumare strategică și nu constituie servicii financiare în sensul Legii privind serviciile financiare (FIDLEG). În special, nu se oferă consultanță cu privire la instrumente financiare specifice, nicio gestionare de portofoliu și nicio executare sau transmitere de ordine."
+    "disclaimer": "Serviciile sunt limitate la educație financiară generală și îndrumare strategică și nu constituie servicii financiare în sensul Legii privind serviciile financiare (FIDLEG). În special, nu se oferă consultanță cu privire la instrumente financiare specifice, nicio gestionare de portofoliu și nicio executare sau transmitere de ordine.",
+    "trustSwissEntity": "Entitate înregistrată în Elveția"
   },
   "servicesMeta": {
     "title": "Serviciile noastre — Move to Switzerland",
@@ -887,7 +906,7 @@
       },
       "opening-swiss-private-bank-account": {
         "category": "banking",
-        "categoryLabel": "Banking",
+        "categoryLabel": "Servicii bancare",
         "readTime": "10 min citire",
         "date": "1 aprilie 2026",
         "title": "Deschiderea unui cont de Private Banking în Elveția: Cerințe și proces",
@@ -1052,7 +1071,7 @@
             "content": "Elveția este una dintre cele mai importante jurisdicții din lume pentru Family Office-uri, găzduind aproximativ 3.500–4.000 de astfel de structuri care gestionează colectiv trilioane de franci elvețieni în active. Combinația de stabilitate politică, infrastructură bancară, certitudine juridică și un bazin bogat de profesioniști calificați face din Elveția alegerea naturală pentru familiile care doresc să își profesionalizeze gestionarea averii. Acest ghid acoperă considerentele cheie în înființarea unui Family Office elvețian."
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "heading": "Single family office (SFO) versus multi-family office (MFO)",
             "level": "2",
             "content": "Prima decizie structurală este dacă să înființați un Single Family Office (SFO) care servește exclusiv o singură familie, sau să vă alăturați unui Multi-Family Office (MFO) care deservește mai multe familii. Un SFO oferă control complet asupra strategiei de investiții, guvernanței și confidențialității. De obicei, necesită active în gestiune de 100 de milioane CHF sau mai mult pentru a fi rentabil, deoarece costurile de operare ale unui SFO complet echipat (inclusiv CEO, CIO, CFO, conformitate și administrație) pot varia între 1 și 3 milioane CHF anual. Un MFO oferă servicii profesionale de gestionare a averii pentru mai multe familii, împărțind costurile de infrastructură, conformitate și expertiză. MFO-urile sunt potrivite pentru familiile cu active între 20 și 100 de milioane CHF care doresc o gestionare de nivel instituțional fără costul total al unui birou dedicat. Pentru familiile din segmentul 100–500 de milioane CHF, o abordare hibridă este comună: un SFO dedicat pentru guvernanța de bază, coordonarea familiei și deciziile strategice, combinat cu parteneriate MFO sau cu bănci private pentru execuția investițiilor și expertiză specializată."
           },
@@ -1123,5 +1142,1134 @@
     "message": "Utilizăm module cookie pentru a vă îmbunătăți experiența. Cookie-urile esențiale sunt necesare pentru funcționarea site-ului. Cookie-urile de analiză ne ajută să ne îmbunătățim serviciile.",
     "acceptAll": "Acceptă tot",
     "essentialOnly": "Doar cele esențiale"
+  },
+  "contactCopy": {
+    "pageTitle": "Relocare confidențială",
+    "pageSubtitle": "Distribuiți elementele esențiale în privat, astfel încât să putem evalua calea elvețiană corectă înainte de prima conversație.",
+    "confidential": "Toate întrebările sunt tratate cu strictă confidențialitate.",
+    "noSensitive": "Nu trimiteți pașapoarte, extrase de cont sau documente sensibile prin acest formular.",
+    "serviceError": "Vă rugăm să selectați cel puțin o zonă de servicii.",
+    "sections": {
+      "situationTitle": "1. Situația ta",
+      "situationText": "Elementele de bază ne ajută să direcționăm corect interogarea fără a solicita documentație sensibilă.",
+      "coordinationTitle": "2. Ce necesită coordonare",
+      "coordinationText": "Selectați fiecare zonă care poate fi relevantă. Nu este necesar un răspuns precis în această etapă.",
+      "responseTitle": "3. Cum să răspunzi",
+      "responseText": "Vom folosi aceste informații numai pentru a evalua și a răspunde la întrebarea dvs."
+    },
+    "labels": {
+      "enquiryType": "Mă întreb ca",
+      "primaryGoal": "Scopul principal",
+      "country": "Țara de rezidență curentă",
+      "nationality": "Cetățenie sau cetățenie",
+      "timeline": "Cronologie",
+      "servicesNeeded": "Sunt necesare servicii",
+      "targetCanton": "Cantonul sau orașul țintă",
+      "familySize": "Membrii familiei se mută",
+      "existingAdvisors": "Consilieri elvețieni existenți",
+      "name": "Nume complet",
+      "email": "Adresa de e-mail",
+      "phone": "Număr de telefon (opțional)",
+      "hearAbout": "Cum ai auzit de noi? (optional)",
+      "preferredContact": "Răspuns preferat",
+      "message": "Mesajul dvs"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zurich, Schwyz, indecis...",
+      "familySize": "Doar eu, cuplu, familie de 4...",
+      "message": "Ce ar trebui să înțelegem înainte de prima conversație confidențială?"
+    },
+    "submit": "Trimiteți aportul confidențial",
+    "privacyConsent": "Sunt de acord ca Move to Switzerland să prelucreze aceste informații pentru a răspunde la întrebarea mea. Înțeleg că nu ar trebui să trimit documente sensibile prin acest formular.",
+    "aside": {
+      "title": "Opinie privată",
+      "paragraphs": [
+        "Acest aport este conceput pentru cereri de relocare, rezidență, taxe, family office și decontare, acolo unde discreția contează.",
+        "Este suficientă o primă trimitere concisă. Dacă problema este potrivită, următorul pas este o consultare privată înainte de solicitarea oricăror documente."
+      ],
+      "items": [
+        "Revizuire confidențială",
+        "Nu este expusă nicio adresă publică a destinatarului",
+        "Nu sunt solicitate documente sensibile",
+        "Răspunsul direcționat printr-un flux de lucru privat pe partea de server"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Persoană fizică"
+        },
+        {
+          "value": "family-office",
+          "label": "Birou de familie"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Antreprenor"
+        },
+        {
+          "value": "advisor",
+          "label": "Consilier pentru un client"
+        },
+        {
+          "value": "other",
+          "label": "Altele"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Mă mutăm pe mine sau pe familia mea"
+        },
+        {
+          "value": "tax-residency",
+          "label": "Planificare fiscală și rezidență elvețiană"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Configurare companie sau family-office"
+        },
+        {
+          "value": "settlement",
+          "label": "Imobiliare, școli și așezări"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Coordonare bancară și avere"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Ghid Swiss Arrival"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Urgent acum"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Sub 3 luni"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 luni"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 luni"
+        },
+        {
+          "value": "early-planning",
+          "label": "Planificare timpurie"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Permise de ședere"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Impozitare forfetară"
+        },
+        {
+          "value": "company-formation",
+          "label": "Formarea companiei"
+        },
+        {
+          "value": "family-office",
+          "label": "Birou de familie"
+        },
+        {
+          "value": "real-estate",
+          "label": "Imobiliare"
+        },
+        {
+          "value": "schooling",
+          "label": "Școli"
+        },
+        {
+          "value": "private-banking",
+          "label": "Private banking"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Concierge de sănătate"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Coordonare completă a relocarii"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "E-mail"
+        },
+        {
+          "value": "phone",
+          "label": "Telefon"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Da"
+        },
+        {
+          "value": "no",
+          "label": "Nu"
+        },
+        {
+          "value": "not-sure",
+          "label": "Nu sunt sigur"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Formular confidential de relocare in Elvetia - Move to Switzerland",
+      "description": "Trimiteti o solicitare privata pentru rezidenta, taxe, family office, scoli, banking si stabilire in Elvetia."
+    },
+    "progressTitle": "Progresul formularului",
+    "optionalContextTitle": "Context suplimentar de planificare",
+    "optionalContextText": "Intervalele aproximative sunt suficiente. Nu includeți pașapoarte, extrase de cont sau documente sensibile.",
+    "showOptional": "Adaugati context optional",
+    "hideOptional": "Ascundeti contextul optional",
+    "labels": {
+      "relocationYear": "Anul estimat al relocarii",
+      "preferredCantons": "Cantoane preferate",
+      "advisoryScope": "Domeniul consultantei",
+      "schoolAgeRange": "Copii care au nevoie de scoala",
+      "urgencyReason": "Ce determina calendarul?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, flexibil...",
+      "schoolAgeRange": "Vârste 6 și 11, internat, fără copii...",
+      "urgencyReason": "An școlar, an fiscal, calendarul permisului, căutarea proprietății..."
+    },
+    "validation": {
+      "required": "Completați acest câmp obligatoriu.",
+      "email": "Introduceți o adresă de e-mail validă.",
+      "servicesNeeded": "Selectați cel puțin un domeniu de servicii.",
+      "preferredContact": "Selectați cum ar trebui să răspundem.",
+      "phoneRequired": "Adăugați un număr de telefon sau alegeți e-mailul ca metodă de răspuns.",
+      "consent": "Confirmați consimțământul privind confidențialitatea.",
+      "submitError": "Solicitarea nu a putut fi trimisă acum. Încercați din nou mai târziu."
+    },
+    "status": {
+      "sending": "Se trimite...",
+      "successTitle": "Solicitare primita",
+      "successText": "Va multumim. Vom analiza solicitarea in privat si vom raspunde prin canalul ales."
+    },
+    "process": {
+      "title": "Ce urmează",
+      "intro": "O primă trimitere scurtă este suficientă. Dacă situația este potrivită, pasul următor este o consultație privată înainte de solicitarea documentelor.",
+      "steps": [
+        "Analiză privată a profilului de relocare",
+        "Evaluare inițială a potrivirii pentru canton, rezidență, taxe, familie și nevoi de afaceri",
+        "Răspuns confidențial prin canalul de contact selectat"
+      ]
+    },
+    "trust": {
+      "title": "Standarde de confidențialitate",
+      "items": [
+        "Entitate înregistrată în Elveția",
+        "Rutare privată pe server",
+        "Fără adresă publică de destinatar expusă",
+        "Fără documente sensibile solicitate prin formular",
+        "Fără transfer pe WhatsApp"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal",
+          "label": "Doar personal"
+        },
+        {
+          "value": "family",
+          "label": "Familie"
+        },
+        {
+          "value": "company",
+          "label": "Companie"
+        },
+        {
+          "value": "family-office",
+          "label": "Birou de familie"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Nedecis"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerna"
+        },
+        {
+          "value": "other",
+          "label": "Altul"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Sunt de acord ca Move to Switzerland să proceseze aceste informații pentru a răspunde solicitării mele și accept ",
+      "linkText": "politica de confidențialitate",
+      "afterLink": ". Înțeleg că nu trebuie să trimit documente sensibile prin acest formular."
+    },
+    "honeypotLabel": "Website companie"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Sunteți gata să înțelegeți traseul elvețian potrivit?",
+      "creamText": "Începeți cu o evaluare privată sau utilizați calea ghid dacă sunteți încă la începutul deciziei.",
+      "navyTitle": "Sunteți gata să transformați Elveția într-un plan executabil?",
+      "navyText": "Distribuiți elementele esențiale în privat sau începeți cu ghidul Swiss Arrival dacă încă comparați opțiunile.",
+      "privateAssessment": "Solicitați o evaluare privată",
+      "guide": "Obțineți ghidul Swiss Arrival"
+    },
+    "home": {
+      "heroBadge": "Aviz elvețian de relocare",
+      "heroTitle": "Mută-te în Elveția cu permise, taxe, servicii bancare, școli și decontare coordonate.",
+      "heroSubtitle": "Consultanță privată din Elveția pentru antreprenori, deținători de avere, familii și birouri de familie care se mută în Zurich, Zug, Schwyz, Geneva, Vaud și nu numai.",
+      "heroProof": [
+        {
+          "label": "Coordonare din Elveția",
+          "value": "Zürich, Zug, Schwyz"
+        },
+        {
+          "label": "Aport privat",
+          "value": "Nu există documente sensibile"
+        },
+        {
+          "label": "Construit pentru",
+          "value": "Fondatori, familii, birouri de familie"
+        },
+        {
+          "label": "Fluxuri de lucru",
+          "value": "Permise, taxe, bancar, școli"
+        }
+      ],
+      "planTitle": "Plan elvețian de mutare",
+      "planPeriod": "Primele 30 de zile",
+      "planRows": [
+        [
+          "01",
+          "Traseul de rezidență",
+          "Permis B, includere în familie, calendar"
+        ],
+        [
+          "02",
+          "Decizia Cantonului",
+          "Taxă, școală, locuință, navetă"
+        ],
+        [
+          "03",
+          "Pregătirea băncii",
+          "Povestea sursei bogăției și prezentări"
+        ],
+        [
+          "04",
+          "Decontare",
+          "Locuințe, asigurări, școli, amenajări zilnice"
+        ]
+      ],
+      "planFooter": "Scopul nu este mai multe sfaturi. Este o secvență care împiedică permisele, băncile, școlile și locuințele să se blocheze reciproc.",
+      "trustStrip": [
+        "Evaluare privată",
+        "Comparația cantonelor elvețiene",
+        "Documentație pregătită pentru bancă",
+        "Așezare familială"
+      ],
+      "processTitle": "De la prima conversație până la un plan elvețian pe care îl puteți executa",
+      "processText": "Relocările de mare valoare eșuează atunci când fluxurile de lucru se mută separat. Primul pas este un model de operare clar înainte ca cineva să solicite documente.",
+      "processSteps": [
+        {
+          "title": "Evaluare privată",
+          "text": "Cartografiam familia, afacerea, cetățenia, cronologia și constrângerile sensibile înainte de a solicita orice documente."
+        },
+        {
+          "title": "Planul traseului elvețian",
+          "text": "Obțineți o secvență practică de canton și de lucru care acoperă permise, taxe, servicii bancare, locuințe, școli și decontare."
+        },
+        {
+          "title": "Execuție coordonată",
+          "text": "Un punct responsabil îi menține pe avocații, băncile, școlile, imobiliarele și consilierii existenți în mișcare în ordinea corectă."
+        }
+      ],
+      "signalsBadge": "Ce devine coordonat",
+      "signalsTitle": "Execuție specifică elvețiană, nu discuții generice despre relocare",
+      "signalsText": "Propunerea de valoare este operațională: mai puține decalaje între taxe, permise, servicii bancare, locuințe, școli și prima zi normală în Elveția.",
+      "signals": [
+        "Comparația cantonului înainte de angajament",
+        "Cronologia permisului corespunzator cu aportul școlar",
+        "Documentație bancară pregătită înainte de introduceri",
+        "Căutarea de locuințe aliniată la realitățile fiscale și de navetă",
+        "Consilierii existenți sunt păstrați la curent în loc să fie înlocuiți",
+        "Nu există pașapoarte, extrase de cont sau fișiere sensibile prin formulare publice"
+      ],
+      "pathsTitle": "Căi populare de relocare",
+      "pathsText": "Vizitatorii cu intenție mare nu ar trebui să fie nevoiți să traducă paginile de servicii generice în propria lor situație.",
+      "discussRoute": "Discutați traseul meu"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Punctul de plecare",
+          "value": "Dubai, fondator post-exit"
+        },
+        {
+          "label": "Baza elvețiană",
+          "value": "Reședința familiei Zug"
+        },
+        {
+          "label": "Risc de bază",
+          "value": "Documentație privind averea cripto"
+        },
+        {
+          "label": "Rezultat",
+          "value": "Permis, școală, bancă, birou activ"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Punctul de plecare",
+          "value": "Beirut, mutare de urgență"
+        },
+        {
+          "label": "Baza elvețiană",
+          "value": "Acordul Schwyz în primul rând pentru confidențialitate"
+        },
+        {
+          "label": "Risc de bază",
+          "value": "Complexitatea proprietății de trei generații"
+        },
+        {
+          "label": "Rezultat",
+          "value": "Familie stabilită cu guvernarea elvețiană"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Punctul de plecare",
+          "value": "Riyadh, investitor cripto"
+        },
+        {
+          "label": "Baza elvețiană",
+          "value": "Apartament din Zurich și GmbH"
+        },
+        {
+          "label": "Risc de bază",
+          "value": "Profil de avere netradițională"
+        },
+        {
+          "label": "Rezultat",
+          "value": "Permis și configurație bancară duală"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Punctul de plecare",
+          "value": "Kuweit, birou cu mai multe jurisdicții"
+        },
+        {
+          "label": "Baza elvețiană",
+          "value": "Birou unifamilial din Zug"
+        },
+        {
+          "label": "Risc de bază",
+          "value": "Guvernare de-a lungul generațiilor"
+        },
+        {
+          "label": "Rezultat",
+          "value": "Consiliul elvețian și raportare în direct"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Canton fit test",
+      "title": "Găsiți ruta elvețiană care merită discutată mai întâi",
+      "description": "Un filtru de patru întrebări pentru cei care se mută serios. Nu va înlocui sfatul, dar oferă primei consultații un punct de plecare mai clar.",
+      "likelyRoute": "Probabil primul traseu",
+      "namePlaceholder": "Nume",
+      "emailPlaceholder": "E-mail",
+      "sendPlan": "Trimiteți planul",
+      "sending": "Se trimite",
+      "success": "Rezultatul testului dvs. a fost trimis. Îl vom folosi ca context pentru primul răspuns.",
+      "error": "Rezultatul nu a putut fi trimis chiar acum.",
+      "fullIntake": "Completați întregul aport confidențial",
+      "guide": "Obțineți ghidul Swiss Arrival",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Cine se mută?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Fondator"
+            },
+            {
+              "value": "family",
+              "label": "Familie"
+            },
+            {
+              "value": "family-office",
+              "label": "Birou de familie"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Avere privată"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "Ce contează cel mai mult?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Planificare fiscală"
+            },
+            {
+              "value": "schools",
+              "label": "Școli"
+            },
+            {
+              "value": "privacy",
+              "label": "Confidențialitate"
+            },
+            {
+              "value": "business",
+              "label": "Configurarea afacerii"
+            },
+            {
+              "value": "urban",
+              "label": "Acces la oraș"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Baza curentă",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Danemarca"
+            },
+            {
+              "value": "uae",
+              "label": "Emiratele Arabe Unite"
+            },
+            {
+              "value": "uk",
+              "label": "Marea Britanie"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "UE"
+            },
+            {
+              "value": "other",
+              "label": "Altele"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Momentul așteptat",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Urgent acum"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Sub 3 luni"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 luni"
+            },
+            {
+              "value": "early-planning",
+              "label": "Planificare timpurie"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Danemarca",
+        "uae": "Emiratele Arabe Unite",
+        "uk": "Regatul Unit",
+        "gcc": "GCC",
+        "eu": "Uniunea Europeană",
+        "other": "Altele sau nespecificate"
+      },
+      "results": {
+        "zug": {
+          "title": "Zug mai întâi, cu Zurich ca rezervă practică",
+          "summary": "Răspunsurile tale se îndreaptă către Zug pentru taxe, formarea companiei, accesul bancar și infrastructura fondatorului. Zurich ar trebui să rămână în comparație dacă școlile, angajarea sau accesul zilnic la oraș contează."
+        },
+        "zurich": {
+          "title": "Zurich mai întâi, cu Zug și Schwyz comparate",
+          "summary": "Răspunsurile tale se referă la Zurich pentru școli, acces la aeroport, comunitatea internațională, densitatea bancară și viața de zi cu zi. Zug sau Schwyz pot câștiga în continuare dacă confidențialitatea fiscală depășește accesul la oraș."
+        },
+        "schwyz": {
+          "title": "Schwyz mai întâi, cu Zug ca comparație operațională",
+          "summary": "Răspunsurile tale îndreaptă spre Schwyz pentru confidențialitate, trai cu impozite mai mici și o bază de familie mai liniștită. Compensația este o densitate instituțională mai mică decât Zurich sau Zug, deci secvențierea contează."
+        },
+        "vaudGeneva": {
+          "title": "Vaud sau Geneva mai întâi, cu fezabilitate verificată devreme",
+          "summary": "Răspunsurile dumneavoastră indică un canton francofon în care impozitarea forfetară, școlile și infrastructura internațională a familiei pot fi evaluate împreună înainte de a se angaja."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Acasă",
+      "takeQuiz": "Faceți testul de adaptare a cantonului",
+      "startingPoint": "Punctul de plecare",
+      "likelyCantons": "Cantoane probabile",
+      "questionsTitle": "Întrebările la care trebuie să răspunzi înainte de a te angaja",
+      "questionsText": "Planificarea serioasă a relocarii începe înainte de formulare, contracte de închiriere, vizite la școală sau prezentări bancare. Acestea sunt deciziile care conduc de obicei traseul.",
+      "workstreamSequence": "Secvența fluxului de lucru",
+      "coordinateTitle": "Ce coordonăm pentru acest traseu",
+      "workstream": "Flux de lucru",
+      "whyClientsUseUs": "De ce ne folosesc clienții",
+      "valueTitle": "Valoarea este coordonarea, nu o altă opinie izolată",
+      "compareRoute": "Comparați un alt traseu",
+      "askSituation": "Întrebați despre situația mea"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Fondatorii și familiile daneze",
+        "title": "Mută-te în Elveția din Danemarca",
+        "description": "O cale practică pentru antreprenorii, investitorii și familiile daneze, care compară rezidența în Elveția, impozitele, serviciile bancare, școlile și stabilirea.",
+        "metaDescription": "Consiliere de relocare pentru antreprenorii danezi și familiile care se mută în Elveția. Comparați cantoane, permise, taxe, servicii bancare, școli și decontare.",
+        "startingPoint": "Danemarca",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich"
+        ],
+        "urgentQuestions": [
+          "Când ar trebui să înceapă planificarea ieșirii fiscale daneze?",
+          "Care canton elvețian se potrivește cu viața de familie și proprietatea unei afaceri?",
+          "Cum ar trebui să fie ordonate băncile, școlile, locuințele și permisele?"
+        ],
+        "workstreams": [
+          "Cronologie pentru ieșirea daneză și intrarea în Elveția",
+          "Comparație de canton pentru taxe, școli și acces la aeroport",
+          "Cerere de permis B și includere în familie",
+          "Private banking și pregătirea sursei de avere"
+        ],
+        "proofPoints": [
+          "Creat pentru fondatorii transfrontalieri care au nevoie de un coordonator responsabil",
+          "Acoperă decontarea practică, nu numai teoria fiscală",
+          "Conceput pentru familiile care au nevoie de programul școlar gestionat devreme"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "Rezidenți din Emiratele Arabe Unite și fondatori post-ieșire",
+        "title": "Mută-te în Elveția din Emiratele Arabe Unite",
+        "description": "O cale de relocare coordonată pentru fondatorii, investitorii și familiile din Emiratele Arabe Unite care mută bogăția, rezidența, școlile și guvernanța în Elveția.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru rezidenții, fondatorii și familiile din Emiratele Arabe Unite. Coordonați permisele, serviciile bancare, documentația privind averea, școlile și selecția cantoanelor.",
+        "startingPoint": "Emiratele Arabe Unite",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Geneva"
+        ],
+        "urgentQuestions": [
+          "Cum ar trebui să fie pregătită documentația privind sursa de avere pentru băncile elvețiene?",
+          "Poate fi reorganizată structura unei companii din Emiratele Arabe Unite înainte de rezidența în Elveția?",
+          "Care canton are sens pentru accesul familiei, bancare și afacerilor?"
+        ],
+        "workstreams": [
+          "Revizuirea bunurilor și a companiei înainte de imigrare",
+          "Pregătirea bancară elvețiană și documentația narativă",
+          "Permisul de ședere și secvența de relocare a familiei",
+          "Lista scurtă de școli internaționale și vizite"
+        ],
+        "proofPoints": [
+          "Potrivire puternică pentru cripto, capitalul privat și bogăția companiei de exploatare",
+          "Gestionarea paralelă a permiselor, bancare, locuințe și școli",
+          "Util pentru familiile care se mută rapid după un eveniment de lichiditate"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "Non-doms, fondatori și family offices din Marea Britanie",
+        "title": "Mută-te în Elveția din Marea Britanie",
+        "description": "O cale de relocare elvețiană pentru rezidenții din Regatul Unit care examinează rezidența fiscală, reglementarea familiei, guvernarea averii, activități bancare și securitate pe termen lung.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru rezidenții, fondatorii, non-doms și family offices care se mută în Elveția din Regatul Unit. Planificați rezidența, taxele, serviciile bancare și școlile.",
+        "startingPoint": "Regatul Unit",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Când se încheie rezidența fiscală în Regatul Unit și când începe rezidența fiscală elvețiană?",
+          "Este viabilă impozitarea forfetară pentru profilul familiei?",
+          "Ce combinație de școală și canton protejează cronologia familiei?"
+        ],
+        "workstreams": [
+          "Cronologie pentru plecarea din Marea Britanie și sosirea în Elveția",
+          "Analiza de fezabilitate fiscală Forfait",
+          "Comparație școală, locuințe și canton",
+          "Coordonare bancară, guvernanță și consilier"
+        ],
+        "proofPoints": [
+          "Construit pentru familiile care au nevoie de o mutare curată, nu de sfaturi fragmentate",
+          "Conectează deciziile stilului de viață elvețian cu realitățile fiscale și bancare",
+          "Menține consilierii existenți din Regatul Unit coordonați cu execuția elvețiană"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Fondatori, investitori și familii saudite",
+        "title": "Mută-te în Elveția din Arabia Saudită",
+        "description": "O rută de relocare elvețiană pentru antreprenorii și familiile saudite care coordonează rezidența, pregătirea bancară, școli, locuințe și selecția cantoanelor.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii, investitorii și familiile saudite. Permise de planificare, servicii bancare, școli, taxe, locuințe și selecția cantoanelor.",
+        "startingPoint": "Arabia Saudită",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Care canton elvețian se potrivește școlii, confidențialității și priorităților bancare ale familiei?",
+          "Cum ar trebui să fie pregătită documentația saudită source-of-wealth înainte de introducerea băncii?",
+          "Pot permisele, locuințele, școlile și coordonarea consilierului să se deplaseze în paralel?"
+        ],
+        "workstreams": [
+          "Cronologie pentru plecarea saudită și sosirea în Elveția",
+          "Pregătirea bancară și narațiunea documentării averii",
+          "Comparație școală, locuințe și canton",
+          "Cererea de permis, asigurarea și secvența de decontare"
+        ],
+        "proofPoints": [
+          "Conceput pentru familiile care mută împreună bunuri semnificative și viața de zi cu zi",
+          "Păstrează banca, permisele, școlile și locuințele într-o secvență coordonată",
+          "Util înainte ca documentele sensibile să fie partajate cu bănci sau consilieri"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Clienți privați din Qatar",
+        "title": "Mută-te în Elveția din Qatar",
+        "description": "O cale discretă pentru familiile, directorii și investitorii din Qatar, comparând rezidența în Elveția, serviciile bancare private, școala și stabilirea.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru familiile și investitorii din Qatar. Coordonați permise, servicii bancare private, școli, locuințe și alegerea cantonului.",
+        "startingPoint": "Qatar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Care canton oferă combinația potrivită de discreție, școli și acces la bancă?",
+          "Cum ar trebui consilierii GCC existenți să rămână coordonați cu execuția elvețiană?",
+          "Ce ar trebui rezolvat înainte de vizitele la școală sau angajamentele de locuințe?"
+        ],
+        "workstreams": [
+          "Traseul de rezidență și incluziunea în familie",
+          "Pregătirea pentru servicii bancare private și coordonarea consultanților",
+          "Lista scurtă a școlilor internaționale și programul vizitelor",
+          "Locuință, asigurări, asistență medicală și decontare zilnică"
+        ],
+        "proofPoints": [
+          "Creat pentru clienții care apreciază discreția înaintea angajamentelor publice",
+          "Conectează deciziile legate de stilul de viață cu operațiunile bancare și sincronizarea permiselor",
+          "Menține alinierea consilierilor de familie sau a consilierilor juridici existenți"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Birouri și familii din Kuweiti",
+        "title": "Mută-te în Elveția din Kuweit",
+        "description": "O rută elvețiană de relocare și guvernare pentru familiile kuweitene care coordonează rezidența, activitatea bancară, succesiunea, școlile și o bază europeană stabilă.",
+        "metaDescription": "Consiliere elvețiană de relocare pentru familiile kuweitiene și birourile de familie. Permise de planificare, servicii bancare private, guvernare, școli și decontare.",
+        "startingPoint": "Kuweit",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Ar trebui ca mutarea elvețiană să fie structurată în jurul reședinței familiei, guvernării sau ambelor?",
+          "Care canton se potrivește cel mai bine cu confidențialitatea, taxele și logistica familiei?",
+          "Cum ar trebui să fie ordonate fluxurile de lucru bancare, consiliu de administrație și raportare?"
+        ],
+        "workstreams": [
+          "Profilul familiei și domeniul de aplicare al guvernării",
+          "Comparație de canton pentru nevoile de reședință, confidențialitate și birou de familie",
+          "Private banking și pregătirea source-of-wealth",
+          "Școlarizare, locuință, asistență medicală și așezare familială"
+        ],
+        "proofPoints": [
+          "Util pentru familiile cu mai multe generații care au nevoie de guvernare și relocare conectate",
+          "Proiectat pentru configurarea confidențială elvețiană înainte de angajamentele publice",
+          "Coordonează dependențele de familie, bancă, consiliu și decontare"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Fondatori și birouri de familie din Singapore",
+        "title": "Mută-te în Elveția din Singapore",
+        "description": "Un traseu pentru antreprenorii și birourile de familie din Singapore care compară Elveția ca bază europeană de reședință, bancare, guvernanță și stil de viață.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și birourile de familie din Singapore. Comparați rezidența, impozitul, banca, guvernanța, școlile și cantoanele.",
+        "startingPoint": "Singapore",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Ce se schimbă atunci când o bază din Singapore este completată de reședința elvețiană?",
+          "Ce fluxuri de lucru trebuie ordonate înainte de mutarea familiei?",
+          "Cum ar trebui să fie pregătite banca și guvernanța pentru o configurație orientată spre Elveția?"
+        ],
+        "workstreams": [
+          "Ieșire din Singapore sau planificare cu bază dublă",
+          "Comparație reședința elvețiană și cantonul",
+          "Coordonare bancară, guvernanță și consultanță",
+          "Școli, locuințe, asigurări și decontare zilnică"
+        ],
+        "proofPoints": [
+          "Creat pentru clienții care compară două jurisdicții de înaltă calitate",
+          "Menține deciziile legate de stilul de viață elvețian legat de sectorul bancar și de guvernanță",
+          "Util înainte de a te angaja într-un canton, închiriere sau pistă școlară"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Antreprenori și familii din Hong Kong",
+        "title": "Mută-te în Elveția din Hong Kong",
+        "description": "O cale privată de relocare elvețiană pentru fondatorii din Hong Kong, deținătorii de avere și familiile care caută o bază europeană stabilă, cu școli și servicii bancare puternice.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și familiile din Hong Kong. Planificați rezidența, activitățile bancare, școlile, taxele, locuința și selecția cantoanelor.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "În ce canton elvețian se potrivește o familie internațională venită din Hong Kong?",
+          "Cum ar trebui pregătite documentația bancară și istoricul source-of-wealth?",
+          "Ce se poate decide înainte de vizitele la școală și căutările de locuințe?"
+        ],
+        "workstreams": [
+          "Ora de plecare din Hong Kong și sosire în Elveția",
+          "Comparație de canton pentru școli, taxe, servicii bancare și viața de zi cu zi",
+          "Permise de ședere și includere familială",
+          "Pregătirea pentru servicii bancare private, locuințe și decontare"
+        ],
+        "proofPoints": [
+          "Potrivit pentru familiile care acordă prioritate stabilității, școlilor și discreției",
+          "Coordonează decontarea practică cu dependențele băncii și a permiselor",
+          "Util înainte ca documentele sensibile să fie distribuite"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "Fondatorii, directorii și familiile US",
+        "title": "Mută-te în Elveția de la USA",
+        "description": "O rută de relocare elvețiană pentru clienții conectați la US care au nevoie de o coordonare atentă în ceea ce privește rezidența, consilierii, serviciile bancare, școlile și complexitatea fiscală continuă.",
+        "metaDescription": "Consiliere elvețiană de relocare pentru fondatorii și familiile US. Coordonați rezidența, serviciile bancare, consilierii, școlile, complexitatea fiscală și decontarea.",
+        "startingPoint": "Statele Unite ale Americii",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Cum ar trebui consilierii fiscali și de raportare US să rămână conectați la planul elvețian?",
+          "Care canton se potrivește nevoilor de școală, bancare și de călătorie ale familiei?",
+          "Ce ar trebui clarificat înainte de angajamentele privind rezidența și locuința?"
+        ],
+        "workstreams": [
+          "Coordonarea consilierului US și consilierului elvețian",
+          "Traseul de rezidență și includerea familiei",
+          "Comparație de canton pentru școli, călătorii și servicii bancare",
+          "Pregătire bancară, locuințe, asistență medicală și decontare"
+        ],
+        "proofPoints": [
+          "Creat pentru cazurile în care complexitatea raportării US trebuie să rămână vizibilă",
+          "Păstrează deciziile elvețiene conectate la consilierii US existenți",
+          "Util înainte ca angajamentele bancare, locuințe sau școlare să fie luate"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "Antreprenori și familii germane",
+        "title": "Mută-te în Elveția din Germania",
+        "description": "O rută practică de relocare elvețiană pentru fondatorii și familiile germane care compară reședința, alegerea cantonului, configurarea afacerii, școlile și calendarul transfrontalier.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru antreprenorii și familiile germane. Planificați rezidența, alegerea cantonului, calendarul fiscal, configurarea afacerii, școli și decontare.",
+        "startingPoint": "Germania",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Când ar trebui să fie succesivă planificarea plecării în Germania și planificarea rezidenței în Elveția?",
+          "Care canton se potrivește dreptului de proprietate asupra afacerii, vieții de familie și tiparelor de navetă?",
+          "Cum ar trebui coordonate permisele, locuințele, școlile și consilierii?"
+        ],
+        "workstreams": [
+          "Ora de plecare din Germania și sosire în Elveția",
+          "Comparație de canton pentru taxe, școli și operațiuni comerciale",
+          "Cererea de permis și includerea în familie",
+          "Configurare pentru locuințe, asigurări, servicii bancare și decontare"
+        ],
+        "proofPoints": [
+          "Cel mai bun pentru fondatori și familii care au nevoie de sincronizare gestionată cu precizie",
+          "Conectează alegerea cantonului cu realitățile practice ale școlii și locuințelor",
+          "Menține coordonați consilierii germani și elvețieni"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Fondatori norvegieni și deținători de avere",
+        "title": "Mută-te în Elveția din Norvegia",
+        "description": "O rută de relocare elvețiană pentru antreprenorii, investitorii și familiile norvegiene care evaluează rezidența fiscală, permisele, alegerea cantonului, școli și servicii bancare.",
+        "metaDescription": "Consiliere elvețiană privind relocarea pentru fondatorii și familiile norvegiene. Coordonați rezidența fiscală, permisele, serviciile bancare, școlile, alegerea cantonului și decontarea.",
+        "startingPoint": "Norvegia",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Când ar trebui să se alinieze planificarea ieșirii norvegiene cu calendarul de reședință elvețian?",
+          "Care canton se potrivește cu confidențialitatea, viața de familie și prioritățile fiscale?",
+          "Ce ar trebui coordonat înainte de introducerea băncii sau deciziile școlare?"
+        ],
+        "workstreams": [
+          "Cronologia de plecare în Norvegia și sosire în Elveția",
+          "Comparație de canton pentru priorități familiale, fiscale și bancare",
+          "Permise de ședere și includere familială",
+          "Pregătire bancară, locuințe, școli și decontare"
+        ],
+        "proofPoints": [
+          "Creat pentru deținătorii de avere care au nevoie de sincronizare fiscală și logistică familială conectată",
+          "Util înainte de a te angaja într-un canton sau școală",
+          "Coordonează consilierii existenți cu execuția elvețiană"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Fondatorii mută substanța afacerii",
+        "title": "Mutați o companie în Elveția",
+        "description": "O cale condusă de fondator pentru mutarea substanței companiei, configurarea consiliului de administrație, operațiunile bancare, permisele și relocarea familiei într-un singur plan elvețian coordonat.",
+        "metaDescription": "Mutați o companie în Elveția cu consultanță coordonată pentru formarea companiei, substanța, activități bancare, permise de ședere, impozite și relocarea familiei.",
+        "startingPoint": "Internațional",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Ar trebui să se înființeze compania elvețiană înainte sau după ce ruta de reședință este clară?",
+          "La ce substanță se vor aștepta cantonul, banca și contrapărțile?",
+          "Cum se afectează reciproc permisele de fondator, relocarea familiei și serviciile bancare corporative?"
+        ],
+        "workstreams": [
+          "Profilul fondatorului, substanța companiei și evaluarea conformității cantonului",
+          "Formarea companiei, guvernarea și înființarea consiliului de administrație",
+          "Pregătirea și documentația pentru servicii bancare corporative",
+          "Permis de fondator, relocarea familiei, locuință și așezare"
+        ],
+        "proofPoints": [
+          "Creat pentru fondatorii care au nevoie de alinierea fluxurilor de lucru ale companiei și ale familiei",
+          "Conectează substanța, permisele, operațiunile bancare și decontarea în ordinea corectă",
+          "Reduce întârzierile de la sfaturi juridice, bancare și de relocare izolate"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Antreprenori și proprietari activi de afaceri",
+        "title": "Permis de ședere elvețian pentru antreprenori",
+        "description": "Un traseu axat pe fondator prin rezidența elvețiană, substanța companiei, documentația bancară, sursa averii și stabilirea familiei.",
+        "metaDescription": "Consultanță privind permisul de ședere elvețian pentru antreprenori. Planificați selecția cantonelor, formarea companiei, operațiunile bancare, permisele și relocarea familiei.",
+        "startingPoint": "Internațional",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Ar trebui să se înființeze compania elvețiană înainte sau după depunerea autorizației?",
+          "La ce substanță economică se așteaptă cantonul?",
+          "Cum ar trebui să fie documentată averea afacerilor pentru bănci și autorități?"
+        ],
+        "workstreams": [
+          "Profilul fondatorului și evaluarea potrivirii cantonului",
+          "Formarea companiei și configurarea guvernării",
+          "Cerere de permis și includere în familie",
+          "Pregătire bancară, leasing, asigurări și decontare"
+        ],
+        "proofPoints": [
+          "Cel mai bun pentru fondatorii care au nevoie de alinierea fluxurilor de lucru ale afacerilor și ale familiei",
+          "Conectează permisele cu substanța companiei și credibilitatea bancară",
+          "Reduce întârzierile de la secvențierea incompletă a documentației"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Persoane cu valoare netă ridicată",
+        "title": "Impozitare forfetară în Elveția",
+        "description": "O rută de planificare discretă pentru cetățenii străini eligibili care evaluează forfait fiscal, alegerea cantonului, baza costului de trai și calendarul de rezidență.",
+        "metaDescription": "Consultanță privind impozitarea sumelor forfetare în Elveția. Evaluați eligibilitatea pentru forfait fiscal, alegerea cantonului, baza impozabilă, permisele și momentul relocarii.",
+        "startingPoint": "Internațional",
+        "likelyCantons": [
+          "Vaud",
+          "Geneva",
+          "Valais",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Este forfait fiscal realist pentru profilul familiei?",
+          "Ce cantoane merită abordate mai întâi?",
+          "Ce ipoteze privind stilul de viață și locuința determină baza impozabilă?"
+        ],
+        "workstreams": [
+          "Eligibilitate și lista scurtă a cantonelor",
+          "Pregătirea deciziilor fiscale și dialogul cu autoritățile",
+          "Permis de ședere și coordonarea locuințelor",
+          "Servicii bancare, asigurări și predare anuală de conformitate"
+        ],
+        "proofPoints": [
+          "Combină activitatea de reglementare fiscală cu planul real de relocare",
+          "Menține negocierea cantonului conectată la realitatea stilului de viață",
+          "Util înaintea angajamentelor publice sau a documentelor sensibile"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Fondatori, birouri de familie și investitori cripto",
+        "title": "Zug Consilier de relocare",
+        "description": "O cale de relocare concentrată pentru clienții care iau în considerare Zug pentru taxe, criptobanking, formarea de companii, școli internaționale și viața de familie.",
+        "metaDescription": "Consilier de relocare din Zug pentru antreprenori, birouri de familie și investitori cripto. Coordonați permise, înființarea companiei, servicii bancare, școli și locuințe.",
+        "startingPoint": "Internațional",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Este Zug potrivit sau doar cel evident?",
+          "Pot fi asigurate servicii bancare, locuri de școală și locuințe în același timp?",
+          "Ce substanță corporativă este necesară pentru structura planificată?"
+        ],
+        "workstreams": [
+          "Evaluarea potrivirii Zug față de Zurich, Schwyz și Vaud",
+          "Permisul și secvențierea formării companiei",
+          "Introduceri bancare tradiționale și cripto-friendly",
+          "Școală, locuințe, asigurări și decontare zilnică"
+        ],
+        "proofPoints": [
+          "Conceput pentru clienții care au nevoie de viteză fără a-și pierde discreția",
+          "Echilibrează atractivitatea cu taxe reduse cu logistica practică de familie",
+          "Util pentru bogăția cripto-nativă și companiile de operare active"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Operator de date",
+        "text": "WorkWorkWork AG din Elvetia este responsabila pentru prelucrarea datelor personale transmise prin acest site."
+      },
+      {
+        "title": "2. Date colectate",
+        "text": "Colectam doar informatiile oferite voluntar prin formular, precum date de contact, tara actuala de resedinta, cetatenie, obiective de relocare, calendar, servicii de interes si continutul mesajului."
+      },
+      {
+        "title": "3. Scopul prelucrarii",
+        "text": "Informatiile sunt folosite pentru a evalua solicitarea, a pregati un raspuns privat si a coordona activitatea de consultanta relevanta. Documentele sensibile nu trebuie trimise prin formulare publice."
+      },
+      {
+        "title": "4. Retentie",
+        "text": "Datele personale sunt pastrate doar atat timp cat este necesar pentru a raspunde solicitarii, a sustine o relatie de consultanta sau a respecta obligatiile legale aplicabile."
+      },
+      {
+        "title": "5. Drepturile tale",
+        "text": "Conform legislatiei elvetiene privind protectia datelor si GDPR atunci cand se aplica, poti solicita acces, corectare, stergere sau restrictionarea prelucrarii datelor personale."
+      },
+      {
+        "title": "6. Contact și solicitări",
+        "text": "Solicitarile de confidentialitate si intrebarile juridice pot fi trimise prin formularul de contact. Sunt gestionate privat fara afisarea unei adrese publice de e-mail."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Inregistrata in Registrul Comertului al Cantonului Schwyz, Elvetia.",
+      "contactTitle": "Contactați-ne",
+      "contactText": "Te rugam sa folosesti formularul confidential de contact pentru solicitari. Adresele publice de e-mail nu sunt afisate intentionat pe acest site.",
+      "disclaimerTitle": "Declinarea raspunderii",
+      "disclaimerText": "Continutul acestui site este oferit pentru informare generala si orientare. Nu constituie consultanta fiscala, juridica, de investitii sau financiara. Orice decizie de relocare trebuie analizata impreuna cu consultanti profesionisti calificati."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Elveția",
+      "uae": "Emiratele Arabe Unite",
+      "saudiArabia": "Arabia Saudită",
+      "qatar": "Qatar",
+      "kuwait": "Kuweit",
+      "bahrain": "Bahrain"
+    }
+  },
+  "swissArrivalNav": {
+    "guide": "Ghid",
+    "contact": "Contactați-ne",
+    "cta": "Înscrieți-vă pe lista de lansare"
+  },
+  "swissArrivalFooter": {
+    "tagline": "Un ghid digital practic pentru expații care pregătesc mutarea în Elveția.",
+    "rights": "Toate drepturile rezervate.",
+    "company": "Un proiect WorkWorkWork AG"
   }
 }

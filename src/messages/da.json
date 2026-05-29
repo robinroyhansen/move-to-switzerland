@@ -14,7 +14,9 @@
     "privacy": "Privatlivspolitik",
     "imprint": "Impressum",
     "beginJourney": "Begynd Deres rejse",
-    "insights": "Indsigter"
+    "insights": "Indsigter",
+    "menu": "Åbn/luk menu",
+    "closeMenu": "Luk menu"
   },
   "hero": {
     "headline": "Deres vej til Schweiz",
@@ -93,7 +95,7 @@
     "education": {
       "title": "Uddannelsessystem",
       "subtitle": "Læring i verdensklasse for den næste generation",
-      "stat1": "Top 3",
+      "stat1": "Blandt top 3",
       "stat1Label": "Universiteter globalt (ETH Zurich)",
       "stat2": "50+",
       "stat2Label": "Internationale skoler",
@@ -131,7 +133,7 @@
       "subtitle": "Sikkerhed, infrastruktur og naturskønhed uden kompromis",
       "stat1": "#1",
       "stat1Label": "Livskvalitet globalt",
-      "stat2": "Top 3",
+      "stat2": "Blandt top 3",
       "stat2Label": "Sikreste lande i verden",
       "stat3": "99,9%",
       "stat3Label": "Punktlighed i offentlig transport",
@@ -305,6 +307,13 @@
           "bestFor": "Familier, der ønsker en levende base med sundhed, skoler, lufthavnsadgang og stadig konkurrencedygtige skatter."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Selskab",
+      "personalIncome": "Personlig indkomst",
+      "lumpSum": "Pauschalbeskatning",
+      "priceRange": "Prisniveau",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,6 +445,16 @@
         ],
         "outcome": "Schweizisk SFO fuldt operationelt i Zug. 3 uafhængige direktører indsat. Governance-ramme ratificeret af alle familiegrene. Konsolideret rapportering på tværs af alle jurisdiktioner. Løbende aftale om kvartalsvis governance og årlig gennemgang."
       }
+    },
+    "labels": {
+      "case": "Sag",
+      "timeline": "Tidslinje",
+      "month": "Måned",
+      "week": "Uge",
+      "ongoing": "Løbende",
+      "keyChallenges": "Centrale udfordringer",
+      "servicesEngaged": "Anvendte ydelser",
+      "outcome": "Resultat"
     }
   },
   "services": {
@@ -504,7 +523,7 @@
         "tags": [
           "Planlægning før exit",
           "Strukturering af aktiver",
-          "Forfait Fiscal"
+          "Forfait Fiskal"
         ]
       },
       "family": {
@@ -532,7 +551,7 @@
         "age": "Flere generationer",
         "description": "Etablerede family offices der søger et europæisk centrum for governance, arveplanlægning og formuestrukturering af institutionel karakter.",
         "tags": [
-          "Governance",
+          "Governance-struktur",
           "Arvefølge",
           "Institutionel"
         ]
@@ -631,12 +650,13 @@
   },
   "footer": {
     "tagline": "Eksklusiv relocationsrådgivning for fremtrædende enkeltpersoner og familier.",
-    "navigation": "Navigation",
+    "navigation": "Menu",
     "legal": "Juridisk",
     "languages": "Sprog",
     "rights": "Alle rettigheder forbeholdes.",
     "company": "En tjeneste af WorkWorkWork AG",
-    "disclaimer": "Tjenesterne er begrænset til generel finansiel oplysning og strategisk vejledning og udgør ikke finansielle tjenesteydelser i henhold til loven om finansielle tjenesteydelser (FIDLEG). Der ydes især ingen rådgivning om specifikke finansielle instrumenter, ingen porteføljepleje og ingen eksekvering eller formidling af ordrer."
+    "disclaimer": "Tjenesterne er begrænset til generel finansiel oplysning og strategisk vejledning og udgør ikke finansielle tjenesteydelser i henhold til loven om finansielle tjenesteydelser (FIDLEG). Der ydes især ingen rådgivning om specifikke finansielle instrumenter, ingen porteføljepleje og ingen eksekvering eller formidling af ordrer.",
+    "trustSwissEntity": "Schweizisk registreret enhed"
   },
   "servicesMeta": {
     "title": "Vores ydelser — Flyt til Schweiz",
@@ -937,7 +957,7 @@
       },
       "swiss-residency-permits-guide": {
         "category": "immigration",
-        "categoryLabel": "Immigration",
+        "categoryLabel": "Indvandring",
         "readTime": "11 min. læsning",
         "date": "1. april 2026",
         "title": "Schweiziske opholdstilladelser: B-tilladelse, C-tilladelse og vejen til statsborgerskab",
@@ -1051,7 +1071,7 @@
             "content": "Schweiz er en af verdens førende jurisdiktioner for family offices og huser anslået 3.500–4.000 family office-strukturer, der samlet forvalter billioner af schweizerfranc i aktiver. Kombinationen af politisk stabilitet, bankinfrastruktur, retssikkerhed og en dyb pulje af kvalificerede professionelle gør Schweiz til det naturlige valg for familier, der ønsker at professionalisere deres formueforvaltning. Denne guide dækker de vigtigste overvejelser ved etablering af et schweizisk family office."
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "heading": "Single family office (SFO) kontra multi-family office (MFO)",
             "level": "2",
             "content": "Den første strukturelle beslutning er, om man skal etablere et single family office (SFO), der udelukkende betjener én familie, eller tilslutte sig et multi-family office (MFO), der betjener flere familier. Et SFO giver fuld kontrol over investeringsstrategi, governance og fortrolighed. Det kræver typisk aktiver under forvaltning på CHF 100 millioner eller mere for at være rentabelt, da driftsomkostningerne for et fuldt bemandet SFO (inklusive CEO, CIO, CFO, compliance og administration) kan ligge på CHF 1–3 millioner årligt. Et MFO tilbyder professionel formueforvaltning til flere familier, som deler omkostningerne til infrastruktur, compliance og ekspertise. MFO'er er velegnede til familier med CHF 20–100 millioner i aktiver, som ønsker forvaltning på institutionelt niveau uden de fulde omkostninger ved et dedikeret kontor. For familier i spændet CHF 100–500 millioner er en hybridløsning almindelig: Et dedikeret SFO til den centrale governance, familiekoordinering og strategiske beslutninger kombineret med MFO- eller bankpartnerskaber til selve investeringseksekveringen og specialiseret ekspertise."
           },
@@ -1122,5 +1142,1204 @@
     "message": "Vi bruger cookies til at forbedre Deres oplevelse. Nødvendige cookies kræves for at hjemmesiden kan fungere. Analyse-cookies hjælper os med at forbedre vores service.",
     "acceptAll": "Acceptér alle",
     "essentialOnly": "Kun nødvendige"
+  },
+  "contactCopy": {
+    "pageTitle": "Fortroligt flytteindtag",
+    "pageSubtitle": "Del det væsentlige privat, så vi kan vurdere den rigtige schweiziske vej før den første samtale.",
+    "confidential": "Alle henvendelser behandles med streng fortrolighed.",
+    "noSensitive": "Send ikke pas, kontoudtog eller følsomme dokumenter via denne formular.",
+    "serviceError": "Vælg venligst mindst ét ​​serviceområde.",
+    "sections": {
+      "situationTitle": "1. Din situation",
+      "situationText": "Det grundlæggende hjælper os med at dirigere forespørgslen korrekt uden at bede om følsom dokumentation.",
+      "coordinationTitle": "2. Hvad kræver koordinering",
+      "coordinationText": "Vælg hvert område, der kan være relevant. Et præcist svar er ikke påkrævet på dette tidspunkt.",
+      "responseTitle": "3. Sådan reagerer du",
+      "responseText": "Vi bruger kun disse oplysninger til at vurdere og besvare din forespørgsel."
+    },
+    "labels": {
+      "enquiryType": "Jeg spørger som",
+      "primaryGoal": "Primært mål",
+      "country": "Land for nuværende bopæl",
+      "nationality": "Nationalitet eller statsborgerskab",
+      "timeline": "Tidslinje",
+      "servicesNeeded": "Nødvendige tjenester",
+      "targetCanton": "Mål kanton eller by",
+      "familySize": "Familiemedlemmer flytter",
+      "existingAdvisors": "Eksisterende schweiziske rådgivere",
+      "name": "Fulde navn",
+      "email": "E-mail-adresse",
+      "phone": "Telefonnummer (valgfrit)",
+      "hearAbout": "Hvordan hørte du om os? (valgfrit)",
+      "preferredContact": "Foretrukket svar",
+      "message": "Din besked"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zürich, Schwyz, uafklaret...",
+      "familySize": "Bare mig, par, familie på 4...",
+      "message": "Hvad skal vi forstå før den første fortrolige samtale?"
+    },
+    "submit": "Indsend fortroligt indtag",
+    "privacyConsent": "Jeg giver samtykke til, at Move to Switzerland behandler disse oplysninger for at besvare min forespørgsel. Jeg forstår, at jeg ikke bør indsende følsomme dokumenter via denne formular.",
+    "aside": {
+      "title": "Privat anmeldelse",
+      "paragraphs": [
+        "Denne optagelse er designet til flytning, bopæl, skat, familiekontor og forespørgsler om forlig, hvor diskretion er vigtig.",
+        "En kortfattet første indsendelse er nok. Hvis sagen er passende, er næste trin en privat konsultation, før der anmodes om dokumenter."
+      ],
+      "items": [
+        "Fortrolig anmeldelse",
+        "Ingen offentlig modtageradresse afsløret",
+        "Ingen følsomme dokumenter anmodet om",
+        "Svar dirigeret gennem en privat server-side workflow"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Privatperson"
+        },
+        {
+          "value": "family-office",
+          "label": "Familiekontor"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Iværksætter"
+        },
+        {
+          "value": "advisor",
+          "label": "Rådgiver for en kunde"
+        },
+        {
+          "value": "other",
+          "label": "Andet"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Flyt mig selv eller min familie"
+        },
+        {
+          "value": "tax-residency",
+          "label": "schweizisk skatte- og opholdsplanlægning"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Opsætning af firma eller familiekontor"
+        },
+        {
+          "value": "settlement",
+          "label": "Fast ejendom, skoler og bosættelse"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Bank- og formuekoordinering"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Swiss Arrival-guiden"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Haster"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Under 3 måneder"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 måneder"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 måneder"
+        },
+        {
+          "value": "early-planning",
+          "label": "Tidlig planlægning"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Opholdstilladelse"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Engangsbeskatning"
+        },
+        {
+          "value": "company-formation",
+          "label": "Firmadannelse"
+        },
+        {
+          "value": "family-office",
+          "label": "Familiekontor"
+        },
+        {
+          "value": "real-estate",
+          "label": "Fast ejendom"
+        },
+        {
+          "value": "schooling",
+          "label": "Skoler"
+        },
+        {
+          "value": "private-banking",
+          "label": "Privatbank"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Sundhed concierge"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Fuld flyttekoordinering"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "E-mail"
+        },
+        {
+          "value": "phone",
+          "label": "Telefon"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Ja"
+        },
+        {
+          "value": "no",
+          "label": "Nej"
+        },
+        {
+          "value": "not-sure",
+          "label": "Ikke sikker"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Fortrolig schweizisk relocation intake - Move to Switzerland",
+      "description": "Send en privat schweizisk relocation inquiry om ophold, skat, family office, skoler, banking og etablering."
+    },
+    "progressTitle": "Intake status",
+    "optionalContextTitle": "Ekstra planlaegningskontekst",
+    "optionalContextText": "Valgfri intervaller er nok. Medtag ikke pas, kontoudtog eller følsomme dokumenter.",
+    "showOptional": "Tilfoj valgfri planlaegningskontekst",
+    "hideOptional": "Skjul valgfri kontekst",
+    "labels": {
+      "relocationYear": "Forventet flyttear",
+      "preferredCantons": "Foretrukne kantoner",
+      "advisoryScope": "Radgivningsomfang",
+      "schoolAgeRange": "Born der skal have skoleplads",
+      "urgencyReason": "Hvad driver timingen?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, fleksibel...",
+      "schoolAgeRange": "Alder 6 og 11, boarding mulighed, ingen børn...",
+      "urgencyReason": "Skoleår, skatteår, tilladelsestiming, ejendomssøgning..."
+    },
+    "validation": {
+      "required": "Udfyld venligst dette påkrævede felt.",
+      "email": "Indtast venligst en gyldig e-mailadresse.",
+      "servicesNeeded": "Vælg venligst mindst ét ​​serviceområde.",
+      "preferredContact": "Vælg venligst, hvordan vi skal reagere.",
+      "phoneRequired": "Tilføj venligst et telefonnummer eller vælg e-mail som det foretrukne svar.",
+      "consent": "Bekræft venligst fortrolighedssamtykket.",
+      "submitError": "Forespørgslen kunne ikke sendes lige nu. Prøv venligst igen senere."
+    },
+    "status": {
+      "sending": "Sender...",
+      "successTitle": "Henvendelse modtaget",
+      "successText": "Tak. Vi gennemgar henvendelsen privat og svarer via den valgte kanal."
+    },
+    "process": {
+      "title": "Hvad sker der så",
+      "intro": "En kort første indsendelse er nok. Hvis sagen er passende, er næste trin en privat konsultation, før der anmodes om dokumenter.",
+      "steps": [
+        "Privat gennemgang af flytteprofilen",
+        "Indledende egnethedsvurdering for kanton-, opholds-, skatte-, familie- og forretningsbehov",
+        "Fortroligt svar gennem den valgte svarkanal"
+      ]
+    },
+    "trust": {
+      "title": "Standarder for fortrolighed",
+      "items": [
+        "Schweizisk registreret enhed",
+        "Privat server-side routing",
+        "Ingen offentlig modtageradresse afsløret",
+        "Ingen følsomme dokumenter anmodet om via formularen",
+        "Ingen WhatsApp-overlevering"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal-only",
+          "label": "Kun personlig"
+        },
+        {
+          "value": "family",
+          "label": "Familie"
+        },
+        {
+          "value": "company",
+          "label": "Selskab"
+        },
+        {
+          "value": "family-office",
+          "label": "Familiekontor"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Uafklaret"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerne"
+        },
+        {
+          "value": "other",
+          "label": "Andre"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Jeg giver samtykke til, at Move to Switzerland behandler disse oplysninger for at svare på min forespørgsel og acceptere ",
+      "linkText": "privatlivspolitik",
+      "afterLink": ". Jeg forstår, at jeg ikke bør indsende følsomme dokumenter via denne formular."
+    },
+    "honeypotLabel": "Virksomhedens website"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Klar til at forstå den rigtige schweiziske rute?",
+      "creamText": "Start med en privat vurdering, eller brug guidestien, hvis du stadig er tidligt i beslutningen.",
+      "navyTitle": "Klar til at gøre Schweiz til en eksekverbar plan?",
+      "navyText": "Del det væsentlige privat, eller start med Swiss Arrival-guiden, hvis du stadig sammenligner muligheder.",
+      "privateAssessment": "Anmod om en privat vurdering",
+      "guide": "Få guiden til Swiss Arrival"
+    },
+    "home": {
+      "heroBadge": "Schweizisk flytningsrådgivning",
+      "heroTitle": "Flyt til Schweiz med tilladelser, skat, bank, skoler og afregning koordineret.",
+      "heroSubtitle": "Privat schweizisk-baseret rådgivning for iværksættere, formueindehavere, familier og familiekontorer, der flytter til Zürich, Zug, Schwyz, Genève, Vaud og videre.",
+      "heroProof": [
+        {
+          "label": "Schweizisk-baseret koordinering",
+          "value": "Zürich, Zug, Schwyz"
+        },
+        {
+          "label": "Privat indtag",
+          "value": "Ingen følsomme dokumenter"
+        },
+        {
+          "label": "Bygget til",
+          "value": "Grundlæggere, familier, familiekontorer"
+        },
+        {
+          "label": "Arbejdsstrømme",
+          "value": "Tilladelser, skat, bank, skoler"
+        }
+      ],
+      "planTitle": "Schweizisk flytteplan",
+      "planPeriod": "Første 30 dage",
+      "planRows": [
+        [
+          "01",
+          "Bopælsrute",
+          "B-tilladelse, familieinkludering, timing"
+        ],
+        [
+          "02",
+          "Kantonbeslutning",
+          "Skat, skole, bolig, pendling"
+        ],
+        [
+          "03",
+          "Bankberedskab",
+          "Kilde til rigdom historie og introduktioner"
+        ],
+        [
+          "04",
+          "Forlig",
+          "Bolig, forsikring, skoler, daglig opsætning"
+        ]
+      ],
+      "planFooter": "Målet er ikke mere rådgivning. Det er en sekvens, der forhindrer tilladelser, bank, skoler og boliger i at blokere hinanden.",
+      "trustStrip": [
+        "Privat vurdering",
+        "Schweizisk kanton sammenligning",
+        "Bankklar dokumentation",
+        "Familieafregning"
+      ],
+      "processTitle": "Fra første samtale til en schweizisk plan kan du udføre",
+      "processText": "Flytninger af høj værdi mislykkes, når arbejdsstrømme flyttes separat. Det første skridt er en klar driftsmodel, før nogen anmoder om dokumenter.",
+      "processSteps": [
+        {
+          "title": "Privat vurdering",
+          "text": "Vi kortlægger familie, virksomhed, statsborgerskab, tidslinje og følsomme begrænsninger, før der anmodes om dokumenter."
+        },
+        {
+          "title": "Schweizisk ruteplan",
+          "text": "Du får en praktisk kanton- og arbejdsrækkefølge, der dækker tilladelser, skat, bank, bolig, skoler og bosættelse."
+        },
+        {
+          "title": "Koordineret udførelse",
+          "text": "Ét ansvarligt punkt holder advokater, banker, skoler, fast ejendom og eksisterende rådgivere i den rigtige rækkefølge."
+        }
+      ],
+      "signalsBadge": "Hvad bliver koordineret",
+      "signalsTitle": "Specifik schweizisk udførelse, ikke generisk omplaceringssnak",
+      "signalsText": "Værdiforslaget er operationelt: færre kløfter mellem skat, tilladelser, bank, bolig, skoler og den første normale dag i Schweiz.",
+      "signals": [
+        "Kantonsammenligning før forpligtelse",
+        "Tillad tidslinje matchet med skoleoptagelse",
+        "Bankdokumentation udarbejdet før introduktioner",
+        "Boligsøgning i overensstemmelse med skatte- og pendlingsrealiteter",
+        "Eksisterende rådgivere holdt sig orienteret i stedet for at blive udskiftet",
+        "Ingen pas, kontoudtog eller følsomme filer via offentlige formularer"
+      ],
+      "pathsTitle": "Populære flyttestier",
+      "pathsText": "Besøgende med høj hensigt bør ikke skulle oversætte generiske servicesider til deres egen situation.",
+      "discussRoute": "Diskuter min rute"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Udgangspunkt",
+          "value": "Dubai, post-exit grundlægger"
+        },
+        {
+          "label": "schweizisk base",
+          "value": "Zug familiebolig"
+        },
+        {
+          "label": "Kernerisiko",
+          "value": "Krypto-rigdomsdokumentation"
+        },
+        {
+          "label": "Resultat",
+          "value": "Tilladelse, skole, bank, kontor aktiv"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Udgangspunkt",
+          "value": "Beirut, akut flytning"
+        },
+        {
+          "label": "schweizisk base",
+          "value": "Schwyz privatliv-første løsning"
+        },
+        {
+          "label": "Kernerisiko",
+          "value": "Tre-generations ejendom kompleksitet"
+        },
+        {
+          "label": "Resultat",
+          "value": "Familien afgjorde med schweizisk regeringsførelse"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Udgangspunkt",
+          "value": "Riyadh, kryptoinvestor"
+        },
+        {
+          "label": "schweizisk base",
+          "value": "Zürich lejlighed og GmbH"
+        },
+        {
+          "label": "Kernerisiko",
+          "value": "Ikke-traditionel formueprofil"
+        },
+        {
+          "label": "Resultat",
+          "value": "Permit og dobbelt bankopsætning"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Udgangspunkt",
+          "value": "Kuwait, multijurisdiktionskontor"
+        },
+        {
+          "label": "schweizisk base",
+          "value": "Zug enkeltfamiliekontor"
+        },
+        {
+          "label": "Kernerisiko",
+          "value": "Styring på tværs af generationer"
+        },
+        {
+          "label": "Resultat",
+          "value": "Schweizisk bestyrelse og rapportering live"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Kantonmatch-quiz",
+      "title": "Find den schweiziske rute, der er værd at diskutere først",
+      "description": "Et filter med fire spørgsmål til seriøse flyttemænd. Det vil ikke erstatte rådgivning, men det giver den første konsultation et skarpere udgangspunkt.",
+      "likelyRoute": "Sandsynligvis første rute",
+      "namePlaceholder": "Navn",
+      "emailPlaceholder": "E-mail",
+      "sendPlan": "Send planen",
+      "sending": "Sender",
+      "success": "Dit quizresultat blev sendt. Vi vil bruge det som kontekst til det første svar.",
+      "error": "Resultatet kunne ikke sendes lige nu.",
+      "fullIntake": "Gennemfør det fulde fortrolige indtag",
+      "guide": "Få guiden til Swiss Arrival",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Hvem flytter?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Grundlægger"
+            },
+            {
+              "value": "family",
+              "label": "Familie"
+            },
+            {
+              "value": "family-office",
+              "label": "Familiekontor"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Privat formue"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "Hvad betyder mest?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Skatteplanlægning"
+            },
+            {
+              "value": "schools",
+              "label": "Skoler"
+            },
+            {
+              "value": "privacy",
+              "label": "Privatliv"
+            },
+            {
+              "value": "business",
+              "label": "Forretningsopsætning"
+            },
+            {
+              "value": "urban",
+              "label": "Byadgang"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Nuværende base",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Danmark"
+            },
+            {
+              "value": "uae",
+              "label": "UAE"
+            },
+            {
+              "value": "uk",
+              "label": "Storbritannien"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "EU"
+            },
+            {
+              "value": "other",
+              "label": "Andet"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Forventet timing",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Haster"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Under 3 måneder"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 måneder"
+            },
+            {
+              "value": "early-planning",
+              "label": "Tidlig planlægning"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Danmark",
+        "uae": "Forenede Arabiske Emirater",
+        "uk": "Storbritannien",
+        "gcc": "GCC",
+        "eu": "Den Europæiske Union",
+        "other": "Andet eller ikke specificeret"
+      },
+      "results": {
+        "zug": {
+          "title": "Zug først, med Zürich som den praktiske backup",
+          "summary": "Dine svar peger mod Zug for skat, virksomhedsdannelse, bankadgang og grundlæggerinfrastruktur. Zürich bør forblive i sammenligningen, hvis skoler, ansættelser eller daglig adgang til byen har betydning."
+        },
+        "zurich": {
+          "title": "Zürich først, med Zug og Schwyz benchmarked",
+          "summary": "Dine svar peger mod Zürich for skoler, lufthavnsadgang, det internationale samfund, banktæthed og dagligdagen. Zug eller Schwyz kan stadig vinde, hvis privatlivets fred overstiger byens adgang."
+        },
+        "schwyz": {
+          "title": "Schwyz først, med Zug som operationel sammenligning",
+          "summary": "Dine svar peger mod Schwyz for privatliv, lavere skat og en roligere familiebase. Afvejningen er mindre institutionel tæthed end Zürich eller Zug, så sekvensering er vigtig."
+        },
+        "vaudGeneva": {
+          "title": "Vaud eller Genève først, med forfait gennemførlighed tjekket tidligt",
+          "summary": "Dine svar peger mod en fransktalende kanton, hvor engangsbeskatning, skoler og international familieinfrastruktur kan vurderes sammen, før du forpligter dig."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Hjem",
+      "takeQuiz": "Tag Canton fit-quizzen",
+      "startingPoint": "Udgangspunkt",
+      "likelyCantons": "Sandsynlige kantoner",
+      "questionsTitle": "Spørgsmålene, der skal besvares, før du forpligter dig",
+      "questionsText": "Seriøs flytningsplanlægning starter før formularer, lejekontrakter, skolebesøg eller bankintroduktioner. Det er de beslutninger, der normalt kører ruten.",
+      "workstreamSequence": "Workstream-sekvens",
+      "coordinateTitle": "Hvad vi koordinerer for denne rute",
+      "workstream": "Arbejdsstrøm",
+      "whyClientsUseUs": "Hvorfor kunder bruger os",
+      "valueTitle": "Værdien er koordinering, ikke en anden isoleret mening",
+      "compareRoute": "Sammenlign en anden rute",
+      "askSituation": "Spørg om min situation"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Danske stiftere og familier",
+        "title": "Flyt til Schweiz fra Danmark",
+        "description": "En praktisk vej for danske iværksættere, investorer og familier, der sammenligner schweizisk bopæl, skat, bank, skoler og bosættelser.",
+        "metaDescription": "Flytterådgivning for danske iværksættere og familier, der flytter til Schweiz. Sammenlign kantoner, tilladelser, skat, bank, skoler og bosættelser.",
+        "startingPoint": "Danmark",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zürich"
+        ],
+        "urgentQuestions": [
+          "Hvornår skal dansk skatteafgangsplanlægning begynde?",
+          "Hvilken schweizisk kanton passer til familieliv og virksomhedsejerskab?",
+          "Hvordan skal bankvirksomhed, skoler, boliger og tilladelser sekvenseres?"
+        ],
+        "workstreams": [
+          "Dansk exit og schweizisk indrejsetidslinje",
+          "Kanton-sammenligning for skat, skoler og lufthavnsadgang",
+          "Ansøgning om B-tilladelse og familieoptagelse",
+          "Private banking og kilde-til-formue forberedelse"
+        ],
+        "proofPoints": [
+          "Bygget til grænseoverskridende stiftere, der har brug for én ansvarlig koordinator",
+          "Dækker praktisk afregning, ikke kun skatteteori",
+          "Designet til familier, der har brug for skoletid håndteret tidligt"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "UAE-beboere og post-exit-stiftere",
+        "title": "Flyt til Schweiz fra UAE",
+        "description": "En koordineret flytterute for UAE-baserede grundlæggere, investorer og familier, der flytter rigdom, bopæl, skoler og regeringsførelse til Schweiz.",
+        "metaDescription": "Schweizisk flytningsrådgivning for UAE-beboere, grundlæggere og familier. Koordinere tilladelser, bankvirksomhed, formuedokumentation, skoler og valg af kantoner.",
+        "startingPoint": "UAE",
+        "likelyCantons": [
+          "Zug",
+          "Zürich",
+          "Genève"
+        ],
+        "urgentQuestions": [
+          "Hvordan skal formuekildedokumentation udarbejdes for schweiziske banker?",
+          "Kan en UAE-virksomhedsstruktur reorganiseres før schweizisk opholdstilladelse?",
+          "Hvilken kanton giver mening for familie-, bank- og forretningsadgang?"
+        ],
+        "workstreams": [
+          "Pre-immigration aktiv og virksomhedsgennemgang",
+          "Schweizisk bankberedskab og dokumentationsfortælling",
+          "Opholdstilladelse og familieflytningssekvens",
+          "International skole shortlisting og besøg"
+        ],
+        "proofPoints": [
+          "Stærk egnet til krypto, private equity og driftsselskabers rigdom",
+          "Parallel håndtering af tilladelser, bank, bolig og skoler",
+          "Nyttigt for familier, der flytter hurtigt efter en likviditetsbegivenhed"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "UK non-doms, stiftere og familiekontorer",
+        "title": "Flyt til Schweiz fra Storbritannien",
+        "description": "En schweizisk udflytningsvej for indbyggere i Storbritannien, der gennemgår skattemæssig bopæl, familieafregning, formueforvaltning, bankvirksomhed og langsigtet sikkerhed.",
+        "metaDescription": "Schweizisk flytningsrådgivning for britiske beboere, stiftere, non-doms og familiekontorer, der flytter til Schweiz. Planlæg bopæl, skat, bank og skoler.",
+        "startingPoint": "Storbritannien",
+        "likelyCantons": [
+          "Genève",
+          "Vaud",
+          "Zürich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Hvornår ophører Storbritanniens skattemæssige hjemsted, og det schweiziske skattemæssige hjemsted begynder?",
+          "Er engangsbeskatning levedygtig for familieprofilen?",
+          "Hvilken skole- og kantonkombination beskytter familiens tidslinje?"
+        ],
+        "workstreams": [
+          "UK afgang og schweizisk ankomsttidslinje",
+          "Forfait finanspolitisk gennemførlighedsgennemgang",
+          "Sammenligning af skole, boliger og kantoner",
+          "Bankvirksomhed, ledelse og rådgiverkoordinering"
+        ],
+        "proofPoints": [
+          "Bygget til familier, der har brug for et rent træk, ikke fragmenteret rådgivning",
+          "Forbinder schweiziske livsstilsbeslutninger med skatte- og bankrealiteter",
+          "Holder eksisterende britiske rådgivere koordineret med schweizisk udførelse"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Saudiarabiske grundlæggere, investorer og familier",
+        "title": "Flyt til Schweiz fra Saudi-Arabien",
+        "description": "En schweizisk flytterute for saudiske iværksættere og familier, der koordinerer ophold, bankberedskab, skoler, boliger og valg af kantoner.",
+        "metaDescription": "Schweizisk flytningsrådgivning for saudiske grundlæggere, investorer og familier. Plantilladelser, bankvirksomhed, skoler, skat, boliger og valg af kantoner.",
+        "startingPoint": "Saudi-Arabien",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hvilken schweizisk kanton passer til familiens skole-, privatlivs- og bankprioriteter?",
+          "Hvordan skal Saudi source-of-wealth-dokumentation udarbejdes før bankintroduktioner?",
+          "Kan tilladelser, boliger, skoler og rådgiverkoordinering flytte parallelt?"
+        ],
+        "workstreams": [
+          "Saudi afgang og schweizisk ankomst tidslinje",
+          "Bankberedskab og formuedokumentationsfortælling",
+          "Skole, bolig og kanton sammenligning",
+          "Tilladelsesansøgning, forsikring og afregningsrækkefølge"
+        ],
+        "proofPoints": [
+          "Designet til familier, der flytter betydelige aktiver og dagligdag sammen",
+          "Holder bank, tilladelser, skoler og boliger i én koordineret rækkefølge",
+          "Nyttigt før følsomme dokumenter deles med banker eller rådgivere"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Qatar-baserede privatkunder",
+        "title": "Flyt til Schweiz fra Qatar",
+        "description": "En diskret vej for Qatar-baserede familier, ledere og investorer, der sammenligner schweizisk bopæl, private banking, skolegang og bosættelse.",
+        "metaDescription": "Schweizisk flytningsrådgivning for Qatar-baserede familier og investorer. Koordinere tilladelser, private banking, skoler, boliger og kantonvalg.",
+        "startingPoint": "Qatar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Hvilken kanton tilbyder den rigtige blanding af diskretion, skoler og bankadgang?",
+          "Hvordan skal eksisterende GCC-rådgivere forblive koordinerede med den schweiziske udførelse?",
+          "Hvad skal løses før skolebesøg eller boligtilsagn?"
+        ],
+        "workstreams": [
+          "Opholdsvej og familieinklusion",
+          "Private banking parathed og rådgiverkoordinering",
+          "International skole shortlist og besøgsplan",
+          "Bolig, forsikring, sundhedspleje og daglig afregning"
+        ],
+        "proofPoints": [
+          "Bygget til kunder, der værdsætter diskretion før offentlige forpligtelser",
+          "Forbinder livsstilsbeslutninger med bank- og tilladelsestiming",
+          "Holder eksisterende familiekontor eller juridiske rådgivere på linje"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Kuwaitiske familiekontorer og familier",
+        "title": "Flyt til Schweiz fra Kuwait",
+        "description": "En schweizisk flytnings- og regeringsrute for kuwaitiske familier, der koordinerer ophold, bank, arv, skoler og en stabil europæisk base.",
+        "metaDescription": "Schweizisk flytningsrådgivning for kuwaitiske familier og familiekontorer. Plantilladelser, private banking, regeringsførelse, skoler og afvikling.",
+        "startingPoint": "Kuwait",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Skal den schweiziske flytning struktureres omkring familiens bopæl, regeringsførelse eller begge dele?",
+          "Hvilken kanton passer bedst til privatliv, skat og familielogistik?",
+          "Hvordan skal bank-, bestyrelses- og rapporteringsarbejdsstrømme sekvenseres?"
+        ],
+        "workstreams": [
+          "Familieprofil og governance scoping",
+          "Kantonsammenligning for behov for bolig, privatliv og familiekontor",
+          "Private banking og source-of-wealth forberedelse",
+          "Skolegang, bolig, sundhedspleje og familieafvikling"
+        ],
+        "proofPoints": [
+          "Nyttigt for familier med flere generationer, der har brug for styring og flytning forbundet",
+          "Designet til fortrolig schweizisk opsætning før offentlige forpligtelser",
+          "Koordinerer familie-, bank-, bestyrelses- og bosættelsesafhængigheder"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Singapore-baserede grundlæggere og familiekontorer",
+        "title": "Flyt til Schweiz fra Singapore",
+        "description": "En rute for Singapore-baserede iværksættere og familiekontorer, der sammenligner Schweiz som en europæisk bolig-, bank-, regerings- og livsstilsbase.",
+        "metaDescription": "Schweizisk flytningsrådgivning for Singapore-baserede grundlæggere og familiekontorer. Sammenlign bopæl, skat, bank, regeringsførelse, skoler og kantoner.",
+        "startingPoint": "Singapore",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hvad ændrer sig, når en Singapore-base suppleres med schweizisk bopæl?",
+          "Hvilke arbejdsstrømme skal sekvenseres før familieflytning?",
+          "Hvordan skal bank- og regeringsførelse forberedes til et schweizisk-vendt setup?"
+        ],
+        "workstreams": [
+          "Singapore exit eller dual-base planlægning",
+          "Sammenligning af schweizisk bopæl og kanton",
+          "Bank-, governance- og rådgiverkoordinering",
+          "Skoler, bolig, forsikring og daglig afvikling"
+        ],
+        "proofPoints": [
+          "Bygget til kunder, der sammenligner to jurisdiktioner af høj kvalitet",
+          "Holder schweiziske livsstilsbeslutninger forbundet med bank og regeringsførelse",
+          "Nyttigt, før du forpligter dig til en kanton, lejekontrakt eller skolebane"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Hong Kong iværksættere og familier",
+        "title": "Flyt til Schweiz fra Hong Kong",
+        "description": "En privat schweizisk udflytningsvej for Hong Kong-stiftere, formueindehavere og familier, der søger en stabil europæisk base med stærke skoler og banker.",
+        "metaDescription": "Schweizisk flytningsrådgivning for Hong Kong-stiftere og -familier. Planlæg bopæl, bank, skoler, skat, bolig og kantonvalg.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hvilken schweizisk kanton passer til en international familie, der kommer fra Hong Kong?",
+          "Hvordan skal bankdokumentation og source-of-wealth-historik udarbejdes?",
+          "Hvad kan besluttes inden skolebesøg og boligsøgning?"
+        ],
+        "workstreams": [
+          "Hong Kong afgang og schweizisk ankomsttidslinje",
+          "Kantonsammenligning for skoler, skat, bank og dagligdag",
+          "Opholdstilladelse og familieinklusion",
+          "Private banking parathed, bolig og afvikling"
+        ],
+        "proofPoints": [
+          "Passer godt til familier, der prioriterer stabilitet, skoler og diskretion",
+          "Koordinerer praktisk afregning med bank og tilladelsesafhængigheder",
+          "Nyttigt før følsomme dokumenter rundsendes"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "US grundlæggere, ledere og familier",
+        "title": "Flyt til Schweiz fra USA",
+        "description": "En schweizisk flytterute for US-forbundne kunder, der har brug for omhyggelig koordinering omkring ophold, rådgivere, bank, skoler og løbende skattekompleksitet.",
+        "metaDescription": "Schweizisk flytningsrådgivning for US-stiftere og familier. Koordiner bopæl, bank, rådgivere, skoler, skattekompleksitet og afregning.",
+        "startingPoint": "USA",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Hvordan skal US skatte- og rapporteringsrådgivere forblive forbundet med den schweiziske plan?",
+          "Hvilken kanton passer til familiens skole-, bank- og rejsebehov?",
+          "Hvad skal afklares inden opholds- og boligtilsagn?"
+        ],
+        "workstreams": [
+          "US rådgiver og schweizisk rådgiver koordinering",
+          "Opholdsrute og familieinklusion",
+          "Kantonsammenligning for skoler, rejser og bankvirksomhed",
+          "Bankberedskab, bolig, sundhedspleje og afvikling"
+        ],
+        "proofPoints": [
+          "Bygget til tilfælde, hvor US rapporteringskompleksitet skal forblive synlig",
+          "Holder schweiziske beslutninger forbundet med eksisterende US-rådgivere",
+          "Nyttigt før bank-, bolig- eller skoleforpligtelser indgås"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "tyske iværksættere og familier",
+        "title": "Flyt til Schweiz fra Tyskland",
+        "description": "En praktisk schweizisk flytterute for tyske grundlæggere og familier, der sammenligner bopæl, kantonvalg, virksomhedsopsætning, skoler og grænseoverskridende timing.",
+        "metaDescription": "Schweizisk flytterådgivning for tyske iværksættere og familier. Planlæg bopæl, valg af kanton, skattetidspunkt, forretningsopsætning, skoler og bosættelse.",
+        "startingPoint": "Tyskland",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Hvornår skal tysk afrejseplanlægning og schweizisk opholdsplanlægning sekventeres?",
+          "Hvilken kanton passer til virksomhedsejerskab, familieliv og pendlingsmønstre?",
+          "Hvordan skal tilladelser, boliger, skoler og rådgivere koordineres?"
+        ],
+        "workstreams": [
+          "Tidslinje for tysk afgang og schweizisk ankomst",
+          "Kantonsammenligning for skat, skoler og forretningsdrift",
+          "Tilladelsesansøgning og familieoptagelse",
+          "Bolig-, forsikrings-, bank- og afregningsopsætning"
+        ],
+        "proofPoints": [
+          "Bedst for stiftere og familier, der har brug for at håndtere timing præcist",
+          "Forbinder kantonvalg med praktisk skole- og boligrealitet",
+          "Holder tyske og schweiziske rådgivere koordineret"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "norske stiftere og formuehavere",
+        "title": "Flyt til Schweiz fra Norge",
+        "description": "En schweizisk flytterute for norske iværksættere, investorer og familier, der vurderer skattemæssigt ophold, tilladelser, kantonvalg, skoler og bankvirksomhed.",
+        "metaDescription": "Schweizisk flytterådgivning for norske stiftere og familier. Koordinere skattemæssig bopæl, tilladelser, bankvirksomhed, skoler, valg af kantoner og afregning.",
+        "startingPoint": "Norge",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hvornår skal norsk udrejseplanlægning tilpasses den schweiziske opholdstid?",
+          "Hvilken kanton passer til privatliv, familieliv og skatteprioriteter?",
+          "Hvad skal koordineres før bankintroduktioner eller skolebeslutninger?"
+        ],
+        "workstreams": [
+          "Tidslinje for norsk afgang og schweizisk ankomst",
+          "Kantonsammenligning for familie-, skatte- og bankprioriteter",
+          "Opholdstilladelse og familieinklusion",
+          "Bankberedskab, bolig, skoler og afvikling"
+        ],
+        "proofPoints": [
+          "Bygget til formueindehavere, der har brug for skattetiming og familielogistik forbundet",
+          "Nyttigt, før du forpligter dig til en kanton eller skolebane",
+          "Koordinerer eksisterende rådgivere med schweizisk udførelse"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Grundlæggere flytter virksomhedsstof",
+        "title": "Flyt en virksomhed til Schweiz",
+        "description": "En grundlægger-ledet rute til at flytte virksomhedsstof, bestyrelsesopsætning, bankvirksomhed, tilladelser og familieflytning til én koordineret schweizisk plan.",
+        "metaDescription": "Flyt en virksomhed til Schweiz med koordineret rådgivning om virksomhedsstiftelse, substans, bank, opholdstilladelse, skat og familieflytning.",
+        "startingPoint": "Internationalt",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Skal det schweiziske selskab dannes før eller efter, at opholdsruten er klar?",
+          "Hvilken substans vil kantonen, banken og modparterne forvente?",
+          "Hvordan påvirker grundlæggertilladelser, familieflytning og virksomhedsbanker hinanden?"
+        ],
+        "workstreams": [
+          "Stifterprofil, virksomhedsstof og kantonpasningsanmeldelse",
+          "Virksomhedsdannelse, ledelse og bestyrelsesopsætning",
+          "Virksomhedsbankberedskab og dokumentation",
+          "Stiftertilladelse, familieflytning, bolig og bosætning"
+        ],
+        "proofPoints": [
+          "Bygget til grundlæggere, der har brug for ensartede arbejdsstrømme i virksomheden og familien",
+          "Forbinder substans, tilladelser, bankvirksomhed og afregning i den rigtige rækkefølge",
+          "Reducerer forsinkelser fra isoleret juridisk rådgivning, bank- og flytterådgivning"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Iværksættere og aktive virksomhedsejere",
+        "title": "Schweizisk opholdstilladelse for iværksættere",
+        "description": "En stifter-fokuseret rute gennem schweizisk bopæl, virksomhedssubstans, bank, formuekildedokumentation og familieafvikling.",
+        "metaDescription": "Rådgivning om schweizisk opholdstilladelse for iværksættere. Planlæg valg af kanton, virksomhedsdannelse, bankvirksomhed, tilladelser og familieflytning.",
+        "startingPoint": "Internationalt",
+        "likelyCantons": [
+          "Zug",
+          "Zürich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Skal det schweiziske selskab stiftes før eller efter indgivelse af tilladelse?",
+          "Hvilken økonomisk substans forventer kantonen?",
+          "Hvordan skal forretningsformue dokumenteres for banker og myndigheder?"
+        ],
+        "workstreams": [
+          "Stifterprofil og vurdering af kantonens pasform",
+          "Virksomhedsdannelse og ledelsesopsætning",
+          "Tilladelsesansøgning og familieoptagelse",
+          "Bankberedskab, leasing, forsikring og afregning"
+        ],
+        "proofPoints": [
+          "Bedst for stiftere, der har brug for ensartede forretnings- og familiearbejdsstrømme",
+          "Forbinder tilladelser med virksomhedens substans og bankers troværdighed",
+          "Reducerer forsinkelser fra ufuldstændig dokumentationssekvensering"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Personer med høj nettoværdi",
+        "title": "Engangsbeskatning i Schweiz",
+        "description": "En diskret planlægningsrute for berettigede udenlandske statsborgere, der vurderer forfait skattemæssige, kantonvalg, leveomkostningsgrundlag og opholdstidspunkt.",
+        "metaDescription": "Engangsbeskatningsrådgivning i Schweiz. Vurder mistet skattemæssig berettigelse, valg af kanton, beskatningsgrundlag, tilladelser og tidspunkt for flytning.",
+        "startingPoint": "Internationalt",
+        "likelyCantons": [
+          "Vaud",
+          "Genève",
+          "Valais",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Er forfait finanspolitisk realistisk for familieprofilen?",
+          "Hvilke kantoner er værd at nærme sig først?",
+          "Hvilke livsstils- og boligantagelser driver beskatningsgrundlaget?"
+        ],
+        "workstreams": [
+          "Berettigelse og kanton-shortliste",
+          "Skattekendelsesforberedelse og myndighedsdialog",
+          "Opholdstilladelse og boligkoordinering",
+          "Bank-, forsikrings- og årlig overholdelsesoverdragelse"
+        ],
+        "proofPoints": [
+          "Kombinerer skatteafgørelsesarbejde med den egentlige flytteplan",
+          "Holder kantonforhandlinger forbundet med livsstilsvirkelighed",
+          "Nyttigt før offentlige forpligtelser eller følsom dokumentation"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Grundlæggere, familiekontorer og kryptoinvestorer",
+        "title": "Flytterådgiver i Zug",
+        "description": "En fokuseret udflytningsvej for kunder, der overvejer Zug til skat, kryptobank, virksomhedsdannelse, internationale skoler og familieliv.",
+        "metaDescription": "Zug flytningsrådgiver for iværksættere, familiekontorer og kryptoinvestorer. Koordinere tilladelser, virksomhedsetablering, bank, skoler og boliger.",
+        "startingPoint": "Internationalt",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Er Zug den rigtige pasform, eller kun den oplagte?",
+          "Kan bank, skolepladser og bolig sikres på samme tidslinje?",
+          "Hvilket virksomhedsstof er nødvendigt for den planlagte struktur?"
+        ],
+        "workstreams": [
+          "Zug egnethedsvurdering mod Zürich, Schwyz og Vaud",
+          "Sekvensering af tilladelser og virksomhedsdannelse",
+          "Krypto-venlige og traditionelle bankintroduktioner",
+          "Skole, bolig, forsikring og daglig afregning"
+        ],
+        "proofPoints": [
+          "Designet til kunder, der har brug for hurtighed uden at miste diskretion",
+          "Balancerer lav skat-appel med praktisk familielogistik",
+          "Nyttigt for krypto-native rigdom og aktive driftsselskaber"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Dataansvarlig",
+        "text": "WorkWorkWork AG i Schweiz er ansvarlig for behandlingen af personoplysninger, der indsendes via denne hjemmeside."
+      },
+      {
+        "title": "2. Data vi indsamler",
+        "text": "Vi indsamler kun oplysninger, som frivilligt deles via formularen, såsom kontaktoplysninger, nuværende bopælsland, nationalitet, flyttemål, tidsplan, serviceinteresser og beskedindhold."
+      },
+      {
+        "title": "3. Formål med behandling",
+        "text": "Oplysningerne bruges til at vurdere henvendelsen, forberede et privat svar og koordinere relevant rådgivningsarbejde. Følsomme dokumenter bør ikke sendes via offentlige formularer."
+      },
+      {
+        "title": "4. Opbevaring",
+        "text": "Personoplysninger opbevares kun så længe, det er nødvendigt for at besvare henvendelsen, støtte et rådgivningsforhold eller overholde gældende lovkrav."
+      },
+      {
+        "title": "5. Dine rettigheder",
+        "text": "Efter schweizisk databeskyttelsesret og GDPR, hvor den gælder, kan du anmode om indsigt, rettelse, sletning eller begrænsning af behandlingen af dine personoplysninger."
+      },
+      {
+        "title": "6. Kontakt",
+        "text": "Privatlivs- og juridiske henvendelser kan sendes via kontaktformularen. De behandles privat uden at vise en offentlig e-mailadresse."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Registreret i handelsregistret i kantonen Schwyz, Schweiz.",
+      "contactTitle": "Kontakt",
+      "contactText": "Brug venligst den fortrolige kontaktformular til henvendelser. Offentlige e-mailadresser vises bevidst ikke på denne hjemmeside.",
+      "disclaimerTitle": "Ansvarsfraskrivelse",
+      "disclaimerText": "Indholdet på denne hjemmeside gives som generel information og orientering. Det udgør ikke skatte-, juridisk, investerings- eller finansiel rådgivning. Enhver beslutning om flytning bør gennemgås med kvalificerede professionelle rådgivere."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Schweiz",
+      "uae": "Forenede Arabiske Emirater",
+      "saudiArabia": "Saudi-Arabien",
+      "qatar": "Qatar",
+      "kuwait": "Kuwait",
+      "bahrain": "Bahrain"
+    }
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Praktisk Schweiz-guide for expats",
+    "metaDescription": "En praktisk e-bog for expats, der flytter til Schweiz, med styr på tilladelser, bolig, forsikring, skat, skole og de første administrative trin.",
+    "language": "Dansk",
+    "eyebrow": "Swiss Arrival",
+    "title": "Den praktiske expat-guide til at flytte til Schweiz",
+    "subtitle": "En klar e-bog til dig, der vil have den rigtige tjekliste: opholdstilladelse, bolig, sygeforsikring, skole, skat, de første administrative trin og de små detaljer, der er svære at se udefra.",
+    "primaryCta": "Skriv dig på listen",
+    "secondaryCta": "Se indholdet",
+    "briefingLabel": "Schweiz-briefing",
+    "proof": [
+      "Skrevet ud fra 13+ års erfaring med Schweiz",
+      "Lavet til EU-borgere og internationale expats",
+      "Kommer på dansk, engelsk, tysk og fransk"
+    ],
+    "problemKicker": "Virkeligheden først",
+    "problemTitle": "Lavet til den rodede fase før hverdagen falder på plads",
+    "problemBody": "Det svære ved at flytte til Schweiz er sjældent én umulig opgave. Det svære er, at alt hænger sammen: kanton, tilladelse, adresse, forsikring, skole, skat og bank. Swiss Arrival gør bunken af administration til en rolig rækkefølge.",
+    "chaptersKicker": "Inde i guiden",
+    "chaptersTitle": "Det e-bogen hjælper dig med",
+    "chapters": [
+      {
+        "title": "Før du flytter",
+        "body": "Vælg kanton, forstå tilladelser, forbered dokumenter og undgå boligfejl, der kan forsinke processen."
+      },
+      {
+        "title": "De første 30 dage",
+        "body": "Registrering, sygeforsikring, bankkonto, telefon, internet og de vigtigste dokumenter i den rigtige rækkefølge."
+      },
+      {
+        "title": "Penge og papirarbejde",
+        "body": "Få overblik over schweiziske omkostninger, løn, depositum, skat, obligatorisk forsikring og hvad der haster først."
+      },
+      {
+        "title": "Familie og hverdag",
+        "body": "Skole, børnepasning, transport, sprog, indkøb, adgang til læge og de rutiner, der gør landet lettere at bo i."
+      }
+    ],
+    "timelineKicker": "Rækkefølge",
+    "timelineTitle": "En enkel flytteplan",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Planlæg flytningen",
+        "body": "Find ud af hvor du bør lande, hvilke papirer der kræves, og hvad der kan vente til efter ankomst."
+      },
+      {
+        "label": "02",
+        "title": "Få styr på det vigtigste",
+        "body": "Bolig, registrering, forsikring og bank skal tages i en rækkefølge, der ikke bremser processen."
+      },
+      {
+        "label": "03",
+        "title": "Kom ordentligt på plads",
+        "body": "Gå fra overlevelse til hverdag med skole, transport, sundhed, skat og lokale rutiner under kontrol."
+      }
+    ],
+    "bundleKicker": "Digitalt produkt",
+    "bundleTitle": "Lancering",
+    "bundleBody": "Første version er planlagt som et praktisk digitalt produkt, ikke endnu en løs inspirationsguide.",
+    "bundleItems": [
+      "Swiss Arrival e-bogen",
+      "Tjekliste til første måned",
+      "Worksheet til valg af kanton",
+      "Planlægger til udgifter og depositum"
+    ],
+    "finalTitle": "Få besked når Swiss Arrival åbner",
+    "finalBody": "Siden bliver gjort klar nu. Skriv dig på listen, så sender vi detaljerne, når første udgave er klar.",
+    "finalCta": "Kontakt os"
+  },
+  "swissArrivalNav": {
+    "guide": "Guiden",
+    "contact": "Kontakt",
+    "cta": "Skriv dig på listen"
+  },
+  "swissArrivalFooter": {
+    "tagline": "En praktisk digital guide til expats, der forbereder en flytning til Schweiz.",
+    "rights": "Alle rettigheder forbeholdes.",
+    "company": "Et WorkWorkWork AG-projekt"
   }
 }

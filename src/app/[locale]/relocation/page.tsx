@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { ConversionLink } from '@/components/ConversionLink';
-import { ItemListSchema, ServiceSchema } from '@/components/StructuredData';
+import { ItemListSchema, ServiceSchema, getAreaCountries } from '@/components/StructuredData';
 import { getConversionCopy, getRelocationPaths } from '@/lib/conversion-copy';
 
 type Props = {
@@ -32,6 +32,7 @@ export default async function RelocationHubPage({ params }: Props) {
   const { locale } = await params;
   const copy = getConversionCopy(locale);
   const paths = getRelocationPaths(locale);
+  const areaCountries = getAreaCountries(locale);
   const featured = paths.slice(0, 6);
   const specialist = paths.slice(6);
 
@@ -49,7 +50,15 @@ export default async function RelocationHubPage({ params }: Props) {
         name={copy.home.pathsTitle}
         description={copy.home.pathsText}
         url={baseUrl + '/' + locale + '/relocation'}
-        areaServed={['Switzerland', 'Zurich', 'Zug', 'Schwyz', 'Geneva', 'Vaud']}
+        areaServed={[
+          { name: areaCountries.switzerland, type: 'Country' },
+          { name: 'Zurich' },
+          { name: 'Zug' },
+          { name: 'Schwyz' },
+          { name: 'Geneva' },
+          { name: 'Vaud' },
+        ]}
+        audienceType={copy.home.heroSubtitle}
       />
 
       <section className="bg-navy pb-20 pt-36">

@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/routing';
 import { ConsultationCta } from '@/components/ConsultationCta';
-import { ServiceSchema } from '@/components/StructuredData';
+import { ServiceSchema, getAreaCountries } from '@/components/StructuredData';
 import {
   serviceKeys,
   serviceSlugs,
@@ -75,6 +75,7 @@ async function ServiceDetailContent({
 function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; locale: string }) {
   const t = useTranslations();
   const currentIndex = serviceKeys.indexOf(serviceKey);
+  const areaCountries = getAreaCountries(locale);
 
   const prevKey = currentIndex > 0 ? serviceKeys[currentIndex - 1] : null;
   const nextKey = currentIndex < serviceKeys.length - 1 ? serviceKeys[currentIndex + 1] : null;
@@ -86,6 +87,8 @@ function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; loca
         description={t(`services.items.${serviceKey}.description`)}
         url={'https://move-to-switzerland.com/' + locale + '/services/' + serviceSlugs[serviceKey]}
         serviceType={t(`services.items.${serviceKey}.title`)}
+        areaServed={[{ name: areaCountries.switzerland, type: 'Country' }]}
+        audienceType={t('clients.subtitle')}
       />
 
       {/* Header */}

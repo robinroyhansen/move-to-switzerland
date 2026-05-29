@@ -302,7 +302,7 @@ export default function ContactPage() {
                       <input type="hidden" name="formStartedAt" value={startedAt} />
                       <div className="sr-only" aria-hidden="true">
                         <label>
-                          Company website
+                          {enhanced.honeypotLabel}
                           <input type="text" name="companyWebsite" tabIndex={-1} autoComplete="off" />
                         </label>
                       </div>

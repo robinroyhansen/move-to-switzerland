@@ -21,6 +21,13 @@ type CaseStudiesContentProps = {
 
 export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
   const t = useTranslations();
+  const formatTimelineStep = (step: string) => {
+    if (step === 'ongoing') return t('caseStudiesPage.labels.ongoing');
+    if (step === 'month15') return `${t('caseStudiesPage.labels.month')} 1.5`;
+    return step
+      .replace(/month(\d+)/, `${t('caseStudiesPage.labels.month')} $1`)
+      .replace(/week(\d+)/, `${t('caseStudiesPage.labels.week')} $1`);
+  };
 
   return (
     <>
@@ -69,7 +76,7 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
                 {/* Case number badge */}
                 <div className="flex items-center gap-3 mb-6">
                   <span className="text-xs text-gold/60 font-medium tracking-[0.2em] uppercase">
-                    Case {String(idx + 1).padStart(2, '0')}
+                    {t('caseStudiesPage.labels.case')} {String(idx + 1).padStart(2, '0')}
                   </span>
                   <div className="h-px flex-1 bg-gold/15" />
                 </div>
@@ -127,7 +134,9 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
                     {/* Timeline */}
                     <div>
                       <h3 className="flex items-center gap-3 mb-6">
-                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">Timeline</span>
+                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">
+                          {t('caseStudiesPage.labels.timeline')}
+                        </span>
                         <div className="h-px flex-1 bg-gold/10" />
                       </h3>
                       <div className="relative ps-8">
@@ -140,7 +149,7 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
                               <div className="absolute -start-8 top-1.5 w-[15px] h-[15px] rounded-full border-2 border-gold bg-white" />
                               <div>
                                 <p className="text-xs text-gold font-medium uppercase tracking-wider mb-1">
-                                  {step.replace(/month(\d+)/, 'Month $1').replace(/week(\d+)/, 'Week $1').replace(/ongoing/, 'Ongoing').replace(/month15/, 'Month 1.5')}
+                                  {formatTimelineStep(step)}
                                 </p>
                                 <p className="text-sm text-charcoal/60 leading-relaxed">{description}</p>
                               </div>
@@ -153,7 +162,9 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
                     {/* Challenges */}
                     <div>
                       <h3 className="flex items-center gap-3 mb-5">
-                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">Key Challenges</span>
+                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">
+                          {t('caseStudiesPage.labels.keyChallenges')}
+                        </span>
                         <div className="h-px flex-1 bg-gold/10" />
                       </h3>
                       <div className="space-y-3">
@@ -171,7 +182,9 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
                     {/* Services Used */}
                     <div>
                       <h3 className="flex items-center gap-3 mb-5">
-                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">Services Engaged</span>
+                        <span className="text-xs text-gold uppercase tracking-[0.2em] font-medium">
+                          {t('caseStudiesPage.labels.servicesEngaged')}
+                        </span>
                         <div className="h-px flex-1 bg-gold/10" />
                       </h3>
                       <div className="flex flex-wrap gap-2">
@@ -188,7 +201,9 @@ export function CaseStudiesContent({ caseSnapshots }: CaseStudiesContentProps) {
 
                     {/* Outcome */}
                     <div className="bg-navy rounded-lg p-6 sm:p-8">
-                      <h3 className="text-xs text-gold uppercase tracking-[0.2em] font-medium mb-4">Outcome</h3>
+                      <h3 className="text-xs text-gold uppercase tracking-[0.2em] font-medium mb-4">
+                        {t('caseStudiesPage.labels.outcome')}
+                      </h3>
                       <p className="text-text-light/60 leading-relaxed text-sm">
                         {t(`caseStudiesPage.cases.${caseKey}.outcome`)}
                       </p>

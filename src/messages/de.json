@@ -14,7 +14,9 @@
     "privacy": "Datenschutz",
     "imprint": "Impressum",
     "beginJourney": "Beginnen Sie Ihre Reise",
-    "insights": "Einblicke"
+    "insights": "Einblicke",
+    "menu": "Menü umschalten",
+    "closeMenu": "Menü schließen"
   },
   "hero": {
     "headline": "Ihr Weg in die Schweiz",
@@ -93,7 +95,7 @@
     "education": {
       "title": "Bildungssystem",
       "subtitle": "Erstklassiges Lernen für die nächste Generation",
-      "stat1": "Top 3",
+      "stat1": "Unter den Top 3",
       "stat1Label": "Universitäten weltweit (ETH Zürich)",
       "stat2": "50+",
       "stat2Label": "Internationale Schulen",
@@ -131,7 +133,7 @@
       "subtitle": "Sicherheit, Infrastruktur und natürliche Schönheit ohne Kompromisse",
       "stat1": "#1",
       "stat1Label": "Globale Lebensqualität",
-      "stat2": "Top 3",
+      "stat2": "Unter den Top 3",
       "stat2Label": "Sicherste Länder weltweit",
       "stat3": "99.9%",
       "stat3Label": "Pünktlichkeit des öffentlichen Verkehrs",
@@ -305,6 +307,13 @@
           "bestFor": "Familien, die einen lebenswerten Standort mit Gesundheitswesen, Schulen, Flughafenzugang und weiterhin wettbewerbsfähigen Steuern suchen."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Unternehmen",
+      "personalIncome": "Einkommensteuer",
+      "lumpSum": "Pauschalbesteuerung",
+      "priceRange": "Preisspanne",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,6 +445,16 @@
         ],
         "outcome": "Schweizer SFO in Zug voll einsatzfähig. 3 unabhängige Verwaltungsräte platziert. Governance-Rahmen von allen Familienzweigen ratifiziert. Konsolidiertes Berichtswesen über alle Jurisdiktionen hinweg. Laufendes Mandat für quartalsweise Governance und jährliche Prüfung."
       }
+    },
+    "labels": {
+      "case": "Fall",
+      "timeline": "Zeitplan",
+      "month": "Monat",
+      "week": "Woche",
+      "ongoing": "Laufend",
+      "keyChallenges": "Zentrale Herausforderungen",
+      "servicesEngaged": "Eingesetzte Dienstleistungen",
+      "outcome": "Ergebnis"
     }
   },
   "services": {
@@ -504,7 +523,7 @@
         "tags": [
           "Pre-Exit-Planung",
           "Vermögensstrukturierung",
-          "Forfait Fiscal"
+          "Finanzielle Forfaitierung"
         ]
       },
       "family": {
@@ -524,7 +543,7 @@
         "tags": [
           "Krypto",
           "Digitale Assets",
-          "Lifestyle"
+          "Lebensstil"
         ]
       },
       "familyOffice": {
@@ -532,7 +551,7 @@
         "age": "Mehrgenerational",
         "description": "Etablierte Family Offices, die eine europäische Governance-Drehscheibe, Nachfolgeplanung und eine institutionelle Vermögensstrukturierung suchen.",
         "tags": [
-          "Governance",
+          "Regierungsführung",
           "Nachfolge",
           "Institutionell"
         ]
@@ -631,12 +650,13 @@
   },
   "footer": {
     "tagline": "Erstklassige Relocation-Beratung für anspruchsvolle Einzelpersonen und Familien.",
-    "navigation": "Navigation",
+    "navigation": "Menü",
     "legal": "Rechtliches",
     "languages": "Sprachen",
     "rights": "Alle Rechte vorbehalten.",
     "company": "Ein Dienst der WorkWorkWork AG",
-    "disclaimer": "Die Dienstleistungen beschränken sich auf allgemeine Finanzausbildung und strategische Beratung und stellen keine Finanzdienstleistungen im Sinne des Finanzdienstleistungsgesetzes (FIDLEG) dar. Insbesondere erfolgt keine Beratung zu spezifischen Finanzinstrumenten, keine Vermögensverwaltung und keine Ausführung oder Übermittlung von Aufträgen."
+    "disclaimer": "Die Dienstleistungen beschränken sich auf allgemeine Finanzausbildung und strategische Beratung und stellen keine Finanzdienstleistungen im Sinne des Finanzdienstleistungsgesetzes (FIDLEG) dar. Insbesondere erfolgt keine Beratung zu spezifischen Finanzinstrumenten, keine Vermögensverwaltung und keine Ausführung oder Übermittlung von Aufträgen.",
+    "trustSwissEntity": "In der Schweiz registrierte Gesellschaft"
   },
   "servicesMeta": {
     "title": "Unsere Dienstleistungen — Umzug in die Schweiz",
@@ -835,7 +855,7 @@
       },
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
-        "categoryLabel": "Relocation",
+        "categoryLabel": "Verlegung",
         "readTime": "9 Min. Lesezeit",
         "date": "1. April 2026",
         "title": "Wie lange dauert ein Umzug in die Schweiz? Ein realistischer Zeitplan",
@@ -886,7 +906,7 @@
       },
       "opening-swiss-private-bank-account": {
         "category": "banking",
-        "categoryLabel": "Banking",
+        "categoryLabel": "Bankwesen",
         "readTime": "10 Min. Lesezeit",
         "date": "1. April 2026",
         "title": "Eröffnung eines Schweizer Private-Banking-Kontos: Anforderungen und Prozess",
@@ -988,7 +1008,7 @@
       },
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
-        "categoryLabel": "Relocation",
+        "categoryLabel": "Verlegung",
         "readTime": "9 Min. Lesezeit",
         "date": "1. April 2026",
         "title": "Warum vermögende Familien die VAE verlassen und in die Schweiz ziehen",
@@ -1051,7 +1071,7 @@
             "content": "Die Schweiz ist eine der weltweit führenden Jurisdiktionen für Family Offices und beheimatet schätzungsweise 3.500–4.000 Family-Office-Strukturen, die zusammen Billionen an Schweizer Franken verwalten. Die Kombination aus politischer Stabilität, Bankeninfrastruktur, Rechtssicherheit und einem tiefen Reservoir an qualifizierten Fachkräften macht die Schweiz zur natürlichen Wahl für Familien, die ihre Vermögensverwaltung professionalisieren möchten. Dieser Leitfaden behandelt die wichtigsten Überlegungen bei der Gründung eines Schweizer Family Office."
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs. Multi-Family Office (MFO)",
+            "heading": "Single Family Office (SFO) gegenüber Multi Family Office (MFO)",
             "level": "2",
             "content": "Die erste strukturelle Entscheidung ist, ob ein Single Family Office (SFO) gegründet werden soll, das ausschliesslich einer Familie dient, oder ob man sich einem Multi-Family Office (MFO) anschliesst, das mehrere Familien betreut. Ein SFO bietet die vollständige Kontrolle über die Anlagestrategie, die Governance und die Vertraulichkeit. Es erfordert in der Regel ein verwaltetes Vermögen von CHF 100 Millionen oder mehr, um kosteneffizient zu sein, da die Betriebskosten eines voll besetzten SFO (einschliesslich CEO, CIO, CFO, Compliance und Verwaltung) zwischen CHF 1 und 3 Millionen jährlich liegen können. Ein MFO bietet professionelle Vermögensverwaltungsdienste für mehrere Familien an, wobei die Kosten für Infrastruktur, Compliance und Fachwissen geteilt werden. MFOs eignen sich für Familien mit einem Vermögen von CHF 20–100 Millionen, die eine institutionelle Verwaltung wünschen, ohne die vollen Kosten eines eigenen Büros zu tragen. Für Familien im Bereich von CHF 100–500 Millionen ist ein hybrider Ansatz üblich: ein dediziertes SFO für die Kern-Governance, die Familienkoordination und strategische Entscheidungen, kombiniert mit Partnerschaften mit MFOs oder Privatbanken für die Anlageausführung und spezialisierte Expertise."
           },
@@ -1122,5 +1142,1204 @@
     "message": "Wir verwenden Cookies, um Ihr Erlebnis zu verbessern. Erforderliche Cookies sind für den Betrieb der Website notwendig. Analyse-Cookies helfen uns, unseren Service zu verbessern.",
     "acceptAll": "Alle akzeptieren",
     "essentialOnly": "Nur erforderliche"
+  },
+  "contactCopy": {
+    "pageTitle": "Vertrauliche Umzugsaufnahme",
+    "pageSubtitle": "Teilen Sie das Wesentliche privat mit, damit wir vor dem ersten Gespräch den richtigen Schweizer Weg einschätzen können.",
+    "confidential": "Alle Anfragen werden streng vertraulich behandelt.",
+    "noSensitive": "Senden Sie über dieses Formular keine Pässe, Kontoauszüge oder sensible Dokumente.",
+    "serviceError": "Bitte wählen Sie mindestens einen Servicebereich aus.",
+    "sections": {
+      "situationTitle": "1. Ihre Situation",
+      "situationText": "Die Grundlagen helfen uns, die Anfrage korrekt weiterzuleiten, ohne sensible Unterlagen anzufordern.",
+      "coordinationTitle": "2. Was koordiniert werden muss",
+      "coordinationText": "Wählen Sie jeden Bereich aus, der relevant sein könnte. Eine genaue Antwort ist zum jetzigen Zeitpunkt nicht erforderlich.",
+      "responseTitle": "3. So reagieren Sie",
+      "responseText": "Wir werden diese Informationen nur zur Beurteilung und Beantwortung Ihrer Anfrage verwenden."
+    },
+    "labels": {
+      "enquiryType": "Ich frage als",
+      "primaryGoal": "Hauptziel",
+      "country": "Land des aktuellen Wohnsitzes",
+      "nationality": "Nationalität oder Staatsbürgerschaft",
+      "timeline": "Zeitleiste",
+      "servicesNeeded": "Dienstleistungen erforderlich",
+      "targetCanton": "Zielkanton oder Stadt",
+      "familySize": "Familienmitglieder ziehen um",
+      "existingAdvisors": "Bestehende Schweizer Berater",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer (optional)",
+      "hearAbout": "Wie haben Sie von uns erfahren? (optional)",
+      "preferredContact": "Bevorzugte Antwort",
+      "message": "Ihre Nachricht"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zürich, Schwyz, unentschlossen...",
+      "familySize": "Nur ich, ein Paar, eine vierköpfige Familie ...",
+      "message": "Was sollten wir vor dem ersten vertraulichen Gespräch verstehen?"
+    },
+    "submit": "Senden Sie eine vertrauliche Aufnahme",
+    "privacyConsent": "Ich bin damit einverstanden, dass Move to Switzerland diese Informationen zur Beantwortung meiner Anfrage verarbeitet. Mir ist bewusst, dass ich über dieses Formular keine sensiblen Dokumente einreichen sollte.",
+    "aside": {
+      "title": "Private Rezension",
+      "paragraphs": [
+        "Diese Aufnahme ist für Umzugs-, Wohnsitz-, Steuer-, Family-Office- und Siedlungsanfragen gedacht, bei denen es auf Diskretion ankommt.",
+        "Eine prägnante erste Einreichung reicht aus. Wenn die Angelegenheit geeignet ist, ist der nächste Schritt ein persönliches Beratungsgespräch, bevor etwaige Unterlagen angefordert werden."
+      ],
+      "items": [
+        "Vertrauliche Rezension",
+        "Keine öffentliche Empfängeradresse offengelegt",
+        "Keine sensiblen Dokumente angefordert",
+        "Antwort wurde über einen privaten serverseitigen Workflow weitergeleitet"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Privatperson"
+        },
+        {
+          "value": "family-office",
+          "label": "Familienbüro"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Unternehmer"
+        },
+        {
+          "value": "advisor",
+          "label": "Berater für einen Kunden"
+        },
+        {
+          "value": "other",
+          "label": "Andere"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Ich oder meine Familie müssen umziehen"
+        },
+        {
+          "value": "tax-residency",
+          "label": "Schweizer Steuer- und Wohnsitzplanung"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Unternehmens- oder Family-Office-Gründung"
+        },
+        {
+          "value": "settlement",
+          "label": "Immobilien, Schulen und Siedlung"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Bank- und Vermögenskoordination"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Swiss Arrival-Guide"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Dringend"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Unter 3 Monaten"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 Monate"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 Monate"
+        },
+        {
+          "value": "early-planning",
+          "label": "Frühzeitige Planung"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Aufenthaltsgenehmigungen"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Pauschalbesteuerung"
+        },
+        {
+          "value": "company-formation",
+          "label": "Firmengründung"
+        },
+        {
+          "value": "family-office",
+          "label": "Familienbüro"
+        },
+        {
+          "value": "real-estate",
+          "label": "Immobilien"
+        },
+        {
+          "value": "schooling",
+          "label": "Schulen"
+        },
+        {
+          "value": "private-banking",
+          "label": "Privatbanking"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Gesundheits-Concierge"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Vollständige Umzugskoordination"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "E-Mail"
+        },
+        {
+          "value": "phone",
+          "label": "Telefon"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Ja"
+        },
+        {
+          "value": "no",
+          "label": "Nein"
+        },
+        {
+          "value": "not-sure",
+          "label": "Nicht sicher"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Vertrauliche Schweizer Relocation-Anfrage - Move to Switzerland",
+      "description": "Senden Sie eine private Schweizer Relocation-Anfrage zu Aufenthalt, Steuern, Family Office, Schulen, Banking und Ansiedlung."
+    },
+    "progressTitle": "Fortschritt der Anfrage",
+    "optionalContextTitle": "Zusatzkontext zur Planung",
+    "optionalContextText": "Optionale Angaben als Spanne genugen. Senden Sie keine Passe, Kontoauszuge oder sensiblen Dokumente.",
+    "showOptional": "Optionalen Planungskontext erganzen",
+    "hideOptional": "Optionalen Planungskontext ausblenden",
+    "labels": {
+      "relocationYear": "Erwartetes Umzugsjahr",
+      "preferredCantons": "Bevorzugte Kantone",
+      "advisoryScope": "Beratungsumfang",
+      "schoolAgeRange": "Kinder mit Schulplatzbedarf",
+      "urgencyReason": "Was bestimmt den Zeitplan?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, flexibel...",
+      "schoolAgeRange": "Alter 6 und 11, Internat, keine Kinder...",
+      "urgencyReason": "Schuljahr, Steuerjahr, Bewilligung, Immobiliensuche..."
+    },
+    "validation": {
+      "required": "Bitte fullen Sie dieses Pflichtfeld aus.",
+      "email": "Bitte geben Sie eine gultige E-Mail-Adresse ein.",
+      "servicesNeeded": "Bitte wahlen Sie mindestens einen Servicebereich aus.",
+      "preferredContact": "Bitte wahlen Sie, wie wir antworten sollen.",
+      "phoneRequired": "Bitte geben Sie eine Telefonnummer an oder wahlen Sie E-Mail als Antwortweg.",
+      "consent": "Bitte bestatigen Sie die Datenschutzeinwilligung.",
+      "submitError": "Die Anfrage konnte gerade nicht gesendet werden. Bitte versuchen Sie es spater erneut."
+    },
+    "status": {
+      "sending": "Wird gesendet...",
+      "successTitle": "Anfrage erhalten",
+      "successText": "Danke. Wir prufen die Anfrage vertraulich und antworten uber den gewahlten Kanal."
+    },
+    "process": {
+      "title": "Was als Nachstes geschieht",
+      "intro": "Eine kurze erste Anfrage reicht aus. Falls das Anliegen passt, folgt eine private Beratung, bevor Dokumente angefordert werden.",
+      "steps": [
+        "Vertrauliche Prufung des Relocation-Profils",
+        "Erste Einschatzung zu Kanton, Aufenthalt, Steuern, Familie und Unternehmen",
+        "Vertrauliche Antwort uber den gewahlten Kanal"
+      ]
+    },
+    "trust": {
+      "title": "Vertraulichkeitsstandard",
+      "items": [
+        "Schweizerisch registrierte Gesellschaft",
+        "Private serverseitige Weiterleitung",
+        "Keine offentliche Empfangeradresse",
+        "Keine sensiblen Dokumente uber dieses Formular",
+        "Keine WhatsApp-Ubergabe"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal-only",
+          "label": "Nur privat"
+        },
+        {
+          "value": "family",
+          "label": "Familie"
+        },
+        {
+          "value": "company",
+          "label": "Unternehmen"
+        },
+        {
+          "value": "family-office",
+          "label": "Family Office"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Noch offen"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerne"
+        },
+        {
+          "value": "other",
+          "label": "Andere"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Ich stimme zu, dass Move to Switzerland diese Informationen zur Beantwortung meiner Anfrage verarbeitet, und akzeptiere die ",
+      "linkText": "Datenschutzerklarung",
+      "afterLink": ". Ich verstehe, dass ich uber dieses Formular keine sensiblen Dokumente senden soll."
+    },
+    "honeypotLabel": "Unternehmenswebsite"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Bereit, die richtige Schweizer Route zu verstehen?",
+      "creamText": "Beginnen Sie mit einer privaten Beurteilung oder nutzen Sie den Leitfaden, wenn Sie noch am Anfang Ihrer Entscheidung stehen.",
+      "navyTitle": "Bereit, die Schweiz in einen umsetzbaren Plan zu verwandeln?",
+      "navyText": "Teilen Sie das Wesentliche privat mit oder beginnen Sie mit dem Swiss Arrival-Leitfaden, wenn Sie noch Optionen vergleichen.",
+      "privateAssessment": "Fordern Sie eine private Beurteilung an",
+      "guide": "Holen Sie sich den Swiss Arrival-Guide"
+    },
+    "home": {
+      "heroBadge": "Schweizer Umzugsberatung",
+      "heroTitle": "Umzug in die Schweiz mit koordinierten Genehmigungen, Steuern, Bankgeschäften, Schulen und Abwicklung.",
+      "heroSubtitle": "Private, in der Schweiz ansässige Beratung für Unternehmer, Vermögensinhaber, Familien und Family Offices, die nach Zürich, Zug, Schwyz, Genf, Waadt und darüber hinaus umziehen.",
+      "heroProof": [
+        {
+          "label": "Koordination in der Schweiz",
+          "value": "Zürich, Zug, Schwyz"
+        },
+        {
+          "label": "Private Aufnahme",
+          "value": "Keine sensiblen Dokumente"
+        },
+        {
+          "label": "Gebaut für",
+          "value": "Gründer, Familien, Family Offices"
+        },
+        {
+          "label": "Arbeitsabläufe",
+          "value": "Genehmigungen, Steuern, Bankwesen, Schulen"
+        }
+      ],
+      "planTitle": "Schweizer Umzugsplan",
+      "planPeriod": "Erste 30 Tage",
+      "planRows": [
+        [
+          "01",
+          "Residenzroute",
+          "B-Bewilligung, Familieneingliederung, Zeiteinteilung"
+        ],
+        [
+          "02",
+          "Kantonsentscheid",
+          "Steuern, Schule, Wohnen, Pendeln"
+        ],
+        [
+          "03",
+          "Bankbereitschaft",
+          "Geschichte und Einführungen zur Quelle des Reichtums"
+        ],
+        [
+          "04",
+          "Abrechnung",
+          "Wohnen, Versicherung, Schulen, tägliche Einrichtung"
+        ]
+      ],
+      "planFooter": "Das Ziel ist nicht mehr Beratung. Es handelt sich um eine Reihenfolge, die verhindert, dass Genehmigungen, Bankgeschäfte, Schulen und Wohnraum einander blockieren.",
+      "trustStrip": [
+        "Private Einschätzung",
+        "Schweizer Kantonsvergleich",
+        "Bankgerechte Dokumentation",
+        "Familiensiedlung"
+      ],
+      "processTitle": "Vom ersten Gespräch bis zum Schweizer Plan, den Sie umsetzen können",
+      "processText": "Verlagerungen mit hohem Wert schlagen fehl, wenn Arbeitsabläufe separat verschoben werden. Der erste Schritt ist ein klares Betriebsmodell, bevor jemand Dokumente anfordert.",
+      "processSteps": [
+        {
+          "title": "Private Einschätzung",
+          "text": "Wir erfassen die Familie, das Unternehmen, die Staatsbürgerschaft, den Zeitplan und sensible Einschränkungen, bevor Dokumente angefordert werden."
+        },
+        {
+          "title": "Schweizer Routenplan",
+          "text": "Sie erhalten eine praktische Kantons- und Arbeitsabfolge, die Genehmigungen, Steuern, Banken, Wohnen, Schulen und Siedlung umfasst."
+        },
+        {
+          "title": "Koordinierte Ausführung",
+          "text": "Eine verantwortliche Stelle sorgt dafür, dass Anwälte, Banken, Schulen, Immobilien und bestehende Berater in der richtigen Reihenfolge bleiben."
+        }
+      ],
+      "signalsBadge": "Was koordiniert wird",
+      "signalsTitle": "Spezifische Schweizer Ausführung, kein allgemeines Umsiedlungsgespräch",
+      "signalsText": "Das Wertversprechen ist umsetzbar: weniger Lücken zwischen Steuern, Genehmigungen, Bankgeschäften, Wohnraum, Schulen und dem ersten normalen Tag in der Schweiz.",
+      "signals": [
+        "Kantonsvergleich vor Verpflichtung",
+        "Der Zeitplan für die Genehmigung stimmt mit der Schulaufnahme überein",
+        "Bankunterlagen, die vor Einführungen erstellt wurden",
+        "Wohnungssuche im Einklang mit den steuerlichen und pendlerbezogenen Realitäten",
+        "Vorhandene Berater werden auf dem Laufenden gehalten, statt ersetzt",
+        "Keine Pässe, Kontoauszüge oder sensible Dateien über öffentliche Formulare"
+      ],
+      "pathsTitle": "Beliebte Umzugswege",
+      "pathsText": "Besucher mit hoher Absicht sollten generische Serviceseiten nicht in ihre eigene Situation übersetzen müssen.",
+      "discussRoute": "Besprechen Sie meine Route"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Ausgangspunkt",
+          "value": "Dubai, Post-Exit-Gründer"
+        },
+        {
+          "label": "Schweizer Basis",
+          "value": "Wohnsitz der Familie Zug"
+        },
+        {
+          "label": "Kernrisiko",
+          "value": "Krypto-Vermögensdokumentation"
+        },
+        {
+          "label": "Ergebnis",
+          "value": "Genehmigung, Schule, Bankwesen, Büro aktiv"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Ausgangspunkt",
+          "value": "Beirut, Notumsiedlung"
+        },
+        {
+          "label": "Schweizer Basis",
+          "value": "Schwyz Privacy-First-Vereinbarung"
+        },
+        {
+          "label": "Kernrisiko",
+          "value": "Komplexes Anwesen in drei Generationen"
+        },
+        {
+          "label": "Ergebnis",
+          "value": "Familie hat sich mit der Schweizer Regierung abgefunden"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Ausgangspunkt",
+          "value": "Riad, Krypto-Investor"
+        },
+        {
+          "label": "Schweizer Basis",
+          "value": "Zürich Wohnung und GmbH"
+        },
+        {
+          "label": "Kernrisiko",
+          "value": "Nicht-traditionelles Vermögensprofil"
+        },
+        {
+          "label": "Ergebnis",
+          "value": "Genehmigung und Dual-Banking-Einrichtung"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Ausgangspunkt",
+          "value": "Kuwait, Büro mit mehreren Gerichtsbarkeiten"
+        },
+        {
+          "label": "Schweizer Basis",
+          "value": "Zuger Single Family Office"
+        },
+        {
+          "label": "Kernrisiko",
+          "value": "Governance über Generationen hinweg"
+        },
+        {
+          "label": "Ergebnis",
+          "value": "Schweizer Vorstand und Berichterstattung live"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Canton-Fit-Quiz",
+      "title": "Finden Sie zuerst die Schweizer Route, die es wert ist, besprochen zu werden",
+      "description": "Ein Vier-Fragen-Filter für ernsthafte Umsteiger. Es wird die Beratung nicht ersetzen, aber es gibt der ersten Beratung einen schärferen Ausgangspunkt.",
+      "likelyRoute": "Wahrscheinlich erste Route",
+      "namePlaceholder": "Vollständiger Name",
+      "emailPlaceholder": "E-Mail",
+      "sendPlan": "Plan senden",
+      "sending": "Senden",
+      "success": "Ihr Quizergebnis wurde gesendet. Wir werden es als Kontext für die erste Antwort verwenden.",
+      "error": "Das Ergebnis konnte momentan nicht gesendet werden.",
+      "fullIntake": "Vervollständigen Sie die vollständige vertrauliche Aufnahme",
+      "guide": "Holen Sie sich den Swiss Arrival-Guide",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Wer zieht um?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Gründer"
+            },
+            {
+              "value": "family",
+              "label": "Familie"
+            },
+            {
+              "value": "family-office",
+              "label": "Familienbüro"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Privates Vermögen"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "Was ist am wichtigsten?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Steuerplanung"
+            },
+            {
+              "value": "schools",
+              "label": "Schulen"
+            },
+            {
+              "value": "privacy",
+              "label": "Datenschutz"
+            },
+            {
+              "value": "business",
+              "label": "Unternehmensgründung"
+            },
+            {
+              "value": "urban",
+              "label": "Zugang zur Stadt"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Aktuelle Basis",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Dänemark"
+            },
+            {
+              "value": "uae",
+              "label": "Vereinigte Arabische Emirate"
+            },
+            {
+              "value": "uk",
+              "label": "Großbritannien"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "EU"
+            },
+            {
+              "value": "other",
+              "label": "Andere"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Voraussichtlicher Zeitpunkt",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Dringend"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Unter 3 Monaten"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 Monate"
+            },
+            {
+              "value": "early-planning",
+              "label": "Frühzeitige Planung"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Dänemark",
+        "uae": "Vereinigte Arabische Emirate",
+        "uk": "Vereinigtes Königreich",
+        "gcc": "GCC",
+        "eu": "Europäische Union",
+        "other": "Andere oder nicht angegeben"
+      },
+      "results": {
+        "zug": {
+          "title": "Zug zuerst, mit Zürich als praktischem Ersatz",
+          "summary": "Ihre Antworten weisen in Bezug auf Steuern, Unternehmensgründung, Bankzugang und Gründerinfrastruktur auf Zug hin. Zürich sollte im Vergleich bleiben, wenn es um Schulen, Einstellungen oder den täglichen Zugang zur Stadt geht."
+        },
+        "zurich": {
+          "title": "Zürich zuerst, mit Zug und Schwyz als Benchmark",
+          "summary": "Ihre Antworten weisen in Bezug auf Schulen, Flughafenanbindung, internationale Gemeinschaft, Bankendichte und Alltag auf Zürich hin. Zug oder Schwyz könnten immer noch gewinnen, wenn die Steuerprivatsphäre Vorrang vor dem Zugang zur Stadt hat."
+        },
+        "schwyz": {
+          "title": "Schwyz zuerst, mit Zug als operativem Vergleich",
+          "summary": "Ihre Antworten deuten auf Schwyz hin, da es Privatsphäre, steuergünstigeres Wohnen und ein ruhigeres Familienleben bietet. Der Kompromiss besteht darin, dass die institutionelle Dichte geringer ist als in Zürich oder Zug, daher ist die Reihenfolge wichtig."
+        },
+        "vaudGeneva": {
+          "title": "Zuerst Waadt oder Genf, wobei die Machbarkeit einer Forfaitierung frühzeitig geprüft wird",
+          "summary": "Ihre Antworten deuten auf einen französischsprachigen Kanton hin, in dem Pauschalbesteuerung, Schulen und internationale Familieninfrastruktur vor der Verpflichtung gemeinsam beurteilt werden können."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Zuhause",
+      "takeQuiz": "Nehmen Sie am Kanton-Fit-Quiz teil",
+      "startingPoint": "Ausgangspunkt",
+      "likelyCantons": "Wahrscheinliche Kantone",
+      "questionsTitle": "Die Fragen, die vor dem Festschreiben beantwortet werden müssen",
+      "questionsText": "Eine ernsthafte Umzugsplanung beginnt vor Formularen, Mietverträgen, Schulbesuchen oder Bankvorstellungen. Dies sind die Entscheidungen, die normalerweise die Route bestimmen.",
+      "workstreamSequence": "Workstream-Sequenz",
+      "coordinateTitle": "Was wir für diese Route koordinieren",
+      "workstream": "Arbeitsstream",
+      "whyClientsUseUs": "Warum Kunden uns nutzen",
+      "valueTitle": "Der Wert liegt in der Koordination, nicht in einer weiteren isolierten Meinung",
+      "compareRoute": "Vergleichen Sie eine andere Route",
+      "askSituation": "Fragen Sie nach meiner Situation"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Dänische Gründer und Familien",
+        "title": "Umzug von Dänemark in die Schweiz",
+        "description": "Ein praktischer Weg für dänische Unternehmer, Investoren und Familien zum Vergleich von Wohnsitz, Steuern, Bankwesen, Schulen und Niederlassung in der Schweiz.",
+        "metaDescription": "Umzugsberatung für dänische Unternehmer und Familien, die in die Schweiz ziehen. Vergleichen Sie Kantone, Bewilligungen, Steuern, Banken, Schulen und Siedlungen.",
+        "startingPoint": "Dänemark",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zürich"
+        ],
+        "urgentQuestions": [
+          "Wann sollte die dänische Steuerausstiegsplanung beginnen?",
+          "Welcher Schweizer Kanton passt zum Familienleben und zum Unternehmertum?",
+          "Wie sollten Bankgeschäfte, Schulen, Wohnen und Genehmigungen geordnet werden?"
+        ],
+        "workstreams": [
+          "Zeitplan für den dänischen Austritt und den Schweizer Beitritt",
+          "Kantonsvergleich für Steuern, Schulen und Flughafenanbindung",
+          "B-Genehmigungsantrag und Familieneingliederung",
+          "Private Banking und Vermögensquellenvorbereitung"
+        ],
+        "proofPoints": [
+          "Entwickelt für grenzüberschreitende Gründer, die einen verantwortlichen Koordinator benötigen",
+          "Behandelt die praktische Abwicklung, nicht nur die Steuertheorie",
+          "Konzipiert für Familien, bei denen die Schulplanung frühzeitig geregelt werden muss"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "Einwohner der VAE und Gründer nach der Ausreise",
+        "title": "Umzug aus den VAE in die Schweiz",
+        "description": "Eine koordinierte Umzugsroute für in den VAE ansässige Gründer, Investoren und Familien, die Vermögen, Wohnsitz, Schulen und Verwaltung in die Schweiz verlegen.",
+        "metaDescription": "Schweizer Umzugsberatung für Einwohner, Gründer und Familien der VAE. Koordinieren Sie Genehmigungen, Bankgeschäfte, Vermögensdokumentation, Schulen und Kantonsauswahl.",
+        "startingPoint": "Vereinigte Arabische Emirate",
+        "likelyCantons": [
+          "Zug",
+          "Zürich",
+          "Genf"
+        ],
+        "urgentQuestions": [
+          "Wie sollte die Vermögensherkunftsdokumentation für Schweizer Banken erstellt werden?",
+          "Kann eine Unternehmensstruktur in den VAE vor der Niederlassung in der Schweiz neu organisiert werden?",
+          "Welcher Kanton ist für den Familien-, Bank- und Geschäftszugang sinnvoll?"
+        ],
+        "workstreams": [
+          "Vermögens- und Unternehmensüberprüfung vor der Einwanderung",
+          "Bericht über die Bereitschaft und Dokumentation des Schweizer Bankwesens",
+          "Reihenfolge der Aufenthaltsgenehmigung und des Familienumzugs",
+          "Auswahlliste und Besuche internationaler Schulen"
+        ],
+        "proofPoints": [
+          "Stark geeignet für Krypto, Private Equity und Vermögen von Betreibergesellschaften",
+          "Parallele Bearbeitung von Genehmigungen, Bankgeschäften, Wohnraum und Schulen",
+          "Nützlich für Familien, die nach einem Liquiditätsereignis schnell umziehen"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "Britische Non-Doms, Gründer und Family Offices",
+        "title": "Umzug aus dem Vereinigten Königreich in die Schweiz",
+        "description": "Ein Schweizer Umzugsweg für Einwohner des Vereinigten Königreichs, der die steuerliche Ansässigkeit, Familienansiedlung, Vermögensverwaltung, Bankgeschäfte und langfristige Sicherheit überprüft.",
+        "metaDescription": "Schweizer Umzugsberatung für britische Einwohner, Gründer, Non-Doms und Family Offices, die in die Schweiz ziehen. Planen Sie Wohnsitz, Steuern, Bankwesen und Schulen.",
+        "startingPoint": "Vereinigtes Königreich",
+        "likelyCantons": [
+          "Genf",
+          "Waadt",
+          "Zürich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Wann endet die steuerliche Ansässigkeit im Vereinigten Königreich und wann beginnt die steuerliche Ansässigkeit in der Schweiz?",
+          "Ist eine Pauschalbesteuerung für das Familienprofil sinnvoll?",
+          "Welche Kombination aus Schule und Kanton schützt die zeitliche Absicherung der Familie?"
+        ],
+        "workstreams": [
+          "Zeitleiste für Abflug im Vereinigten Königreich und Ankunft in der Schweiz",
+          "Prüfung der steuerlichen Machbarkeit von Forfait",
+          "Schul-, Wohn- und Kantonsvergleich",
+          "Bankwesen, Governance und Beraterkoordination"
+        ],
+        "proofPoints": [
+          "Entwickelt für Familien, die einen sauberen Umzug und keine fragmentierte Beratung benötigen",
+          "Verbindet Schweizer Lifestyle-Entscheidungen mit der Steuer- und Bankrealität",
+          "Sorgt dafür, dass bestehende britische Berater mit der Schweizer Ausführung koordiniert werden"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Saudische Gründer, Investoren und Familien",
+        "title": "Umzug von Saudi-Arabien in die Schweiz",
+        "description": "Eine Schweizer Umzugsroute für saudische Unternehmer und Familien, die Wohnsitz, Bankbereitschaft, Schulen, Wohnraum und Kantonsauswahl koordiniert.",
+        "metaDescription": "Schweizer Umzugsberatung für saudische Gründer, Investoren und Familien. Baugenehmigungen, Bankwesen, Schulen, Steuern, Wohnen und Kantonsauswahl.",
+        "startingPoint": "Saudi-Arabien",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Welcher Schweizer Kanton passt zu den Schul-, Privatsphäre- und Bankprioritäten der Familie?",
+          "Wie sollte die saudische source-of-wealth-Dokumentation vor der Bankeinführung vorbereitet werden?",
+          "Können Genehmigungen, Unterbringung, Schulen und Beraterkoordination parallel erfolgen?"
+        ],
+        "workstreams": [
+          "Zeitleiste für die Abreise aus Saudi-Arabien und die Ankunft in der Schweiz",
+          "Erzählung über Bankbereitschaft und Vermögensdokumentation",
+          "Schul-, Wohn- und Kantonsvergleich",
+          "Reihenfolge der Genehmigungsbeantragung, Versicherung und Abrechnung"
+        ],
+        "proofPoints": [
+          "Konzipiert für Familien, die bedeutende Vermögenswerte und das tägliche Leben gemeinsam bewegen",
+          "Hält Bankgeschäfte, Genehmigungen, Schulen und Wohnen in einer koordinierten Reihenfolge",
+          "Nützlich, bevor sensible Dokumente an Banken oder Berater weitergegeben werden"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Privatkunden mit Sitz in Katar",
+        "title": "Umzug von Katar in die Schweiz",
+        "description": "Ein diskreter Weg für in Katar ansässige Familien, Führungskräfte und Investoren zum Vergleich von Schweizer Wohnsitz, Private Banking, Schulbildung und Niederlassung.",
+        "metaDescription": "Schweizer Umzugsberatung für in Katar ansässige Familien und Investoren. Koordinieren Sie Bewilligungen, Private Banking, Schulen, Wohnraum und Kantonswahl.",
+        "startingPoint": "Katar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Welcher Kanton bietet die richtige Mischung aus Diskretion, Schulen und Bankzugang?",
+          "Wie sollten bestehende GCC-Berater mit der Schweizer Ausführung koordiniert bleiben?",
+          "Was sollte vor Schulbesuchen oder Wohnungsverpflichtungen geklärt werden?"
+        ],
+        "workstreams": [
+          "Aufenthaltsroute und Familienintegration",
+          "Private-Banking-Bereitschaft und Beraterkoordination",
+          "Auswahlliste und Besuchsplan für internationale Schulen",
+          "Wohnen, Versicherung, Gesundheitsversorgung und tägliche Abrechnung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Kunden, denen Diskretion wichtiger ist als öffentliche Verpflichtungen",
+          "Verbindet Lifestyle-Entscheidungen mit Bankgeschäften und der Genehmigungsplanung",
+          "Hält bestehende Family-Office- oder Rechtsberater auf dem Laufenden"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Kuwaitische Family Offices und Familien",
+        "title": "Umzug von Kuwait in die Schweiz",
+        "description": "Ein Schweizer Umzugs- und Governance-Weg für kuwaitische Familien, der Wohnsitz, Bankgeschäfte, Nachfolge, Schulen und eine stabile europäische Basis koordiniert.",
+        "metaDescription": "Schweizer Umzugsberatung für kuwaitische Familien und Family Offices. Plangenehmigungen, Private Banking, Governance, Schulen und Siedlung.",
+        "startingPoint": "Kuwait",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Sollte der Umzug in die Schweiz nach dem Wohnsitz der Familie, der Regierungsführung oder beidem strukturiert sein?",
+          "Welcher Kanton passt am besten zu Datenschutz, Steuern und Familienlogistik?",
+          "Wie sollten Bank-, Vorstands- und Berichtsarbeitsabläufe sequenziert werden?"
+        ],
+        "workstreams": [
+          "Familienprofil und Governance-Scoping",
+          "Kantonsvergleich für Wohn-, Privatsphäre- und Family-Office-Bedürfnisse",
+          "Private Banking und source-of-wealth-Vorbereitung",
+          "Schule, Wohnen, Gesundheitsversorgung und Familienansiedlung"
+        ],
+        "proofPoints": [
+          "Nützlich für Familien mit mehreren Generationen, die eine Verbindung zwischen Governance und Umzug benötigen",
+          "Konzipiert für vertrauliche Schweizer Einrichtung vor öffentlichen Verpflichtungen",
+          "Koordiniert Familien-, Bank-, Vorstands- und Siedlungsabhängigkeiten"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Gründer und Family Offices mit Sitz in Singapur",
+        "title": "Umzug von Singapur in die Schweiz",
+        "description": "Eine Route für in Singapur ansässige Unternehmer und Family Offices, die die Schweiz als europäischen Wohn-, Bank-, Governance- und Lifestyle-Standort vergleichen.",
+        "metaDescription": "Schweizer Umzugsberatung für in Singapur ansässige Gründer und Family Offices. Vergleichen Sie Wohnsitz, Steuern, Banken, Verwaltung, Schulen und Kantone.",
+        "startingPoint": "Singapur",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Was ändert sich, wenn eine Basis in Singapur durch einen Wohnsitz in der Schweiz ergänzt wird?",
+          "Welche Arbeitsabläufe müssen vor dem Familienumzug sequenziert werden?",
+          "Wie sollten Banking und Governance auf ein auf die Schweiz ausgerichtetes Setup vorbereitet sein?"
+        ],
+        "workstreams": [
+          "Ausstieg aus Singapur oder Dual-Base-Planung",
+          "Schweizer Wohnort- und Kantonsvergleich",
+          "Bank-, Governance- und Beraterkoordination",
+          "Schulen, Wohnen, Versicherungen und tägliche Abrechnung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Kunden, die zwei hochwertige Gerichtsbarkeiten vergleichen",
+          "Hält Schweizer Lifestyle-Entscheidungen mit Banking und Governance in Verbindung",
+          "Nützlich, bevor Sie sich auf einen Kanton, einen Pachtvertrag oder eine Schullaufbahn festlegen"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Unternehmer und Familien aus Hongkong",
+        "title": "Umzug von Hongkong in die Schweiz",
+        "description": "Ein privater Umzugsweg in die Schweiz für Gründer, Vermögensinhaber und Familien aus Hongkong, die eine stabile europäische Basis mit starken Schulen und Banken suchen.",
+        "metaDescription": "Schweizer Umzugsberatung für Gründer und Familien aus Hongkong. Planen Sie Wohnsitz, Bankwesen, Schulen, Steuern, Wohnraum und Kantonsauswahl.",
+        "startingPoint": "Hongkong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Welcher Schweizer Kanton passt zu einer internationalen Familie aus Hongkong?",
+          "Wie sollten die Bankunterlagen und der source-of-wealth-Verlauf vorbereitet werden?",
+          "Was kann vor Schulbesuchen und Wohnungssuchen entschieden werden?"
+        ],
+        "workstreams": [
+          "Abflugzeitplan für Hongkong und Ankunft in der Schweiz",
+          "Kantonsvergleich für Schule, Steuern, Bankwesen und Alltag",
+          "Aufenthaltsgenehmigungen und Familieneingliederung",
+          "Private-Banking-Bereitschaft, Wohnraum und Abwicklung"
+        ],
+        "proofPoints": [
+          "Gut geeignet für Familien, die Wert auf Stabilität, Schulen und Diskretion legen",
+          "Koordiniert die praktische Abwicklung mit Bank- und Genehmigungsabhängigkeiten",
+          "Nützlich, bevor sensible Dokumente in Umlauf gebracht werden"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "Gründer, Führungskräfte und Familien von US",
+        "title": "Umzug vom USA in die Schweiz",
+        "description": "Eine Schweizer Umzugsroute für mit US verbundene Kunden, die eine sorgfältige Koordination in Bezug auf Wohnsitz, Berater, Bankwesen, Schulen und anhaltende Steuerkomplexität benötigen.",
+        "metaDescription": "Schweizer Umzugsberatung für US-Gründer und -Familien. Koordinieren Sie Wohnsitz, Bankwesen, Berater, Schulen, Steuerkomplexität und Abrechnung.",
+        "startingPoint": "Vereinigte Staaten",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Wie sollten die Steuer- und Reportingberater von US mit dem Schweizer Plan in Verbindung bleiben?",
+          "Welcher Kanton passt zu den Schul-, Bank- und Reisebedürfnissen der Familie?",
+          "Was ist vor der Aufenthalts- und Wohnungszusage zu klären?"
+        ],
+        "workstreams": [
+          "US-Berater und Schweizer Beraterkoordination",
+          "Wohnweg und Familieneingliederung",
+          "Kantonsvergleich für Schulen, Reisen und Banken",
+          "Bankbereitschaft, Wohnen, Gesundheitswesen und Abwicklung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Fälle, in denen die Komplexität der US-Berichte sichtbar bleiben muss",
+          "Hält Schweizer Entscheidungen mit bestehenden US-Beratern in Verbindung",
+          "Nützlich, bevor Bank-, Wohnungs- oder Schulverpflichtungen eingegangen werden"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "Deutsche Unternehmer und Familien",
+        "title": "Umzug von Deutschland in die Schweiz",
+        "description": "Eine praktische Schweizer Umzugsroute für deutsche Gründer und Familien mit einem Vergleich von Wohnort, Kantonswahl, Unternehmensgründung, Schulen und grenzüberschreitendem Timing.",
+        "metaDescription": "Schweizer Umzugsberatung für deutsche Unternehmer und Familien. Planen Sie den Wohnsitz, die Wahl des Kantons, den Steuerzeitpunkt, die Unternehmensgründung, die Schulen und die Ansiedlung.",
+        "startingPoint": "Deutschland",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Wann sollten die deutsche Ausreiseplanung und die schweizerische Aufenthaltsplanung aufeinanderfolgen?",
+          "Welcher Kanton passt zu Unternehmensbesitz, Familienleben und Pendlerverhalten?",
+          "Wie sollen Genehmigungen, Unterbringung, Schulen und Berater koordiniert werden?"
+        ],
+        "workstreams": [
+          "Deutsche Abflug- und Schweizer Ankunftszeitleiste",
+          "Kantonsvergleich für Steuern, Schulen und Betriebe",
+          "Genehmigungsantrag und Familieneingliederung",
+          "Wohnungs-, Versicherungs-, Bank- und Abwicklungseinrichtung"
+        ],
+        "proofPoints": [
+          "Am besten für Gründer und Familien geeignet, die eine präzise zeitliche Regelung benötigen",
+          "Verbindet die Wahl des Kantons mit der praktischen Schul- und Wohnrealität",
+          "Sorgt für die Koordination deutscher und schweizerischer Berater"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Norwegische Gründer und Vermögensinhaber",
+        "title": "Umzug von Norwegen in die Schweiz",
+        "description": "Eine Schweizer Umzugsroute für norwegische Unternehmer, Investoren und Familien, die steuerliche Ansässigkeit, Genehmigungen, Kantonswahl, Schulen und Bankwesen prüfen.",
+        "metaDescription": "Schweizer Umzugsberatung für norwegische Gründer und Familien. Koordinieren Sie steuerliche Ansässigkeit, Genehmigungen, Bankgeschäfte, Schulen, Kantonswahl und Abwicklung.",
+        "startingPoint": "Norwegen",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Wann sollte die norwegische Ausreiseplanung an den Zeitpunkt des Aufenthalts in der Schweiz angepasst werden?",
+          "Welcher Kanton passt zu Privatsphäre, Familienleben und Steuerprioritäten?",
+          "Was sollte vor Bankeinführungen oder Schulentscheidungen abgestimmt werden?"
+        ],
+        "workstreams": [
+          "Zeitleiste der norwegischen Abreise und der Schweizer Ankunft",
+          "Kantonsvergleich für Familien-, Steuer- und Bankprioritäten",
+          "Aufenthaltsgenehmigungen und Familieneingliederung",
+          "Bankbereitschaft, Wohnen, Schulen und Siedlung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Vermögensinhaber, die Steuerplanung und Familienlogistik miteinander verbinden müssen",
+          "Nützlich, bevor Sie sich auf einen Kantons- oder Schulweg festlegen",
+          "Koordiniert bestehende Berater mit der Schweizer Ausführung"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Gründer bewegen Geschäftssubstanz",
+        "title": "Verlegen Sie ein Unternehmen in die Schweiz",
+        "description": "Ein vom Gründer geleiteter Weg zur Übertragung von Unternehmenssubstanz, Vorstandsaufbau, Bankgeschäften, Genehmigungen und Familienumzug in einen koordinierten Schweizer Plan.",
+        "metaDescription": "Umzug eines Unternehmens in die Schweiz mit koordinierter Beratung zu Unternehmensgründung, Substanz, Bankgeschäften, Aufenthaltsgenehmigungen, Steuern und Familienumzug.",
+        "startingPoint": "Ausland",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Sollte die Schweizer Gesellschaft gegründet werden, bevor oder nachdem die Wohnsitzroute klar ist?",
+          "Welche Substanz erwarten Kanton, Bank und Gegenparteien?",
+          "Wie wirken sich Gründergenehmigungen, Familienumzüge und Firmenkundengeschäft gegenseitig aus?"
+        ],
+        "workstreams": [
+          "Gründerprofil, Firmensubstanz und Kantonstauglichkeitsprüfung",
+          "Unternehmensgründung, Governance und Vorstandsaufbau",
+          "Bereitschaft und Dokumentation für das Firmenkundengeschäft",
+          "Gründererlaubnis, Familienumzug, Unterbringung und Ansiedlung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Gründer, die eine Abstimmung der Arbeitsabläufe in Unternehmen und Familie benötigen",
+          "Verbindet Substanz, Genehmigungen, Bankgeschäfte und Abrechnung in der richtigen Reihenfolge",
+          "Reduziert Verzögerungen durch isolierte Rechts-, Bank- und Umzugsberatung"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Unternehmer und aktive Unternehmer",
+        "title": "Schweizer Aufenthaltsbewilligung für Unternehmer",
+        "description": "Eine auf Gründer ausgerichtete Route durch Schweizer Wohnsitz, Unternehmenssubstanz, Bankwesen, Dokumentation der Vermögensquelle und Familienansiedlung.",
+        "metaDescription": "Beratung zur Schweizer Aufenthaltsbewilligung für Unternehmer. Planen Sie die Wahl des Kantons, die Unternehmensgründung, Bankgeschäfte, Genehmigungen und den Familienumzug.",
+        "startingPoint": "Ausland",
+        "likelyCantons": [
+          "Zug",
+          "Zürich",
+          "Waadt"
+        ],
+        "urgentQuestions": [
+          "Sollte die Schweizer Gesellschaft vor oder nach Einreichung der Genehmigung gegründet werden?",
+          "Welche wirtschaftliche Substanz erwartet der Kanton?",
+          "Wie soll das Geschäftsvermögen gegenüber Banken und Behörden dokumentiert werden?"
+        ],
+        "workstreams": [
+          "Gründerprofil und Kantonstauglichkeitsbeurteilung",
+          "Unternehmensgründung und Governance-Einrichtung",
+          "Genehmigungsantrag und Familieneingliederung",
+          "Bankbereitschaft, Leasing, Versicherung und Abwicklung"
+        ],
+        "proofPoints": [
+          "Am besten für Gründer geeignet, die geschäftliche und familiäre Arbeitsabläufe aufeinander abstimmen müssen",
+          "Verbindet Genehmigungen mit der Substanz des Unternehmens und der Glaubwürdigkeit der Bank",
+          "Reduziert Verzögerungen durch unvollständige Dokumentationssequenzierung"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Vermögende Privatpersonen",
+        "title": "Pauschalbesteuerung in der Schweiz",
+        "description": "Ein diskreter Planungsweg für anspruchsberechtigte Ausländer, der das Forfait, die Wahl des Kantons, die Lebenshaltungskosten und den Zeitpunkt des Wohnsitzes beurteilt.",
+        "metaDescription": "Pauschalbesteuerungsberatung in der Schweiz. Bewerten Sie die steuerliche Berechtigung für ein Forfait, die Wahl des Kantons, die Steuerbemessungsgrundlage, Genehmigungen und den Zeitpunkt des Umzugs.",
+        "startingPoint": "Ausland",
+        "likelyCantons": [
+          "Waadt",
+          "Genf",
+          "Wallis",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Ist ein steuerlicher Forfait für das Familienprofil realistisch?",
+          "Welche Kantone sollten zuerst angesprochen werden?",
+          "Welche Lebensstil- und Wohnannahmen bestimmen die Steuerbemessungsgrundlage?"
+        ],
+        "workstreams": [
+          "Teilnahmeberechtigung und kantonale Auswahlliste",
+          "Vorbereitung von Steuerbescheiden und Behördendialog",
+          "Aufenthaltserlaubnis und Wohnungskoordination",
+          "Bankwesen, Versicherungen und jährliche Compliance-Übergabe"
+        ],
+        "proofPoints": [
+          "Kombiniert Steuerbescheide mit dem eigentlichen Umzugsplan",
+          "Hält die kantonalen Verhandlungen mit der Realität des Lebensstils in Verbindung",
+          "Nützlich vor öffentlichen Zusagen oder sensiblen Dokumentationen"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Gründer, Family Offices und Krypto-Investoren",
+        "title": "Umzugsberater Zug",
+        "description": "Ein gezielter Umzugsweg für Kunden, die Zug für Steuerfragen, Krypto-Banking, Firmengründung, internationale Schulen und Familienleben in Betracht ziehen.",
+        "metaDescription": "Zuger Umzugsberater für Unternehmer, Family Offices und Krypto-Investoren. Koordinieren Sie Genehmigungen, Unternehmensgründungen, Bankgeschäfte, Schulen und Wohnraum.",
+        "startingPoint": "Ausland",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Ist Zug die richtige Wahl oder nur die offensichtliche?",
+          "Können Bankgeschäfte, Schulplätze und Wohnraum gleichzeitig gesichert werden?",
+          "Welche Unternehmenssubstanz wird für die geplante Struktur benötigt?"
+        ],
+        "workstreams": [
+          "Zug-Fitnessbeurteilung gegen Zürich, Schwyz und Waadt",
+          "Reihenfolge der Genehmigungen und Unternehmensgründungen",
+          "Kryptofreundliche und traditionelle Bankeinführungen",
+          "Schule, Unterkunft, Versicherung und tägliche Abrechnung"
+        ],
+        "proofPoints": [
+          "Entwickelt für Kunden, die Geschwindigkeit benötigen, ohne dabei auf Diskretion zu verzichten",
+          "Vereint günstige Steuervorteile mit praktischer Familienlogistik",
+          "Nützlich für kryptonatives Vermögen und aktive Betreiberunternehmen"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Verantwortlicher",
+        "text": "WorkWorkWork AG in der Schweiz ist verantwortlich für die Verarbeitung personenbezogener Daten, die über diese Website übermittelt werden."
+      },
+      {
+        "title": "2. Erhobene Daten",
+        "text": "Wir erfassen nur Informationen, die freiwillig über das Anfrageformular geteilt werden, etwa Kontaktdaten, aktuelles Wohnsitzland, Staatsangehörigkeit, Umzugsziele, Zeitplan, gewünschte Leistungen und Nachrichtentext."
+      },
+      {
+        "title": "3. Zweck der Verarbeitung",
+        "text": "Die Informationen werden genutzt, um die Anfrage zu prüfen, eine private Antwort vorzubereiten und relevante Beratungsarbeit zu koordinieren. Sensible Dokumente sollten nicht über öffentliche Formulare eingereicht werden."
+      },
+      {
+        "title": "4. Aufbewahrung",
+        "text": "Personendaten werden nur so lange aufbewahrt, wie es für die Beantwortung der Anfrage, eine Beratungsbeziehung oder gesetzliche Pflichten erforderlich ist."
+      },
+      {
+        "title": "5. Ihre Rechte",
+        "text": "Nach Schweizer Datenschutzrecht und, soweit anwendbar, der DSGVO können Sie Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung verlangen."
+      },
+      {
+        "title": "6. Kontakt",
+        "text": "Datenschutz- und Rechtsanfragen können über das Kontaktformular eingereicht werden. Sie werden vertraulich weitergeleitet, ohne eine öffentliche E-Mail-Adresse offenzulegen."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Eingetragen im Handelsregister des Kantons Schwyz, Schweiz.",
+      "contactTitle": "Kontakt",
+      "contactText": "Bitte nutzen Sie für Anfragen das vertrauliche Kontaktformular. Öffentliche E-Mail-Adressen werden auf dieser Website bewusst nicht angezeigt.",
+      "disclaimerTitle": "Haftungsausschluss",
+      "disclaimerText": "Die Inhalte dieser Website dienen der allgemeinen Information und Orientierung. Sie stellen keine Steuer-, Rechts-, Anlage- oder Finanzberatung dar. Jede Relokationsentscheidung sollte mit qualifizierten Fachberatern geprüft werden."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Schweiz",
+      "uae": "Vereinigte Arabische Emirate",
+      "saudiArabia": "Saudi-Arabien",
+      "qatar": "Katar",
+      "kuwait": "Kuwait",
+      "bahrain": "Bahrain"
+    }
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Praktischer Schweiz-Umzugsguide für Expats",
+    "metaDescription": "Ein praktisches E-Book für Expats, die in die Schweiz ziehen, mit Bewilligungen, Wohnung, Versicherung, Steuern, Schule und den ersten administrativen Schritten.",
+    "language": "Deutsch",
+    "eyebrow": "Swiss Arrival",
+    "title": "Der praktische Expat-Guide für den Umzug in die Schweiz",
+    "subtitle": "Ein klares E-Book für alle, die eine echte Checkliste brauchen: Aufenthaltsbewilligung, Wohnung, Krankenversicherung, Schule, Steuern, die ersten administrativen Schritte und die kleinen Details, die aus dem Ausland schwer zu erkennen sind.",
+    "primaryCta": "Zur Launch-Liste",
+    "secondaryCta": "Inhalte ansehen",
+    "briefingLabel": "Schweiz-Umzugsbriefing",
+    "proof": [
+      "Geschrieben aus 13+ Jahren Erfahrung in der Schweiz",
+      "Für EU-Expats und internationale Expats",
+      "Auf Dänisch, Englisch, Deutsch und Französisch"
+    ],
+    "problemKicker": "Realität zuerst",
+    "problemTitle": "Gemacht für die unübersichtliche Phase vor dem Ankommen",
+    "problemBody": "Ein Umzug in die Schweiz scheitert selten an einer einzigen Aufgabe. Schwierig ist die Abhängigkeit zwischen Kanton, Bewilligung, Adresse, Versicherung, Schule, Steuern und Bank. Swiss Arrival macht daraus eine klare Reihenfolge.",
+    "chaptersKicker": "Im Guide",
+    "chaptersTitle": "Wobei das E-Book hilft",
+    "chapters": [
+      {
+        "title": "Vor dem Umzug",
+        "body": "Kanton wählen, Bewilligungswege verstehen, Dokumente vorbereiten und Wohnungsfehler vermeiden, die Zeit kosten."
+      },
+      {
+        "title": "Die ersten 30 Tage",
+        "body": "Anmeldung, Krankenversicherung, Bankkonto, Telefon, Internet und die wichtigsten Dokumente in der richtigen Reihenfolge."
+      },
+      {
+        "title": "Geld und Bürokratie",
+        "body": "Schweizer Kosten, Gehaltsrealität, Kautionen, Steuergrundlagen, Pflichtversicherung und erste Prioritäten verstehen."
+      },
+      {
+        "title": "Familie und Alltag",
+        "body": "Schulen, Kinderbetreuung, Verkehr, Sprache, Einkauf, Zugang zum Gesundheitswesen und Routinen für den Alltag."
+      }
+    ],
+    "timelineKicker": "Reihenfolge",
+    "timelineTitle": "Eine einfache Umzugsabfolge",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Umzug planen",
+        "body": "Klären, wo der Einstieg sinnvoll ist, welche Unterlagen nötig sind und was bis nach der Ankunft warten kann."
+      },
+      {
+        "label": "02",
+        "title": "Grundlagen sichern",
+        "body": "Wohnung, Anmeldung, Versicherung und Bank in der richtigen Reihenfolge erledigen, damit nichts blockiert."
+      },
+      {
+        "label": "03",
+        "title": "Richtig ankommen",
+        "body": "Von der Übergangsphase in den Alltag kommen, mit Schule, Verkehr, Gesundheit, Steuern und lokalen Abläufen."
+      }
+    ],
+    "bundleKicker": "Digitales Produkt",
+    "bundleTitle": "Launch-Paket",
+    "bundleBody": "Die erste Version ist als praktisches digitales Produkt geplant, nicht als allgemeiner Inspirationsratgeber.",
+    "bundleItems": [
+      "Das Swiss Arrival E-Book",
+      "Checkliste für den ersten Monat",
+      "Arbeitsblatt zur Kantonswahl",
+      "Kosten- und Kautionsplaner"
+    ],
+    "finalTitle": "Benachrichtigung zum Start erhalten",
+    "finalBody": "Die Launch-Seite wird vorbereitet. Tragen Sie sich ein und wir senden die Details, sobald die erste Ausgabe bereit ist.",
+    "finalCta": "Kontakt aufnehmen"
+  },
+  "swissArrivalNav": {
+    "guide": "Führung",
+    "contact": "Kontakt",
+    "cta": "Launch-Liste"
+  },
+  "swissArrivalFooter": {
+    "tagline": "Ein praktischer digitaler Guide für Expats, die einen Umzug in die Schweiz vorbereiten.",
+    "rights": "Alle Rechte vorbehalten.",
+    "company": "Ein Projekt der WorkWorkWork AG"
   }
 }

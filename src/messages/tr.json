@@ -14,7 +14,9 @@
     "privacy": "Gizlilik Politikası",
     "imprint": "Künye",
     "beginJourney": "Yolculuğunuza Başlayın",
-    "insights": "İçgörüler"
+    "insights": "İçgörüler",
+    "menu": "Menüyü aç/kapat",
+    "closeMenu": "Menüyü kapat"
   },
   "hero": {
     "headline": "İsviçre'ye Giden Yolunuz",
@@ -305,6 +307,13 @@
           "bestFor": "Sağlık, okullar, havaalanı erişimi ve hâlâ rekabetçi vergiler isteyen aileler."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Kurumsal",
+      "personalIncome": "Kişisel gelir",
+      "lumpSum": "Götürü vergi",
+      "priceRange": "Fiyat aralığı",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,6 +445,16 @@
         ],
         "outcome": "İsviçre SFO, Zug'da tam operasyonel hale geldi. 3 bağımsız direktör atandı. Yönetişim çerçevesi tüm aile kolları tarafından onaylandı. Tüm yargı bölgelerinde konsolide raporlama sağlandı. Üç aylık yönetişim ve yıllık inceleme için devam eden hizmet süreci."
       }
+    },
+    "labels": {
+      "case": "Vaka",
+      "timeline": "Zaman çizelgesi",
+      "month": "Ay",
+      "week": "Hafta",
+      "ongoing": "Devam ediyor",
+      "keyChallenges": "Temel zorluklar",
+      "servicesEngaged": "Kullanılan hizmetler",
+      "outcome": "Sonuç"
     }
   },
   "services": {
@@ -504,7 +523,7 @@
         "tags": [
           "Çıkış Öncesi Planlama",
           "Varlık Yapılandırması",
-          "Forfait Fiscal"
+          "Götürü vergilendirme"
         ]
       },
       "family": {
@@ -636,7 +655,8 @@
     "languages": "Diller",
     "rights": "Tüm hakları saklıdır.",
     "company": "WorkWorkWork AG hizmetidir",
-    "disclaimer": "Hizmetler genel finansal eğitim ve stratejik rehberlik ile sınırlı olup Finansal Hizmetler Kanunu (FIDLEG) anlamında finansal hizmet teşkil etmez. Özellikle, belirli finansal araçlar hakkında danışmanlık, portföy yönetimi ve emirlerin icrası veya iletimi sağlanmamaktadır."
+    "disclaimer": "Hizmetler genel finansal eğitim ve stratejik rehberlik ile sınırlı olup Finansal Hizmetler Kanunu (FIDLEG) anlamında finansal hizmet teşkil etmez. Özellikle, belirli finansal araçlar hakkında danışmanlık, portföy yönetimi ve emirlerin icrası veya iletimi sağlanmamaktadır.",
+    "trustSwissEntity": "İsviçre’de kayıtlı kuruluş"
   },
   "servicesMeta": {
     "title": "Hizmetlerimiz — İsviçre'ye Taşınma",
@@ -1122,5 +1142,1134 @@
     "message": "Deneyiminizi geliştirmek için çerezleri kullanıyoruz. Web sitesinin çalışması için temel çerezler gereklidir. Analitik çerezler hizmetimizi geliştirmemize yardımcı olur.",
     "acceptAll": "Hepsini Kabul Et",
     "essentialOnly": "Yalnızca Temel Olanlar"
+  },
+  "contactCopy": {
+    "pageTitle": "Gizli Yer Değiştirme Alımı",
+    "pageSubtitle": "İlk görüşmeden önce doğru İsviçre yolunu değerlendirebilmemiz için temel bilgileri özel olarak paylaşın.",
+    "confidential": "Tüm sorular katı bir gizlilikle ele alınır.",
+    "noSensitive": "Bu form aracılığıyla pasaport, banka ekstresi veya hassas belgeler göndermeyin.",
+    "serviceError": "Lütfen en az bir hizmet bölgesi seçin.",
+    "sections": {
+      "situationTitle": "1. Durumunuz",
+      "situationText": "Temel bilgiler, hassas belgeler istemeden soruşturmayı doğru şekilde yönlendirmemize yardımcı olur.",
+      "coordinationTitle": "2. Koordinasyon Gerekenler",
+      "coordinationText": "İlgili olabilecek her alanı seçin. Bu aşamada kesin bir cevaba gerek yoktur.",
+      "responseTitle": "3. Nasıl Cevap Verilir?",
+      "responseText": "Bu bilgileri yalnızca sorunuzu değerlendirmek ve yanıtlamak için kullanacağız."
+    },
+    "labels": {
+      "enquiryType": "diye soruyorum",
+      "primaryGoal": "Birincil hedef",
+      "country": "Mevcut İkamet Edilen Ülke",
+      "nationality": "Uyruk veya vatandaşlık",
+      "timeline": "Zaman Çizelgesi",
+      "servicesNeeded": "Gerekli hizmetler",
+      "targetCanton": "Hedef kanton veya şehir",
+      "familySize": "Aile üyelerinin yeri değişiyor",
+      "existingAdvisors": "Mevcut İsviçreli danışmanlar",
+      "name": "Tam Ad",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası (isteğe bağlı)",
+      "hearAbout": "Bizi nasıl duydunuz? (isteğe bağlı)",
+      "preferredContact": "Tercih edilen yanıt",
+      "message": "Mesajınız"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zürih, Schwyz, kararsız...",
+      "familySize": "Sadece ben, çift, 4 kişilik aile...",
+      "message": "İlk gizli görüşmeden önce neyi anlamalıyız?"
+    },
+    "submit": "Gizli Bilgi Gönderimi",
+    "privacyConsent": "Move to Switzerland'ın sorumu yanıtlamak için bu bilgileri işlemesine izin veriyorum. Hassas belgeleri bu form aracılığıyla göndermemem gerektiğini biliyorum.",
+    "aside": {
+      "title": "Özel İnceleme",
+      "paragraphs": [
+        "Bu alım, takdir yetkisinin önemli olduğu yerlerde yer değiştirme, ikamet, vergi, aile ofisi ve uzlaşma sorguları için tasarlanmıştır.",
+        "Kısa ve öz bir ilk gönderim yeterlidir. Konu uygunsa bir sonraki adım, herhangi bir belge talep edilmeden önce özel görüşmedir."
+      ],
+      "items": [
+        "Gizli inceleme",
+        "Herkese açık alıcı adresi yok",
+        "Hassas belge istenmiyor",
+        "Yanıt, özel bir sunucu tarafı iş akışı aracılığıyla yönlendiriliyor"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Özel kişi"
+        },
+        {
+          "value": "family-office",
+          "label": "Aile ofisi"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Girişimci"
+        },
+        {
+          "value": "advisor",
+          "label": "Bir müşteri için danışman"
+        },
+        {
+          "value": "other",
+          "label": "Diğer"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Kendimin veya ailemin yerini değiştiriyorum"
+        },
+        {
+          "value": "tax-residency",
+          "label": "İsviçre vergi ve ikamet planlaması"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Şirket veya aile ofisi kurulumu"
+        },
+        {
+          "value": "settlement",
+          "label": "Gayrimenkul, okullar ve yerleşim"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Bankacılık ve varlık koordinasyonu"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "SWISSARRIVALMARKA rehberi"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Acil"
+        },
+        {
+          "value": "under-3-months",
+          "label": "3 aydan küçük"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 ay"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 ay"
+        },
+        {
+          "value": "early-planning",
+          "label": "Erken planlama"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Oturma izinleri"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Götürü vergilendirme"
+        },
+        {
+          "value": "company-formation",
+          "label": "Şirket kurulumu"
+        },
+        {
+          "value": "family-office",
+          "label": "Aile ofisi"
+        },
+        {
+          "value": "real-estate",
+          "label": "Emlak"
+        },
+        {
+          "value": "schooling",
+          "label": "Okullar"
+        },
+        {
+          "value": "private-banking",
+          "label": "Özel bankacılık"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Sağlık görevlisi"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Tam yer değiştirme koordinasyonu"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "E-posta"
+        },
+        {
+          "value": "phone",
+          "label": "Telefon"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Evet"
+        },
+        {
+          "value": "no",
+          "label": "Hayır"
+        },
+        {
+          "value": "not-sure",
+          "label": "Emin değilim"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Gizli Isvicre tasinma basvurusu - Move to Switzerland",
+      "description": "Oturum, vergi, aile ofisi, okullar, bankacilik ve yerlesim planlamasi icin ozel bir Isvicre tasinma talebi gonderin."
+    },
+    "progressTitle": "Basvuru ilerlemesi",
+    "optionalContextTitle": "Ek planlama bilgisi",
+    "optionalContextText": "Yaklaşık aralıklar yeterlidir. Pasaport, hesap dökümü veya hassas belge eklemeyin.",
+    "showOptional": "Istege bagli planlama bilgisi ekle",
+    "hideOptional": "Istege bagli bilgiyi gizle",
+    "labels": {
+      "relocationYear": "Beklenen tasinma yili",
+      "preferredCantons": "Tercih edilen kantonlar",
+      "advisoryScope": "Danismanlik kapsami",
+      "schoolAgeRange": "Okul yerlestirmesi gereken cocuklar",
+      "urgencyReason": "Zamanlamayi ne belirliyor?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, esnek...",
+      "schoolAgeRange": "6 ve 11 yaş, yatılı okul seçeneği, çocuk yok...",
+      "urgencyReason": "Okul yılı, vergi yılı, izin takvimi, mülk arayışı..."
+    },
+    "validation": {
+      "required": "Lütfen bu zorunlu alanı doldurun.",
+      "email": "Lütfen geçerli bir e-posta adresi girin.",
+      "servicesNeeded": "Lütfen en az bir hizmet alanı seçin.",
+      "preferredContact": "Size nasıl yanıt vermemiz gerektiğini seçin.",
+      "phoneRequired": "Lütfen bir telefon numarası ekleyin veya yanıt yöntemi olarak e-postayı seçin.",
+      "consent": "Lütfen gizlilik onayını doğrulayın.",
+      "submitError": "Talep şu anda gönderilemedi. Lütfen daha sonra tekrar deneyin."
+    },
+    "status": {
+      "sending": "Gonderiliyor...",
+      "successTitle": "Talep alindi",
+      "successText": "Tesekkurler. Talebi gizli olarak inceleyip sectiginiz kanaldan yanit verecegiz."
+    },
+    "process": {
+      "title": "Sırada ne var",
+      "intro": "Kısa bir ilk başvuru yeterlidir. Konu uygunsa, belgeler istenmeden önce bir sonraki adım özel bir danışmadır.",
+      "steps": [
+        "Taşınma profilinin gizli incelemesi",
+        "Kanton, oturum, vergi, aile ve iş ihtiyaçları için ilk uygunluk değerlendirmesi",
+        "Seçilen yanıt kanalı üzerinden gizli cevap"
+      ]
+    },
+    "trust": {
+      "title": "Gizlilik standartları",
+      "items": [
+        "İsviçre’de kayıtlı tüzel kişi",
+        "Özel sunucu tarafı yönlendirme",
+        "Herkese açık alıcı adresi gösterilmez",
+        "Form üzerinden hassas belge istenmez",
+        "WhatsApp’a yönlendirme yok"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal",
+          "label": "Yalnızca kişisel"
+        },
+        {
+          "value": "family",
+          "label": "Aile"
+        },
+        {
+          "value": "company",
+          "label": "Şirket"
+        },
+        {
+          "value": "family-office",
+          "label": "Family office"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Kararsız"
+        },
+        {
+          "value": "zurich",
+          "label": "Zürih"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Luzern"
+        },
+        {
+          "value": "other",
+          "label": "Diğer"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Move to Switzerland’ın talebime yanıt vermek için bu bilgileri işlemesini kabul ediyor ve ",
+      "linkText": "gizlilik politikasını",
+      "afterLink": " kabul ediyorum. Bu form üzerinden hassas belge göndermemem gerektiğini anlıyorum."
+    },
+    "honeypotLabel": "Şirket web sitesi"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Doğru İsviçre rotasını anlamaya hazır mısınız?",
+      "creamText": "Özel bir değerlendirmeyle başlayın veya kararın henüz başındaysanız rehber yolunu kullanın.",
+      "navyTitle": "İsviçre'yi yürütülebilir bir plana dönüştürmeye hazır mısınız?",
+      "navyText": "Temel bilgileri özel olarak paylaşın veya hâlâ seçenekleri karşılaştırıyorsanız Swiss Arrival kılavuzuyla başlayın.",
+      "privateAssessment": "Özel değerlendirme talep edin",
+      "guide": "Swiss Arrival kılavuzunu edinin"
+    },
+    "home": {
+      "heroBadge": "İsviçre'de taşınma danışmanlığı",
+      "heroTitle": "İzinler, vergi, bankacılık, okullar ve yerleşimin koordine edildiği İsviçre'ye taşın.",
+      "heroSubtitle": "Zürih, Zug, Schwyz, Cenevre, Vaud ve ötesine taşınan girişimciler, varlık sahipleri, aileler ve aile ofisleri için İsviçre merkezli özel danışmanlık.",
+      "heroProof": [
+        {
+          "label": "İsviçre merkezli koordinasyon",
+          "value": "Zürih, Zug, Schwyz"
+        },
+        {
+          "label": "Özel giriş",
+          "value": "Hassas belge yok"
+        },
+        {
+          "label": "için tasarlandı",
+          "value": "Kurucular, aileler, aile ofisleri"
+        },
+        {
+          "label": "İş Akışları",
+          "value": "İzinler, vergi, bankacılık, okullar"
+        }
+      ],
+      "planTitle": "İsviçre'ye taşınma planı",
+      "planPeriod": "İlk 30 gün",
+      "planRows": [
+        [
+          "01",
+          "İkamet rotası",
+          "B izni, aile katılımı, zamanlama"
+        ],
+        [
+          "02",
+          "Kanton kararı",
+          "Vergi, okul, barınma, işe gidip gelme"
+        ],
+        [
+          "03",
+          "Banka hazırlığı",
+          "Zenginlik kaynağı hikayesi ve tanıtımları"
+        ],
+        [
+          "04",
+          "Yerleşim",
+          "Konut, sigorta, okullar, günlük kurulum"
+        ]
+      ],
+      "planFooter": "Amaç daha fazla tavsiye değil. İzinlerin, bankacılığın, okulların ve konutların birbirini engellemesini engelleyen bir dizidir.",
+      "trustStrip": [
+        "Özel değerlendirme",
+        "İsviçre kantonu karşılaştırması",
+        "Bankaya hazır belgeler",
+        "Aile yerleşimi"
+      ],
+      "processTitle": "İlk görüşmeden uygulayabileceğiniz bir İsviçre planına kadar",
+      "processText": "İş akışları ayrı ayrı hareket ettiğinde yüksek değerli yer değiştirmeler başarısız olur. İlk adım, herhangi biri belge talep etmeden önce net bir işletim modelidir.",
+      "processSteps": [
+        {
+          "title": "Özel değerlendirme",
+          "text": "Herhangi bir belge talep edilmeden önce aile, iş, vatandaşlık, zaman çizelgesi ve hassas kısıtlamaların haritasını çıkarırız."
+        },
+        {
+          "title": "İsviçre rota planı",
+          "text": "İzinleri, vergiyi, bankacılığı, barınmayı, okulları ve yerleşimi kapsayan pratik bir kanton ve iş akışı dizisine sahip olursunuz."
+        },
+        {
+          "title": "Koordineli yürütme",
+          "text": "Sorumlu bir nokta, avukatların, bankaların, okulların, emlakçıların ve mevcut danışmanların doğru sırayla hareket etmesini sağlar."
+        }
+      ],
+      "signalsBadge": "Neler koordine edilir?",
+      "signalsTitle": "Genel yer değiştirme konuşması değil, İsviçre'ye özel uygulama",
+      "signalsText": "Değer teklifi işlevseldir: vergi, izinler, bankacılık, barınma, okullar ve İsviçre'deki ilk normal gün arasında daha az fark vardır.",
+      "signals": [
+        "Taahhütten önce Kanton karşılaştırması",
+        "Okul alımıyla eşleşen izin zaman çizelgesi",
+        "Tanıtımlardan önce hazırlanan bankacılık belgeleri",
+        "Vergi ve işe gidip gelme gerçekleriyle uyumlu konut araması",
+        "Mevcut danışmanlar değiştirilmek yerine döngüde tutuldu",
+        "Herkese açık formlar aracılığıyla pasaport, banka hesap özeti veya hassas dosyalar kullanılamaz"
+      ],
+      "pathsTitle": "Popüler yer değiştirme yolları",
+      "pathsText": "Yüksek niyetli ziyaretçilerin genel hizmet sayfalarını kendi durumlarına çevirmeleri gerekmemelidir.",
+      "discussRoute": "Rotamı tartış"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Başlangıç noktası",
+          "value": "Dubai, çıkış sonrası kurucusu"
+        },
+        {
+          "label": "İsviçre üssü",
+          "value": "Zug aile konutu"
+        },
+        {
+          "label": "Temel risk",
+          "value": "Kripto serveti belgeleri"
+        },
+        {
+          "label": "Sonuç",
+          "value": "İzin, okul, bankacılık, ofis aktif"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Başlangıç noktası",
+          "value": "Beyrut, acil yer değişikliği"
+        },
+        {
+          "label": "İsviçre üssü",
+          "value": "Schwyz gizlilik öncelikli çözüm"
+        },
+        {
+          "label": "Temel risk",
+          "value": "Üç nesil emlak karmaşıklığı"
+        },
+        {
+          "label": "Sonuç",
+          "value": "Aile İsviçre yönetimine yerleşti"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Başlangıç noktası",
+          "value": "Riyad, kripto yatırımcısı"
+        },
+        {
+          "label": "İsviçre üssü",
+          "value": "Zürih dairesi ve GmbH"
+        },
+        {
+          "label": "Temel risk",
+          "value": "Geleneksel olmayan zenginlik profili"
+        },
+        {
+          "label": "Sonuç",
+          "value": "İzin ve ikili bankacılık kurulumu"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Başlangıç noktası",
+          "value": "Kuveyt, çok yetkili makam"
+        },
+        {
+          "label": "İsviçre üssü",
+          "value": "Zug tekli aile ofisi"
+        },
+        {
+          "label": "Temel risk",
+          "value": "Nesiller boyu yönetim"
+        },
+        {
+          "label": "Sonuç",
+          "value": "İsviçre kurulu ve canlı raporlama"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Kanton'a uygunluk testi",
+      "title": "İlk önce tartışmaya değer İsviçre rotasını bulun",
+      "description": "Ciddi taşımacılar için dört soruluk bir filtre. Tavsiyenin yerini almaz ancak ilk istişare için daha keskin bir başlangıç ​​noktası sağlar.",
+      "likelyRoute": "Muhtemelen ilk rota",
+      "namePlaceholder": "İsim",
+      "emailPlaceholder": "E-posta",
+      "sendPlan": "Planı gönder",
+      "sending": "Gönderiliyor",
+      "success": "Sınav sonucunuz gönderildi. Bunu ilk cevap için bağlam olarak kullanacağız.",
+      "error": "Sonuç şu anda gönderilemiyor.",
+      "fullIntake": "Gizli alımın tamamını tamamlayın",
+      "guide": "Swiss Arrival kılavuzunu edinin",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Kim hareket ediyor?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Kurucu"
+            },
+            {
+              "value": "family",
+              "label": "Aile"
+            },
+            {
+              "value": "family-office",
+              "label": "Aile ofisi"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Özel servet"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "En önemli şey nedir?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Vergi planlaması"
+            },
+            {
+              "value": "schools",
+              "label": "Okullar"
+            },
+            {
+              "value": "privacy",
+              "label": "Gizlilik"
+            },
+            {
+              "value": "business",
+              "label": "İşletme kurulumu"
+            },
+            {
+              "value": "urban",
+              "label": "Şehir erişimi"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Geçerli baz",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Danimarka"
+            },
+            {
+              "value": "uae",
+              "label": "BAE"
+            },
+            {
+              "value": "uk",
+              "label": "Birleşik Krallık"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "AB"
+            },
+            {
+              "value": "other",
+              "label": "Diğer"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Beklenen zamanlama",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Acil"
+            },
+            {
+              "value": "under-3-months",
+              "label": "3 aydan küçük"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 ay"
+            },
+            {
+              "value": "early-planning",
+              "label": "Erken planlama"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Danimarka",
+        "uae": "Birleşik Arap Emirlikleri",
+        "uk": "Birleşik Krallık",
+        "gcc": "GCC",
+        "eu": "Avrupa Birliği",
+        "other": "Diğer veya belirtilmemiş"
+      },
+      "results": {
+        "zug": {
+          "title": "Önce Zug, pratik yedek olarak Zürih",
+          "summary": "Yanıtlarınız vergi, şirket kuruluşu, bankacılık erişimi ve kurucu altyapısı açısından Zug'a işaret ediyor. Okullar, işe alma veya şehre günlük erişim önemliyse Zürih karşılaştırmada kalmalıdır."
+        },
+        "zurich": {
+          "title": "Zürih birinci, Zug ve Schwyz karşılaştırıldı",
+          "summary": "Yanıtlarınız okullar, havaalanı erişimi, uluslararası topluluk, bankacılık yoğunluğu ve günlük yaşam açısından Zürih'i işaret ediyor. Vergi mahremiyeti şehir erişimini geride bırakırsa Zug veya Schwyz yine de kazanabilir."
+        },
+        "schwyz": {
+          "title": "Schwyz ilk sırada, operasyonel karşılaştırma olarak Zug'u kullanıyor",
+          "summary": "Yanıtlarınız mahremiyet, daha düşük vergili yaşam ve daha sessiz bir aile tabanı için Schwyz'e işaret ediyor. Takas, Zürih veya Zug'a göre daha az kurumsal yoğunluktur, dolayısıyla sıralama önemlidir."
+        },
+        "vaudGeneva": {
+          "title": "Önce Vaud veya Cenevre, fizibilite erkenden kontrol edildi",
+          "summary": "Yanıtlarınız, toplu vergilendirmenin, okulların ve uluslararası aile altyapısının taahhütte bulunmadan önce birlikte değerlendirilebileceği, Fransızca konuşulan bir kantona işaret ediyor."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Ana Sayfa",
+      "takeQuiz": "Kantona uygunluk testine katılın",
+      "startingPoint": "Başlangıç noktası",
+      "likelyCantons": "Olası kantonlar",
+      "questionsTitle": "Taahhütte bulunmadan önce cevaplanması gereken sorular",
+      "questionsText": "Ciddi yer değiştirme planlaması formlar, kiralamalar, okul ziyaretleri veya banka tanıtımlarından önce başlar. Bunlar genellikle rotayı yönlendiren kararlardır.",
+      "workstreamSequence": "İş akışı sırası",
+      "coordinateTitle": "Bu rota için neyi koordine ediyoruz?",
+      "workstream": "İş Akışı",
+      "whyClientsUseUs": "Müşteriler bizi neden kullanıyor?",
+      "valueTitle": "Değer koordinasyondur, başka bir izole görüş değil",
+      "compareRoute": "Başka bir rotayı karşılaştırın",
+      "askSituation": "Durumumu sor"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Danimarkalı kurucular ve aileler",
+        "title": "Danimarka'dan İsviçre'ye taşın",
+        "description": "Danimarkalı girişimciler, yatırımcılar ve aileler için İsviçre'de ikamet, vergi, bankacılık, okullar ve yerleşimi karşılaştıran pratik bir yol.",
+        "metaDescription": "İsviçre'ye taşınan Danimarkalı girişimciler ve aileler için yer değiştirme danışmanlığı. Kantonları, izinleri, vergiyi, bankacılığı, okulları ve yerleşim yerlerini karşılaştırın.",
+        "startingPoint": "Danimarka",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zürih"
+        ],
+        "urgentQuestions": [
+          "Danimarka vergiden çıkış planlaması ne zaman başlamalı?",
+          "Hangi İsviçre kantonu aile hayatına ve iş sahibiliğe uygundur?",
+          "Bankacılık, okullar, barınma ve izinler nasıl sıralanmalıdır?"
+        ],
+        "workstreams": [
+          "Danimarka çıkışı ve İsviçre giriş zaman çizelgesi",
+          "Vergi, okullar ve havaalanı erişimi açısından Kanton karşılaştırması",
+          "B-izni başvurusu ve aile katılımı",
+          "Özel bankacılık ve servet kaynağı hazırlığı"
+        ],
+        "proofPoints": [
+          "Sorumlu bir koordinatöre ihtiyaç duyan sınır ötesi kurucular için tasarlandı",
+          "Yalnızca vergi teorisini değil, pratik çözümü de kapsar",
+          "Okul zamanlamasının erken halledilmesine ihtiyaç duyan aileler için tasarlandı"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "BAE sakinleri ve çıkış sonrası kurucular",
+        "title": "BAE'den İsviçre'ye taşın",
+        "description": "BAE merkezli kurucular, yatırımcılar ve zenginliği, ikametgahı, okulları ve yönetimi İsviçre'ye taşıyan aileler için koordineli bir yer değiştirme rotası.",
+        "metaDescription": "BAE sakinleri, kurucuları ve aileleri için İsviçre'de yer değiştirme tavsiyesi. İzinleri, bankacılığı, servet belgelerini, okulları ve kanton seçimini koordine edin.",
+        "startingPoint": "BAE",
+        "likelyCantons": [
+          "Zug",
+          "Zürih",
+          "Cenevre"
+        ],
+        "urgentQuestions": [
+          "İsviçre bankaları için servet kaynağı belgeleri nasıl hazırlanmalı?",
+          "Bir BAE şirket yapısı İsviçre'de ikamet etmeden önce yeniden düzenlenebilir mi?",
+          "Aile, bankacılık ve iş erişimi için hangi kanton mantıklıdır?"
+        ],
+        "workstreams": [
+          "Göç öncesi varlık ve şirket incelemesi",
+          "İsviçre bankacılığına hazırlık ve dokümantasyon anlatımı",
+          "Oturma izni ve ailenin yer değiştirme sırası",
+          "Uluslararası okulların kısa listesi ve ziyaretleri"
+        ],
+        "proofPoints": [
+          "Kripto, özel sermaye ve işletme şirketi zenginliği için güçlü uyum",
+          "İzinlerin, bankacılığın, konutların ve okulların paralel olarak yönetilmesi",
+          "Likidite olayından sonra hızla hareket eden aileler için kullanışlıdır"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "Birleşik Krallık'ta yerleşik olmayan kuruluşlar, kurucular ve aile ofisleri",
+        "title": "Birleşik Krallık'tan İsviçre'ye taşınmak",
+        "description": "Birleşik Krallık'ta yaşayanlar için vergi mukimliği, aile yerleşimi, servet yönetimi, bankacılık ve uzun vadeli güvenliği inceleyen İsviçre'ye taşınma yolu.",
+        "metaDescription": "Birleşik Krallık'ta ikamet edenler, kurucular, yerleşik olmayan kişiler ve İsviçre'ye taşınan aile ofisleri için İsviçre'de taşınma danışmanlığı. İkamet, vergi, bankacılık ve okulları planlayın.",
+        "startingPoint": "Birleşik Krallık",
+        "likelyCantons": [
+          "Cenevre",
+          "Vaud",
+          "Zürih",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Birleşik Krallık vergi mukimliği ne zaman sona erer ve İsviçre vergi mukimliği ne zaman başlar?",
+          "Toplu vergilendirme aile profili için geçerli midir?",
+          "Aile zaman çizelgesini hangi okul ve kanton kombinasyonu koruyor?"
+        ],
+        "workstreams": [
+          "Birleşik Krallık kalkış ve İsviçre varış zaman çizelgesi",
+          "Forfait mali fizibilite incelemesi",
+          "Okul, barınma ve kanton karşılaştırması",
+          "Bankacılık, yönetim ve danışman koordinasyonu"
+        ],
+        "proofPoints": [
+          "Parçalı tavsiyelere değil, temiz bir taşınmaya ihtiyaç duyan aileler için tasarlandı",
+          "İsviçre yaşam tarzı kararlarını vergi ve bankacılık gerçekleriyle birleştirir",
+          "Mevcut Birleşik Krallık danışmanlarının İsviçre uygulamasıyla koordineli çalışmasını sağlar"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Suudi kurucular, yatırımcılar ve aileler",
+        "title": "Suudi Arabistan'dan İsviçre'ye taşınma",
+        "description": "Suudi girişimciler ve aileler için ikamet, bankacılık hazırlığı, okullar, barınma ve kanton seçimini koordine eden bir İsviçre yer değiştirme rotası.",
+        "metaDescription": "Suudi kurucular, yatırımcılar ve aileler için İsviçre'de yer değiştirme danışmanlığı. İzinleri, bankacılığı, okulları, vergiyi, barınmayı ve kanton seçimini planlayın.",
+        "startingPoint": "Suudi Arabistan",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hangi İsviçre kantonu ailenin okul, mahremiyet ve bankacılık önceliklerine uyuyor?",
+          "Banka tanıtımlarından önce Suudi source-of-wealth dokümantasyonu nasıl hazırlanmalı?",
+          "İzinler, barınma, okullar ve danışman koordinasyonu paralel hareket edebilir mi?"
+        ],
+        "workstreams": [
+          "Suudi kalkış ve İsviçre varış zaman çizelgesi",
+          "Bankacılık hazırlığı ve servet belgeleme anlatımı",
+          "Okul, konut ve kanton karşılaştırması",
+          "İzin başvurusu, sigorta ve yerleşim sırası"
+        ],
+        "proofPoints": [
+          "Önemli varlıkları ve günlük yaşamı bir arada taşıyan aileler için tasarlandı",
+          "Bankacılık, izinler, okullar ve barınma işlemlerini tek bir koordineli sırada tutar",
+          "Hassas belgeler bankalar veya danışmanlarla paylaşılmadan önce faydalıdır"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Katar merkezli özel müşteriler",
+        "title": "Katar'dan İsviçre'ye taşınma",
+        "description": "Katar merkezli aileler, yöneticiler ve yatırımcılar için İsviçre'de ikamet, özel bankacılık, eğitim ve yerleşimi karşılaştıran gizli bir yol.",
+        "metaDescription": "Katar merkezli aileler ve yatırımcılar için İsviçre'de taşınma danışmanlığı. İzinleri, özel bankacılığı, okulları, barınmayı ve kanton seçimini koordine edin.",
+        "startingPoint": "Katar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Hangi kanton takdir yetkisi, okullar ve banka erişiminin doğru karışımını sunuyor?",
+          "Mevcut GCC danışmanları İsviçre uygulamasıyla nasıl koordineli kalmalıdır?",
+          "Okul ziyaretleri veya konaklama taahhütlerinden önce nelerin çözülmesi gerekir?"
+        ],
+        "workstreams": [
+          "İkamet rotası ve aile katılımı",
+          "Özel bankacılık hazırlığı ve danışman koordinasyonu",
+          "Uluslararası okul kısa listesi ve ziyaret programı",
+          "Barınma, sigorta, sağlık hizmetleri ve günlük yerleşim"
+        ],
+        "proofPoints": [
+          "Kamu taahhütlerinden önce takdir yetkisine önem veren müşteriler için tasarlandı",
+          "Yaşam tarzı kararlarını bankacılık ve izin zamanlamasına bağlar",
+          "Mevcut aile ofisi veya hukuk danışmanlarının uyum içinde kalmasını sağlar"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Kuveytli aile ofisleri ve aileler",
+        "title": "Kuveyt'ten İsviçre'ye taşınmak",
+        "description": "Kuveytli aileler için ikamet, bankacılık, veraset, okullar ve istikrarlı bir Avrupa tabanını koordine eden bir İsviçre yer değiştirme ve yönetim rotası.",
+        "metaDescription": "Kuveytli aileler ve aile ofisleri için İsviçre'ye taşınma danışmanlığı. Plan izinleri, özel bankacılık, yönetim, okullar ve yerleşim.",
+        "startingPoint": "Kuveyt",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "İsviçre hamlesi aile ikametgahı, yönetim veya her ikisi etrafında mı yapılandırılmalı?",
+          "Hangi kanton gizlilik, vergi ve aile lojistiğine en uygun?",
+          "Bankacılık, yönetim kurulu ve raporlama iş akışları nasıl sıralanmalıdır?"
+        ],
+        "workstreams": [
+          "Aile profili ve yönetim kapsamı",
+          "İkamet, mahremiyet ve aile ofisi ihtiyaçları için Kanton karşılaştırması",
+          "Özel bankacılık ve source-of-wealth hazırlığı",
+          "Okullaşma, barınma, sağlık hizmetleri ve aile yerleşimi"
+        ],
+        "proofPoints": [
+          "Yönetişime ve yer değiştirmeye ihtiyaç duyan çok kuşaklı aileler için kullanışlıdır",
+          "Kamu taahhütlerinden önce İsviçre'de gizli kurulum için tasarlandı",
+          "Aile, banka, yönetim kurulu ve yerleşim bağımlılıklarını koordine eder"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Singapur merkezli kurucular ve aile ofisleri",
+        "title": "Singapur'dan İsviçre'ye taşınmak",
+        "description": "Singapur merkezli girişimciler ve aile ofisleri için İsviçre'yi Avrupa'da ikamet, bankacılık, yönetim ve yaşam tarzı üssü olarak karşılaştıran bir rota.",
+        "metaDescription": "Singapur merkezli kurucular ve aile ofisleri için İsviçre'ye taşınma danışmanlığı. İkamet, vergi, bankacılık, yönetim, okullar ve kantonları karşılaştırın.",
+        "startingPoint": "Singapur",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Singapur üssü İsviçre ikametgahıyla tamamlandığında ne değişir?",
+          "Ailenin taşınmasından önce hangi iş akışlarının sıralanması gerekir?",
+          "İsviçre'ye dönük bir kurulum için bankacılık ve yönetim nasıl hazırlanmalı?"
+        ],
+        "workstreams": [
+          "Singapur çıkışı veya çift tabanlı planlama",
+          "İsviçre ikametgahı ve kanton karşılaştırması",
+          "Bankacılık, yönetim ve danışman koordinasyonu",
+          "Okullar, konut, sigorta ve günlük yerleşim"
+        ],
+        "proofPoints": [
+          "İki yüksek kaliteli yargı bölgesini karşılaştıran müşteriler için tasarlandı",
+          "İsviçre yaşam tarzı kararlarını bankacılık ve yönetimle bağlantılı tutar",
+          "Bir kantona, kiraya veya okul yoluna başvurmadan önce faydalıdır"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Hong Konglu girişimciler ve aileler",
+        "title": "Hong Kong'dan İsviçre'ye taşınmak",
+        "description": "Güçlü okullar ve bankacılık ile istikrarlı bir Avrupa üssü arayan Hong Kong kurucuları, varlık sahipleri ve aileler için özel bir İsviçre taşınma yolu.",
+        "metaDescription": "Hong Kong'un kurucuları ve aileleri için İsviçre'ye taşınma tavsiyesi. İkamet, bankacılık, okullar, vergi, barınma ve kanton seçimini planlayın.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Hangi İsviçre kantonu Hong Kong'dan gelen uluslararası bir aileye uygundur?",
+          "Bankacılık dokümantasyonu ve source-of-wealth geçmişi nasıl hazırlanmalı?",
+          "Okul ziyaretleri ve ev aramalarından önce nelere karar verilebilir?"
+        ],
+        "workstreams": [
+          "Hong Kong kalkış ve İsviçre varış zaman çizelgesi",
+          "Okullar, vergi, bankacılık ve günlük yaşam için Kanton karşılaştırması",
+          "Oturma izinleri ve aile katılımı",
+          "Özel bankacılığa hazırlık, konut ve yerleşim"
+        ],
+        "proofPoints": [
+          "İstikrara, okullara ve takdir yetkisine öncelik veren aileler için iyi uyum",
+          "Banka ve izin bağımlılıklarıyla pratik anlaşmayı koordine eder",
+          "Hassas belgeler dağıtılmadan önce kullanışlıdır"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "US kurucuları, yöneticileri ve aileleri",
+        "title": "USA'dan İsviçre'ye taşın",
+        "description": "İkamet, danışmanlar, bankacılık, okullar ve devam eden vergi karmaşıklığı konularında dikkatli bir koordinasyona ihtiyaç duyan US bağlantılı müşteriler için İsviçre'ye taşınma rotası.",
+        "metaDescription": "US kurucuları ve aileleri için İsviçre'ye taşınma tavsiyesi. İkamet, bankacılık, danışmanlar, okullar, vergi karmaşıklığı ve uzlaşmayı koordine edin.",
+        "startingPoint": "Amerika Birleşik Devletleri",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "US vergi ve raporlama danışmanları İsviçre planına nasıl bağlı kalmalıdır?",
+          "Ailenin okul, bankacılık ve seyahat ihtiyaçlarını hangi kanton karşılıyor?",
+          "İkamet ve konut taahhütlerinden önce nelerin açıklığa kavuşturulması gerekiyor?"
+        ],
+        "workstreams": [
+          "US danışmanı ve İsviçreli danışman koordinasyonu",
+          "İkamet rotası ve aile katılımı",
+          "Okullar, seyahat ve bankacılık için Kanton karşılaştırması",
+          "Bankacılık hazırlığı, konut, sağlık hizmetleri ve yerleşim"
+        ],
+        "proofPoints": [
+          "US raporlama karmaşıklığının görünür kalması gereken durumlar için tasarlandı",
+          "İsviçre kararlarını mevcut US danışmanlarına bağlı tutar",
+          "Bankacılık, konut veya okul taahhütleri yapılmadan önce faydalıdır"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "Alman girişimciler ve aileler",
+        "title": "Almanya'dan İsviçre'ye taşınmak",
+        "description": "Alman kurucular ve aileler için ikamet yerini, kanton seçimini, iş kurulumunu, okulları ve sınır ötesi zamanlamayı karşılaştıran pratik bir İsviçre taşınma rotası.",
+        "metaDescription": "Alman girişimciler ve aileler için İsviçre'ye taşınma danışmanlığı. İkametgahı, kanton seçimini, vergi zamanlamasını, iş kurulumunu, okulları ve yerleşimi planlayın.",
+        "startingPoint": "Almanya",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Almanya kalkış planlaması ve İsviçre ikamet planlaması ne zaman sıralanmalıdır?",
+          "Hangi kanton iş sahipliğine, aile yaşamına ve işe gidip gelme alışkanlıklarına uyuyor?",
+          "İzinler, barınma, okullar ve danışmanlar nasıl koordine edilmelidir?"
+        ],
+        "workstreams": [
+          "Almanya kalkış ve İsviçre varış zaman çizelgesi",
+          "Vergi, okullar ve ticari faaliyetler için Kanton karşılaştırması",
+          "İzin başvurusu ve aile katılımı",
+          "Konut, sigorta, bankacılık ve yerleşim kurulumu"
+        ],
+        "proofPoints": [
+          "Zamanlamanın hassas bir şekilde ele alınmasına ihtiyaç duyan kurucular ve aileler için en iyisi",
+          "Kanton seçimini pratik okul ve barınma gerçekleriyle birleştirir",
+          "Alman ve İsviçreli danışmanları koordineli tutar"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Norveçli kurucular ve servet sahipleri",
+        "title": "Norveç'ten İsviçre'ye taşınmak",
+        "description": "Norveçli girişimciler, yatırımcılar ve vergi mukimliği, izinler, kanton seçimi, okullar ve bankacılığı değerlendiren aileler için İsviçre'ye taşınma rotası.",
+        "metaDescription": "Norveçli kurucular ve aileler için İsviçre'ye taşınma tavsiyesi. Vergi mukimliğini, izinleri, bankacılığı, okulları, kanton seçimini ve yerleşimi koordine edin.",
+        "startingPoint": "Norveç",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Norveç çıkış planlaması ne zaman İsviçre'de ikamet zamanlaması ile uyumlu hale getirilmelidir?",
+          "Hangi kanton mahremiyet, aile hayatı ve vergi önceliklerine uyuyor?",
+          "Banka tanıtımları veya okul kararları öncesinde neler koordine edilmeli?"
+        ],
+        "workstreams": [
+          "Norveç kalkış ve İsviçre varış zaman çizelgesi",
+          "Aile, vergi ve bankacılık öncelikleri açısından Kanton karşılaştırması",
+          "Oturma izinleri ve aile katılımı",
+          "Bankacılık hazırlığı, konut, okullar ve yerleşim"
+        ],
+        "proofPoints": [
+          "Vergi zamanlamasına ve aile lojistiğine bağlı olan varlık sahipleri için tasarlandı",
+          "Bir kantona veya okul yoluna katılmadan önce kullanışlıdır",
+          "Mevcut danışmanları İsviçre uygulamalarıyla koordine eder"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Kurucular iş içeriğini taşıyor",
+        "title": "Bir Şirketi İsviçre'ye Taşımak",
+        "description": "Şirket içeriğini, yönetim kurulu kurulumunu, bankacılığı, izinleri ve ailenin taşınmasını tek bir koordineli İsviçre planına taşımak için kurucunun liderliğinde bir rota.",
+        "metaDescription": "Şirket kuruluşu, esas, bankacılık, oturma izinleri, vergi ve ailenin taşınması konularında koordineli danışmanlık hizmetiyle bir şirketi İsviçre'ye taşıyın.",
+        "startingPoint": "Uluslararası",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "İsviçre şirketi ikamet rotası belli olmadan önce mi yoksa sonra mı kurulmalı?",
+          "Kanton, banka ve karşı taraflar hangi esası bekleyecek?",
+          "Kurucu izinleri, ailenin taşınması ve kurumsal bankacılık birbirini nasıl etkiler?"
+        ],
+        "workstreams": [
+          "Kurucu profili, şirket özü ve kanton uyumu incelemesi",
+          "Şirket oluşumu, yönetimi ve yönetim kurulu kurulumu",
+          "Kurumsal bankacılık hazırlığı ve dokümantasyonu",
+          "Kurucu izni, ailenin taşınması, barınma ve yerleşim"
+        ],
+        "proofPoints": [
+          "Şirket ve aile iş akışlarının uyumlu hale getirilmesine ihtiyaç duyan kurucular için tasarlandı",
+          "Maddeyi, izinleri, bankacılığı ve ödemeyi doğru sırayla birbirine bağlar",
+          "Yasal, bankacılık ve taşınma tavsiyelerinden kaynaklanan gecikmeleri azaltır"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Girişimciler ve aktif işletme sahipleri",
+        "title": "Girişimciler için İsviçre Oturma İzni",
+        "description": "İsviçre'de ikamet, şirket esası, bankacılık, servet kaynağı belgeleri ve aile yerleşimi yoluyla kurucu odaklı bir rota.",
+        "metaDescription": "Girişimciler için İsviçre oturma izni danışmanlığı. Kanton seçimini, şirket oluşumunu, bankacılığı, izinleri ve ailenin taşınmasını planlayın.",
+        "startingPoint": "Uluslararası",
+        "likelyCantons": [
+          "Zug",
+          "Zürih",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "İsviçre şirketi izin tesliminden önce mi yoksa sonra mı kurulmalı?",
+          "Kantonun beklediği ekonomik içerik nedir?",
+          "Ticari zenginlik bankalar ve yetkililer için nasıl belgelenmelidir?"
+        ],
+        "workstreams": [
+          "Kurucu profili ve kantona uygunluk değerlendirmesi",
+          "Şirket kurulumu ve yönetim kurulumu",
+          "İzin başvurusu ve aile katılımı",
+          "Bankacılık hazırlığı, kiralamalar, sigorta ve ödeme"
+        ],
+        "proofPoints": [
+          "İş ve aile iş akışlarının uyumlu hale getirilmesine ihtiyaç duyan kurucular için en iyisi",
+          "İzinleri şirketin özü ve bankacılık güvenilirliği ile birleştirir",
+          "Eksik dokümantasyon sıralamasından kaynaklanan gecikmeleri azaltır"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Yüksek net değere sahip kişiler",
+        "title": "İsviçre'de Götürü Toplam Vergilendirme",
+        "description": "Uygun yabancı uyruklular için, ceza mali durumunu, kanton seçimini, yaşam maliyeti tabanını ve ikamet zamanlamasını değerlendiren gizli bir planlama rotası.",
+        "metaDescription": "İsviçre'de götürü vergi danışmanlığı. Forfait mali uygunluğunu, kanton seçimini, vergiye tabi matrahı, izinleri ve yer değiştirme zamanlamasını değerlendirin.",
+        "startingPoint": "Uluslararası",
+        "likelyCantons": [
+          "Vaud",
+          "Cenevre",
+          "Valais",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Aile profili için cayma mali durumu gerçekçi mi?",
+          "İlk önce hangi kantonlara yaklaşmaya değer?",
+          "Hangi yaşam tarzı ve konut varsayımları vergiye tabi matrahı belirliyor?"
+        ],
+        "workstreams": [
+          "Uygunluk ve kanton kısa listesi",
+          "Vergi kararlarının hazırlanması ve yetki diyaloğu",
+          "Oturma izni ve barınma koordinasyonu",
+          "Bankacılık, sigorta ve yıllık uyumluluk devri"
+        ],
+        "proofPoints": [
+          "Vergi kararı çalışmasını gerçek yer değiştirme planıyla birleştirir",
+          "Kanton müzakerelerini yaşam tarzı gerçekliğiyle bağlantılı tutar",
+          "Kamuya açık taahhütlerden veya hassas belgelerden önce faydalıdır"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Kurucular, aile ofisleri ve kripto yatırımcıları",
+        "title": "Zug Yer Değiştirme Danışmanı",
+        "description": "Zug'u vergi, kripto bankacılığı, şirket kuruluşu, uluslararası okullar ve aile hayatı için düşünen müşteriler için odaklanmış bir yer değiştirme yolu.",
+        "metaDescription": "Girişimciler, aile ofisleri ve kripto yatırımcıları için Zug yer değiştirme danışmanı. İzinleri, şirket kurulumunu, bankacılığı, okulları ve barınmayı koordine edin.",
+        "startingPoint": "Uluslararası",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Zug doğru kişi mi, yoksa sadece bariz olanı mı?",
+          "Bankacılık, okul yerleri ve barınma aynı zaman çizelgesinde güvence altına alınabilir mi?",
+          "Planlanan yapı için hangi kurumsal öze ihtiyaç var?"
+        ],
+        "workstreams": [
+          "Zürih, Schwyz ve Vaud'a karşı Zug uygunluk değerlendirmesi",
+          "İzin ve şirket kuruluş sıralaması",
+          "Kripto dostu ve geleneksel bankacılık tanıtımları",
+          "Okul, konut, sigorta ve günlük yerleşim kurulumu"
+        ],
+        "proofPoints": [
+          "Takdir yetkisini kaybetmeden hıza ihtiyaç duyan müşteriler için tasarlandı",
+          "Düşük vergi çekiciliğini pratik aile lojistiğiyle dengeler",
+          "Kripto kökenli zenginlikler ve aktif faaliyet gösteren şirketler için kullanışlıdır"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Veri Sorumlusu",
+        "text": "Isvicre deki WorkWorkWork AG, bu web sitesi uzerinden gonderilen kisisel verilerin islenmesinden sorumludur."
+      },
+      {
+        "title": "2. Toplanan Veriler",
+        "text": "Yalnizca iletisim bilgileri, mevcut ikamet ulkesi, vatandaslik, tasinma hedefleri, zamanlama, hizmet ilgi alanlari ve mesaj icerigi gibi formda gonullu olarak paylasilan bilgileri toplariz."
+      },
+      {
+        "title": "3. Isleme Amaci",
+        "text": "Bilgiler talebi degerlendirmek, ozel bir yanit hazirlamak ve ilgili danismanlik calismasini koordine etmek icin kullanilir. Hassas belgeler halka acik formlar uzerinden gonderilmemelidir."
+      },
+      {
+        "title": "4. Saklama",
+        "text": "Kisisel veriler yalnizca talebi yanitlamak, bir danismanlik iliskisini desteklemek veya yasal yukumlulukleri yerine getirmek icin gerekli sure boyunca saklanir."
+      },
+      {
+        "title": "5. Haklariniz",
+        "text": "Isvicre veri koruma hukuku ve uygulanabildigi olcude GDPR kapsaminda kisisel verilerinize erisim, duzeltme, silme veya islemeyi kisitlama talep edebilirsiniz."
+      },
+      {
+        "title": "6. Iletisim",
+        "text": "Gizlilik talepleri ve hukuki sorular iletisim formu uzerinden gonderilebilir. Talepler, herkese acik bir e-posta adresi gosterilmeden ozel olarak yonlendirilir."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Isvicre, Schwyz Kantonu Ticaret Siciline kayitlidir.",
+      "contactTitle": "Iletisim",
+      "contactText": "Sorulariniz icin lutfen gizli iletisim formunu kullanin. Herkese acik e-posta adresleri bu web sitesinde bilerek gosterilmez.",
+      "disclaimerTitle": "Sorumluluk Reddi",
+      "disclaimerText": "Bu web sitesindeki icerik genel bilgi ve yonlendirme amaciyla sunulur. Vergi, hukuk, yatirim veya finansal danismanlik degildir. Her tasinma karari nitelikli uzman danismanlarla degerlendirilmelidir."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "İsviçre",
+      "uae": "Birleşik Arap Emirlikleri",
+      "saudiArabia": "Suudi Arabistan",
+      "qatar": "Katar",
+      "kuwait": "Kuveyt",
+      "bahrain": "Bahreyn"
+    }
+  },
+  "swissArrivalNav": {
+    "guide": "Rehber",
+    "contact": "İletişim",
+    "cta": "Lansman listesine katıl"
+  },
+  "swissArrivalFooter": {
+    "tagline": "İsviçre’ye taşınmaya hazırlanan expatlar için pratik bir dijital rehber.",
+    "rights": "Tüm hakları saklıdır.",
+    "company": "Bir WorkWorkWork AG projesi"
   }
 }

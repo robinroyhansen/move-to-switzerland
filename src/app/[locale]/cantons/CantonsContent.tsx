@@ -134,15 +134,15 @@ export function CantonsContent() {
                       />
                       <div className="space-y-3">
                         <div className="bg-cream/60 rounded-md p-3">
-                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">Corporate</p>
+                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">{t('cantonsPage.metricLabels.corporate')}</p>
                           <p className="text-sm text-navy font-medium">{t(`cantonsPage.${canton}.tax.corporate`)}</p>
                         </div>
                         <div className="bg-cream/60 rounded-md p-3">
-                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">Personal Income</p>
+                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">{t('cantonsPage.metricLabels.personalIncome')}</p>
                           <p className="text-sm text-navy font-medium">{t(`cantonsPage.${canton}.tax.personal`)}</p>
                         </div>
                         <div className="bg-cream/60 rounded-md p-3">
-                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">Lump-Sum</p>
+                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">{t('cantonsPage.metricLabels.lumpSum')}</p>
                           <p className="text-sm text-navy font-medium">{t(`cantonsPage.${canton}.tax.lumpSum`)}</p>
                         </div>
                       </div>
@@ -216,11 +216,11 @@ export function CantonsContent() {
                       />
                       <div className="space-y-3">
                         <div className="bg-cream/60 rounded-md p-3">
-                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">Price Range</p>
+                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">{t('cantonsPage.metricLabels.priceRange')}</p>
                           <p className="text-sm text-navy font-medium">{t(`cantonsPage.${canton}.realEstate.range`)}</p>
                         </div>
                         <div className="bg-cream/60 rounded-md p-3">
-                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">Lex Koller</p>
+                          <p className="text-xs text-charcoal/40 uppercase tracking-wider mb-1">{t('cantonsPage.metricLabels.lexKoller')}</p>
                           <p className="text-sm text-charcoal/60">{t(`cantonsPage.${canton}.realEstate.lexKoller`)}</p>
                         </div>
                       </div>

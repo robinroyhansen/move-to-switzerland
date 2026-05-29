@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
+import { getMessageSection } from '@/lib/message-database';
 
 const swissArrivalLocales = ['en', 'da', 'de', 'fr'] as const;
 type SwissArrivalLocale = (typeof swissArrivalLocales)[number];
@@ -35,289 +37,6 @@ type PageCopy = {
   finalCta: string;
 };
 
-const copy: Record<SwissArrivalLocale, PageCopy> = {
-  en: {
-    metaTitle: 'Swiss Arrival | Practical Switzerland moving guide for expats',
-    metaDescription:
-      'A practical e-book for expats moving to Switzerland, covering permits, housing, insurance, taxes, schools and first-month admin.',
-    language: 'English',
-    eyebrow: 'Swiss Arrival',
-    title: 'The practical expat guide to moving to Switzerland',
-    subtitle:
-      'A clear e-book for people who want the real checklist: permits, housing, health insurance, schools, taxes, first-month admin and the small surprises that make Switzerland hard to decode from abroad.',
-    primaryCta: 'Join the launch list',
-    secondaryCta: 'See what is inside',
-    briefingLabel: 'Swiss move briefing',
-    proof: [
-      'Written from 13+ years of Swiss relocation experience',
-      'Built for EU and international expats',
-      'Available in Danish, English, German and French',
-    ],
-    problemKicker: 'Reality first',
-    problemTitle: 'Built for the messy part before life feels settled',
-    problemBody:
-      'Moving to Switzerland is not difficult because one task is impossible. It is difficult because every decision depends on another one: canton, permit, address, insurance, school, tax and bank setup. Swiss Arrival turns that pile of admin into a calm sequence.',
-    chaptersKicker: 'Inside the guide',
-    chaptersTitle: 'What the e-book helps you handle',
-    chapters: [
-      {
-        title: 'Before you move',
-        body: 'Choose a canton, understand permit routes, prepare documents and avoid the housing mistakes that create delays.',
-      },
-      {
-        title: 'Your first 30 days',
-        body: 'Register locally, activate health insurance, open a bank account, arrange phone and internet, and get the right documents in order.',
-      },
-      {
-        title: 'Money and paperwork',
-        body: 'Understand Swiss costs, salary expectations, deposits, tax basics, mandatory insurance and what needs attention first.',
-      },
-      {
-        title: 'Family and daily life',
-        body: 'Schools, childcare, transport, language, shopping, healthcare access and the routines that make the country easier to live in.',
-      },
-    ],
-    timelineKicker: 'Sequence',
-    timelineTitle: 'A simple moving sequence',
-    timeline: [
-      {
-        label: '01',
-        title: 'Plan the move',
-        body: 'Decide where you should land, what paperwork is needed and what can wait until after arrival.',
-      },
-      {
-        label: '02',
-        title: 'Secure the basics',
-        body: 'Handle housing, registration, insurance and banking in the right order so the process does not stall.',
-      },
-      {
-        label: '03',
-        title: 'Settle properly',
-        body: 'Move from survival mode to normal life with schools, transport, healthcare, tax and local routines under control.',
-      },
-    ],
-    bundleKicker: 'Digital product',
-    bundleTitle: 'Launch package',
-    bundleBody:
-      'The first version is planned as a practical digital product, not a vague inspiration guide.',
-    bundleItems: ['The Swiss Arrival e-book', 'First-month admin checklist', 'Canton decision worksheet', 'Cost and deposit planner'],
-    finalTitle: 'Get notified when Swiss Arrival opens',
-    finalBody:
-      'The launch page is being prepared now. Join the list and we will send the e-book details when the first edition is ready.',
-    finalCta: 'Contact us',
-  },
-  da: {
-    metaTitle: 'Swiss Arrival | Praktisk Schweiz-guide for expats',
-    metaDescription:
-      'En praktisk e-bog for expats, der flytter til Schweiz, med styr på tilladelser, bolig, forsikring, skat, skole og de første administrative trin.',
-    language: 'Dansk',
-    eyebrow: 'Swiss Arrival',
-    title: 'Den praktiske expat-guide til at flytte til Schweiz',
-    subtitle:
-      'En klar e-bog til dig, der vil have den rigtige tjekliste: opholdstilladelse, bolig, sygeforsikring, skole, skat, de første administrative trin og de små detaljer, der er svære at se udefra.',
-    primaryCta: 'Skriv dig på listen',
-    secondaryCta: 'Se indholdet',
-    briefingLabel: 'Schweiz-briefing',
-    proof: [
-      'Skrevet ud fra 13+ års erfaring med Schweiz',
-      'Lavet til EU-borgere og internationale expats',
-      'Kommer på dansk, engelsk, tysk og fransk',
-    ],
-    problemKicker: 'Virkeligheden først',
-    problemTitle: 'Lavet til den rodede fase før hverdagen falder på plads',
-    problemBody:
-      'Det svære ved at flytte til Schweiz er sjældent én umulig opgave. Det svære er, at alt hænger sammen: kanton, tilladelse, adresse, forsikring, skole, skat og bank. Swiss Arrival gør bunken af administration til en rolig rækkefølge.',
-    chaptersKicker: 'Inde i guiden',
-    chaptersTitle: 'Det e-bogen hjælper dig med',
-    chapters: [
-      {
-        title: 'Før du flytter',
-        body: 'Vælg kanton, forstå tilladelser, forbered dokumenter og undgå boligfejl, der kan forsinke processen.',
-      },
-      {
-        title: 'De første 30 dage',
-        body: 'Registrering, sygeforsikring, bankkonto, telefon, internet og de vigtigste dokumenter i den rigtige rækkefølge.',
-      },
-      {
-        title: 'Penge og papirarbejde',
-        body: 'Få overblik over schweiziske omkostninger, løn, depositum, skat, obligatorisk forsikring og hvad der haster først.',
-      },
-      {
-        title: 'Familie og hverdag',
-        body: 'Skole, børnepasning, transport, sprog, indkøb, adgang til læge og de rutiner, der gør landet lettere at bo i.',
-      },
-    ],
-    timelineKicker: 'Rækkefølge',
-    timelineTitle: 'En enkel flytteplan',
-    timeline: [
-      {
-        label: '01',
-        title: 'Planlæg flytningen',
-        body: 'Find ud af hvor du bør lande, hvilke papirer der kræves, og hvad der kan vente til efter ankomst.',
-      },
-      {
-        label: '02',
-        title: 'Få styr på det vigtigste',
-        body: 'Bolig, registrering, forsikring og bank skal tages i en rækkefølge, der ikke bremser processen.',
-      },
-      {
-        label: '03',
-        title: 'Kom ordentligt på plads',
-        body: 'Gå fra overlevelse til hverdag med skole, transport, sundhed, skat og lokale rutiner under kontrol.',
-      },
-    ],
-    bundleKicker: 'Digitalt produkt',
-    bundleTitle: 'Lancering',
-    bundleBody:
-      'Første version er planlagt som et praktisk digitalt produkt, ikke endnu en løs inspirationsguide.',
-    bundleItems: ['Swiss Arrival e-bogen', 'Tjekliste til første måned', 'Worksheet til valg af kanton', 'Planlægger til udgifter og depositum'],
-    finalTitle: 'Få besked når Swiss Arrival åbner',
-    finalBody:
-      'Siden bliver gjort klar nu. Skriv dig på listen, så sender vi detaljerne, når første udgave er klar.',
-    finalCta: 'Kontakt os',
-  },
-  de: {
-    metaTitle: 'Swiss Arrival | Praktischer Schweiz-Umzugsguide für Expats',
-    metaDescription:
-      'Ein praktisches E-Book für Expats, die in die Schweiz ziehen, mit Bewilligungen, Wohnung, Versicherung, Steuern, Schule und den ersten administrativen Schritten.',
-    language: 'Deutsch',
-    eyebrow: 'Swiss Arrival',
-    title: 'Der praktische Expat-Guide für den Umzug in die Schweiz',
-    subtitle:
-      'Ein klares E-Book für alle, die eine echte Checkliste brauchen: Aufenthaltsbewilligung, Wohnung, Krankenversicherung, Schule, Steuern, die ersten administrativen Schritte und die kleinen Details, die aus dem Ausland schwer zu erkennen sind.',
-    primaryCta: 'Zur Launch-Liste',
-    secondaryCta: 'Inhalte ansehen',
-    briefingLabel: 'Schweiz-Umzugsbriefing',
-    proof: [
-      'Geschrieben aus 13+ Jahren Erfahrung in der Schweiz',
-      'Für EU-Expats und internationale Expats',
-      'Auf Dänisch, Englisch, Deutsch und Französisch',
-    ],
-    problemKicker: 'Realität zuerst',
-    problemTitle: 'Gemacht für die unübersichtliche Phase vor dem Ankommen',
-    problemBody:
-      'Ein Umzug in die Schweiz scheitert selten an einer einzigen Aufgabe. Schwierig ist die Abhängigkeit zwischen Kanton, Bewilligung, Adresse, Versicherung, Schule, Steuern und Bank. Swiss Arrival macht daraus eine klare Reihenfolge.',
-    chaptersKicker: 'Im Guide',
-    chaptersTitle: 'Wobei das E-Book hilft',
-    chapters: [
-      {
-        title: 'Vor dem Umzug',
-        body: 'Kanton wählen, Bewilligungswege verstehen, Dokumente vorbereiten und Wohnungsfehler vermeiden, die Zeit kosten.',
-      },
-      {
-        title: 'Die ersten 30 Tage',
-        body: 'Anmeldung, Krankenversicherung, Bankkonto, Telefon, Internet und die wichtigsten Dokumente in der richtigen Reihenfolge.',
-      },
-      {
-        title: 'Geld und Bürokratie',
-        body: 'Schweizer Kosten, Gehaltsrealität, Kautionen, Steuergrundlagen, Pflichtversicherung und erste Prioritäten verstehen.',
-      },
-      {
-        title: 'Familie und Alltag',
-        body: 'Schulen, Kinderbetreuung, Verkehr, Sprache, Einkauf, Zugang zum Gesundheitswesen und Routinen für den Alltag.',
-      },
-    ],
-    timelineKicker: 'Reihenfolge',
-    timelineTitle: 'Eine einfache Umzugsabfolge',
-    timeline: [
-      {
-        label: '01',
-        title: 'Umzug planen',
-        body: 'Klären, wo der Einstieg sinnvoll ist, welche Unterlagen nötig sind und was bis nach der Ankunft warten kann.',
-      },
-      {
-        label: '02',
-        title: 'Grundlagen sichern',
-        body: 'Wohnung, Anmeldung, Versicherung und Bank in der richtigen Reihenfolge erledigen, damit nichts blockiert.',
-      },
-      {
-        label: '03',
-        title: 'Richtig ankommen',
-        body: 'Von der Übergangsphase in den Alltag kommen, mit Schule, Verkehr, Gesundheit, Steuern und lokalen Abläufen.',
-      },
-    ],
-    bundleKicker: 'Digitales Produkt',
-    bundleTitle: 'Launch-Paket',
-    bundleBody:
-      'Die erste Version ist als praktisches digitales Produkt geplant, nicht als allgemeiner Inspirationsratgeber.',
-    bundleItems: ['Das Swiss Arrival E-Book', 'Checkliste für den ersten Monat', 'Arbeitsblatt zur Kantonswahl', 'Kosten- und Kautionsplaner'],
-    finalTitle: 'Benachrichtigung zum Start erhalten',
-    finalBody:
-      'Die Launch-Seite wird vorbereitet. Tragen Sie sich ein und wir senden die Details, sobald die erste Ausgabe bereit ist.',
-    finalCta: 'Kontakt aufnehmen',
-  },
-  fr: {
-    metaTitle: 'Swiss Arrival | Guide pratique pour expatriés en Suisse',
-    metaDescription:
-      'Un e-book pratique pour les expatriés qui s’installent en Suisse, avec permis, logement, assurance, impôts, école et premières démarches.',
-    language: 'Français',
-    eyebrow: 'Swiss Arrival',
-    title: 'Le guide pratique pour s’installer en Suisse',
-    subtitle:
-      'Un e-book clair pour celles et ceux qui veulent une vraie checklist: permis de séjour, logement, assurance maladie, école, impôts, premières démarches administratives et détails souvent invisibles depuis l’étranger.',
-    primaryCta: 'Rejoindre la liste',
-    secondaryCta: 'Voir le contenu',
-    briefingLabel: 'Briefing d’installation',
-    proof: [
-      'Écrit à partir de 13+ ans d’expérience en Suisse',
-      'Conçu pour les expatriés européens et internationaux',
-      'Disponible en danois, anglais, allemand et français',
-    ],
-    problemKicker: 'La réalité d’abord',
-    problemTitle: 'Pensé pour la phase confuse avant de se sentir installé',
-    problemBody:
-      'S’installer en Suisse n’est pas difficile à cause d’une seule tâche impossible. Le vrai problème est l’enchaînement: canton, permis, adresse, assurance, école, impôts et banque. Swiss Arrival transforme cette administration en ordre clair.',
-    chaptersKicker: 'Dans le guide',
-    chaptersTitle: 'Ce que l’e-book vous aide à gérer',
-    chapters: [
-      {
-        title: 'Avant le départ',
-        body: 'Choisir un canton, comprendre les permis, préparer les documents et éviter les erreurs de logement qui ralentissent tout.',
-      },
-      {
-        title: 'Les 30 premiers jours',
-        body: 'Inscription locale, assurance maladie, compte bancaire, téléphone, internet et documents essentiels dans le bon ordre.',
-      },
-      {
-        title: 'Argent et démarches',
-        body: 'Comprendre les coûts suisses, le salaire, les cautions, les bases fiscales, les assurances obligatoires et les priorités.',
-      },
-      {
-        title: 'Famille et vie quotidienne',
-        body: 'Écoles, garde d’enfants, transport, langue, courses, accès aux soins et habitudes qui rendent la vie plus simple.',
-      },
-    ],
-    timelineKicker: 'Séquence',
-    timelineTitle: 'Une séquence simple pour le déménagement',
-    timeline: [
-      {
-        label: '01',
-        title: 'Préparer le départ',
-        body: 'Déterminer où arriver, quels documents sont nécessaires et ce qui peut attendre après l’arrivée.',
-      },
-      {
-        label: '02',
-        title: 'Sécuriser l’essentiel',
-        body: 'Gérer logement, inscription, assurance et banque dans le bon ordre pour éviter les blocages.',
-      },
-      {
-        label: '03',
-        title: 'S’installer vraiment',
-        body: 'Passer du mode survie à une vie normale avec école, transport, santé, impôts et routines locales.',
-      },
-    ],
-    bundleKicker: 'Produit digital',
-    bundleTitle: 'Pack de lancement',
-    bundleBody:
-      'La première version est pensée comme un produit digital pratique, pas comme un guide d’inspiration vague.',
-    bundleItems: ['L’e-book Swiss Arrival', 'Checklist du premier mois', 'Feuille de décision par canton', 'Planificateur de coûts et de caution'],
-    finalTitle: 'Recevoir l’annonce du lancement',
-    finalBody:
-      'La page de lancement est en préparation. Rejoignez la liste et nous enverrons les détails lorsque la première édition sera prête.',
-    finalCta: 'Nous contacter',
-  },
-};
-
 type Props = {
   params: Promise<{ locale: string }>;
 };
@@ -327,7 +46,7 @@ function getCopy(locale: string) {
     return null;
   }
 
-  return copy[locale as SwissArrivalLocale];
+  return getMessageSection<PageCopy>(locale, 'swissArrivalPage');
 }
 
 export function generateStaticParams() {
@@ -336,11 +55,11 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const page = getCopy(locale) ?? copy.en;
+  const t = await getTranslations({ locale, namespace: 'swissArrivalPage' });
 
   return {
-    title: page.metaTitle,
-    description: page.metaDescription,
+    title: t('metaTitle'),
+    description: t('metaDescription'),
     alternates: {
       canonical: swissArrivalBaseUrl + '/' + locale,
       languages: Object.fromEntries(
@@ -348,8 +67,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ),
     },
     openGraph: {
-      title: page.metaTitle,
-      description: page.metaDescription,
+      title: t('metaTitle'),
+      description: t('metaDescription'),
       type: 'website',
       locale,
     },
@@ -364,6 +83,11 @@ export default async function SwissArrivalPage({ params }: Props) {
     notFound();
   }
 
+  const languageLinks = swissArrivalLocales.map((code) => ({
+    code,
+    language: getMessageSection<PageCopy>(code, 'swissArrivalPage').language,
+  }));
+
   return (
     <div className="bg-[#f5f1e8] text-[#172033]">
       <section className="relative isolate overflow-hidden bg-[#172033] pt-36 text-white sm:pt-44">
@@ -375,7 +99,7 @@ export default async function SwissArrivalPage({ params }: Props) {
         <div className="mx-auto flex max-w-7xl flex-col gap-12 px-4 pb-20 sm:px-6 lg:grid lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
           <div className="max-w-3xl">
             <div className="mb-8 flex flex-wrap gap-2">
-              {swissArrivalLocales.map((code) => (
+              {languageLinks.map(({ code, language }) => (
                 <Link
                   key={code}
                   href="/swiss-arrival"
@@ -386,7 +110,7 @@ export default async function SwissArrivalPage({ params }: Props) {
                       : 'border-white/20 text-white/70 hover:border-[#d8b46a] hover:text-[#d8b46a]'
                   }`}
                 >
-                  {copy[code].language}
+                  {language}
                 </Link>
               ))}
             </div>

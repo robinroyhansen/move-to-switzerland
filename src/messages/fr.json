@@ -5,16 +5,18 @@
   },
   "nav": {
     "home": "Accueil",
-    "services": "Services",
+    "services": "Nos services",
     "whySwitzerland": "Pourquoi la Suisse",
-    "cantons": "Cantons",
+    "cantons": "Cantons suisses",
     "caseStudies": "Études de cas",
     "about": "À propos",
-    "contact": "Contact",
+    "contact": "Nous contacter",
     "privacy": "Confidentialité",
     "imprint": "Mentions légales",
     "beginJourney": "Commencer votre parcours",
-    "insights": "Analyses"
+    "insights": "Analyses",
+    "menu": "Afficher le menu",
+    "closeMenu": "Fermer le menu"
   },
   "hero": {
     "headline": "Votre chemin vers la Suisse",
@@ -93,7 +95,7 @@
     "education": {
       "title": "Système éducatif",
       "subtitle": "Un apprentissage de classe mondiale pour la prochaine génération",
-      "stat1": "Top 3",
+      "stat1": "Haut 3",
       "stat1Label": "Universités mondiales (ETH Zurich)",
       "stat2": "50+",
       "stat2Label": "Écoles internationales",
@@ -131,7 +133,7 @@
       "subtitle": "Sécurité, infrastructure et beauté naturelle sans compromis",
       "stat1": "N°1",
       "stat1Label": "Qualité de vie mondiale",
-      "stat2": "Top 3",
+      "stat2": "Haut 3",
       "stat2Label": "Pays les plus sûrs au monde",
       "stat3": "99,9 %",
       "stat3Label": "Ponctualité des transports publics",
@@ -305,6 +307,13 @@
           "bestFor": "Familles qui veulent une base agréable avec santé, écoles, accès aéroportuaire et fiscalité encore compétitive."
         }
       ]
+    },
+    "metricLabels": {
+      "corporate": "Entreprise",
+      "personalIncome": "Impôt sur le revenu",
+      "lumpSum": "Forfait fiscal",
+      "priceRange": "Fourchette de prix",
+      "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
@@ -436,13 +445,23 @@
         ],
         "outcome": "SFO suisse pleinement opérationnel à Zoug. 3 administrateurs indépendants nommés. Cadre de gouvernance ratifié par toutes les branches de la famille. Reporting consolidé sur toutes les juridictions. Mandat en cours pour la gouvernance trimestrielle et la revue annuelle."
       }
+    },
+    "labels": {
+      "case": "Cas",
+      "timeline": "Chronologie",
+      "month": "Mois",
+      "week": "Semaine",
+      "ongoing": "En cours",
+      "keyChallenges": "Principaux défis",
+      "servicesEngaged": "Services mobilisés",
+      "outcome": "Résultat"
     }
   },
   "services": {
     "title": "Nos Services",
     "subtitle": "Un conseil complet couvrant chaque dimension de votre relocalisation",
     "learnMore": "En savoir plus",
-    "pageTitle": "Services",
+    "pageTitle": "Nos services",
     "pageSubtitle": "Accompagnement de bout en bout pour votre installation en Suisse",
     "items": {
       "assetStructuring": {
@@ -522,7 +541,7 @@
         "age": "Âge 28–42 ans",
         "description": "Entrepreneurs numériques et détenteurs de fortune crypto recherchant une juridiction stable, favorable à la crypto, avec un style de vie de classe mondiale.",
         "tags": [
-          "Crypto",
+          "Cryptomonnaie",
           "Actifs numériques",
           "Style de vie"
         ]
@@ -533,7 +552,7 @@
         "description": "Family offices établis recherchant un centre de gouvernance européen, une planification successorale et une structuration de patrimoine de qualité institutionnelle.",
         "tags": [
           "Gouvernance",
-          "Succession",
+          "Transmission",
           "Institutionnel"
         ]
       }
@@ -631,12 +650,13 @@
   },
   "footer": {
     "tagline": "Conseil premium en relocalisation pour particuliers et familles de distinction.",
-    "navigation": "Navigation",
+    "navigation": "Menu",
     "legal": "Juridique",
     "languages": "Langues",
     "rights": "Tous droits réservés.",
     "company": "Un service de WorkWorkWork AG",
-    "disclaimer": "Les services sont limités à l'éducation financière générale et à l'orientation stratégique et ne constituent pas des services financiers au sens de la Loi sur les services financiers (LSFin). En particulier, aucun conseil sur des instruments financiers spécifiques, aucune gestion de portefeuille et aucune exécution ou transmission d'ordres n'est fourni."
+    "disclaimer": "Les services sont limités à l'éducation financière générale et à l'orientation stratégique et ne constituent pas des services financiers au sens de la Loi sur les services financiers (LSFin). En particulier, aucun conseil sur des instruments financiers spécifiques, aucune gestion de portefeuille et aucune exécution ou transmission d'ordres n'est fourni.",
+    "trustSwissEntity": "Entité enregistrée en Suisse"
   },
   "servicesMeta": {
     "title": "Nos Services — S'installer en Suisse",
@@ -937,7 +957,7 @@
       },
       "swiss-residency-permits-guide": {
         "category": "immigration",
-        "categoryLabel": "Immigration",
+        "categoryLabel": "Permis et immigration",
         "readTime": "11 min de lecture",
         "date": "1er avril 2026",
         "title": "Permis de séjour suisses : Permis B, Permis C et chemin vers la citoyenneté",
@@ -1122,5 +1142,1204 @@
     "message": "Nous utilisons des cookies pour améliorer votre expérience. Les cookies essentiels sont nécessaires au fonctionnement du site. Les cookies d'analyse nous aident à améliorer notre service.",
     "acceptAll": "Tout accepter",
     "essentialOnly": "Essentiels uniquement"
+  },
+  "contactCopy": {
+    "pageTitle": "Prise de réinstallation confidentielle",
+    "pageSubtitle": "Partagez l'essentiel en privé afin que nous puissions évaluer le bon chemin suisse avant la première conversation.",
+    "confidential": "Toutes les demandes sont traitées avec la plus stricte confidentialité.",
+    "noSensitive": "N'envoyez pas de passeports, de relevés bancaires ou de documents sensibles via ce formulaire.",
+    "serviceError": "Veuillez sélectionner au moins une zone de service.",
+    "sections": {
+      "situationTitle": "1. Votre situation",
+      "situationText": "Les bases nous aident à acheminer la demande correctement sans demander de documentation sensible.",
+      "coordinationTitle": "2. Ce qui nécessite une coordination",
+      "coordinationText": "Sélectionnez tous les domaines qui peuvent être pertinents. Une réponse précise n’est pas requise à ce stade.",
+      "responseTitle": "3. Comment répondre",
+      "responseText": "Nous utiliserons ces informations uniquement pour évaluer et répondre à votre demande."
+    },
+    "labels": {
+      "enquiryType": "Je demande en tant que",
+      "primaryGoal": "Objectif principal",
+      "country": "Pays de résidence actuelle",
+      "nationality": "Nationalité ou citoyenneté",
+      "timeline": "Chronologie",
+      "servicesNeeded": "Services requis",
+      "targetCanton": "Canton ou ville cible",
+      "familySize": "Déménagement des membres de la famille",
+      "existingAdvisors": "Conseillers suisses existants",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone (facultatif)",
+      "hearAbout": "Comment avez-vous entendu parler de nous ? (facultatif)",
+      "preferredContact": "Réponse préférée",
+      "message": "Votre message"
+    },
+    "placeholders": {
+      "targetCanton": "Zoug, Zurich, Schwyz, indécis...",
+      "familySize": "Juste moi, couple, famille de 4 personnes...",
+      "message": "Que faut-il comprendre avant la première conversation confidentielle ?"
+    },
+    "submit": "Soumettre une candidature confidentielle",
+    "privacyConsent": "J'accepte que Move to Switzerland traite ces informations pour répondre à ma demande. Je comprends que je ne dois pas soumettre de documents sensibles via ce formulaire.",
+    "aside": {
+      "title": "Examen privé",
+      "paragraphs": [
+        "Cette offre est conçue pour les demandes de déménagement, de résidence, de fiscalité, de family office et d'établissement où la discrétion compte.",
+        "Une première soumission concise suffit. Si l’affaire est appropriée, l’étape suivante est une consultation privée avant que des documents ne soient demandés."
+      ],
+      "items": [
+        "Examen confidentiel",
+        "Aucune adresse publique de destinataire exposée",
+        "Aucun document sensible demandé",
+        "Réponse acheminée via un flux de travail privé côté serveur"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Particulier"
+        },
+        {
+          "value": "family-office",
+          "label": "Bureau familial"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Entrepreneur·e"
+        },
+        {
+          "value": "advisor",
+          "label": "Conseiller pour un client"
+        },
+        {
+          "value": "other",
+          "label": "Autre"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Déménager moi-même ou ma famille"
+        },
+        {
+          "value": "tax-residency",
+          "label": "Planification fiscale et de résidence en Suisse"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Création d'une entreprise ou d'un family-office"
+        },
+        {
+          "value": "settlement",
+          "label": "Immobilier, écoles et colonies"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Coordination bancaire et patrimoniale"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Guide Swiss Arrival"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Urgence immédiate"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Moins de 3 mois"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 mois"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 mois"
+        },
+        {
+          "value": "early-planning",
+          "label": "Planification préliminaire"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Titres de séjour"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Imposition forfaitaire"
+        },
+        {
+          "value": "company-formation",
+          "label": "Création d'entreprise"
+        },
+        {
+          "value": "family-office",
+          "label": "Bureau familial"
+        },
+        {
+          "value": "real-estate",
+          "label": "Immobilier"
+        },
+        {
+          "value": "schooling",
+          "label": "Écoles"
+        },
+        {
+          "value": "private-banking",
+          "label": "Banque privée"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Conciergerie Santé"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Coordination complète du déménagement"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "Courriel"
+        },
+        {
+          "value": "phone",
+          "label": "Téléphone"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Oui"
+        },
+        {
+          "value": "no",
+          "label": "Non"
+        },
+        {
+          "value": "not-sure",
+          "label": "Je ne suis pas sûr"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Questionnaire confidentiel de relocation suisse - Move to Switzerland",
+      "description": "Envoyez une demande privee pour residence suisse, fiscalite, family office, ecoles, banque et installation."
+    },
+    "progressTitle": "Progression du formulaire",
+    "optionalContextTitle": "Contexte de planification supplementaire",
+    "optionalContextText": "Des fourchettes facultatives suffisent. N envoyez pas de passeports, releves bancaires ou documents sensibles.",
+    "showOptional": "Ajouter un contexte facultatif",
+    "hideOptional": "Masquer le contexte facultatif",
+    "labels": {
+      "relocationYear": "Annee de relocalisation prevue",
+      "preferredCantons": "Cantons preferes",
+      "advisoryScope": "Perimetre du conseil",
+      "schoolAgeRange": "Enfants a scolariser",
+      "urgencyReason": "Qu est-ce qui determine le calendrier ?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, modulable...",
+      "schoolAgeRange": "Ages 6 et 11, internat, pas d enfants...",
+      "urgencyReason": "Annee scolaire, annee fiscale, permis, recherche immobiliere..."
+    },
+    "validation": {
+      "required": "Veuillez remplir ce champ obligatoire.",
+      "email": "Veuillez saisir une adresse e-mail valide.",
+      "servicesNeeded": "Veuillez selectionner au moins un domaine de service.",
+      "preferredContact": "Veuillez indiquer comment nous devons repondre.",
+      "phoneRequired": "Veuillez ajouter un numero de telephone ou choisir l e-mail comme reponse preferee.",
+      "consent": "Veuillez confirmer le consentement de confidentialite.",
+      "submitError": "La demande n a pas pu etre envoyee pour le moment. Veuillez reessayer plus tard."
+    },
+    "status": {
+      "sending": "Envoi...",
+      "successTitle": "Demande recue",
+      "successText": "Merci. Nous examinerons la demande en prive et repondrons par le canal choisi."
+    },
+    "process": {
+      "title": "Ce qui se passe ensuite",
+      "intro": "Une premiere soumission concise suffit. Si le sujet convient, l etape suivante est une consultation privee avant toute demande de documents.",
+      "steps": [
+        "Examen prive du profil de relocation",
+        "Premiere evaluation du canton, de la residence, de la fiscalite, de la famille et de l entreprise",
+        "Reponse confidentielle par le canal choisi"
+      ]
+    },
+    "trust": {
+      "title": "Standards de confidentialite",
+      "items": [
+        "Entite enregistree en Suisse",
+        "Routage prive cote serveur",
+        "Aucune adresse destinataire publique",
+        "Aucun document sensible demande via le formulaire",
+        "Aucun transfert WhatsApp"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal-only",
+          "label": "Personnel seulement"
+        },
+        {
+          "value": "family",
+          "label": "Famille"
+        },
+        {
+          "value": "company",
+          "label": "Entreprise"
+        },
+        {
+          "value": "family-office",
+          "label": "Bureau familial"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Indecis"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerne"
+        },
+        {
+          "value": "other",
+          "label": "Autre"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Je consens a ce que Move to Switzerland traite ces informations pour repondre a ma demande et j accepte la ",
+      "linkText": "politique de confidentialite",
+      "afterLink": ". Je comprends que je ne dois pas soumettre de documents sensibles via ce formulaire."
+    },
+    "honeypotLabel": "Site web de l’entreprise"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Prêt à comprendre le bon itinéraire suisse ?",
+      "creamText": "Commencez par une évaluation privée ou utilisez le parcours guide si vous êtes encore au début de la décision.",
+      "navyTitle": "Prêt à faire de la Suisse un plan exécutable ?",
+      "navyText": "Partagez l'essentiel en privé ou commencez par le guide Swiss Arrival si vous comparez encore les options.",
+      "privateAssessment": "Demander une évaluation privée",
+      "guide": "Obtenez le guide Swiss Arrival"
+    },
+    "home": {
+      "heroBadge": "Conseil en matière de déménagement en Suisse",
+      "heroTitle": "Déménagez en Suisse avec les permis, les impôts, les opérations bancaires, les écoles et l'établissement coordonnés.",
+      "heroSubtitle": "Conseil privé basé en Suisse pour les entrepreneurs, les détenteurs de patrimoine, les familles et les family offices s'installant à Zurich, Zoug, Schwyz, Genève, Vaud et au-delà.",
+      "heroProof": [
+        {
+          "label": "Coordination basée en Suisse",
+          "value": "Zurich, Zoug, Schwytz"
+        },
+        {
+          "label": "Prise privée",
+          "value": "Aucun document sensible"
+        },
+        {
+          "label": "Conçu pour",
+          "value": "Fondateurs, familles, family offices"
+        },
+        {
+          "label": "Axes de travail",
+          "value": "Permis, impôts, banques, écoles"
+        }
+      ],
+      "planTitle": "Plan de déménagement en Suisse",
+      "planPeriod": "30 premiers jours",
+      "planRows": [
+        [
+          "01",
+          "Parcours de résidence",
+          "Permis B, inclusion familiale, timing"
+        ],
+        [
+          "02",
+          "Décision cantonale",
+          "Impôts, école, logement, trajet domicile-travail"
+        ],
+        [
+          "03",
+          "Préparation bancaire",
+          "Histoire et introductions de la source de richesse"
+        ],
+        [
+          "04",
+          "Règlement",
+          "Logement, assurances, écoles, configuration quotidienne"
+        ]
+      ],
+      "planFooter": "Le but n'est pas plus de conseils. Il s’agit d’une séquence qui empêche les permis, les services bancaires, les écoles et les logements de se bloquer mutuellement.",
+      "trustStrip": [
+        "Évaluation privée",
+        "Comparaison des cantons suisses",
+        "Documentation prête pour la banque",
+        "Règlement familial"
+      ],
+      "processTitle": "De la première conversation à un plan suisse que vous pouvez exécuter",
+      "processText": "Les relocalisations de grande valeur échouent lorsque les flux de travail sont déplacés séparément. La première étape consiste à établir un modèle opérationnel clair avant que quiconque ne demande des documents.",
+      "processSteps": [
+        {
+          "title": "Évaluation privée",
+          "text": "Nous cartographions la famille, l'entreprise, la citoyenneté, le calendrier et les contraintes sensibles avant que des documents ne soient demandés."
+        },
+        {
+          "title": "Plan d'itinéraire suisse",
+          "text": "Vous obtenez une séquence pratique de cantons et de domaines de travail couvrant les permis, les impôts, les opérations bancaires, le logement, les écoles et l'établissement."
+        },
+        {
+          "title": "Exécution coordonnée",
+          "text": "Un point responsable permet aux avocats, aux banques, aux écoles, à l'immobilier et aux conseillers existants d'avancer dans le bon ordre."
+        }
+      ],
+      "signalsBadge": "Ce qui est coordonné",
+      "signalsTitle": "Exécution spécifique en Suisse, pas de discours générique sur la relocalisation",
+      "signalsText": "La proposition de valeur est opérationnelle : moins d'écarts entre les impôts, les permis, les banques, le logement, les écoles et le premier jour normal en Suisse.",
+      "signals": [
+        "Comparaison des cantons avant engagement",
+        "Calendrier des permis correspondant à l'admission scolaire",
+        "Documentation bancaire préparée avant les présentations",
+        "Recherche de logement alignée sur les réalités fiscales et de déplacement",
+        "Conseillers existants tenus au courant au lieu d'être remplacés",
+        "Pas de passeports, de relevés bancaires ou de fichiers sensibles via des formulaires publics"
+      ],
+      "pathsTitle": "Chemins de réinstallation populaires",
+      "pathsText": "Les visiteurs très intentionnels ne devraient pas avoir à traduire les pages de services génériques selon leur propre situation.",
+      "discussRoute": "Discuter de mon itinéraire"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Point de départ",
+          "value": "Dubaï, fondateur après la sortie"
+        },
+        {
+          "label": "Base suisse",
+          "value": "Résidence familiale Zoug"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Documentation sur la richesse cryptographique"
+        },
+        {
+          "label": "Résultat",
+          "value": "Permis, école, banque, bureau actif"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Point de départ",
+          "value": "Beyrouth, relocalisation d'urgence"
+        },
+        {
+          "label": "Base suisse",
+          "value": "Règlement schwytzien axé sur la confidentialité"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Complexité immobilière sur trois générations"
+        },
+        {
+          "label": "Résultat",
+          "value": "Famille installée avec la gouvernance suisse"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Point de départ",
+          "value": "Riyad, investisseur crypto"
+        },
+        {
+          "label": "Base suisse",
+          "value": "Appartement Zurich et GmbH"
+        },
+        {
+          "label": "Risque principal",
+          "value": "Profil de patrimoine non traditionnel"
+        },
+        {
+          "label": "Résultat",
+          "value": "Permis et configuration de la double banque"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Point de départ",
+          "value": "Koweït, bureau multi-juridictionnel"
+        },
+        {
+          "label": "Base Suisse",
+          "value": "Zoug Single Family Office"
+        },
+        {
+          "label": "Risque principal",
+          "value": "La gouvernance à travers les générations"
+        },
+        {
+          "label": "Résultat",
+          "value": "Tableau suisse et reportage en direct"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Quiz d'ajustement de canton",
+      "title": "Trouvez la route suisse qui mérite d'être discutée en premier",
+      "description": "Un filtre en quatre questions pour les déménageurs sérieux. Il ne remplacera pas les conseils, mais il donnera à la première consultation un point de départ plus précis.",
+      "likelyRoute": "Premier itinéraire probable",
+      "namePlaceholder": "Nom",
+      "emailPlaceholder": "Courriel",
+      "sendPlan": "Envoyer le forfait",
+      "sending": "Envoi",
+      "success": "Le résultat de votre quiz a été envoyé. Nous l'utiliserons comme contexte pour la première réponse.",
+      "error": "Le résultat n'a pas pu être envoyé pour le moment.",
+      "fullIntake": "Complétez le formulaire d'admission confidentiel complet",
+      "guide": "Obtenez le guide Swiss Arrival",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Qui déménage ?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Fondateur"
+            },
+            {
+              "value": "family",
+              "label": "Famille"
+            },
+            {
+              "value": "family-office",
+              "label": "Bureau familial"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Patrimoine privé"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "Qu'est-ce qui compte le plus ?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Planification fiscale"
+            },
+            {
+              "value": "schools",
+              "label": "Écoles"
+            },
+            {
+              "value": "privacy",
+              "label": "Confidentialité"
+            },
+            {
+              "value": "business",
+              "label": "Configuration de l'entreprise"
+            },
+            {
+              "value": "urban",
+              "label": "Accès à la ville"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Base actuelle",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Danemark"
+            },
+            {
+              "value": "uae",
+              "label": "EAU"
+            },
+            {
+              "value": "uk",
+              "label": "Royaume-Uni"
+            },
+            {
+              "value": "gcc",
+              "label": "CCG"
+            },
+            {
+              "value": "eu",
+              "label": "UE"
+            },
+            {
+              "value": "other",
+              "label": "Autre"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Délai prévu",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Urgence immédiate"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Moins de 3 mois"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 mois"
+            },
+            {
+              "value": "early-planning",
+              "label": "Planification préliminaire"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Danemark",
+        "uae": "Émirats arabes unis",
+        "uk": "Royaume-Uni",
+        "gcc": "CCG",
+        "eu": "Union européenne",
+        "other": "Autre ou non précisé"
+      },
+      "results": {
+        "zug": {
+          "title": "Zoug d'abord, avec Zurich comme remplaçant pratique",
+          "summary": "Vos réponses pointent vers Zoug pour la fiscalité, la création d'entreprise, l'accès bancaire et l'infrastructure des fondateurs. Zurich devrait rester dans la comparaison si les écoles, le recrutement ou l'accès quotidien à la ville comptent."
+        },
+        "zurich": {
+          "title": "Zurich en tête, avec Zoug et Schwyz comparés",
+          "summary": "Vos réponses pointent vers Zurich pour les écoles, l'accès aux aéroports, la communauté internationale, la densité bancaire et la vie quotidienne. Zoug ou Schwytz pourraient encore gagner si la confidentialité fiscale prime sur l'accès à la ville."
+        },
+        "schwyz": {
+          "title": "Schwyz en premier, avec Zoug comme comparaison opérationnelle",
+          "summary": "Vos réponses pointent vers Schwyz pour son intimité, sa vie à faible impôt et sa base familiale plus calme. Le compromis est une densité institutionnelle moindre qu’à Zurich ou Zoug, donc le séquençage est important."
+        },
+        "vaudGeneva": {
+          "title": "Vaud ou Genève en premier, avec vérification anticipée de la faisabilité du forfait",
+          "summary": "Vos réponses pointent vers un canton francophone où la fiscalité forfaitaire, les écoles et les infrastructures familiales internationales peuvent être évaluées ensemble avant de s'engager."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Accueil",
+      "takeQuiz": "Répondez au quiz sur l'ajustement des cantons",
+      "startingPoint": "Point de départ",
+      "likelyCantons": "Cantons probables",
+      "questionsTitle": "Les questions auxquelles répondre avant de s'engager",
+      "questionsText": "Une planification sérieuse de la réinstallation commence avant les formulaires, les baux, les visites scolaires ou les présentations bancaires. Ce sont les décisions qui déterminent généralement l’itinéraire.",
+      "workstreamSequence": "Séquence du flux de travail",
+      "coordinateTitle": "Ce que nous coordonnons pour cet itinéraire",
+      "workstream": "Flux de travail",
+      "whyClientsUseUs": "Pourquoi les clients nous utilisent",
+      "valueTitle": "La valeur est la coordination, pas une autre opinion isolée",
+      "compareRoute": "Comparez un autre itinéraire",
+      "askSituation": "Renseignez-vous sur ma situation"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Fondateurs et familles danoises",
+        "title": "Déménager du Danemark vers la Suisse",
+        "description": "Un parcours pratique pour les entrepreneurs, les investisseurs et les familles danois comparant la résidence, la fiscalité, les opérations bancaires, les écoles et l'établissement en Suisse.",
+        "metaDescription": "Conseil en relocalisation pour les entrepreneurs danois et les familles s'installant en Suisse. Comparez les cantons, les permis, les impôts, les banques, les écoles et les implantations.",
+        "startingPoint": "Danemark",
+        "likelyCantons": [
+          "Zoug",
+          "Schwytz",
+          "Zurich"
+        ],
+        "urgentQuestions": [
+          "Quand la planification de la sortie fiscale danoise devrait-elle commencer ?",
+          "Quel canton suisse correspond à la vie de famille et à la propriété d'entreprise ?",
+          "Comment les opérations bancaires, les écoles, le logement et les permis doivent-ils être séquencés ?"
+        ],
+        "workstreams": [
+          "Chronologie de sortie du Danemark et d'entrée en Suisse",
+          "Comparaison des cantons pour les taxes, les écoles et l'accès aux aéroports",
+          "Demande de permis B et inclusion familiale",
+          "Banque privée et préparation de sources de richesse"
+        ],
+        "proofPoints": [
+          "Conçu pour les fondateurs transfrontaliers qui ont besoin d'un coordinateur responsable",
+          "Couvre le règlement pratique, pas seulement la théorie fiscale",
+          "Conçu pour les familles qui ont besoin d'une gestion scolaire précoce"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "Résidents des Émirats arabes unis et fondateurs après la sortie",
+        "title": "Déménager en Suisse depuis les Émirats arabes unis",
+        "description": "Un itinéraire de réinstallation coordonné pour les fondateurs, investisseurs et familles basés aux Émirats arabes unis qui déplacent leur richesse, leur résidence, leurs écoles et leur gouvernance vers la Suisse.",
+        "metaDescription": "Conseil en matière de réinstallation en Suisse pour les résidents, les fondateurs et les familles des Émirats arabes unis. Coordonnez les permis, les opérations bancaires, la documentation patrimoniale, les écoles et la sélection des cantons.",
+        "startingPoint": "EAU",
+        "likelyCantons": [
+          "Zoug",
+          "Zurich",
+          "Genève"
+        ],
+        "urgentQuestions": [
+          "Comment établir la documentation sur l'origine du patrimoine pour les banques suisses ?",
+          "La structure d'une entreprise des Émirats arabes unis peut-elle être réorganisée avant la résidence en Suisse ?",
+          "Quel canton convient le mieux pour l'accès des familles, des banques et des entreprises ?"
+        ],
+        "workstreams": [
+          "Examen des actifs et de l'entreprise avant l'immigration",
+          "Récit de préparation et de documentation bancaire en Suisse",
+          "Séquence titre de séjour et déménagement familial",
+          "Sélection et visites d'écoles internationales"
+        ],
+        "proofPoints": [
+          "Idéal pour la cryptographie, le capital-investissement et la richesse des sociétés d'exploitation",
+          "Gestion parallèle des permis, des opérations bancaires, du logement et des écoles",
+          "Utile pour les familles qui déménagent rapidement après un événement de liquidité"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "Non-résidents britanniques, fondateurs et family offices",
+        "title": "Déménager du Royaume-Uni vers la Suisse",
+        "description": "Un parcours de réinstallation en Suisse pour les résidents du Royaume-Uni examinant la résidence fiscale, le règlement familial, la gouvernance du patrimoine, les opérations bancaires et la sécurité à long terme.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les résidents britanniques, les fondateurs, les non-domiciles et les family offices déménageant en Suisse. Plan de résidence, fiscalité, banque et écoles.",
+        "startingPoint": "Royaume-Uni",
+        "likelyCantons": [
+          "Genève",
+          "Vaudois",
+          "Zurich",
+          "Zoug"
+        ],
+        "urgentQuestions": [
+          "Quand la résidence fiscale au Royaume-Uni prend-elle fin et la résidence fiscale en Suisse commence-t-elle ?",
+          "La fiscalité forfaitaire est-elle viable pour le profil familial ?",
+          "Quelle combinaison école/canton protège la chronologie familiale ?"
+        ],
+        "workstreams": [
+          "Chronologie des départs au Royaume-Uni et des arrivées en Suisse",
+          "Revue de faisabilité fiscale du Forfait",
+          "Comparaison écoles, logements et cantons",
+          "Banque, gouvernance et coordination des conseillers"
+        ],
+        "proofPoints": [
+          "Conçu pour les familles qui ont besoin d'un déménagement propre et non de conseils fragmentés",
+          "Relie les décisions de style de vie suisses aux réalités fiscales et bancaires",
+          "Assure la coordination des conseillers britanniques existants avec l'exécution suisse"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Fondateurs, investisseurs et familles saoudiens",
+        "title": "S'installer en Suisse depuis l'Arabie Saoudite",
+        "description": "Une route de réinstallation en Suisse pour les entrepreneurs et les familles saoudiens qui coordonne la résidence, la préparation bancaire, les écoles, le logement et la sélection du canton.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs, investisseurs et familles saoudiens. Planifier les permis, les opérations bancaires, les écoles, les impôts, le logement et la sélection des cantons.",
+        "startingPoint": "Arabie Saoudite",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Quel canton suisse correspond aux priorités de la famille en matière d'école, de confidentialité et de banque ?",
+          "Comment la documentation saoudienne source-of-wealth doit-elle être préparée avant les introductions bancaires ?",
+          "Les permis, les logements, les écoles et la coordination des conseillers peuvent-ils évoluer en parallèle ?"
+        ],
+        "workstreams": [
+          "Chronologie des départs saoudiens et des arrivées suisses",
+          "Préparation bancaire et récit de documentation du patrimoine",
+          "Comparaison entre écoles, logements et cantons",
+          "Demande de permis, assurance et séquence de règlement"
+        ],
+        "proofPoints": [
+          "Conçu pour les familles qui déplacent ensemble des biens importants et la vie quotidienne",
+          "Maintient les opérations bancaires, les permis, les écoles et le logement dans une séquence coordonnée",
+          "Utile avant que des documents sensibles ne soient partagés avec des banques ou des conseillers"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "Clients privés basés au Qatar",
+        "title": "Déménager du Qatar vers la Suisse",
+        "description": "Un parcours discret pour les familles, les dirigeants et les investisseurs basés au Qatar comparant la résidence en Suisse, la banque privée, la scolarité et l'installation.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les familles et les investisseurs basés au Qatar. Coordonnez les permis, les banques privées, les écoles, le logement et le choix du canton.",
+        "startingPoint": "Qatar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Quel canton offre le bon mélange de discrétion, d’écoles et d’accès bancaire ?",
+          "Comment les conseillers GCC existants devraient-ils rester coordonnés avec l'exécution suisse ?",
+          "Que faut-il résoudre avant les visites scolaires ou les engagements en matière de logement ?"
+        ],
+        "workstreams": [
+          "Parcours de résidence et inclusion familiale",
+          "Préparation à la banque privée et coordination des conseillers",
+          "Liste restreinte des écoles internationales et calendrier des visites",
+          "Logement, assurance, soins de santé et règlement quotidien"
+        ],
+        "proofPoints": [
+          "Conçu pour les clients qui apprécient la discrétion avant les engagements publics",
+          "Relie les décisions de style de vie aux opérations bancaires et au calendrier des permis",
+          "Maintient les conseillers familiaux ou juridiques existants alignés"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Family offices et familles koweïtiens",
+        "title": "S'installer en Suisse depuis le Koweït",
+        "description": "Une voie de relocalisation et de gouvernance en Suisse pour les familles koweïtiennes coordonnant la résidence, les opérations bancaires, la succession, les écoles et une base européenne stable.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les familles koweïtiennes et les family offices. Planifier les permis, la banque privée, la gouvernance, les écoles et l'établissement.",
+        "startingPoint": "Koweït",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Le déménagement suisse doit-il être structuré autour de la résidence familiale, de la gouvernance, ou des deux ?",
+          "Quel canton correspond le mieux à la vie privée, à la fiscalité et à la logistique familiale ?",
+          "Comment les flux de travail liés aux opérations bancaires, au conseil d’administration et au reporting doivent-ils être séquencés ?"
+        ],
+        "workstreams": [
+          "Profil familial et portée de la gouvernance",
+          "Comparaison des cantons pour les besoins en matière de résidence, de confidentialité et de family office",
+          "Banque privée et préparation source-of-wealth",
+          "Scolarité, logement, soins de santé et établissement familial"
+        ],
+        "proofPoints": [
+          "Utile pour les familles multigénérationnelles qui ont besoin de connexion entre gouvernance et réinstallation",
+          "Conçu pour une configuration suisse confidentielle avant les engagements publics",
+          "Coordonne les dépendances de la famille, de la banque, du conseil d’administration et de l’établissement"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "Fondateurs et family offices basés à Singapour",
+        "title": "S'installer en Suisse depuis Singapour",
+        "description": "Un itinéraire pour les entrepreneurs et les family offices basés à Singapour comparant la Suisse en tant que base européenne de résidence, de banque, de gouvernance et de style de vie.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les family offices basés à Singapour. Comparez la résidence, la fiscalité, les banques, la gouvernance, les écoles et les cantons.",
+        "startingPoint": "Singapour",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Qu'est-ce qui change lorsqu'une base à Singapour est complétée par une résidence en Suisse ?",
+          "Quels axes de travail doivent être séquencés avant le déménagement familial ?",
+          "Comment le secteur bancaire et la gouvernance devraient-ils se préparer à une configuration orientée vers la Suisse ?"
+        ],
+        "workstreams": [
+          "Plan de sortie de Singapour ou de double base",
+          "Comparaison de résidence et de cantons en Suisse",
+          "Banque, gouvernance et coordination des conseillers",
+          "Écoles, logement, assurance et règlement quotidien"
+        ],
+        "proofPoints": [
+          "Conçu pour les clients comparant deux juridictions de haute qualité",
+          "Maintient les décisions de style de vie suisses liées à la banque et à la gouvernance",
+          "Utile avant de s'engager dans un canton, un bail ou une filière scolaire"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Entrepreneurs et familles de Hong Kong",
+        "title": "S'installer en Suisse depuis Hong Kong",
+        "description": "Un parcours de relocalisation privé en Suisse pour les fondateurs, les détenteurs de richesses et les familles de Hong Kong à la recherche d'une base européenne stable avec des écoles et des services bancaires solides.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles de Hong Kong. Planifiez la résidence, les opérations bancaires, les écoles, les impôts, le logement et la sélection du canton.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Quel canton suisse convient à une famille internationale venant de Hong Kong?",
+          "Comment préparer la documentation bancaire et l’historique de source-of-wealth ?",
+          "Que peut-on décider avant les visites scolaires et les recherches de logement ?"
+        ],
+        "workstreams": [
+          "Horaires de départ de Hong Kong et d’arrivée en Suisse",
+          "Comparaison des cantons pour les écoles, les impôts, les banques et la vie quotidienne",
+          "Permis de séjour et inclusion familiale",
+          "Préparation à la banque privée, logement et règlement"
+        ],
+        "proofPoints": [
+          "Bon ajustement pour les familles privilégiant la stabilité, les écoles et la discrétion",
+          "Coordonne le règlement pratique avec les dépendances bancaires et de permis",
+          "Utile avant la diffusion de documents sensibles"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "Fondateurs, dirigeants et familles de US",
+        "title": "Déménager en Suisse depuis le USA",
+        "description": "Un itinéraire de réinstallation en Suisse pour les clients connectés à US qui ont besoin d'une coordination minutieuse autour de la résidence, des conseillers, des services bancaires, des écoles et de la complexité fiscale continue.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles de US. Coordonnez la résidence, les opérations bancaires, les conseillers, les écoles, la complexité fiscale et le règlement.",
+        "startingPoint": "États-Unis",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Comment les conseillers fiscaux et reporting de US doivent-ils rester connectés au plan suisse ?",
+          "Quel canton répond aux besoins scolaires, bancaires et de voyage de la famille ?",
+          "Que faut-il clarifier avant les engagements en matière de résidence et de logement ?"
+        ],
+        "workstreams": [
+          "Coordination des conseillers US et des conseillers suisses",
+          "Parcours de résidence et inclusion familiale",
+          "Comparaison des cantons pour les écoles, les voyages et les banques",
+          "Préparation bancaire, logement, soins de santé et règlement"
+        ],
+        "proofPoints": [
+          "Conçu pour les cas où la complexité des rapports US doit rester visible",
+          "Maintient les décisions suisses connectées aux conseillers US existants",
+          "Utile avant de prendre des engagements bancaires, de logement ou d'école"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "Entrepreneurs et familles allemands",
+        "title": "S'installer en Suisse depuis l'Allemagne",
+        "description": "Un itinéraire de relocalisation suisse pratique pour les fondateurs et les familles allemands comparant la résidence, le choix du canton, la création d'entreprise, les écoles et le calendrier transfrontalier.",
+        "metaDescription": "Conseil en matière de déménagement en Suisse pour les entrepreneurs et les familles allemands. Planifiez la résidence, le choix du canton, le calendrier fiscal, la création d'entreprise, les écoles et l'installation.",
+        "startingPoint": "Allemagne",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Quand faut-il séquencer la planification du départ en Allemagne et la planification du séjour en Suisse ?",
+          "Quel canton convient le mieux à la propriété d’entreprise, à la vie de famille et aux déplacements domicile-travail ?",
+          "Comment les permis, le logement, les écoles et les conseillers doivent-ils être coordonnés ?"
+        ],
+        "workstreams": [
+          "Chronologie des départs allemands et des arrivées suisses",
+          "Comparaison des cantons pour les opérations fiscales, scolaires et commerciales",
+          "Demande de permis et inclusion familiale",
+          "Configuration du logement, de l'assurance, de la banque et de l'établissement"
+        ],
+        "proofPoints": [
+          "Idéal pour les fondateurs et les familles qui ont besoin d’un timing géré avec précision",
+          "Relie le choix du canton aux réalités pratiques de l’école et du logement",
+          "Assure la coordination des conseillers allemands et suisses"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Fondateurs et détenteurs de richesses norvégiens",
+        "title": "Déménager en Suisse depuis la Norvège",
+        "description": "Une voie de réinstallation en Suisse pour les entrepreneurs, les investisseurs et les familles norvégiens évaluant la résidence fiscale, les permis, le choix du canton, les écoles et les services bancaires.",
+        "metaDescription": "Conseil en matière de relocalisation en Suisse pour les fondateurs et les familles norvégiennes. Coordonnez la résidence fiscale, les permis, les opérations bancaires, les écoles, le choix du canton et l'établissement.",
+        "startingPoint": "Norvège",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Quand la planification de sortie norvégienne devrait-elle être alignée sur le calendrier de résidence en Suisse ?",
+          "Quel canton correspond aux priorités en matière de vie privée, de vie familiale et fiscale ?",
+          "Que faut-il coordonner avant les introductions bancaires ou les décisions scolaires ?"
+        ],
+        "workstreams": [
+          "Chronologie des départs norvégiens et des arrivées suisses",
+          "Comparaison des cantons pour les priorités familiales, fiscales et bancaires",
+          "Permis de séjour et inclusion familiale",
+          "Préparation bancaire, logement, écoles et établissement"
+        ],
+        "proofPoints": [
+          "Conçu pour les détenteurs de patrimoine qui ont besoin de synchronisation fiscale et de logistique familiale connectée",
+          "Utile avant de s'engager dans une filière canton ou école",
+          "Coordonne les conseillers existants avec l’exécution suisse"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Les fondateurs déplacent la substance de leur entreprise",
+        "title": "Déménager une entreprise en Suisse",
+        "description": "Un itinéraire dirigé par le fondateur pour déplacer la substance de l'entreprise, la configuration du conseil d'administration, les opérations bancaires, les permis et la relocalisation de la famille dans un seul plan suisse coordonné.",
+        "metaDescription": "Déplacez une entreprise en Suisse avec des conseils coordonnés en matière de création d'entreprise, de substance, de services bancaires, de permis de séjour, de fiscalité et de déménagement familial.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "La société suisse doit-elle être créée avant ou après que la voie de résidence soit claire ?",
+          "Quel contenu le canton, la banque et les contreparties attendent-ils ?",
+          "Comment les permis de fondateur, le déménagement familial et les services bancaires d’entreprise s’influencent-ils mutuellement ?"
+        ],
+        "workstreams": [
+          "Profil du fondateur, substance de l'entreprise et examen de l'adéquation du canton",
+          "Création d'entreprise, gouvernance et configuration du conseil d'administration",
+          "Préparation et documentation pour les services bancaires d'entreprise",
+          "Permis de fondateur, déménagement familial, logement et installation"
+        ],
+        "proofPoints": [
+          "Conçu pour les fondateurs qui ont besoin d'aligner les flux de travail de l'entreprise et de la famille",
+          "Relie la substance, les permis, les opérations bancaires et le règlement dans le bon ordre",
+          "Réduit les délais liés aux conseils juridiques, bancaires et de réinstallation isolés"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Entrepreneurs et propriétaires d'entreprises actifs",
+        "title": "Permis de séjour suisse pour entrepreneurs",
+        "description": "Un parcours axé sur le fondateur à travers la résidence en Suisse, la substance de l'entreprise, les opérations bancaires, la documentation sur la source de richesse et le règlement familial.",
+        "metaDescription": "Conseil en matière de permis de séjour suisse pour entrepreneurs. Planifiez la sélection des cantons, la création d'entreprise, les opérations bancaires, les permis et la relocalisation de la famille.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zoug",
+          "Zurich",
+          "Vaudois"
+        ],
+        "urgentQuestions": [
+          "L'entreprise suisse doit-elle être créée avant ou après la soumission du permis ?",
+          "Quelle substance économique le canton attend-il ?",
+          "Comment le patrimoine de l'entreprise doit-il être documenté pour les banques et les autorités ?"
+        ],
+        "workstreams": [
+          "Profil du fondateur et évaluation de l'adéquation du canton",
+          "Création de société et mise en place de la gouvernance",
+          "Demande de permis et inclusion familiale",
+          "Préparation bancaire, baux, assurance et règlement"
+        ],
+        "proofPoints": [
+          "Idéal pour les fondateurs qui ont besoin d'aligner les flux de travail professionnels et familiaux",
+          "Relie les permis à la substance de l'entreprise et à la crédibilité bancaire",
+          "Réduit les retards dus au séquençage incomplet de la documentation"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Personnes fortunées",
+        "title": "Fiscalité forfaitaire en Suisse",
+        "description": "Un itinéraire de planification discret pour les ressortissants étrangers éligibles évaluant le forfait fiscal, le choix du canton, l'assiette du coût de la vie et le calendrier de résidence.",
+        "metaDescription": "Conseil en fiscalité forfaitaire en Suisse. Évaluez l’éligibilité fiscale au forfait, le choix du canton, la base imposable, les permis et le calendrier de déménagement.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Vaudois",
+          "Genève",
+          "Valais",
+          "Schwytz",
+          "Zoug"
+        ],
+        "urgentQuestions": [
+          "Le forfait fiscal est-il réaliste pour le profil familial ?",
+          "Quels cantons méritent d'être abordés en premier ?",
+          "Quelles hypothèses en matière de style de vie et de logement déterminent la base imposable ?"
+        ],
+        "workstreams": [
+          "Éligibilité et liste restreinte des cantons",
+          "Préparation des décisions fiscales et dialogue avec l'autorité",
+          "Permis de séjour et coordination logement",
+          "Transfert de responsabilité en matière de banque, d'assurance et de conformité annuelle"
+        ],
+        "proofPoints": [
+          "Combine le travail de rescrit fiscal avec le véritable plan de relocalisation",
+          "Maintient la négociation cantonale connectée à la réalité du mode de vie",
+          "Utile avant les engagements publics ou la documentation sensible"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Fondateurs, family offices et investisseurs en crypto",
+        "title": "Conseiller en déménagement de Zoug",
+        "description": "Un parcours de relocalisation ciblé pour les clients qui envisagent Zoug pour des raisons fiscales, de crypto-banque, de création d'entreprise, d'écoles internationales et de vie de famille.",
+        "metaDescription": "Conseiller en relocalisation à Zoug pour entrepreneurs, family offices et investisseurs crypto. Coordonnez les permis, la création d’entreprise, les opérations bancaires, les écoles et le logement.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zoug"
+        ],
+        "urgentQuestions": [
+          "Zoug est-il la bonne solution, ou seulement la solution évidente ?",
+          "Les services bancaires, les places scolaires et le logement peuvent-ils être garantis dans le même délai ?",
+          "Quelle substance organisationnelle est nécessaire pour la structure prévue ?"
+        ],
+        "workstreams": [
+          "Évaluation de l'adéquation de Zoug contre Zurich, Schwyz et Vaud",
+          "Séquencement du permis et de la création d'entreprise",
+          "Présentations bancaires traditionnelles et crypto-friendly",
+          "Configuration de l'école, du logement, de l'assurance et du règlement quotidien"
+        ],
+        "proofPoints": [
+          "Conçu pour les clients qui ont besoin de rapidité sans perdre en discrétion",
+          "Équilibre l'attrait d'une faible fiscalité avec une logistique familiale pratique",
+          "Utile pour les richesses crypto-natives et les sociétés d'exploitation actives"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Responsable du traitement",
+        "text": "WorkWorkWork AG en Suisse est responsable du traitement des donnees personnelles transmises via ce site."
+      },
+      {
+        "title": "2. Donnees collectees",
+        "text": "Nous collectons uniquement les informations partagees volontairement dans le formulaire, comme les coordonnees, le pays de residence, la nationalite, les objectifs de relocalisation, le calendrier, les services souhaites et le message."
+      },
+      {
+        "title": "3. Finalite du traitement",
+        "text": "Les informations servent a evaluer la demande, preparer une reponse privee et coordonner le travail de conseil pertinent. Les documents sensibles ne doivent pas etre envoyes par des formulaires publics."
+      },
+      {
+        "title": "4. Conservation",
+        "text": "Les donnees personnelles sont conservees uniquement le temps necessaire pour repondre a la demande, soutenir une relation de conseil ou respecter les obligations legales applicables."
+      },
+      {
+        "title": "5. Vos droits",
+        "text": "Selon le droit suisse de la protection des donnees et le RGPD lorsqu il s applique, vous pouvez demander l acces, la correction, la suppression ou la limitation du traitement."
+      },
+      {
+        "title": "6. Contacter",
+        "text": "Les demandes relatives a la confidentialite et les questions legales peuvent etre envoyees via le formulaire de contact. Elles sont traitees de maniere privee sans afficher d adresse e-mail publique."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Inscrite au registre du commerce du canton de Schwyz, Suisse.",
+      "contactTitle": "Nous contacter",
+      "contactText": "Veuillez utiliser le formulaire de contact confidentiel pour toute demande. Les adresses e-mail publiques ne sont volontairement pas affichees sur ce site.",
+      "disclaimerTitle": "Avertissement",
+      "disclaimerText": "Le contenu de ce site est fourni a titre d information generale et d orientation. Il ne constitue pas un conseil fiscal, juridique, financier ou en investissement. Toute decision de relocalisation doit etre examinee avec des conseillers qualifies."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Suisse",
+      "uae": "Émirats arabes unis",
+      "saudiArabia": "Arabie saoudite",
+      "qatar": "Qatar",
+      "kuwait": "Koweït",
+      "bahrain": "Bahreïn"
+    }
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Guide pratique pour expatriés en Suisse",
+    "metaDescription": "Un e-book pratique pour les expatriés qui s’installent en Suisse, avec permis, logement, assurance, impôts, école et premières démarches.",
+    "language": "Français",
+    "eyebrow": "Swiss Arrival",
+    "title": "Le guide pratique pour s’installer en Suisse",
+    "subtitle": "Un e-book clair pour celles et ceux qui veulent une vraie checklist: permis de séjour, logement, assurance maladie, école, impôts, premières démarches administratives et détails souvent invisibles depuis l’étranger.",
+    "primaryCta": "Rejoindre la liste",
+    "secondaryCta": "Voir le contenu",
+    "briefingLabel": "Briefing d’installation",
+    "proof": [
+      "Écrit à partir de 13+ ans d’expérience en Suisse",
+      "Conçu pour les expatriés européens et internationaux",
+      "Disponible en danois, anglais, allemand et français"
+    ],
+    "problemKicker": "La réalité d’abord",
+    "problemTitle": "Pensé pour la phase confuse avant de se sentir installé",
+    "problemBody": "S’installer en Suisse n’est pas difficile à cause d’une seule tâche impossible. Le vrai problème est l’enchaînement: canton, permis, adresse, assurance, école, impôts et banque. Swiss Arrival transforme cette administration en ordre clair.",
+    "chaptersKicker": "Dans le guide",
+    "chaptersTitle": "Ce que l’e-book vous aide à gérer",
+    "chapters": [
+      {
+        "title": "Avant le départ",
+        "body": "Choisir un canton, comprendre les permis, préparer les documents et éviter les erreurs de logement qui ralentissent tout."
+      },
+      {
+        "title": "Les 30 premiers jours",
+        "body": "Inscription locale, assurance maladie, compte bancaire, téléphone, internet et documents essentiels dans le bon ordre."
+      },
+      {
+        "title": "Argent et démarches",
+        "body": "Comprendre les coûts suisses, le salaire, les cautions, les bases fiscales, les assurances obligatoires et les priorités."
+      },
+      {
+        "title": "Famille et vie quotidienne",
+        "body": "Écoles, garde d’enfants, transport, langue, courses, accès aux soins et habitudes qui rendent la vie plus simple."
+      }
+    ],
+    "timelineKicker": "Séquence",
+    "timelineTitle": "Une séquence simple pour le déménagement",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Préparer le départ",
+        "body": "Déterminer où arriver, quels documents sont nécessaires et ce qui peut attendre après l’arrivée."
+      },
+      {
+        "label": "02",
+        "title": "Sécuriser l’essentiel",
+        "body": "Gérer logement, inscription, assurance et banque dans le bon ordre pour éviter les blocages."
+      },
+      {
+        "label": "03",
+        "title": "S’installer vraiment",
+        "body": "Passer du mode survie à une vie normale avec école, transport, santé, impôts et routines locales."
+      }
+    ],
+    "bundleKicker": "Produit digital",
+    "bundleTitle": "Pack de lancement",
+    "bundleBody": "La première version est pensée comme un produit digital pratique, pas comme un guide d’inspiration vague.",
+    "bundleItems": [
+      "L’e-book Swiss Arrival",
+      "Checklist du premier mois",
+      "Feuille de décision par canton",
+      "Planificateur de coûts et de caution"
+    ],
+    "finalTitle": "Recevoir l’annonce du lancement",
+    "finalBody": "La page de lancement est en préparation. Rejoignez la liste et nous enverrons les détails lorsque la première édition sera prête.",
+    "finalCta": "Nous contacter"
+  },
+  "swissArrivalNav": {
+    "guide": "Le guide",
+    "contact": "Nous contacter",
+    "cta": "Liste de lancement"
+  },
+  "swissArrivalFooter": {
+    "tagline": "Un guide digital pratique pour les expatriés qui préparent leur installation en Suisse.",
+    "rights": "Tous droits réservés.",
+    "company": "Un projet WorkWorkWork AG"
   }
 }

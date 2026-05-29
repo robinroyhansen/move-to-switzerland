@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
-import { FAQSchema, ServiceSchema } from '@/components/StructuredData';
+import { FAQSchema, ServiceSchema, getAreaCountries } from '@/components/StructuredData';
 import { locales } from '@/i18n/config';
 import {
   getConversionCopy,
@@ -55,7 +55,8 @@ export default async function RelocationPathPage({ params }: Props) {
 
   if (!path) notFound();
 
-const copy = getConversionCopy(locale);
+  const copy = getConversionCopy(locale);
+  const areaCountries = getAreaCountries(locale);
   const related = getRelocationPaths(locale).filter((item) => item.slug !== path.slug).slice(0, 3);
   const faqItems = [
     {
@@ -79,7 +80,8 @@ const copy = getConversionCopy(locale);
         name={path.title}
         description={path.metaDescription}
         url={'https://move-to-switzerland.com/' + locale + '/relocation/' + path.slug}
-        areaServed={['Switzerland', ...path.likelyCantons]}
+        areaServed={[{ name: areaCountries.switzerland, type: 'Country' }, ...path.likelyCantons.map((name) => ({ name }))]}
+        audienceType={path.audience}
       />
 
       <section className="bg-navy pb-20 pt-36">
