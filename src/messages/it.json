@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "I Fondatori",
-    "subtitle": "Due decenni di competenza combinata nella consulenza svizzera",
+    "subtitle": "Profondità legale svizzera ed esperienza operativa per trasferimenti transfrontalieri complessi.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Co-Fondatore",
-      "bio": "Avvocato svizzero e laureato MBA. Adrian ha fondato diverse banche in Svizzera e mantiene relazioni profonde con la FINMA, istituzioni di private banking e autorità cantonali. La sua competenza legale e la sua rete istituzionale costituiscono la spina dorsale normativa della nostra consulenza."
+      "bio": "Adrian è un avvocato svizzero con oltre 15 anni di pratica legale, un MBA e qualifiche specialistiche come fund officer. Il suo lavoro si concentra su soluzioni fiscali svizzere, contratti internazionali, sviluppo strategico, gestione di progetti, ristrutturazioni societarie, M&A e governance. Prima di cofondare Move to Switzerland, ha guidato il dipartimento legale svizzero di un gruppo multinazionale e successivamente ha gestito progetti per una grande società europea di consulenza strategica. Crea strutture legali svizzere per persone fisiche e società estere, consiglia su mandati di consiglio attivi e fiduciari e porta la profondità legale, fiscale e istituzionale richiesta per trasferimenti complessi. Adrian parla fluentemente inglese, tedesco, francese e italiano.",
+      "bioParagraphs": [
+        "Adrian è un avvocato svizzero con oltre 15 anni di pratica legale, un MBA e qualifiche specialistiche come fund officer.",
+        "Il suo lavoro si concentra su soluzioni fiscali svizzere, contratti internazionali, sviluppo strategico, gestione di progetti, ristrutturazioni societarie, M&A e governance.",
+        "Prima di cofondare Move to Switzerland, ha guidato il dipartimento legale svizzero di un gruppo multinazionale e successivamente ha gestito progetti per una grande società europea di consulenza strategica.",
+        "Crea strutture legali svizzere per persone fisiche e società estere, consiglia su mandati di consiglio attivi e fiduciari e porta la profondità legale, fiscale e istituzionale richiesta per trasferimenti complessi.",
+        "Adrian parla fluentemente inglese, tedesco, francese e italiano."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Co-Fondatore",
-      "bio": "Imprenditore seriale danese residente in Svizzera. Con oltre 400 milioni di franchi in pubblicità digitale gestita e diverse società in Svizzera e nell'UE, Robin apporta eccellenza operativa e una profonda comprensione della strutturazione aziendale transfrontaliera. Parla tedesco, danese e inglese."
+      "bio": "Robin è un imprenditore seriale danese che vive in Svizzera da 14 anni. Ha creato e gestito oltre 30 società e strutturato entità legali in più di 15 paesi. Questa esperienza gli dà una comprensione pratica delle decisioni che i clienti affrontano quando spostano capitale, vita familiare, attività operative e residenza di lungo periodo oltre confine. In Move to Switzerland, Robin porta la prospettiva dell’operatore: rendere la consulenza eseguibile, coordinare diverse giurisdizioni e trasformare un piano di trasferimento in vita quotidiana, banca, avvio d’impresa e una base svizzera stabile. Parla danese, inglese e tedesco.",
+      "bioParagraphs": [
+        "Robin è un imprenditore seriale danese che vive in Svizzera da 14 anni.",
+        "Ha creato e gestito oltre 30 società e strutturato entità legali in più di 15 paesi.",
+        "Questa esperienza gli dà una comprensione pratica delle decisioni che i clienti affrontano quando spostano capitale, vita familiare, attività operative e residenza di lungo periodo oltre confine.",
+        "In Move to Switzerland, Robin porta la prospettiva dell’operatore: rendere la consulenza eseguibile, coordinare diverse giurisdizioni e trasformare un piano di trasferimento in vita quotidiana, banca, avvio d’impresa e una base svizzera stabile.",
+        "Parla danese, inglese e tedesco."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "I Nostri Uffici",
       "zurich": "Zurigo",
       "zug": "Zugo",
-      "schwyz": "Svitto"
+      "schwyz": "Svitto",
+      "country": "Svizzera"
     }
   },
   "contact": {

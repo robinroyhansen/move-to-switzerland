@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "Die Gründer",
-    "subtitle": "Zwei Jahrzehnte kombinierte Schweizer Beratungsexperte",
+    "subtitle": "Schweizer Rechtsexpertise und operative Erfahrung für komplexe grenzüberschreitende Relocations.",
     "adrian": {
       "name": "Adrian Bürgi",
       "role": "Mitbegründer",
-      "bio": "Schweizer Rechtsanwalt und MBA-Absolvent. Adrian Bürgi hat mehrere Banken in der Schweiz mitaufgebaut und pflegt tiefe Beziehungen zur FINMA, zu Private-Banking-Institutionen und kantonalen Behörden. Seine juristische Expertise und sein institutionelles Netzwerk bilden das regulatorische Rückgrat unserer Beratung."
+      "bio": "Adrian ist Schweizer Rechtsanwalt mit mehr als 15 Jahren juristischer Praxis, einem MBA und spezialisierten Qualifikationen als Fund Officer. Seine Arbeit konzentriert sich auf Schweizer Steuerlösungen, internationale Verträge, Strategieentwicklung, Projektmanagement, Unternehmensrestrukturierungen, M&A und Governance. Vor der Mitgründung von Move to Switzerland leitete er die Schweizer Rechtsabteilung einer multinationalen Gruppe und führte später Projekte für eine grosse europäische Strategieberatung. Er entwickelt Schweizer Rechtsstrukturen für ausländische Privatpersonen und Unternehmen, berät zu aktiven und treuhänderischen Verwaltungsratsmandaten und bringt die juristische, steuerliche und institutionelle Tiefe ein, die komplexe Relocations erfordern. Adrian spricht fliessend Englisch, Deutsch, Französisch und Italienisch.",
+      "bioParagraphs": [
+        "Adrian ist Schweizer Rechtsanwalt mit mehr als 15 Jahren juristischer Praxis, einem MBA und spezialisierten Qualifikationen als Fund Officer.",
+        "Seine Arbeit konzentriert sich auf Schweizer Steuerlösungen, internationale Verträge, Strategieentwicklung, Projektmanagement, Unternehmensrestrukturierungen, M&A und Governance.",
+        "Vor der Mitgründung von Move to Switzerland leitete er die Schweizer Rechtsabteilung einer multinationalen Gruppe und führte später Projekte für eine grosse europäische Strategieberatung.",
+        "Er entwickelt Schweizer Rechtsstrukturen für ausländische Privatpersonen und Unternehmen, berät zu aktiven und treuhänderischen Verwaltungsratsmandaten und bringt die juristische, steuerliche und institutionelle Tiefe ein, die komplexe Relocations erfordern.",
+        "Adrian spricht fliessend Englisch, Deutsch, Französisch und Italienisch."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Mitbegründer",
-      "bio": "Dänischer Serienunternehmer mit Sitz in der Schweiz. Mit über 400 Millionen CHF an verwaltetem digitalen Werbebudget und mehreren Unternehmen in der Schweiz und der EU bringt Robin operative Exzellenz und ein tiefes Verständnis für grenzüberschreitende Unternehmensstrukturen ein. Spricht Deutsch, Dänisch und Englisch."
+      "bio": "Robin ist ein dänischer Serienunternehmer, der seit 14 Jahren in der Schweiz lebt. Er hat mehr als 30 Unternehmen aufgebaut und geführt sowie Rechtsstrukturen in mehr als 15 Ländern errichtet. Dadurch kennt er die Entscheidungen aus der Praxis, vor denen Kunden stehen, wenn sie Vermögen, Familienleben, operative Aktivitäten und langfristigen Wohnsitz über Grenzen hinweg verlagern. Bei Move to Switzerland bringt Robin die Perspektive des Unternehmers ein: wie Beratung umsetzbar wird, wie man über Rechtsräume hinweg koordiniert und wie aus einem Relocation-Plan Alltag, Banking, Unternehmensaufbau und eine stabile Schweizer Basis entstehen. Er spricht Dänisch, Englisch und Deutsch.",
+      "bioParagraphs": [
+        "Robin ist ein dänischer Serienunternehmer, der seit 14 Jahren in der Schweiz lebt.",
+        "Er hat mehr als 30 Unternehmen aufgebaut und geführt sowie Rechtsstrukturen in mehr als 15 Ländern errichtet.",
+        "Dadurch kennt er die Entscheidungen aus der Praxis, vor denen Kunden stehen, wenn sie Vermögen, Familienleben, operative Aktivitäten und langfristigen Wohnsitz über Grenzen hinweg verlagern.",
+        "Bei Move to Switzerland bringt Robin die Perspektive des Unternehmers ein: wie Beratung umsetzbar wird, wie man über Rechtsräume hinweg koordiniert und wie aus einem Relocation-Plan Alltag, Banking, Unternehmensaufbau und eine stabile Schweizer Basis entstehen.",
+        "Er spricht Dänisch, Englisch und Deutsch."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "Unsere Standorte",
       "zurich": "Zürich",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "Schweiz"
     }
   },
   "contact": {

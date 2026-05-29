@@ -392,7 +392,8 @@
           "month1.5": "Cerere pentru permisul B cu documentație detaliată privind sursa averii",
           "month2": "Înființarea companiei (GmbH elvețian) pentru operațiuni de consultanță",
           "month3": "Configurarea bancară crypto-friendly (SEBA Bank + bancă privată tradițională)",
-          "month4": "Apartament asigurat în Zurich, relocare completă finalizată"
+          "month4": "Apartament asigurat în Zurich, relocare completă finalizată",
+          "month15": "Cerere pentru permis B cu documentație detaliată privind sursa averii"
         },
         "challenges": [
           "Documentarea lanțului de avere crypto de la minare/achiziții timpurii până la portofoliul actual",
@@ -541,16 +542,30 @@
   },
   "founders": {
     "title": "Fondatorii",
-    "subtitle": "Două decenii de expertiză combinată în consultanță elvețiană",
+    "subtitle": "Profunzime juridică elvețiană și experiență operațională pentru relocări transfrontaliere complexe.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Co-Fondator",
-      "bio": "Avocat elvețian și absolvent MBA. Adrian a înființat mai multe bănci în Elveția și menține relații profunde cu FINMA, instituții de private banking și autorități cantonale. Expertiza sa juridică și rețeaua instituțională formează coloana vertebrală a consultanței noastre."
+      "bio": "Adrian este avocat elvețian, cu peste 15 ani de practică juridică, un MBA și acreditări specializate de fund officer. Activitatea sa se concentrează pe soluții fiscale elvețiene, contracte internaționale, dezvoltare strategică, management de proiect, restructurări corporative, M&A și guvernanță. Înainte de a cofonda Move to Switzerland, a condus departamentul juridic elvețian al unui grup multinațional și ulterior a gestionat proiecte pentru o mare consultanță europeană de strategie. El creează structuri juridice elvețiene pentru persoane fizice și companii străine, consiliază mandate active și fiduciare în consilii de administrație și aduce profunzimea juridică, fiscală și instituțională necesară relocărilor complexe. Adrian vorbește fluent engleză, germană, franceză și italiană.",
+      "bioParagraphs": [
+        "Adrian este avocat elvețian, cu peste 15 ani de practică juridică, un MBA și acreditări specializate de fund officer.",
+        "Activitatea sa se concentrează pe soluții fiscale elvețiene, contracte internaționale, dezvoltare strategică, management de proiect, restructurări corporative, M&A și guvernanță.",
+        "Înainte de a cofonda Move to Switzerland, a condus departamentul juridic elvețian al unui grup multinațional și ulterior a gestionat proiecte pentru o mare consultanță europeană de strategie.",
+        "El creează structuri juridice elvețiene pentru persoane fizice și companii străine, consiliază mandate active și fiduciare în consilii de administrație și aduce profunzimea juridică, fiscală și instituțională necesară relocărilor complexe.",
+        "Adrian vorbește fluent engleză, germană, franceză și italiană."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Co-Fondator",
-      "bio": "Antreprenor danez în serie, stabilit în Elveția. Cu peste 400 de milioane CHF în publicitate digitală gestionată și multiple companii în Elveția și UE, Robin aduce excelență operațională și o înțelegere profundă a structurării afacerilor transfrontaliere. Vorbește germană, daneză și engleză."
+      "bio": "Robin este un antreprenor danez în serie care locuiește în Elveția de 14 ani. A construit și operat peste 30 de companii și a structurat entități juridice în peste 15 țări. Aceasta îi oferă experiență practică în deciziile cu care se confruntă clienții atunci când mută capital, viață de familie, operațiuni și rezidență pe termen lung peste granițe. La Move to Switzerland, Robin aduce perspectiva operatorului: cum să faci consultanța executabilă, cum să coordonezi între jurisdicții și cum să transformi un plan de relocare în viață de zi cu zi, banking, structură de business și o bază elvețiană stabilă. Vorbește daneză, engleză și germană.",
+      "bioParagraphs": [
+        "Robin este un antreprenor danez în serie care locuiește în Elveția de 14 ani.",
+        "A construit și operat peste 30 de companii și a structurat entități juridice în peste 15 țări.",
+        "Aceasta îi oferă experiență practică în deciziile cu care se confruntă clienții atunci când mută capital, viață de familie, operațiuni și rezidență pe termen lung peste granițe.",
+        "La Move to Switzerland, Robin aduce perspectiva operatorului: cum să faci consultanța executabilă, cum să coordonezi între jurisdicții și cum să transformi un plan de relocare în viață de zi cu zi, banking, structură de business și o bază elvețiană stabilă.",
+        "Vorbește daneză, engleză și germană."
+      ]
     }
   },
   "about": {
@@ -581,7 +596,8 @@
       "title": "Birourile noastre",
       "zurich": "Zurich",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "Elveția"
     }
   },
   "contact": {

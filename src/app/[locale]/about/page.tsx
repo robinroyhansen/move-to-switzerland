@@ -177,7 +177,9 @@ export default function AboutPage() {
                   <h3 className="font-serif text-lg text-gold font-semibold">
                     {t(`about.offices.${office}`)}
                   </h3>
-                  <p className="text-xs text-text-light/30 mt-1.5 tracking-wider uppercase">Switzerland</p>
+                  <p className="text-xs text-text-light/30 mt-1.5 tracking-wider uppercase">
+                    {t('about.offices.country')}
+                  </p>
                 </div>
               </ScrollReveal>
             ))}

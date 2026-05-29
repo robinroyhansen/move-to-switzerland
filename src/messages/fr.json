@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "Les Fondateurs",
-    "subtitle": "Deux décennies d'expertise combinée dans le conseil en Suisse",
+    "subtitle": "Expertise juridique suisse et expérience opérationnelle pour les relocalisations transfrontalières complexes.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Co-fondateur",
-      "bio": "Avocat suisse et titulaire d'un MBA. Adrian a fondé plusieurs banques en Suisse et entretient des relations privilégiées avec la FINMA, les institutions de banque privée et les autorités cantonales. Son expertise juridique et son réseau institutionnel constituent l'épine dorsale réglementaire de notre cabinet."
+      "bio": "Adrian est avocat suisse, avec plus de 15 ans de pratique juridique, un MBA et des qualifications spécialisées de fund officer. Son travail porte sur les solutions fiscales suisses, les contrats internationaux, le développement stratégique, la gestion de projets, les restructurations d’entreprises, les fusions-acquisitions et la gouvernance. Avant de cofonder Move to Switzerland, il a dirigé le département juridique suisse d’un groupe multinational, puis mené des projets pour un grand cabinet européen de conseil en stratégie. Il conçoit des structures juridiques suisses pour des particuliers et des entreprises étrangers, conseille sur des mandats d’administrateur actifs ou fiduciaires, et apporte la profondeur juridique, fiscale et institutionnelle nécessaire aux relocalisations complexes. Adrian parle couramment anglais, allemand, français et italien.",
+      "bioParagraphs": [
+        "Adrian est avocat suisse, avec plus de 15 ans de pratique juridique, un MBA et des qualifications spécialisées de fund officer.",
+        "Son travail porte sur les solutions fiscales suisses, les contrats internationaux, le développement stratégique, la gestion de projets, les restructurations d’entreprises, les fusions-acquisitions et la gouvernance.",
+        "Avant de cofonder Move to Switzerland, il a dirigé le département juridique suisse d’un groupe multinational, puis mené des projets pour un grand cabinet européen de conseil en stratégie.",
+        "Il conçoit des structures juridiques suisses pour des particuliers et des entreprises étrangers, conseille sur des mandats d’administrateur actifs ou fiduciaires, et apporte la profondeur juridique, fiscale et institutionnelle nécessaire aux relocalisations complexes.",
+        "Adrian parle couramment anglais, allemand, français et italien."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Co-fondateur",
-      "bio": "Entrepreneur danois résidant en Suisse. Avec plus de 400 millions de CHF gérés en publicité numérique et plusieurs sociétés en Suisse et dans l'UE, Robin apporte une excellence opérationnelle et une compréhension approfondie de la structuration d'entreprise transfrontalière. Parle allemand, danois et anglais."
+      "bio": "Robin est un entrepreneur danois en série qui vit en Suisse depuis 14 ans. Il a créé et exploité plus de 30 sociétés et structuré des entités juridiques dans plus de 15 pays. Cette expérience lui donne une compréhension pratique des décisions auxquelles les clients font face lorsqu’ils déplacent capital, vie familiale, activités opérationnelles et résidence à long terme au-delà des frontières. Chez Move to Switzerland, Robin apporte le regard de l’opérateur: rendre le conseil exécutable, coordonner les juridictions et transformer un plan de relocalisation en vie quotidienne, banque, mise en place d’entreprise et base suisse stable. Il parle danois, anglais et allemand.",
+      "bioParagraphs": [
+        "Robin est un entrepreneur danois en série qui vit en Suisse depuis 14 ans.",
+        "Il a créé et exploité plus de 30 sociétés et structuré des entités juridiques dans plus de 15 pays.",
+        "Cette expérience lui donne une compréhension pratique des décisions auxquelles les clients font face lorsqu’ils déplacent capital, vie familiale, activités opérationnelles et résidence à long terme au-delà des frontières.",
+        "Chez Move to Switzerland, Robin apporte le regard de l’opérateur: rendre le conseil exécutable, coordonner les juridictions et transformer un plan de relocalisation en vie quotidienne, banque, mise en place d’entreprise et base suisse stable.",
+        "Il parle danois, anglais et allemand."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "Nos bureaux",
       "zurich": "Zurich",
       "zug": "Zoug",
-      "schwyz": "Schwytz"
+      "schwyz": "Schwytz",
+      "country": "Suisse"
     }
   },
   "contact": {
@@ -943,6 +958,16 @@
             "level": "2",
             "content": "Pour les Européens, l'obtention est facilitée par les accords bilatéraux. Pour les autres, il faut démontrer un intérêt économique, souvent via l'établissement d'une entreprise ou le forfait fiscal."
           },
+          "3": {
+            "heading": "Ressortissants UE/AELE",
+            "level": "3",
+            "content": "Pour les ressortissants UE/AELE, l’obtention d’un permis B est relativement simple dans le cadre des accords bilatéraux entre la Suisse et l’Union européenne. Ils doivent démontrer soit un contrat de travail avec un employeur suisse, soit une activité indépendante avec preuve d’activité économique, soit des ressources financières suffisantes pour subvenir à leurs besoins sans recourir à l’aide sociale, catégorie particulièrement pertinente pour les personnes à hauts patrimoines. Le permis est accordé pour 5 ans et peut être renouvelé. Le traitement de la demande prend généralement 2 à 4 semaines. La procédure implique l’inscription auprès du contrôle des habitants de la commune (Einwohnerkontrolle) avec passeport, preuve d’assurance maladie et justificatifs de ressources financières ou d’emploi."
+          },
+          "4": {
+            "heading": "Ressortissants non UE/AELE",
+            "level": "3",
+            "content": "Pour les ressortissants non UE/AELE, y compris les ressortissants du CCG, du Moyen-Orient, d’Asie et d’autres pays tiers, la procédure du permis B est plus complexe. Les ressortissants non européens doivent généralement démontrer que leur présence en Suisse sert l’intérêt économique du pays. Cela se fait le plus souvent par la création d’une entreprise générant des emplois ou contribuant à l’économie locale, par un investissement important, ou par l’éligibilité à l’imposition d’après la dépense, qui crée des recettes fiscales substantielles pour le canton et la commune. Les autorités cantonales disposent d’un pouvoir d’appréciation important pour accorder des permis B aux ressortissants de pays tiers. Les cantons souhaitant attirer des contribuables au forfait, comme Zoug, Schwytz, Vaud, le Valais et les Grisons, ont souvent des processus plus fluides. Le dossier requiert généralement un dossier personnel et financier détaillé, une explication claire du motif de séjour, une preuve de logement approprié, une assurance maladie et, le cas échéant, la demande d’imposition forfaitaire. Les délais de traitement vont de 4 à 12 semaines selon le canton et la complexité du dossier."
+          },
           "5": {
             "heading": "Le permis C : Établissement permanent",
             "level": "2",
@@ -989,6 +1014,11 @@
             "level": "2",
             "content": "L'écosystème éducatif suisse, de l'ETH Zurich aux écoles internationales historiques, offre une immersion multilingue et une stabilité inégalée pour préparer la prochaine génération."
           },
+          "4": {
+            "heading": "Santé et qualité de vie",
+            "level": "2",
+            "content": "Le système de santé suisse figure régulièrement parmi les meilleurs au monde. Une couverture obligatoire universelle, des hôpitaux de référence mondiale, dont l’Universitätsspital Zurich, Hirslanden et l’Inselspital de Berne, ainsi qu’une densité de 4,3 médecins pour 1 000 habitants garantissent que l’accès aux soins n’est jamais un sujet d’inquiétude. Au-delà de la santé, la qualité de vie suisse associe des environnements naturels préservés, des infrastructures publiques efficaces et un contrat social qui privilégie l’air pur, l’eau propre, la sécurité des communautés et la richesse culturelle. L’expérience quotidienne en Suisse, de la précision des transports publics à la qualité de l’eau du robinet, reflète une société qui optimise la qualité de vie depuis plusieurs générations."
+          },
           "5": {
             "heading": "Comparaison fiscale",
             "level": "2",
@@ -998,6 +1028,11 @@
             "heading": "La perspective générationnelle",
             "level": "2",
             "content": "La Suisse est une confédération stable depuis 700 ans. Pour les familles pensant à leurs petits-enfants, cette longévité institutionnelle est un argument décisif."
+          },
+          "7": {
+            "heading": "Réussir la transition",
+            "level": "2",
+            "content": "La relocalisation des Émirats arabes unis vers la Suisse est l’un des itinéraires les mieux établis de la migration patrimoniale internationale. Les banques suisses, les conseillers fiscaux et les spécialistes de la relocation ont une longue expérience auprès des familles originaires du Golfe. Des professionnels arabophones sont disponibles dans la plupart des grandes institutions suisses, et le pont culturel, construit sur des décennies de relations d’affaires, d’éducation et de liens personnels, est solide. La transition pratique consiste à coordonner la sortie de la résidence aux Émirats arabes unis, avec ses propres implications en matière de visa, de licences commerciales et de banque, avec l’entrée dans la résidence suisse. C’est précisément dans cette coordination que le conseil professionnel apporte le plus de valeur: assurer une transition propre, fiscalement efficace, et sans angle mort. Nous sommes spécialisés dans cette transition et travaillons avec des familles de toute la région du CCG pour exécuter des relocalisations fluides vers la Suisse."
           }
         },
         "imageAlt": "Skyline de Dubaï transitionnant vers les Alpes suisses dans une composition cinématographique"
@@ -1025,10 +1060,25 @@
             "level": "2",
             "content": "La SA (Société Anonyme) est privilégiée pour les grands offices, offrant flexibilité et prestige. La Sàrl (Société à responsabilité limitée) est plus simple à administrer."
           },
+          "3": {
+            "heading": "Exigences de gouvernance",
+            "level": "2",
+            "content": "La gouvernance d’un family office suisse doit couvrir plusieurs domaines clés. La composition du conseil devrait généralement associer des membres de la famille et des professionnels indépendants. Les bonnes pratiques suisses recommandent au moins un administrateur indépendant disposant d’une expertise financière pertinente, et idéalement un conseil majoritairement indépendant pour les structures les plus importantes. Un comité d’investissement, distinct du conseil, devrait définir la politique d’investissement, les paramètres de risque, les objectifs d’allocation d’actifs et le suivi de la performance. Une charte ou constitution familiale formalise les valeurs de la famille, les processus de décision, les règles de succession et le mandat du bureau. Les cadres de conformité et de reporting doivent répondre aux exigences réglementaires suisses. Un reporting régulier aux membres de la famille, au minimum trimestriel, devrait couvrir la performance des investissements, les indicateurs de risque, les frais et les questions de gouvernance. Un audit professionnel, légal ou volontaire, apporte transparence et responsabilité."
+          },
+          "4": {
+            "heading": "Relations bancaires",
+            "level": "2",
+            "content": "Un family office suisse entretient généralement des relations avec plusieurs banques. La banque dépositaire conserve et protège les actifs financiers de la famille. Les grandes banques suisses, dont UBS, Julius Bär, Pictet et Lombard Odier, fournissent toutes des services de conservation de niveau institutionnel adaptés aux family offices. La ou les banques d’exécution gèrent l’exécution des transactions, le change et le crédit. Certains family offices utilisent une seule banque pour la conservation et l’exécution; d’autres préfèrent séparer ces fonctions pour la gestion du risque et la compétitivité des prix. Les comptes de gestion de trésorerie auprès d’une ou plusieurs banques suisses couvrent les dépenses opérationnelles et la liquidité à court terme. Pour les family offices exposés aux actifs numériques, des banques crypto régulées comme SEBA Bank et Sygnum Bank fournissent une infrastructure de conservation et de négociation réglementée."
+          },
           "5": {
             "heading": "Zoug vs Zurich : Choisir son emplacement",
             "level": "2",
             "content": "Zurich offre le vivier de talents le plus profond, tandis que Zoug propose des taux d'imposition nettement plus bas et un écosystème « Crypto Valley » unique."
+          },
+          "6": {
+            "heading": "Considérations réglementaires",
+            "level": "2",
+            "content": "Les family offices suisses bénéficient d’un environnement réglementaire relativement léger, mais doivent respecter plusieurs exigences. La conformité AML est nécessaire si le bureau gère des actifs financiers. En vertu de la loi sur les établissements financiers (LEFin/FINIG) et de la loi sur les services financiers (LSFin/FIDLEG), les gestionnaires d’actifs de tiers doivent obtenir une autorisation de la FINMA. Toutefois, un single family office pur, qui gère uniquement les actifs propres de la famille, est généralement exempté de cette exigence. Les obligations fiscales de l’entité incluent l’impôt sur le bénéfice, l’impôt sur le capital et la TVA le cas échéant. Les obligations d’employeur, notamment les cotisations sociales, la caisse de pension et l’assurance accidents, s’appliquent si le bureau emploie du personnel en Suisse. Une structuration correcte dès le départ permet d’éviter des complications réglementaires coûteuses par la suite."
           },
           "7": {
             "heading": "Calendrier et coûts",

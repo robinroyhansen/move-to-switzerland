@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "Os Fundadores",
-    "subtitle": "Duas décadas de expertise combinada em assessoria suíça",
+    "subtitle": "Profundidade jurídica suíça e experiência operacional para mudanças transfronteiriças complexas.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Cofundador",
-      "bio": "Advogado suíço e graduado em MBA. Adrian estabeleceu diversos bancos na Suíça e mantém relacionamentos profundos com a FINMA, instituições de private banking e autoridades cantonais. Sua expertise jurídica e rede institucional formam a espinha dorsal regulatória de nossa assessoria."
+      "bio": "Adrian é advogado suíço, com mais de 15 anos de prática jurídica, MBA e credenciais especializadas como fund officer. Seu trabalho se concentra em soluções fiscais suíças, contratos internacionais, desenvolvimento de estratégia, gestão de projetos, reestruturação societária, M&A e governança. Antes de cofundar a Move to Switzerland, liderou o departamento jurídico suíço de um grupo multinacional e depois geriu projetos para uma grande consultoria estratégica europeia. Ele cria estruturas jurídicas suíças para pessoas físicas e empresas estrangeiras, assessora mandatos ativos e fiduciários de conselho e traz a profundidade jurídica, fiscal e institucional necessária para relocações complexas. Adrian fala inglês, alemão, francês e italiano fluentemente.",
+      "bioParagraphs": [
+        "Adrian é advogado suíço, com mais de 15 anos de prática jurídica, MBA e credenciais especializadas como fund officer.",
+        "Seu trabalho se concentra em soluções fiscais suíças, contratos internacionais, desenvolvimento de estratégia, gestão de projetos, reestruturação societária, M&A e governança.",
+        "Antes de cofundar a Move to Switzerland, liderou o departamento jurídico suíço de um grupo multinacional e depois geriu projetos para uma grande consultoria estratégica europeia.",
+        "Ele cria estruturas jurídicas suíças para pessoas físicas e empresas estrangeiras, assessora mandatos ativos e fiduciários de conselho e traz a profundidade jurídica, fiscal e institucional necessária para relocações complexas.",
+        "Adrian fala inglês, alemão, francês e italiano fluentemente."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Cofundador",
-      "bio": "Empreendedor serial dinamarquês radicado na Suíça. Com mais de CHF 400 milhões em publicidade digital gerenciada e diversas empresas na Suíça e na UE, Robin traz excelência operacional e uma compreensão profunda da estruturação de negócios transfronteiriços. Fala alemão, dinamarquês e inglês."
+      "bio": "Robin é um empreendedor serial dinamarquês que vive na Suíça há 14 anos. Ele criou e operou mais de 30 empresas e estruturou entidades jurídicas em mais de 15 países. Isso lhe dá experiência prática nas decisões que os clientes enfrentam ao mover capital, vida familiar, operações e residência de longo prazo entre países. Na Move to Switzerland, Robin traz a perspectiva do operador: como tornar a assessoria executável, como coordenar jurisdições e como transformar um plano de relocação em vida diária, banco, estrutura empresarial e uma base suíça estável. Ele fala dinamarquês, inglês e alemão.",
+      "bioParagraphs": [
+        "Robin é um empreendedor serial dinamarquês que vive na Suíça há 14 anos.",
+        "Ele criou e operou mais de 30 empresas e estruturou entidades jurídicas em mais de 15 países.",
+        "Isso lhe dá experiência prática nas decisões que os clientes enfrentam ao mover capital, vida familiar, operações e residência de longo prazo entre países.",
+        "Na Move to Switzerland, Robin traz a perspectiva do operador: como tornar a assessoria executável, como coordenar jurisdições e como transformar um plano de relocação em vida diária, banco, estrutura empresarial e uma base suíça estável.",
+        "Ele fala dinamarquês, inglês e alemão."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "Nossos Escritórios",
       "zurich": "Zurique",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "Suíça"
     }
   },
   "contact": {

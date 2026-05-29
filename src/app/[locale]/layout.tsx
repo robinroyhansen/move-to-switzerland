@@ -9,7 +9,7 @@ import { isRtl, type Locale } from '@/i18n/config';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { StickyCtaBar } from '@/components/StickyCtaBar';
-import { OrganizationSchema, LocalBusinessSchema } from '@/components/StructuredData';
+import { OrganizationSchema, LocalBusinessSchema, getAreaCountries } from '@/components/StructuredData';
 import { PageBreadcrumb } from '@/components/PageBreadcrumb';
 import { CookieConsent } from '@/components/CookieConsent';
 import '../globals.css';
@@ -63,13 +63,39 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   const messages = await getMessages();
+  const t = await getTranslations({ locale });
   const rtl = isRtl(locale as Locale);
+  const schemaCopy = {
+    description: t('metadata.description'),
+    founderRole: t('founders.adrian.role'),
+    officeLocalities: {
+      zurich: t('about.offices.zurich'),
+      zug: t('about.offices.zug'),
+      schwyz: t('about.offices.schwyz'),
+    },
+    areaCountries: getAreaCountries(locale),
+    serviceTypes: [
+      t('services.items.residency.title'),
+      t('services.items.lumpSum.title'),
+      t('services.items.familyOffice.title'),
+      t('services.items.realEstate.title'),
+      t('services.items.companyFormation.title'),
+    ],
+    knowsAbout: [
+      t('services.items.residency.title'),
+      t('services.items.lumpSum.title'),
+      t('services.items.familyOffice.title'),
+      t('services.items.realEstate.title'),
+      t('services.items.companyFormation.title'),
+      t('whySwitzerland.title'),
+    ],
+  };
 
   return (
     <html lang={locale} dir={rtl ? 'rtl' : 'ltr'}>
       <head>
-        {site === 'move' && <OrganizationSchema />}
-        {site === 'move' && <LocalBusinessSchema />}
+        {site === 'move' && <OrganizationSchema copy={schemaCopy} />}
+        {site === 'move' && <LocalBusinessSchema copy={schemaCopy} />}
       </head>
       <body className={[dmSans.variable, cormorant.variable, 'font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col'].join(' ')}>
         <NextIntlClientProvider messages={messages}>

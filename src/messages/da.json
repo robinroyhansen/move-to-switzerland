@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "Grundlæggerne",
-    "subtitle": "To årtiers samlet schweizisk rådgivningsekspertise",
+    "subtitle": "Schweizisk juridisk dybde og operatørerfaring til komplekse flytninger på tværs af grænser.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Medstifter",
-      "bio": "Schweizisk advokat og MBA. Adrian har etableret flere banker i Schweiz og opretholder tætte relationer til FINMA, private banking-institutioner og kantonale myndigheder. Hans juridiske ekspertise og institutionelle netværk udgør den regulatoriske rygrad i vores rådgivning."
+      "bio": "Adrian er schweizisk advokat med mere end 15 års juridisk praksis, en MBA og specialiserede fund officer-kvalifikationer. Hans arbejde fokuserer på schweiziske skatteløsninger, internationale kontrakter, strategiudvikling, projektledelse, virksomhedsrestrukturering, M&A og governance. Før han var med til at stifte Move to Switzerland, ledede han den schweiziske juridiske afdeling i en multinational koncern og styrede senere projekter for et stort europæisk strategikonsulenthus. Han skaber schweiziske juridiske strukturer for udenlandske privatpersoner og virksomheder, rådgiver om aktive og trustee-bestyrelsesmandater og bringer den juridiske, skattemæssige og institutionelle dybde, som komplekse flytninger kræver. Adrian taler flydende engelsk, tysk, fransk og italiensk.",
+      "bioParagraphs": [
+        "Adrian er schweizisk advokat med mere end 15 års juridisk praksis, en MBA og specialiserede fund officer-kvalifikationer.",
+        "Hans arbejde fokuserer på schweiziske skatteløsninger, internationale kontrakter, strategiudvikling, projektledelse, virksomhedsrestrukturering, M&A og governance.",
+        "Før han var med til at stifte Move to Switzerland, ledede han den schweiziske juridiske afdeling i en multinational koncern og styrede senere projekter for et stort europæisk strategikonsulenthus.",
+        "Han skaber schweiziske juridiske strukturer for udenlandske privatpersoner og virksomheder, rådgiver om aktive og trustee-bestyrelsesmandater og bringer den juridiske, skattemæssige og institutionelle dybde, som komplekse flytninger kræver.",
+        "Adrian taler flydende engelsk, tysk, fransk og italiensk."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Medstifter",
-      "bio": "Dansk serieiværksætter bosiddende i Schweiz. Med over CHF 400 millioner i forvaltet digital annoncering og flere virksomheder i Schweiz og EU bringer Robin operationel excellence og en dyb forståelse for grænseoverskridende virksomhedsstrukturering. Taler tysk, dansk og engelsk."
+      "bio": "Robin er dansk serieiværksætter og har boet i Schweiz i 14 år. Han har bygget og drevet mere end 30 virksomheder og struktureret juridiske enheder i mere end 15 lande. Det giver ham praktisk erfaring med de beslutninger, kunder står overfor, når kapital, familieliv, drift og langsigtet ophold flyttes på tværs af grænser. Hos Move to Switzerland bringer Robin operatørens perspektiv: hvordan rådgivning bliver eksekverbar, hvordan man koordinerer på tværs af jurisdiktioner, og hvordan en flytteplan bliver til hverdagsliv, banking, virksomhedsetablering og en stabil schweizisk base. Han taler dansk, engelsk og tysk.",
+      "bioParagraphs": [
+        "Robin er dansk serieiværksætter og har boet i Schweiz i 14 år.",
+        "Han har bygget og drevet mere end 30 virksomheder og struktureret juridiske enheder i mere end 15 lande.",
+        "Det giver ham praktisk erfaring med de beslutninger, kunder står overfor, når kapital, familieliv, drift og langsigtet ophold flyttes på tværs af grænser.",
+        "Hos Move to Switzerland bringer Robin operatørens perspektiv: hvordan rådgivning bliver eksekverbar, hvordan man koordinerer på tværs af jurisdiktioner, og hvordan en flytteplan bliver til hverdagsliv, banking, virksomhedsetablering og en stabil schweizisk base.",
+        "Han taler dansk, engelsk og tysk."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "Vores kontorer",
       "zurich": "Zurich",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "Schweiz"
     }
   },
   "contact": {

@@ -154,16 +154,30 @@
   },
   "founders": {
     "title": "Grunnleggerne",
-    "subtitle": "To tiår med kombinert sveitsisk rådgivningsekspertise",
+    "subtitle": "Sveitsisk juridisk dybde og operativ erfaring for komplekse flyttinger på tvers av landegrenser.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Medgrunnlegger",
-      "bio": "Sveitsisk advokat og MBA. Adrian har etablert flere banker i Sveits og har dype relasjoner til FINMA og private banker."
+      "bio": "Adrian er sveitsisk advokat med mer enn 15 års juridisk praksis, MBA og spesialiserte kvalifikasjoner som fund officer. Arbeidet hans omfatter sveitsiske skatteløsninger, internasjonale kontrakter, strategiutvikling, prosjektledelse, selskapsrestrukturering, M&A og selskapsstyring. Før han var med på å grunnlegge Move to Switzerland, ledet han den sveitsiske juridiske avdelingen i et multinasjonalt konsern og styrte senere prosjekter for et stort europeisk strategikonsulentselskap. Han etablerer sveitsiske juridiske strukturer for utenlandske privatpersoner og selskaper, rådgir om aktive og tillitsbaserte styremandater og bringer den juridiske, skattemessige og institusjonelle dybden som komplekse flyttinger krever. Adrian snakker flytende engelsk, tysk, fransk og italiensk.",
+      "bioParagraphs": [
+        "Adrian er sveitsisk advokat med mer enn 15 års juridisk praksis, MBA og spesialiserte kvalifikasjoner som fund officer.",
+        "Arbeidet hans omfatter sveitsiske skatteløsninger, internasjonale kontrakter, strategiutvikling, prosjektledelse, selskapsrestrukturering, M&A og selskapsstyring.",
+        "Før han var med på å grunnlegge Move to Switzerland, ledet han den sveitsiske juridiske avdelingen i et multinasjonalt konsern og styrte senere prosjekter for et stort europeisk strategikonsulentselskap.",
+        "Han etablerer sveitsiske juridiske strukturer for utenlandske privatpersoner og selskaper, rådgir om aktive og tillitsbaserte styremandater og bringer den juridiske, skattemessige og institusjonelle dybden som komplekse flyttinger krever.",
+        "Adrian snakker flytende engelsk, tysk, fransk og italiensk."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Medgrunnlegger",
-      "bio": "Dansk seriegrüunder bosatt i Sveits. Over CHF 400 millioner i forvaltet digital annonsering. Snakker tysk, dansk og engelsk."
+      "bio": "Robin er dansk seriegründer og har bodd i Sveits i 14 år. Han har bygget og drevet mer enn 30 selskaper og strukturert juridiske enheter i mer enn 15 land. Det gir ham praktisk erfaring med beslutningene kunder møter når kapital, familieliv, drift og langsiktig bosted flyttes over landegrenser. Hos Move to Switzerland bringer Robin operatørens perspektiv: hvordan rådgivning gjøres gjennomførbar, hvordan man koordinerer mellom jurisdiksjoner, og hvordan en flytteplan blir til hverdagsliv, bankforbindelser, selskapsoppsett og en stabil sveitsisk base. Han snakker dansk, engelsk og tysk.",
+      "bioParagraphs": [
+        "Robin er dansk seriegründer og har bodd i Sveits i 14 år.",
+        "Han har bygget og drevet mer enn 30 selskaper og strukturert juridiske enheter i mer enn 15 land.",
+        "Det gir ham praktisk erfaring med beslutningene kunder møter når kapital, familieliv, drift og langsiktig bosted flyttes over landegrenser.",
+        "Hos Move to Switzerland bringer Robin operatørens perspektiv: hvordan rådgivning gjøres gjennomførbar, hvordan man koordinerer mellom jurisdiksjoner, og hvordan en flytteplan blir til hverdagsliv, bankforbindelser, selskapsoppsett og en stabil sveitsisk base.",
+        "Han snakker dansk, engelsk og tysk."
+      ]
     }
   },
   "about": {
@@ -171,30 +185,31 @@
     "pageSubtitle": "Uavhengighet, konfidensialitet og dybde i service",
     "story": {
       "title": "Vår historie",
-      "p1": "Move to Switzerland ble grunnlagt ut fra en enkel observasjon: velstående personer som flytter fra Midtøsten opplever et unødvendig fragmentert rådgivningslandskap.",
-      "p2": "Vi skapte ett kontaktpunkt som orkestrerer hele relokasjonreisen.",
-      "p3": "Hvert engasjement håndteres med den diskresjon og grundighet våre klienter forventer."
+      "p1": "Move to Switzerland ble grunnlagt på en enkel observasjon: Velstående privatpersoner som flytter fra Midtøsten til Sveits, møter et unødvendig fragmentert rådgivningslandskap. Skatterådgivere, immigrasjonsadvokater, eiendomsmeglere og private bankrådgivere arbeider hver for seg, og lar kunden koordinere mellom dem.",
+      "p2": "Vi etablerte ett kontaktpunkt som koordinerer hele flytteprosessen — fra strukturering av formuen før innvandring til barnas første skoledag. Grunnleggerne våre kombinerer dyp sveitsisk juridisk og bankfaglig ekspertise med praktisk entreprenørerfaring fra grensekryssende virksomhet.",
+      "p3": "Hvert oppdrag håndteres med den diskresjonen og grundigheten kundene våre forventer. Vi betjener et begrenset antall familier til enhver tid, slik at hver familie får vår fulle oppmerksomhet."
     },
     "values": {
       "title": "Våre verdier",
       "independence": {
         "title": "Uavhengighet",
-        "description": "Vi er ikke bundet til noen bank, advokatfirma eller eiendomsmegler."
+        "description": "Vi er ikke bundet til noen bank, advokatfirma eller eiendomsmegler. Våre råd gis alltid med ditt beste for øye."
       },
       "confidentiality": {
         "title": "Konfidensialitet",
-        "description": "Hvert engasjement er beskyttet av streng konfidensialitet."
+        "description": "Hvert oppdrag er beskyttet av streng konfidensialitet. Vi avslører aldri kundeforhold eller detaljer."
       },
       "depth": {
         "title": "Dybde i service",
-        "description": "Vi henviser ikke og glemmer. Vi er med deg hele veien."
+        "description": "Vi henviser ikke bare videre og forsvinner. Vi følger deg gjennom hvert trinn, fra første konsultasjon til full bosetting."
       }
     },
     "offices": {
       "title": "Våre kontorer",
       "zurich": "Zürich",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "Sveits"
     }
   },
   "contact": {

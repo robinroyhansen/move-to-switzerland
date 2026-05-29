@@ -541,16 +541,30 @@
   },
   "founders": {
     "title": "Kurucular",
-    "subtitle": "İki on yıllık birleşik İsviçre danışmanlık uzmanlığı",
+    "subtitle": "Karmaşık sınır ötesi taşınmalar için İsviçre hukuk derinliği ve operasyon deneyimi.",
     "adrian": {
       "name": "Adrian Burgi",
       "role": "Kurucu Ortak",
-      "bio": "İsviçreli avukat ve MBA mezunu. Adrian, İsviçre'de birden fazla banka kurmuştur ve FINMA, özel bankacılık kurumları ve kanton makamlarıyla derin ilişkilere sahiptir. Hukuki uzmanlığı ve kurumsal ağı, danışmanlığımızın düzenleyici omurgasını oluşturur."
+      "bio": "Adrian, 15 yılı aşkın hukuk pratiğine sahip İsviçreli bir avukat, MBA mezunu ve uzman fon yetkilisi niteliklerine sahiptir. Çalışmaları İsviçre vergi çözümleri, uluslararası sözleşmeler, strateji geliştirme, proje yönetimi, kurumsal yeniden yapılandırma, birleşme ve satın almalar ile yönetişime odaklanır. Move to Switzerland’ı kurmadan önce çok uluslu bir grubun İsviçre hukuk departmanını yönetti ve daha sonra büyük bir Avrupa strateji danışmanlığı için projeler yürüttü. Yabancı bireyler ve şirketler için İsviçre hukuk yapıları kurar, aktif ve mütevelli yönetim kurulu görevleri konusunda danışmanlık verir ve karmaşık taşınmalar için gerekli hukuki, vergisel ve kurumsal derinliği sağlar. Adrian İngilizce, Almanca, Fransızca ve İtalyanca akıcı konuşur.",
+      "bioParagraphs": [
+        "Adrian, 15 yılı aşkın hukuk pratiğine sahip İsviçreli bir avukat, MBA mezunu ve uzman fon yetkilisi niteliklerine sahiptir.",
+        "Çalışmaları İsviçre vergi çözümleri, uluslararası sözleşmeler, strateji geliştirme, proje yönetimi, kurumsal yeniden yapılandırma, birleşme ve satın almalar ile yönetişime odaklanır.",
+        "Move to Switzerland’ı kurmadan önce çok uluslu bir grubun İsviçre hukuk departmanını yönetti ve daha sonra büyük bir Avrupa strateji danışmanlığı için projeler yürüttü.",
+        "Yabancı bireyler ve şirketler için İsviçre hukuk yapıları kurar, aktif ve mütevelli yönetim kurulu görevleri konusunda danışmanlık verir ve karmaşık taşınmalar için gerekli hukuki, vergisel ve kurumsal derinliği sağlar.",
+        "Adrian İngilizce, Almanca, Fransızca ve İtalyanca akıcı konuşur."
+      ]
     },
     "robin": {
       "name": "Robin Roy Krigslund-Hansen",
       "role": "Kurucu Ortak",
-      "bio": "İsviçre'de ikamet eden Danimarkalı seri girişimci. 400 milyon CHF'den fazla yönetilen dijital reklamcılık ve İsviçre ile AB genelinde birden fazla şirketiyle Robin, operasyonel mükemmellik ve sınır ötesi iş yapılandırması konusunda derin bir anlayış getiriyor. Almanca, Danimarkaca ve İngilizce konuşmaktadır."
+      "bio": "Robin, 14 yıldır İsviçre’de yaşayan Danimarkalı bir seri girişimcidir. 30’dan fazla şirket kurup işletmiş ve 15’ten fazla ülkede hukuki yapılar oluşturmuştur. Bu deneyim, müşterilerin sermaye, aile hayatı, operasyonlar ve uzun vadeli ikameti sınır ötesine taşırken karşılaştığı kararları pratik düzeyde anlamasını sağlar. Move to Switzerland’da Robin işletmeci bakış açısını getirir: danışmanlığı uygulanabilir hale getirmek, farklı yargı alanları arasında koordinasyon kurmak ve bir taşınma planını günlük hayata, bankacılığa, şirket kurulumuna ve istikrarlı bir İsviçre üssüne dönüştürmek. Danca, İngilizce ve Almanca konuşur.",
+      "bioParagraphs": [
+        "Robin, 14 yıldır İsviçre’de yaşayan Danimarkalı bir seri girişimcidir.",
+        "30’dan fazla şirket kurup işletmiş ve 15’ten fazla ülkede hukuki yapılar oluşturmuştur.",
+        "Bu deneyim, müşterilerin sermaye, aile hayatı, operasyonlar ve uzun vadeli ikameti sınır ötesine taşırken karşılaştığı kararları pratik düzeyde anlamasını sağlar.",
+        "Move to Switzerland’da Robin işletmeci bakış açısını getirir: danışmanlığı uygulanabilir hale getirmek, farklı yargı alanları arasında koordinasyon kurmak ve bir taşınma planını günlük hayata, bankacılığa, şirket kurulumuna ve istikrarlı bir İsviçre üssüne dönüştürmek.",
+        "Danca, İngilizce ve Almanca konuşur."
+      ]
     }
   },
   "about": {
@@ -581,7 +595,8 @@
       "title": "Ofislerimiz",
       "zurich": "Zürih",
       "zug": "Zug",
-      "schwyz": "Schwyz"
+      "schwyz": "Schwyz",
+      "country": "İsviçre"
     }
   },
   "contact": {

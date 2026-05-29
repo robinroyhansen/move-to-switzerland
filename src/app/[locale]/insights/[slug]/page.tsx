@@ -60,13 +60,13 @@ async function ArticleContent({
 }: {
   paramsPromise: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await paramsPromise;
+  const { locale, slug } = await paramsPromise;
   if (!insightSlugs.includes(slug as InsightSlug)) notFound();
 
-  return <ArticleInner slug={slug as InsightSlug} />;
+  return <ArticleInner locale={locale} slug={slug as InsightSlug} />;
 }
 
-function ArticleInner({ slug }: { slug: InsightSlug }) {
+function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
   const t = useTranslations('insights');
   const meta = insights[slug];
   const currentIndex = insightSlugs.indexOf(slug);
@@ -109,7 +109,7 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
             dateModified: meta.date,
             author: {
               '@type': 'Organization',
-              name: 'Move to Switzerland Advisory Team',
+              name: t('author'),
             },
             publisher: {
               '@type': 'Organization',
@@ -118,7 +118,7 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
             },
             mainEntityOfPage: {
               '@type': 'WebPage',
-              '@id': `https://move-to-switzerland.com/en/insights/${slug}`,
+              '@id': `https://move-to-switzerland.com/${locale}/insights/${slug}`,
             },
           }),
         }}
@@ -135,14 +135,14 @@ function ArticleInner({ slug }: { slug: InsightSlug }) {
               {
                 '@type': 'ListItem',
                 position: 1,
-                name: 'Home',
-                item: 'https://move-to-switzerland.com',
+                name: t('breadcrumb.home'),
+                item: `https://move-to-switzerland.com/${locale}`,
               },
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Insights',
-                item: 'https://move-to-switzerland.com/en/insights',
+                name: t('breadcrumb.insights'),
+                item: `https://move-to-switzerland.com/${locale}/insights`,
               },
               {
                 '@type': 'ListItem',
