@@ -24,7 +24,7 @@ export function Header({ site = 'move' }: HeaderProps) {
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const brandHref = isSwissArrival ? '/swiss-arrival' : '/';
   const languageOptions = isSwissArrival
-    ? (['en', 'da', 'de', 'fr'] as Locale[])
+    ? (['en', 'da', 'de', 'fr', 'es', 'nl'] as Locale[])
     : (Object.keys(localeNames) as Locale[]);
   const languageLabel = footerT('languages');
 

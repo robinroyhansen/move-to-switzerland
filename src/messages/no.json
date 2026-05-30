@@ -684,7 +684,7 @@
         "category": "taxation",
         "categoryLabel": "Skatt",
         "readTime": "12 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Sveitsisk pauschalbeskatning forklart: En komplett veiledning for utenlandske innbyggere",
         "metaDescription": "Komplett guide til sveitsisk pauschalbeskatning (forfait-skatt). Lær kvalifisering, minimumsbeløp etter kanton, hvordan skattegrunnlaget beregnes, og trinn-for-trinn søknadsprosessen.",
         "excerpt": "En omfattende oversikt over Sveits' forfait fiscal-regime - kvalifikasjonskrav, kantonale minimumsbeløp, beregning av skattegrunnlag og den trinnvise søknadsprosessen.",
@@ -740,7 +740,7 @@
         "category": "real-estate",
         "categoryLabel": "Fast eiendom",
         "readTime": "10 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Lex Koller: Hva utenlandske kjøpere trenger å vite om sveitsisk eiendom",
         "metaDescription": "Forstå Sveits' Lex Koller lov: utenlandsk eierskapsbegrensninger på fast eiendom, tillatelseskrav, kantonale forskjeller og praktiske strategier for ikke-sveitsiske kjøpere.",
         "excerpt": "Naviger i Sveits' utenlandske eiendomsbegrensninger – fra Lex Koller-krav til kantonale forskjeller, autorisasjonsprosesser og strategier for internasjonale kjøpere.",
@@ -796,7 +796,7 @@
         "category": "lifestyle",
         "categoryLabel": "Livsstil",
         "readTime": "11 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Beste internasjonale skoler i Zürich, Zug og Schwyz",
         "metaDescription": "Omfattende guide til de beste internasjonale skolene i Zürich, Zug og Schwyz. Sammenlign IB, amerikanske, britiske og sveitsiske læreplaner, avgifter, opptakstidslinjer og ombordstigningsalternativer.",
         "excerpt": "Sammenlign de beste internasjonale skolene på tvers av Zürich, Zug og Schwyz - fra IB-programmer og sveitsiske Matura til internatalternativer, skolepenger og opptaksveiledning.",
@@ -857,7 +857,7 @@
         "category": "relocation",
         "categoryLabel": "Flytting",
         "readTime": "9 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Hvor lang tid tar det å flytte til Sveits? En realistisk tidslinje",
         "metaDescription": "Realistisk tidslinje for flytting til Sveits: 3-måneders, 6-måneders, 9-måneders og 12-måneders scenarier. Hvilke faktorer fremskynder eller forsinker din sveitsiske flytting.",
         "excerpt": "Fra raske 3-måneders flyttinger til omfattende 12-måneders programmer – forstå hva som driver tidslinjen og hvordan du planlegger flyttingen til Sveits.",
@@ -908,7 +908,7 @@
         "category": "banking",
         "categoryLabel": "Bankvirksomhet",
         "readTime": "10 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Åpning av en privat sveitsisk bankkonto: krav og prosess",
         "metaDescription": "Alt du trenger å vite om å åpne en privat sveitsisk bankkonto: AML/KYC krav, dokumentasjon om kilde til formue og hva banker forventer av internasjonale kunder.",
         "excerpt": "Den definitive guiden til sveitsisk privatbank – fra AML/KYC-krav og dokumentasjon for formuesopprinnelse til kryptoformuehåndtering og valg av riktig bankpartner.",
@@ -959,7 +959,7 @@
         "category": "immigration",
         "categoryLabel": "Innvandring",
         "readTime": "11 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Sveitsiske oppholdstillatelser: B-tillatelse, C-tillatelse og veien til statsborgerskap",
         "metaDescription": "Omfattende guide til sveitsiske oppholdstillatelser: B-tillatelse og C-tillatelse krav, tidslinjer, familieinkludering, kantonale forskjeller og veien til sveitsisk statsborgerskap.",
         "excerpt": "Alt du trenger å vite om sveitsiske oppholdstillatelser – B-tillatelse og C-tillatelse krav, behandlingstidslinjer, familiegjenforening og veien til sveitsisk statsborgerskap.",
@@ -1010,7 +1010,7 @@
         "category": "relocation",
         "categoryLabel": "Flytting",
         "readTime": "9 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Hvorfor velstående familier forlater UAE til Sveits",
         "metaDescription": "Hvorfor familier med høy nettoverdi flytter fra Dubai og Abu Dhabi til Sveits: geopolitiske drivere, sikkerhet, utdanning, helsetjenester og langsiktig stabilitet.",
         "excerpt": "Undersøker den økende trenden med velstående familier som flytter fra UAE til Sveits - fra geopolitiske risikoer og generasjonstenkning til utdanning, helsetjenester og livsstil.",
@@ -1061,7 +1061,7 @@
         "category": "formuesforvaltning",
         "categoryLabel": "Formuesforvaltning",
         "readTime": "12 min lesing",
-        "date": "April 1, 2026",
+        "date": "1. april 2026",
         "title": "Opprette et family office i Sveits: struktur, styring og bankvirksomhet",
         "metaDescription": "Komplett veiledning for å etablere et family office i Sveits: SFO vs MFO strukturer, sveitsiske selskapstyper, styringsrammer, bankforhold og sammenligning av Zug vs Zürich.",
         "excerpt": "Alt du trenger for å etablere et sveitsisk family office – fra å velge SFO vs MFO strukturer og sveitsiske selskapstyper til styringsrammer, banktjenester og Zug vs Zürich-avgjørelsen.",
@@ -2271,5 +2271,75 @@
     "tagline": "En praktisk digital guide for expats som forbereder en flytting til Sveits.",
     "rights": "Alle rettigheter forbeholdt.",
     "company": "Et WorkWorkWork AG-prosjekt"
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Praktisk flytteguide for Sveits for expats",
+    "metaDescription": "En praktisk e-bok for expats som flytter til Sveits, som dekker tillatelser, bolig, forsikring, skatter, skoler og første måneds admin.",
+    "language": "Norsk",
+    "eyebrow": "Swiss Arrival",
+    "title": "Den praktiske expat-guiden for å flytte til Sveits",
+    "subtitle": "En oversiktlig e-bok for folk som vil ha den virkelige sjekklisten: tillatelser, bolig, helseforsikring, skoler, skatter, første måneds admin og de små overraskelsene som gjør Sveits vanskelig å avkode fra utlandet.",
+    "primaryCta": "Bli med på lanseringslisten",
+    "secondaryCta": "Se hva som er inni",
+    "briefingLabel": "Sveitsisk trekkbriefing",
+    "proof": [
+      "Skrevet fra 13+ års erfaring fra sveitsisk flytting",
+      "Bygget for EU og internasjonale expats",
+      "Tilgjengelig på dansk, engelsk, tysk, fransk, spansk og nederlandsk"
+    ],
+    "problemKicker": "Virkeligheten først",
+    "problemTitle": "Bygget for den rotete delen før livet føles avgjort",
+    "problemBody": "Å flytte til Sveits er ikke vanskelig fordi én oppgave er umulig. Det er vanskelig fordi hver beslutning avhenger av en annen: kanton, tillatelse, adresse, forsikring, skole, skatt og bankoppsett. Swiss Arrival gjør den haugen med admin til en rolig sekvens.",
+    "chaptersKicker": "Inne i guiden",
+    "chaptersTitle": "Hva e-boken hjelper deg med å håndtere",
+    "chapters": [
+      {
+        "title": "Før du flytter",
+        "body": "Velg en kanton, forstå tillatelsesruter, klargjør dokumenter og unngå boligfeilene som skaper forsinkelser."
+      },
+      {
+        "title": "Dine første 30 dager",
+        "body": "Registrer deg lokalt, aktiver helseforsikring, åpne bankkonto, ordne telefon og internett, og få orden på de riktige dokumentene."
+      },
+      {
+        "title": "Penger og papirarbeid",
+        "body": "Forstå sveitsiske kostnader, lønnsforventninger, innskudd, skattegrunnlag, obligatorisk forsikring og hva som trenger oppmerksomhet først."
+      },
+      {
+        "title": "Familie og dagligliv",
+        "body": "Skoler, barnepass, transport, språk, shopping, helsetilgang og rutinene som gjør landet lettere å bo i."
+      }
+    ],
+    "timelineKicker": "Sekvens",
+    "timelineTitle": "En enkel bevegelig sekvens",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Planlegg flyttingen",
+        "body": "Bestem hvor du skal lande, hvilke papirer som trengs og hva som kan vente til etter ankomst."
+      },
+      {
+        "label": "02",
+        "title": "Sikre det grunnleggende",
+        "body": "Håndter bolig, registrering, forsikring og bank i riktig rekkefølge slik at prosessen ikke stopper opp."
+      },
+      {
+        "label": "03",
+        "title": "Sett deg skikkelig til rette",
+        "body": "Gå fra overlevelsesmodus til vanlig liv med skoler, transport, helsetjenester, skatt og lokale rutiner under kontroll."
+      }
+    ],
+    "bundleKicker": "Digitalt produkt",
+    "bundleTitle": "Lanseringspakke",
+    "bundleBody": "Den første versjonen er planlagt som et praktisk digitalt produkt, ikke en vag inspirasjonsguide.",
+    "bundleItems": [
+      "Swiss Arrival e-bok",
+      "Administrasjonssjekkliste for første måned",
+      "Arbeidsark for kantonbeslutning",
+      "Kostnads- og innskuddsplanlegger"
+    ],
+    "finalTitle": "Bli varslet når Swiss Arrival åpner",
+    "finalBody": "Lanseringssiden er under utarbeidelse nå. Meld deg på listen så sender vi e-bokdetaljene når første utgave er klar.",
+    "finalCta": "Kontakt oss"
   }
 }

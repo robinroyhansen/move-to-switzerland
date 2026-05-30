@@ -4,7 +4,7 @@ import { routing } from './i18n/routing';
 
 const intlMiddleware = createMiddleware(routing);
 const swissArrivalHosts = new Set(['swissarrival.com', 'www.swissarrival.com']);
-const swissArrivalLocales = new Set(['en', 'da', 'de', 'fr']);
+const swissArrivalLocales = new Set(['en', 'da', 'de', 'fr', 'es', 'nl']);
 const swissArrivalHeader = 'x-openclaw-site';
 
 function rewriteToSwissArrival(request: NextRequest, locale: string) {
@@ -39,5 +39,5 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/', '/(de|en|fr|ar|fa|tr|ru|hi|da|it|zh|pt|he|ko|no|ro)/:path*'],
+  matcher: ['/', '/(de|en|fr|es|nl|ar|fa|tr|ru|hi|da|it|zh|pt|he|ko|no|ro)/:path*'],
 };

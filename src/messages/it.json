@@ -2271,5 +2271,75 @@
     "tagline": "Una pratica guida digitale per gli espatriati che si preparano a trasferirsi in Svizzera.",
     "rights": "Tutti i diritti riservati.",
     "company": "Un progetto WorkWorkWork AG"
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Guida pratica al trasloco in Svizzera per espatriati",
+    "metaDescription": "Un pratico e-book per gli espatriati che si trasferiscono in Svizzera, che copre permessi, alloggio, assicurazioni, tasse, scuole e amministrazione del primo mese.",
+    "language": "Italiano",
+    "eyebrow": "Swiss Arrival",
+    "title": "La guida pratica per trasferirsi in Svizzera",
+    "subtitle": "Un e-book chiaro per chi vuole la vera lista di controllo: permessi, alloggio, assicurazione sanitaria, scuole, tasse, primo mese di amministrazione e le piccole sorprese che rendono difficile decodificare la Svizzera dall'estero.",
+    "primaryCta": "Unisciti alla lista di lancio",
+    "secondaryCta": "Guarda cosa c'è dentro",
+    "briefingLabel": "Briefing sulla mossa svizzera",
+    "proof": [
+      "Scritto da oltre 13 anni di esperienza di trasferimento in Svizzera",
+      "Costruito per gli espatriati europei e internazionali",
+      "Disponibile in danese, inglese, tedesco, francese, spagnolo e olandese"
+    ],
+    "problemKicker": "Prima la realtà",
+    "problemTitle": "Costruito per la parte disordinata prima che la vita sembri sistemata",
+    "problemBody": "Trasferirsi in Svizzera non è difficile perché un compito è impossibile. È difficile perché ogni decisione dipende da altri: cantone, permesso, indirizzo, assicurazione, scuola, tasse e struttura bancaria. Swiss Arrival trasforma quella pila di documenti amministrativi in ​​una sequenza tranquilla.",
+    "chaptersKicker": "All'interno della guida",
+    "chaptersTitle": "Ciò che l'e-book ti aiuta a gestire",
+    "chapters": [
+      {
+        "title": "Prima di muoverti",
+        "body": "Scegli un cantone, conosci i percorsi dei permessi, prepara i documenti ed evita gli errori abitativi che creano ritardi."
+      },
+      {
+        "title": "I tuoi primi 30 giorni",
+        "body": "Registrati localmente, attiva l'assicurazione sanitaria, apri un conto bancario, organizza telefono e Internet e metti in ordine i documenti giusti."
+      },
+      {
+        "title": "Soldi e documenti",
+        "body": "Comprendi i costi svizzeri, le aspettative salariali, i depositi, le basi fiscali, l'assicurazione obbligatoria e ciò che necessita di attenzione in primo luogo."
+      },
+      {
+        "title": "Famiglia e vita quotidiana",
+        "body": "Scuole, assistenza all’infanzia, trasporti, lingua, acquisti, accesso all’assistenza sanitaria e routine che rendono più facile vivere nel Paese."
+      }
+    ],
+    "timelineKicker": "Sequenza",
+    "timelineTitle": "Una semplice sequenza in movimento",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Pianifica il trasloco",
+        "body": "Decidi dove atterrare, quali documenti sono necessari e cosa può aspettare fino a dopo l'arrivo."
+      },
+      {
+        "label": "02",
+        "title": "Proteggi le basi",
+        "body": "Gestisci l'alloggio, la registrazione, l'assicurazione e le operazioni bancarie nel giusto ordine in modo che il processo non si blocchi."
+      },
+      {
+        "label": "03",
+        "title": "Sistemarsi adeguatamente",
+        "body": "Passa dalla modalità sopravvivenza alla vita normale con scuole, trasporti, assistenza sanitaria, tasse e routine locali sotto controllo."
+      }
+    ],
+    "bundleKicker": "Prodotto digitale",
+    "bundleTitle": "Avvia il pacchetto",
+    "bundleBody": "La prima versione è progettata come un prodotto digitale pratico, non come una vaga guida di ispirazione.",
+    "bundleItems": [
+      "L'e-book Swiss Arrival",
+      "Lista di controllo amministrativa del primo mese",
+      "Foglio di lavoro per le decisioni cantonali",
+      "Pianificatore di costi e depositi"
+    ],
+    "finalTitle": "Ricevi una notifica all'apertura di Swiss Arrival",
+    "finalBody": "La pagina di lancio è in preparazione adesso. Unisciti alla lista e ti invieremo i dettagli dell'e-book quando la prima edizione sarà pronta.",
+    "finalCta": "Contattaci"
   }
 }

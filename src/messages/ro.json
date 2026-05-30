@@ -2271,5 +2271,75 @@
     "tagline": "Un ghid digital practic pentru expații care pregătesc mutarea în Elveția.",
     "rights": "Toate drepturile rezervate.",
     "company": "Un proiect WorkWorkWork AG"
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Ghid practic de mutare în Elveția pentru expatriați",
+    "metaDescription": "O carte electronică practică pentru expații care se mută în Elveția, care acoperă permise, locuințe, asigurări, taxe, școli și administrație în prima lună.",
+    "language": "Română",
+    "eyebrow": "Swiss Arrival",
+    "title": "Ghidul practic pentru expatriați pentru mutarea în Elveția",
+    "subtitle": "O carte electronică clară pentru cei care doresc adevărata listă de verificare: permise, locuințe, asigurări de sănătate, școli, taxe, admin în prima lună și micile surprize care fac Elveția greu de decodat din străinătate.",
+    "primaryCta": "Alăturați-vă listei de lansare",
+    "secondaryCta": "Vezi ce este înăuntru",
+    "briefingLabel": "Briefing despre mișcare elvețiană",
+    "proof": [
+      "Scris din peste 13 ani de experiență în relocarea elvețiană",
+      "Creat pentru expatriați din UE și internaționali",
+      "Disponibil în daneză, engleză, germană, franceză, spaniolă și olandeză"
+    ],
+    "problemKicker": "Realitatea în primul rând",
+    "problemTitle": "Construit pentru partea dezordonată înainte ca viața să se simtă așezată",
+    "problemBody": "Mutarea în Elveția nu este dificilă, deoarece o sarcină este imposibilă. Este dificil pentru că fiecare decizie depinde de alta: canton, permis, adresă, asigurare, școală, taxă și configurație bancară. Swiss Arrival transformă acea grămadă de admin într-o secvență calmă.",
+    "chaptersKicker": "În interiorul ghidului",
+    "chaptersTitle": "Ce vă ajută cartea electronică să gestionați",
+    "chapters": [
+      {
+        "title": "Înainte să te muți",
+        "body": "Alegeți un canton, înțelegeți rutele permiselor, pregătiți documentele și evitați greșelile de locuire care creează întârzieri."
+      },
+      {
+        "title": "Primele tale 30 de zile",
+        "body": "Înregistrați-vă local, activați asigurarea de sănătate, deschideți un cont bancar, aranjați telefonul și internetul și obțineți documentele potrivite în ordine."
+      },
+      {
+        "title": "Bani și hârtii",
+        "body": "Înțelegeți costurile elvețiene, așteptările salariale, depozitele, elementele fiscale de bază, asigurarea obligatorie și ceea ce necesită atenție mai întâi."
+      },
+      {
+        "title": "Familia și viața de zi cu zi",
+        "body": "Școli, îngrijire a copiilor, transport, limbă, cumpărături, acces la asistență medicală și rutine care fac țara mai ușor de trăit."
+      }
+    ],
+    "timelineKicker": "Secvenţă",
+    "timelineTitle": "O simplă secvență de mișcare",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Planificați mutarea",
+        "body": "Decideți unde ar trebui să aterizați, ce documente sunt necesare și ce poate aștepta până după sosire."
+      },
+      {
+        "label": "02",
+        "title": "Asigurați elementele de bază",
+        "body": "Gestionați locuințele, înregistrarea, asigurările și serviciile bancare în ordinea corectă, astfel încât procesul să nu se blocheze."
+      },
+      {
+        "label": "03",
+        "title": "Așează-te corect",
+        "body": "Treceți de la modul de supraviețuire la viața normală, cu școli, transport, asistență medicală, taxe și rutine locale sub control."
+      }
+    ],
+    "bundleKicker": "Produs digital",
+    "bundleTitle": "Lansați pachetul",
+    "bundleBody": "Prima versiune este planificată ca un produs digital practic, nu un ghid vag de inspirație.",
+    "bundleItems": [
+      "Cartea electronică Swiss Arrival",
+      "Lista de verificare pentru administrarea primei luni",
+      "Fișa de lucru pentru decizia cantonului",
+      "Planificator de costuri și depozite"
+    ],
+    "finalTitle": "Primiți notificări când se deschide Swiss Arrival",
+    "finalBody": "Pagina de lansare este în curs de pregătire. Alăturați-vă listei și vom trimite detaliile cărții electronice când prima ediție este gata.",
+    "finalCta": "Contactaţi-ne"
   }
 }

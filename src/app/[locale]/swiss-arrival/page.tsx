@@ -4,7 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getMessageSection } from '@/lib/message-database';
 
-const swissArrivalLocales = ['en', 'da', 'de', 'fr'] as const;
+const swissArrivalLocales = ['en', 'da', 'de', 'fr', 'es', 'nl'] as const;
 type SwissArrivalLocale = (typeof swissArrivalLocales)[number];
 const swissArrivalBaseUrl = 'https://swissarrival.com';
 

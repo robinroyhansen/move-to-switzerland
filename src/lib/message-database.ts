@@ -3,12 +3,14 @@ import ar from '@/messages/ar.json';
 import da from '@/messages/da.json';
 import de from '@/messages/de.json';
 import en from '@/messages/en.json';
+import es from '@/messages/es.json';
 import fa from '@/messages/fa.json';
 import fr from '@/messages/fr.json';
 import he from '@/messages/he.json';
 import hi from '@/messages/hi.json';
 import it from '@/messages/it.json';
 import ko from '@/messages/ko.json';
+import nl from '@/messages/nl.json';
 import no from '@/messages/no.json';
 import pt from '@/messages/pt.json';
 import ro from '@/messages/ro.json';
@@ -21,12 +23,14 @@ export const translationDatabase = {
   da,
   de,
   en,
+  es,
   fa,
   fr,
   he,
   hi,
   it,
   ko,
+  nl,
   no,
   pt,
   ro,

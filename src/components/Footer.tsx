@@ -18,7 +18,7 @@ export function Footer({ site = 'move' }: FooterProps) {
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const languageOptions = isSwissArrival
-    ? (['en', 'da', 'de', 'fr'] as Locale[])
+    ? (['en', 'da', 'de', 'fr', 'es', 'nl'] as Locale[])
     : (Object.keys(localeNames) as Locale[]);
   const navigationItems = isSwissArrival
     ? [

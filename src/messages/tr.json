@@ -2271,5 +2271,75 @@
     "tagline": "İsviçre’ye taşınmaya hazırlanan expatlar için pratik bir dijital rehber.",
     "rights": "Tüm hakları saklıdır.",
     "company": "Bir WorkWorkWork AG projesi"
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Gurbetçiler için pratik İsviçre taşınma rehberi",
+    "metaDescription": "İsviçre'ye taşınan gurbetçiler için izinler, konut, sigorta, vergiler, okullar ve ilk ay yönetimini kapsayan pratik bir e-kitap.",
+    "language": "Türkçe",
+    "eyebrow": "Swiss Arrival",
+    "title": "İsviçre'ye taşınmak için pratik göçmen kılavuzu",
+    "subtitle": "Gerçek kontrol listesini isteyen kişiler için anlaşılır bir e-kitap: izinler, konut, sağlık sigortası, okullar, vergiler, ilk ay yönetimi ve İsviçre'nin yurt dışından anlaşılmasını zorlaştıran küçük sürprizler.",
+    "primaryCta": "Başlatma listesine katılın",
+    "secondaryCta": "İçeride ne olduğunu görün",
+    "briefingLabel": "İsviçre hamle brifingi",
+    "proof": [
+      "13 yılı aşkın İsviçre taşınma deneyiminden yola çıkılarak yazılmıştır",
+      "AB'deki ve uluslararası gurbetçiler için tasarlandı",
+      "Danca, İngilizce, Almanca, Fransızca, İspanyolca ve Hollandaca dillerinde mevcuttur"
+    ],
+    "problemKicker": "Önce gerçeklik",
+    "problemTitle": "Hayatın çözüldüğünü hissetmeden önce, dağınık kısım için tasarlandı",
+    "problemBody": "İsviçre'ye taşınmak zor değil çünkü tek bir görev imkansız. Bu zordur çünkü her karar bir diğerine bağlıdır: kanton, izin, adres, sigorta, okul, vergi ve banka ayarları. Swiss Arrival, bu yönetici yığınını sakin bir diziye dönüştürür.",
+    "chaptersKicker": "Kılavuzun içinde",
+    "chaptersTitle": "E-kitap neleri halletmenize yardımcı olur?",
+    "chapters": [
+      {
+        "title": "Hareket etmeden önce",
+        "body": "Bir kanton seçin, izin yollarını anlayın, belgeleri hazırlayın ve gecikmelere neden olan konut hatalarından kaçının."
+      },
+      {
+        "title": "İlk 30 gününüz",
+        "body": "Yerel olarak kaydolun, sağlık sigortasını etkinleştirin, banka hesabı açın, telefon ve interneti ayarlayın ve doğru belgeleri sırayla alın."
+      },
+      {
+        "title": "Para ve evrak işleri",
+        "body": "İsviçre maliyetlerini, maaş beklentilerini, mevduatları, vergi temellerini, zorunlu sigortayı ve öncelikle nelere dikkat edilmesi gerektiğini anlayın."
+      },
+      {
+        "title": "Aile ve günlük yaşam",
+        "body": "Okullar, çocuk bakımı, ulaşım, dil, alışveriş, sağlık hizmetlerine erişim ve ülkede yaşamayı kolaylaştıran rutinler."
+      }
+    ],
+    "timelineKicker": "Sekans",
+    "timelineTitle": "Basit bir hareket dizisi",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Hareketi planlayın",
+        "body": "Nereye inmeniz gerektiğine, hangi evrakların gerekli olduğuna ve varış sonrasına kadar nelerin bekleyebileceğine karar verin."
+      },
+      {
+        "label": "02",
+        "title": "Temel bilgileri güvence altına alın",
+        "body": "Sürecin durmaması için konut, kayıt, sigorta ve bankacılığı doğru sırayla ele alın."
+      },
+      {
+        "label": "03",
+        "title": "Düzgün bir şekilde yerleşin",
+        "body": "Okullar, ulaşım, sağlık hizmetleri, vergi ve yerel rutinlerin kontrol altında olduğu hayatta kalma modundan normal hayata geçin."
+      }
+    ],
+    "bundleKicker": "Dijital ürün",
+    "bundleTitle": "Paketi başlat",
+    "bundleBody": "İlk versiyon belirsiz bir ilham rehberi olarak değil, pratik bir dijital ürün olarak planlanıyor.",
+    "bundleItems": [
+      "Swiss Arrival e-kitabı",
+      "İlk ay yönetici kontrol listesi",
+      "Kanton kararı çalışma sayfası",
+      "Maliyet ve depozito planlayıcısı"
+    ],
+    "finalTitle": "Swiss Arrival açıldığında bildirim alın",
+    "finalBody": "Lansman sayfası şu anda hazırlanıyor. Listeye katılın ve ilk baskı hazır olduğunda e-kitap ayrıntılarını göndereceğiz.",
+    "finalCta": "Bize Ulaşın"
   }
 }

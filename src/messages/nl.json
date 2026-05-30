@@ -1,0 +1,2345 @@
+{
+  "metadata": {
+    "title": "Move to Switzerland — Premium verhuizingsadvies",
+    "description": "Een gespecialiseerde verhuis- en strategische adviesdienst voor vermogende particulieren en gezinnen die naar Zwitserland verhuizen."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Diensten",
+    "whySwitzerland": "Waarom Zwitserland",
+    "cantons": "Kantons",
+    "caseStudies": "Casestudies",
+    "about": "Over ons",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "imprint": "Impressum",
+    "beginJourney": "Begin uw reis",
+    "insights": "Inzichten",
+    "menu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "hero": {
+    "headline": "Uw pad naar Zwitserland",
+    "subheadline": "Een gespecialiseerde verhuis- en strategische adviesdienst voor vermogende particulieren en gezinnen",
+    "cta": "Boek een vertrouwelijk consult"
+  },
+  "cta": {
+    "consultation": "Boek een vertrouwelijk consult"
+  },
+  "stickyBar": {
+    "text": "Klaar om aan uw Zwitserse reis te beginnen?"
+  },
+  "whySwitzerland": {
+    "title": "Waarom Zwitserland",
+    "subtitle": "Een natie gebouwd op stabiliteit, discretie en uitmuntendheid",
+    "stats": {
+      "millionaires": {
+        "value": "142,000",
+        "label": "Miljonairs die in 2025 wereldwijd verhuizen – een historisch record"
+      },
+      "inflow": {
+        "value": "+3,000",
+        "label": "Netto-instroom van miljonairs naar Zwitserland in 2025"
+      },
+      "neutrality": {
+        "value": "500+",
+        "label": "Jaren van politieke neutraliteit"
+      },
+      "banking": {
+        "value": "#1",
+        "label": "Het meest robuuste privatebankingsysteem ter wereld"
+      },
+      "wealthTax": {
+        "value": "78%",
+        "label": "Tegen vermogensbelasting gestemd (november 2025)"
+      },
+      "safety": {
+        "value": "Zero",
+        "label": "Geschiedenis van inbeslagname van vermogensbestanddelen of militaire allianties"
+      }
+    }
+  },
+  "whySwitzerlandPage": {
+    "meta": {
+      "title": "Waarom Zwitserland: 's werelds belangrijkste bestemming voor rijkdom, veiligheid en levenskwaliteit",
+      "description": "Ontdek waarom Zwitserland 's werelds meest vertrouwde rechtsgebied is op het gebied van vermogensbehoud, gezinsveiligheid en levenskwaliteit. Meer dan 500 jaar neutraliteit, nr. 1 private banking, onderwijs van wereldklasse."
+    },
+    "hero": {
+      "title": "Waarom Zwitserland",
+      "subtitle": "'s Werelds belangrijkste bestemming voor behoud van rijkdom, veiligheid en levenskwaliteit"
+    },
+    "neutrality": {
+      "title": "Politieke neutraliteit",
+      "subtitle": "Een toevluchtsoord van stabiliteit in een onzekere wereld",
+      "stat1": "500+",
+      "stat1Label": "Jaren van voortdurende neutraliteit",
+      "stat2": "Nul",
+      "stat2Label": "Militaire allianties",
+      "stat3": "Nul",
+      "stat3Label": "Geschiedenis van de inbeslagname van vermogensbestanddelen",
+      "p1": "Zwitserland handhaaft al meer dan 500 jaar zijn politieke neutraliteit – de langste periode van welk land dan ook in de moderne geschiedenis. Het is geen lid van de NAVO, de EU of een militair bondgenootschap. Deze neutraliteit is niet passief: het is een doelbewust, constitutioneel verankerd beleid dat twee wereldoorlogen, de Koude Oorlog en elke geopolitieke omwenteling van de moderne tijd heeft overleefd.",
+      "p2": "Voor bezitters van rijkdom vertaalt dit zich in een ongeëvenaarde garantie: Zwitserland heeft nooit privébezit geconfisqueerd, nooit noodheffingen op rijkdom opgelegd en nooit deelgenomen aan het soort politieke instabiliteit dat persoonlijke rijkdom in andere rechtsgebieden in gevaar brengt. Uw bezittingen in Zwitserland worden beschermd door een juridisch en politiek raamwerk dat al een half millennium bestaat."
+    },
+    "banking": {
+      "title": "Bank- en vermogensbeheer",
+      "subtitle": "Het meest vertrouwde private banking-systeem ter wereld",
+      "stat1": "#1",
+      "stat1Label": "Mondiaal centrum voor private banking",
+      "stat2": "CHF 7.9T",
+      "stat2Label": "Vermogen onder beheer",
+      "stat3": "243",
+      "stat3Label": "Gelicentieerde banken",
+      "p1": "Zwitserland beheert ongeveer CHF 7,9 biljoen aan activa, wat ongeveer 25% van al het mondiale grensoverschrijdende particuliere vermogen vertegenwoordigt. Het Zwitserse banksysteem wordt gereguleerd door FINMA, een van 's werelds strengste financiële toezichthouders, die ervoor zorgt dat uw vermogen voldoet aan de hoogste normen op het gebied van compliance en veiligheid.",
+      "p2": "Zwitserse particuliere banken bieden een niveau van gepersonaliseerd vermogensbeheer dat nergens anders wordt geëvenaard. Van vermogensplanning voor meerdere generaties tot geavanceerde investeringsmandaten: de diepgaande expertise die beschikbaar is in Zürich, Genève en Zug is eenvoudigweg ongeëvenaard. Voor gezinnen die hun rijkdom over de grenzen heen verplaatsen, biedt Zwitserland de institutionele infrastructuur en discretie die andere rechtsgebieden niet kunnen garanderen."
+    },
+    "education": {
+      "title": "Onderwijssysteem",
+      "subtitle": "Leren van wereldklasse voor de volgende generatie",
+      "stat1": "Bovenste 3",
+      "stat1Label": "Universiteiten wereldwijd (ETH Zürich)",
+      "stat2": "50+",
+      "stat2Label": "Internationale scholen",
+      "stat3": "#1",
+      "stat3Label": "Innovatie-index (13 opeenvolgende jaren)",
+      "p1": "Zwitserland is de thuisbasis van enkele van de beste onderwijsinstellingen ter wereld. ETH Zürich behoort consequent tot de top drie van universiteiten wereldwijd, terwijl het netwerk van meer dan 50 internationale scholen – waaronder Institut Le Rosey, Zuoz Academy en de Internationale School van Zug en Luzern – uitzonderlijk onderwijs biedt aan expatgezinnen.",
+      "p2": "Het Zwitserse onderwijssysteem combineert academische nauwkeurigheid met meertalige onderdompeling. Kinderen die naar internationale scholen gaan, leren vloeiend meerdere talen terwijl ze IB-, Britse of Amerikaanse curricula ontvangen. Voor gezinnen die vanuit het Midden-Oosten verhuizen, betekent dit een kans om kinderen werkelijk mondiaal onderwijs te bieden in een van de veiligste omgevingen op aarde."
+    },
+    "healthcare": {
+      "title": "Gezondheidszorg",
+      "subtitle": "Een van de beste gezondheidszorgsystemen ter wereld",
+      "stat1": "#1",
+      "stat1Label": "Kwaliteit van de gezondheidszorg in Europa",
+      "stat2": "4.3",
+      "stat2Label": "Artsen per 1.000 inwoners",
+      "stat3": "83.4",
+      "stat3Label": "Levensverwachting (jaren)",
+      "p1": "Het Zwitserse gezondheidszorgsysteem behoort consequent tot de beste ter wereld. Met verplichte universele dekking, toonaangevende ziekenhuizen en een artsendichtheid die de meeste landen ver overtreft, hebben inwoners toegang tot uitzonderlijke medische zorg. Grote centra zoals Universitatsspital Zürich en Hirslanden bieden geavanceerde behandelingen en uitvoerende gezondheidsprogramma's.",
+      "p2": "Voor het verhuizen van gezinnen biedt Zwitserland de gemoedsrust die gepaard gaat met de wetenschap dat de gezondheid van uw gezin in de best mogelijke handen is. Uitvoerende gezondheidsscreeningsprogramma's, netwerken van gespecialiseerde artsen en naadloze meertalige medische diensten zorgen ervoor dat gezondheidszorg nooit een probleem is."
+    },
+    "tax": {
+      "title": "Belastingsysteem",
+      "subtitle": "Concurrerend, transparant en democratisch beschermd",
+      "stat1": "78%",
+      "stat1Label": "Stemde tegen vermogensbelasting (november 2025)",
+      "stat2": "26",
+      "stat2Label": "Kantons strijden om inwoners",
+      "stat3": "11.9%",
+      "stat3Label": "Laagste kantonale vennootschapsbelastingtarief",
+      "p1": "Het Zwitserse belastingstelsel profiteert van een uniek kenmerk: kantonnale concurrentie. Omdat er 26 kantons zijn die hun eigen belastingtarieven bepalen, kunnen individuen en bedrijven locaties kiezen die aansluiten bij hun financiële doelstellingen. Kantons als Zug en Schwyz bieden enkele van de laagste tarieven voor personen- en vennootschapsbelasting in de ontwikkelde wereld.",
+      "p2": "Dankzij het forfaitaire belastingstelsel (forfait fiscal) kunnen in aanmerking komende buitenlanders worden belast op de kosten van levensonderhoud in plaats van op het wereldinkomen – een aanzienlijk voordeel voor vermogende particulieren. In november 2025 stemden Zwitserse burgers met 78% tegen de invoering van een federale vermogensbelasting, waarmee de inzet van het land om particuliere rijkdommen te beschermen door middel van een democratisch mandaat opnieuw werd bevestigd."
+    },
+    "qualityOfLife": {
+      "title": "Kwaliteit van leven",
+      "subtitle": "Veiligheid, infrastructuur en natuurlijke schoonheid zonder compromissen",
+      "stat1": "#1",
+      "stat1Label": "Kwaliteit van leven wereldwijd",
+      "stat2": "Bovenste 3",
+      "stat2Label": "Veiligste landen ter wereld",
+      "stat3": "99.9%",
+      "stat3Label": "Stiptheid van het openbaar vervoer",
+      "p1": "Zwitserland staat wereldwijd consequent op nummer 1 wat betreft levenskwaliteit. Van de ongerepte Alpenlandschappen tot de perfect onderhouden steden: elk aspect van het dagelijks leven weerspiegelt een streven naar uitmuntendheid. Het openbaar vervoerssysteem, dat elk dorp, elke stad en elke stad met elkaar verbindt, werkt met legendarische Zwitserse precisie.",
+      "p2": "Veiligheid is in Zwitserland niet louter een statistiek; het is een geleefde ervaring. Gewelddadige misdaad bestaat vrijwel niet, persoonlijke veiligheid wordt als vanzelfsprekend beschouwd en de sociale infrastructuur – van parken en openbare ruimtes tot culturele instellingen – wordt op het hoogste niveau onderhouden. Voor gezinnen die verhuizen vanuit regio's met veiligheidsproblemen, biedt Zwitserland een transformatie in de dagelijkse levenskwaliteit."
+    },
+    "business": {
+      "title": "Zakelijke omgeving",
+      "subtitle": "Waar mondiale handel en Zwitserse precisie samenkomen",
+      "stat1": "1-2 weken",
+      "stat1Label": "Tijdlijn voor bedrijfsoprichting",
+      "stat2": "#1",
+      "stat2Label": "IP-bescherming wereldwijd",
+      "stat3": "120+",
+      "stat3Label": "Bilaterale handelsovereenkomsten",
+      "p1": "Zwitserland biedt een van de meest bedrijfsvriendelijke omgevingen ter wereld. De oprichting van bedrijven kan in slechts één tot twee weken worden voltooid, de bescherming van intellectueel eigendom is wereldwijd de sterkste, en het netwerk van het land van meer dan 120 bilaterale handelsovereenkomsten biedt naadloze toegang tot de interne markt van de EU en daarbuiten.",
+      "p2": "De Zwitserse beroepsbevolking behoort tot de hoogst opgeleide en productieve ter wereld, met een sterke traditie van discretie en professionaliteit. Voor ondernemers en family offices die zich in Zwitserland vestigen, creëert de combinatie van politieke stabiliteit, rechtszekerheid, IP-bescherming en markttoegang een ongeëvenaarde basis voor bedrijfsgroei."
+    }
+  },
+  "cantonsPage": {
+    "meta": {
+      "title": "Vergelijk Zwitserse kantons - Zürich versus Zug versus Schwyz voor verhuizing",
+      "description": "Interactieve vergelijking van de kantons Zürich, Zug en Schwyz. Vergelijk belastingtarieven, levensstijl, internationale scholen, banken en onroerend goed voor uw Zwitserse verhuizing."
+    },
+    "hero": {
+      "title": "Kantonvergelijking",
+      "subtitle": "Kies het juiste Zwitserse kanton voor uw gezin, bedrijf en levensstijl"
+    },
+    "filter": {
+      "all": "Alle kantons",
+      "zurich": "Zurich",
+      "zug": "Zug",
+      "schwyz": "Schwyz"
+    },
+    "sections": {
+      "taxRates": "Belastingtarieven",
+      "lifestyle": "Levensstijl & Karakter",
+      "schools": "Internationale Scholen",
+      "banking": "Bankinfrastructuur",
+      "realEstate": "Vastgoed",
+      "bestFor": "Beste voor"
+    },
+    "zurich": {
+      "name": "Zurich",
+      "tagline": "Wereldstad, culturele hoofdstad",
+      "tax": {
+        "corporate": "Ongeveer. Effectief bedrijfstarief van 19,7%",
+        "personal": "Tot 39,8% top marginale rente (gecombineerd)",
+        "lumpSum": "CHF 400.000+ minimale belastbare basis"
+      },
+      "lifestyle": {
+        "character": "Kosmopolitisch, cultureel rijk, stedelijk",
+        "international": "Grote internationale gemeenschap (30%+ buitenlandse inwoners)",
+        "culture": "Opera, kunstgalerijen, restaurants met een Michelin-ster, wonen aan het meer",
+        "transport": "Internationale luchthaven, uitstekende treinverbindingen"
+      },
+      "schools": {
+        "list": [
+          "Inter-Community School Zurich (ICS)",
+          "Zurich International School (ZIS)",
+          "Swiss International School",
+          "Lyceum Alpinum Zuoz (nearby)"
+        ]
+      },
+      "bankingInfo": "De thuisbasis van UBS, Credit Suisse (nu UBS), Julius Baer en tientallen boetiek-private banken. Full-service cryptobanking beschikbaar (SEBA, Sygnum).",
+      "realEstate": {
+        "range": "CHF 15.000–35.000/m² (topstad), CHF 8.000–15.000/m² (buitenwijken van het Meer van Zürich)",
+        "lexKoller": "Lex Koller is van toepassing: niet-Zwitserse ingezetenen hebben een vergunning nodig voor woningen. B-permit-houders kunnen een hoofdverblijfplaats kopen."
+      },
+      "bestFor": {
+        "profile": "De stedelijke professional, digitale ondernemer of familie die op zoek is naar cultuur en connectiviteit van wereldklasse",
+        "ideal": "Ideaal voor: crypto-ondernemers, bedrijfsleiders, gezinnen die de stedelijke levensstijl waarderen"
+      }
+    },
+    "zug": {
+      "name": "Zug",
+      "tagline": "Belastingparadijs, cryptovallei",
+      "tax": {
+        "corporate": "Ongeveer. Effectief bedrijfstarief van 11,9%",
+        "personal": "Tot 22,4% hoogste marginale rente (gecombineerd)",
+        "lumpSum": "CHF 250.000+ minimale belastbare basis"
+      },
+      "lifestyle": {
+        "character": "Compact, rijk, aan het meer, discreet",
+        "international": "Zeer internationaal (35%+ buitenlandse inwoners, sterke expatgemeenschap)",
+        "culture": "Elegante stad aan het meer, dicht bij de bergen en Zürich",
+        "transport": "30 minuten naar de luchthaven van Zürich, uitstekend spoor"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (ISZL)",
+          "Institut Montana Zugerberg",
+          "Swiss International School"
+        ]
+      },
+      "bankingInfo": "Crypto Valley-ecosysteem met blockchain-native banken. Traditioneel private banking via lokale vestigingen van grote Zwitserse banken. De concentratie van family offices komt na Genève op de tweede plaats.",
+      "realEstate": {
+        "range": "CHF 12.000–25.000/m² (Zug stad), CHF 8.000–14.000/m² (omliggende dorpen)",
+        "lexKoller": "Lex Koller is van toepassing. B-permit-houders kunnen een hoofdverblijfplaats kopen. Zug heeft voor sommige gemeenten aanvullende lokale vereisten."
+      },
+      "bestFor": {
+        "profile": "De belastingoptimaliserende ondernemer, family office of crypto/fintech-oprichter die op zoek is naar de laagst mogelijke belastingdruk",
+        "ideal": "Ideaal voor: family offices, forfait fiscal-sollicitanten, tech-ondernemers"
+      }
+    },
+    "schwyz": {
+      "name": "Schwyz",
+      "tagline": "Discrete rijkdom, rust in de Alpen",
+      "tax": {
+        "corporate": "Ongeveer. Effectief bedrijfstarief van 14,1%",
+        "personal": "Tot 21,3% hoogste marginale rente (gecombineerd)",
+        "lumpSum": "CHF 200.000+ minimale belastbare basis"
+      },
+      "lifestyle": {
+        "character": "Landelijk, traditioneel, uiterst privé",
+        "international": "Kleinere internationale gemeenschap, zeer discreet",
+        "culture": "Alpenlandschappen, uitzicht op het meer, traditionele Zwitserse charme",
+        "transport": "45 minuten naar de luchthaven van Zürich, schilderachtig woon-werkverkeer"
+      },
+      "schools": {
+        "list": [
+          "International School of Zug and Luzern (Hünenberg campus, nearby)",
+          "Institut Montana (nearby)",
+          "Stiftsschule Einsiedeln"
+        ]
+      },
+      "bankingInfo": "Private banking via de in Schwyz gevestigde kantonbank en filialen van grote banken. Minder institutionele dichtheid dan Zürich of Zug, maar ideaal voor mensen die absolute privacy op prijs stellen.",
+      "realEstate": {
+        "range": "CHF 6.000–14.000/m² (aan het meer), CHF 4.000–8.000/m² (dorpen in het binnenland)",
+        "lexKoller": "Lex Koller is van toepassing. Over het algemeen toegankelijker prijzen dan Zürich of Zug met vergelijkbare of lagere belastingtarieven."
+      },
+      "bestFor": {
+        "profile": "Het op privacy gerichte gezin of individu dat op zoek is naar de laagste belastingen met een alpine levensstijl en volledige discretie",
+        "ideal": "Ideaal voor: gezinnen met meerdere generaties, op privacy gerichte individuen, gepensioneerden"
+      }
+    },
+    "otherTaxEfficient": {
+      "eyebrow": "Uitgebreide shortlist",
+      "title": "Andere fiscaal-efficiënte kantons die het bespreken waard zijn",
+      "subtitle": "Deze kantons zijn niet de eerste drie vergelijkingsankers, maar horen vaak thuis in een serieuze shortlist op het gebied van belastingen en levensstijl.",
+      "taxEfficient": "Fiscaal efficiënt",
+      "labels": {
+        "corporate": "Zakelijk",
+        "personal": "Persoonlijke belasting",
+        "schoolAccess": "Toegang tot scholen",
+        "bestFor": "Beste voor"
+      },
+      "items": [
+        {
+          "name": "Nidwalden",
+          "tagline": "Betaalbaar, discreet, dichtbij Luzern en Zürich.",
+          "corporate": "Ongeveer. Effectief bedrijfstarief van 11,9%.",
+          "personal": "Lage persoonlijke belastingdruk, vooral rond Hergiswil en Stans.",
+          "schoolAccess": "Goede toegang tot de schoolmogelijkheden van Luzern, Zug en Zürich.",
+          "bestFor": "Ondernemers en family offices die Zug-achtige efficiëntie willen met een stillere basis."
+        },
+        {
+          "name": "Obwalden",
+          "tagline": "Rustige Alpen- en meeroptie met sterke fiscale aantrekkingskracht.",
+          "corporate": "Ongeveer. 12,7% effectief bedrijfstarief.",
+          "personal": "Aantrekkelijke persoonsgebonden tarieven en privacygerichte gemeenten.",
+          "schoolAccess": "Het beste te combineren met de schoolplanning van Luzern of Zug.",
+          "bestFor": "Op privacy gerichte gezinnen die prioriteit geven aan lage belastingen, ruimte en discretie boven stadsdichtheid."
+        },
+        {
+          "name": "Lucerne",
+          "tagline": "Evenwichtige levensstijl met praktische belastingefficiëntie.",
+          "corporate": "Ongeveer. Effectief bedrijfstarief van 12,2%.",
+          "personal": "Gematigde tot aantrekkelijke personenbelasting met sterkere stedelijke infrastructuur.",
+          "schoolAccess": "Sterke gezinsinfrastructuur en toegang tot ISZL- en Centraal-Zwitserse scholen.",
+          "bestFor": "Gezinnen die een leefbare basis willen met gezondheidszorg, scholen, toegang tot luchthavens en nog steeds concurrerende belastingen."
+        }
+      ]
+    },
+    "metricLabels": {
+      "corporate": "Zakelijk",
+      "personalIncome": "Persoonlijk inkomen",
+      "lumpSum": "Forfaitair bedrag",
+      "priceRange": "Prijsklasse",
+      "lexKoller": "Lex Koller"
+    }
+  },
+  "caseStudiesPage": {
+    "meta": {
+      "title": "Casestudies van klanten — Move to Switzerland",
+      "description": "Geanonimiseerde casestudies van succesvolle Zwitserse verhuizingen. Ontdek hoe ondernemers, families en family offices de reis naar Zwitserland navigeren."
+    },
+    "hero": {
+      "title": "Klantreizen",
+      "subtitle": "Geanonimiseerde casestudies van echte verhuizingen"
+    },
+    "disclaimer": "Alle casestudies zijn geanonimiseerd. Namen, identificerende gegevens en specifieke cijfers zijn gewijzigd om de vertrouwelijkheid van klanten te beschermen.",
+    "cases": {
+      "techFounder": {
+        "title": "De Tech-oprichter",
+        "subtitle": "Dubai naar Zug in 9 maanden",
+        "quote": "We hadden een rechtsgebied nodig dat zowel ons digitale bedrijfsmodel als de beveiligingsbehoeften van onze familie op de lange termijn begreep. Zwitserland heeft beide geleverd.",
+        "profile": "In Dubai gevestigde technologie-ondernemer, gezin van vier, na exit met aanzienlijke liquiditeitsgebeurtenis",
+        "timeline": {
+          "month1": "Eerste consultatie en kantonbeoordeling",
+          "month2": "Herstructurering van activa vóór immigratie",
+          "month3": "Forfait-fiscale onderhandelingen gestart met de autoriteiten van Zug",
+          "month4": "Aanvraag B-permit ingediend",
+          "month5": "Internationale school beveiligd (ISZL)",
+          "month6": "Aankoop van onroerend goed - onroerend goed aan het meer in Zug",
+          "month7": "Zwitserse private banking-relatie tot stand gebracht",
+          "month8": "Gezinsverhuizing uitgevoerd",
+          "month9": "Family office-structuur opgezet, alle diensten operationeel"
+        },
+        "challenges": [
+          "Complexe bedrijfsstructuur met meerdere jurisdicties die herstructurering vereist",
+          "Crypto-holdings waarvoor gespecialiseerde bankdocumentatie vereist is",
+          "Schoolplaatsing halverwege het academiejaar",
+          "Coördineren van de transitie naar een dubbele belastingresidentie"
+        ],
+        "services": [
+          "Structurering van activa vóór immigratie",
+          "Forfaitbelasting (fiscaal forfait)",
+          "Residentie en immigratie",
+          "Oprichting Family Office",
+          "Vastgoedadvies",
+          "Coördinatie van levensstijl"
+        ],
+        "outcome": "Volledige gezinsverhuizing voltooid. Forfait fiscaal goedgekeurd. Kinderen ingeschreven bij ISZL. Family office operationeel met Zwitsers bestuurskader. Kosten: niet bekendgemaakt."
+      },
+      "bankingFamily": {
+        "title": "De Bankenfamilie",
+        "subtitle": "Beiroet naar Schwyz — noodverhuizing",
+        "quote": "Toen de banken failliet gingen, hadden we 72 uur de tijd om een ​​beslissing te nemen. Onze adviseurs hadden de Zwitserse infrastructuur gereed.",
+        "profile": "Libanese familie, 3 generaties, aanzienlijke bank- en vastgoedportefeuille, noodsituaties",
+        "timeline": {
+          "week1": "Spoedoverleg – onmiddellijke dreigingsevaluatie",
+          "week2": "Versnelde aanvraag B-permit gestart",
+          "month1": "Tijdelijke huisvesting veiliggesteld in Schwyz",
+          "month2": "Private banking onboarding (activa overgedragen van niet-Libanese holdings)",
+          "month3": "Permanente verblijfplaats gevestigd",
+          "month4": "Kinderen die zijn ingeschreven op een internationale school",
+          "month6": "Reorganisatie van het landgoed voltooid",
+          "month9": "Volledige vestiging – alle drie de generaties zijn gevestigd",
+          "month12": "Doorlopende provisie — vermogensbeheer en opvolgingsplanning"
+        },
+        "challenges": [
+          "Noodtijdlijn die parallelle verwerking van alle werkstromen vereist",
+          "Complexe landgoedstructuur met meerdere generaties",
+          "Activa gevangen in het Libanese banksysteem",
+          "Drie generaties met verschillende woon- en zorgbehoeften"
+        ],
+        "services": [
+          "Residentie en immigratie",
+          "Private banking en vermogensbeheer",
+          "Vastgoedadvies",
+          "Oprichting Family Office",
+          "Conciërge Gezondheid en Welzijn",
+          "Coördinatie van levensstijl"
+        ],
+        "outcome": "Alle drie de generaties zijn met succes verhuisd. Private banking-relaties tot stand gebracht. Estate geherstructureerd onder Zwitsers bestuur. Lopende opvolgingsplanning is op zijn plaats."
+      },
+      "digitalNomad": {
+        "title": "De digitale nomade",
+        "subtitle": "Riyad naar Zürich in 4 maanden",
+        "quote": "Ik had een land nodig dat crypto als een legitieme activaklasse behandelde en echte infrastructuur bood voor het opbouwen van een bedrijf. Zürich was de voor de hand liggende keuze.",
+        "profile": "34-jarige Saoedische staatsburger, aanzienlijke cryptocurrency-portefeuille, actieve handelaar en investeerder, single",
+        "timeline": {
+          "month1": "Overleg, kantonselectie, documentatiestrategie voor crypto-rijkdom",
+          "month15": "Aanvraag B-permit met gedetailleerde documentatie over de bron van het vermogen",
+          "month2": "Bedrijfsoprichting (Swiss GmbH) voor adviesactiviteiten",
+          "month3": "Cryptovriendelijke bankconfiguratie (SEBA Bank + traditionele private bank)",
+          "month4": "Appartement beveiligd in Zürich, volledige verhuizing voltooid"
+        },
+        "challenges": [
+          "Documenteren van de crypto-rijkdomsketen, van mijnbouw/aankopen in een vroeg stadium tot de huidige portefeuille",
+          "Bankpartners vinden die zich op hun gemak voelen met meer dan 90% crypto-afgeleide rijkdom",
+          "Navigeren door de Zwitserse crypto-belastingclassificatie voor actieve handel versus investeringen",
+          "B-permit voor niet-EU-onderdanen met een niet-traditioneel vermogensprofiel"
+        ],
+        "services": [
+          "Residentie en immigratie",
+          "Bedrijfsvorming en bedrijfsstructurering",
+          "Private banking en vermogensbeheer",
+          "Coördinatie van levensstijl"
+        ],
+        "outcome": "B-permit toegekend. Swiss GmbH operationeel. Dubbele bankrelatie (crypto + traditioneel) tot stand gebracht. Volledig nalevingskader voor voortdurende cryptohandel. 4 maanden van begin tot eind."
+      },
+      "gulfFamilyOffice": {
+        "title": "Het Gulf Family Office",
+        "subtitle": "Koeweitse family office – Zwitserse SFO opgericht",
+        "quote": "We hadden vermogensbeheer in vier rechtsgebieden, maar geen verenigd bestuur. Zwitserland gaf ons de structuur die onze familie nodig had voor de volgende generatie.",
+        "profile": "Koeweitse family office, CHF 200M+ AUM, multi-generationeel, actief in de GCC, Londen en Zwitserland",
+        "timeline": {
+          "month1": "Scoping: bestuursaudit, beoordeling van jurisdictie, beoordeling van familiehandvesten",
+          "month2": "Zwitserse SFO-structuur ontworpen - AG opgericht in Zug",
+          "month3": "Bestuursformatie – 3 in Zwitserland wonende onafhankelijke bestuurders geplaatst",
+          "month4": "Investeringscomité opgericht, bankmandaten geherstructureerd",
+          "month5": "Bestuurskader gedocumenteerd en bekrachtigd door de familieraad",
+          "month6": "Operationeel – alle rapportagelijnen, compliance- en auditkaders zijn actief",
+          "ongoing": "Doorlopende beloning: driemaandelijkse bestuursvergaderingen, jaarlijkse bestuursbeoordeling, ad-hocadvies"
+        },
+        "challenges": [
+          "De bestuursverwachtingen van drie generaties op één lijn brengen met verschillende beleggingsfilosofieën",
+          "Consolidatie van de rapportage uit vier rechtsgebieden in een verenigd Zwitsers raamwerk",
+          "Het plaatsen van gekwalificeerde onafhankelijke bestuurders die zowel de Zwitserse als de GCC-bedrijfscultuur begrepen",
+          "Ontwerpen van een opvolgingskader dat aanvaardbaar is voor alle familietakken"
+        ],
+        "services": [
+          "Oprichting Family Office",
+          "Onafhankelijk bestuurs- en bestuursdiensten",
+          "Bedrijfsvorming en bedrijfsstructurering",
+          "Private banking en vermogensbeheer"
+        ],
+        "outcome": "Zwitserse SFO volledig operationeel in Zug. 3 onafhankelijke bestuurders geplaatst. Bestuurskader goedgekeurd door alle familietakken. Geconsolideerde rapportage voor alle rechtsgebieden. Doorlopende retentie voor driemaandelijks bestuur en jaarlijkse evaluatie."
+      }
+    },
+    "labels": {
+      "case": "Geval",
+      "timeline": "Tijdlijn",
+      "month": "Maand",
+      "week": "Week",
+      "ongoing": "Lopend",
+      "keyChallenges": "Belangrijkste uitdagingen",
+      "servicesEngaged": "Diensten betrokken",
+      "outcome": "Resultaat"
+    }
+  },
+  "services": {
+    "title": "Onze diensten",
+    "subtitle": "Uitgebreid advies voor elke dimensie van uw verhuizing",
+    "learnMore": "Meer informatie",
+    "pageTitle": "Diensten",
+    "pageSubtitle": "End-to-end advies voor uw Zwitserse verhuizing",
+    "items": {
+      "assetStructuring": {
+        "title": "Structurering van activa vóór immigratie",
+        "description": "Het realiseren van winst vóór de Zwitserse residentie; herstructurering van aandelenbezit, trusts en bedrijfsstructuren in de VAE; uitgebreide documentatie over de bron van rijkdom.",
+        "detail": "Wij werken samen met uw bestaande adviseurs om ervoor te zorgen dat uw vermogensstructuur wordt geoptimaliseerd voordat u een Zwitserse fiscale woonplaats vestigt. Dit omvat het beoordelen van aandelenbezit, trustregelingen en bedrijfsstructuren in de VAE en daarbuiten, waardoor wordt gezorgd voor schone documentatie over de bron van rijkdom die voldoet aan de eisen van de Zwitserse bank- en belastingautoriteiten."
+      },
+      "lumpSum": {
+        "title": "Forfaitbelasting (fiscaal forfait)",
+        "description": "Volledige onderhandelingen over kantonale belastingafspraken; bepaling van de belastbare grondslag; doorlopend jaarlijks compliancebeheer.",
+        "detail": "Het Zwitserse forfaitaire belastingstelsel biedt in aanmerking komende personen een belastinggrondslag die wordt berekend op basis van de kosten van levensonderhoud in plaats van op het wereldwijde inkomen. Wij verzorgen de volledige onderhandelingen met de kantonnale autoriteiten, bepalen de optimale belastbare basis en beheren de voortdurende jaarlijkse naleving om ervoor te zorgen dat uw regeling een goede reputatie behoudt."
+      },
+      "residency": {
+        "title": "Residentie en immigratie",
+        "description": "Kantonselectieadvies; B-permit applicatiebeheer; planning voor gezinsinclusie; weg naar C-permit en burgerschap.",
+        "detail": "Het kiezen van het juiste kanton is misschien wel de meest ingrijpende beslissing bij uw verhuizing. Wij adviseren over de selectie van kantons op basis van uw belastingsituatie, levensstijlvoorkeuren en gezinsbehoeften. Vervolgens beheren we de volledige B-permit-aanvraag, gezinsinclusie en brengen we de route naar C-permit en uiteindelijk het Zwitserse staatsburgerschap in kaart."
+      },
+      "companyFormation": {
+        "title": "Bedrijfsvorming en bedrijfsstructurering",
+        "description": "Zwitserse holdings; IP-structuren; coördinatie met entiteiten uit de VAE; Btw-registratie en compliance.",
+        "detail": "Of u nu een Zwitserse holdingmaatschappij, een IP-licentiestructuur of coördinatie tussen uw bestaande VAE-entiteiten en nieuwe Zwitserse activiteiten nodig heeft, wij verzorgen het hele proces. Dit omvat BTW-registratie, bedrijfsnaleving en ervoor zorgen dat uw bedrijfsstructuur zowel fiscaal efficiënt als volledig compliant is."
+      },
+      "familyOffice": {
+        "title": "Oprichting Family Office",
+        "description": "Advies voor single- en multi-family office; introducties van private banking; vertrouwen en funderingsstructurering; opvolgingsplanning.",
+        "detail": "Voor gezinnen die een specifieke infrastructuur voor vermogensbeheer nodig hebben, adviseren wij over het opzetten van single- of multi-family offices in Zwitserland. Dit omvat onder meer introducties bij toonaangevende particuliere banken, het structureren van trusts en stichtingen voor activabescherming, en uitgebreide opvolgingsplanning die rekening houdt met grensoverschrijdende complexiteiten."
+      },
+      "directorship": {
+        "title": "Onafhankelijk bestuurs- en bestuursdiensten",
+        "description": "Plaatsing van directeur in Zwitserland; secretariële diensten van bedrijven; ondersteuning op het gebied van governance en compliance.",
+        "detail": "Veel Zwitserse bedrijfsstructuren vereisen een in Zwitserland woonachtige directeur. Wij bieden gekwalificeerde onafhankelijke bestuurders, bedrijfssecretariële diensten en voortdurende bestuursondersteuning om ervoor te zorgen dat uw Zwitserse entiteiten aan alle wettelijke vereisten voldoen terwijl u zich op uw bedrijf concentreert."
+      },
+      "realEstate": {
+        "title": "Vastgoedadvies",
+        "description": "Lex Koller-navigatie; toegang tot eigendommen buiten de markt; acquisitie structureren; notariële coördinatie.",
+        "detail": "De Zwitserse vastgoedregelgeving, met name de Lex Koller-beperkingen voor buitenlandse kopers, vereist deskundige navigatie. We bieden toegang tot eigendommen buiten de markt op premium locaties, structureren acquisities om aan alle regelgeving te voldoen en coördineren met notarissen om soepele transacties te garanderen."
+      },
+      "health": {
+        "title": "Conciërge Gezondheid en Welzijn",
+        "description": "Verplichte opzet van een zorgverzekering; introducties van specialisten; uitvoerende gezondheidsscreening; medische verbinding.",
+        "detail": "Het Zwitserse gezondheidszorgsysteem vereist verplichte verzekeringen en kan complex zijn om te navigeren. Wij zetten uw zorgverzekering op, laten u kennismaken met vooraanstaande gespecialiseerde artsen, regelen uitvoerende gezondheidsonderzoeken en fungeren als uw voortdurende medische contactpersoon om ervoor te zorgen dat u en uw gezin de beste zorg krijgen."
+      },
+      "lifestyle": {
+        "title": "Coördinatie van levensstijl en zachte landing",
+        "description": "Internationale schoolplaatsing; vergunningen voor huishoudelijk personeel; integratieprogramma's voor echtgenoten; gemeenschapsintroducties; culturele oriëntatie.",
+        "detail": "Het succes van uw verhuizing reikt veel verder dan alleen papierwerk. Wij verzorgen de internationale schoolplaatsing voor uw kinderen, werkvergunningen voor huishoudelijk personeel, integratie van echtgenoten en introductie in de gemeenschap, en uitgebreide culturele oriëntatie om ervoor te zorgen dat uw hele gezin zich vanaf dag één thuis voelt in Zwitserland."
+      }
+    },
+    "overview": "Overzicht"
+  },
+  "clients": {
+    "title": "Wie wij dienen",
+    "subtitle": "Ons advies is afgestemd op uw specifieke profiel en doelstellingen",
+    "profiles": {
+      "entrepreneur": {
+        "title": "De gevestigde ondernemer",
+        "age": "Leeftijd 40-60",
+        "description": "Bedrijfseigenaren vóór of na de exit die een Zwitserse ingezetenschap willen vestigen vóór een liquiditeitsgebeurtenis. Typische betrokkenheid: 12–24 maanden.",
+        "tags": [
+          "Planning vóór de exit",
+          "Assetstructurering",
+          "Forfait Fiscaal"
+        ]
+      },
+      "family": {
+        "title": "Het verhuizende gezin",
+        "age": "Schoolgaande kinderen",
+        "description": "Gezinnen die prioriteit geven aan veiligheid, onderwijs en kwaliteit van leven. Uitgebreide verhuizing, inclusief scholen, gezondheidszorg en gemeenschapsintegratie.",
+        "tags": [
+          "Onderwijs",
+          "Gezondheidszorg",
+          "Gemeenschap"
+        ]
+      },
+      "youngWealth": {
+        "title": "De jongere rijkdomhouder",
+        "age": "Leeftijd 28-42",
+        "description": "Digitale ondernemers en houders van crypto-vermogen die op zoek zijn naar een stabiele, cryptovriendelijke jurisdictie met een levensstijl van wereldklasse.",
+        "tags": [
+          "Crypto",
+          "Digitale activa",
+          "Levensstijl"
+        ]
+      },
+      "familyOffice": {
+        "title": "Het Gulf Family Office",
+        "age": "Meerdere generaties",
+        "description": "Gevestigde family offices die op zoek zijn naar een Europees bestuurscentrum, opvolgingsplanning en vermogensstructurering op institutioneel niveau.",
+        "tags": [
+          "Bestuur",
+          "Opvolging",
+          "Institutioneel"
+        ]
+      }
+    }
+  },
+  "founders": {
+    "title": "De stichters",
+    "subtitle": "Zwitserse juridische diepgang en operatorervaring voor complexe grensoverschrijdende verhuizingen.",
+    "adrian": {
+      "name": "Adrian Burgi",
+      "role": "Mede-oprichter",
+      "bio": "Adrian is een Zwitserse advocaat met meer dan 15 jaar juridische praktijk, een MBA en specialistische fondsfunctionaris-referenties. Zijn werk richt zich op Zwitserse belastingoplossingen, internationale contracten, strategieontwikkeling, projectmanagement, bedrijfsherstructureringen, fusies en overnames en governance. Voordat hij Move to Switzerland medeoprichtte, leidde hij de Zwitserse juridische afdeling van een multinationale groep en leidde hij later projecten voor een groot Europees strategieadviesbureau. Hij creëert Zwitserse juridische structuren voor buitenlandse individuen en bedrijven, adviseert over actieve en trustee bestuursmandaten, en brengt de juridische, fiscale en institutionele diepgang die nodig is voor complexe verhuizingen. Adrian spreekt vloeiend Engels, Duits, Frans en Italiaans.",
+      "bioParagraphs": [
+        "Adrian is een Zwitserse advocaat met meer dan 15 jaar juridische praktijk, een MBA en specialistische fondsfunctionaris-referenties.",
+        "Zijn werk richt zich op Zwitserse belastingoplossingen, internationale contracten, strategieontwikkeling, projectmanagement, bedrijfsherstructureringen, fusies en overnames en governance.",
+        "Voordat hij Move to Switzerland medeoprichtte, leidde hij de Zwitserse juridische afdeling van een multinationale groep en leidde hij later projecten voor een groot Europees strategieadviesbureau.",
+        "Hij creëert Zwitserse juridische structuren voor buitenlandse individuen en bedrijven, adviseert over actieve en trustee bestuursmandaten, en brengt de juridische, fiscale en institutionele diepgang die nodig is voor complexe verhuizingen.",
+        "Adrian spreekt vloeiend Engels, Duits, Frans en Italiaans."
+      ]
+    },
+    "robin": {
+      "name": "Robin Roy Krigslund-Hansen",
+      "role": "Mede-oprichter",
+      "bio": "Robin is een Deense serie-ondernemer die al 14 jaar in Zwitserland woont. Hij heeft meer dan 30 bedrijven en juridische entiteiten in meer dan 15 landen opgebouwd en geleid. Dat geeft hem praktische ervaring met de beslissingen waarmee cliënten worden geconfronteerd bij het verplaatsen van kapitaal, gezinsleven, operaties en langdurig verblijf over de grenzen heen. Bij Move to Switzerland brengt Robin het perspectief van de operator naar voren: hoe je advieswerk uitvoerbaar kunt maken, hoe je tussen rechtsgebieden kunt coördineren en hoe je een verhuisplan kunt omzetten in het dagelijks leven, het bankwezen, het opzetten van bedrijven en een stabiele Zwitserse basis. Hij spreekt Deens, Engels en Duits.",
+      "bioParagraphs": [
+        "Robin is een Deense serie-ondernemer die al 14 jaar in Zwitserland woont.",
+        "Hij heeft meer dan 30 bedrijven en juridische entiteiten in meer dan 15 landen opgebouwd en geleid.",
+        "Dat geeft hem praktische ervaring met de beslissingen waarmee cliënten worden geconfronteerd bij het verplaatsen van kapitaal, gezinsleven, operaties en langdurig verblijf over de grenzen heen.",
+        "Bij Move to Switzerland brengt Robin het perspectief van de operator naar voren: hoe je advieswerk uitvoerbaar kunt maken, hoe je tussen rechtsgebieden kunt coördineren en hoe je een verhuisplan kunt omzetten in het dagelijks leven, het bankwezen, het opzetten van bedrijven en een stabiele Zwitserse basis.",
+        "Hij spreekt Deens, Engels en Duits."
+      ]
+    }
+  },
+  "about": {
+    "pageTitle": "Over ons",
+    "pageSubtitle": "Onafhankelijkheid, vertrouwelijkheid en diepgang van de dienstverlening",
+    "story": {
+      "title": "Ons verhaal",
+      "p1": "Move to Switzerland is gebaseerd op een simpele observatie: vermogende particulieren die van het Midden-Oosten naar Zwitserland verhuizen, worden geconfronteerd met een onnodig gefragmenteerd advieslandschap. Belastingadviseurs, immigratieadvocaten, makelaars in onroerend goed en private bankiers opereren elk afzonderlijk, waarbij de cliënt de onderlinge coördinatie overlaat.",
+      "p2": "We hebben één aanspreekpunt gecreëerd dat het hele verhuistraject orkestreert – vanaf de structurering van de activa vóór de immigratie tot aan de eerste schooldag van uw kinderen. Onze oprichters combineren diepgaande Zwitserse juridische en bancaire expertise met praktische ondernemerservaring in grensoverschrijdende activiteiten.",
+      "p3": "Elke opdracht wordt afgehandeld met de discretie en grondigheid die onze klanten verwachten. We bedienen op elk moment een beperkt aantal gezinnen, zodat elk gezin onze onverdeelde aandacht krijgt."
+    },
+    "values": {
+      "title": "Onze waarden",
+      "independence": {
+        "title": "Onafhankelijkheid",
+        "description": "Wij zijn niet gebonden aan een bank, advocatenkantoor of makelaarskantoor. Ons advies is altijd in uw belang."
+      },
+      "confidentiality": {
+        "title": "Vertrouwelijkheid",
+        "description": "Elke opdracht wordt beschermd door strikte vertrouwelijkheid. We maken nooit klantrelaties of details bekend."
+      },
+      "depth": {
+        "title": "Diepte van dienstverlening",
+        "description": "Wij verwijzen niet door en vergeten niet. Wij begeleiden u bij elke stap, van het eerste adviesgesprek tot de volledige vestiging."
+      }
+    },
+    "offices": {
+      "title": "Onze kantoren",
+      "zurich": "Zurich",
+      "zug": "Zug",
+      "schwyz": "Schwyz",
+      "country": "Zwitserland"
+    }
+  },
+  "contact": {
+    "pageTitle": "Neem contact met ons op",
+    "pageSubtitle": "Begin uw reis naar Zwitserland",
+    "confidential": "Alle vragen worden strikt vertrouwelijk behandeld.",
+    "form": {
+      "name": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer (optioneel)",
+      "country": "Land van huidige verblijfplaats",
+      "message": "Jouw bericht",
+      "hearAbout": "Hoe heb je over ons gehoord? (optioneel)",
+      "submit": "Onderzoek verzenden",
+      "sending": "Verzenden...",
+      "success": "Bedankt. Uw aanvraag is ontvangen. Wij reageren binnen 24 uur.",
+      "error": "Er is iets misgegaan. Probeer het opnieuw of neem direct contact met ons op."
+    },
+    "offices": {
+      "title": "Onze kantoren"
+    }
+  },
+  "privacy": {
+    "pageTitle": "Privacybeleid",
+    "content": "In dit privacybeleid wordt uitgelegd hoe Move to Switzerland uw persoonlijke gegevens verzamelt, gebruikt en beschermt in overeenstemming met de Zwitserse wetgeving inzake gegevensbescherming (nDSG) en de Algemene Verordening Gegevensbescherming van de EU (GDPR)."
+  },
+  "imprint": {
+    "pageTitle": "Impressum",
+    "company": "WorkWorkWork AG",
+    "address": "Zwitserland",
+    "registration": "Handelsregister"
+  },
+  "footer": {
+    "tagline": "Premium verhuisadvies voor vooraanstaande individuen en gezinnen.",
+    "navigation": "Navigatie",
+    "legal": "Juridisch",
+    "languages": "Talen",
+    "rights": "Alle rechten voorbehouden.",
+    "company": "Een service van WorkWorkWork AG",
+    "disclaimer": "De diensten beperken zich tot algemene financiële educatie en strategische begeleiding en vormen geen financiële diensten in de zin van de Financial Services Act (FIDLEG). Er wordt met name geen advies gegeven over specifieke financiële instrumenten, geen portefeuillebeheer en geen uitvoering of overdracht van orders",
+    "trustSwissEntity": "In Zwitserland geregistreerde entiteit"
+  },
+  "servicesMeta": {
+    "title": "Onze diensten — Move to Switzerland",
+    "description": "Uitgebreide adviesdiensten voor elke dimensie van uw Zwitserse verhuizing."
+  },
+  "insights": {
+    "meta": {
+      "title": "Inzichten — Move to Switzerland Advies",
+      "description": "Deskundige inzichten over Zwitserse verhuizingen, belastingen, onroerend goed, bankieren en levensstijl voor vermogende particulieren en gezinnen."
+    },
+    "hero": {
+      "title": "Gidsen en analyses",
+      "subtitle": "Deskundige perspectieven op Zwitserse verhuizing, belastingen en vermogensbeheer"
+    },
+    "readMore": "Lees artikel",
+    "author": "Move to Switzerland-adviesteam",
+    "authorSubtitle": "Deskundig advies",
+    "relatedServices": "Gerelateerde diensten",
+    "breadcrumb": {
+      "home": "Home",
+      "insights": "Gidsen"
+    },
+    "articles": {
+      "swiss-lump-sum-taxation-guide": {
+        "category": "taxation",
+        "categoryLabel": "Belastingen",
+        "readTime": "12 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Zwitserse forfaitaire belasting uitgelegd: een complete gids voor buitenlandse ingezetenen",
+        "metaDescription": "Volledige gids voor Zwitserse forfaitaire belastingheffing (forfait fiscal). Ontdek of u in aanmerking komt, de minimumbedragen per kanton, hoe de belastbare basis wordt berekend en het stapsgewijze aanvraagproces.",
+        "excerpt": "Een uitgebreid overzicht van het Zwitserse forfait fiscal-regime: deelnamevereisten, kantonale minimumbedragen, berekeningen van de belastbare basis en het stapsgewijze aanvraagproces.",
+        "sectionCount": "9",
+        "sections": {
+          "0": {
+            "content": "Het Zwitserse forfaitaire belastingstelsel – bekend als forfait fiscal of Pauschalbesteuerung – is een van de aantrekkelijkste belastingregelingen die beschikbaar zijn voor rijke buitenlanders die naar Zwitserland verhuizen. Volgens dit systeem worden in aanmerking komende personen belast op basis van hun kosten van levensonderhoud in plaats van hun wereldwijde inkomen en bezittingen. Voor vermogende individuen, vooral degenen met aanzienlijke mondiale inkomensstromen, kan dit resulteren in aanzienlijk lagere belastingverplichtingen vergeleken met gewone belastingen."
+          },
+          "1": {
+            "heading": "Wat is forfaitaire belastingheffing?",
+            "level": "2",
+            "content": "Forfaitaire belastingheffing is een speciaal belastingregime dat beschikbaar is voor buitenlanders die hun fiscale verblijfplaats in Zwitserland vestigen of hervatten en die geen betaald werk verrichten in het land. In plaats van het wereldwijde inkomen en vermogen op te geven, wordt de belastinggrondslag van de belastingbetaler bepaald door zijn jaarlijkse kosten van levensonderhoud in Zwitserland – inclusief huisvestingskosten, voedsel, reizen, onderwijs, personeelskosten en andere persoonlijke uitgaven. De belasting wordt vervolgens berekend door de gewone Zwitserse belastingtarieven (federaal, kantonaal en gemeentelijk) toe te passen op deze veronderstelde belastbare basis. Het systeem maakt al meer dan een eeuw deel uit van de Zwitserse belastingwetgeving en bedient momenteel ongeveer 5.000 personen in heel Zwitserland, waardoor jaarlijks meer dan CHF 900 miljoen aan belastinginkomsten wordt gegenereerd."
+          },
+          "2": {
+            "heading": "Geschiktheidsvereisten",
+            "level": "2",
+            "content": "Om voor forfaitaire belastingheffing in aanmerking te komen, moet een aanvrager aan drie fundamentele criteria voldoen. Ten eerste moet het individu een buitenlands staatsburger zijn; Zwitserse staatsburgers komen niet in aanmerking. Ten tweede moet de persoon voor de eerste keer naar de Zwitserse fiscale woonplaats gaan, of terugkeren na een afwezigheid van ten minste tien jaar. Ten derde, en dat is van cruciaal belang, mag het individu geen enkele betaalde baan uitoefenen in Zwitserland. Dit omvat werkgelegenheid, zelfstandig ondernemerschap en actief management van een in Zwitserland gevestigd bedrijf. Passieve activiteiten zoals het beheren van persoonlijke beleggingen of het toezicht houden op een family office (op voorwaarde dat het kantoor geen inkomsten van derden genereert) zijn over het algemeen toegestaan. De echtgenoot van de aanvrager moet ook aan het nationaliteitscriterium voldoen. Als een van de echtgenoten Zwitsers is, is er geen forfaitaire belastingheffing beschikbaar voor het echtpaar."
+          },
+          "3": {
+            "heading": "Hoe de belastbare basis wordt berekend",
+            "level": "2",
+            "content": "De belastbare basis bij forfaitaire belasting is de hoogste van twee berekeningen. De eerste zijn de werkelijke wereldwijde kosten van levensonderhoud van de belastingbetaler en zijn gezin. De tweede is een controleberekening: een minimumdrempel die bedoeld is om misbruik te voorkomen. Op federaal niveau is het minimum belastbaar inkomen sinds de hervorming van 2016 vastgesteld op CHF 400.000. Kantons stellen hun eigen minimumbedragen vast, die variëren van ongeveer CHF 250.000 tot meer dan CHF 600.000, afhankelijk van het kanton. Bij de controleberekening wordt rekening gehouden met verschillende factoren: de reële huurwaarde (of werkelijke huur) van de Zwitserse woning van de belastingbetaler, vermenigvuldigd met een factor (doorgaans 3 tot 7, afhankelijk van het kanton), inkomen uit Zwitserse bron (bijvoorbeeld inkomen uit Zwitsers onroerend goed) en inkomen uit landen waarmee Zwitserland een dubbelbelastingverdrag heeft waarbij de belastingbetaler aanspraak maakt op verdragsvoordelen."
+          },
+          "4": {
+            "heading": "Minimumbedragen per kanton",
+            "level": "3",
+            "content": "Kantonale minima variëren aanzienlijk en zijn een sleutelfactor bij de kantonselectie. Zug vereist een minimaal belastbaar inkomen van ongeveer CHF 250.000, waardoor het een van de meest toegankelijke kantons is. Schwyz stelt zijn minimum ook rond CHF 250.000. Luzern heeft ongeveer CHF 300.000 nodig. Wallis en Graubünden stellen minimumbedragen vast rond CHF 400.000. Genève vereist een minimaal belastbaar inkomen van ongeveer CHF 400.000, maar hanteert hogere gemeentebelastingtarieven. Zürich heeft ongeveer CHF 400.000 nodig en past zijn standaard progressieve tarieven toe op de veronderstelde basis. Vaud, historisch gezien het kanton met de meeste forfaitaire belastingbetalers, heeft ongeveer CHF 400.000 nodig. Bern heeft een minimum van ongeveer CHF 400.000. Merk op dat verschillende kantons de forfaitaire belastingheffing op kantonaal niveau hebben afgeschaft: Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden en de stad Zürich (hoewel het kanton dit in sommige gemeenten nog steeds toestaat). Controleer altijd de huidige beschikbaarheid bij de kantonnale autoriteiten."
+          },
+          "5": {
+            "heading": "Het aanvraagproces: stap voor stap",
+            "level": "2",
+            "content": "Het sollicitatieproces volgt doorgaans een gestructureerd pad. In de fase vóór de aanvraag werkt de potentiële belastingbetaler samen met gekwalificeerde adviseurs om een ​​gedetailleerd overzicht van zijn persoonlijke en financiële situatie op te stellen, het optimale kanton en de optimale gemeente te selecteren en voorlopige berekeningen van de voorgestelde belastbare basis voor te bereiden. De formele aanvraag wordt ingediend bij de kantonale belastingdienst. Het bevat een gedetailleerd overzicht van de verwachte kosten van levensonderhoud, documentatie van de financiële situatie van de aanvrager, bewijs van de nationaliteitsvereiste en een verklaring dat er geen betaald Zwitsers werk is. De kantonnale autoriteit beoordeelt de aanvraag en kan onderhandelen over de belastbare grondslag. Dit is een echte onderhandeling: de autoriteit heeft discretionaire bevoegdheid en zal beoordelen of de voorgestelde basis redelijk is gezien de kennelijke levensstijl en rijkdom van de aanvrager. Zodra er overeenstemming is bereikt, wordt er een formele belastingruling afgegeven, die doorgaans geldig is voor een bepaalde periode (vaak het eerste belastingjaar, met jaarlijkse verlenging). Om de regeling in stand te houden, moet de belastingplichtige jaarlijks een opgave van de kosten van levensonderhoud indienen."
+          },
+          "6": {
+            "heading": "Federale versus kantonale forfaitaire belastingheffing",
+            "level": "2",
+            "content": "Het is belangrijk om te begrijpen dat de forfaitaire belastingheffing zowel op federaal als op kantonaal/gemeentelijk niveau plaatsvindt. Op federaal niveau bedraagt ​​het minimale belastbare inkomen CHF 400.000. Kantonale en gemeentelijke belastingen worden afzonderlijk berekend en elk kanton heeft zijn eigen minimumdrempels en tarieven. In de praktijk varieert het totale effectieve belastingtarief op forfaitaire inkomsten doorgaans van 20% tot 35%, afhankelijk van het kanton en de gemeente, vergeleken met de hoogste marginale tarieven van 40%+ voor gewone belastingbetalers met hoge inkomens. Voor een individu met een onderhandelde belastbare basis van bijvoorbeeld CHF 500.000, zou de totale jaarlijkse belastingaanslag in Zug ongeveer CHF 100.000-120.000 kunnen bedragen – een fractie van wat hij zou betalen over zijn werkelijke wereldwijde inkomen onder normale belastingheffing."
+          },
+          "7": {
+            "heading": "Voordelen en overwegingen",
+            "level": "2",
+            "content": "De belangrijkste voordelen van forfaitaire belastingheffing zijn onder meer voorspelbare en vaak aanzienlijk lagere belastingaanslagen, geen verplichting om wereldwijde inkomsten en bezittingen in detail openbaar te maken, vereenvoudigde belastingnaleving en bescherming tegen Zwitserse vermogensbelasting op niet-Zwitserse activa. Er zijn echter belangrijke overwegingen. Forfaitaire belastingbetalers kunnen geen aanspraak maken op aftrekposten die voor gewone belastingbetalers beschikbaar zijn (zoals pensioenpremies). Zij kunnen niet in alle gevallen profiteren van de Zwitserse tarieven ter voorkoming van dubbele belastingheffing die lager zijn dan hun binnenlandse bronbelastingtarieven. Ze moeten zich werkelijk onthouden van Zwitserse werkgelegenheid. En openbare referenda hebben het regime in verschillende kantons uitgedaagd, waardoor enig politiek risico is ontstaan ​​– hoewel de federale stemming van november 2025, waarbij 78% tegen de afschaffing van het regime stemde, de veiligheid op de lange termijn aanzienlijk heeft versterkt."
+          },
+          "8": {
+            "heading": "Is een forfaitaire belastingheffing geschikt voor u?",
+            "level": "2",
+            "content": "Forfaitaire belastingheffing is het meest gunstig voor personen met een hoog wereldinkomen die niet in Zwitserland hoeven te werken – doorgaans gepensioneerden, investeerders, bezitters van familievermogen en personen die leven van passieve inkomsten uit bedrijven buiten Zwitserland. Het is minder geschikt voor individuen die van plan zijn een in Zwitserland gevestigd bedrijf actief te beheren of voor mensen met een relatief bescheiden wereldinkomen (waar gewone belastingen feitelijk tot een lagere rekening zouden kunnen leiden). Een gedetailleerde vergelijkende analyse – gewone belastingen versus forfaitaire bedragen – moet worden opgesteld als onderdeel van uw pre-immigratieplanning. Wij bieden deze analyse aan als onderdeel van onze pre-immigratieadviesdienst, zodat u deze cruciale beslissing met volledige informatie kunt nemen."
+          }
+        },
+        "imageAlt": "Interieur van het Zwitserse kantonale belastingkantoor met officiële documenten op een notenhouten bureau"
+      },
+      "lex-koller-swiss-real-estate": {
+        "category": "real-estate",
+        "categoryLabel": "Vastgoed",
+        "readTime": "10 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Lex Koller: wat buitenlandse kopers moeten weten over Zwitsers onroerend goed",
+        "metaDescription": "Inzicht in de Zwitserse Lex Koller-wet: beperkingen op buitenlands eigendom van onroerend goed, vergunningvereisten, kantonale verschillen en praktische strategieën voor niet-Zwitserse kopers.",
+        "excerpt": "Navigeer door de Zwitserse beperkingen op het gebied van eigendom van buitenlands onroerend goed, van Lex Koller-vereisten tot kantonale verschillen, autorisatieprocessen en strategieën voor internationale kopers.",
+        "sectionCount": "9",
+        "sections": {
+          "0": {
+            "content": "De Zwitserse vastgoedmarkt behoort tot de meest stabiele en wenselijke ter wereld – en tot de meest gereguleerde voor buitenlandse kopers. De federale wet inzake de verwerving van onroerend goed door personen in het buitenland, algemeen bekend als Lex Koller (of historisch Lex Friedrich), regelt hoe niet-Zwitserse staatsburgers woningen in Zwitserland kunnen verwerven. Het begrijpen van deze wet is essentieel voor iedereen die naar Zwitserland verhuist en van plan is een huis te kopen."
+          },
+          "1": {
+            "heading": "Wat is Lex Koller?",
+            "level": "2",
+            "content": "Lex Koller is een federale wet die de verwerving van residentieel onroerend goed door buitenlanders die niet in Zwitserland wonen, beperkt. De wet, die in 1961 werd uitgevaardigd en sindsdien meerdere keren is herzien, heeft tot doel de ‘buitenlandse oververvreemding’ van Zwitsers land te voorkomen – in wezen om ervoor te zorgen dat Zwitsers onroerend goed beschikbaar blijft voor Zwitserse ingezetenen in plaats van dat het als vastgoedbeleggingen wordt verworven door niet-ingezetenen. De wet is specifiek van toepassing op woningen. Commercieel en industrieel onroerend goed is over het algemeen vrijgesteld, wat betekent dat bedrijven in buitenlandse handen kantoorruimte, winkelpanden en industriële eigendom kunnen verwerven zonder Lex Koller-beperkingen."
+          },
+          "2": {
+            "heading": "Wie wordt getroffen?",
+            "level": "2",
+            "content": "Lex Koller is van toepassing op personen in het buitenland – gedefinieerd als buitenlanders die hun vaste verblijfplaats niet in Zwitserland hebben, en bedrijven onder buitenlandse zeggenschap. De belangrijkste verschillen zijn als volgt. EU/EVA-onderdanen met een geldige verblijfsvergunning (B- of C-vergunning) worden bij het verkrijgen van een hoofdverblijfplaats in wezen hetzelfde behandeld als Zwitserse staatsburgers. Zij kunnen zonder toestemming een woning voor eigen gebruik kopen. Niet-EU/EFTA-onderdanen met een B-vergunning kunnen in de meeste kantons zonder toestemming een hoofdwoning kopen, maar worden geconfronteerd met beperkingen op tweede woningen en beleggingspanden. Personen zonder Zwitserse woonplaats (ongeacht hun nationaliteit) hebben kantonale toestemming nodig om woningen te kopen, en deze toestemming is onderworpen aan strikte quota. Zwitserse staatsburgers die in het buitenland wonen worden niet getroffen; zij kunnen vrij kopen."
+          },
+          "3": {
+            "heading": "Soorten eigendommen en beperkingen",
+            "level": "2",
+            "content": "De beperkingen variëren per type woning. Hoofdwoning (Hauptwohnung): vergunninghouders (B of C) kunnen zonder toestemming een hoofdwoning op hun woonplaats kopen. De woning moet dienen als feitelijke woning. Bijwoningen of vakantieverblijven (Ferienwohnung): hiervoor gelden de strengste beperkingen. Voor aankopen door niet-ingezetenen is kantonnale toestemming vereist, die wordt toegewezen via een federaal quotasysteem (bekend als het contingent). De woning moet zich in een erkend toeristisch gebied bevinden en er gelden beperkingen qua grootte (doorgaans maximaal 200 m² netto woonoppervlakte). Beleggings-/huurwoningen: niet-ingezeten buitenlanders kunnen over het algemeen geen woningbeleggingswoningen verwerven. Vergunninghouders kunnen vastgoedbeleggingen verwerven met inachtneming van de kantonnale regels. Commercieel vastgoed: doorgaans vrijgesteld van Lex Koller."
+          },
+          "4": {
+            "heading": "Kantonale verschillen",
+            "level": "2",
+            "content": "Hoewel Lex Koller een federale wet is, zijn bij de implementatie kantonnale autoriteiten betrokken, en er zijn betekenisvolle verschillen in de manier waarop kantons omgaan met aanvragen. Zürich is relatief eenvoudig voor vergunninghouders die een hoofdverblijfplaats kopen. Het kantonale kadaster (Grundbuchamt) verwerkt overnames doorgaans zonder problemen als de koper over een geldige vergunning beschikt en het onroerend goed zich op het geregistreerde adres bevindt. Zug volgt een vergelijkbare aanpak, maar heeft enkele aanvullende vereisten op communautair niveau. Bepaalde gemeenten in Zug vereisen aanvullende documentatie of hanteren wachttijden. Schwyz is algemeen toegankelijk en vertegenwoordigt, in combinatie met lagere vastgoedprijzen en zeer lage belastingtarieven, een uitstekende waarde voor het verhuizen van gezinnen. Genève en Vaud hebben de grootste vraag van buitenlandse kopers, wat leidt tot meer onderzoek naar aanvragen. Vooral Genève kent strenge quota voor tweede verblijf. Wallis en Graubünden hebben als belangrijkste toeristische kantons de meest ontwikkelde regimes voor het toestaan ​​van de aankoop van vakantieverblijven."
+          },
+          "5": {
+            "heading": "Het autorisatieproces",
+            "level": "3",
+            "content": "Wanneer toestemming vereist is (meestal voor tweede woningen of voor kopers zonder verblijfsvergunning), bestaat het proces uit verschillende stappen. De koper dient een aanvraag in bij de kantonale autoriteit die verantwoordelijk is voor Lex Koller-zaken – meestal het kantonaal Grundbuchamt of een speciaal ministerie van Justitie. De aanvraag moet de koopovereenkomst (meestal een voorlopige \"Vorvertrag\") bevatten, een bewijs van de band van de koper met Zwitserland of de specifieke locatie, een bewijs dat de verwerving binnen een van de toegestane categorieën valt en een bevestiging dat het onroerend goed voldoet aan de vereisten voor grootte en gebruik. De kantonale autoriteit toetst de aanvraag aan de federale quota (voor vakantiewoningen) en kantonale criteria. De verwerkingstijden variëren van 2 tot 6 weken in kleinere kantons tot 2 tot 3 maanden in Genève of Vaud."
+          },
+          "6": {
+            "heading": "Praktische strategieën voor buitenlandse kopers",
+            "level": "2",
+            "content": "Voor vermogende particulieren die naar Zwitserland verhuizen, kunnen verschillende praktische strategieën het aankoopproces van onroerend goed vereenvoudigen. De meest eenvoudige aanpak is om een ​​B-vergunning te verkrijgen voordat u onroerend goed koopt. Met een geldige verblijfsvergunning wordt het verwerven van een hoofdverblijfplaats in wezen hetzelfde proces als voor een Zwitser. Voor gezinnen die willen kopen voordat hun vergunning is afgegeven, is het soms mogelijk om een ​​voorwaardelijke koopovereenkomst (Vorvertrag) af te sluiten, afhankelijk van de verlening van de vergunning. Voor degenen die geïnteresseerd zijn in het verwerven van tweede woningen of vastgoedbeleggingen kan het oprichten van een Zwitsers bedrijf soms een oplossing bieden, hoewel dit een zorgvuldige structurering vereist om te voorkomen dat het wordt geclassificeerd als een bedrijf onder buitenlandse zeggenschap. Werken met een gespecialiseerde vastgoedadviseur die zowel Lex Koller als de lokale markt begrijpt, is essentieel. Vastgoed buiten de markt – gebruikelijk in het luxesegment – ​​biedt vaak de beste kansen en vereist een adviseur met gevestigde netwerken."
+          },
+          "7": {
+            "heading": "Recente ontwikkelingen en vooruitzichten",
+            "level": "2",
+            "content": "Er zijn periodieke discussies geweest over het hervormen of afschaffen van Lex Koller. Een federaal voorstel uit 2017 om de beperkingen op de verwerving van commercieel onroerend goed te versoepelen, werd op de plank gelegd, en recentere discussies waren gericht op het aanscherpen in plaats van het versoepelen van de wet, vooral met betrekking tot tweede woningen in toeristische gebieden. In de nabije toekomst blijft de Lex Koller stevig op zijn plaats. Verhuizende gezinnen moeten hun vastgoedstrategie plannen in samenhang met hun immigratietijdlijn – de twee zijn nauw met elkaar verbonden en een goede coördinatie kan aanzienlijke tijd en complexiteit besparen."
+          },
+          "8": {
+            "heading": "Vastgoedprijzen: wat te verwachten",
+            "level": "2",
+            "content": "Zwitserse vastgoedprijzen, vooral op toplocaties, behoren tot de hoogste ter wereld. Verwacht in de stad Zürich CHF 15.000-35.000 per vierkante meter voor eersteklas woningen. Goudkustgemeenschappen langs het Meer van Zürich (Küsnacht, Zollikon, Herrliberg) vragen premies van CHF 20.000–40.000/m². In Zug variëren de eigendommen in het stadscentrum van CHF 12.000–25.000/m², terwijl de omliggende dorpen van CHF 8.000–14.000/m² variëren. Schwyz biedt toegankelijkere prijzen van CHF 6.000–14.000/m² aan het meer en CHF 4.000–8.000/m² in dorpen in het binnenland. Deze prijzen weerspiegelen de kwaliteit, stabiliteit en schaarste van Zwitsers onroerend goed – en het feit dat onroerend goed in Zwitserland historisch gezien een van de meest betrouwbare waardeopslagplaatsen ter wereld is."
+          }
+        },
+        "imageAlt": "Luxe Zwitserse villa aan het meer met Alpendecor op het gouden uur"
+      },
+      "best-international-schools-zurich-zug-schwyz": {
+        "category": "lifestyle",
+        "categoryLabel": "Levensstijl",
+        "readTime": "11 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Beste internationale scholen in Zürich, Zug en Schwyz",
+        "metaDescription": "Uitgebreide gids voor de beste internationale scholen in Zürich, Zug en Schwyz. Vergelijk IB-, Amerikaanse, Britse en Zwitserse curricula, kosten, toelatingstijdlijnen en instapopties.",
+        "excerpt": "Vergelijk de beste internationale scholen in Zürich, Zug en Schwyz - van IB-programma's en Zwitserse Matura tot instapmogelijkheden, collegegeld en toelatingsbegeleiding.",
+        "sectionCount": "10",
+        "sections": {
+          "0": {
+            "content": "Voor gezinnen die naar Zwitserland verhuizen, is het kiezen van de juiste school vaak de belangrijkste beslissing na de kantonselectie. Zwitserland is de thuisbasis van enkele van de beste internationale scholen ter wereld, die een scala aan leerplannen aanbieden – International Baccalaureate (IB), American, British en Swiss Matura – in meertalige omgevingen die kinderen voorbereiden op mondiale carrières. Deze gids behandelt de toonaangevende internationale scholen in drie belangrijke verhuiskantons: Zürich, Zug en Schwyz."
+          },
+          "1": {
+            "heading": "Internationale scholen in Zürich",
+            "level": "2",
+            "content": "Zürich biedt de grootste keuze aan internationale scholen in het Duitstalige deel van Zwitserland, wat de status van de grootste stad van het land en een belangrijk internationaal zakencentrum weerspiegelt."
+          },
+          "2": {
+            "heading": "Zurich International School (ZIS)",
+            "level": "3",
+            "content": "Zurich International School is een van de meest gevestigde en hoog aangeschreven internationale scholen in Zwitserland. ZIS, opgericht in 1963, is actief op vier campussen in de regio Zürich: Wädenswil, Kilchberg, Adliswil en de nieuwe campus voor hogere scholen in Adliswil. De school bedient ongeveer 1.500 leerlingen van 3 tot 18 jaar van meer dan 55 nationaliteiten. ZIS biedt het IB Diploma Programme, IB Middle Years Program (MYP) en het IB Primary Years Program (PYP) aan. De instructietaal is Engels, met sterk Duits en aanvullende taalprogramma's. Het jaarlijkse lesgeld varieert van ongeveer CHF 30.000 voor de vroege kinderjaren tot CHF 42.000 voor de bovenbouw (Diplomaprogramma). De toelating is concurrerend en gezinnen worden aangemoedigd om zich minimaal 6 tot 12 maanden vóór de beoogde startdatum aan te melden."
+          },
+          "3": {
+            "heading": "Inter-Community School Zurich (ICS)",
+            "level": "3",
+            "content": "Inter-Community School Zurich ligt in Zumikon, aan de prestigieuze Goudkust ten oosten van de stad. De school bedient ongeveer 900 studenten van 3 tot 18 jaar. ICS biedt het IB-curriculum aan op alle niveaus (PYP, MYP, DP) en staat bekend om zijn inclusieve, gemeenschapsgerichte aanpak. De school legt sterk de nadruk op het onderhouden van de moedertaal, wat vooral waardevol is voor gezinnen die verhuizen uit niet-Engelssprekende landen. Het jaarlijkse collegegeld bedraagt ​​ongeveer CHF 28.000-38.000, afhankelijk van het niveau. ICS biedt ook een uitgebreid naschools activiteitenprogramma en uitstekende faciliteiten, waaronder wetenschappelijke laboratoria, kunstateliers en sportfaciliteiten."
+          },
+          "4": {
+            "heading": "Swiss International School (SIS) Zurich",
+            "level": "3",
+            "content": "SIS Zürich biedt een uniek tweetalig (Engels-Duits) programma dat zowel de Zwitserse als de internationale curricula volgt. Dit is een uitstekende keuze voor gezinnen die willen dat hun kinderen integreren in de Zwitserse samenleving en tegelijkertijd een internationale opleiding volgen. De SIS-campus Zürich-Wollishofen bedient studenten van de kleuterschool tot de middelbare school. Het jaarlijkse collegegeld bedraagt ​​ongeveer CHF 25.000-35.000. Het tweetalige model – met ongeveer gelijke instructietijd in het Engels en Duits – levert afgestudeerden op die beide talen vloeiend spreken, waardoor ze de keuze hebben om óf toegang te krijgen tot de Zwitserse universiteit (via Matura) óf om zich aan te melden voor een internationale universiteit (via IB of gelijkwaardig)."
+          },
+          "5": {
+            "heading": "Internationale scholen in Zug",
+            "level": "2",
+            "content": "Ondanks zijn relatief kleine omvang biedt Zug uitstekende internationale scholingsmogelijkheden – gedreven door zijn grote internationale gemeenschap (meer dan 35% buitenlandse inwoners) en zijn status als ‘Crypto Valley’."
+          },
+          "6": {
+            "heading": "International School of Zug and Luzern (ISZL)",
+            "level": "3",
+            "content": "ISZL is de belangrijkste internationale school in Centraal-Zwitserland en behoort consequent tot de beste IB-scholen wereldwijd. Met campussen in Hünenberg (Zug) en Riverside (Luzern) bedient ISZL ongeveer 1.400 studenten in de leeftijd van 3 tot 18 jaar van meer dan 60 nationaliteiten. De school biedt het volledige IB-continuüm (PYP, MYP, DP) en staat bekend om haar academische uitmuntendheid, waarbij IB Diploma-slaagpercentages consistent boven de 95% worden behaald met gemiddelde scores ruim boven het mondiale gemiddelde. De faciliteiten van ISZL zijn van wereldklasse, waaronder speciaal gebouwde wetenschappelijke laboratoria, centra voor podiumkunsten en uitgebreide sportfaciliteiten, waaronder zwembaden en all-weathervelden. Het jaarlijkse collegegeld varieert van ongeveer CHF 28.000 voor de vroege kinderjaren tot CHF 40.000 voor het diplomaprogramma. ISZL heeft een sterke reputatie op het gebied van universitaire plaatsingen, waarbij afgestudeerden regelmatig worden toegelaten tot topuniversiteiten, waaronder Oxbridge, Ivy League, ETH Zürich en toonaangevende Europese instellingen."
+          },
+          "7": {
+            "heading": "Institut Montana Zugerberg",
+            "level": "3",
+            "content": "Institut Montana is een uniek instituut op 1000 meter hoogte op de Zugerberg met uitzicht op Zug. Opgericht in 1926, combineert het de tradities van een Zwitsers internaat met een modern internationaal curriculum. De school biedt zowel het IB-diploma als het Zwitserse Matura aan, waardoor studenten een echte keuze aan onderwijstrajecten hebben. Er zijn internaten beschikbaar, waardoor het een van de weinige internaten in de regio Zürich/Zug is. Institut Montana bedient ongeveer 300 studenten (ongeveer 60% internaat, 40% dagstudenten) van meer dan 40 nationaliteiten. Het jaarlijkse studiegeld voor dagstudenten bedraagt ​​ongeveer CHF 35.000-45.000, terwijl het instapgeld ongeveer CHF 65.000-75.000 bedraagt. De bergcampus van de school biedt een uitzonderlijk veilige en gerichte leeromgeving."
+          },
+          "8": {
+            "heading": "Vergelijking van curricula: IB vs. Swiss Matura vs. Amerikaans/Brits",
+            "level": "2",
+            "content": "Het International Baccalaureate (IB) Diploma is het meest beschikbare internationale curriculum in Zwitserland. Het wordt erkend door universiteiten over de hele wereld en biedt een brede, rigoureuze opleiding in zes vakgebieden. De IB is ideaal voor gezinnen die opnieuw willen verhuizen, omdat hij wereldwijd draagbaar is. De Zwitserse Matura is de binnenlandse toegangskwalificatie voor de Zwitserse universiteit. Het biedt uitzonderlijk rigoureus onderwijs met sterke nadruk op wiskunde, wetenschappen en talen. Afgestudeerden met een Zwitserse Matura hebben gegarandeerde toegang tot Zwitserse universiteiten (waaronder ETH Zürich), waardoor het aantrekkelijk is voor gezinnen die zich voor langere tijd willen vestigen. Amerikaanse curricula (volgens de Amerikaanse Common Core-standaarden met AP-cursussen) zijn op een paar scholen beschikbaar en hebben de voorkeur van gezinnen die van plan zijn zich aan te melden bij Amerikaanse universiteiten. Britse curricula (die het Engelse nationale curriculum volgen met IGCSE's en A-niveaus) zijn minder gebruikelijk in de regio Zürich/Zug, maar zijn op sommige scholen wel beschikbaar."
+          },
+          "9": {
+            "heading": "Toelatingstijdlijn en praktisch advies",
+            "level": "2",
+            "content": "Internationale schoolopnames in Zwitserland volgen een gestructureerde tijdlijn. De meeste scholen openen hun aanmeldingen 12 tot 18 maanden voordat het academisch jaar begint (doorgaans begin augustus/september). Voor instroom halverwege het jaar moeten de aanvragen zo vroeg mogelijk worden ingediend, hoewel de meeste scholen instroom halverwege het jaar met voldoende voorafgaande kennisgeving kunnen accommoderen. Belangrijke overwegingen bij het verhuizen van gezinnen zijn: vroeg aanmelden, aangezien topscholen wachtlijsten hebben voor bepaalde jaargroepen; een schoolbezoek of virtuele rondleiding aanvragen voordat u zich engageert; denk na over het woon-werkverkeer – het Zwitserse openbaar vervoer is uitstekend, maar een woon-werkverkeer van 45 minuten kan een uitdaging zijn voor jongere kinderen; evalueer de integratieondersteuning van de school (ESL/EAL-programma's) als uw kinderen geen moedertaalsprekers van het Engels zijn; en controleer of de school moedertaalprogramma's aanbiedt om de erfgoedtaal van uw gezin te behouden. We werken nauw samen met toelatingsteams op alle grote internationale scholen en kunnen introducties, campusbezoeken en prioriteitsplaatsing voor onze klanten faciliteren."
+          }
+        },
+        "imageAlt": "Zwitserse internationale schoolcampus met Alpen op de achtergrond"
+      },
+      "relocating-to-switzerland-timeline": {
+        "category": "relocation",
+        "categoryLabel": "Verhuizing",
+        "readTime": "9 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Hoe lang duurt een verhuizing naar Zwitserland? Een realistische tijdlijn",
+        "metaDescription": "Realistische tijdlijn voor verhuizing naar Zwitserland: scenario's van 3 maanden, 6 maanden, 9 maanden en 12 maanden. Welke factoren versnellen of vertragen uw Zwitserse verhuizing?",
+        "excerpt": "Van snelle verhuizingen van drie maanden tot uitgebreide programma's van twaalf maanden: begrijp wat de tijdlijn drijft en hoe u uw verhuizing naar Zwitserland kunt plannen.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Een van de eerste vragen die elke potentiële klant stelt is: \"Hoe lang gaat dit duren?\" Het eerlijke antwoord is dat een goed uitgevoerde Zwitserse verhuizing doorgaans zes tot twaalf maanden duurt, vanaf het eerste serieuze gesprek tot het regelen van uw gezin, het naar school gaan van uw kinderen en het oplossen van alle administratieve zaken. Tijdlijnen kunnen echter variëren van slechts 3 maanden (voor individuen met eenvoudige situaties) tot 18+ maanden (voor complexe family offices of verhuizingen van meerdere generaties). In deze gids worden realistische tijdlijnen opgedeeld op basis van veelvoorkomende scenario's."
+          },
+          "1": {
+            "heading": "De tijdlijn van drie maanden: Fast Track",
+            "level": "2",
+            "content": "Een verhuizing van drie maanden is haalbaar, maar vereist een aantal gunstige voorwaarden: de persoon heeft de EU/EVA-burger (waardoor het vergunningsproces aanzienlijk wordt vereenvoudigd), hij is van plan onroerend goed te huren in plaats van te kopen, hij heeft een relatief eenvoudige financiële situatie en plaatsing op een school is niet nodig of is voor één kind op een school waar wel beschikbaarheid is. In een versneld scenario omvat maand 1 de kantonselectie, het initiële belastingadvies, de identificatie van huurwoningen en de initiatie van de B-permit-aanvraag. Maand 2 omvat het ondertekenen van een huurovereenkomst, de verwerking en goedkeuring van B-permit (EU-onderdanen ontvangen doorgaans binnen 2 tot 4 weken goedkeuring), het opzetten van een ziektekostenverzekering en het inschrijven op school. Maand 3 is de fysieke verhuizing: verzending van meubels, opening van een Zwitserse bankrekening, gemeentelijke registratie (Einwohnerkontrolle) en de eerste vestigingsperiode. Deze tijdlijn komt het meest voor bij alleenstaande professionals of stellen zonder schoolgaande kinderen die EU/EVA-onderdanen zijn en die vanuit Europa verhuizen."
+          },
+          "2": {
+            "heading": "De tijdlijn van zes maanden: standaard",
+            "level": "2",
+            "content": "Zes maanden is de meest gebruikelijke termijn voor een goed voorbereide verhuizing. Deze tijdlijn is geschikt voor niet-EU-onderdanen (die te maken krijgen met langere verwerkingstijden voor vergunningen), gezinnen met schoolgaande kinderen, individuen die een forfaitaire belastingheffing nastreven en degenen die hun hoofdwoning willen kopen in plaats van huren. Maanden 1–2 behandelen strategische planning: uitgebreid financieel onderzoek, selectie van kantons en gemeenten, voorlopige analyse van forfaitaire belastingen, schoolonderzoek en campusbezoeken, eerste zoektocht naar onroerend goed en voorbereiding van B-permit-documentatie. Maanden 3–4 omvatten formele aanvragen: indiening van een B-permit-aanvraag, formele aanvraag voor forfaitaire belastingheffing bij kantonnale autoriteiten, schoolaanvragen en plaatsingsbevestiging, shortlist en bezichtiging van onroerend goed, en het openen van een Zwitserse bankrekening (wat 3 tot 6 weken kan duren voor volledige onboarding). Maanden 5–6 zijn uitvoering: goedkeuring en incasso van B-permit, ondertekening van onroerend goed of huurovereenkomst, fysieke verhuizing, activering van de ziektekostenverzekering, gemeentelijke registratie, kinderen gaan naar school en inrichting van de levensstijl (autoregistratie, energierekeningen, vergunningen voor huishoudelijk personeel, indien van toepassing)."
+          },
+          "3": {
+            "heading": "De tijdlijn van 9 maanden: complex",
+            "level": "2",
+            "content": "Negen maanden is typisch voor verhuizingen die gepaard gaan met herstructurering van activa vóór de immigratie, family offices waarvoor Zwitserse bedrijfsstructuren nodig zijn, meerdere familieleden met afzonderlijke vergunningsvereisten, aankopen van luxe onroerend goed (due diligence, Lex Koller, notariële procedure) of gezinnen die uit niet-standaard rechtsgebieden komen. De extra tijd wordt voornamelijk verbruikt door de herstructurering van activa (die vaak moet worden voltooid voordat de Zwitserse fiscale vestigingsplaats wordt gevestigd, om te voorkomen dat er Zwitserse belasting wordt geheven over winsten die tijdens de herstructurering worden gerealiseerd), het opzetten van een bedrijfsstructuur (de oprichting van een Zwitsers bedrijf zelf duurt 2 tot 4 weken, maar het ontwerpen van de structuur, kapitalisatie en bankieren duurt langer) en de aankoop van onroerend goed (vanaf de eerste bezichtiging tot de notariële voltooiing duurt de aankoop van een Zwitsers onroerend goed doorgaans 3 tot 5 maanden)."
+          },
+          "4": {
+            "heading": "De tijdlijn van 12 maanden: volledig programma",
+            "level": "2",
+            "content": "Een tijdlijn van twaalf maanden is geschikt voor de meest uitgebreide verhuizingen – doorgaans families van meerdere generaties die een volledige aanwezigheid vestigen, inclusief een family office, meerdere eigendommen en complexe bestuursstructuren. Maanden 1–3 behandelen strategie en planning: uitgebreide beoordeling van gezinsstatuten, belastinganalyse in meerdere jurisdicties, ontwerp van bedrijfsstructuren, family office-raamwerk, schoolselectie voor meerdere kinderen en definitie van eigendomsvereisten. In de maanden 4 tot en met 6 gaat het om de uitvoering van pre-immigratie: herstructurering van activa, bedrijfsformaties (Swiss AG of GmbH), benoemingen van directeuren, het aangaan van bankrelaties, het zoeken naar onroerend goed en het indienen van schoolaanvragen. Maanden 7 tot en met 9 zijn de formele immigratiefase: B-permit-aanvragen voor alle gezinsleden, onderhandelingen over forfaitaire belastingheffing, eigendomsverwerving (notariële procedure) en operationele inrichting van het family office. Maanden 10–12 zijn de vestigingsfase: fysieke verhuizing, kinderen gaan naar school, family office volledig operationeel, huishoudelijk personeel aangenomen en toegelaten, gemeenschapsintegratie begint en alle administratieve systemen functioneren."
+          },
+          "5": {
+            "heading": "Factoren die uw verhuizing versnellen",
+            "level": "2",
+            "content": "Verschillende factoren kunnen de tijdlijn versnellen. Door de EU/EVA-nationaliteit wordt de vergunningsprocedure teruggebracht van maanden naar weken. Als u ervoor kiest om in eerste instantie te huren in plaats van onroerend goed te kopen, wordt de tijdlijn voor het verwerven van onroerend goed van 3 tot 5 maanden geëlimineerd. Het hebben van schone, goed gedocumenteerde bronnen van rijkdom versnelt zowel de onboarding van banken als de onderhandelingen met de belastingdienst. Het selecteren van een kanton met efficiënte administratieve processen (Zug en Schwyz zijn met name efficiënt) helpt. Door u aan te melden bij scholen met beschikbare plaatsen in de jaargroepen van uw kinderen, vermijdt u wachtlijsten. Door vroegtijdig gekwalificeerde Zwitserse adviseurs in te schakelen – met name belastingadviseurs en immigratiespecialisten – zorgt u ervoor dat de aanvraag de eerste keer klopt, waardoor vertragingen door afwijzingen of verzoeken om aanvullende informatie worden vermeden."
+          },
+          "6": {
+            "heading": "Factoren die uw verhuizing vertragen",
+            "level": "2",
+            "content": "Veel voorkomende bronnen van vertraging zijn onder meer complexe documentatie over de bron van rijkdom (met name voor crypto-rijkdom of rijkdom uit jurisdicties met beperkte transparantie), multi-jurisdictionele herstructurering van activa die coördinatie tussen verschillende rechtssystemen vereist, omstreden onderhandelingen over forfaitaire belastingheffing waarbij de kantonnale autoriteit het niet eens is met de voorgestelde belastbare grondslag, wachtlijsten voor scholen (populaire jaargroepen op topscholen kunnen wachtlijsten van 6 tot 12 maanden hebben), Lex Koller-autorisatievereisten voor onroerendgoedaankopen door niet-ingezetenen, en politieke of regelgevende veranderingen (Hoewel dit zelden voorkomt, kunnen veranderingen in het kantonale belastingbeleid planaanpassingen vereisen). Het is altijd beter om conservatief te plannen en vroeg te arriveren dan te haasten en problemen tegen te komen die met een betere voorbereiding voorkomen hadden kunnen worden."
+          },
+          "7": {
+            "heading": "Onze aanbeveling",
+            "level": "2",
+            "content": "Voor de meeste gezinnen raden we aan om het proces minimaal 9 maanden vóór de beoogde aankomstdatum te starten. Dit biedt voldoende tijd voor een goede planning, kan onverwachte vertragingen opvangen en zorgt voor het beste resultaat bij de plaatsing van scholen en de selectie van onroerend goed. Door vroeg te beginnen, kunt u ook profiteren van een optimale timing voor aanvragen voor forfaitaire belastingheffing (doorgaans afgestemd op het Zwitserse belastingjaar dat op 1 januari begint) en kunt u de overgang van uw fiscale woonplaats netjes coördineren. De investering in een goede planning werpt zijn vruchten af ​​tijdens de verhuizing – en jaren daarna. Een goed gestructureerde verhuizing legt de basis voor de volledige Zwitserse ervaring van uw gezin."
+          }
+        },
+        "imageAlt": "Verhuisdozen in een luxe Zwitsers appartement met uitzicht op het meer"
+      },
+      "opening-swiss-private-bank-account": {
+        "category": "banking",
+        "categoryLabel": "Bankieren",
+        "readTime": "10 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Een Zwitserse privébankrekening openen: vereisten en proces",
+        "metaDescription": "Alles wat u moet weten over het openen van een Zwitserse privébankrekening: AML/KYC-vereisten, documentatie over de bron van het vermogen en wat banken van internationale klanten verwachten.",
+        "excerpt": "De definitieve gids voor Zwitsers private banking – van AML/KYC-vereisten en documentatie over de bron van rijkdom tot het omgaan met crypto-vermogen en het kiezen van de juiste bankpartner.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "De Zwitserse private-bankingsector beheert ongeveer CHF 7,9 biljoen aan activa – grofweg 25% van al het mondiale grensoverschrijdende particuliere vermogen. Het openen van een private banking-relatie in Zwitserland is een belangrijke mijlpaal bij elke verhuizing en biedt toegang tot vermogensbeheer van wereldklasse, bewaardiensten en de stabiliteit van het Zwitserse financiële systeem. Het proces is echter rigoureus en vereist een zorgvuldige voorbereiding."
+          },
+          "1": {
+            "heading": "Het Zwitserse bankenlandschap",
+            "level": "2",
+            "content": "Zwitserland telt ongeveer 243 erkende banken, variërend van de twee mondiale giganten (UBS en, tot de fusie in 2023, Credit Suisse) tot tientallen boetiek-private banken en kantonnale banken. Voor vermogende klanten die naar Zwitserland verhuizen, vallen de relevante instellingen in verschillende categorieën. De grote Zwitserse particuliere banken – Julius Bär, Lombard Odier, Pictet, Vontobel en EFG International – bieden full-service private banking aan met minimale rekeninggroottes die doorgaans beginnen bij CHF 1 à 5 miljoen. Boetiek- en familiebanken – zoals Bordier, Mirabaud en Reichmuth – bieden een nog persoonlijkere service, vaak met hogere minimumdrempels. Crypto-native banken – SEBA Bank en Sygnum Bank – zijn door Zwitserland gereguleerde banken die geïntegreerde traditionele en digitale activadiensten aanbieden, ideaal voor klanten met aanzienlijke cryptocurrency-bezit. Kantonale banken (Kantonalbanken) bieden standaard bankdiensten aan met staatsgaranties, geschikt voor het dagelijkse bankieren naast een private banking-relatie."
+          },
+          "2": {
+            "heading": "AML/KYC-vereisten",
+            "level": "2",
+            "content": "Zwitserse banken worden gereguleerd door FINMA (de Zwitserse toezichthouder op de financiële markten) en moeten voldoen aan uitgebreide vereisten tegen het witwassen van geld (AML) en Know Your Customer (KYC). Deze vereisten zijn de afgelopen tien jaar aanzienlijk aangescherpt, waardoor het Zwitserse bankwezen in lijn is gebracht met de mondiale normen, terwijl de Zwitserse tradities van klantenservice en discretie behouden blijven. De kernvereisten omvatten identiteitsverificatie – een geldig paspoort (en meestal een tweede identiteitsbewijs), een bewijs van adres in Zwitserland (of het land waar u momenteel verblijft) en biometrische verificatie. Er moet documentatie over de economische eigendom worden verstrekt; als activa worden aangehouden via structuren (trusts, stichtingen, holdingmaatschappijen), moeten de uiteindelijke begunstigde(n) worden geïdentificeerd. Documentatie over de Bron van Vermogen (SOW) is het belangrijkste element; banken hebben een alomvattend verhaal en ondersteunend bewijsmateriaal nodig waarin wordt uitgelegd hoe de klant zijn vermogen heeft vergaard. In de Source of Funds (SOF)-documentatie wordt uitgelegd waar de specifieke bedragen die worden gestort, vandaan komen, bijvoorbeeld vanaf welke bankrekening ze worden overgemaakt, en wat de transactiegeschiedenis van die rekening is."
+          },
+          "3": {
+            "heading": "Documentatie over de bron van rijkdom: wat banken verwachten",
+            "level": "2",
+            "content": "De documentatie over de bron van rijkdom is waar de meeste cliënten het grootste onderzoek tegenkomen. Zwitserse banken zijn grondig en gaan pas verder als ze volledig tevreden zijn. Van bedrijfseigenaren en ondernemers verwachten banken jaarrekeningen van bedrijven (doorgaans drie tot vijf jaar), bewijs van eigendom (aandelencertificaten, uittreksels uit het handelsregister), gegevens over dividenduitkeringen en verkoop-/exitdocumentatie als rijkdom voortkomt uit de verkoop van een bedrijf. Voor beleggers zullen banken graag beleggingsrekeningafschriften willen zien waaruit de groei van de portefeuille, historische handelsbevestigingen en bewijsmateriaal blijkt van het oorspronkelijke kapitaal dat is geïnvesteerd. Voor geërfd vermogen zal de bank nalatenschapsdocumentatie, erfrechtgegevens, kopieën van testamenten en testamenten en bewijs van de herkomst van het vermogen van de overledene opvragen. Voor onroerend goed zijn taxatierapporten, aan- en verkoopcontracten en huurinkomstengegevens vereist."
+          },
+          "4": {
+            "heading": "Wat banken verwachten van klanten uit het Midden-Oosten",
+            "level": "3",
+            "content": "Zwitserse banken hebben uitgebreide ervaring met klanten uit de GCC-regio en het bredere Midden-Oosten. Bepaalde aspecten van de welvaart in het Midden-Oosten vereisen echter aanvullende documentatie. Voor rijkdom die voortkomt uit overheidsposities of connecties met de koninklijke familie verwachten banken officiële benoemingsdocumentatie, openbare registers van de rol van het individu en bewijsmateriaal dat persoonlijke rijkdom scheidt van staatseigendommen. Voor zakelijk vermogen van de GCC zijn commerciële licenties (handelslicenties van DED, ADGM, DIFC, enz.), gecontroleerde financiële overzichten opgesteld volgens de IFRS-normen en bewijs van de operationele geschiedenis van het bedrijf vereist. Banken stellen ook een duidelijk verhaal op prijs: een goed voorbereid ‘vermogensverhaal’ dat in chronologische volgorde uitlegt hoe het vermogen van de klant is opgebouwd, inclusief belangrijke zakelijke mijlpalen, investeringen en liquiditeitsgebeurtenissen."
+          },
+          "5": {
+            "heading": "Crypto-rijkdomsdocumentatie",
+            "level": "3",
+            "content": "Voor klanten met een aanzienlijke rijkdom aan cryptocurrency is Zwitserland een van de meest meegaande bankjurisdicties ter wereld. SEBA Bank en Sygnum Bank zijn volledig gereguleerde Zwitserse banken die gespecialiseerd zijn in digitale activa. Het documenteren van crypto-rijkdom vereist echter een specifieke aanpak. Banken verwachten een volledige keten van bewaring voor crypto-bezit – van de initiële verwerving (mijnbouwgegevens, aankoopbevestigingen van de beurs, OTC-handelsgegevens) tot en met het huidige bezit. Wallet-adressen moeten worden gedocumenteerd met blockchain-analyses die de stroom van activa laten zien. Als rijkdom is gecreëerd door crypto-investeringen in een vroeg stadium (bijvoorbeeld door Bitcoin vóór 2015 te kopen), begrijpen banken dat de uitwisselingsgegevens mogelijk onvolledig zijn, maar verwachten ze welke documentatie er ook is, plus een geloofwaardig verhaal. De fiscale behandeling van crypto-winsten in het bronland moet worden gedocumenteerd – banken willen zien dat aan de juiste belastingverplichtingen is voldaan voordat fondsen Zwitserland binnenkomen."
+          },
+          "6": {
+            "heading": "Het proces voor het openen van een rekening",
+            "level": "2",
+            "content": "Het typische proces voor het openen van een particuliere bankrekening volgt een gestructureerd pad. Het eerste contact komt tot stand via een verwijzing (van een bestaande cliënt, advocaat of adviseur) of via een directe benadering. Banken geven over het algemeen de voorkeur aan verwijzingen, en een warme introductie door een vertrouwde adviseur kan het proces aanzienlijk versoepelen. Tijdens een voorbereidend gesprek – persoonlijk op het kantoor van de bank of via een videoconferentie – kunnen beide partijen de geschiktheid beoordelen. De bank evalueert de behoeften en het risicoprofiel van de potentiële klant, terwijl de klant de dienstverlening, het team en de aanpak van de bank evalueert. Als beide partijen hiermee verder willen, verstrekt de bank een documentatiechecklist die specifiek is afgestemd op de situatie van de klant. De klant (meestal met ondersteuning van een adviseur) bereidt de vereiste documentatie voor en dient deze in. Het complianceteam van de bank beoordeelt de documentatie. Deze interne beoordeling duurt doorgaans twee tot zes weken, afhankelijk van de complexiteit van de zaak. Indien goedgekeurd, verstrekt de bank rekeningopeningsdocumenten ter ondertekening. Het geld kan dan worden overgemaakt. Vanaf het eerste contact tot en met een operationele rekening duurt het proces doorgaans 4 tot 8 weken voor eenvoudige zaken en 8 tot 16 weken voor complexe situaties die meer due diligence vereisen."
+          },
+          "7": {
+            "heading": "Het kiezen van de rechteroever",
+            "level": "2",
+            "content": "Het selecteren van de juiste private bank is een belangrijke beslissing waarbij verschillende factoren in overweging moeten worden genomen: de minimale rekeninggrootte (variërend van CHF 500.000 tot CHF 10 miljoen+), de expertise van de bank in uw specifieke activaklassen (crypto, onroerend goed, private equity), taalvaardigheid (Arabisch sprekende relatiebeheerders zijn beschikbaar bij verschillende Zwitserse banken), de benadering van de bank ten aanzien van discretionaire versus adviesmandaten, vergoedingenstructuur (beheerkosten, bewaarkosten, transactiekosten – deze variëren aanzienlijk per instelling), digitale mogelijkheden (online bankieren, mobiele apps, realtime rapportage) en de risicobereidheid van de bank voor uw specifieke klantprofiel. Veel klanten onderhouden relaties met twee banken: een grote particuliere bank voor het kernvermogensbeheer en een gespecialiseerde instelling (bijvoorbeeld een cryptobank) voor specifieke activaklassen. Wij verzorgen introducties bij relatiemanagers bij alle grote Zwitserse particuliere banken en kunnen het selectie- en onboardingproces faciliteren op basis van uw specifieke behoeften."
+          }
+        },
+        "imageAlt": "Binnenlobby van de Zwitserse private bank met marmeren vloeren en koperen borden"
+      },
+      "swiss-residency-permits-guide": {
+        "category": "immigration",
+        "categoryLabel": "Immigratie",
+        "readTime": "11 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Zwitserse verblijfsvergunningen: B-vergunning, C-vergunning en de weg naar staatsburgerschap",
+        "metaDescription": "Uitgebreide gids voor Zwitserse verblijfsvergunningen: B-permit- en C-permit-vereisten, tijdlijnen, gezinsinclusie, kantonale verschillen en de weg naar het Zwitserse staatsburgerschap.",
+        "excerpt": "Alles wat u moet weten over Zwitserse verblijfsvergunningen: B-permit- en C-permit-vereisten, verwerkingstijdlijnen, gezinshereniging en de weg naar het Zwitserse staatsburgerschap.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Het begrijpen van het Zwitserse systeem van verblijfsvergunningen is van fundamenteel belang voor elk verhuisplan. Het soort vergunning dat u heeft, heeft invloed op alles: van uw fiscale behandeling en eigendomsrechten tot de stabiliteit van uw gezin en de opties op de lange termijn. Deze gids behandelt de belangrijkste vergunningscategorieën, hun vereisten en het traject van eerste verblijfplaats naar Zwitsers staatsburgerschap."
+          },
+          "1": {
+            "heading": "Overzicht van het Zwitserse vergunningensysteem",
+            "level": "2",
+            "content": "Zwitserland hanteert een gelaagd vergunningensysteem dat onderscheid maakt tussen EU/EVA-onderdanen en onderdanen van derde landen. De belangrijkste soorten vergunningen die relevant zijn voor het herplaatsen van personen zijn: de B-vergunning (Aufenthaltsbewilligung/permis de séjour) – een verblijfsvergunning die kan worden verlengd en het standaard toegangspunt is; de C-vergunning (Niederlassungsbewilligung/permis d'établissement) — een permanente vestigingsvergunning die meer rechten en stabiliteit biedt; de L-vergunning — een verblijfsvergunning voor korte termijn (tot één jaar, één keer verlengbaar); en de G-vergunning – een vergunning voor grensoverschrijdend woon-werkverkeer. Voor vermogende particulieren die naar Zwitserland verhuizen, is de B-vergunning het standaard startpunt, met een traject naar de C-vergunning en uiteindelijk het staatsburgerschap."
+          },
+          "2": {
+            "heading": "De B-vergunning: uw toegangspoort tot Zwitserland",
+            "level": "2",
+            "content": "De B-vergunning is de standaard verblijfsvergunning voor vreemdelingen die in Zwitserland wonen. Het aanvraagproces en de voorwaarden verschillen echter aanzienlijk op basis van nationaliteit."
+          },
+          "3": {
+            "heading": "EU/EVA-onderdanen",
+            "level": "3",
+            "content": "Voor EU/EVA-onderdanen is het verkrijgen van een B-vergunning relatief eenvoudig op grond van de bilaterale overeenkomsten tussen Zwitserland en de EU. EU/EVA-onderdanen moeten kunnen aantonen dat ze beschikken over een arbeidsovereenkomst met een Zwitserse werkgever, dat ze een zelfstandige zijn met bewijs van economische activiteit, of dat ze over voldoende financiële middelen beschikken om in hun levensonderhoud te voorzien zonder een beroep te doen op sociale bijstand (dit is de categorie die het meest relevant is voor vermogende particulieren). De vergunning wordt verleend voor 5 jaar en is hernieuwbaar. De verwerking van de aanvraag duurt doorgaans 2 tot 4 weken. Het proces omvat het registreren bij het gemeentelijke bewonerskantoor (Einwohnerkontrolle) met uw paspoort, een bewijs van een ziektekostenverzekering en een bewijs van financiële middelen of werk."
+          },
+          "4": {
+            "heading": "Niet-EU/EVA-onderdanen",
+            "level": "3",
+            "content": "Voor niet-EU/EVA-onderdanen (waaronder onderdanen van de GCC, het Midden-Oosten, Azië en andere derde landen) is het B-vergunningsproces complexer. Niet-EU-onderdanen moeten over het algemeen aantonen dat hun aanwezigheid in Zwitserland het economische belang van het land dient – ​​wat doorgaans wordt bereikt door een van de volgende zaken: het opzetten van een bedrijf dat banen creëert of bijdraagt ​​aan de lokale economie, het doen van een aanzienlijke investering, of het in aanmerking komen voor forfaitaire belastingheffing (wat aanzienlijke belastinginkomsten oplevert voor het kanton en de gemeente). Kantonnale autoriteiten hebben een aanzienlijke discretionaire bevoegdheid bij het verlenen van B-vergunningen aan niet-EU-onderdanen. Kantons die graag forfaitaire belastingbetalers willen aantrekken (Zug, Schwyz, Vaud, Wallis, Graubünden) hebben doorgaans meer gestroomlijnde processen. De aanvraag vereist doorgaans een gedetailleerd persoonlijk en financieel dossier, een duidelijke opgave van het verblijfsdoel, bewijs van passende huisvesting, bewijs van ziektekostenverzekering en, indien van toepassing, de aanvraag tot forfaitaire belastingheffing. De verwerkingstijden voor niet-EU-onderdanen variëren van 4 tot 12 weken, afhankelijk van het kanton en de complexiteit van de aanvraag."
+          },
+          "5": {
+            "heading": "De C-vergunning: permanente vestiging",
+            "level": "2",
+            "content": "De C-vergunning biedt permanente verblijfsrechten in Zwitserland. Het is de veiligste verblijfsvorm: het is voor onbepaalde tijd, biedt meer bescherming tegen intrekking en geeft de houder bijna alle rechten van een Zwitsers staatsburger (behalve stemrecht en paspoort). Voor EU/EFTA-onderdanen is de C-vergunning beschikbaar na 5 jaar ononderbroken verblijf B-permit (teruggebracht tot 5 jaar ten opzichte van de voorgaande 10 voor de meeste EU-landen). Voor niet-EU-onderdanen bedraagt ​​de standaardwachttijd 10 jaar ononderbroken verblijf, hoewel dit kan worden teruggebracht tot 5 jaar voor onderdanen van bepaalde landen (VS, Canada, VK en andere met bilaterale overeenkomsten) en in bepaalde kantons. C-permit-houders profiteren van een grotere flexibiliteit op de arbeidsmarkt, sterkere bescherming tegen deportatie, geen verplichting om de vergunning te verlengen (alleen de fysieke vergunningskaart moet elke vijf jaar worden vernieuwd) en verbeterde toegang tot Zwitserse hypotheekfinanciering."
+          },
+          "6": {
+            "heading": "Familie-inclusie",
+            "level": "2",
+            "content": "Gezinshereniging is volgens de Zwitserse wet een recht, onder voorwaarden. Een B-permit-houder kan zijn/haar echtgeno(o)t(e) en kinderen jonger dan 18 jaar meenemen naar Zwitserland. De gezinsleden krijgen een eigen B-vergunning. Voor EU/EVA-onderdanen is gezinshereniging in grote lijnen eenvoudig: echtgenoten en kinderen ten laste worden opgenomen in de vergunningsaanvraag. Voor niet-EU-onderdanen moet de vergunninghouder aantonen dat hij beschikt over adequate huisvesting (geschikt voor het gezin) en voldoende financiële middelen om alle gezinsleden te onderhouden. Oudere ouders en volwassen kinderen hebben te maken met restrictievere herenigingsregels en kunnen aparte vergunningsaanvragen met aanvullende rechtvaardiging nodig hebben. Het is belangrijk om de integratie van gezinnen vanaf het begin te plannen; het betrekken van alle gezinsleden bij de eerste aanvraag is aanzienlijk eenvoudiger dan het achteraf aanvragen van gezinshereniging."
+          },
+          "7": {
+            "heading": "De weg naar het Zwitserse staatsburgerschap",
+            "level": "2",
+            "content": "Het Zwitserse staatsburgerschap kan worden verkregen door middel van naturalisatie nadat aan de verblijfsvereisten is voldaan en een reeks beoordelingen is afgelegd. De vereisten voor gewone naturalisatie omvatten: 10 jaar verblijf in Zwitserland (waarbij de jaren tussen 8 en 18 jaar dubbel tellen), minstens 3 jaar in hetzelfde kanton en 2 jaar in dezelfde gemeente (kantonale en gemeentelijke vereisten variëren), taalvaardigheid (B1 gesproken en A2 geschreven in één nationale taal – Duits, Frans, Italiaans of Reto-Romaans), integratie in de Zwitserse gemeenschap (deelname aan het lokale leven, kennis van Zwitserse gewoonten en instellingen), financiële zelfvoorziening (geen sociale bijstand). afhankelijkheid) en een blanco strafblad. Het naturalisatieproces omvat drie goedkeuringsniveaus: gemeentelijk, kantonaal en federaal. Het totale proces van aanvraag tot beslissing duurt doorgaans 1 tot 3 jaar. Het Zwitserse staatsburgerschap geeft je een van de krachtigste paspoorten ter wereld, Zwitsers stemrecht en een extra laag van stabiliteit en veiligheid voor je gezin."
+          }
+        },
+        "imageAlt": "Zwitsers paspoort en B-permit-documenten op een donkerhouten bureau"
+      },
+      "why-wealthy-families-leaving-uae-for-switzerland": {
+        "category": "relocation",
+        "categoryLabel": "Verhuizing",
+        "readTime": "9 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Waarom rijke gezinnen de VAE verlaten voor Zwitserland",
+        "metaDescription": "Waarom vermogende gezinnen verhuizen van Dubai en Abu Dhabi naar Zwitserland: geopolitieke factoren, veiligheid, onderwijs, gezondheidszorg en stabiliteit op de lange termijn.",
+        "excerpt": "Onderzoek naar de groeiende trend van rijke families die van de VAE naar Zwitserland verhuizen – van geopolitieke risico’s en generatiedenken tot onderwijs, gezondheidszorg en levensstijl.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "De VAE – en Dubai in het bijzonder – zijn de afgelopen twintig jaar een van de meest succesvolle welvaartsmagneten ter wereld geweest. Nul inkomstenbelasting, infrastructuur van wereldklasse en een bedrijfsvriendelijke regelgeving hebben ondernemers, family offices en vermogende particulieren van over de hele wereld aangetrokken. Toch neemt een groeiend aantal van deze zelfde families de beslissing om naar Zwitserland te verhuizen. Dit artikel onderzoekt de drijfveren achter deze verschuiving en wat Zwitserland te bieden heeft dat de VAE niet kan bieden."
+          },
+          "1": {
+            "heading": "De geopolitieke factor",
+            "level": "2",
+            "content": "Het Midden-Oosten blijft, ondanks de relatieve stabiliteit van de VAE, een van de geopolitiek meest volatiele regio's ter wereld. De nabijheid van de VAE tot Iran (minder dan 200 kilometer aan de overkant van de Straat van Hormuz), de aanhoudende spanningen in Jemen, de naweeën van de Abraham-akkoorden en de bredere regionale machtsdynamiek creëren een latente risicoomgeving waar veel rijke families zich steeds ongemakkelijker bij voelen. Zwitserland daarentegen heeft al meer dan 500 jaar politieke neutraliteit behouden. Het land heeft sinds 1815 niet meer aan enig militair conflict deelgenomen, is geen lid van de NAVO of enig militair bondgenootschap, en bevindt zich in het geografische en politieke centrum van Europa. Voor gezinnen wier rijkdom in de Golf is opgebouwd, maar die die rijkdom willen veiligstellen in een rechtsgebied dat immuun is voor regionale instabiliteit, vertegenwoordigt Zwitserland de gouden standaard."
+          },
+          "2": {
+            "heading": "Beveiliging en persoonlijke veiligheid",
+            "level": "2",
+            "content": "Hoewel de VAE binnen haar grenzen een uitstekende persoonlijke veiligheid kent, zorgt het bredere veiligheidsklimaat in de regio – en de concentratie van rijkdom in een relatief klein geografisch gebied – voor zorgen die moeilijk weg te nemen zijn. Zwitserland behoort consequent tot de top 3 van veiligste landen ter wereld. Gewelddadige misdaad bestaat vrijwel niet, de persoonlijke veiligheidsinfrastructuur is van wereldklasse (zonder de zichtbare veiligheidsaanwezigheid die gebruikelijk is in de Golf), en de kleine omvang en bergachtige geografie van het land zorgen voor natuurlijke veiligheid. Voor gezinnen met kinderen biedt Zwitserland een niveau van dagelijkse veiligheid dat zich vertaalt in een fundamenteel andere levenskwaliteit: kinderen lopen naar school, spelen in openbare parken en bewegen zich vrij op een manier die zelden mogelijk is in de VAE."
+          },
+          "3": {
+            "heading": "Onderwijs: het lange spel",
+            "level": "2",
+            "content": "Onderwijs is vaak het omslagpunt dat aanleiding geeft tot een verhuizingsbeslissing. Terwijl de VAE zwaar heeft geïnvesteerd in internationale scholen, biedt het Zwitserse onderwijs iets kwalitatief anders. Zwitserland is de thuisbasis van ETH Zürich (consequent gerangschikt in de top 3 wereldwijd), de Universiteit van Zürich, EPFL en een netwerk van meer dan 50 internationale scholen met diepgewortelde tradities. Het Zwitserse onderwijssysteem combineert academische nauwkeurigheid met meertalige onderdompeling, buitenonderwijs en een niveau van veiligheid en stabiliteit dat kostscholen in Groot-Brittannië of de VS niet kunnen evenaren. Voor gezinnen die nadenken over de volgende generatie – waar hun kinderen netwerken zullen opbouwen, welke universiteiten ze zullen bezoeken, in welke gemeenschappen ze zullen opgroeien – biedt Zwitserland een onderwijs-ecosysteem voor de lange termijn dat ongeëvenaard is."
+          },
+          "4": {
+            "heading": "Gezondheidszorg en kwaliteit van leven",
+            "level": "2",
+            "content": "Het Zwitserse gezondheidszorgsysteem wordt consequent tot de beste ter wereld gerekend. Universele verplichte dekking, toonaangevende ziekenhuizen (Universitätsspital Zürich, Hirslanden, Inselspital Bern) en een artsendichtheid van 4,3 per 1.000 inwoners zorgen ervoor dat medische zorg nooit een probleem is. Naast de gezondheidszorg omvat de levenskwaliteit van Zwitserland ongerepte natuurlijke omgevingen, efficiënte openbare infrastructuur en een sociaal contract dat prioriteit geeft aan schone lucht, schoon water, veilige gemeenschappen en culturele rijkdom. De dagelijkse ervaringen in Zwitserland – van de precisie van het openbaar vervoer tot de kwaliteit van kraanwater – weerspiegelen een samenleving die generaties lang heeft geoptimaliseerd voor de kwaliteit van leven."
+          },
+          "5": {
+            "heading": "Belastingvergelijking: niet zo eenvoudig als nul versus iets",
+            "level": "2",
+            "content": "Het meest voorkomende bezwaar tegen verhuizen van de VAE naar Zwitserland is belasting. De VAE heft geen personenbelasting, terwijl Zwitserland dat wel doet. De vergelijking is echter genuanceerder dan het lijkt. Dankzij de Zwitserse forfaitaire belasting kunnen in aanmerking komende personen worden belast op de kosten van levensonderhoud in plaats van op het wereldwijde inkomen. Het effectieve belastingtarief voor een goed gestructureerde forfaitaire regeling kan aanzienlijk lager zijn dan in veel alternatieve rechtsgebieden. De VAE hebben in 2023 een vennootschapsbelasting van 9% ingevoerd, en sinds 2018 is er BTW van kracht, waardoor het voordeel van \"nulbelasting\" voor bedrijven wordt uitgehold. De Zwitserse kantonnale concurrentie betekent dat kantons als Zug en Schwyz enkele van de laagste belastingtarieven in de ontwikkelde wereld bieden. Voor gezinnen met rijkdom die generaties lang moeten worden beschermd, is de vraag niet 'nu geen belasting', maar 'wat zijn de totale kosten van jurisdictie over dertig jaar?' – en als je politieke stabiliteit, vermogensbescherming, erfrecht en de waarde van een Zwitsers paspoort meetelt, concurreert Zwitserland vaak effectiever dan de nominale belastingtarieven doen vermoeden."
+          },
+          "6": {
+            "heading": "Het generatieperspectief",
+            "level": "2",
+            "content": "Misschien wel de meest overtuigende aanjager van de verschuiving van de VAE naar Zwitserland is het generatiedenken. De VAE is als natie nauwelijks 50 jaar oud. De welvaart is geconcentreerd in een specifieke sector (koolwaterstoffen, waar diversificatie aan de gang is) en is afhankelijk van de voortdurende wijsheid van zijn leiderschap. Zwitserland is al meer dan 700 jaar een stabiele, welvarende confederatie. De instellingen, wettelijke kaders en democratische tradities hebben eeuwen van verandering overleefd. Voor gezinnen die nadenken over waar hun kleinkinderen zullen wonen – waar rijkdom beschermd zal worden, waar een paspoort veiligheid zal bieden, waar instellingen in 2060 of 2080 nog zullen functioneren – biedt de eeuwenoude staat van dienst van Zwitserland een niveau van vertrouwen dat geen enkele jurisdictie uit de jaren zeventig kan evenaren."
+          },
+          "7": {
+            "heading": "De transitie maken",
+            "level": "2",
+            "content": "De verhuizing van de VAE naar Zwitserland is een van de meest betreden paden in de internationale welvaartsmigratie. Zwitserse banken, belastingadviseurs en verhuisspecialisten hebben veel ervaring met het helpen van gezinnen uit de Golfstaten. Arabischsprekende professionals zijn beschikbaar bij de meeste grote Zwitserse instellingen, en de culturele brug – opgebouwd gedurende tientallen jaren van zakendoen, onderwijs en persoonlijke relaties – is goed ingeburgerd. De praktische transitie omvat het coördineren van het verlaten van het ingezetenschap van de VAE (wat zijn eigen implicaties heeft voor de visumstatus, zakelijke licenties en bankieren) met de toegang tot het ingezetenschap van Zwitserland. Deze coördinatie is waar professioneel advies het meest waardevol is: ervoor zorgen dat de transitie schoon en fiscaal efficiënt verloopt en dat er niets tussen de gaten valt. Wij zijn gespecialiseerd in precies deze transitie en werken samen met gezinnen uit de hele GCC-regio om naadloze verhuizingen naar Zwitserland uit te voeren."
+          }
+        },
+        "imageAlt": "De skyline van Dubai gaat over in de Zwitserse Alpen in een filmische splitcompositie"
+      },
+      "setting-up-family-office-switzerland": {
+        "category": "wealth-management",
+        "categoryLabel": "Vermogensbeheer",
+        "readTime": "12 minuten lezen",
+        "date": "1 april 2026",
+        "title": "Een Family Office opzetten in Zwitserland: structuur, bestuur en bankieren",
+        "metaDescription": "Complete gids voor het opzetten van een family office in Zwitserland: SFO versus MFO-structuren, Zwitserse bedrijfstypen, bestuurskaders, bankrelaties en het vergelijken van Zug versus Zürich.",
+        "excerpt": "Alles wat u nodig heeft om een ​​Zwitsers family office op te zetten – van de keuze voor SFO versus MFO-structuren en Zwitserse bedrijfstypes tot bestuurskaders, het bankwezen en de beslissing Zug versus Zürich.",
+        "sectionCount": "8",
+        "sections": {
+          "0": {
+            "content": "Zwitserland is een van de belangrijkste rechtsgebieden ter wereld op het gebied van family offices, met naar schatting 3.500 à 4.000 family office-structuren die gezamenlijk biljoenen Zwitserse franken aan activa beheren. De combinatie van politieke stabiliteit, bankinfrastructuur, rechtszekerheid en een grote hoeveelheid gekwalificeerde professionals maakt Zwitserland de logische keuze voor gezinnen die hun vermogensbeheer willen professionaliseren. Deze gids behandelt de belangrijkste overwegingen bij het opzetten van een Zwitsers family office."
+          },
+          "1": {
+            "heading": "Single Family Office (SFO) versus Multi-Family Office (MFO)",
+            "level": "2",
+            "content": "De eerste structurele beslissing is of er één family office (SFO) wordt opgericht die uitsluitend één familie bedient, of dat we ons aansluiten bij een multi-family office (MFO) die meerdere families bedient. Een SFO biedt volledige controle over de investeringsstrategie, het bestuur en de vertrouwelijkheid. Om kosteneffectief te zijn, zijn doorgaans activa onder beheer van CHF 100 miljoen of meer nodig, aangezien de bedrijfskosten van een volledig bemande SFO (inclusief CEO, CIO, CFO, compliance en administratie) kunnen variëren van CHF 1 tot 3 miljoen per jaar. Een MFO biedt professionele vermogensbeheerdiensten aan meerdere gezinnen, waarbij de kosten van infrastructuur, compliance en expertise worden gedeeld. MFO's zijn geschikt voor gezinnen met een vermogen van CHF 20-100 miljoen die beheer op institutioneel niveau willen, zonder de volledige kosten van een speciaal kantoor. Voor gezinnen tussen de 100 en 500 miljoen CHF is een hybride aanpak gebruikelijk: een speciale SFO voor kernbestuur, gezinscoördinatie en strategische beslissingen, gecombineerd met MFO of partnerschappen met private banken voor de uitvoering van investeringen en gespecialiseerde expertise."
+          },
+          "2": {
+            "heading": "Zwitserse bedrijfsstructuren voor Family Offices",
+            "level": "2",
+            "content": "De meest voorkomende juridische structuren voor Zwitserse family offices zijn de AG (Aktiengesellschaft / Corporation) en de GmbH (Gesellschaft mit beschränkter Haftung / vennootschap met beperkte aansprakelijkheid). De AG is de voorkeursstructuur voor grotere family offices. Het vereist een minimum aandelenkapitaal van CHF 100.000 (minstens 20% gestort bij de oprichting, d.w.z. CHF 20.000), biedt flexibiliteit in de aandelenstructuur (inclusief aandelen aan toonder versus aandelen op naam, hoewel aandelen aan toonder nu openbaarmaking van uiteindelijke begunstigden vereisen) en biedt het formele bestuurskader (raad van bestuur, accountants) dat institutionele tegenhangers verwachten. De GmbH vereist een minimumkapitaal van CHF 20.000 (volledig gestort bij oprichting) en is eenvoudiger te beheren. Het is geschikt voor kleinere family offices waar de governancevereisten van een AG niet nodig zijn. Ongeacht de structuur moet een Zwitsers bedrijf dat als family office fungeert, ten minste één directeur hebben die in Zwitserland woonachtig is."
+          },
+          "3": {
+            "heading": "Bestuursvereisten",
+            "level": "2",
+            "content": "Het Zwitserse family office-bestuur zou zich op verschillende belangrijke terreinen moeten richten. De samenstelling van de raad van bestuur moet doorgaans bestaan ​​uit een mix van familieleden en onafhankelijke professionals. De Zwitserse best practice suggereert ten minste één onafhankelijke bestuurder met relevante financiële expertise, en idealiter een meerderheidsonafhankelijk bestuur voor grotere kantoren. Een investeringscomité – los van het bestuur – moet het investeringsbeleid, de risicoparameters, de doelstellingen voor de toewijzing van activa en het monitoren van de prestaties vaststellen. Een familiestatuut of grondwet formaliseert de waarden van het gezin, de besluitvormingsprocessen, de opvolgingsregels en het mandaat van het ambt. Compliance- en rapportagekaders moeten voldoen aan de Zwitserse wettelijke vereisten. Regelmatige rapportage aan familieleden – minimaal elk kwartaal – moet betrekking hebben op de beleggingsprestaties, risicomaatstaven, vergoedingen en bestuurskwesties. Professionele audit (wettelijk of vrijwillig) zorgt voor transparantie en verantwoording."
+          },
+          "4": {
+            "heading": "Bankrelaties",
+            "level": "2",
+            "content": "Een Zwitsers family office onderhoudt doorgaans relaties met meerdere banken. De bewaarder bewaart en beschermt de financiële activa van de familie. De grote Zwitserse banken (UBS, Julius Bär, Pictet, Lombard Odier) bieden allemaal bewaardiensten van institutionele kwaliteit die geschikt zijn voor family offices. De uitvoeringsbank(en) verzorgen de uitvoering van transacties, deviezen en leningen. Sommige family offices gebruiken één enkele bank voor zowel de bewaring als de executie; Anderen geven er de voorkeur aan deze functies te scheiden vanwege risicobeheer en concurrerende prijzen. Kasbeheerrekeningen bij een of meer Zwitserse banken behandelen de operationele kosten en de kortetermijnliquiditeit. Voor family offices met digitale assetallocaties bieden crypto-native banken (SEBA Bank, Sygnum Bank) gereguleerde bewaar- en handelsinfrastructuur."
+          },
+          "5": {
+            "heading": "Zug versus Zürich: uw locatie kiezen",
+            "level": "2",
+            "content": "De twee toonaangevende locaties voor Zwitserse family offices zijn Zürich en Zug, elk met duidelijke voordelen. Zürich biedt de diepste pool van professioneel talent (beleggingsmanagers, advocaten, auditors, compliance-functionarissen), de nabijheid van het grootste financiële centrum van Zwitserland, uitstekende internationale connectiviteit (Zürich Airport) en een levendig cultureel toneel. Zürich heeft echter hogere kantoorkosten en hogere personenbelastingtarieven. Zug biedt aanzienlijk lagere vennootschaps- en personenbelastingtarieven, een bloeiend family office-ecosysteem (na Genève nationaal op de tweede plaats), uitstekende connectiviteit (25 minuten met de trein van Zürich), een gastvrij kantonaal bestuur met ervaring in het bedienen van family offices, en het Crypto Valley-ecosysteem voor kantoren met digitale asset-allocaties. Voor veel family offices is de optimale oplossing een hoofdkantoor van Zug (voor belastingefficiëntie) met teamleden die mogelijk in Zürich of andere nabijgelegen locaties wonen."
+          },
+          "6": {
+            "heading": "Regelgevingsoverwegingen",
+            "level": "2",
+            "content": "Zwitserse family offices profiteren van een relatief licht regelgevingsklimaat, maar moeten aan verschillende eisen voldoen. AML-naleving is vereist als het kantoor financiële activa beheert. Op grond van de Financial Institutions Act (FINIG) en de Financial Services Act (FIDLEG) hebben vermogensbeheerders voor activa van derden een FINMA-vergunning nodig. Een zuivere SFO die alleen de eigen bezittingen van de familie beheert, is echter doorgaans vrijgesteld van deze vereiste. Belastingverplichtingen voor de kantoorentiteit omvatten vennootschapsbelasting, vermogensbelasting en BTW (indien van toepassing). Als het kantoor personeel in Zwitserland in dienst heeft, zijn werkgeversverplichtingen (sociale lasten, pensioenfonds, ongevallenverzekering) van toepassing. Een goede structurering vanaf het begin voorkomt later dure regelgevingscomplicaties."
+          },
+          "7": {
+            "heading": "Tijdlijn en kosten",
+            "level": "2",
+            "content": "Het helemaal opnieuw opzetten van een Zwitsers family office duurt doorgaans drie tot zes maanden, vanaf het initiële ontwerp van de structuur tot aan een volledig operationele entiteit. De belangrijkste mijlpalen zijn onder meer: ​​structuurontwerp en juridische documentatie (2-4 weken), oprichting van een bedrijf (1-2 weken voor het handelsregisterproces), opening van een bankrekening (3-6 weken inclusief nalevingsbeoordeling), teamwerving of plaatsing (4-12 weken, afhankelijk van de rollen) en IT- en operationele opzet (2-4 weken). De opstartkosten (juridische kosten, oprichting, initiële compliance-installatie) variëren doorgaans van CHF 50.000 tot 150.000, afhankelijk van de complexiteit. De doorlopende jaarlijkse kosten voor een middelgrote SFO (3 tot 5 medewerkers) variëren doorgaans van CHF 1 tot 2 miljoen, inclusief salarissen, kantoorkosten, auditkosten, juridische zaken en compliance. Wij adviseren families over de optimale structuur voor hun situatie en begeleiden het gehele inrichtingsproces, vanaf de oprichting tot en met de eerste bestuursvergadering."
+          }
+        },
+        "imageAlt": "Zwitserse family office-bestuurskamer met uitzicht op de Alpen door glazen ramen"
+      }
+    }
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "Hoe lang duurt het om naar Zwitserland te verhuizen?",
+        "answer": "Een typische Zwitserse verhuizing duurt 6-12 maanden, vanaf het eerste advies tot de volledige vestiging. Snelle verhuizingen voor EU/EFTA-onderdanen kunnen in slechts drie maanden worden voltooid, terwijl complexe verhuizingen van meerdere generaties met family offices 12 tot 18 maanden kunnen duren."
+      },
+      {
+        "question": "Wat is forfaitaire belasting (forfait fiscal) in Zwitserland?",
+        "answer": "Forfaitaire belasting is een speciaal belastingregime voor in aanmerking komende buitenlanders die niet in Zwitserland werken. In plaats van te worden belast op het wereldinkomen, wordt uw belastinggrondslag bepaald door uw kosten van levensonderhoud in Zwitserland. Minimumbedragen variëren van CHF 250.000 tot CHF 600.000+, afhankelijk van het kanton."
+      },
+      {
+        "question": "Kunnen buitenlanders onroerend goed kopen in Zwitserland?",
+        "answer": "Ja, maar onderworpen aan de Lex Koller-wet. Vreemdelingen met een geldige Zwitserse verblijfsvergunning (vergunning B of C) kunnen een hoofdverblijfplaats kopen. Voor secundair vastgoed en vastgoedbeleggingen gelden strengere beperkingen en is mogelijk kantonale toestemming vereist."
+      },
+      {
+        "question": "Welk Zwitserse kanton is het beste voor verhuizing?",
+        "answer": "Het beste kanton hangt af van uw prioriteiten. Zug biedt de laagste belastingtarieven en een bloeiende internationale gemeenschap. Zürich biedt de meest kosmopolitische levensstijl en de beste connectiviteit. Schwyz combineert zeer lage belastingen met Alpine-privacy. Wij adviseren over de selectie van kantons op basis van uw specifieke belasting-, levensstijl- en gezinsbehoeften."
+      },
+      {
+        "question": "Hoe open ik een Zwitserse privébankrekening?",
+        "answer": "Voor het openen van een Zwitserse privébankrekening is uitgebreide AML/KYC-documentatie vereist, inclusief identiteitsverificatie, documentatie over de bron van het vermogen en bewijs van de bron van het geld. Voor eenvoudige gevallen duurt het proces doorgaans vier tot acht weken. Wij faciliteren introducties en documentatievoorbereiding."
+      },
+      {
+        "question": "Welke verblijfsvergunningen zijn er beschikbaar in Zwitserland?",
+        "answer": "De belangrijkste vergunningen zijn: B-permit (verblijf, verlengbaar, standaard toegangspunt), C-permit (permanente vestiging, beschikbaar na 5-10 jaar), L-vergunning (korte termijn) en G-vergunning (grensoverschrijdend). Voor vermogende particulieren is de B-permit gekoppeld aan forfaitaire belastingheffing het meest gebruikelijke traject."
+      }
+    ]
+  },
+  "cookieConsent": {
+    "message": "Wij gebruiken cookies om uw ervaring te verbeteren. Essentiële cookies zijn nodig om de website te laten functioneren. Analytische cookies helpen ons onze service te verbeteren.",
+    "acceptAll": "Accepteer alles",
+    "essentialOnly": "Alleen essentieel"
+  },
+  "contactCopy": {
+    "pageTitle": "Vertrouwelijke verhuisintake",
+    "pageSubtitle": "Deel de essentie privé, zodat we vóór het eerste gesprek het juiste Zwitserse pad kunnen beoordelen.",
+    "confidential": "Alle vragen worden strikt vertrouwelijk behandeld.",
+    "noSensitive": "Stuur geen paspoorten, bankafschriften of gevoelige documenten via dit formulier.",
+    "serviceError": "Selecteer ten minste één servicegebied.",
+    "sections": {
+      "situationTitle": "1. Uw situatie",
+      "situationText": "Met de basisprincipes kunnen we het onderzoek op de juiste manier afhandelen zonder om gevoelige documentatie te vragen.",
+      "coordinationTitle": "2. Wat moet worden gecoördineerd",
+      "coordinationText": "Selecteer elk gebied dat relevant kan zijn. Een precies antwoord is in dit stadium niet nodig.",
+      "responseTitle": "3. Hoe te reageren",
+      "responseText": "Wij zullen deze gegevens uitsluitend gebruiken om uw vraag te beoordelen en te beantwoorden."
+    },
+    "labels": {
+      "enquiryType": "Ik vraag het als",
+      "primaryGoal": "Primair doel",
+      "country": "Land van huidige verblijfplaats",
+      "nationality": "Nationaliteit of staatsburgerschap",
+      "timeline": "Tijdlijn",
+      "servicesNeeded": "Diensten nodig",
+      "targetCanton": "Target kanton of stad",
+      "familySize": "Familieleden verhuizen",
+      "existingAdvisors": "Bestaande Zwitserse adviseurs",
+      "name": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer (optioneel)",
+      "hearAbout": "Hoe heb je over ons gehoord? (optioneel)",
+      "preferredContact": "Voorkeur reactie",
+      "message": "Jouw bericht"
+    },
+    "placeholders": {
+      "targetCanton": "Zug, Zürich, Schwyz, onbeslist...",
+      "familySize": "Alleen ik, stel, gezin van vier...",
+      "message": "Wat moeten we begrijpen vóór het eerste vertrouwelijke gesprek?"
+    },
+    "submit": "Dien een vertrouwelijke intake in",
+    "privacyConsent": "Ik geef toestemming dat Move to Switzerland deze informatie verwerkt om op mijn vraag te reageren. Ik begrijp dat ik geen gevoelige documenten via dit formulier mag indienen.",
+    "aside": {
+      "title": "Privé beoordeling",
+      "paragraphs": [
+        "Deze intake is bedoeld voor vragen over verhuizing, ingezetenschap, belastingen, family office en schikkingen waarbij discretie van belang is.",
+        "Een beknopte eerste inzending is voldoende. Als de zaak geschikt is, is de volgende stap een privéconsultatie voordat er om documenten wordt gevraagd."
+      ],
+      "items": [
+        "Vertrouwelijke beoordeling",
+        "Er is geen openbaar adres van de ontvanger zichtbaar",
+        "Geen gevoelige documenten gevraagd",
+        "De respons wordt gerouteerd via een privéworkflow op de server"
+      ]
+    },
+    "options": {
+      "enquiryTypes": [
+        {
+          "value": "private-individual",
+          "label": "Particulier"
+        },
+        {
+          "value": "family-office",
+          "label": "Familie kantoor"
+        },
+        {
+          "value": "entrepreneur",
+          "label": "Ondernemer"
+        },
+        {
+          "value": "advisor",
+          "label": "Adviseur voor een opdrachtgever"
+        },
+        {
+          "value": "other",
+          "label": "Ander"
+        }
+      ],
+      "primaryGoals": [
+        {
+          "value": "family-relocation",
+          "label": "Ikzelf of mijn gezin verhuizen"
+        },
+        {
+          "value": "tax-residency",
+          "label": "Zwitserse belasting- en verblijfsplanning"
+        },
+        {
+          "value": "company-family-office",
+          "label": "Bedrijfs- of family-office-opstelling"
+        },
+        {
+          "value": "settlement",
+          "label": "Onroerend goed, scholen en vestiging"
+        },
+        {
+          "value": "banking-wealth",
+          "label": "Coördinatie van bank- en vermogensbeheer"
+        },
+        {
+          "value": "swiss-arrival",
+          "label": "Swiss Arrival-gids"
+        }
+      ],
+      "timelines": [
+        {
+          "value": "urgent",
+          "label": "Dringend"
+        },
+        {
+          "value": "under-3-months",
+          "label": "Minder dan 3 maanden"
+        },
+        {
+          "value": "3-6-months",
+          "label": "3-6 maanden"
+        },
+        {
+          "value": "6-12-months",
+          "label": "6-12 maanden"
+        },
+        {
+          "value": "early-planning",
+          "label": "Vroeg plannen"
+        }
+      ],
+      "services": [
+        {
+          "value": "residence-permits",
+          "label": "Verblijfsvergunningen"
+        },
+        {
+          "value": "lump-sum-taxation",
+          "label": "Forfaitaire belastingheffing"
+        },
+        {
+          "value": "company-formation",
+          "label": "Bedrijfsvorming"
+        },
+        {
+          "value": "family-office",
+          "label": "Familie kantoor"
+        },
+        {
+          "value": "real-estate",
+          "label": "Vastgoed"
+        },
+        {
+          "value": "schooling",
+          "label": "Scholen"
+        },
+        {
+          "value": "private-banking",
+          "label": "Privébankieren"
+        },
+        {
+          "value": "health-concierge",
+          "label": "Gezondheid conciërge"
+        },
+        {
+          "value": "full-coordination",
+          "label": "Volledige verhuiscoördinatie"
+        }
+      ],
+      "contactMethods": [
+        {
+          "value": "email",
+          "label": "E-mail"
+        },
+        {
+          "value": "phone",
+          "label": "Telefoon"
+        }
+      ],
+      "advisorOptions": [
+        {
+          "value": "yes",
+          "label": "Ja"
+        },
+        {
+          "value": "no",
+          "label": "Nee"
+        },
+        {
+          "value": "not-sure",
+          "label": "Niet zeker"
+        }
+      ]
+    }
+  },
+  "contactEnhancementCopy": {
+    "metadata": {
+      "title": "Vertrouwelijke Zwitserse verhuizingsintake - Move to Switzerland",
+      "description": "Dien een privé Zwitsers verhuisverzoek in voor ingezetenschap, belastingen, family office, scholen, bankzaken en vestigingsplanning."
+    },
+    "progressTitle": "Voortgang van de intake",
+    "optionalContextTitle": "Aanvullende planningscontext",
+    "optionalContextText": "Optionele bereiken zijn voldoende. Voeg geen paspoorten, rekeningafschriften of gevoelige documenten toe.",
+    "showOptional": "Voeg optionele planningscontext toe",
+    "hideOptional": "Optionele planningscontext verbergen",
+    "labels": {
+      "relocationYear": "Verwacht verhuisjaar",
+      "preferredCantons": "Voorkeur kantons",
+      "advisoryScope": "Adviesbereik",
+      "schoolAgeRange": "Kinderen die een plaatsing op school nodig hebben",
+      "urgencyReason": "Wat bepaalt de timing?"
+    },
+    "placeholders": {
+      "relocationYear": "2026, 2027, flexibele planning...",
+      "schoolAgeRange": "6 en 11 jaar, instapmogelijkheid, geen kinderen...",
+      "urgencyReason": "Schooljaar, belastingjaar, timing van de vergunning, zoeken naar onroerend goed..."
+    },
+    "validation": {
+      "required": "Vul dit verplichte veld in.",
+      "email": "Voer een geldig e-mailadres in.",
+      "servicesNeeded": "Selecteer ten minste één servicegebied.",
+      "preferredContact": "Selecteer hoe we moeten reageren.",
+      "phoneRequired": "Voeg een telefoonnummer toe of kies e-mail als voorkeursantwoord.",
+      "consent": "Bevestig de privacytoestemming.",
+      "submitError": "Het onderzoek kan momenteel niet worden verzonden. Probeer het later opnieuw."
+    },
+    "status": {
+      "sending": "Verzenden...",
+      "successTitle": "Onderzoek ontvangen",
+      "successText": "Bedankt. Wij nemen de intake privé door en reageren via het door jou gekozen kanaal."
+    },
+    "process": {
+      "title": "Wat gebeurt er daarna",
+      "intro": "Een korte eerste inzending is voldoende. Als de zaak geschikt is, is de volgende stap een privéconsultatie voordat documenten worden opgevraagd.",
+      "steps": [
+        "Privébeoordeling van het verhuisprofiel",
+        "Initiële geschiktheidsbeoordeling voor kanton-, ingezetenschap-, belasting-, familie- en zakelijke behoeften",
+        "Vertrouwelijk antwoord via het geselecteerde antwoordkanaal"
+      ]
+    },
+    "trust": {
+      "title": "Vertrouwelijkheidsnormen",
+      "items": [
+        "In Zwitserland geregistreerde entiteit",
+        "Privéroutering op de server",
+        "Er is geen openbaar adres van de ontvanger zichtbaar",
+        "Er worden geen gevoelige documenten opgevraagd via het formulier",
+        "Geen WhatsApp-overdracht"
+      ]
+    },
+    "options": {
+      "advisoryScopes": [
+        {
+          "value": "personal-only",
+          "label": "Alleen persoonlijk"
+        },
+        {
+          "value": "family",
+          "label": "Familie"
+        },
+        {
+          "value": "company",
+          "label": "Bedrijf"
+        },
+        {
+          "value": "family-office",
+          "label": "Familie kantoor"
+        }
+      ],
+      "preferredCantons": [
+        {
+          "value": "undecided",
+          "label": "Onbeslist"
+        },
+        {
+          "value": "zurich",
+          "label": "Zurich"
+        },
+        {
+          "value": "zug",
+          "label": "Zug"
+        },
+        {
+          "value": "schwyz",
+          "label": "Schwyz"
+        },
+        {
+          "value": "nidwalden",
+          "label": "Nidwalden"
+        },
+        {
+          "value": "obwalden",
+          "label": "Obwalden"
+        },
+        {
+          "value": "lucerne",
+          "label": "Lucerne"
+        },
+        {
+          "value": "other",
+          "label": "Ander"
+        }
+      ]
+    },
+    "privacy": {
+      "beforeLink": "Ik ga ermee akkoord dat Move to Switzerland deze informatie verwerkt om op mijn vraag te reageren en de ",
+      "linkText": "privacybeleid",
+      "afterLink": ". Ik begrijp dat ik geen gevoelige documenten via dit formulier mag indienen."
+    },
+    "honeypotLabel": "Bedrijfswebsite"
+  },
+  "conversionCopy": {
+    "cta": {
+      "creamTitle": "Klaar om de juiste Zwitserse route te begrijpen?",
+      "creamText": "Begin met een privé assessment, of gebruik het begeleidingstraject als je nog vroeg in de beslissing zit.",
+      "navyTitle": "Klaar om van Zwitserland een uitvoerbaar plan te maken?",
+      "navyText": "Deel de essentie privé, of begin met de Swiss Arrival-gids als u nog steeds opties vergelijkt.",
+      "privateAssessment": "Vraag een privé taxatie aan",
+      "guide": "Download de Swiss Arrival-gids"
+    },
+    "home": {
+      "heroBadge": "Zwitserse verhuisadvies",
+      "heroTitle": "Verhuizen naar Zwitserland met gecoördineerde vergunningen, belastingen, bankzaken, scholen en vestiging.",
+      "heroSubtitle": "Particulier, in Zwitserland gevestigd adviesbureau voor ondernemers, vermogensbezitters, families en family offices die verhuizen naar Zürich, Zug, Schwyz, Genève, Vaud en daarbuiten.",
+      "heroProof": [
+        {
+          "label": "Coördinatie in Zwitserland",
+          "value": "Zurich, Zug, Schwyz"
+        },
+        {
+          "label": "Privé intake",
+          "value": "No sensitive documents"
+        },
+        {
+          "label": "Gebouwd voor",
+          "value": "Founders, families, family offices"
+        },
+        {
+          "label": "Werkstromen",
+          "value": "Permits, tax, banking, schools"
+        }
+      ],
+      "planTitle": "Zwitsers verhuisplan",
+      "planPeriod": "Eerste 30 dagen",
+      "planRows": [
+        [
+          "01",
+          "Residentie route",
+          "B-permit, gezinsinclusie, timing"
+        ],
+        [
+          "02",
+          "Kanton besluit",
+          "Belasting, school, huisvesting, woon-werkverkeer"
+        ],
+        [
+          "03",
+          "Bereidheid van de bank",
+          "Bron-van-rijkdom-verhaal en introducties"
+        ],
+        [
+          "04",
+          "Schikking",
+          "Huisvesting, verzekeringen, scholen, dagelijkse inrichting"
+        ]
+      ],
+      "planFooter": "Het doel is niet meer advies. Het is een opeenvolging die voorkomt dat vergunningen, het bankwezen, scholen en huisvesting elkaar blokkeren.",
+      "trustStrip": [
+        "Privé beoordeling",
+        "Vergelijking van Zwitserse kantons",
+        "Bankklare documentatie",
+        "Familieregeling"
+      ],
+      "processTitle": "Van eerste gesprek tot een Zwitsers plan dat u kunt uitvoeren",
+      "processText": "Verhuizingen met een hoge waarde mislukken wanneer werkstromen afzonderlijk worden verplaatst. De eerste stap is een helder werkingsmodel voordat iemand documenten opvraagt.",
+      "processSteps": [
+        {
+          "title": "Privé beoordeling",
+          "text": "We brengen het gezin, het bedrijf, het staatsburgerschap, de tijdlijn en gevoelige beperkingen in kaart voordat er documenten worden opgevraagd."
+        },
+        {
+          "title": "Zwitsers routeplan",
+          "text": "Je krijgt een praktische kanton- en werkstroomreeks over vergunningen, belastingen, bankzaken, huisvesting, scholen en vestiging."
+        },
+        {
+          "title": "Gecoördineerde uitvoering",
+          "text": "Eén verantwoordelijk punt zorgt ervoor dat advocaten, banken, scholen, onroerend goed en bestaande adviseurs in de juiste volgorde bewegen."
+        }
+      ],
+      "signalsBadge": "Wat wordt gecoördineerd",
+      "signalsTitle": "Specifieke Zwitserse uitvoering, geen algemene verhuispraat",
+      "signalsText": "De waardepropositie is operationeel: minder gaten tussen belastingen, vergunningen, bankzaken, huisvesting, scholen en de eerste normale dag in Zwitserland.",
+      "signals": [
+        "Kantonvergelijking vóór verbintenis",
+        "Vergunningstijdlijn afgestemd op schoolinstroom",
+        "Bankdocumentatie opgesteld vóór introductie",
+        "Het zoeken naar woningen afgestemd op de belasting- en woon-werkrealiteit",
+        "Bestaande adviseurs bleven op de hoogte in plaats van vervangen",
+        "Geen paspoorten, bankafschriften of gevoelige bestanden via openbare formulieren"
+      ],
+      "pathsTitle": "Populaire verhuispaden",
+      "pathsText": "Bezoekers met een hoge intentie zouden generieke servicepagina's niet naar hun eigen situatie hoeven te vertalen.",
+      "discussRoute": "Bespreek mijn route"
+    },
+    "caseSnapshots": {
+      "techFounder": [
+        {
+          "label": "Uitgangspunt",
+          "value": "Dubai, post-exit founder"
+        },
+        {
+          "label": "Zwitserse basis",
+          "value": "Zug family residence"
+        },
+        {
+          "label": "Kernrisico",
+          "value": "Crypto wealth documentation"
+        },
+        {
+          "label": "Resultaat",
+          "value": "Permit, school, banking, office active"
+        }
+      ],
+      "bankingFamily": [
+        {
+          "label": "Uitgangspunt",
+          "value": "Beirut, emergency relocation"
+        },
+        {
+          "label": "Zwitserse basis",
+          "value": "Schwyz privacy-first settlement"
+        },
+        {
+          "label": "Kernrisico",
+          "value": "Three-generation estate complexity"
+        },
+        {
+          "label": "Resultaat",
+          "value": "Family settled with Swiss governance"
+        }
+      ],
+      "digitalNomad": [
+        {
+          "label": "Uitgangspunt",
+          "value": "Riyadh, crypto investor"
+        },
+        {
+          "label": "Zwitserse basis",
+          "value": "Zurich apartment and GmbH"
+        },
+        {
+          "label": "Kernrisico",
+          "value": "Non-traditional wealth profile"
+        },
+        {
+          "label": "Resultaat",
+          "value": "Permit and dual banking setup"
+        }
+      ],
+      "gulfFamilyOffice": [
+        {
+          "label": "Uitgangspunt",
+          "value": "Kuwait, multi-jurisdiction office"
+        },
+        {
+          "label": "Zwitserse basis",
+          "value": "Zug single family office"
+        },
+        {
+          "label": "Kernrisico",
+          "value": "Governance across generations"
+        },
+        {
+          "label": "Resultaat",
+          "value": "Swiss board and reporting live"
+        }
+      ]
+    },
+    "quiz": {
+      "eyebrow": "Canton fit-quiz",
+      "title": "Zoek eerst de Zwitserse route die het waard is om te bespreken",
+      "description": "Een filter met vier vragen voor serieuze verhuizers. Het vervangt geen advies, maar geeft het eerste consult wel een scherper uitgangspunt.",
+      "likelyRoute": "Waarschijnlijk eerste route",
+      "namePlaceholder": "Naam",
+      "emailPlaceholder": "E-mail",
+      "sendPlan": "Plan versturen",
+      "sending": "Verzenden",
+      "success": "Je quizresultaat is verzonden. We zullen het gebruiken als context voor het eerste antwoord.",
+      "error": "Het resultaat kan momenteel niet worden verzonden.",
+      "fullIntake": "Vul de volledige vertrouwelijke intake in",
+      "guide": "Download de Swiss Arrival-gids",
+      "questions": [
+        {
+          "key": "profile",
+          "label": "Wie gaat verhuizen?",
+          "options": [
+            {
+              "value": "entrepreneur",
+              "label": "Oprichter"
+            },
+            {
+              "value": "family",
+              "label": "Familie"
+            },
+            {
+              "value": "family-office",
+              "label": "Familie kantoor"
+            },
+            {
+              "value": "private-wealth",
+              "label": "Privé rijkdom"
+            }
+          ]
+        },
+        {
+          "key": "priority",
+          "label": "Wat is het belangrijkst?",
+          "options": [
+            {
+              "value": "tax",
+              "label": "Belastingplanning"
+            },
+            {
+              "value": "schools",
+              "label": "Scholen"
+            },
+            {
+              "value": "privacy",
+              "label": "Privacy"
+            },
+            {
+              "value": "business",
+              "label": "Bedrijfsopstelling"
+            },
+            {
+              "value": "urban",
+              "label": "Toegang tot de stad"
+            }
+          ]
+        },
+        {
+          "key": "origin",
+          "label": "Huidige basis",
+          "options": [
+            {
+              "value": "denmark",
+              "label": "Denemarken"
+            },
+            {
+              "value": "uae",
+              "label": "UAE"
+            },
+            {
+              "value": "uk",
+              "label": "UK"
+            },
+            {
+              "value": "gcc",
+              "label": "GCC"
+            },
+            {
+              "value": "eu",
+              "label": "EU"
+            },
+            {
+              "value": "other",
+              "label": "Ander"
+            }
+          ]
+        },
+        {
+          "key": "timeline",
+          "label": "Verwachte timing",
+          "options": [
+            {
+              "value": "urgent",
+              "label": "Dringend"
+            },
+            {
+              "value": "under-3-months",
+              "label": "Minder dan 3 maanden"
+            },
+            {
+              "value": "3-6-months",
+              "label": "3-6 maanden"
+            },
+            {
+              "value": "early-planning",
+              "label": "Vroeg plannen"
+            }
+          ]
+        }
+      ],
+      "originLabels": {
+        "denmark": "Denemarken",
+        "uae": "Verenigde Arabische Emiraten",
+        "uk": "Verenigd Koninkrijk",
+        "gcc": "GCC",
+        "eu": "Europese Unie",
+        "other": "Anders of niet gespecificeerd"
+      },
+      "results": {
+        "zug": {
+          "title": "Zug eerst, met Zürich als praktische back-up",
+          "summary": "Uw antwoorden wijzen in de richting van Zug vanwege de belastingen, de oprichting van bedrijven, de toegang tot banken en de infrastructuur van de oprichters. Zürich zou in de vergelijking moeten blijven als scholen, personeelswerving of dagelijkse toegang tot de stad er toe doen."
+        },
+        "zurich": {
+          "title": "Zürich op de eerste plaats, met Zug en Schwyz als benchmark",
+          "summary": "Uw antwoorden wijzen in de richting van Zürich wat betreft scholen, toegang tot luchthavens, internationale gemeenschap, bankdichtheid en het dagelijks leven. Zug of Schwyz kunnen nog steeds winnen als de belastingprivacy de toegang tot de stad overtreft."
+        },
+        "schwyz": {
+          "title": "Schwyz eerst, met Zug als operationele vergelijking",
+          "summary": "Uw antwoorden wijzen in de richting van Schwyz vanwege privacy, een leven met lagere belastingen en een stillere gezinsbasis. De afweging is een lagere institutionele dichtheid dan in Zürich of Zug, dus de volgorde is van belang."
+        },
+        "vaudGeneva": {
+          "title": "Eerst Vaud of Genève, waarbij de haalbaarheid van het forfait vroegtijdig wordt gecontroleerd",
+          "summary": "Uw antwoorden wijzen in de richting van een Franstalig kanton waar forfaitaire belastingen, scholen en internationale gezinsinfrastructuur samen kunnen worden beoordeeld voordat er een verbintenis wordt aangegaan."
+        }
+      }
+    },
+    "relocationPage": {
+      "home": "Home",
+      "takeQuiz": "Doe de Canton Fit-quiz",
+      "startingPoint": "Uitgangspunt",
+      "likelyCantons": "Waarschijnlijk kantons",
+      "questionsTitle": "De vragen die u moet beantwoorden voordat u zich vastlegt",
+      "questionsText": "Een serieuze verhuizingsplanning begint vóór formulieren, huurcontracten, schoolbezoeken of bankintroducties. Dit zijn de beslissingen die meestal de route bepalen.",
+      "workstreamSequence": "Werkstroomvolgorde",
+      "coordinateTitle": "Wat we coördineren voor deze route",
+      "workstream": "Werkstroom",
+      "whyClientsUseUs": "Waarom klanten ons gebruiken",
+      "valueTitle": "De waarde is coördinatie, en niet nog een geïsoleerde mening",
+      "compareRoute": "Vergelijk een andere route",
+      "askSituation": "Vraag naar mijn situatie"
+    },
+    "relocationPaths": {
+      "from-denmark": {
+        "slug": "from-denmark",
+        "audience": "Deense oprichters en families",
+        "title": "Move to Switzerland uit Denemarken",
+        "description": "Een praktisch pad voor Deense ondernemers, investeerders en gezinnen waarin Zwitserse ingezetenschap, belastingen, bankzaken, scholen en vestiging worden vergeleken.",
+        "metaDescription": "Verhuisadvies voor Deense ondernemers en gezinnen die naar Zwitserland verhuizen. Vergelijk kantons, vergunningen, belastingen, banken, scholen en vestiging.",
+        "startingPoint": "Denemarken",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich"
+        ],
+        "urgentQuestions": [
+          "Wanneer moet de planning van de Deense belastingaftrek beginnen?",
+          "Welk Zwitserse kanton past bij het gezinsleven en het bedrijfseigendom?",
+          "Hoe moeten het bankwezen, scholen, huisvesting en vergunningen worden geordend?"
+        ],
+        "workstreams": [
+          "Deense exit en Zwitserse entry-tijdlijn",
+          "Kantonvergelijking voor belastingen, scholen en luchthaventoegang",
+          "B-permit-aanvraag en gezinsopname",
+          "Private banking en voorbereiding op de bron van rijkdom"
+        ],
+        "proofPoints": [
+          "Gebouwd voor grensoverschrijdende oprichters die één verantwoordelijke coördinator nodig hebben",
+          "Behandelt praktische vestiging, niet alleen belastingtheorie",
+          "Ontworpen voor gezinnen die de schooltiming vroegtijdig moeten regelen"
+        ]
+      },
+      "from-uae": {
+        "slug": "from-uae",
+        "audience": "Inwoners van de VAE en oprichters na de exit",
+        "title": "Move to Switzerland uit de VAE",
+        "description": "Een gecoördineerde verhuizingsroute voor oprichters, investeerders en families uit de VAE die hun rijkdom, verblijfplaats, scholen en bestuur naar Zwitserland verhuizen.",
+        "metaDescription": "Zwitsers verhuisadvies voor inwoners, oprichters en families van de VAE. Coördineer vergunningen, bankzaken, vermogensdocumentatie, scholen en kantonselectie.",
+        "startingPoint": "UAE",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Geneva"
+        ],
+        "urgentQuestions": [
+          "Hoe moet documentatie over de bron van rijkdom worden opgesteld voor Zwitserse banken?",
+          "Kan een bedrijfsstructuur in de VAE worden gereorganiseerd vóór de Zwitserse residentie?",
+          "Welk kanton is zinvol voor toegang voor gezinnen, banken en bedrijven?"
+        ],
+        "workstreams": [
+          "Beoordeling van activa en bedrijven vóór immigratie",
+          "Zwitsers bankgereedheids- en documentatieverhaal",
+          "Verblijfsvergunning en gezinsverhuizingsvolgorde",
+          "Shortlist en bezoeken van internationale scholen"
+        ],
+        "proofPoints": [
+          "Sterk geschikt voor crypto, private equity en de rijkdom van werkmaatschappijen",
+          "Parallelle afhandeling van vergunningen, bankzaken, huisvesting en scholen",
+          "Handig voor gezinnen die snel verhuizen na een liquiditeitsgebeurtenis"
+        ]
+      },
+      "from-uk": {
+        "slug": "from-uk",
+        "audience": "Britse non-doms, oprichters en family offices",
+        "title": "Move to Switzerland uit Groot-Brittannië",
+        "description": "Een Zwitsers verhuistraject voor inwoners van het Verenigd Koninkrijk, waarbij de fiscale woonplaats, de gezinsregeling, het vermogensbeheer, het bankwezen en de veiligheid op de lange termijn worden beoordeeld.",
+        "metaDescription": "Zwitsers verhuisadvies voor inwoners van het Verenigd Koninkrijk, oprichters, non-doms en family offices die naar Zwitserland verhuizen. Plan verblijfsvergunning, belastingen, bankzaken en scholen.",
+        "startingPoint": "Verenigd Koninkrijk",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Wanneer eindigt de Britse fiscale woonplaats en begint de Zwitserse fiscale woonplaats?",
+          "Is een forfaitaire belastingheffing haalbaar voor het gezinsprofiel?",
+          "Welke school- en kantoncombinatie beschermt de gezinstijdlijn?"
+        ],
+        "workstreams": [
+          "Vertrek uit Groot-Brittannië en Zwitserse aankomsttijdlijn",
+          "Forfait beoordeling van de fiscale haalbaarheid",
+          "Vergelijking van scholen, huisvesting en kantons",
+          "Coördinatie van bank-, governance- en adviseurs"
+        ],
+        "proofPoints": [
+          "Gebouwd voor gezinnen die een schone verhuizing nodig hebben, geen gefragmenteerd advies",
+          "Verbindt Zwitserse levensstijlbeslissingen met de belasting- en bankrealiteit",
+          "Houdt bestaande Britse adviseurs gecoördineerd met de Zwitserse uitvoering"
+        ]
+      },
+      "from-saudi-arabia": {
+        "slug": "from-saudi-arabia",
+        "audience": "Saoedische oprichters, investeerders en families",
+        "title": "Move to Switzerland uit Saoedi-Arabië",
+        "description": "Een Zwitserse relocatieroute voor Saoedische ondernemers en gezinnen die hun verblijf, bankbereidheid, scholen, huisvesting en kantonselectie coördineren.",
+        "metaDescription": "Zwitsers verhuisadvies voor Saoedische oprichters, investeerders en families. Planvergunningen, bankzaken, scholen, belastingen, huisvesting en kantonselectie.",
+        "startingPoint": "Saoedi-Arabië",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Welk Zwitserse kanton past bij de school-, privacy- en bankprioriteiten van het gezin?",
+          "Hoe moet Saoedische documentatie over de bron van rijkdom worden opgesteld vóór de introductie van banken?",
+          "Kunnen vergunningen, huisvesting, scholen en adviseurcoördinatie parallel verlopen?"
+        ],
+        "workstreams": [
+          "Tijdlijn voor vertrek uit Saudi-Arabië en aankomst in Zwitserland",
+          "Het verhaal over de gereedheid van banken en de documentatie van rijkdom",
+          "Vergelijking van scholen, huisvesting en kantons",
+          "Vergunningaanvraag, verzekering en vestigingsvolgorde"
+        ],
+        "proofPoints": [
+          "Ontworpen voor gezinnen die samen aanzienlijke bezittingen en het dagelijkse leven verplaatsen",
+          "Houdt bankzaken, vergunningen, scholen en huisvesting in één gecoördineerde volgorde",
+          "Handig voordat gevoelige documenten worden gedeeld met banken of adviseurs"
+        ]
+      },
+      "from-qatar": {
+        "slug": "from-qatar",
+        "audience": "In Qatar gevestigde particuliere klanten",
+        "title": "Move to Switzerland uit Qatar",
+        "description": "Een discreet pad voor in Qatar gevestigde families, leidinggevenden en investeerders die Zwitserse residentie, private banking, scholing en vestiging vergelijken.",
+        "metaDescription": "Zwitsers verhuisadvies voor in Qatar gevestigde families en investeerders. Coördineer vergunningen, private banking, scholen, huisvesting en kantonkeuze.",
+        "startingPoint": "Qatar",
+        "likelyCantons": [
+          "Geneva",
+          "Vaud",
+          "Zurich",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Welk kanton biedt de juiste mix van discretie, scholen en toegang tot banken?",
+          "Hoe moeten bestaande GCC-adviseurs gecoördineerd blijven met de Zwitserse uitvoering?",
+          "Wat moet worden opgelost vóór schoolbezoeken of huisvestingsverplichtingen?"
+        ],
+        "workstreams": [
+          "Verblijfsroute en gezinsinclusie",
+          "Gereedheid voor private banking en coördinatie van adviseurs",
+          "Shortlist en bezoekschema van internationale scholen",
+          "Huisvesting, verzekeringen, zorg en dagafrekening"
+        ],
+        "proofPoints": [
+          "Gebouwd voor klanten die discretie belangrijker vinden dan publieke verplichtingen",
+          "Verbindt levensstijlbeslissingen met bankieren en vergunningtiming",
+          "Houdt bestaande family-office of juridische adviseurs op één lijn"
+        ]
+      },
+      "from-kuwait": {
+        "slug": "from-kuwait",
+        "audience": "Koeweitse family offices en families",
+        "title": "Move to Switzerland uit Koeweit",
+        "description": "Een Zwitserse hervestigings- en bestuursroute voor Koeweitse gezinnen, waarbij het verblijf, het bankwezen, de opvolging, scholen en een stabiele Europese basis worden gecoördineerd.",
+        "metaDescription": "Zwitsers verhuisadvies voor Koeweitse families en family offices. Planvergunningen, private banking, bestuur, scholen en vestiging.",
+        "startingPoint": "Kuwait",
+        "likelyCantons": [
+          "Zug",
+          "Geneva",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Moet de Zwitserse beweging worden gestructureerd rond gezinswoning, bestuur of beide?",
+          "Welk kanton past het beste bij privacy, belastingen en gezinslogistiek?",
+          "Hoe moeten de werkstromen op het gebied van bankieren, bestuur en rapportage worden geordend?"
+        ],
+        "workstreams": [
+          "Familieprofiel en governance-scoping",
+          "Kantonvergelijking voor woon-, privacy- en family office-behoeften",
+          "Private banking en voorbereiding op de bron van rijkdom",
+          "Scholing, huisvesting, gezondheidszorg en gezinsregeling"
+        ],
+        "proofPoints": [
+          "Handig voor gezinnen met meerdere generaties die bestuur en verhuizing nodig hebben",
+          "Ontworpen voor vertrouwelijke Zwitserse configuratie vóór openbare toezeggingen",
+          "Coördineert de afhankelijkheden van familie, bank, bestuur en vestiging"
+        ]
+      },
+      "from-singapore": {
+        "slug": "from-singapore",
+        "audience": "In Singapore gevestigde oprichters en family offices",
+        "title": "Move to Switzerland uit Singapore",
+        "description": "Een route voor in Singapore gevestigde ondernemers en family offices die Zwitserland vergelijken als Europese vestigings-, bank-, bestuurs- en levensstijlbasis.",
+        "metaDescription": "Zwitsers relocatieadvies voor in Singapore gevestigde oprichters en family offices. Vergelijk ingezetenschap, belastingen, bankwezen, bestuur, scholen en kantons.",
+        "startingPoint": "Singapore",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Wat verandert er als een basis in Singapore wordt aangevuld met een Zwitserse residentie?",
+          "Welke werkstromen moeten worden geordend vóór de gezinsverhuizing?",
+          "Hoe moeten het bankwezen en het bestuur worden voorbereid op een op Zwitserland gerichte opzet?"
+        ],
+        "workstreams": [
+          "Singapore exit of dual-base planning",
+          "Vergelijking van Zwitserse woonplaats en kanton",
+          "Coördinatie van bank-, governance- en adviseurs",
+          "Scholen, huisvesting, verzekeringen en dagafrekening"
+        ],
+        "proofPoints": [
+          "Gebouwd voor klanten die twee hoogwaardige rechtsgebieden met elkaar vergelijken",
+          "Houdt Zwitserse levensstijlbeslissingen verbonden met bankieren en bestuur",
+          "Handig voordat u een kanton-, huur- of schooltraject afsluit"
+        ]
+      },
+      "from-hong-kong": {
+        "slug": "from-hong-kong",
+        "audience": "Ondernemers en gezinnen uit Hongkong",
+        "title": "Move to Switzerland uit Hong Kong",
+        "description": "Een particulier Zwitsers verhuistraject voor oprichters, vermogensbezitters en gezinnen uit Hongkong die op zoek zijn naar een stabiele Europese basis met sterke scholen en banken.",
+        "metaDescription": "Zwitsers verhuisadvies voor oprichters en families van Hong Kong. Plan residentie, bankieren, scholen, belastingen, huisvesting en kantonselectie.",
+        "startingPoint": "Hong Kong",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Geneva",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Welk Zwitserse kanton past bij een internationale familie uit Hong Kong?",
+          "Hoe moeten bankdocumentatie en de geschiedenis van de bron van rijkdom worden voorbereid?",
+          "Wat kan er vóór schoolbezoeken en huiszoekingen worden besloten?"
+        ],
+        "workstreams": [
+          "Tijdlijn van vertrek uit Hong Kong en Zwitserse aankomst",
+          "Kantonvergelijking voor scholen, belastingen, banken en het dagelijks leven",
+          "Verblijfsvergunningen en gezinsinclusie",
+          "Gereedheid, huisvesting en vestiging van private banking"
+        ],
+        "proofPoints": [
+          "Geschikt voor gezinnen die prioriteit geven aan stabiliteit, scholen en discretie",
+          "Coördineert de praktische vestiging met bank- en vergunningafhankelijkheden",
+          "Handig voordat gevoelige documenten worden verspreid"
+        ]
+      },
+      "from-usa": {
+        "slug": "from-usa",
+        "audience": "Amerikaanse oprichters, leidinggevenden en families",
+        "title": "Move to Switzerland uit de VS",
+        "description": "Een Zwitserse relocatieroute voor met de VS verbonden klanten die zorgvuldige coördinatie nodig hebben rond ingezetenschap, adviseurs, banken, scholen en voortdurende fiscale complexiteit.",
+        "metaDescription": "Zwitsers verhuisadvies voor Amerikaanse oprichters en families. Coördineer residentie, bankieren, adviseurs, scholen, fiscale complexiteit en vestiging.",
+        "startingPoint": "Verenigde Staten",
+        "likelyCantons": [
+          "Zurich",
+          "Geneva",
+          "Vaud",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Hoe moeten Amerikaanse belasting- en rapportageadviseurs verbonden blijven met het Zwitserse plan?",
+          "Welk kanton past bij de school-, bank- en reisbehoeften van het gezin?",
+          "Wat moet worden verduidelijkt voordat er sprake is van ingezetenschaps- en huisvestingsverplichtingen?"
+        ],
+        "workstreams": [
+          "Coördinatie van Amerikaanse adviseurs en Zwitserse adviseurs",
+          "Verblijfsroute en gezinsinclusie",
+          "Kantonvergelijking voor scholen, reizen en bankieren",
+          "Gereedheid voor banken, huisvesting, gezondheidszorg en vestiging"
+        ],
+        "proofPoints": [
+          "Gebouwd voor gevallen waarin de Amerikaanse rapportagecomplexiteit zichtbaar moet blijven",
+          "Houdt Zwitserse beslissingen verbonden met bestaande Amerikaanse adviseurs",
+          "Handig voordat bank-, huisvestings- of schoolverplichtingen worden aangegaan"
+        ]
+      },
+      "from-germany": {
+        "slug": "from-germany",
+        "audience": "Duitse ondernemers en gezinnen",
+        "title": "Move to Switzerland uit Duitsland",
+        "description": "Een praktische Zwitserse verhuizingsroute voor Duitse oprichters en gezinnen, waarbij woonplaats, kantonkeuze, bedrijfsopzet, scholen en grensoverschrijdende timing worden vergeleken.",
+        "metaDescription": "Zwitsers verhuisadvies voor Duitse ondernemers en gezinnen. Plan residentie, kantonkeuze, belastingtiming, bedrijfsopzet, scholen en vestiging.",
+        "startingPoint": "Duitsland",
+        "likelyCantons": [
+          "Zurich",
+          "Zug",
+          "Schwyz",
+          "Thurgau"
+        ],
+        "urgentQuestions": [
+          "Wanneer moeten de Duitse vertrekplanning en de Zwitserse verblijfsplanning op elkaar worden afgestemd?",
+          "Welk kanton past bij het bedrijfseigendom, het gezinsleven en het woon-werkverkeer?",
+          "Hoe moeten vergunningen, huisvesting, scholen en adviseurs op elkaar worden afgestemd?"
+        ],
+        "workstreams": [
+          "Duitse vertrek- en Zwitserse aankomsttijdlijn",
+          "Kantonvergelijking voor belastingen, scholen en bedrijfsvoering",
+          "Vergunningaanvraag en gezinsinclusie",
+          "Inrichting van huisvesting, verzekeringen, bankzaken en vestiging"
+        ],
+        "proofPoints": [
+          "Het beste voor oprichters en gezinnen die de timing nauwkeurig willen regelen",
+          "Verbindt kantonkeuze met praktische school- en huisvestingsrealiteiten",
+          "Houdt Duitse en Zwitserse adviseurs gecoördineerd"
+        ]
+      },
+      "from-norway": {
+        "slug": "from-norway",
+        "audience": "Noorse oprichters en vermogensbezitters",
+        "title": "Move to Switzerland uit Noorwegen",
+        "description": "Een Zwitserse relocatieroute voor Noorse ondernemers, investeerders en gezinnen die hun fiscale woonplaats, vergunningen, kantonkeuze, scholen en bankzaken evalueren.",
+        "metaDescription": "Zwitsers verhuisadvies voor Noorse oprichters en families. Coördineren van fiscale woonplaats, vergunningen, bankzaken, scholen, kantonkeuze en vestiging.",
+        "startingPoint": "Noorwegen",
+        "likelyCantons": [
+          "Zug",
+          "Schwyz",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Wanneer moet de Noorse exitplanning worden afgestemd op de Zwitserse verblijfstijd?",
+          "Welk kanton past bij privacy, gezinsleven en fiscale prioriteiten?",
+          "Wat moet er gecoördineerd worden vóór bankintroducties of schoolbesluiten?"
+        ],
+        "workstreams": [
+          "Noorse vertrek- en Zwitserse aankomsttijdlijn",
+          "Kantonvergelijking voor gezins-, belasting- en bankprioriteiten",
+          "Verblijfsvergunningen en gezinsinclusie",
+          "Gereedheid voor banken, huisvesting, scholen en vestiging"
+        ],
+        "proofPoints": [
+          "Gebouwd voor vermogensbezitters die behoefte hebben aan belastingtiming en gezinslogistiek",
+          "Handig voordat u zich aan een kanton- of schooltraject vastlegt",
+          "Coördineert bestaande adviseurs met Zwitserse uitvoering"
+        ]
+      },
+      "move-company-to-switzerland": {
+        "slug": "move-company-to-switzerland",
+        "audience": "Oprichters verplaatsen zakelijke inhoud",
+        "title": "Verplaats een bedrijf naar Zwitserland",
+        "description": "Een door de oprichters geleide route voor het verplaatsen van bedrijfsinhoud, bestuursopstelling, bankzaken, vergunningen en gezinsverhuizing in één gecoördineerd Zwitsers plan.",
+        "metaDescription": "Verhuis een bedrijf naar Zwitserland met gecoördineerd advies over bedrijfsoprichting, inhoud, bankzaken, verblijfsvergunningen, belastingen en gezinsverhuizingen.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud",
+          "Schwyz"
+        ],
+        "urgentQuestions": [
+          "Moet het Zwitserse bedrijf worden opgericht voordat of nadat de vestigingsroute duidelijk is?",
+          "Welke inhoud zullen het kanton, de bank en de tegenpartijen verwachten?",
+          "Welke invloed hebben oprichtersvergunningen, gezinsverhuizingen en zakelijk bankieren op elkaar?"
+        ],
+        "workstreams": [
+          "Profiel van de oprichter, bedrijfsinhoud en beoordeling van de geschiktheid van het kanton",
+          "Bedrijfsoprichting, bestuur en bestuursopstelling",
+          "Gereedheid en documentatie voor bedrijfsbankieren",
+          "Oprichtervergunning, gezinsverhuizing, huisvesting en vestiging"
+        ],
+        "proofPoints": [
+          "Gebouwd voor oprichters die de werkstromen van hun bedrijf en hun gezin op één lijn willen brengen",
+          "Verbindt inhoud, vergunningen, bankzaken en vestiging in de juiste volgorde",
+          "Vermindert vertragingen als gevolg van geïsoleerd juridisch, bank- en verhuizingsadvies"
+        ]
+      },
+      "swiss-residence-permit-entrepreneurs": {
+        "slug": "swiss-residence-permit-entrepreneurs",
+        "audience": "Ondernemers en actieve ondernemers",
+        "title": "Zwitserse verblijfsvergunning voor ondernemers",
+        "description": "Een op de oprichter gerichte route langs Zwitserse residentie, bedrijfssubstantie, bankieren, documentatie over de bron van rijkdom en gezinsregeling.",
+        "metaDescription": "Advies over verblijfsvergunningen in Zwitserland voor ondernemers. Plan kantonselectie, bedrijfsoprichting, bankzaken, vergunningen en gezinsverhuizing.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zug",
+          "Zurich",
+          "Vaud"
+        ],
+        "urgentQuestions": [
+          "Moet het Zwitserse bedrijf vóór of na de indiening van de vergunning worden opgericht?",
+          "Welke economische substantie verwacht het kanton?",
+          "Hoe moet het bedrijfsvermogen voor banken en autoriteiten worden gedocumenteerd?"
+        ],
+        "workstreams": [
+          "Oprichtersprofiel en beoordeling van de geschiktheid voor het kanton",
+          "Bedrijfsoprichting en bestuursopzet",
+          "Vergunningaanvraag en gezinsinclusie",
+          "Gereedheid voor banken, leases, verzekeringen en vestiging"
+        ],
+        "proofPoints": [
+          "Het beste voor oprichters die zakelijke en gezinswerkstromen op één lijn willen brengen",
+          "Verbindt vergunningen met de inhoud van het bedrijf en de geloofwaardigheid van het bankwezen",
+          "Vermindert vertragingen als gevolg van onvolledige documentatiesequenties"
+        ]
+      },
+      "lump-sum-taxation-switzerland": {
+        "slug": "lump-sum-taxation-switzerland",
+        "audience": "Vermogende particulieren",
+        "title": "Forfaitaire belastingheffing in Zwitserland",
+        "description": "Een discrete planningsroute voor in aanmerking komende buitenlanders, waarbij de forfait fiscal, de kantonkeuze, de basis voor de kosten van levensonderhoud en de timing van het verblijf worden beoordeeld.",
+        "metaDescription": "Forfaitair belastingadvies in Zwitserland. Beoordeel of u in aanmerking komt voor forfait fiscal, de keuze van het kanton, de belastinggrondslag, de vergunningen en het tijdstip van de verhuizing.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Vaud",
+          "Geneva",
+          "Valais",
+          "Schwyz",
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Is forfait fiscal realistisch voor het gezinsprofiel?",
+          "Welke kantons zijn de moeite waard om als eerste te benaderen?",
+          "Welke levensstijl- en huisvestingsaannames bepalen de belastbare basis?"
+        ],
+        "workstreams": [
+          "Geschiktheid en kantonshortlist",
+          "Voorbereiding van belastingafspraken en dialoog met autoriteiten",
+          "Verblijfsvergunning en huisvestingscoördinatie",
+          "Bank-, verzekerings- en jaarlijkse compliance-overdracht"
+        ],
+        "proofPoints": [
+          "Combineert belastingrulingwerk met het echte verhuisplan",
+          "Zorgt ervoor dat de kantononderhandelingen verbonden blijven met de realiteit van de levensstijl",
+          "Nuttig vóór openbare toezeggingen of gevoelige documentatie"
+        ]
+      },
+      "zug-relocation-advisor": {
+        "slug": "zug-relocation-advisor",
+        "audience": "Oprichters, family offices en crypto-investeerders",
+        "title": "Zug Verhuisadviseur",
+        "description": "Een gericht verhuistraject voor klanten die Zug overwegen vanwege belastingen, cryptobankieren, bedrijfsoprichting, internationale scholen en gezinsleven.",
+        "metaDescription": "Zug verhuisadviseur voor ondernemers, family offices en crypto-investeerders. Coördineer vergunningen, bedrijfsopzet, bankzaken, scholen en huisvesting.",
+        "startingPoint": "Internationale",
+        "likelyCantons": [
+          "Zug"
+        ],
+        "urgentQuestions": [
+          "Is Zug de juiste keuze, of alleen de voor de hand liggende?",
+          "Kunnen banken, schoolplaatsen en huisvesting op dezelfde tijdlijn worden veiliggesteld?",
+          "Welke bedrijfsinhoud is nodig voor de geplande structuur?"
+        ],
+        "workstreams": [
+          "Zug fit-beoordeling tegen Zürich, Schwyz en Vaud",
+          "Volgorde van vergunningen en bedrijfsoprichting",
+          "Cryptovriendelijke en traditionele bankintroducties",
+          "School, huisvesting, verzekeringen en dagelijkse vestiging"
+        ],
+        "proofPoints": [
+          "Ontworpen voor klanten die snelheid nodig hebben zonder de discretie te verliezen",
+          "Combineert een lage belastingaantrekkingskracht met praktische gezinslogistiek",
+          "Handig voor crypto-native rijkdom en actieve werkmaatschappijen"
+        ]
+      }
+    }
+  },
+  "legalCopy": {
+    "privacySections": [
+      {
+        "title": "1. Gegevensbeheerder",
+        "text": "WorkWorkWork AG in Zwitserland is verantwoordelijk voor de verwerking van persoonsgegevens die via deze website worden verstrekt."
+      },
+      {
+        "title": "2. Gegevens die we verzamelen",
+        "text": "We verzamelen alleen de informatie die vrijwillig wordt gedeeld via het intakeformulier, zoals contactgegevens, huidig ​​land, nationaliteit, verhuisdoelen, tijdlijn, servicebelangen en berichtinhoud."
+      },
+      {
+        "title": "3. Doel van de verwerking",
+        "text": "De informatie wordt gebruikt om het onderzoek te beoordelen, een privéantwoord voor te bereiden en relevant advieswerk te coördineren. Gevoelige documenten mogen niet via openbare formulieren worden ingediend."
+      },
+      {
+        "title": "4. Gegevensbewaring",
+        "text": "Persoonsgegevens worden slechts bewaard zolang als nodig is om op het verzoek te reageren, een adviesrelatie te ondersteunen of te voldoen aan toepasselijke wettelijke verplichtingen."
+      },
+      {
+        "title": "5. Uw rechten",
+        "text": "Op grond van de Zwitserse wetgeving inzake gegevensbescherming en de GDPR, indien van toepassing, kunt u verzoeken om toegang tot, correctie, verwijdering of beperking van uw persoonlijke gegevens."
+      },
+      {
+        "title": "6. Contactpersoon",
+        "text": "Privacyverzoeken en juridische vragen kunt u indienen via het contactformulier. Ze worden privé gerouteerd en afgehandeld zonder dat een openbaar e-mailadres openbaar wordt gemaakt."
+      }
+    ],
+    "imprint": {
+      "registrationText": "Geregistreerd in het handelsregister van het kanton Schwyz, Zwitserland.",
+      "contactTitle": "Contact",
+      "contactText": "Voor vragen kunt u het vertrouwelijke contactformulier gebruiken. Op deze website worden met opzet geen openbare e-mailadressen weergegeven.",
+      "disclaimerTitle": "Vrijwaring",
+      "disclaimerText": "De inhoud van deze website is bedoeld ter algemene informatie en oriëntatie. Het vormt geen fiscaal, juridisch, beleggings- of financieel advies. Elke verplaatsingsbeslissing moet worden beoordeeld met gekwalificeerde professionele adviseurs."
+    }
+  },
+  "structuredData": {
+    "areaCountries": {
+      "switzerland": "Zwitserland",
+      "uae": "Verenigde Arabische Emiraten",
+      "saudiArabia": "Saoedi-Arabië",
+      "qatar": "Qatar",
+      "kuwait": "Kuwait",
+      "bahrain": "Bahrain"
+    }
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Praktische Zwitserland-verhuisgids voor expats",
+    "metaDescription": "Een praktische digitale gids voor expats die naar Zwitserland verhuizen, met vergunningen, huisvesting, verzekeringen, belastingen, scholen en administratie voor de eerste maand.",
+    "language": "Nederlands",
+    "eyebrow": "Swiss Arrival",
+    "title": "De praktische expatgids voor verhuizen naar Zwitserland",
+    "subtitle": "Een duidelijke gids voor mensen die de echte checklist willen: vergunningen, huisvesting, ziektekostenverzekering, scholen, belastingen, administratie in de eerste maand en de kleine verrassingen waardoor Zwitserland vanuit het buitenland lastig te doorgronden is.",
+    "primaryCta": "Meld u aan voor de lanceringslijst",
+    "secondaryCta": "Bekijk wat erin zit",
+    "briefingLabel": "Zwitserse verhuisbriefing",
+    "proof": [
+      "Geschreven vanuit meer dan 13 jaar ervaring met verhuizingen naar Zwitserland",
+      "Gemaakt voor EU-expats en internationale expats",
+      "Beschikbaar in het Deens, Engels, Duits, Frans, Spaans en Nederlands"
+    ],
+    "problemKicker": "Eerst de werkelijkheid",
+    "problemTitle": "Gemaakt voor het rommelige deel voordat het leven stabiel voelt",
+    "problemBody": "Verhuizen naar Zwitserland is niet moeilijk omdat één taak onmogelijk is. Het is moeilijk omdat elke beslissing van een andere afhangt: kanton, vergunning, adres, verzekering, school, belasting en bankzaken. Swiss Arrival zet die stapel administratie om in een rustige volgorde.",
+    "chaptersKicker": "In de gids",
+    "chaptersTitle": "Waar de digitale gids u bij helpt",
+    "chapters": [
+      {
+        "title": "Voordat u verhuist",
+        "body": "Kies een kanton, begrijp de vergunningsroutes, bereid documenten voor en vermijd huisvestingsfouten die vertraging veroorzaken."
+      },
+      {
+        "title": "Uw eerste 30 dagen",
+        "body": "Registreer u lokaal, activeer de zorgverzekering, open een bankrekening, regel telefoon en internet en zorg dat de juiste documenten klaarstaan."
+      },
+      {
+        "title": "Geld en papierwerk",
+        "body": "Begrijp Zwitserse kosten, salarisverwachtingen, waarborgsommen, belastingbasis, verplichte verzekeringen en wat eerst aandacht nodig heeft."
+      },
+      {
+        "title": "Gezin en dagelijks leven",
+        "body": "Scholen, kinderopvang, vervoer, taal, boodschappen, toegang tot zorg en de routines die het land makkelijker maken om in te leven."
+      }
+    ],
+    "timelineKicker": "Volgorde",
+    "timelineTitle": "Een eenvoudige verhuisvolgorde",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Plan de verhuizing",
+        "body": "Bepaal waar u zich moet vestigen, welk papierwerk nodig is en wat kan wachten tot na aankomst."
+      },
+      {
+        "label": "02",
+        "title": "Regel de basis",
+        "body": "Pak huisvesting, registratie, verzekeringen en bankzaken in de juiste volgorde aan, zodat het proces niet vastloopt."
+      },
+      {
+        "label": "03",
+        "title": "Vestig u goed",
+        "body": "Ga van overleven naar normaal leven met scholen, vervoer, zorg, belastingen en lokale routines onder controle."
+      }
+    ],
+    "bundleKicker": "Digitaal product",
+    "bundleTitle": "Lanceringspakket",
+    "bundleBody": "De eerste versie is gepland als een praktisch digitaal product, niet als een vage inspiratiegids.",
+    "bundleItems": [
+      "De Swiss Arrival digitale gids",
+      "Checklist voor administratie in de eerste maand",
+      "Werkblad voor kantonkeuze",
+      "Kosten- en waarborgplanner"
+    ],
+    "finalTitle": "Krijg bericht wanneer Swiss Arrival beschikbaar is",
+    "finalBody": "De lanceringspagina wordt nu voorbereid. Meld u aan voor de lijst en we sturen de details van de digitale gids zodra de eerste editie klaar is.",
+    "finalCta": "Neem contact met ons op"
+  },
+  "swissArrivalNav": {
+    "guide": "Gids",
+    "contact": "Contact",
+    "cta": "Lanceringslijst"
+  },
+  "swissArrivalFooter": {
+    "tagline": "Een praktische digitale gids voor expats die een verhuizing naar Zwitserland voorbereiden.",
+    "rights": "Alle rechten voorbehouden.",
+    "company": "Een WorkWorkWork AG-project"
+  }
+}

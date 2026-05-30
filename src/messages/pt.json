@@ -2271,5 +2271,75 @@
     "tagline": "Um guia digital prático para expatriados que se preparam para se mudar para a Suíça.",
     "rights": "Todos os direitos reservados.",
     "company": "Um projeto WorkWorkWork AG"
+  },
+  "swissArrivalPage": {
+    "metaTitle": "Swiss Arrival | Guia prático de mudança na Suíça para expatriados",
+    "metaDescription": "Um e-book prático para expatriados que se mudam para a Suíça, cobrindo licenças, moradia, seguros, impostos, escolas e administração do primeiro mês.",
+    "language": "Português",
+    "eyebrow": "Swiss Arrival",
+    "title": "O guia prático para expatriados para se mudar para a Suíça",
+    "subtitle": "Um e-book claro para pessoas que desejam a lista de verificação real: licenças, moradia, seguro saúde, escolas, impostos, administração do primeiro mês e as pequenas surpresas que tornam a Suíça difícil de decodificar no exterior.",
+    "primaryCta": "Junte-se à lista de lançamento",
+    "secondaryCta": "Veja o que tem dentro",
+    "briefingLabel": "Briefing da mudança suíça",
+    "proof": [
+      "Escrito a partir de mais de 13 anos de experiência em realocação na Suíça",
+      "Construído para expatriados da UE e internacionais",
+      "Disponível em dinamarquês, inglês, alemão, francês, espanhol e holandês"
+    ],
+    "problemKicker": "Realidade primeiro",
+    "problemTitle": "Construído para a parte complicada antes que a vida pareça resolvida",
+    "problemBody": "Mudar-se para a Suíça não é difícil porque uma tarefa é impossível. É difícil porque cada decisão depende de outra: cantão, licença, endereço, seguro, escola, impostos e configuração bancária. Swiss Arrival transforma aquela pilha de administradores em uma sequência calma.",
+    "chaptersKicker": "Dentro do guia",
+    "chaptersTitle": "O que o e-book ajuda você a lidar",
+    "chapters": [
+      {
+        "title": "Antes de você se mudar",
+        "body": "Escolha um cantão, entenda as rotas de licenciamento, prepare documentos e evite erros de moradia que geram atrasos."
+      },
+      {
+        "title": "Seus primeiros 30 dias",
+        "body": "Cadastre-se localmente, ative o seguro saúde, abra uma conta bancária, providencie telefone e internet e coloque os documentos certos em ordem."
+      },
+      {
+        "title": "Dinheiro e papelada",
+        "body": "Entenda os custos suíços, expectativas salariais, depósitos, princípios tributários, seguros obrigatórios e o que precisa de atenção primeiro."
+      },
+      {
+        "title": "Família e vida cotidiana",
+        "body": "Escolas, creches, transportes, línguas, compras, acesso aos cuidados de saúde e as rotinas que tornam o país mais fácil de viver."
+      }
+    ],
+    "timelineKicker": "Sequência",
+    "timelineTitle": "Uma sequência de movimento simples",
+    "timeline": [
+      {
+        "label": "01",
+        "title": "Planeje a mudança",
+        "body": "Decida onde você deve pousar, que documentação é necessária e o que pode esperar até a chegada."
+      },
+      {
+        "label": "02",
+        "title": "Proteja o básico",
+        "body": "Trate da habitação, registo, seguros e serviços bancários na ordem correta para que o processo não fique paralisado."
+      },
+      {
+        "label": "03",
+        "title": "Acomode-se adequadamente",
+        "body": "Passe do modo de sobrevivência para a vida normal com escolas, transportes, cuidados de saúde, impostos e rotinas locais sob controlo."
+      }
+    ],
+    "bundleKicker": "Produto digital",
+    "bundleTitle": "Pacote de lançamento",
+    "bundleBody": "A primeira versão foi planejada como um produto digital prático, não como um vago guia de inspiração.",
+    "bundleItems": [
+      "O e-book Swiss Arrival",
+      "Lista de verificação administrativa do primeiro mês",
+      "Planilha de decisão do cantão",
+      "Planejador de custos e depósitos"
+    ],
+    "finalTitle": "Seja notificado quando Swiss Arrival abrir",
+    "finalBody": "A página de lançamento está sendo preparada agora. Cadastre-se na lista e enviaremos os detalhes do e-book quando a primeira edição estiver pronta.",
+    "finalCta": "Contate-nos"
   }
 }
