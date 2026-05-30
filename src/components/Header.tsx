@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
-import { localeNames, type Locale } from '@/i18n/config';
+import { locales, localeNames, swissArrivalLocales, type Locale } from '@/i18n/config';
 import { useState, useEffect } from 'react';
 import { ConversionLink } from '@/components/ConversionLink';
 
@@ -23,9 +23,7 @@ export function Header({ site = 'move' }: HeaderProps) {
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const brandHref = isSwissArrival ? '/swiss-arrival' : '/';
-  const languageOptions = isSwissArrival
-    ? (['en', 'da', 'de', 'fr', 'es', 'nl'] as Locale[])
-    : (Object.keys(localeNames) as Locale[]);
+  const languageOptions = isSwissArrival ? swissArrivalLocales : locales;
   const languageLabel = footerT('languages');
 
   useEffect(() => {

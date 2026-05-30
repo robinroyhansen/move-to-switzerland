@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
-import { locales } from '@/i18n/config';
+import { locales, swissArrivalLocales } from '@/i18n/config';
 import { serviceSlugs } from '@/lib/services';
 import { relocationPathSlugs } from '@/lib/conversion-copy';
 import { insightSlugs } from '@/content/insights';
@@ -8,7 +8,6 @@ import { insightSlugs } from '@/content/insights';
 const baseUrl = 'https://move-to-switzerland.com';
 const swissArrivalBaseUrl = 'https://swissarrival.com';
 const staticPages = ['', '/services', '/why-switzerland', '/cantons', '/case-studies', '/insights', '/relocation', '/about', '/contact', '/privacy', '/imprint'];
-const swissArrivalLocales = ['en', 'da', 'de', 'fr', 'es', 'nl'] as const;
 const swissArrivalHosts = new Set(['swissarrival.com', 'www.swissarrival.com']);
 const servicePages = Object.values(serviceSlugs).map((slug) => `/services/${slug}`);
 const relocationPages = relocationPathSlugs.map((slug) => `/relocation/${slug}`);

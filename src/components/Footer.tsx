@@ -2,7 +2,7 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
-import { localeNames, type Locale } from '@/i18n/config';
+import { locales, localeNames, swissArrivalLocales, type Locale } from '@/i18n/config';
 
 type FooterProps = {
   site?: 'move' | 'swissarrival';
@@ -17,9 +17,7 @@ export function Footer({ site = 'move' }: FooterProps) {
   const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
-  const languageOptions = isSwissArrival
-    ? (['en', 'da', 'de', 'fr', 'es', 'nl'] as Locale[])
-    : (Object.keys(localeNames) as Locale[]);
+  const languageOptions = isSwissArrival ? swissArrivalLocales : locales;
   const navigationItems = isSwissArrival
     ? [
         { href: '/swiss-arrival' as const, label: swissNavT('guide') },

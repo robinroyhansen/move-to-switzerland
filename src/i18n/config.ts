@@ -2,6 +2,8 @@ export const locales = ['en', 'de', 'fr', 'es', 'nl', 'ar', 'fa', 'tr', 'ru', 'h
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
+export const swissArrivalLocales = ['en', 'da', 'de', 'fr', 'es', 'nl'] as const satisfies readonly Locale[];
+
 export const rtlLocales: Locale[] = ['ar', 'fa', 'he'];
 
 export const localeNames: Record<Locale, string> = {
