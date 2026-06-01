@@ -57,20 +57,18 @@ export function Header({ site = 'move' }: HeaderProps) {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled
-            ? 'bg-navy/90 header-glass border-b border-gold/10 shadow-lg shadow-navy/20'
-            : 'bg-transparent border-b border-transparent'
+        className={`fixed top-0 left-0 right-0 z-50 border-b border-gold/10 bg-navy/94 header-glass transition-all duration-500 ${
+          scrolled ? 'shadow-lg shadow-navy/20' : ''
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-18 sm:h-22">
             {/* Logo */}
-            <Link href={brandHref} className="group flex min-w-0 items-center gap-3">
+            <Link href={brandHref} className="group flex min-h-11 min-w-0 items-center gap-3">
               <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gold/40 transition-colors group-hover:border-gold">
                 <span className="text-gold font-serif text-sm font-bold">{brandInitial}</span>
               </div>
-              <span className="truncate font-serif text-base font-semibold text-gold sm:text-xl">
+              <span className="max-w-[calc(100vw-7rem)] truncate font-serif text-base font-semibold text-gold sm:max-w-none sm:text-xl">
                 {brandName}
               </span>
             </Link>
@@ -81,7 +79,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
+                  className={`flex min-h-11 items-center text-[12px] tracking-[0.12em] uppercase transition-colors duration-300 ${
                     pathname === item.href
                       ? 'text-gold'
                       : 'text-text-light/70 hover:text-gold'
@@ -95,7 +93,7 @@ export function Header({ site = 'move' }: HeaderProps) {
               <div className="relative">
                 <button
                   onClick={() => setLangOpen(!langOpen)}
-                  className="flex items-center gap-1.5 text-[12px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
+                  className="flex min-h-11 items-center gap-1.5 text-[12px] text-text-light/60 hover:text-gold transition-colors duration-300 tracking-wider uppercase"
                   aria-label={languageLabel}
                   aria-expanded={langOpen}
                 >
@@ -137,7 +135,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                 href="/contact"
                 eventName="header_cta_click"
                 eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
-                className="bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
+                className="flex min-h-11 items-center bg-gold text-navy px-5 py-2.5 text-[12px] font-semibold rounded-sm tracking-[0.1em] uppercase hover:bg-gold-light transition-all duration-300 whitespace-nowrap"
               >
                 {isSwissArrival ? swissT('cta') : t('beginJourney')}
               </ConversionLink>
@@ -146,7 +144,7 @@ export function Header({ site = 'move' }: HeaderProps) {
             {/* Mobile toggle */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="xl:hidden text-text-light p-2"
+              className="flex min-h-11 min-w-11 items-center justify-center text-text-light xl:hidden"
               aria-label={t('menu')}
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -184,7 +182,7 @@ export function Header({ site = 'move' }: HeaderProps) {
             <div className="flex justify-end p-6">
               <button
                 onClick={() => setMobileOpen(false)}
-                className="text-text-light/60 hover:text-gold transition-colors"
+                className="flex min-h-11 min-w-11 items-center justify-center text-text-light/60 transition-colors hover:text-gold"
                 aria-label={t('closeMenu')}
               >
                 <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -214,7 +212,7 @@ export function Header({ site = 'move' }: HeaderProps) {
                   eventName="mobile_header_cta_click"
                   eventParams={{ site: isSwissArrival ? 'swissarrival' : 'move' }}
                   onClick={() => setMobileOpen(false)}
-                  className="block rounded-sm bg-gold px-4 py-3.5 text-center text-sm font-semibold leading-snug text-navy"
+                  className="block min-h-12 rounded-sm bg-gold px-4 py-3.5 text-center text-sm font-semibold leading-snug text-navy"
                 >
                   {isSwissArrival ? swissT('cta') : t('beginJourney')}
                 </ConversionLink>

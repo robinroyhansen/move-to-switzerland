@@ -18,12 +18,14 @@
 /* Base styles */
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
 }
 
 /* Gold gradient divider */
@@ -54,13 +56,30 @@ body {
 /* Scroll-triggered animations */
 .animate-on-scroll {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(18px);
+  animation: revealIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
 .animate-on-scroll.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@keyframes revealIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 /* Stagger delays for child elements */
@@ -171,7 +190,14 @@ main {
 
 /* Letter spacing for luxury display */
 .luxury-heading {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.015em;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 640px) {
+  .luxury-heading {
+    letter-spacing: 0.04em;
+  }
 }
 
 /* Safe area for sticky bar */
@@ -196,4 +222,92 @@ main {
   border-right: 2px solid #C5A572;
   padding-left: 0;
   padding-right: 1.5rem;
+}
+
+/* Readability floor for the luxury muted-text system. */
+.text-text-light\/25,
+.text-text-light\/30,
+.text-text-light\/35,
+.text-text-light\/40,
+.text-text-light\/42,
+.text-text-light\/48,
+.text-text-light\/50,
+.text-text-light\/55,
+.text-text-light\/58,
+.text-text-light\/60,
+.text-text-light\/62,
+.text-text-light\/65,
+.text-text-light\/68,
+.text-text-light\/70 {
+  color: rgba(232, 228, 221, 0.82) !important;
+}
+
+.text-white\/68,
+.text-white\/70,
+.text-white\/72,
+.text-white\/76 {
+  color: rgba(255, 255, 255, 0.86) !important;
+}
+
+.text-charcoal\/30,
+.text-charcoal\/38,
+.text-charcoal\/40,
+.text-charcoal\/45,
+.text-charcoal\/50,
+.text-charcoal\/55,
+.text-charcoal\/58,
+.text-charcoal\/60,
+.text-charcoal\/62,
+.text-charcoal\/65,
+.text-charcoal\/68,
+.text-charcoal\/70,
+.text-charcoal\/72,
+.text-charcoal\/75 {
+  color: rgba(26, 26, 46, 0.82) !important;
+}
+
+.text-navy\/60,
+.text-navy\/65,
+.text-navy\/70 {
+  color: rgba(10, 22, 40, 0.82) !important;
+}
+
+.text-gold\/35,
+.text-gold\/40,
+.text-gold\/60,
+.text-gold\/65,
+.text-gold\/70,
+.text-gold\/75 {
+  color: #C5A572 !important;
+}
+
+/* Subtle section pacing so long pages do not collapse into one repeated block size. */
+main > section:not(:first-of-type):nth-of-type(2n) {
+  padding-top: clamp(4.5rem, 7vw, 7rem);
+  padding-bottom: clamp(5.25rem, 8vw, 8rem);
+}
+
+main > section:not(:first-of-type):nth-of-type(3n) {
+  padding-top: clamp(3.75rem, 6vw, 6rem);
+  padding-bottom: clamp(4.75rem, 7vw, 7rem);
+}
+
+main > section:not(:first-of-type):nth-of-type(5n) {
+  padding-top: clamp(6rem, 9vw, 9rem);
+  padding-bottom: clamp(4rem, 6vw, 6.5rem);
+}
+
+main > div > section:not(:first-of-type):nth-of-type(2n) {
+  padding-top: clamp(4.5rem, 7vw, 7rem);
+  padding-bottom: clamp(5.25rem, 8vw, 8rem);
+}
+
+main > div > section:not(:first-of-type):nth-of-type(3n) {
+  padding-top: clamp(3.75rem, 6vw, 6rem);
+  padding-bottom: clamp(4.75rem, 7vw, 7rem);
+}
+
+main > div > section:not(:first-of-type):nth-of-type(5n) {
+  padding-top: clamp(6rem, 9vw, 9rem);
+  padding-bottom: clamp(4rem, 6vw, 6.5rem);
 }

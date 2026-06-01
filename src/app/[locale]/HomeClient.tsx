@@ -86,8 +86,8 @@ export function HomeClient({
 
         <div ref={heroRef} className="relative z-10 mx-auto grid max-w-7xl gap-12 px-4 pb-20 pt-32 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-8">
           <div>
-            <div className="mb-7 inline-flex rounded-full border border-gold/25 px-5 py-2">
-              <span className="text-xs font-medium uppercase tracking-[0.28em] text-gold">
+            <div className="mb-7 inline-flex max-w-full rounded-full border border-gold/25 px-4 py-2 sm:px-5">
+              <span className="min-w-0 break-words text-center text-xs font-medium uppercase leading-relaxed tracking-[0.16em] text-gold sm:tracking-[0.28em]">
                 {homeCopy.heroBadge}
               </span>
             </div>
@@ -101,14 +101,14 @@ export function HomeClient({
               <ConversionLink
                 href="/contact"
                 eventName="hero_consultation_click"
-                className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy shadow-lg shadow-gold/15 transition-all duration-300 hover:bg-gold-dark"
+                className="inline-flex min-h-12 w-full max-w-full items-center justify-center rounded-full bg-gold px-6 py-4 text-center text-sm font-semibold uppercase leading-snug tracking-[0.08em] text-navy shadow-lg shadow-gold/15 transition-all duration-300 hover:bg-gold-dark sm:w-auto sm:px-8 sm:tracking-[0.14em]"
               >
                 {ctaCopy.privateAssessment}
               </ConversionLink>
               <ConversionLink
                 href="/swiss-arrival"
                 eventName="hero_guide_click"
-                className="inline-flex items-center justify-center rounded-full border border-text-light/15 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-text-light/75 transition-all duration-300 hover:border-gold/60 hover:text-gold"
+                className="inline-flex min-h-12 w-full max-w-full items-center justify-center rounded-full border border-text-light/15 px-6 py-4 text-center text-sm font-semibold uppercase leading-snug tracking-[0.08em] text-text-light/75 transition-all duration-300 hover:border-gold/60 hover:text-gold sm:w-auto sm:px-8 sm:tracking-[0.14em]"
               >
                 {ctaCopy.guide}
               </ConversionLink>

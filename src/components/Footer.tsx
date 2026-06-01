@@ -66,7 +66,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
+                    className="inline-flex min-h-11 items-center text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                   >
                     {item.label}
                   </Link>
@@ -84,7 +84,7 @@ export function Footer({ site = 'move' }: FooterProps) {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
+                  className="inline-flex min-h-11 items-center text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.privacy')}
                 </Link>
@@ -92,7 +92,7 @@ export function Footer({ site = 'move' }: FooterProps) {
               <li>
                 <Link
                   href="/imprint"
-                  className="text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
+                  className="inline-flex min-h-11 items-center text-sm text-text-light/68 hover:text-gold transition-colors duration-300"
                 >
                   {t('nav.imprint')}
                 </Link>
@@ -111,7 +111,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                   key={code}
                   href={pathname}
                   locale={code}
-                  className={`text-xs px-3 py-1.5 rounded-full border transition-all duration-300 ${
+                  className={`inline-flex min-h-11 items-center rounded-full border px-3 py-1.5 text-xs transition-all duration-300 ${
                     locale === code
                       ? 'border-gold text-gold bg-gold/5'
                       : 'border-text-light/20 text-text-light/68 hover:border-gold/40 hover:text-gold'

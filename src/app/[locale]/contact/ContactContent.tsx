@@ -499,7 +499,7 @@ export default function ContactPage() {
                       <button
                         type="submit"
                         disabled={status === 'sending'}
-                        className="sticky bottom-3 z-20 min-h-[3.25rem] w-full rounded-full bg-navy px-6 py-4 text-center text-sm font-semibold leading-snug text-text-light shadow-xl shadow-navy/15 transition-all duration-300 hover:bg-navy-light disabled:opacity-50"
+                        className="sticky bottom-3 z-20 min-h-[3.25rem] w-full rounded-full bg-navy px-6 py-4 text-center text-sm font-semibold leading-snug text-text-light shadow-xl shadow-navy/15 transition-all duration-300 hover:bg-navy-light disabled:opacity-50 sm:static"
                       >
                         {status === 'sending' ? enhanced.status.sending : copy.submit}
                       </button>

@@ -104,7 +104,7 @@ export default async function SwissArrivalPage({ params }: Props) {
                   key={code}
                   href="/swiss-arrival"
                   locale={code}
-                  className={`rounded-full border px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] transition-colors ${
+                  className={`inline-flex min-h-10 max-w-full items-center justify-center rounded-full border px-3 py-2 text-center text-xs font-semibold uppercase leading-snug tracking-[0.08em] transition-colors sm:px-4 sm:tracking-[0.14em] ${
                     locale === code
                       ? 'border-[#d8b46a] bg-[#d8b46a] text-[#172033]'
                       : 'border-white/20 text-white/70 hover:border-[#d8b46a] hover:text-[#d8b46a]'
@@ -115,10 +115,10 @@ export default async function SwissArrivalPage({ params }: Props) {
               ))}
             </div>
 
-            <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-[#d8b46a]">
+            <p className="mb-5 text-sm font-semibold uppercase leading-relaxed tracking-[0.16em] text-[#d8b46a] sm:tracking-[0.28em]">
               {page.eyebrow}
             </p>
-            <h1 className="max-w-4xl font-serif text-5xl font-semibold leading-[1.02] tracking-normal text-white sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-4xl break-words font-serif text-4xl font-semibold leading-[1.04] tracking-normal text-white sm:text-6xl lg:text-7xl">
               {page.title}
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-white/72 sm:text-xl">
@@ -128,13 +128,13 @@ export default async function SwissArrivalPage({ params }: Props) {
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/contact"
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-[#d8b46a] px-7 text-sm font-semibold uppercase tracking-[0.12em] text-[#172033] transition-colors hover:bg-[#e6c986]"
+                className="inline-flex min-h-12 w-full max-w-full items-center justify-center rounded-full bg-[#d8b46a] px-6 text-center text-sm font-semibold uppercase leading-snug tracking-[0.08em] text-[#172033] transition-colors hover:bg-[#e6c986] sm:w-auto sm:px-7 sm:tracking-[0.12em]"
               >
                 {page.primaryCta}
               </Link>
               <a
                 href="#inside"
-                className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/20 px-7 text-sm font-semibold uppercase tracking-[0.12em] text-white/80 transition-colors hover:border-[#d8b46a] hover:text-[#d8b46a]"
+                className="inline-flex min-h-12 w-full max-w-full items-center justify-center rounded-full border border-white/20 px-6 text-center text-sm font-semibold uppercase leading-snug tracking-[0.08em] text-white/80 transition-colors hover:border-[#d8b46a] hover:text-[#d8b46a] sm:w-auto sm:px-7 sm:tracking-[0.12em]"
               >
                 {page.secondaryCta}
               </a>
@@ -160,7 +160,7 @@ export default async function SwissArrivalPage({ params }: Props) {
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#9b7b3f]">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#172033]/82">
               {page.problemKicker}
             </p>
             <h2 className="font-serif text-4xl font-semibold tracking-normal text-[#172033] sm:text-5xl">
@@ -176,7 +176,7 @@ export default async function SwissArrivalPage({ params }: Props) {
       <section id="inside" className="bg-white px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 max-w-3xl">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#9b7b3f]">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#172033]/82">
               {page.chaptersKicker}
             </p>
             <h2 className="font-serif text-4xl font-semibold tracking-normal text-[#172033] sm:text-5xl">
@@ -202,7 +202,7 @@ export default async function SwissArrivalPage({ params }: Props) {
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
           <div className="mb-12 max-w-3xl">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#9b7b3f]">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#172033]/82">
               {page.timelineKicker}
             </p>
             <h2 className="font-serif text-4xl font-semibold tracking-normal text-[#172033] sm:text-5xl">
@@ -213,7 +213,7 @@ export default async function SwissArrivalPage({ params }: Props) {
           <div className="grid gap-5 lg:grid-cols-3">
             {page.timeline.map((step) => (
               <article key={step.label} className="rounded-3xl border border-[#172033]/10 bg-[#fbfaf6] p-7 shadow-sm shadow-[#172033]/5 sm:p-8">
-                <span className="text-xs font-semibold uppercase tracking-[0.24em] text-[#9b7b3f]">
+                <span className="text-xs font-semibold uppercase tracking-[0.24em] text-[#172033]/82">
                   {step.label}
                 </span>
                 <h3 className="mt-6 font-serif text-3xl font-semibold tracking-normal text-[#172033]">
@@ -254,7 +254,7 @@ export default async function SwissArrivalPage({ params }: Props) {
 
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#9b7b3f]">
+          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-[#172033]/82">
             Swiss Arrival
           </p>
           <h2 className="font-serif text-4xl font-semibold tracking-normal text-[#172033] sm:text-5xl">
