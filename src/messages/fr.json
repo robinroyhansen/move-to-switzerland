@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Pourquoi la Suisse",
-      "subtitle": "La première destination mondiale pour la préservation du patrimoine, la sécurité et la qualité de vie"
+      "subtitle": "La première destination mondiale pour la préservation du patrimoine, la sécurité et la qualité de vie",
+      "badge": "Le guide de référence"
     },
     "neutrality": {
       "title": "Neutralité politique",
@@ -151,7 +152,12 @@
       "stat3Label": "Accords commerciaux bilatéraux",
       "p1": "La Suisse offre l'un des environnements les plus favorables aux entreprises au monde. La création d'une société peut être finalisée en une à deux semaines, la protection de la propriété intellectuelle est la plus forte au monde, et le réseau de plus de 120 accords commerciaux bilatéraux permet un accès fluide au marché unique de l'UE et au-delà.",
       "p2": "La main-d'œuvre suisse figure parmi les plus instruites et productives au monde, avec une solide tradition de discrétion et de professionnalisme. Pour les entrepreneurs et les family offices établissant des opérations en Suisse, la combinaison de stabilité politique, de certitude juridique, de protection de la propriété intellectuelle et d'accès au marché constitue un fondement inégalé pour la croissance des affaires."
-    }
+    },
+    "trustStrip": [
+      "500+ ans de neutralité",
+      "N° 1 de la banque privée",
+      "78% ont rejeté l’impôt sur la fortune"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse. Nous gérons le placement de vos enfants dans des écoles internationales, les permis de travail du personnel de maison, l'intégration du conjoint, les présentations communautaires et une orientation culturelle complète pour que toute votre famille se sente chez elle en Suisse dès le premier jour."
       }
     },
-    "overview": "Aperçu"
+    "overview": "Aperçu",
+    "groups": {
+      "before": "Avant la résidence",
+      "move": "Permis et installation",
+      "settled": "Gouvernance après arrivée",
+      "workstreams": "volets de travail"
+    }
   },
   "clients": {
     "title": "À qui nous nous adressons",
@@ -656,7 +668,12 @@
     "rights": "Tous droits réservés.",
     "company": "Un service de WorkWorkWork AG",
     "disclaimer": "Les services sont limités à l'éducation financière générale et à l'orientation stratégique et ne constituent pas des services financiers au sens de la Loi sur les services financiers (LSFin). En particulier, aucun conseil sur des instruments financiers spécifiques, aucune gestion de portefeuille et aucune exécution ou transmission d'ordres n'est fourni.",
-    "trustSwissEntity": "Entité enregistrée en Suisse"
+    "trustSwissEntity": "Entité enregistrée en Suisse",
+    "languageGroups": {
+      "core": "Langues de conseil clés",
+      "europe": "Langues européennes",
+      "global": "Moyen-Orient et Asie"
+    }
   },
   "servicesMeta": {
     "title": "Nos Services — S'installer en Suisse",

@@ -6,13 +6,21 @@ import Image from 'next/image';
 import { serviceKeys, serviceIconPaths, serviceSlugs } from '@/lib/services';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
+type ServiceKey = (typeof serviceKeys)[number];
+
+const serviceGroups: Array<{ id: 'before' | 'move' | 'settled'; keys: ServiceKey[] }> = [
+  { id: 'before', keys: ['assetStructuring', 'lumpSum', 'companyFormation'] },
+  { id: 'move', keys: ['residency', 'realEstate', 'health', 'lifestyle'] },
+  { id: 'settled', keys: ['familyOffice', 'directorship'] },
+];
+
 export function ServicesContent() {
   const t = useTranslations();
 
   return (
     <>
       {/* Header */}
-      <section className="relative pt-36 pb-20 bg-navy overflow-hidden">
+      <section className="relative overflow-hidden bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
         <div className="absolute inset-0 opacity-8">
           <Image
             src="/images/services-corporate.jpg"
@@ -22,33 +30,52 @@ export function ServicesContent() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy/60 to-navy" />
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
-          <div className="gold-line-center" />
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-semibold mb-5 luxury-heading">
-            {t('services.pageTitle')}
-          </h1>
-          <p className="text-text-light/50 text-lg font-light max-w-xl mx-auto">
-            {t('services.pageSubtitle')}
-          </p>
+        <div className="relative mx-auto grid max-w-6xl gap-8 px-4 text-start sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-end lg:px-8">
+          <div>
+            <div className="gold-line" />
+            <h1 className="mb-5 font-serif text-4xl font-semibold text-white luxury-heading sm:text-5xl lg:text-6xl">
+              {t('services.pageTitle')}
+            </h1>
+            <p className="max-w-xl text-lg font-light leading-relaxed text-text-light/70">
+              {t('services.pageSubtitle')}
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {serviceGroups.map((group, index) => (
+              <div key={group.id} className="rounded-md border border-text-light/10 bg-text-light/[0.04] p-4">
+                <span className="font-serif text-2xl text-gold/75">{String(index + 1).padStart(2, '0')}</span>
+                <p className="mt-2 text-sm font-medium leading-snug text-text-light/78">{t(`services.groups.${group.id}`)}</p>
+                <p className="mt-1 text-xs leading-relaxed text-text-light/60">{group.keys.length} {t('services.groups.workstreams')}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Services List */}
-      <section className="py-24 bg-cream">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-6">
-            {serviceKeys.map((key, i) => (
-              <ScrollReveal key={key} delay={i * 60}>
-                <Link
-                  href={`/services/${serviceSlugs[key]}`}
-                  className="block group"
-                >
-                  <div className="bg-white rounded-lg border-t-[3px] border-t-gold shadow-sm overflow-hidden card-lift">
-                    <div className="p-8 sm:p-10 md:flex md:gap-8 items-start">
-                      <div className="flex-shrink-0 mb-4 md:mb-0">
-                        <div className="w-14 h-14 bg-cream rounded-lg flex items-center justify-center group-hover:bg-navy/5 transition-colors duration-300">
+      {/* Decision flow */}
+      <section className="bg-cream py-16 sm:py-24">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="space-y-12">
+            {serviceGroups.map((group, groupIndex) => (
+              <ScrollReveal key={group.id} delay={groupIndex * 80}>
+                <section className="grid gap-5 lg:grid-cols-[240px_1fr] lg:gap-8">
+                  <div className="lg:pt-3">
+                    <span className="font-serif text-3xl text-gold/75">{String(groupIndex + 1).padStart(2, '0')}</span>
+                    <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-navy sm:text-3xl">
+                      {t(`services.groups.${group.id}`)}
+                    </h2>
+                  </div>
+
+                  <div className="divide-y divide-navy/8 overflow-hidden rounded-lg border border-navy/[0.06] bg-white shadow-sm">
+                    {group.keys.map((key, index) => (
+                      <Link
+                        key={key}
+                        href={`/services/${serviceSlugs[key]}`}
+                        className="group grid gap-4 p-5 transition-colors hover:bg-cream/55 sm:p-6 md:grid-cols-[48px_1fr_auto] md:items-center"
+                      >
+                        <div className="flex h-12 w-12 items-center justify-center rounded-md bg-cream">
                           <svg
-                            className="w-6 h-6 text-gold"
+                            className="h-6 w-6 text-gold transition-colors duration-300 group-hover:text-gold-dark"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -57,30 +84,32 @@ export function ServicesContent() {
                             <path strokeLinecap="round" strokeLinejoin="round" d={serviceIconPaths[key]} />
                           </svg>
                         </div>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-3 mb-3">
-                          <span className="text-xs text-gold/60 font-medium tracking-[0.2em] uppercase">
-                            {String(i + 1).padStart(2, '0')}
-                          </span>
-                          <div className="h-px flex-1 bg-gold/10" />
+                        <div className="min-w-0">
+                          <div className="mb-2 flex flex-wrap items-center gap-2">
+                            <span className="rounded-full border border-gold/20 px-2.5 py-1 text-[0.7rem] font-medium leading-snug text-gold">
+                              {String(index + 1).padStart(2, '0')}
+                            </span>
+                            <span className="text-xs font-medium leading-snug text-charcoal/55">
+                              {t('services.overview')}
+                            </span>
+                          </div>
+                          <h3 className="font-serif text-xl font-semibold leading-snug text-navy transition-colors group-hover:text-gold">
+                            {t(`services.items.${key}.title`)}
+                          </h3>
+                          <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/65">
+                            {t(`services.items.${key}.description`)}
+                          </p>
                         </div>
-                        <h2 className="font-serif text-xl sm:text-2xl text-navy font-semibold mb-3 group-hover:text-gold transition-colors duration-300">
-                          {t(`services.items.${key}.title`)}
-                        </h2>
-                        <p className="text-charcoal/50 leading-relaxed mb-4 font-light">
-                          {t(`services.items.${key}.description`)}
-                        </p>
-                        <span className="inline-flex items-center gap-1.5 text-sm text-gold font-medium tracking-wider">
+                        <span className="inline-flex min-h-11 items-center text-sm font-medium text-gold">
                           {t('services.learnMore')}
-                          <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <svg className="ms-1.5 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1 rtl:group-hover:-translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                           </svg>
                         </span>
-                      </div>
-                    </div>
+                      </Link>
+                    ))}
                   </div>
-                </Link>
+                </section>
               </ScrollReveal>
             ))}
           </div>

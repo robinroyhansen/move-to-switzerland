@@ -92,37 +92,39 @@ function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; loca
       />
 
       {/* Header */}
-      <section className="pt-36 pb-20 bg-navy">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="flex items-center justify-center gap-3 mb-8">
-            <span className="text-xs text-gold/40 font-medium tracking-[0.2em] uppercase">
+      <section className="bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
+        <div className="mx-auto grid max-w-5xl gap-8 px-4 text-start sm:px-6 lg:grid-cols-[0.2fr_0.8fr] lg:items-start lg:px-8">
+          <div className="flex items-center gap-3 lg:block">
+            <span className="text-xs font-medium leading-snug text-gold/75 sm:tracking-[0.12em] sm:uppercase">
               {String(currentIndex + 1).padStart(2, '0')} / {String(serviceKeys.length).padStart(2, '0')}
             </span>
+            <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gold/10 lg:mt-8 lg:h-16 lg:w-16">
+              <svg
+                className="h-7 w-7 text-gold lg:h-8 lg:w-8"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d={serviceIconPaths[serviceKey]} />
+              </svg>
+            </div>
           </div>
-          <div className="w-16 h-16 bg-gold/10 rounded-xl flex items-center justify-center mx-auto mb-8">
-            <svg
-              className="w-8 h-8 text-gold"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={1.5}
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d={serviceIconPaths[serviceKey]} />
-            </svg>
+          <div>
+            <h1 className="mb-5 font-serif text-3xl font-semibold text-white luxury-heading sm:text-4xl md:text-5xl">
+              {t(`services.items.${serviceKey}.title`)}
+            </h1>
+            <p className="max-w-2xl text-lg font-light leading-relaxed text-text-light/70">
+              {t(`services.items.${serviceKey}.description`)}
+            </p>
           </div>
-          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-white font-semibold mb-5 luxury-heading">
-            {t(`services.items.${serviceKey}.title`)}
-          </h1>
-          <p className="text-text-light/50 text-lg max-w-2xl mx-auto font-light leading-relaxed">
-            {t(`services.items.${serviceKey}.description`)}
-          </p>
         </div>
       </section>
 
       {/* Service Detail */}
-      <section className="py-24 bg-cream">
-        <div className="max-w-3xl mx-auto px-4">
-          <div className="bg-white rounded-lg p-8 sm:p-12 shadow-sm border border-navy/[0.04]">
+      <section className="bg-cream py-16 sm:py-24">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="rounded-lg border border-navy/[0.04] bg-white p-6 shadow-sm sm:p-10 lg:p-12">
             <div className="mb-10">
               <div className="gold-line" />
               <h2 className="font-serif text-xl sm:text-2xl text-navy font-semibold mb-5">

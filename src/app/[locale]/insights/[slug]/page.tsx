@@ -8,6 +8,7 @@ import { ConsultationCta } from '@/components/ConsultationCta';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { insightSlugs, insights, type InsightSlug } from '@/content/insights';
 import { locales } from '@/i18n/config';
+import { serviceSlugToKey } from '@/lib/services';
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -68,6 +69,7 @@ async function ArticleContent({
 
 function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
   const t = useTranslations('insights');
+  const servicesT = useTranslations('services');
   const meta = insights[slug];
   const currentIndex = insightSlugs.indexOf(slug);
   const prevSlug = currentIndex > 0 ? insightSlugs[currentIndex - 1] : null;
@@ -249,7 +251,9 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
                       href={`/services/${serviceSlug}` as `/services/${string}`}
                       className="text-xs px-4 py-2 rounded-full border border-gold/20 text-gold hover:bg-gold/5 transition-colors duration-300"
                     >
-                      {serviceSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
+                      {serviceSlugToKey[serviceSlug]
+                        ? servicesT(`items.${serviceSlugToKey[serviceSlug]}.title`)
+                        : serviceSlug}
                     </Link>
                   ))}
                 </div>

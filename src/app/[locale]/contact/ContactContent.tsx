@@ -39,7 +39,7 @@ function RadioPills({
             required={required}
             className="peer sr-only"
           />
-          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
+          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
             {option.label}
           </span>
         </label>
@@ -54,7 +54,7 @@ function CheckboxPills({ name, options, label }: { name: string; options: Option
       {options.map((option) => (
         <label key={option.value} className="group max-w-full cursor-pointer">
           <input type="checkbox" name={name} value={option.value} className="peer sr-only" />
-          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
+          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
             {option.label}
           </span>
         </label>
@@ -129,6 +129,7 @@ export default function ContactPage() {
   const [errors, setErrors] = useState<FieldErrors>({});
   const [startedAt, setStartedAt] = useState('');
   const [optionalOpen, setOptionalOpen] = useState(false);
+  const [selectedContact, setSelectedContact] = useState('');
   const formRef = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
@@ -155,9 +156,17 @@ export default function ContactPage() {
 
     window.requestAnimationFrame(() => {
       const field = formRef.current?.querySelector<HTMLElement>(`[name="${firstField}"]`);
-      field?.focus();
-      field?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      const visibleTarget = field?.closest('label') ?? field;
+      field?.focus({ preventScroll: true });
+      visibleTarget?.scrollIntoView({ block: 'center', behavior: 'smooth' });
     });
+  }
+
+  function handleFormChange(e: React.ChangeEvent<HTMLFormElement>) {
+    const target = e.target as unknown as HTMLInputElement;
+    if (target.name === 'preferredContact') {
+      setSelectedContact(target.value);
+    }
   }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -232,6 +241,7 @@ export default function ContactPage() {
         setStatus('success');
         form.reset();
         setOptionalOpen(false);
+        setSelectedContact('');
         trackConversion('contact_form_submit_success', {
           locale,
           primaryGoal: String(payload.primaryGoal || ''),
@@ -298,7 +308,7 @@ export default function ContactPage() {
                       <p className="mx-auto mt-3 max-w-md font-light leading-relaxed text-charcoal/65">{enhanced.status.successText}</p>
                     </div>
                   ) : (
-                    <form ref={formRef} onSubmit={handleSubmit} className="space-y-8 sm:space-y-10" noValidate>
+                    <form ref={formRef} onSubmit={handleSubmit} onChange={handleFormChange} className="space-y-8 sm:space-y-10" noValidate>
                       <input type="hidden" name="formStartedAt" value={startedAt} />
                       <div className="sr-only" aria-hidden="true">
                         <label>
@@ -448,8 +458,8 @@ export default function ContactPage() {
                         </div>
 
                         <div className="grid gap-5 sm:grid-cols-2">
-                          <div>
-                            <FieldLabel>{copy.labels.phone}</FieldLabel>
+                          <div className={selectedContact === 'phone' ? 'rounded-lg border border-gold/25 bg-gold/5 p-4' : ''}>
+                            <FieldLabel required={selectedContact === 'phone'}>{copy.labels.phone}</FieldLabel>
                             <input type="tel" name="phone" className={inputClass} autoComplete="tel" />
                             <FieldError message={errors.phone} />
                           </div>
@@ -477,7 +487,7 @@ export default function ContactPage() {
                           <FieldError message={errors.message} />
                         </div>
 
-                        <label className="flex items-start gap-3 rounded-sm border border-navy/8 bg-cream/40 p-4 text-sm font-light leading-relaxed text-charcoal/65">
+                        <label className="flex items-start gap-3 rounded-sm border border-navy/8 bg-cream/40 p-4 text-sm font-light leading-relaxed text-charcoal/65 focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-gold">
                           <input type="checkbox" name="privacyConsent" value="yes" required className="mt-1 h-4 w-4 rounded border-navy/20 text-gold" />
                           <span>
                             {enhanced.privacy.beforeLink}
@@ -491,9 +501,46 @@ export default function ContactPage() {
                       </fieldset>
 
                       {status === 'error' && (
-                        <p className="rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-                          {errorMessage || enhanced.validation.submitError}
-                        </p>
+                        <div className="rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700" role="alert" aria-live="assertive">
+                          <p className="font-medium">{errorMessage || enhanced.validation.submitError}</p>
+                          {Object.keys(errors).length > 0 && (
+                            <ul className="mt-2 space-y-1">
+                              {Object.entries(errors).map(([field, message]) => {
+                                const fieldLabels: Record<string, string> = {
+                                  enquiryType: copy.labels.enquiryType,
+                                  primaryGoal: copy.labels.primaryGoal,
+                                  country: copy.labels.country,
+                                  timeline: copy.labels.timeline,
+                                  name: copy.labels.name,
+                                  email: copy.labels.email,
+                                  phone: copy.labels.phone,
+                                  preferredContact: copy.labels.preferredContact,
+                                  message: copy.labels.message,
+                                  servicesNeeded: copy.labels.servicesNeeded,
+                                  privacyConsent: enhanced.privacy.linkText,
+                                };
+
+                                return (
+                                  <li key={field}>
+                                    <a
+                                      href={`#${field}`}
+                                      onClick={(event) => {
+                                        event.preventDefault();
+                                        const target = formRef.current?.querySelector<HTMLElement>(`[name="${field}"]`);
+                                        const visibleTarget = target?.closest('label') ?? target;
+                                        target?.focus({ preventScroll: true });
+                                        visibleTarget?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+                                      }}
+                                      className="underline decoration-red-300 underline-offset-4"
+                                    >
+                                      {fieldLabels[field] || field}: {message}
+                                    </a>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          )}
+                        </div>
                       )}
 
                       <button

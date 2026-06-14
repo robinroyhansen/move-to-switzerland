@@ -106,7 +106,13 @@
         "detail": "Din flyttingssuksess rekker langt ut over papirarbeid."
       }
     },
-    "overview": "Oversikt"
+    "overview": "Oversikt",
+    "groups": {
+      "before": "Før bosted",
+      "move": "Tillatelse og etablering",
+      "settled": "Governance etter ankomst",
+      "workstreams": "arbeidsstrømmer"
+    }
   },
   "clients": {
     "title": "Hvem vi betjener",
@@ -252,7 +258,12 @@
     "rights": "Alle rettigheter forbeholdt.",
     "company": "En tjeneste fra WorkWorkWork AG",
     "disclaimer": "Tjenestene er begrenset til generell finansiell opplæring og strategisk veiledning og utgjør ikke finansielle tjenester i henhold til loven om finansielle tjenester (FIDLEG). Det gis særlig ingen rådgivning om spesifikke finansielle instrumenter, ingen porteføljeforvaltning og ingen utførelse eller formidling av ordre",
-    "trustSwissEntity": "Sveitsiskregistrert selskap"
+    "trustSwissEntity": "Sveitsiskregistrert selskap",
+    "languageGroups": {
+      "core": "Sentrale rådgivningsspråk",
+      "europe": "Europeiske språk",
+      "global": "Midtøsten og Asia"
+    }
   },
   "servicesMeta": {
     "title": "Våre tjenester — Move to Switzerland",
@@ -271,7 +282,8 @@
     },
     "hero": {
       "title": "Hvorfor Sveits",
-      "subtitle": "Verdens ledende destinasjon for formuesbevaring, sikkerhet og livskvalitet"
+      "subtitle": "Verdens ledende destinasjon for formuesbevaring, sikkerhet og livskvalitet",
+      "badge": "Den definitive guiden"
     },
     "neutrality": {
       "title": "Politisk nøytralitet",
@@ -356,7 +368,12 @@
       "stat3Label": "Bilaterale handelsavtaler",
       "p1": "Sveits tilbyr et av verdens mest næringsvennlige miljøer.",
       "p2": "Den sveitsiske arbeidsstyrken er blant de mest velutdannede og produktive i verden."
-    }
+    },
+    "trustStrip": [
+      "500+ år med nøytralitet",
+      "Nr. 1 innen private banking",
+      "78% stemte mot formuesskatt"
+    ]
   },
   "cantonsPage": {
     "meta": {

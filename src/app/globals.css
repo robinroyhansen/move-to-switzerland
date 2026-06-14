@@ -10,7 +10,7 @@
   --color-cream: #F8F6F1;
   --color-charcoal: #1A1A2E;
   --color-text-light: #E8E4DD;
-  --color-white: #FFFFFF;
+  --color-white: #FEFCF7;
   --font-serif: var(--font-cormorant), Georgia, 'Times New Roman', serif;
   --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
 }
@@ -190,13 +190,31 @@ main {
 
 /* Letter spacing for luxury display */
 .luxury-heading {
-  letter-spacing: 0.015em;
+  letter-spacing: 0.005em;
   overflow-wrap: anywhere;
 }
 
 @media (min-width: 640px) {
   .luxury-heading {
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
+  }
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #C5A572;
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  main .uppercase {
+    text-transform: none;
+  }
+
+  main [class*="tracking-["],
+  header [class*="tracking-["],
+  footer [class*="tracking-["] {
+    letter-spacing: 0;
   }
 }
 

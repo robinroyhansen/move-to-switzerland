@@ -95,8 +95,8 @@ export function WhySwitzerlandContent() {
         <div className="relative z-10 max-w-4xl mx-auto px-4 text-center pt-20">
           <ScrollReveal>
             <div className="inline-block mb-8 px-5 py-2 border border-gold/20 rounded-full">
-              <span className="text-gold text-xs tracking-[0.35em] uppercase font-medium">
-                The Definitive Guide
+              <span className="text-gold text-xs font-medium leading-snug sm:tracking-[0.16em] sm:uppercase">
+                {t('whySwitzerlandPage.hero.badge')}
               </span>
             </div>
             <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-semibold leading-[1.1] mb-8 luxury-heading">
@@ -119,12 +119,13 @@ export function WhySwitzerlandContent() {
       {/* Trust strip */}
       <section className="bg-navy-dark py-5">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-xs text-text-light/25 tracking-[0.25em] uppercase">
-            500+ years of neutrality
-            <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />
-            #1 private banking
-            <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />
-            78% voted against wealth tax
+          <p className="text-xs font-medium leading-relaxed text-text-light/75 sm:tracking-[0.16em] sm:uppercase">
+            {(t.raw('whySwitzerlandPage.trustStrip') as string[]).map((item, index) => (
+              <span key={item}>
+                {index > 0 && <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/30 align-middle" />}
+                {item}
+              </span>
+            ))}
           </p>
         </div>
       </section>

@@ -48,7 +48,7 @@ function SectionHeader({ title, icon }: { title: string; icon: string }) {
       <svg className="w-5 h-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d={icon} />
       </svg>
-      <h3 className="text-xs text-gold uppercase tracking-[0.2em] font-medium">{title}</h3>
+      <h3 className="text-xs font-medium leading-snug text-gold sm:tracking-[0.12em] sm:uppercase">{title}</h3>
       <div className="h-px flex-1 bg-gold/10" />
     </div>
   );
@@ -60,11 +60,29 @@ export function CantonsContent() {
 
   const visibleCantons = activeFilter === 'all' ? cantonKeys : [activeFilter];
   const secondaryCantons = t.raw('cantonsPage.otherTaxEfficient.items') as SecondaryCanton[];
+  const comparisonRows = [
+    {
+      label: t('cantonsPage.metricLabels.corporate'),
+      values: cantonKeys.map((canton) => t(`cantonsPage.${canton}.tax.corporate`)),
+    },
+    {
+      label: t('cantonsPage.metricLabels.personalIncome'),
+      values: cantonKeys.map((canton) => t(`cantonsPage.${canton}.tax.personal`)),
+    },
+    {
+      label: t('cantonsPage.sections.bestFor'),
+      values: cantonKeys.map((canton) => t(`cantonsPage.${canton}.bestFor.profile`)),
+    },
+    {
+      label: t('cantonsPage.sections.schools'),
+      values: cantonKeys.map((canton) => (t.raw(`cantonsPage.${canton}.schools.list`) as string[])[0]),
+    },
+  ];
 
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-36 pb-20 bg-navy overflow-hidden">
+      <section className="relative overflow-hidden bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
         <div className="absolute inset-0 opacity-8">
           <Image
             src="/images/hero-swiss-alps.jpg"
@@ -74,25 +92,26 @@ export function CantonsContent() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy/60 to-navy" />
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
-          <div className="gold-line-center" />
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white font-semibold mb-5 luxury-heading">
+        <div className="relative mx-auto max-w-5xl px-4 text-start sm:px-6 lg:px-8">
+          <div className="gold-line" />
+          <h1 className="mb-5 font-serif text-4xl font-semibold text-white luxury-heading sm:text-5xl lg:text-6xl">
             {t('cantonsPage.hero.title')}
           </h1>
-          <p className="text-text-light/50 text-lg font-light max-w-xl mx-auto">
+          <p className="max-w-2xl text-lg font-light leading-relaxed text-text-light/70">
             {t('cantonsPage.hero.subtitle')}
           </p>
         </div>
       </section>
 
       {/* Filter pills */}
-      <section className="bg-cream py-8 border-b border-navy/5 sticky top-[72px] sm:top-[88px] z-20">
-        <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-3">
+      <section className="sticky top-[72px] z-20 border-b border-navy/5 bg-cream/95 py-4 backdrop-blur sm:top-[88px]">
+        <div className="mx-auto flex max-w-7xl gap-2 overflow-x-auto px-4 sm:flex-wrap sm:justify-center">
           {(['all', ...cantonKeys] as const).map((key) => (
             <button
               key={key}
               onClick={() => setActiveFilter(key)}
-              className={`px-6 py-2.5 rounded-full text-sm font-medium tracking-wider transition-all duration-300 min-h-[44px] ${
+              aria-pressed={activeFilter === key}
+              className={`min-h-11 shrink-0 rounded-full px-5 py-2.5 text-sm font-medium leading-snug transition-all duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${
                 activeFilter === key
                   ? 'bg-gold text-navy shadow-md shadow-gold/20'
                   : 'bg-white text-charcoal/60 border border-navy/8 hover:border-gold/40 hover:text-gold'
@@ -101,6 +120,66 @@ export function CantonsContent() {
               {key === 'all' ? t('cantonsPage.filter.all') : t(`cantonsPage.filter.${key}`)}
             </button>
           ))}
+        </div>
+      </section>
+
+      {/* Decision matrix */}
+      <section className="bg-white py-12 sm:py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="mb-8 max-w-3xl">
+              <div className="gold-line" />
+              <h2 className="font-serif text-3xl font-semibold leading-tight text-navy luxury-heading sm:text-4xl">
+                {t('cantonsPage.sections.bestFor')}
+              </h2>
+              <p className="mt-4 text-sm font-light leading-relaxed text-charcoal/65 sm:text-base">
+                {t('cantonsPage.hero.subtitle')}
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="overflow-hidden rounded-lg border border-navy/[0.07] bg-cream/55">
+            <div className="hidden lg:grid lg:grid-cols-[190px_repeat(3,minmax(0,1fr))]">
+              <div className="bg-navy p-5 text-sm font-medium text-text-light/75">{t('cantonsPage.hero.title')}</div>
+              {cantonKeys.map((canton) => (
+                <div key={canton} className="bg-navy p-5">
+                  <h3 className="font-serif text-2xl font-semibold text-gold">{t(`cantonsPage.${canton}.name`)}</h3>
+                  <p className="mt-1 text-sm text-text-light/65">{t(`cantonsPage.${canton}.tagline`)}</p>
+                </div>
+              ))}
+              {comparisonRows.map((row) => (
+                <div key={row.label} className="contents">
+                  <div className="border-t border-navy/8 bg-white p-5 text-sm font-semibold leading-snug text-navy">
+                    {row.label}
+                  </div>
+                  {row.values.map((value, index) => (
+                    <div key={cantonKeys[index]} className="border-s border-t border-navy/8 bg-white p-5 text-sm font-light leading-relaxed text-charcoal/68">
+                      {value}
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+
+            <div className="grid gap-px bg-navy/8 lg:hidden">
+              {cantonKeys.map((canton) => (
+                <article key={canton} className="bg-white p-5">
+                  <h3 className="font-serif text-2xl font-semibold text-navy">{t(`cantonsPage.${canton}.name`)}</h3>
+                  <p className="mt-1 text-sm text-charcoal/65">{t(`cantonsPage.${canton}.tagline`)}</p>
+                  <dl className="mt-5 space-y-3">
+                    {comparisonRows.map((row) => (
+                      <div key={row.label} className="rounded-md bg-cream/70 p-3">
+                        <dt className="text-xs font-medium leading-snug text-gold">{row.label}</dt>
+                        <dd className="mt-1 text-sm font-light leading-relaxed text-charcoal/70">
+                          {row.values[cantonKeys.indexOf(canton)]}
+                        </dd>
+                      </div>
+                    ))}
+                  </dl>
+                </article>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 

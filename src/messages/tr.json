@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Neden İsviçre",
-      "subtitle": "Servet koruma, güvenlik ve yaşam kalitesi için dünyanın önde gelen destinasyonu"
+      "subtitle": "Servet koruma, güvenlik ve yaşam kalitesi için dünyanın önde gelen destinasyonu",
+      "badge": "Referans rehber"
     },
     "neutrality": {
       "title": "Siyasi Tarafsızlık",
@@ -151,7 +152,12 @@
       "stat3Label": "İkili ticaret anlaşmaları",
       "p1": "İsviçre, dünyanın en iş dostu ortamlarından birini sunar. Şirket kurulumu bir ila iki hafta gibi kısa bir sürede tamamlanabilir, fikri mülkiyet koruması küresel olarak en güçlü seviyededir ve ülkenin 120'den fazla ikili ticaret anlaşmasından oluşan ağı, AB tek pazarına ve ötesine sorunsuz erişim sağlar.",
       "p2": "İsviçre iş gücü, güçlü bir gizlilik ve profesyonellik geleneğine sahip, dünyanın en eğitimli ve üretken çalışanları arasındadır. İsviçre'de faaliyet gösteren girişimciler ve aile ofisleri için siyasi istikrar, yasal kesinlik, fikri mülkiyet koruması ve pazar erişiminin birleşimi, iş büyümesi için eşsiz bir temel oluşturur."
-    }
+    },
+    "trustStrip": [
+      "500+ yıllık tarafsızlık",
+      "Özel bankacılıkta 1 numara",
+      "%78 servet vergisine karşı oy verdi"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Relokasyonunuzun başarısı evrak işlerinin çok ötesine geçer. Çocuklarınız için uluslararası okul yerleşimi, ev personeli çalışma izinleri, eş entegrasyonu ve topluluk tanıtımları ile tüm ailenizin ilk günden itibaren İsviçre'de kendini evinde hissetmesini sağlamak için kapsamlı kültürel oryantasyon süreçlerini yönetiyoruz."
       }
     },
-    "overview": "Genel Bakış"
+    "overview": "Genel Bakış",
+    "groups": {
+      "before": "Oturum öncesi",
+      "move": "İzin ve yerleşim",
+      "settled": "Varış sonrası yönetişim",
+      "workstreams": "iş akışı"
+    }
   },
   "clients": {
     "title": "Kime Hizmet Veriyoruz",
@@ -656,7 +668,12 @@
     "rights": "Tüm hakları saklıdır.",
     "company": "WorkWorkWork AG hizmetidir",
     "disclaimer": "Hizmetler genel finansal eğitim ve stratejik rehberlik ile sınırlı olup Finansal Hizmetler Kanunu (FIDLEG) anlamında finansal hizmet teşkil etmez. Özellikle, belirli finansal araçlar hakkında danışmanlık, portföy yönetimi ve emirlerin icrası veya iletimi sağlanmamaktadır.",
-    "trustSwissEntity": "İsviçre’de kayıtlı kuruluş"
+    "trustSwissEntity": "İsviçre’de kayıtlı kuruluş",
+    "languageGroups": {
+      "core": "Temel danışmanlık dilleri",
+      "europe": "Avrupa dilleri",
+      "global": "Orta Doğu ve Asya"
+    }
   },
   "servicesMeta": {
     "title": "Hizmetlerimiz — İsviçre'ye Taşınma",

@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Por que a Suíça",
-      "subtitle": "O principal destino do mundo para preservação de patrimônio, segurança e qualidade de vida"
+      "subtitle": "O principal destino do mundo para preservação de patrimônio, segurança e qualidade de vida",
+      "badge": "O guia de referência"
     },
     "neutrality": {
       "title": "Neutralidade Política",
@@ -151,7 +152,12 @@
       "stat3Label": "Acordos comerciais bilaterais",
       "p1": "A Suíça oferece um dos ambientes mais favoráveis aos negócios no mundo. A formação de uma empresa pode ser concluída em apenas uma ou duas semanas, a proteção da propriedade intelectual é a mais forte globalmente e a rede do país com mais de 120 acordos comerciais bilaterais oferece acesso contínuo ao mercado único da UE e além.",
       "p2": "A força de trabalho suíça está entre as mais instruídas e produtivas do mundo, com uma forte tradição de discrição e profissionalismo. Para empreendedores e family offices que estabelecem operações na Suíça, a combinação de estabilidade política, segurança jurídica, proteção de PI e acesso ao mercado cria uma base incomparável para o crescimento dos negócios."
-    }
+    },
+    "trustStrip": [
+      "500+ anos de neutralidade",
+      "N.º 1 em private banking",
+      "78% votaram contra o imposto sobre patrimônio"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "O sucesso de sua relocação vai muito além da papelada. Cuidamos da matrícula dos seus filhos em escolas internacionais, vistos de trabalho para funcionários domésticos, integração do cônjuge e apresentações à comunidade, além de orientação cultural completa para que sua família se sinta em casa na Suíça desde o primeiro dia."
       }
     },
-    "overview": "Visão Geral"
+    "overview": "Visão Geral",
+    "groups": {
+      "before": "Antes da residência",
+      "move": "Permissão e instalação",
+      "settled": "Governança após a chegada",
+      "workstreams": "frentes de trabalho"
+    }
   },
   "clients": {
     "title": "Quem Atendemos",
@@ -656,7 +668,12 @@
     "rights": "Todos os direitos reservados.",
     "company": "Um serviço de WorkWorkWork AG",
     "disclaimer": "Os serviços limitam-se à educação financeira geral e orientação estratégica, não constituindo serviços financeiros nos termos da Lei de Serviços Financeiros (FIDLEG). Em particular, não é prestado aconselhamento sobre instrumentos financeiros específicos, gestão de portfólio ou execução/transmissão de ordens.",
-    "trustSwissEntity": "Entidade registrada na Suíça"
+    "trustSwissEntity": "Entidade registrada na Suíça",
+    "languageGroups": {
+      "core": "Idiomas principais de assessoria",
+      "europe": "Idiomas europeus",
+      "global": "Oriente Médio e Ásia"
+    }
   },
   "servicesMeta": {
     "title": "Nossos Serviços — Move to Switzerland",

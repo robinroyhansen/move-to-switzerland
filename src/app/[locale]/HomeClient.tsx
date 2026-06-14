@@ -13,7 +13,6 @@ import {
   serviceSlugs,
 } from '@/lib/services';
 import type { ConversionCopy, RelocationPath } from '@/lib/conversion-copy';
-import type { ContactCopy } from '@/lib/contact-copy';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { AnimatedStat } from '@/components/AnimatedStat';
 import { ConversionLink } from '@/components/ConversionLink';
@@ -24,7 +23,6 @@ type HomeClientProps = {
   ctaCopy: ConversionCopy['cta'];
   caseSnapshots: ConversionCopy['caseSnapshots'];
   quizCopy: ConversionCopy['quiz'];
-  contactCopy: ContactCopy;
   relocationPaths: RelocationPath[];
 };
 
@@ -33,7 +31,6 @@ export function HomeClient({
   ctaCopy,
   caseSnapshots,
   quizCopy,
-  contactCopy,
   relocationPaths,
 }: HomeClientProps) {
   const t = useTranslations();
@@ -71,7 +68,7 @@ export function HomeClient({
   return (
     <>
       {/* Hero - Full viewport, parallax */}
-      <section className="relative min-h-[92vh] flex items-center bg-navy overflow-hidden">
+      <section className="relative flex min-h-[88svh] items-center overflow-hidden bg-navy">
         <div ref={parallaxRef} className="absolute inset-0 parallax-bg">
           <Image
             src="/images/hero-swiss-alps.jpg"
@@ -84,10 +81,10 @@ export function HomeClient({
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy/65 via-navy/45 to-navy" />
 
-        <div ref={heroRef} className="relative z-10 mx-auto grid max-w-7xl gap-12 px-4 pb-20 pt-32 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-8">
+        <div ref={heroRef} className="relative z-10 mx-auto grid max-w-7xl gap-8 px-4 pb-14 pt-28 sm:px-6 sm:pb-20 sm:pt-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-8">
           <div>
-            <div className="mb-7 inline-flex max-w-full rounded-full border border-gold/25 px-4 py-2 sm:px-5">
-              <span className="min-w-0 break-words text-center text-xs font-medium uppercase leading-relaxed tracking-[0.16em] text-gold sm:tracking-[0.28em]">
+            <div className="mb-6 inline-flex max-w-full rounded-full border border-gold/25 bg-navy/40 px-4 py-2 sm:px-5">
+              <span className="min-w-0 break-words text-start text-xs font-medium leading-relaxed text-gold sm:tracking-[0.12em] sm:uppercase">
                 {homeCopy.heroBadge}
               </span>
             </div>
@@ -114,21 +111,21 @@ export function HomeClient({
               </ConversionLink>
             </div>
 
-            <div className="mt-10 grid gap-3 sm:grid-cols-2">
+            <div className="mt-9 grid gap-3 sm:grid-cols-2">
               {homeCopy.heroProof.map((item) => (
-                <div key={item.label} className="rounded-md border border-text-light/10 bg-text-light/[0.03] px-4 py-3">
-                  <p className="text-[11px] uppercase tracking-[0.18em] text-text-light/30">{item.label}</p>
+                <div key={item.label} className="rounded-md border border-text-light/10 bg-text-light/[0.04] px-4 py-3">
+                  <p className="text-[11px] font-medium leading-snug text-text-light/68">{item.label}</p>
                   <p className="mt-1 text-sm font-medium text-text-light/75">{item.value}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          <div className="hidden lg:block">
+          <div className="block">
             <div className="rounded-lg border border-gold/20 bg-navy/75 p-6 shadow-2xl shadow-navy-dark/30 backdrop-blur-sm">
-              <div className="mb-6 flex items-center justify-between">
-                <p className="text-xs font-medium uppercase tracking-[0.24em] text-gold/80">{homeCopy.planTitle}</p>
-                <span className="rounded-full border border-gold/20 px-3 py-1 text-[11px] uppercase tracking-[0.16em] text-text-light/40">
+              <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <p className="text-xs font-medium leading-snug text-gold/80 sm:tracking-[0.14em] sm:uppercase">{homeCopy.planTitle}</p>
+                <span className="w-fit rounded-full border border-gold/20 px-3 py-1 text-[11px] font-medium leading-snug text-text-light/68">
                   {homeCopy.planPeriod}
                 </span>
               </div>
@@ -161,7 +158,7 @@ export function HomeClient({
       {/* Trust Strip */}
       <section className="bg-navy-dark py-5">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-xs text-text-light/65 tracking-[0.25em] uppercase">
+          <p className="text-xs font-medium leading-relaxed text-text-light/75 sm:tracking-[0.16em] sm:uppercase">
             {homeCopy.trustStrip.map((item, index) => (
               <span key={item}>
                 {index > 0 && <span className="inline-block mx-4 w-1 h-1 rounded-full bg-gold/50 align-middle" />}
@@ -169,54 +166,6 @@ export function HomeClient({
               </span>
             ))}
           </p>
-        </div>
-      </section>
-
-      {/* Contact confidence */}
-      <section className="bg-cream py-20 sm:py-28">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:px-8">
-          <ScrollReveal>
-            <div>
-              <div className="gold-line" />
-              <h2 className="luxury-heading font-serif text-3xl font-semibold text-navy sm:text-4xl lg:text-5xl">
-                {contactCopy.aside.title}
-              </h2>
-              <div className="mt-5 space-y-4 text-base font-light leading-relaxed text-charcoal/55">
-                {contactCopy.aside.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
-            </div>
-          </ScrollReveal>
-
-          <div className="grid gap-4 sm:grid-cols-2">
-            {[
-              {
-                title: contactCopy.sections.situationTitle,
-                text: contactCopy.sections.situationText,
-              },
-              {
-                title: contactCopy.sections.coordinationTitle,
-                text: contactCopy.sections.coordinationText,
-              },
-              {
-                title: contactCopy.sections.responseTitle,
-                text: contactCopy.sections.responseText,
-              },
-              {
-                title: contactCopy.confidential,
-                text: contactCopy.noSensitive,
-              },
-            ].map((item, index) => (
-              <ScrollReveal key={item.title} delay={index * 60}>
-                <div className="h-full rounded-lg border border-navy/[0.06] bg-white p-6 shadow-sm">
-                  <span className="font-serif text-2xl text-gold/70">{String(index + 1).padStart(2, '0')}</span>
-                  <h3 className="mt-4 font-serif text-xl font-semibold text-navy">{item.title}</h3>
-                  <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/55">{item.text}</p>
-                </div>
-              </ScrollReveal>
-            ))}
-          </div>
         </div>
       </section>
 

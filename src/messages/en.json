@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Why Switzerland",
-      "subtitle": "The world's premier destination for wealth preservation, security, and quality of life"
+      "subtitle": "The world's premier destination for wealth preservation, security, and quality of life",
+      "badge": "The definitive guide"
     },
     "neutrality": {
       "title": "Political Neutrality",
@@ -151,7 +152,12 @@
       "stat3Label": "Bilateral trade agreements",
       "p1": "Switzerland offers one of the most business-friendly environments in the world. Company formation can be completed in as little as one to two weeks, intellectual property protection is the strongest globally, and the country's network of over 120 bilateral trade agreements provides seamless access to the EU single market and beyond.",
       "p2": "The Swiss workforce is among the most highly educated and productive in the world, with a strong tradition of discretion and professionalism. For entrepreneurs and family offices establishing operations in Switzerland, the combination of political stability, legal certainty, IP protection, and market access creates an unmatched foundation for business growth."
-    }
+    },
+    "trustStrip": [
+      "500+ years of neutrality",
+      "#1 private banking",
+      "78% voted against wealth tax"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "The success of your relocation extends far beyond paperwork. We handle international school placement for your children, domestic staff work permits, spouse integration and community introductions, and comprehensive cultural orientation to ensure your entire family feels at home in Switzerland from day one."
       }
     },
-    "overview": "Overview"
+    "overview": "Overview",
+    "groups": {
+      "before": "Before residence",
+      "move": "Permit and settlement",
+      "settled": "Governance after arrival",
+      "workstreams": "workstreams"
+    }
   },
   "clients": {
     "title": "Who We Serve",
@@ -656,7 +668,12 @@
     "rights": "All rights reserved.",
     "company": "A service by WorkWorkWork AG",
     "disclaimer": "The services are limited to general financial education and strategic guidance and do not constitute financial services within the meaning of the Financial Services Act (FIDLEG). In particular, no advice on specific financial instruments, no portfolio management and no execution or transmission of orders is provided",
-    "trustSwissEntity": "Swiss-registered entity"
+    "trustSwissEntity": "Swiss-registered entity",
+    "languageGroups": {
+      "core": "Core advisory languages",
+      "europe": "European languages",
+      "global": "Middle East and Asia"
+    }
   },
   "servicesMeta": {
     "title": "Our Services — Move to Switzerland",

@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Waarom Zwitserland",
-      "subtitle": "'s Werelds belangrijkste bestemming voor behoud van rijkdom, veiligheid en levenskwaliteit"
+      "subtitle": "'s Werelds belangrijkste bestemming voor behoud van rijkdom, veiligheid en levenskwaliteit",
+      "badge": "De gezaghebbende gids"
     },
     "neutrality": {
       "title": "Politieke neutraliteit",
@@ -151,7 +152,12 @@
       "stat3Label": "Bilaterale handelsovereenkomsten",
       "p1": "Zwitserland biedt een van de meest bedrijfsvriendelijke omgevingen ter wereld. De oprichting van bedrijven kan in slechts één tot twee weken worden voltooid, de bescherming van intellectueel eigendom is wereldwijd de sterkste, en het netwerk van het land van meer dan 120 bilaterale handelsovereenkomsten biedt naadloze toegang tot de interne markt van de EU en daarbuiten.",
       "p2": "De Zwitserse beroepsbevolking behoort tot de hoogst opgeleide en productieve ter wereld, met een sterke traditie van discretie en professionaliteit. Voor ondernemers en family offices die zich in Zwitserland vestigen, creëert de combinatie van politieke stabiliteit, rechtszekerheid, IP-bescherming en markttoegang een ongeëvenaarde basis voor bedrijfsgroei."
-    }
+    },
+    "trustStrip": [
+      "500+ jaar neutraliteit",
+      "Nr. 1 in private banking",
+      "78% stemde tegen vermogensbelasting"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Het succes van uw verhuizing reikt veel verder dan alleen papierwerk. Wij verzorgen de internationale schoolplaatsing voor uw kinderen, werkvergunningen voor huishoudelijk personeel, integratie van echtgenoten en introductie in de gemeenschap, en uitgebreide culturele oriëntatie om ervoor te zorgen dat uw hele gezin zich vanaf dag één thuis voelt in Zwitserland."
       }
     },
-    "overview": "Overzicht"
+    "overview": "Overzicht",
+    "groups": {
+      "before": "Voor residentie",
+      "move": "Vergunning en vestiging",
+      "settled": "Governance na aankomst",
+      "workstreams": "werkstromen"
+    }
   },
   "clients": {
     "title": "Wie wij dienen",
@@ -656,7 +668,12 @@
     "rights": "Alle rechten voorbehouden.",
     "company": "Een service van WorkWorkWork AG",
     "disclaimer": "De diensten beperken zich tot algemene financiële educatie en strategische begeleiding en vormen geen financiële diensten in de zin van de Financial Services Act (FIDLEG). Er wordt met name geen advies gegeven over specifieke financiële instrumenten, geen portefeuillebeheer en geen uitvoering of overdracht van orders",
-    "trustSwissEntity": "In Zwitserland geregistreerde entiteit"
+    "trustSwissEntity": "In Zwitserland geregistreerde entiteit",
+    "languageGroups": {
+      "core": "Kernadvies talen",
+      "europe": "Europese talen",
+      "global": "Midden-Oosten en Azië"
+    }
   },
   "servicesMeta": {
     "title": "Onze diensten — Move to Switzerland",

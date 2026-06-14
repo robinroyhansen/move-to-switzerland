@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Perché la Svizzera",
-      "subtitle": "La principale destinazione al mondo per la conservazione del patrimonio, la sicurezza e la qualità della vita"
+      "subtitle": "La principale destinazione al mondo per la conservazione del patrimonio, la sicurezza e la qualità della vita",
+      "badge": "La guida di riferimento"
     },
     "neutrality": {
       "title": "Neutralità Politica",
@@ -151,7 +152,12 @@
       "stat3Label": "Accordi commerciali bilaterali",
       "p1": "La Svizzera offre uno degli ambienti più favorevoli al business al mondo. La costituzione di una società può essere completata in una o due settimane, la protezione della proprietà intellettuale è la più forte a livello globale e la rete nazionale di oltre 120 accordi commerciali bilaterali garantisce un accesso agevole al mercato unico dell'UE e oltre.",
       "p2": "La forza lavoro svizzera è tra le più istruite e produttive al mondo, con una solida tradizione di discrezione e professionalità. Per gli imprenditori e i family office che stabiliscono operazioni in Svizzera, la combinazione di stabilità politica, certezza del diritto, protezione della proprietà intellettuale e accesso al mercato crea una base impareggiabile per la crescita aziendale."
-    }
+    },
+    "trustStrip": [
+      "500+ anni di neutralità",
+      "N. 1 nel private banking",
+      "78% ha votato contro l’imposta patrimoniale"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Il successo del Suo trasferimento va ben oltre le scartoffie. Gestiamo l'inserimento scolastico internazionale per i Suoi figli, i permessi di lavoro per il personale domestico, l'integrazione del coniuge e le introduzioni alla comunità, oltre a un orientamento culturale completo per garantire che tutta la Sua famiglia si senta a casa in Svizzera fin dal primo giorno."
       }
     },
-    "overview": "Panoramica"
+    "overview": "Panoramica",
+    "groups": {
+      "before": "Prima della residenza",
+      "move": "Permesso e insediamento",
+      "settled": "Governance dopo l’arrivo",
+      "workstreams": "flussi di lavoro"
+    }
   },
   "clients": {
     "title": "A Chi Ci Rivolgiamo",
@@ -656,7 +668,12 @@
     "rights": "Tutti i diritti riservati.",
     "company": "Un servizio di WorkWorkWork AG",
     "disclaimer": "I servizi sono limitati all'educazione finanziaria generale e alla guida strategica e non costituiscono servizi finanziari ai sensi della Legge sui servizi finanziari (LInFi). In particolare, non viene fornita alcuna consulenza su specifici strumenti finanziari, nessuna gestione di portafoglio e nessuna esecuzione o trasmissione di ordini.",
-    "trustSwissEntity": "Entità registrata in Svizzera"
+    "trustSwissEntity": "Entità registrata in Svizzera",
+    "languageGroups": {
+      "core": "Lingue principali di consulenza",
+      "europe": "Lingue europee",
+      "global": "Medio Oriente e Asia"
+    }
   },
   "servicesMeta": {
     "title": "I Nostri Servizi — Move to Switzerland",

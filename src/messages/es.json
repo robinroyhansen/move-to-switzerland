@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Por qué Suiza",
-      "subtitle": "El principal destino del mundo para la preservación de la riqueza, la seguridad y la calidad de vida."
+      "subtitle": "El principal destino del mundo para la preservación de la riqueza, la seguridad y la calidad de vida.",
+      "badge": "La guía de referencia"
     },
     "neutrality": {
       "title": "Neutralidad política",
@@ -151,7 +152,12 @@
       "stat3Label": "Acuerdos comerciales bilaterales",
       "p1": "Suiza ofrece uno de los entornos más favorables para los negocios del mundo. La formación de empresas puede completarse en tan solo una o dos semanas, la protección de la propiedad intelectual es la más sólida a nivel mundial y la red del país de más de 120 acuerdos comerciales bilaterales proporciona un acceso fluido al mercado único de la UE y más allá.",
       "p2": "La fuerza laboral suiza se encuentra entre las más educadas y productivas del mundo, con una fuerte tradición de discreción y profesionalismo. Para los empresarios y las oficinas familiares que establecen operaciones en Suiza, la combinación de estabilidad política, seguridad jurídica, protección de la propiedad intelectual y acceso al mercado crea una base incomparable para el crecimiento empresarial."
-    }
+    },
+    "trustStrip": [
+      "500+ años de neutralidad",
+      "N.º 1 en banca privada",
+      "78% votó contra el impuesto al patrimonio"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "El éxito de su reubicación va mucho más allá del papeleo. Nos encargamos de la colocación de sus hijos en escuelas internacionales, permisos de trabajo para el personal doméstico, integración de cónyuges y presentaciones comunitarias, y orientación cultural integral para garantizar que toda su familia se sienta como en casa en Suiza desde el primer día."
       }
     },
-    "overview": "Descripción general"
+    "overview": "Descripción general",
+    "groups": {
+      "before": "Antes de la residencia",
+      "move": "Permiso e instalación",
+      "settled": "Gobernanza tras la llegada",
+      "workstreams": "frentes de trabajo"
+    }
   },
   "clients": {
     "title": "A quién servimos",
@@ -656,7 +668,12 @@
     "rights": "Reservados todos los derechos.",
     "company": "Un servicio de WorkWorkWork AG",
     "disclaimer": "Los servicios se limitan a educación financiera general y orientación estratégica y no constituyen servicios financieros en el sentido de la Ley de Servicios Financieros (FIDLEG). En particular, no se proporciona asesoramiento sobre instrumentos financieros específicos, ni gestión de carteras ni ejecución o transmisión de órdenes.",
-    "trustSwissEntity": "Entidad registrada en Suiza"
+    "trustSwissEntity": "Entidad registrada en Suiza",
+    "languageGroups": {
+      "core": "Idiomas principales de asesoría",
+      "europe": "Idiomas europeos",
+      "global": "Oriente Medio y Asia"
+    }
   },
   "servicesMeta": {
     "title": "Nuestros servicios — Move to Switzerland",

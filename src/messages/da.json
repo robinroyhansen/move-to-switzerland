@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Hvorfor Schweiz",
-      "subtitle": "Verdens førende destination for formuepleje, sikkerhed og livskvalitet"
+      "subtitle": "Verdens førende destination for formuepleje, sikkerhed og livskvalitet",
+      "badge": "Den definitive guide"
     },
     "neutrality": {
       "title": "Politisk neutralitet",
@@ -151,7 +152,12 @@
       "stat3Label": "Bilaterale handelsaftaler",
       "p1": "Schweiz tilbyder et af de mest erhvervsvenlige miljøer i verden. Stiftelse af virksomheder kan gennemføres på så lidt som en til to uger, beskyttelse af intellektuel ejendom er den stærkeste i verden, og landets netværk af over 120 bilaterale handelsaftaler giver sømløs adgang til EU's indre marked og resten af verden.",
       "p2": "Den schweiziske arbejdsstyrke er blandt de mest veluddannede og produktive i verden, med en stærk tradition for diskretion og professionalisme. For iværksættere og family offices, der etablerer aktiviteter i Schweiz, skaber kombinationen af politisk stabilitet, retssikkerhed, IP-beskyttelse og markedsadgang et uovertruffet fundament for vækst."
-    }
+    },
+    "trustStrip": [
+      "500+ års neutralitet",
+      "Nr. 1 i private banking",
+      "78% stemte imod formueskat"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Succesen af Deres flytning rækker langt ud over papirarbejdet. Vi håndterer skolepladser til Deres børn, arbejdstilladelser til husholdningspersonale, integration af ægtefæller og introduktion til lokalsamfundet samt omfattende kulturel orientering for at sikre, at hele Deres familie føler sig hjemme i Schweiz fra dag ét."
       }
     },
-    "overview": "Oversigt"
+    "overview": "Oversigt",
+    "groups": {
+      "before": "Før ophold",
+      "move": "Tilladelse og etablering",
+      "settled": "Governance efter ankomst",
+      "workstreams": "arbejdsspor"
+    }
   },
   "clients": {
     "title": "Hvem vi betjener",
@@ -656,7 +668,12 @@
     "rights": "Alle rettigheder forbeholdes.",
     "company": "En tjeneste af WorkWorkWork AG",
     "disclaimer": "Tjenesterne er begrænset til generel finansiel oplysning og strategisk vejledning og udgør ikke finansielle tjenesteydelser i henhold til loven om finansielle tjenesteydelser (FIDLEG). Der ydes især ingen rådgivning om specifikke finansielle instrumenter, ingen porteføljepleje og ingen eksekvering eller formidling af ordrer.",
-    "trustSwissEntity": "Schweizisk registreret enhed"
+    "trustSwissEntity": "Schweizisk registreret enhed",
+    "languageGroups": {
+      "core": "Primære rådgivningssprog",
+      "europe": "Europæiske sprog",
+      "global": "Mellemøsten og Asien"
+    }
   },
   "servicesMeta": {
     "title": "Vores ydelser — Flyt til Schweiz",

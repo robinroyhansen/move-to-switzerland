@@ -24,7 +24,18 @@ export function Header({ site = 'move' }: HeaderProps) {
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const brandHref = isSwissArrival ? '/swiss-arrival' : '/';
   const languageOptions = isSwissArrival ? swissArrivalLocales : locales;
+  const languageSet = new Set<Locale>(languageOptions as readonly Locale[]);
   const languageLabel = footerT('languages');
+  const languageGroups = [
+    { key: 'core', codes: ['en', 'de', 'fr'] as Locale[] },
+    { key: 'europe', codes: ['da', 'it', 'pt', 'no', 'ro', 'es', 'nl'] as Locale[] },
+    { key: 'global', codes: ['ar', 'fa', 'tr', 'ru', 'hi', 'zh', 'he', 'ko'] as Locale[] },
+  ]
+    .map((group) => ({
+      ...group,
+      codes: group.codes.filter((code) => languageSet.has(code)),
+    }))
+    .filter((group) => group.codes.length > 0);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -219,24 +230,33 @@ export function Header({ site = 'move' }: HeaderProps) {
               </div>
             </nav>
 
-          {/* Languages */}
-          <div className="px-8 pb-8 pt-4">
-            <p className="text-xs text-text-light/30 uppercase tracking-[0.2em] mb-4">{languageLabel}</p>
-              <div className="flex flex-wrap gap-2">
-                {languageOptions.map((code) => (
-                  <Link
-                    key={code}
-                    href={pathname}
-                    locale={code}
-                    onClick={() => setMobileOpen(false)}
-                    className={`text-xs px-3 py-2 rounded-full border transition-colors min-h-[44px] flex items-center ${
-                      locale === code
-                        ? 'border-gold text-gold bg-gold/5'
-                        : 'border-text-light/15 text-text-light/40 hover:border-gold/40 hover:text-gold/70'
-                    }`}
-                  >
-                    {localeNames[code]}
-                  </Link>
+            {/* Languages */}
+            <div className="px-8 pb-8 pt-4">
+              <p className="mb-4 text-xs font-medium leading-snug text-text-light/68">{languageLabel}</p>
+              <div className="space-y-4">
+                {languageGroups.map((group) => (
+                  <div key={group.key} className="border-t border-text-light/8 pt-4 first:border-t-0 first:pt-0">
+                    <p className="mb-2 text-[0.72rem] font-medium leading-snug text-text-light/45">
+                      {footerT(`languageGroups.${group.key}`)}
+                    </p>
+                    <div className="grid grid-cols-2 gap-2">
+                      {group.codes.map((code) => (
+                        <Link
+                          key={code}
+                          href={pathname}
+                          locale={code}
+                          onClick={() => setMobileOpen(false)}
+                          className={`inline-flex min-h-11 max-w-full items-center justify-center rounded-full border px-3 py-2 text-center text-xs font-medium leading-snug transition-colors ${
+                            locale === code
+                              ? 'border-gold bg-gold/10 text-gold'
+                              : 'border-text-light/15 text-text-light/68 hover:border-gold/40 hover:text-gold'
+                          }`}
+                        >
+                          <span className="min-w-0 truncate">{localeNames[code]}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>

@@ -18,6 +18,17 @@ export function Footer({ site = 'move' }: FooterProps) {
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const languageOptions = isSwissArrival ? swissArrivalLocales : locales;
+  const languageSet = new Set<Locale>(languageOptions as readonly Locale[]);
+  const languageGroups = [
+    { key: 'core', codes: ['en', 'de', 'fr'] as Locale[] },
+    { key: 'europe', codes: ['da', 'it', 'pt', 'no', 'ro', 'es', 'nl'] as Locale[] },
+    { key: 'global', codes: ['ar', 'fa', 'tr', 'ru', 'hi', 'zh', 'he', 'ko'] as Locale[] },
+  ]
+    .map((group) => ({
+      ...group,
+      codes: group.codes.filter((code) => languageSet.has(code)),
+    }))
+    .filter((group) => group.codes.length > 0);
   const navigationItems = isSwissArrival
     ? [
         { href: '/swiss-arrival' as const, label: swissNavT('guide') },
@@ -102,23 +113,32 @@ export function Footer({ site = 'move' }: FooterProps) {
 
           {/* Languages */}
           <div>
-            <h4 className="text-text-light/80 text-xs uppercase tracking-[0.25em] font-medium mb-6">
+            <h4 className="text-text-light/80 text-xs font-medium mb-6">
               {t('footer.languages')}
             </h4>
-            <div className="flex flex-wrap gap-2">
-              {languageOptions.map((code) => (
-                <Link
-                  key={code}
-                  href={pathname}
-                  locale={code}
-                  className={`inline-flex min-h-11 items-center rounded-full border px-3 py-1.5 text-xs transition-all duration-300 ${
-                    locale === code
-                      ? 'border-gold text-gold bg-gold/5'
-                      : 'border-text-light/20 text-text-light/68 hover:border-gold/40 hover:text-gold'
-                  }`}
-                >
-                  {localeNames[code]}
-                </Link>
+            <div className="space-y-4">
+              {languageGroups.map((group) => (
+                <div key={group.key}>
+                  <p className="mb-2 text-[0.72rem] font-medium leading-snug text-text-light/45">
+                    {t(`footer.languageGroups.${group.key}`)}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {group.codes.map((code) => (
+                      <Link
+                        key={code}
+                        href={pathname}
+                        locale={code}
+                        className={`inline-flex min-h-11 max-w-full items-center rounded-full border px-3 py-1.5 text-xs leading-snug transition-all duration-300 ${
+                          locale === code
+                            ? 'border-gold text-gold bg-gold/5'
+                            : 'border-text-light/20 text-text-light/68 hover:border-gold/40 hover:text-gold'
+                        }`}
+                      >
+                        <span className="min-w-0 truncate">{localeNames[code]}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </div>

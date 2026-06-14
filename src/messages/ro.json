@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "De ce Elveția",
-      "subtitle": "Destinația de top a lumii pentru conservarea averii, securitate și calitatea vieții"
+      "subtitle": "Destinația de top a lumii pentru conservarea averii, securitate și calitatea vieții",
+      "badge": "Ghidul de referință"
     },
     "neutrality": {
       "title": "Neutralitate politică",
@@ -151,7 +152,12 @@
       "stat3Label": "Acorduri comerciale bilaterale",
       "p1": "Elveția oferă unul dintre cele mai prietenoase medii de afaceri din lume. Înființarea unei companii poate fi finalizată în doar una până la două săptămâni, protecția proprietății intelectuale este cea mai puternică la nivel global, iar rețeaua țării de peste 120 de acorduri comerciale bilaterale oferă acces neîngrădit la piața unică a UE și nu numai.",
       "p2": "Forța de muncă elvețiană este printre cele mai bine educate și productive din lume, având o tradiție solidă de discreție și profesionalism. Pentru antreprenorii și Family Offices care își stabilesc operațiunile în Elveția, combinația de stabilitate politică, certitudine juridică, protecția proprietății intelectuale și acces la piață creează o fundație de neegalat pentru creșterea afacerii."
-    }
+    },
+    "trustStrip": [
+      "500+ ani de neutralitate",
+      "Nr. 1 în private banking",
+      "78% au votat împotriva impozitului pe avere"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Succesul relocării dumneavoastră depășește actele oficiale. Ne ocupăm de înscrierea copiilor la școli internaționale, de permisele de muncă pentru personalul casnic, de integrarea partenerului de viață, de prezentări în comunitatea locală și de o orientare culturală completă, pentru ca întreaga familie să se simtă acasă în Elveția din prima zi."
       }
     },
-    "overview": "Prezentare generală"
+    "overview": "Prezentare generală",
+    "groups": {
+      "before": "Înainte de rezidență",
+      "move": "Permis și stabilire",
+      "settled": "Guvernanță după sosire",
+      "workstreams": "fluxuri de lucru"
+    }
   },
   "clients": {
     "title": "Cui ne adresăm",
@@ -656,7 +668,12 @@
     "rights": "Toate drepturile rezervate.",
     "company": "Un serviciu oferit de WorkWorkWork AG",
     "disclaimer": "Serviciile sunt limitate la educație financiară generală și îndrumare strategică și nu constituie servicii financiare în sensul Legii privind serviciile financiare (FIDLEG). În special, nu se oferă consultanță cu privire la instrumente financiare specifice, nicio gestionare de portofoliu și nicio executare sau transmitere de ordine.",
-    "trustSwissEntity": "Entitate înregistrată în Elveția"
+    "trustSwissEntity": "Entitate înregistrată în Elveția",
+    "languageGroups": {
+      "core": "Limbi principale de consultanță",
+      "europe": "Limbi europene",
+      "global": "Orientul Mijlociu și Asia"
+    }
   },
   "servicesMeta": {
     "title": "Serviciile noastre — Move to Switzerland",

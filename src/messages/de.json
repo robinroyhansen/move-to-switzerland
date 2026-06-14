@@ -66,7 +66,8 @@
     },
     "hero": {
       "title": "Warum die Schweiz",
-      "subtitle": "Die weltweit führende Destination für Vermögenserhalt, Sicherheit und Lebensqualität"
+      "subtitle": "Die weltweit führende Destination für Vermögenserhalt, Sicherheit und Lebensqualität",
+      "badge": "Der maßgebliche Leitfaden"
     },
     "neutrality": {
       "title": "Politische Neutralität",
@@ -151,7 +152,12 @@
       "stat3Label": "Bilaterale Handelsabkommen",
       "p1": "Die Schweiz bietet eines der unternehmensfreundlichsten Umgebungen der Welt. Eine Firmengründung kann in nur ein bis zwei Wochen abgeschlossen werden, der Schutz des geistigen Eigentums ist weltweit am stärksten ausgeprägt, und das Netzwerk des Landes mit über 120 bilateralen Handelsabkommen bietet nahtlosen Zugang zum EU-Binnenmarkt und darüber hinaus.",
       "p2": "Die Schweizer Arbeitskräfte gehören zu den am besten ausgebildeten und produktivsten der Welt, mit einer starken Tradition für Diskretion und Professionalität. Für Unternehmer und Family Offices, die in der Schweiz tätig werden, schafft die Kombination aus politischer Stabilität, Rechtssicherheit, IP-Schutz und Marktzugang ein unübertroffenes Fundament für geschäftliches Wachstum."
-    }
+    },
+    "trustStrip": [
+      "500+ Jahre Neutralität",
+      "Nr. 1 im Private Banking",
+      "78% stimmten gegen Vermögenssteuer"
+    ]
   },
   "cantonsPage": {
     "meta": {
@@ -510,7 +516,13 @@
         "detail": "Der Erfolg Ihres Umzugs hängt von weit mehr ab als nur von Papierkram. Wir kümmern uns um die Platzierung Ihrer Kinder an internationalen Schulen, Arbeitsbewilligungen für Hauspersonal, die Integration von Ehepartnern und die Vermittlung von Kontakten zur Gemeinschaft sowie eine umfassende kulturelle Orientierung, damit sich Ihre gesamte Familie vom ersten Tag an in der Schweiz zu Hause fühlt."
       }
     },
-    "overview": "Übersicht"
+    "overview": "Übersicht",
+    "groups": {
+      "before": "Vor der Ansässigkeit",
+      "move": "Bewilligung und Ansiedlung",
+      "settled": "Governance nach der Ankunft",
+      "workstreams": "Arbeitsstränge"
+    }
   },
   "clients": {
     "title": "Wen wir betreuen",
@@ -656,7 +668,12 @@
     "rights": "Alle Rechte vorbehalten.",
     "company": "Ein Dienst der WorkWorkWork AG",
     "disclaimer": "Die Dienstleistungen beschränken sich auf allgemeine Finanzausbildung und strategische Beratung und stellen keine Finanzdienstleistungen im Sinne des Finanzdienstleistungsgesetzes (FIDLEG) dar. Insbesondere erfolgt keine Beratung zu spezifischen Finanzinstrumenten, keine Vermögensverwaltung und keine Ausführung oder Übermittlung von Aufträgen.",
-    "trustSwissEntity": "In der Schweiz registrierte Gesellschaft"
+    "trustSwissEntity": "In der Schweiz registrierte Gesellschaft",
+    "languageGroups": {
+      "core": "Zentrale Beratungssprachen",
+      "europe": "Europäische Sprachen",
+      "global": "Naher Osten und Asien"
+    }
   },
   "servicesMeta": {
     "title": "Unsere Dienstleistungen — Umzug in die Schweiz",
