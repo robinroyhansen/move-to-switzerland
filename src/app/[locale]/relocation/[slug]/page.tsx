@@ -1,3 +1,5 @@
+import { CountryPreparation, hasCountryPreparation } from '@/components/CountryPreparation';
+import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
@@ -5,6 +7,7 @@ import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { FAQSchema, ServiceSchema, getAreaCountries } from '@/components/StructuredData';
 import { locales } from '@/i18n/config';
+import { PlanningLinks } from '@/components/PlanningLinks';
 import {
   getConversionCopy,
   getRelocationPath,
@@ -34,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!path) return {};
 
-  return {
+  return withPageSeo({
     title: path.title,
     description: path.metaDescription,
     alternates: {
@@ -44,9 +47,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: path.title,
       description: path.metaDescription,
       type: 'website',
+      ...(locale === 'en' && hasCountryPreparation(slug) ? { modifiedTime: '2026-09-10' } : {}),
       locale,
     },
-  };
+  }, locale, `/relocation/${slug}`);
 }
 
 export default async function RelocationPathPage({ params }: Props) {
@@ -58,7 +62,7 @@ export default async function RelocationPathPage({ params }: Props) {
   const copy = getConversionCopy(locale);
   const areaCountries = getAreaCountries(locale);
   const related = getRelocationPaths(locale).filter((item) => item.slug !== path.slug).slice(0, 3);
-  const faqItems = [
+  const faqItems = (path.faqs ?? [
     {
       question: path.urgentQuestions[0],
       answer: [copy.relocationPage.coordinateTitle, ...path.workstreams.slice(0, 2)].join(' '),
@@ -71,7 +75,7 @@ export default async function RelocationPathPage({ params }: Props) {
       question: path.urgentQuestions[1] ?? copy.relocationPage.askSituation,
       answer: path.proofPoints.slice(1).join(' ') || path.description,
     },
-  ].filter((item) => item.question && item.answer);
+  ]).filter((item) => item.question && item.answer);
 
   return (
     <>
@@ -182,6 +186,7 @@ export default async function RelocationPathPage({ params }: Props) {
         </div>
       </section>
 
+      {locale === 'en' && <CountryPreparation slug={slug} />}
       <section className="bg-navy py-20 sm:py-28">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div>
@@ -267,6 +272,9 @@ export default async function RelocationPathPage({ params }: Props) {
       </section>
 
       <ConsultationCta />
+      <section className="mx-auto max-w-5xl px-4 pb-16 sm:px-6">
+        <PlanningLinks locale={locale} guides={['swiss-residency-permits-guide', 'relocating-to-switzerland-timeline']} services={['residency', 'assetStructuring', 'lumpSum']} destinations />
+      </section>
     </>
   );
 }

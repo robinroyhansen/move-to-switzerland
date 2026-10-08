@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+.checklist-hidden { display: none; }
+@media print {
+  body:has(.relocation-checklist) { background: white !important; }
+  body:has(.relocation-checklist) header:not(.relocation-checklist header),
+  body:has(.relocation-checklist) footer,
+  body:has(.relocation-checklist) .fixed,
+  .relocation-checklist .checklist-controls,
+  .relocation-checklist .checklist-cta { display: none !important; }
+  .relocation-checklist { padding: 0 !important; background: white !important; color: #111 !important; }
+  .relocation-checklist h1 { font-size: 30pt !important; }
+  .relocation-checklist h2 { font-size: 20pt !important; break-after: avoid; }
+  .relocation-checklist .checklist-task { break-inside: avoid; padding: 10px 0 !important; }
+  .relocation-checklist .checklist-hidden { display: list-item !important; }
+  .relocation-checklist a { color: #111 !important; }
+  .relocation-checklist input { appearance: auto; print-color-adjust: exact; }
+  @page { margin: 16mm; }
+}
+
 @theme {
   --color-navy: #0A1628;
   --color-navy-light: #112240;
@@ -11,6 +29,10 @@
   --color-charcoal: #1A1A2E;
   --color-text-light: #E8E4DD;
   --color-white: #FEFCF7;
+}
+
+/* Resolve next/font variables on the element using them, rather than at :root. */
+@theme inline {
   --font-serif: var(--font-cormorant), Georgia, 'Times New Roman', serif;
   --font-sans: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
 }
@@ -18,11 +40,14 @@
 /* Base styles */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  scroll-padding-bottom: calc(max(var(--sticky-cta-height, 0px), var(--consent-notice-height, 0px)) + 1rem);
   overflow-x: clip;
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-dm-sans), system-ui, -apple-system, sans-serif;
+  padding-bottom: max(var(--sticky-cta-height, 0px), var(--consent-notice-height, 0px));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: clip;
@@ -53,33 +78,22 @@ body {
   margin: 0 auto 1.5rem auto;
 }
 
-/* Scroll-triggered animations */
+/* Content stays visible on mobile and for reduced-motion preferences. */
 .animate-on-scroll {
-  opacity: 0;
-  transform: translateY(18px);
-  animation: revealIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  opacity: 1;
+  transform: none;
 }
 
-.animate-on-scroll.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .animate-on-scroll {
+    animation: revealIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+    animation-delay: var(--reveal-delay, 0ms);
+  }
 }
 
 @keyframes revealIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .animate-on-scroll {
-    animation: none;
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
 }
 
 /* Stagger delays for child elements */
@@ -225,7 +239,7 @@ a:focus-visible {
 
 /* Pull quote style */
 .pull-quote {
-  font-family: var(--font-serif);
+  font-family: var(--font-cormorant), Georgia, 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 1.5rem;

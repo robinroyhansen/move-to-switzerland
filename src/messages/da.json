@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "Flyt til Schweiz — Eksklusiv Relocationsrådgivning",
-    "description": "En specialiseret relocation- og strategisk rådgivningstjeneste for formuende privatpersoner og familier, der flytter til Schweiz."
+    "title": "Flytning til Schweiz for formuende privatpersoner og iværksættere",
+    "description": "Schweizisk rådgivning om flytning for formuende privatpersoner (HNWI), iværksættere og family offices."
   },
   "nav": {
     "home": "Forside",
     "services": "Ydelser",
     "whySwitzerland": "Hvorfor Schweiz",
     "cantons": "Kantoner",
-    "caseStudies": "Kundecases",
+    "caseStudies": "Hvem vi betjener",
     "about": "Om os",
     "contact": "Kontakt",
     "privacy": "Privatlivspolitik",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "headline": "Deres vej til Schweiz",
-    "subheadline": "En specialiseret relocation- og strategisk rådgivningstjeneste for formuende privatpersoner og familier",
+    "subheadline": "Schweizisk rådgivning om flytning for formuende privatpersoner (HNWI), iværksættere og family offices. Koordinér ophold, skattespørgsmål, bankforberedelse og familieliv i Zürich, Zug, Schwyz og andre kantoner.",
     "cta": "Book en fortrolig konsultation"
   },
   "cta": {
@@ -31,142 +31,142 @@
   },
   "whySwitzerland": {
     "title": "Hvorfor Schweiz",
-    "subtitle": "En nation bygget på stabilitet, diskretion og excellence",
+    "subtitle": "Et sted at vurdere omkring din familie, rigdom og forretning",
     "stats": {
       "millionaires": {
-        "value": "142.000",
-        "label": "Millionærer, der flytter globalt i 2025 — en historisk rekord"
+        "value": "26",
+        "label": "Kantoner til vurdering af bopæl, familieliv og virksomhed"
       },
       "inflow": {
-        "value": "+3.000",
-        "label": "Netto-indstrømning af millionærer til Schweiz i 2025"
+        "value": "3",
+        "label": "Vores kontorer: Zürich, Zug og Schwyz"
       },
       "neutrality": {
-        "value": "500+",
-        "label": "År med politisk neutralitet"
+        "value": "2012",
+        "label": "Hjælp folk til at flytte til Schweiz siden 2012"
       },
       "banking": {
-        "value": "#1",
-        "label": "Verdens mest robuste private banking-system"
+        "value": "Sammen",
+        "label": "Koordinere bankforberedelserne med det bredere træk"
       },
       "wealthTax": {
-        "value": "78%",
-        "label": "Stemte imod formueskat (november 2025)"
+        "value": "Lokalt",
+        "label": "Sammenlign skattesituationen i din valgte kommune"
       },
       "safety": {
-        "value": "Nul",
-        "label": "Historik med konfiskering af aktiver eller militære alliancer"
+        "value": "Din plan",
+        "label": "Bolig, arbejde, skoler og boliger under ét"
       }
     }
   },
   "whySwitzerlandPage": {
     "meta": {
-      "title": "Hvorfor Schweiz — Verdens førende destination for formue, sikkerhed og livskvalitet",
-      "description": "Oplev hvorfor Schweiz er verdens mest betroede jurisdiktion for formuepleje, familiens sikkerhed og livskvalitet. 500+ år med neutralitet, #1 inden for private banking, uddannelse i verdensklasse."
+      "title": "Hvorfor Move to Switzerland? HNWI & iværksætteri Planlægning",
+      "description": "Vurdere Schweiz for din familie og virksomhed: bopæl, skat, bank, skoler, sundhedspleje og de praktiske trade-offs før et træk."
     },
     "hero": {
       "title": "Hvorfor Schweiz",
-      "subtitle": "Verdens førende destination for formuepleje, sikkerhed og livskvalitet",
-      "badge": "Den definitive guide"
+      "subtitle": "Vurdere fit til din familie, privat rigdom og forretning",
+      "badge": "En praktisk beslutningsvejledning"
     },
     "neutrality": {
-      "title": "Politisk neutralitet",
-      "subtitle": "En oase af stabilitet i en usikker verden",
-      "stat1": "500+",
-      "stat1Label": "År med kontinuerlig neutralitet",
-      "stat2": "Nul",
-      "stat2Label": "Militære alliancer",
-      "stat3": "Nul",
-      "stat3Label": "Historik med konfiskering af aktiver",
-      "p1": "Schweiz har opretholdt politisk neutralitet i over 500 år — den længste periode for nogen nation i moderne historie. Landet er ikke medlem af NATO, EU eller nogen militær alliance. Denne neutralitet er ikke passiv: det er en bevidst, forfatningsmæssigt forankret politik, der har overlevet to verdenskrige, den kolde krig og enhver geopolitisk omvæltning i den moderne æra.",
-      "p2": "For formuende betyder dette en enestående garanti: Schweiz har aldrig konfiskeret private aktiver, aldrig pålagt nødskatter på formue og aldrig deltaget i den form for politisk ustabilitet, der bringer personlig formue i fare i andre jurisdiktioner. Deres aktiver i Schweiz er beskyttet af en juridisk og politisk ramme, der har bestået i et halvt årtusinde."
+      "title": "En langsigtet familie base",
+      "subtitle": "Start med det liv du vil bygge",
+      "stat1": "Hjem",
+      "stat1Label": "Vælg en kommune omkring dagligdagen",
+      "stat2": "Arbejde",
+      "stat2Label": "Vurdere hver voksnes planlagte aktiviteter",
+      "stat3": "Familie",
+      "stat3Label": "Koordinere hver persons bopæl",
+      "p1": "For en familie med høj nettoformue rækker beslutningen om placering ud over en skattemæssig sammenligning. Overvej, hvor børn vil studere, hvor ofte du skal rejse, hvilke sprog husstanden bruger, og hvor virksomhedens ansvar forbliver. En nyttig shortlist begynder med disse fakta.",
+      "p2": "Gøre brede præferencer til en hjem, skole og arbejdsplads kombination, der kan testes. Besøg kommunen, prøv daglige rejser og beslutte, hvad der ville gøre en iscenesat skridt foretrække at flytte alle på én gang."
     },
     "banking": {
-      "title": "Bankvæsen & formuepleje",
-      "subtitle": "Verdens mest betroede private banking-system",
-      "stat1": "#1",
-      "stat1Label": "Globalt centrum for private banking",
-      "stat2": "CHF 7,9T",
-      "stat2Label": "Aktiver under forvaltning",
-      "stat3": "243",
-      "stat3Label": "Licenserede banker",
-      "p1": "Schweiz forvalter ca. CHF 7,9 billioner i aktiver, hvilket repræsenterer omkring 25 % af al global grænseoverskridende privat formue. Det schweiziske banksystem reguleres af FINMA, en af verdens mest stringente finansielle tilsynsmyndigheder, hvilket sikrer, at Deres formue forvaltes efter de højeste standarder for compliance og sikkerhed.",
-      "p2": "Schweiziske privatbanker tilbyder et niveau af personlig formuepleje, der er uovertruffent andre steder. Fra generationsskifteplanlægning til sofistikerede investeringsmandater er dybden af ekspertise i Zurich, Geneva og Zug ganske enkelt uden parallel. For familier, der overfører formue på tværs af grænser, tilbyder Schweiz den institutionelle infrastruktur og diskretion, som andre jurisdiktioner ikke kan garantere."
+      "title": "Koordinering af bank- og formueforhold",
+      "subtitle": "Vælg tjenester omkring dine aktiver og rapporteringsbehov",
+      "stat1": "Formål",
+      "stat1Label": "Betalinger, forældremyndighed, rådgivning eller forvaltning",
+      "stat2": "Dokumentation",
+      "stat2Label": "Forbered ejerskab og kilde-of-rigdom optegnelser",
+      "stat3": "Betingelser",
+      "stat3Label": "Sammenlign gebyrer og det foreslåede mandat",
+      "p1": "Separat de job, du har brug for en bank til at udføre. Personlig rigdom, et driftsselskab og et familiekontor kan kræve forskellige konti, rapportering og relationer. Bed institutionerne om at bekræfte, om de kan overveje din bopæl, skattemæssige status og foreslåede aktiver.",
+      "p2": "Forbered dokumentation for, hvordan rigdom blev akkumuleret, og hvor forventede overførsler vil komme fra. Bankerne træffer deres egne beslutninger. Flytning koordinering hjælper med at sekvensere forberedelsen og introduktioner med det bredere træk; det garanterer ikke en konto eller investering resultat."
     },
     "education": {
-      "title": "Uddannelsessystem",
-      "subtitle": "Læring i verdensklasse for den næste generation",
-      "stat1": "Blandt top 3",
-      "stat1Label": "Universiteter globalt (ETH Zurich)",
-      "stat2": "50+",
-      "stat2Label": "Internationale skoler",
-      "stat3": "#1",
-      "stat3Label": "Innovationsindeks (13 år i træk)",
-      "p1": "Schweiz er hjemsted for nogle af de fineste uddannelsesinstitutioner i verden. ETH Zurich rangerer konsekvent blandt de 3 bedste universiteter globalt, mens landets netværk af over 50 internationale skoler — herunder Institut Le Rosey, Zuoz Academy og International School of Zug and Luzern — tilbyder ekstraordinær uddannelse til udstationerede familier.",
-      "p2": "Det schweiziske uddannelsessystem kombinerer akademisk stringens med flersproget integration. Børn på internationale skoler opnår færdigheder i flere sprog, mens de følger IB, britiske eller amerikanske læreplaner. For familier, der flytter fra Mellemøsten, repræsenterer dette en mulighed for at give børnene en sand global uddannelse i et af de sikreste miljøer på jorden."
+      "title": "Skolevalg for internationale familier",
+      "subtitle": "Match pensum, sprog og rejse til barnet",
+      "stat1": "Offentlig",
+      "stat1Label": "Udforsk det lokale skolesystem",
+      "stat2": "International",
+      "stat2Label": "Tjek læseplaner og ledige pladser",
+      "stat3": "Campus",
+      "stat3Label": "Test rejsen for barnets klasse",
+      "p1": "Sammenlign offentlig og international uddannelse omkring dine børns alder, aktuelle studier, sprogbehov og sandsynlig varighed af opholdet. Den lokale offentlige skolegang kan støtte integrationen; en international læseplan kan passe til en familie, der opretholder kontinuitet på tværs af lande. Spørg skolerne, hvilken støtte der er til rådighed.",
+      "p2": "Bekræft indlæggelser og den korrekte campus før du vælger et hjem. Inkludér rejser, efterskolearrangementer og enhver læringsstøtte i sammenligningen. En skoles omdømme gør det ikke muligt at fastslå, om et enkelt barn er til rådighed, om det er egnet, eller om det vil blive optaget på et senere universitet."
     },
     "healthcare": {
-      "title": "Sundhedsvæsen",
-      "subtitle": "Blandt de fineste sundhedssystemer i verden",
-      "stat1": "#1",
-      "stat1Label": "Sundhedskvalitet i Europa",
-      "stat2": "4,3",
-      "stat2Label": "Læger pr. 1.000 indbyggere",
-      "stat3": "83,4",
-      "stat3Label": "Forventet levealder (år)",
-      "p1": "Schweiz' sundhedssystem rangeres konsekvent blandt de bedste i verden. Med obligatorisk universel dækning, verdensledende hospitaler og en lægetæthed, der langt overstiger de fleste lande, har indbyggerne adgang til enestående medicinsk behandling. Store centre som Universitatsspital Zurich og Hirslanden tilbyder banebrydende behandlinger og executive sundhedsprogrammer.",
-      "p2": "For tilflyttende familier tilbyder Schweiz den tryghed, der følger med visheden om, at familiens helbred er i de bedst mulige hænder. Executive sundhedstjek, speciallægenetværk og sømløse flersprogede medicinske tjenester sikrer, at sundhed aldrig er en bekymring."
+      "title": "Forberedelse af sundhedspleje",
+      "subtitle": "Planlæg kontinuitet i pleje som en del af flytningen",
+      "stat1": "Dække",
+      "stat1Label": "Bekræft forsikringsafgifter og startdatoer",
+      "stat2": "Care",
+      "stat2Label": "Arranger kontinuitet for løbende behandling",
+      "stat3": "Budget",
+      "stat3Label": "Sammenlign præmier og personlige omkostninger",
+      "p1": "Schweiz 'bopæl stiller normalt krav om sygesikring, med undtagelser alt efter omstændighederne. Bekræft situationen for hvert familiemedlem, fristen og ikrafttrædelsesdatoen gennem den relevante myndighed eller forsikringsgiver. Medtag præmier og personlige omkostninger-deling i husstandsbudgettet.",
+      "p2": "Før ankomst, identificere eksisterende recepter, løbende behandling og optegnelser en ny kliniker vil have brug for. Spørg udbydere om udnævnelse tilgængelighed og sproglige behov. Dækning og kliniske beslutninger hører til forsikringsselskaber og sundhedspersonale."
     },
     "tax": {
-      "title": "Skattesystem",
-      "subtitle": "Konkurrencedygtigt, gennemsigtigt og demokratisk beskyttet",
-      "stat1": "78%",
-      "stat1Label": "Stemte imod formueskat (nov. 2025)",
-      "stat2": "26",
-      "stat2Label": "Kantoner, der konkurrerer om indbyggere",
-      "stat3": "11,9%",
-      "stat3Label": "Laveste kantonale selskabsskattesatser",
-      "p1": "Schweiz' skattesystem nyder godt af en unik egenskab: kantonalt selvstyre og konkurrence. Med 26 kantoner, der selv fastsætter deres skattesatser, kan enkeltpersoner og virksomheder vælge lokationer, der flugter med deres finansielle mål. Kantoner som Zug og Schwyz tilbyder nogle af de laveste personlige og selskabsskattesatser i den udviklede verden.",
-      "p2": "Beskatningsordningen efter forbrug (forfait fiscal) tillader kvalificerede udenlandske statsborgere at blive beskattet af deres leveomkostninger frem for deres verdensomspændende indkomst — en betydelig fordel for formuende privatpersoner. I november 2025 stemte 78 % af de schweiziske borgere imod indførelsen af en føderal formueskat, hvilket bekræftede landets forpligtelse til at beskytte privat formue gennem demokratisk mandat."
+      "title": "Person- og erhvervsskatteplanlægning",
+      "subtitle": "Sammenlign komplette scenarier med kvalificerede rådgivere",
+      "stat1": "26",
+      "stat1Label": "Kantonale systemer at overveje",
+      "stat2": "Husstand",
+      "stat2Label": "Modelindtægter, aktiver og omstændigheder",
+      "stat3": "Virksomhed",
+      "stat3Label": "Vurdere operationer og forvaltning separat",
+      "p1": "Sammenlign de samme fakta på tværs af udvalgte kommuner: husstandsindkomst, aktiver, familieforhold og den faktiske forretningsplan. Personlig bolig og virksomhedens placering kræver separat analyse. Anmoder om en skriftlig beregning med antagelser og det gældende skatteår i stedet for at vælge mellem en samlet sats.",
+      "p2": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt."
     },
     "qualityOfLife": {
-      "title": "Livskvalitet",
-      "subtitle": "Sikkerhed, infrastruktur og naturskønhed uden kompromis",
-      "stat1": "#1",
-      "stat1Label": "Livskvalitet globalt",
-      "stat2": "Blandt top 3",
-      "stat2Label": "Sikreste lande i verden",
-      "stat3": "99,9%",
-      "stat3Label": "Punktlighed i offentlig transport",
-      "p1": "Schweiz rangerer konsekvent som det førende land globalt for livskvalitet. Fra de uberørte alpelandskaber til de fejlfrit vedligeholdte byer afspejler alle aspekter af dagligdagen en stræben efter excellence. Den offentlige transport — der forbinder hver landsby og by — fungerer med legendarisk schweizisk præcision.",
-      "p2": "Sikkerhed er ikke blot en statistik i Schweiz; det er en levet oplevelse. Voldelig kriminalitet er praktisk talt ikke-eksisterende, personlig sikkerhed tages for givet, og den sociale infrastruktur — fra parker og offentlige rum til kulturinstitutioner — vedligeholdes efter højeste standard. For familier, der flytter fra regioner med sikkerhedsudfordringer, tilbyder Schweiz en transformation af den daglige livskvalitet."
+      "title": "Test hverdagen",
+      "subtitle": "De praktiske detaljer afgør, om en placering passer",
+      "stat1": "Skolekørsel",
+      "stat1Label": "Besøg på det tidspunkt, du ville rejse",
+      "stat2": "Arbejdsdag",
+      "stat2Label": "Check kontor og lufthavn rejser",
+      "stat3": "Weekender",
+      "stat3Label": "Udforsk de steder din familie ville bruge",
+      "p1": "Brug et spejderbesøg til at teste den almindelige uge. Se på butikker, transport, aktiviteter, skoleruter og adgang til de tjenester, du stoler på. Sammenlign en lejlighed nær arbejde med et større hjem, der kræver mere rejse.",
+      "p2": "Budget ved hjælp af aktuelle boligforespørgsler, skoleinformation og forsikringstilbud. Hold indskud, tilbagevendende omkostninger og engangsflytningsudgifter adskilt. Den flytning budget planlægger kan du sammenligne Zürich, Zug og Schwyz ved hjælp af dine egne tal."
     },
     "business": {
-      "title": "Erhvervsklima",
-      "subtitle": "Hvor global handel møder schweizisk præcision",
-      "stat1": "1-2 uger",
-      "stat1Label": "Tidslinje for virksomhedsstiftelse",
-      "stat2": "#1",
-      "stat2Label": "Beskyttelse af IP på verdensplan",
-      "stat3": "120+",
-      "stat3Label": "Bilaterale handelsaftaler",
-      "p1": "Schweiz tilbyder et af de mest erhvervsvenlige miljøer i verden. Stiftelse af virksomheder kan gennemføres på så lidt som en til to uger, beskyttelse af intellektuel ejendom er den stærkeste i verden, og landets netværk af over 120 bilaterale handelsaftaler giver sømløs adgang til EU's indre marked og resten af verden.",
-      "p2": "Den schweiziske arbejdsstyrke er blandt de mest veluddannede og produktive i verden, med en stærk tradition for diskretion og professionalisme. For iværksættere og family offices, der etablerer aktiviteter i Schweiz, skaber kombinationen af politisk stabilitet, retssikkerhed, IP-beskyttelse og markedsadgang et uovertruffet fundament for vækst."
+      "title": "En schweizisk base for iværksættere",
+      "subtitle": "Tilslut driftsmodellen med grundlæggerens træk",
+      "stat1": "Aktivitet",
+      "stat1Label": "Definer, hvad der vil ske i Schweiz",
+      "stat2": "Tilladelse",
+      "stat2Label": "Bekræft retten til at leve og arbejde",
+      "stat3": "Styring",
+      "stat3Label": "Tildel ansvar før lancering",
+      "p1": "Et forretningstræk starter med de foreslåede aktiviteter: ledelse, medarbejdere, kunder, kontrakter, aktiver og finansiering. Bed specialister om at sammenligne passende strukturer og de grænseoverskridende konsekvenser. En virksomhed kan integreres uden at løse alle immigrations-, skatte-, bank- eller licensspørgsmål.",
+      "p2": "Før en afgang eller omstrukturering, koordinere rådgivere i afgangslandet og Schweiz. Optag planlagt arbejde efter transaktionen, bevaret ejerskab og eventuelle udsatte betalinger. Byg familien flytte rundt vurderede fakta og bekræftede afhængigheder."
     },
     "trustStrip": [
-      "500+ års neutralitet",
-      "Nr. 1 i private banking",
-      "78% stemte imod formueskat"
+      "Hjælpe folk med at bevæge sig siden 2012",
+      "Kontorer i Zürich, Zug og Schwyz",
+      "Familie- og forretningsplanlægning sammen"
     ]
   },
   "cantonsPage": {
     "meta": {
-      "title": "Sammenlign schweiziske kantoner — Zurich vs Zug vs Schwyz til relocation",
-      "description": "Interaktiv sammenligning af kantonerne Zurich, Zug og Schwyz. Sammenlign skattesatser, livsstil, internationale skoler, bankvæsen og fast ejendom til Deres flytning til Schweiz."
+      "title": "Zürich, Zug eller Schwyz? Sammenlign kantoner for et schweizisk træk",
+      "description": "Sammenlign Zürich, Zug og Schwyz for HNW familie flytning og iværksætteri: kommunale-niveau skatteplanlægning, skoler, forretningsaktiviteter og boliger."
     },
     "hero": {
       "title": "Sammenligning af kantoner",
-      "subtitle": "Vælg den rette schweiziske kanton for Deres familie, Deres virksomhed og Deres livsstil"
+      "subtitle": "Sammenlign et rigtigt hjem, skole og forretningssted for dit schweiziske træk"
     },
     "filter": {
       "all": "Alle kantoner",
@@ -175,7 +175,7 @@
       "schwyz": "Schwyz"
     },
     "sections": {
-      "taxRates": "Skattesatser",
+      "taxRates": "Skatteplanlægning",
       "lifestyle": "Livsstil & karakter",
       "schools": "Internationale skoler",
       "banking": "Bankinfrastruktur",
@@ -184,103 +184,102 @@
     },
     "zurich": {
       "name": "Zurich",
-      "tagline": "Global storby, kulturel hovedstad",
+      "tagline": "Byliv og forretningsforbindelser",
       "tax": {
-        "corporate": "Ca. 19,7 % effektiv selskabsskattesatse",
-        "personal": "Op til 39,8 % topskattesats (samlet)",
-        "lumpSum": "CHF 400.000+ i minimum beskatningsgrundlag"
+        "corporate": "Model for virksomhedens faktiske aktiviteter og foreslået kommune.",
+        "personal": "Sammenlign indkomst- og formueskat for husstanden; brug den påtænkte kommune.",
+        "lumpSum": "Zürich afskaffede kantonale udgiftsbaserede afgifter i 2010."
       },
       "lifestyle": {
         "character": "Kosmopolitisk, kulturelt rig, urban",
-        "international": "Stort internationalt samfund (30 %+ udenlandske indbyggere)",
+        "international": "En international by og omkringliggende kommuner med forskellige daglige rutiner.",
         "culture": "Opera, kunstgallerier, Michelin-restauranter, boliger ved søen",
-        "transport": "International lufthavn, fremragende togforbindelser"
+        "transport": "Tjek rejsen fra det specifikke hjem til lufthavnen, kontor og skole."
       },
       "schools": {
         "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (i nærheden)"
+          "Tværfællesskabsskole Zürich (Zumikon)",
+          "Zürich International School (tjek campus for barnets karakter)",
+          "SIS Zürich- Wollishofen (børnehave og primærskole)"
         ]
       },
-      "bankingInfo": "Hjemsted for UBS, Credit Suisse (nu UBS), Julius Baer og snesevis af boutique-privatbanker. Fuldt integreret krypto-bankvæsen til rådighed (SEBA, Sygnum).",
+      "bankingInfo": "Sammenlign privat bankvirksomhed, corporate banking og eksisterende rådgiveradgang. Bekræft hvert instituts klientkriterier og serviceordninger direkte.",
       "realEstate": {
-        "range": "CHF 15.000–35.000/m² (centrum), CHF 8.000–15.000/m² (suburbs ved Zurich-søen)",
-        "lexKoller": "Lex Koller er gældende: ikke-schweiziske statsborgere kræver tilladelse til boligkøb. B-tilladelsesindehavere kan købe primær bolig."
+        "range": "Pris en aktuel kortliste over by-, sø- og forstadsboliger; omfatter pendling, finansiering og transaktionsomkostninger.",
+        "lexKoller": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift."
       },
       "bestFor": {
-        "profile": "Den urbane professionelle, digitale iværksætter eller familien, der søger kultur og infrastruktur i verdensklasse",
-        "ideal": "Ideel til: krypto-iværksættere, erhvervsledere, familier der værdsætter en urban livsstil"
+        "profile": "Iværksættere og familier, der prioriterer adgang til en by, arbejdspladser og uddannelsesmuligheder.",
+        "ideal": "Sammenlign Zürich by med de egentlige kommuner omkring din valgte skole eller arbejdsplads."
       }
     },
     "zug": {
       "name": "Zug",
-      "tagline": "Skatteparadis, krypto-dalen",
+      "tagline": "Erhvervsmæssig basis og lakeside levende",
       "tax": {
-        "corporate": "Ca. 11,9 % effektiv selskabsskattesatse",
-        "personal": "Op til 22,4 % topskattesats (samlet)",
-        "lumpSum": "CHF 250.000+ i minimum beskatningsgrundlag"
+        "corporate": "Sammenlign den foreslåede kommune, skattepligtige overskud og faktiske schweiziske transaktioner.",
+        "personal": "Anmoder om en husstandsberegning, herunder indkomst, aktiver og den foreslåede kommune.",
+        "lumpSum": "For skatteåret 2026 er det føderale minimumsgrundlag CHF 435.000, ikke den skat, der skal betales. Globale leveomkostninger og lovbestemte boligrelaterede minimumsbeløb indgår også. En særskilt kontrolberegning kan øge skatten på visse schweiziske indkomster og udenlandske indkomster med traktatlempelse. Kantonale indkomst- og formueskatter beregnes særskilt."
       },
       "lifestyle": {
         "character": "Kompakt, velhavende, ved søen, diskret",
-        "international": "Meget internationalt (35 %+ udenlandske indbyggere, stærkt expat-miljø)",
+        "international": "Et internationalt erhvervsliv på tværs af Zug, Baar, Cham og nabokommuner.",
         "culture": "Elegant by ved søen, tæt på bjergene og Zurich",
-        "transport": "30 minutter til Zurich lufthavn, fremragende tog"
+        "transport": "Tjek dør-til-dør rejser; Zug by, Baar og Cham er forskellige udgangspunkt."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (ISZL)",
+          "ISZL (Baar og Hünenberg campus; kontrolsted)",
           "Institut Montana Zugerberg",
-          "Swiss International School"
+          "SIS Rotkreuz- Zug"
         ]
       },
-      "bankingInfo": "Crypto Valley-økosystem med blockchain-orienterede banker. Traditionel private banking gennem lokale filialer af store schweiziske banker. Andenhøjeste koncentration af family offices efter Geneva.",
+      "bankingInfo": "Vurdere adgangen til bank og professionelle rådgivere omkring virksomhedens faktiske behov. Digital- aktiv aktivitet og oversøiske strukturer kræver institution- specifik accept kontrol.",
       "realEstate": {
-        "range": "CHF 12.000–25.000/m² (Zug by), CHF 8.000–14.000/m² (omkringliggende landsbyer)",
-        "lexKoller": "Lex Koller er gældende. B-tilladelsesindehavere kan købe primær bolig. Zug har yderligere lokale krav for visse kommuner."
+        "range": "Anmoder om aktuelle lister i Zug, Baar og Cham; sammenligne plads, tilstand og den fulde månedlige eller erhvervelse budget.",
+        "lexKoller": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift."
       },
       "bestFor": {
-        "profile": "Den skatteoptimerende iværksætter, family office eller krypto/fintech-stifter, der søger den lavest mulige skattebyrde",
-        "ideal": "Ideel til: family offices, ansøgere til forfait fiscal, tech-iværksættere"
+        "profile": "Grundlæggere og familier vejer en kompakt business base mod skole, bolig og rejser behov.",
+        "ideal": "Sammenlign virksomhedens foreslåede operationer adskilt fra familiens hjemadresse."
       }
     },
     "schwyz": {
       "name": "Schwyz",
-      "tagline": "Diskret velstand, alpin ro",
+      "tagline": "Sø- og bjergsamfund",
       "tax": {
-        "corporate": "Ca. 14,1 % effektiv selskabsskattesatse",
-        "personal": "Op til 21,3 % topskattesats (samlet)",
-        "lumpSum": "CHF 200.000+ i minimum beskatningsgrundlag"
+        "corporate": "Model den udvalgte kommune og virksomhedens ledelses- og driftsforhold.",
+        "personal": "Sammenlign den specifikke kommune: en enkelt kantonbred sats beskriver ikke husstandens regning.",
+        "lumpSum": "For skatteåret 2026 er det føderale minimumsgrundlag CHF 435.000, ikke den skat, der skal betales. Globale leveomkostninger og lovbestemte boligrelaterede minimumsbeløb indgår også. En særskilt kontrolberegning kan øge skatten på visse schweiziske indkomster og udenlandske indkomster med traktatlempelse. Kantonale indkomst- og formueskatter beregnes særskilt."
       },
       "lifestyle": {
-        "character": "Rural, traditionel, yderst privat",
-        "international": "Mindre internationalt samfund, meget diskret",
+        "character": "Lakeside byer, bjergsamfund og landdistrikter",
+        "international": "Forskellige samfund omkring Lake Zürich, Lake Lucerne og kantonens indre områder.",
         "culture": "Alpelandskaber, udsigt over søen, traditionel schweizisk charme",
-        "transport": "45 minutter til Zurich lufthavn, naturskøn pendling"
+        "transport": "Test rejser fra den valgte kommune; Küssnacht og Pfäffikon SZ betjener forskellige ruter."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (Hünenberg campus, i nærheden)",
-          "Institut Montana (i nærheden)",
-          "Stiftsschule Einsiedeln"
+          "ISZL (Baar eller Hünenberg afhængigt af karakter; test rejsen)",
+          "Institut Montana Zugerberg (rejse- eller boardingordninger)",
+          "Stiftsschule Einsiedeln (kontrolprogram og indlæggelser)"
         ]
       },
-      "bankingInfo": "Private banking gennem kantonbanken i Schwyz og filialer af store banker. Mindre institutionel tæthed end Zurich eller Zug, men ideel for dem, der værdsætter absolut privatliv.",
+      "bankingInfo": "Sammenlign lokal bankadgang med møder i Zug eller Zürich. Placering erstatter ikke bankens vurdering af bopæl, ejerskab, skattestatus og forventede transaktioner.",
       "realEstate": {
-        "range": "CHF 6.000–14.000/m² (ved søen), CHF 4.000–8.000/m² (landsbyer inde i landet)",
-        "lexKoller": "Lex Koller er gældende. Generelt mere tilgængelige priser end Zurich eller Zug med tilsvarende eller lavere skattesatser."
+        "range": "Sammenlign nuværende boliger i den pågældende kommune; adgang til søen, størrelse og tilstand stof mere end en generel canton prisklasse.",
+        "lexKoller": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift."
       },
       "bestFor": {
-        "profile": "Den privatlivsfokuserede familie eller enkeltperson, der søger de laveste skatter med en alpin livsstil og fuldstændig diskretion",
-        "ideal": "Ideel til: generationsfamilier, privatlivsfokuserede personer, pensionister"
+        "profile": "Familier og private kunder, der sammenligner en lakeside eller bjergbase med praktisk adgang til arbejde og skoler.",
+        "ideal": "Shortlist Küssnacht, Pfäffikon SZ eller et indlandssamfund ved hjælp af dine faktiske daglige rejser."
       }
     },
     "otherTaxEfficient": {
       "eyebrow": "Udvidet shortlist",
-      "title": "Andre skatteeffektive kantoner værd at drøfte",
-      "subtitle": "Disse kantoner er ikke de tre primære sammenligningspunkter, men de hører ofte hjemme på en seriøs skatte- og livsstilsshortlist.",
-      "taxEfficient": "Skatteeffektiv",
+      "title": "Andre centralschweiziske kantoner at sammenligne",
+      "subtitle": "Brug de samme husstands- og forretningsantagelser og afprøv derefter skole- og arbejdspladsrejser i hvert enkelt sted.",
+      "taxEfficient": "Sammenlign lokalt",
       "labels": {
         "corporate": "Selskab",
         "personal": "Personlig skat",
@@ -290,27 +289,27 @@
       "items": [
         {
           "name": "Nidwalden",
-          "tagline": "Lav skat, diskret, tæt på Luzern og Zürich.",
-          "corporate": "Ca. 11,9% effektiv selskabsskattesats.",
-          "personal": "Lav personlig skattebelastning, især omkring Hergiswil og Stans.",
-          "schoolAccess": "God adgang til skolemuligheder i Luzern, Zug og Zürich.",
-          "bestFor": "Iværksættere og family offices, der ønsker Zug-lignende effektivitet med en roligere base."
+          "tagline": "Sammenlign Stans og Hergiswil omkring daglig rejse.",
+          "corporate": "Anmoder om en beregning af den foreslåede kommune og forretningsaktiviteter.",
+          "personal": "Sammenlign husstandsindkomst og -formue med de samme antagelser på tværs af kommuner.",
+          "schoolAccess": "Tjek lokale offentlige faciliteter og rejsen til alle udvalgte internationale campus.",
+          "bestFor": "Grundlægger og familier overvejer en base nær Lucerne med adgang til Central Switzerland."
         },
         {
           "name": "Obwalden",
-          "tagline": "Roligt alpe- og søområde med stærk skattemæssig appel.",
-          "corporate": "Ca. 12,7% effektiv selskabsskattesats.",
-          "personal": "Attraktive personlige satser og kommuner med fokus på diskretion.",
-          "schoolAccess": "Fungerer bedst sammen med skoleplanlægning i Luzern eller Zug.",
-          "bestFor": "Familier, der prioriterer lav skat, plads og diskretion højere end bymæssig tæthed."
+          "tagline": "Sammenlign Sarnen og andre samfund med en rigtig home shortlist.",
+          "corporate": "Anmoder om en beregning af den foreslåede kommune og forretningsaktiviteter.",
+          "personal": "Sammenlign husstandsindkomst og -formue med de samme antagelser på tværs af kommuner.",
+          "schoolAccess": "Test skolesprog, adgangs- og rejsekrav, før du vælger et hjem.",
+          "bestFor": "Familier, der sammenligner en Alpine eller Lakeside base med arbejde og skole rejse."
         },
         {
           "name": "Luzern",
-          "tagline": "Balanceret livsstil med praktisk skatteeffektivitet.",
-          "corporate": "Ca. 12,2% effektiv selskabsskattesats.",
-          "personal": "Moderat til attraktiv personlig skat med stærkere urban infrastruktur.",
-          "schoolAccess": "Stærk familieinfrastruktur og adgang til ISZL og skoler i det centrale Schweiz.",
-          "bestFor": "Familier, der ønsker en levende base med sundhed, skoler, lufthavnsadgang og stadig konkurrencedygtige skatter."
+          "tagline": "Sammenlign byen Lucerne med omkringliggende kommuner.",
+          "corporate": "Anmoder om en beregning af den foreslåede kommune og forretningsaktiviteter.",
+          "personal": "Sammenlign husstandsindkomst og -formue med de samme antagelser på tværs af kommuner.",
+          "schoolAccess": "Vurdere lokale offentlige skoler og den faktiske campus og kvalitet af internationale muligheder.",
+          "bestFor": "Familier og iværksættere, der ønsker at vurdere en urban Central Swiss base."
         }
       ]
     },
@@ -318,202 +317,76 @@
       "corporate": "Selskab",
       "personalIncome": "Personlig indkomst",
       "lumpSum": "Pauschalbeskatning",
-      "priceRange": "Prisniveau",
+      "priceRange": "Boligbudget",
       "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
     "meta": {
-      "title": "Kundecases — Flyt til Schweiz",
-      "description": "Anonymiserede kundecases over succesfulde schweiziske flytninger. Lær hvordan iværksættere, familier og family offices navigerer rejsen til Schweiz."
-    },
-    "hero": {
-      "title": "Kundernes rejser",
-      "subtitle": "Anonymiserede cases fra virkelige flytninger"
-    },
-    "disclaimer": "Alle kundecases er anonymiserede. Navne, identificerende detaljer og specifikke tal er ændret for at beskytte kundernes fortrolighed.",
-    "cases": {
-      "techFounder": {
-        "title": "Teknologi-iværksætteren",
-        "subtitle": "Fra Dubai til Zug på 9 måneder",
-        "quote": "Vi havde brug for en jurisdiktion, der forstod både vores digitale forretningsmodel og vores families langsigtede behov for sikkerhed. Schweiz leverede på begge punkter.",
-        "profile": "Dubai-baseret tech-iværksætter, familie på 4, efter exit med betydelig likviditetsbegivenhed",
-        "timeline": {
-          "month1": "Indledende konsultation og kanton-vurdering",
-          "month2": "Strukturering af aktiver før immigration",
-          "month3": "Forhandling om forfait fiscal påbegyndt med myndighederne i Zug",
-          "month4": "Ansøgning om B-tilladelse indsendt",
-          "month5": "Plads på international skole sikret (ISZL)",
-          "month6": "Ejendomskøb — bolig ved søen i Zug",
-          "month7": "Etablering af schweizisk private banking-relation",
-          "month8": "Familiens flytning gennemført",
-          "month9": "Family office-struktur etableret, alle tjenester i drift"
-        },
-        "challenges": [
-          "Kompleks selskabsstruktur på tværs af jurisdiktioner krævede omstrukturering",
-          "Kryptobeholdninger krævede specialiseret bankdokumentation",
-          "Skoleplads midt i skoleåret",
-          "Koordinering af overgang til dobbelt skattepligt"
-        ],
-        "services": [
-          "Strukturering af aktiver før immigration",
-          "Beskatning efter forbrug (Forfait fiscal)",
-          "Opholdstilladelse & Immigration",
-          "Etablering af family office",
-          "Ejendomsrådgivning",
-          "Livsstilskoordinering"
-        ],
-        "outcome": "Fuldt gennemført flytning for hele familien. Forfait fiscal godkendt. Børn indskrevet på ISZL. Family office i drift med schweizisk governance-ramme. Salær: ikke oplyst."
-      },
-      "bankingFamily": {
-        "title": "Bankfamilien",
-        "subtitle": "Fra Beirut til Schwyz — akut flytning",
-        "quote": "Da bankerne kollapsede, havde vi 72 timer til at træffe en beslutning. Vores rådgivere havde den schweiziske infrastruktur klar.",
-        "profile": "Libanesisk familie, 3 generationer, betydelig bank- og ejendomsportefølje, akutte omstændigheder",
-        "timeline": {
-          "week1": "Akut konsultation — øjeblikkelig trusselsvurdering",
-          "week2": "Fremskyndet ansøgning om B-tilladelse påbegyndt",
-          "month1": "Midlertidig bolig sikret i Schwyz",
-          "month2": "Onboarding til private banking (aktiver overført fra ikke-libanesiske beholdninger)",
-          "month3": "Permanent bopæl etableret",
-          "month4": "Børn indskrevet på international skole",
-          "month6": "Omstrukturering af formuen gennemført",
-          "month9": "Fuld bosættelse — alle tre generationer etableret",
-          "month12": "Løbende rådgivning — formueforvaltning og arveplanlægning"
-        },
-        "challenges": [
-          "Akut tidslinje krævede parallel behandling af alle arbejdsprocesser",
-          "Kompleks generationsformue-struktur",
-          "Aktiver låst i det libanesiske banksystem",
-          "Tre generationer med forskellige behov for ophold og pleje"
-        ],
-        "services": [
-          "Opholdstilladelse & Immigration",
-          "Private Banking & formuepleje",
-          "Ejendomsrådgivning",
-          "Etablering af family office",
-          "Sundhed- & Wellness-concierge",
-          "Livsstilskoordinering"
-        ],
-        "outcome": "Alle tre generationer succesfuldt flyttet. Private banking-relationer etableret. Formuen omstruktureret under schweizisk styring. Løbende aftale om arveplanlægning på plads."
-      },
-      "digitalNomad": {
-        "title": "Den digitale nomade",
-        "subtitle": "Fra Riyadh til Zurich på 4 måneder",
-        "quote": "Jeg havde brug for et land, der behandlede krypto som en legitim aktivklasse og tilbød reel infrastruktur til at opbygge en virksomhed. Zurich var det oplagte valg.",
-        "profile": "34-årig saudiarabisk statsborger, betydelig kryptoportefølje, aktiv trader og investor, enlig",
-        "timeline": {
-          "month1": "Konsultation, valg af kanton, strategi for dokumentation af kryptoformue",
-          "month15": "Ansøgning om B-tilladelse med detaljeret dokumentation af formuens oprindelse",
-          "month2": "Virksomhedsstiftelse (schweizisk GmbH) til konsulentvirksomhed",
-          "month3": "Opsætning af krypto-venlig bankforbindelse (SEBA Bank + traditionel privatbank)",
-          "month4": "Lejlighed sikret i Zurich, flytning fuldt gennemført"
-        },
-        "challenges": [
-          "Dokumentation af kryptoforløb fra mining/tidlige køb til nuværende portefølje",
-          "Find bankpartnere, der accepterer 90 %+ krypto-afledt formue",
-          "Navigering i schweizisk kryptoskatteklassificering for aktiv trading mod investering",
-          "B-tilladelse til ikke-EU-borger med ikke-traditionel formueprofil"
-        ],
-        "services": [
-          "Opholdstilladelse & Immigration",
-          "Virksomhedsstiftelse & selskabsstrukturering",
-          "Private Banking & formuepleje",
-          "Livsstilskoordinering"
-        ],
-        "outcome": "B-tilladelse bevilget. Schweizisk GmbH i drift. Dobbelt bankrelation (krypto + traditionel) etableret. Fuld compliance-ramme for løbende kryptohandel. 4 måneder fra start til slut."
-      },
-      "gulfFamilyOffice": {
-        "title": "Gulf Family Office",
-        "subtitle": "Kuwaitisk family office — schweizisk SFO etableret",
-        "quote": "Vi havde formueforvaltning i fire jurisdiktioner, men ingen samlet styring. Schweiz gav os den struktur, vores familie havde brug for til den næste generation.",
-        "profile": "Kuwaitisk family office, CHF 200M+ AUM, flere generationer, opererer i GCC, London og Schweiz",
-        "timeline": {
-          "month1": "Afklaring: governance-audit, gennemgang af jurisdiktioner, vurdering af familiepagt",
-          "month2": "Schweizisk SFO-struktur designet — AG stiftet i Zug",
-          "month3": "Bestyrelsesdannelse — 3 uafhængige direktører med bopæl i Schweiz indsat",
-          "month4": "Investeringskomité etableret, bankmandater omstruktureret",
-          "month5": "Governance-ramme dokumenteret og ratificeret af familierådet",
-          "month6": "Operationel — alle rapporteringslinjer, compliance og audit-rammer aktive",
-          "ongoing": "Løbende rådgivning: kvartalsvise bestyrelsesmøder, årlig gennemgang af governance, ad hoc-rådgivning"
-        },
-        "challenges": [
-          "Afstemning af governance-forventninger på tværs af tre generationer med forskellige investeringsfilosofier",
-          "Konsolidering af rapportering fra fire jurisdiktioner til en samlet schweizisk ramme",
-          "Indsættelse af kvalificerede uafhængige direktører, der forstår både schweizisk og GCC-erhvervskultur",
-          "Design af arvefølgeramme acceptabel for alle familiegrene"
-        ],
-        "services": [
-          "Etablering af family office",
-          "Uafhængige direktører & bestyrelsesposter",
-          "Virksomhedsstiftelse & selskabsstrukturering",
-          "Private Banking & formuepleje"
-        ],
-        "outcome": "Schweizisk SFO fuldt operationelt i Zug. 3 uafhængige direktører indsat. Governance-ramme ratificeret af alle familiegrene. Konsolideret rapportering på tværs af alle jurisdiktioner. Løbende aftale om kvartalsvis governance og årlig gennemgang."
-      }
-    },
-    "labels": {
-      "case": "Sag",
-      "timeline": "Tidslinje",
-      "month": "Måned",
-      "week": "Uge",
-      "ongoing": "Løbende",
-      "keyChallenges": "Centrale udfordringer",
-      "servicesEngaged": "Anvendte ydelser",
-      "outcome": "Resultat"
+      "title": "Hvem vi betjener | Move to Switzerland",
+      "description": "Forskellige planer for aktive virksomhedsejere, privat velstand og familieliv"
     }
   },
   "services": {
     "title": "Vores ydelser",
-    "subtitle": "Omfattende rådgivning i alle dimensioner af Deres flytning",
+    "subtitle": "Flytning planlægning for privat velstand, aktive virksomheder og internationale familier",
     "learnMore": "Læs mere",
     "pageTitle": "Ydelser",
-    "pageSubtitle": "Komplet rådgivning til Deres flytning til Schweiz",
+    "pageSubtitle": "Koordinere schweiziske opholds-, forretnings- og familieprioriteter",
     "items": {
       "assetStructuring": {
-        "title": "Strukturering af aktiver før immigration",
-        "description": "Realisering af gevinster før schweizisk bopæl; omstrukturering af aktieposter, trusts og UAE-selskabsstrukturer; omfattende dokumentation af formuens oprindelse.",
-        "detail": "Vi samarbejder med Deres eksisterende rådgivere for at sikre, at Deres aktivstruktur er optimeret, før De etablerer schweizisk skattepligt. Dette inkluderer gennemgang af aktieposter, trust-aftaler og selskabsstrukturer i UAE og andre steder, hvilket sikrer ren dokumentation af formuens oprindelse, der tilfredsstiller schweiziske bank- og skattemyndigheders krav."
+        "title": "Pre- immigration Tax & Asset Planning",
+        "description": "Kort virksomhedsejerskab, investeringer og planlagte transaktioner før flytning. Koordinere schweizisk og afgang- land skat rådgivning.",
+        "detail": "Kortlæg ejerandele, trusts, pensioner, ejendomme, gæld, planlagte salg og berørte lande før schweizisk skatteresidens. Saml ejerskabsbeviser, værdiansættelser og dokumentation for formuens oprindelse. Lad nuværende og schweiziske specialister vurdere fraflytningsskat, traktatmæssigt hjemsted og transaktionernes følger. Salg før ankomst er ikke automatisk skattefrit; udenlandske strukturer bevarer ikke nødvendigvis deres skattemæssige behandling.",
+        "seoTitle": "Pre- Immigration Tax Planning for HNWIs & Grundlægger"
       },
       "lumpSum": {
         "title": "Beskatning efter forbrug (Forfait fiscal)",
-        "description": "Fuld forhandling af kantonale skatteafgørelser; fastlæggelse af beskatningsgrundlag; løbende årlig compliance-styring.",
-        "detail": "Schweiz' ordning for beskatning efter forbrug giver kvalificerede personer et skattegrundlag beregnet ud fra leveomkostninger frem for verdensomspændende indkomst. Vi varetager den fulde forhandling med de kantonale myndigheder, fastlægger det optimale skattegrundlag og administrerer den løbende årlige compliance for at sikre, at Deres aftale forbliver i god gænge."
+        "description": "Vurdering af udgifterne- baseret beskatning",
+        "detail": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt.",
+        "seoTitle": "Schweiziske lump- sum beskatning for støtteberettigede private kunder"
       },
       "residency": {
         "title": "Opholdstilladelse & Immigration",
-        "description": "Rådgivning om valg af kanton; håndtering af ansøgning om B-tilladelse; planlægning for medfølgende familie; vej mod C-tilladelse og statsborgerskab.",
-        "detail": "Valget af den rette kanton er måske den vigtigste beslutning i Deres flytning. Vi rådgiver om valg af kanton baseret på Deres skattesituation, livsstilspræferencer og familiens behov. Derefter håndterer vi den fulde ansøgning om B-tilladelse, inklusion af familie og udstikker vejen mod C-tilladelse og eventuelt schweizisk statsborgerskab."
+        "description": "Vurdere schweiziske ophold og arbejdsmuligheder for iværksættere, private kunder og familier, før du foretager flytning forpligtelser.",
+        "detail": "EU/EFTA-borgere kan kvalificere sig gennem ansættelse, selvstændig virksomhed eller ophold uden erhvervsaktivitet. Sidstnævnte kræver tilstrækkelige midler og passende syge- og ulykkesforsikring. Tilladelsens varighed afhænger af opholdsgrundlaget. Indsend de dokumenter, den lokale myndighed kræver; sagsbehandlingstiden er ikke nationalt garanteret.\n\nFor borgere uden for EU/EFTA vurderes retsgrundlaget individuelt. Ansættelse, selvstændig virksomhed, pensionering og undtagelsesvis adgang har forskellige krav. Formue, boligkøb, selskabsstiftelse eller en skatteafgørelse giver ikke i sig selv opholdstilladelse. Kantonale og om nødvendigt føderale myndigheder afgør sagen. Få forholdene vurderet før bindende beslutninger.",
+        "seoTitle": "Swiss Residency for Entrepreneurs & Private Clients"
       },
       "companyFormation": {
-        "title": "Virksomhedsstiftelse & selskabsstrukturering",
-        "description": "Schweiziske holdingselskaber; IP-strukturer; koordinering med UAE-enheder; momsregistrering og compliance.",
-        "detail": "Uanset om De har brug for et schweizisk holdingselskab, en IP-licensstruktur eller koordinering mellem Deres eksisterende UAE-enheder og nye schweiziske aktiviteter, håndterer vi hele processen. Dette inkluderer momsregistrering, selskabsretslig compliance og sikring af, at Deres selskabsstruktur er både skatteeffektiv og fuldt lovlig."
+        "title": "Selskabsdannelse og virksomhedsflytning",
+        "description": "Koordinere virksomhedsopsætning, grundlægger arbejdstilladelse, styring og grænseoverskridende skattespørgsmål til et schweizisk forretningsgrundlag.",
+        "detail": "Et schweizisk AG kræver mindst CHF 100.000 i aktiekapital; mindst 20 % af hver akties nominelle værdi og mindst CHF 50.000 samlet skal indbetales ved stiftelsen. Et GmbH kræver CHF 20.000 fuldt indbetalt. Schweizisk bosiddende repræsentation samt ledelses-, tilladelses- og indberetningskrav afklares med specialister.\n\nStart med, hvad virksomheden rent faktisk vil gøre i Schweiz: hvem der forvalter det, hvor holdet arbejder, hvilke kunder det betjener, og hvilke kontrakter eller aktiver kan flytte. Indførelse af en virksomhed er adskilt fra opnåelse af grundlæggerens ret til at arbejde. Bed specialister om at vurdere lønninger, socialforsikring, moms, licenser og konsekvenserne for eksisterende oversøiske enheder.\n\nVi koordinerer flytningen med dine virksomheds- og skatterådgivere. Forlovelsen bør angive, hvem der håndterer integration, bankvirksomhed, tilladelser og løbende administration.",
+        "seoTitle": "Schweiziske Selskab Dannelse og flytning for iværksættere"
       },
       "familyOffice": {
         "title": "Etablering af family office",
-        "description": "Rådgivning om single- og multi-family offices; introduktion til private banking; strukturering af trusts og fonde; arveplanlægning.",
-        "detail": "For familier, der kræver dedikeret infrastruktur til formueforvaltning, rådgiver vi om etablering af single- eller multi-family offices i Schweiz. Dette inkluderer introduktioner til førende privatbanker, strukturering af trusts og fonde til aktivbeskyttelse og omfattende arveplanlægning, der tager højde for grænseoverskridende kompleksiteter."
+        "description": "Definere det schweiziske kontors opgaver, forvaltning og rapportering; koordinere specialiseret rådgivning, bankforberedelse og flytning af familie.",
+        "detail": "Begynd med familiens behov: investeringstilsyn, konsolideret rapportering, administration, arv eller støtte til en operativ virksomhed. Sammenlign et internt team, eksterne udbydere og et hybrid arrangement, før du forpligter dig til en virksomhed.\n\nEjerskabet, kunderne og aktiviteterne afgør, hvilke lovgivningsmæssige spørgsmål der skal vurderes. Et familiekontormærke opfylder ikke licensforpligtelserne. Aftal ansvar for investeringsbeslutninger, opbevaring, skatterådgivning og rapportering med de udpegede fagfolk. Vi forbinder det arbejde med familiens bolig, hjem og skole planer.",
+        "seoTitle": "Swiss Family Office setup & UHNW Flytning"
       },
       "directorship": {
-        "title": "Uafhængige direktører & bestyrelsesposter",
-        "description": "Indsættelse af direktører med bopæl i Schweiz; selskabssekretariatsydelser; støtte til governance og compliance.",
-        "detail": "Mange schweiziske selskabsstrukturer kræver en direktør med bopæl i Schweiz. Vi formidler kvalificerede uafhængige direktører, tilbyder selskabssekretariatsydelser og løbende støtte til governance for at sikre, at Deres schweiziske enheder lever op til alle regulatoriske krav, mens De fokuserer på Deres forretning."
+        "title": "Koordinering af ledelse og bestyrelse",
+        "description": "Koordinere schweizisk repræsentation, bestyrelsesansvar og administration sammen med din virksomhed og flytningsrådgivere.",
+        "detail": "En schweizisk virksomhed har brug for en forvaltningsordning, der passer til dens retlige form og faktiske operationer. Gennemgå resident repræsentation, underskrivende myndighed, bestyrelse opgaver og registrering med virksomhedsrådgivning.\n\nEn resident repræsentant fastsætter ikke i sig selv alt det stof, som en virksomhed kan have brug for til skatte-, bank- eller licensformål. Tilstå direktørens mandat, adgang til oplysninger, aflønning og løbende ansvar skriftligt.",
+        "seoTitle": "Schweiz 'Directorship & Governance Coordination"
       },
       "realEstate": {
         "title": "Ejendomsrådgivning",
-        "description": "Navigering i Lex Koller; adgang til off-market ejendomme; strukturering af opkøb; koordinering med notar.",
-        "detail": "Schweiziske ejendomsregler, især Lex Koller-restriktionerne for udenlandske købere, kræver ekspert-navigering. Vi giver adgang til off-market ejendomme på eksklusive lokationer, strukturerer opkøb i overensstemmelse med alle regler og koordinerer med notarer for at sikre gnidningsfrie transaktioner."
+        "description": "Planlæg en schweizisk hjemsøgning omkring opholdsret, skoleruter og budget, med Lex Koller og køb spørgsmål vurderet af specialister.",
+        "detail": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift.\n\nFor et første træk, sammenligne leje med at købe, før du forpligter sig til en placering. Byg kortlisten omkring selve skolen campus, arbejdsplads og hverdagsrejser. Anmoder om aktuelle oplysninger om ejendom og et fuldt overtagelsesbudget, herunder finansiering og faglige omkostninger.",
+        "seoTitle": "Bolig- og flytterådgivning i Schweiz for privatkunder"
       },
       "health": {
-        "title": "Sundhed- & Wellness-concierge",
-        "description": "Opsætning af obligatorisk sygeforsikring; introduktion til speciallæger; executive sundhedstjek; medicinsk kontaktperson.",
-        "detail": "Schweiz' sundhedssystem kræver obligatorisk forsikring og kan være komplekst at navigere i. Vi opsætter Deres sygeforsikring, introducerer Dem for førende speciallæger, arrangerer executive sundhedstjek og fungerer som Deres løbende medicinske kontaktperson for at sikre, at De og Deres familie modtager den fineste pleje."
+        "title": "Koordinering af sundhed og velvære",
+        "description": "Koordinere sundhedspleje forberedelse og sundhedsintroduktioner omkring din families medicinske og flytning behov.",
+        "detail": "Medtag sundhedspleje i flytteplanen før ankomst. Identificer løbende behandling, recepter, sprogbehov og de optegnelser, din næste kliniker vil kræve. Bekræft forsikringsforpligtelser og startdatoer for hvert familiemedlem, herunder enhver gældende undtagelse.\n\nVi hjælper med at koordinere praktiske arrangementer og introduktioner. Forsikringsselskaber og sundhedstjenesteydere bekræfter dækning, accept, tilgængelighed og omkostninger; medicinske beslutninger forbliver hos dine klinikere.",
+        "seoTitle": "Swiss Health Insurance & Healthcare flytning support"
       },
       "lifestyle": {
-        "title": "Livsstilskoordinering & Soft Landing",
-        "description": "Placering på internationale skoler; arbejdstilladelser til husholdningspersonale; integrationsprogrammer for ægtefæller; introduktion til lokalsamfundet; kulturel orientering.",
-        "detail": "Succesen af Deres flytning rækker langt ud over papirarbejdet. Vi håndterer skolepladser til Deres børn, arbejdstilladelser til husholdningspersonale, integration af ægtefæller og introduktion til lokalsamfundet samt omfattende kulturel orientering for at sikre, at hele Deres familie føler sig hjemme i Schweiz fra dag ét."
+        "title": "Family Settlement & School Coordination",
+        "description": "Koordinere skoleundersøgelser, boliger, lokal orientering og familiebosættelser med adgang og tillade beslutninger bekræftet af de relevante institutioner.",
+        "detail": "Start med dine børns alder, sprogbehov og uddannelsesplaner, og sammenlign derefter offentlige og internationale skolemuligheder. Tjek steder og rejsen til det rigtige campus, før du forpligter dig til et hjem. Indlæggelser beslutninger forbliver hos skolen.\n\nByg en praktisk ankomstplan for forsikring, registrering, daglig transport og lokalforbindelser. Hvis hushjælp kan flytte sammen med dig, skal du vurdere deres immigrations- og beskæftigelsessituation separat, før du indgår forpligtelser.",
+        "seoTitle": "Swiss Family Relocation & School Coordination"
       }
     },
     "overview": "Oversigt",
@@ -526,46 +399,46 @@
   },
   "clients": {
     "title": "Hvem vi betjener",
-    "subtitle": "Vores rådgivning er skræddersyet til Deres specifikke profil og mål",
+    "subtitle": "Forskellige planer for aktive virksomhedsejere, privat velstand og familieliv",
     "profiles": {
       "entrepreneur": {
-        "title": "Den etablerede iværksætter",
-        "age": "Alder 40–60",
-        "description": "Virksomhedsejere før eller efter exit, der ønsker at etablere schweizisk bopæl før en likviditetsbegivenhed. Typisk forløb: 12–24 måneder.",
+        "title": "Iværksættere og virksomhedsejere",
+        "age": "Bygning, skalering eller forberedelse af en udgang",
+        "description": "Koordiner din ret til at arbejde, virksomhedens drift og familiens flytning. Før et salg af en virksomhed, bed rådgivere i begge lande om at vurdere den foreslåede tidsplan og ejerskabsstruktur.",
         "tags": [
-          "Planlægning før exit",
-          "Strukturering af aktiver",
-          "Forfait Fiskal"
+          "Grundlæggerrettigheder",
+          "Forretningsstof",
+          "Planlægning før afgang"
         ]
       },
       "family": {
-        "title": "Den tilflyttende familie",
-        "age": "Børn i skolealderen",
-        "description": "Familier der prioriterer sikkerhed, uddannelse og livskvalitet. Omfattende flytning inklusive skoler, sundhedsvæsen og integration i lokalsamfundet.",
+        "title": "Internationale familier",
+        "age": "Skole, hjem og dagligdag",
+        "description": "Sørg for, at hvert familiemedlems bopæl er i overensstemmelse med skolernes optagelseskrav, sundhedspleje og en praktisk boligadresse. Sammenlign offentlige og internationale skoler, før du underskriver en lejekontrakt.",
         "tags": [
-          "Uddannelse",
-          "Sundhed",
-          "Lokalsamfund"
+          "Skolevalg",
+          "Familietilladelser",
+          "Afvikling"
         ]
       },
       "youngWealth": {
-        "title": "Den yngre formuende",
-        "age": "Alder 28–42",
-        "description": "Digitale iværksættere og krypto-formuende, der søger en stabil, krypto-venlig jurisdiktion med livsstil i verdensklasse.",
+        "title": "Formuende privatpersoner",
+        "age": "Privat rigdom og liv efter en exit",
+        "description": "Planlæg din ophold i Schweiz omkring investeringer, ejendomme, familiære forpligtelser og planlagte aktiviteter. Gennemgå almindelig skattestruktur og, hvor relevant, udgiftbaseret skattestruktur med kvalificerede eksperter.",
         "tags": [
-          "Krypto",
-          "Digitale aktiver",
-          "Livsstil"
+          "Private Wealth",
+          "Skatteresidence",
+          "Bankforberedelse"
         ]
       },
       "familyOffice": {
-        "title": "Gulf Family Office",
-        "age": "Flere generationer",
-        "description": "Etablerede family offices der søger et europæisk centrum for governance, arveplanlægning og formuestrukturering af institutionel karakter.",
+        "title": "Family offices og meget formuende familier",
+        "age": "Grænseoverskridende ejerskab og arv",
+        "description": "Vi koordinerer meget formuende familiers flytning med deres family offices opgaver, rapportering og eksisterende rådgivere. Afklar ansvar og lovkrav, før I vælger en struktur.",
         "tags": [
           "Governance-struktur",
-          "Arvefølge",
-          "Institutionel"
+          "Arveplanlægning",
+          "Konsulent Koordinering"
         ]
       }
     }
@@ -603,9 +476,9 @@
     "pageSubtitle": "Uafhængighed, fortrolighed og dybdegående service",
     "story": {
       "title": "Vores historie",
-      "p1": "Move to Switzerland blev grundlagt på baggrund af en simpel observation: formuende privatpersoner, der flytter fra Mellemøsten til Schweiz, møder et unødigt fragmenteret rådgivningslandskab. Skatterådgivere, immigrationsadvokater, ejendomsmæglere og privatbanker arbejder hver især isoleret, hvilket efterlader kunden med opgaven at koordinere mellem dem.",
-      "p2": "Vi skabte ét kontaktpunkt, der orkestrerer hele rejsen — fra strukturering af aktiver før immigration til børnenes første skoledag. Vores grundlæggere kombinerer dyb schweizisk juridisk og bankmæssig ekspertise med praktisk iværksættererfaring i grænseoverskridende drift.",
-      "p3": "Hver opgave håndteres med den diskretion og grundighed, vores kunder forventer. Vi betjener et begrænset antal familier ad gangen for at sikre, at hver enkelt modtager vores fulde opmærksomhed."
+      "p1": "Flytning til Schweiz bringer personlige, familiemæssige og forretningsmæssige beslutninger sammen. High- net- værd enkeltpersoner og iværksættere ofte allerede har betroet rådgivere, men stadig har brug for nogen til at koordinere flytningen på tværs af lande og specialiserede hold.",
+      "p2": "Move to Switzerland — Vi har hjulpet hundredvis af mennesker med at flytte til Schweiz siden 2012.",
+      "p3": "Vi har kontorer i Zürich, Zug og Schwyz. Indledende opkald finder sted online med interne møder i Zürich. Vi er enige om omfanget af koordineringen og de eksterne specialisters ansvar, før arbejdet påbegyndes."
     },
     "values": {
       "title": "Vores værdier",
@@ -676,17 +549,17 @@
     }
   },
   "servicesMeta": {
-    "title": "Vores ydelser — Flyt til Schweiz",
-    "description": "Omfattende rådgivningsydelser i alle dimensioner af Deres flytning til Schweiz."
+    "title": "Swiss Relocation Services for HNWIs & Iværksættere",
+    "description": "Plan schweizisk residency, pre-flytte skattemæssige spørgsmål, virksomhedsdannelse, familiekontor koordinering, boliger og skoler med en flytning kontakt."
   },
   "insights": {
     "meta": {
-      "title": "Indsigter — Move to Switzerland Rådgivning",
-      "description": "Ekspertindsigter om flytning til Schweiz, beskatning, fast ejendom, bankvæsen og livsstil for formuende enkeltpersoner og familier."
+      "title": "Swiss Relocation Insights for HNWIs & Iværksættere",
+      "description": "Udforsk schweizisk bopæl, grundlægger flytning, privat bankvirksomhed, familiekontorer, skatteplanlægning, ejendom og skoler med praktisk vejledning og officielle kilder."
     },
     "hero": {
       "title": "Indsigter",
-      "subtitle": "Eksperternes perspektiver på flytning til Schweiz, beskatning og formuepleje"
+      "subtitle": "Praktisk læsning for iværksættere, høj-net-værd enkeltpersoner og internationale familier planlægger et schweizisk træk"
     },
     "readMore": "Læs artikel",
     "author": "Move to Switzerland Rådgivningsteam",
@@ -700,55 +573,42 @@
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
         "categoryLabel": "Beskatning",
-        "readTime": "12 min. læsning",
+        "readTime": "2 min læs",
         "date": "1. april 2026",
-        "title": "Schweizisk beskatning efter forbrug forklaret: En komplet guide for udenlandske statsborgere",
-        "metaDescription": "Komplet guide til schweizisk beskatning efter forbrug (forfait fiscal). Lær om berettigelse, minimumsbeløb efter kanton, hvordan skattegrundlaget beregnes og ansøgningsprocessen trin for trin.",
-        "excerpt": "En omfattende gennemgang af Schweiz' forfait fiscal-ordning — krav til berettigelse, kantonale minimumsbeløb, beregning af skattegrundlag og ansøgningsprocessen trin for trin.",
-        "sectionCount": "9",
+        "title": "Schweizisk udgiftsbaseret beskatning: betingelser og planlægning",
+        "metaDescription": "Vurdering af schweizisk lumpsum beskatning berettigelse, 2026 vurderingsgrundlag, kanton valg og konsekvenserne af fortsatte forretningsaktiviteter efter et træk.",
+        "excerpt": "Vurdering af schweizisk lumpsum beskatning berettigelse, 2026 vurderingsgrundlag, kanton valg og konsekvenserne af fortsatte forretningsaktiviteter efter et træk.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Schweiz' ordning for beskatning efter forbrug — kendt som forfait fiscal eller Pauschalbesteuerung — er en af de mest attraktive skatteordninger til rådighed for velhavende udenlandske statsborgere, der flytter til Schweiz. Under dette system beskattes kvalificerede personer baseret på deres leveomkostninger frem for deres verdensomspændende indkomst og aktiver. For formuende privatpersoner, især dem med betydelige globale indkomststrømme, kan dette resultere i væsentligt lavere skatteforpligtelser sammenlignet med almindelig beskatning."
+            "heading": "Støtteberettigelseskrav",
+            "level": "2",
+            "content": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt."
           },
           "1": {
-            "heading": "Hvad er beskatning efter forbrug?",
+            "heading": "Hvordan beskatningsgrundlaget beregnes",
             "level": "2",
-            "content": "Beskatning efter forbrug er en særlig skatteordning til rådighed for udenlandske statsborgere, der bosætter sig i Schweiz og ikke udøver lønnet arbejde i landet. I stedet for at angive verdensomspændende indkomst og formue fastsættes skatteyderens skattegrundlag ud fra deres årlige leveomkostninger i Schweiz — inklusive boligudgifter, mad, rejser, uddannelse, personaleomkostninger og andre personlige udgifter. Skatten beregnes derefter ved at anvende almindelige schweiziske skattesatser (føderale, kantonale og kommunale) på dette anslåede skattegrundlag. Systemet har været en del af schweizisk skattelov i over et århundrede og betjener i øjeblikket ca. 5.000 personer på tværs af Schweiz, hvilket genererer over CHF 900 millioner årligt i skatteindtægter."
+            "content": "For skatteåret 2026 er det føderale minimumsgrundlag CHF 435.000, ikke den skat, der skal betales. Globale leveomkostninger og lovbestemte boligrelaterede minimumsbeløb indgår også. En særskilt kontrolberegning kan øge skatten på visse schweiziske indkomster og udenlandske indkomster med traktatlempelse. Kantonale indkomst- og formueskatter beregnes særskilt."
           },
           "2": {
-            "heading": "Krav til berettigelse",
+            "heading": "Hvilke kantoner skal du sammenligne?",
             "level": "2",
-            "content": "For at kvalificere sig til beskatning efter forbrug skal en ansøger opfylde tre grundlæggende kriterier. For det første skal personen være udenlandsk statsborger — schweiziske statsborgere er ikke berettigede. For det andet skal personen etablere schweizisk skattepligt for første gang eller vende tilbage efter et fravær på mindst 10 år. For det tredje, og helt centralt, må personen ikke udøve nogen form for lønnet arbejde i Schweiz. Dette inkluderer ansættelse, selvstændig virksomhed og aktiv ledelse af en schweizisk-baseret virksomhed. Passive aktiviteter såsom forvaltning af personlige investeringer eller opsyn med et family office (forudsat at kontoret ikke genererer indtægter fra tredjepart) er generelt tilladt. Ansøgerens ægtefælle skal også opfylde nationalitetskriteriet — hvis den ene ægtefælle er schweizer, er beskatning efter forbrug ikke tilgængelig for parret."
+            "content": "Zürich afskaffede kantonal udgiftsbaseret beskatning i 2010. Det samme gælder Schaffhausen, Appenzell Ausserrhoden, Basel-Landschaft og Basel-Stadt. Indhent de aktuelle krav hos skattemyndigheden i andre kantoner. En national tabel over minimumsbetalinger fastlægger hverken din adgang til ordningen eller den endelige skat."
           },
           "3": {
-            "heading": "Hvordan beregnes skattegrundlaget?",
+            "heading": "Applikationsprocessen: Trin for trin",
             "level": "2",
-            "content": "Skattegrundlaget ved beskatning efter forbrug er det højeste af to beregninger. Den første er de faktiske verdensomspændende leveomkostninger for skatteyderen og dennes familie. Den anden er en kontrolberegning — en minimumstærskel designet til at forhindre misbrug. På føderalt niveau er den mindste skattepligtige indkomst fastsat til CHF 400.000 siden reformen i 2016. Kantonerne fastsætter deres egne minimumskrav, som varierer fra ca. CHF 250.000 til over CHF 600.000 afhængigt af kantonen. Kontrolberegningen tager højde for flere faktorer: den anslåede lejeværdi (eller faktiske leje) af skatteyderens schweiziske bolig multipliceret med en faktor (typisk 3 til 7 afhængigt af kantonen), schweiziske indkomstkilder (f.eks. schweizisk fast ejendom) og indkomst fra lande, som Schweiz har en dobbeltbeskatningsaftale med, hvor skatteyderen gør krav på traktatfordele."
+            "content": "Saml pas, bopælshistorik, globalt husholdningsbudget, boligoplysninger, indkomstkilder og planlagte arbejdsaktiviteter før kantonvalget. Lad kvalificerede skattespecialister sammenligne med almindelig beskatning og eventuelt koordinere en skriftlig skatteafgørelse. Afklar forudsætninger og indberetningspligter. Skatteordning og opholdstilladelse er separate afgørelser; hverken godkendelse eller en fast årlig skat garanteres."
           },
           "4": {
-            "heading": "Minimumsbeløb efter kanton",
-            "level": "3",
-            "content": "Kantonale minimumskrav varierer betydeligt og er en nøglefaktor i valget af kanton. Zug kræver en minimum skattepligtig indkomst på ca. CHF 250.000, hvilket gør den til en af de mest tilgængelige kantoner. Schwyz fastsætter også sit minimum til omkring CHF 250.000. Lucerne kræver ca. CHF 300.000. Valais og Graubünden fastsætter minimumskrav omkring CHF 400.000. Geneva kræver ca. CHF 400.000 i minimum skattepligtig indkomst, men har højere kommunale skattesatser. Zurich kræver ca. CHF 400.000 og anvender sine standard progressive satser på det anslåede grundlag. Vaud, der historisk set er kantonen med flest skatteydere under denne ordning, kræver ca. CHF 400.000. Bern har et minimum på ca. CHF 400.000. Bemærk, at flere kantoner har afskaffet beskatning efter forbrug på kantonalt niveau — Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden og Zürich by (dog tillader kantonen det stadig i visse kommuner). Bekræft altid den aktuelle tilgængelighed hos de kantonale myndigheder."
+            "heading": "Grundlæggere: Beskriv din rolle efter flytningen",
+            "level": "2",
+            "content": "Hvis du forbereder en forretningsudgang, skal du skelne ejerskab fra det arbejde, du vil fortsætte med at udføre. Liste over bestyrelsesposter, konsulentaftaler, ledelsesopgaver og eventuelle indtægtsbetingelser. Bed dine skatterådgivere og immigrationsrådgivere om sammen at vurdere de foreslåede aktiviteter, inden de sætter deres lid til en privatvelstandsplan.\n\nPlaceringen af kunder eller selskabets hjemsted afgør ikke, hvordan arbejde udført fra Schweiz vil blive behandlet."
           },
           "5": {
-            "heading": "Ansøgningsprocessen: Trin for trin",
+            "heading": "Spørgsmål til den første vurdering",
             "level": "2",
-            "content": "Ansøgningsprocessen følger typisk en struktureret vej. I fasen før ansøgning udarbejder den kommende skatteyder sammen med kvalificerede rådgivere en detaljeret oversigt over deres personlige og finansielle situation, vælger den optimale kanton og kommune og udarbejder foreløbige beregninger af det foreslåede skattegrundlag. Den formelle ansøgning indsendes til den kantonale skattemyndighed. Den inkluderer en detaljeret redegørelse for forventede leveomkostninger, dokumentation for ansøgerens økonomiske situation, bevis for nationalitetskravet og en erklæring om ingen lønnet beskæftigelse i Schweiz. Den kantonale myndighed gennemgår ansøgningen og kan indlede en forhandling om skattegrundlaget. Dette er en reel forhandling — myndigheden har skønsbeføjelse og vil vurdere, om det foreslåede grundlag er rimeligt i forhold til ansøgerens tilsyneladende livsstil og formue. Når der er opnået enighed, udstedes en formel skatteafgørelse, der typisk er gyldig for en defineret periode (ofte det første skatteår med årlig fornyelse). Skatteyderen skal indsende en årlig erklæring om leveomkostninger for at opretholde aftalen."
-          },
-          "6": {
-            "heading": "Føderal vs. kantonal beskatning efter forbrug",
-            "level": "2",
-            "content": "Det er vigtigt at forstå, at beskatning efter forbrug fungerer på både føderalt, kantonalt og kommunalt niveau. På føderalt niveau er den mindste skattepligtige indkomst CHF 400.000. Kantonale og kommunale skatter beregnes separat, og hver kanton har sine egne minimumstærskler og satser. I praksis ligger den samlede effektive skattesats på denne form for indkomst typisk mellem 20 % og 35 % afhængigt af kanton og kommune, sammenlignet med topskattesatser på 40 %+ for almindelige skatteydere med høje indkomster. For en person med et forhandlet skattegrundlag på CHF 500.000 kan den samlede årlige skatteregning i Zug f.eks. være ca. CHF 100.000–120.000 — en brøkdel af, hvad de ville betale af deres faktiske verdensomspændende indkomst under almindelig beskatning."
-          },
-          "7": {
-            "heading": "Fordele og overvejelser",
-            "level": "2",
-            "content": "De primære fordele ved beskatning efter forbrug inkluderer forudsigelige og ofte væsentligt lavere skatteregninger, intet krav om detaljeret oplysning om verdensomspændende indkomst og aktiver, forenklet skattemæssig compliance og beskyttelse mod schweizisk formueskat på ikke-schweiziske aktiver. Der er dog vigtige overvejelser. Skatteydere under denne ordning kan ikke gøre brug af fradrag, der er tilgængelige for almindelige skatteydere (såsom pensionsbidrag). De kan ikke i alle tilfælde drage fordel af schweiziske dobbeltbeskatningstraktatsatser, der er lavere end deres hjemlige kildeskattesatser. De skal reelt afholde sig fra lønnet arbejde i Schweiz. Og offentlige folkeafstemninger har udfordret ordningen i flere kantoner, hvilket skaber en vis politisk risiko — dog har den føderale afstemning i november 2025, hvor 78 % stemte imod at afskaffe ordningen, styrket dens langsigtede sikkerhed betydeligt."
-          },
-          "8": {
-            "heading": "Er beskatning efter forbrug det rette for Dem?",
-            "level": "2",
-            "content": "Beskatning efter forbrug er mest fordelagtig for personer med høj verdensomspændende indkomst, som ikke har brug for at arbejde i Schweiz — typisk pensionister, investorer, forvaltere af familieformuer og personer, der lever af passiv indkomst fra virksomheder uden for Schweiz. Den er mindre velegnet for personer, der planlægger aktivt at lede en schweizisk-baseret virksomhed, eller dem med en relativt beskeden verdensomspændende indkomst (hvor almindelig beskatning faktisk kan resultere i en lavere regning). En detaljeret sammenlignende analyse — almindelig beskatning mod beskatning efter forbrug — bør udarbejdes som en del af Deres planlægning før immigration. Vi tilbyder denne analyse som en del af vores rådgivning før immigration, så De kan træffe denne vigtige beslutning på et fuldt oplyst grundlag."
+            "content": "Medbring en bred oversigt over statsborgerskab, opholdshistorie, familiemedlemmer, planlagte aktiviteter og de lande, der er forbundet med dine aktiver. Sammenlign husstandens forventede udgifter, bolig og specialomkostninger sammen med skatteanalysen.\n\nEt nyttigt resultat er en skriftlig liste over antagelser, uløste spørgsmål og den næste myndigheds eller rådgivers beslutning. Hold transaktionsfrister adskilt fra foreslåede udflytningsdatoer, indtil afhængigheden er forstået."
           }
         },
         "imageAlt": "Interiør fra et schweizisk kantonalt skattekontor med officielle dokumenter på et valnøddeskrivebord"
@@ -756,55 +616,37 @@
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
         "categoryLabel": "Fast ejendom",
-        "readTime": "10 min. læsning",
+        "readTime": "2 min læs",
         "date": "1. april 2026",
-        "title": "Lex Koller: Hvad udenlandske købere bør vide om schweizisk fast ejendom",
-        "metaDescription": "Forståelse af Schweiz' Lex Koller-lov: restriktioner på udenlandsk ejerskab af fast ejendom, krav til tilladelser, kantonale forskelle og praktiske strategier for ikke-schweiziske købere.",
-        "excerpt": "Naviger i Schweiz' restriktioner for udenlandsk ejerskab af ejendom — fra Lex Koller-krav til kantonale forskelle, godkendelsesprocesser og strategier for internationale købere.",
-        "sectionCount": "9",
+        "title": "Boligkøb i Schweiz: Lex Koller og flytning",
+        "metaDescription": "Planlæg et schweizisk boligkøb omkring nationalitet, opholdsstatus, ejendomsbrug og Lex Koller. Praktiske spørgsmål til HNW familier og iværksættere.",
+        "excerpt": "Planlæg et schweizisk boligkøb omkring nationalitet, opholdsstatus, ejendomsbrug og Lex Koller. Praktiske spørgsmål til HNW familier og iværksættere.",
+        "sectionCount": "5",
         "sections": {
           "0": {
-            "content": "Schweiz' ejendomsmarked er blandt de mest stabile og eftertragtede i verden — og blandt de mest regulerede for udenlandske købere. Den føderale lov om erhvervelse af fast ejendom af personer i udlandet, almindeligvis kendt som Lex Koller (eller historisk Lex Friedrich), regulerer, hvordan ikke-schweiziske statsborgere kan erhverve boligejendom i Schweiz. At forstå denne lov er essentielt for alle, der flytter til Schweiz og planlægger at købe et hjem."
+            "heading": "Start med køberen og påtænkt anvendelse",
+            "level": "2",
+            "content": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift."
           },
           "1": {
-            "heading": "Hvad er Lex Koller?",
+            "heading": "Opholdstilladelse er en særskilt afgørelse",
             "level": "2",
-            "content": "Lex Koller er en føderal lov, der begrænser erhvervelse af boligejendomme for udenlandske statsborgere, som ikke har fast bopæl i Schweiz, samt for udenlandsk kontrollerede virksomheder. Loven blev vedtaget i 1961 og revideret flere gange siden, og dens formål er at forhindre \"udenlandsk overtagelse\" af schweizisk jord — i bund og grund for at sikre, at schweizisk fast ejendom forbliver tilgængelig for schweiziske indbyggere frem for at blive opkøbt som investeringsobjekter af ikke-indbyggere. Loven gælder specifikt for boligejendomme. Erhvervs- og industriejendomme er generelt undtaget, hvilket betyder, at udenlandsk ejede virksomheder kan erhverve kontorlokaler, butikslokaler og industriejendomme uden Lex Koller-restriktioner."
+            "content": "En udenlandsk statsborger har ikke ret til opholdstilladelse ved at eje schweizisk ejendom. Etablere det foreslåede opholdsgrundlag, før du behandler et køb i hjemmet som en del af et bekræftet træk.\n\nFor en familie, der bruger flere internationale hjem, forklare, hvilken ejendom der faktisk vil være den vigtigste hjem, og hvordan det vil blive brugt. Bed den kompetente myndighed og notar om at vurdere den specifikke transaktion, herunder ethvert ejerskab gennem et selskab eller en anden struktur."
           },
           "2": {
-            "heading": "Hvem er berørt?",
+            "heading": "Byg en komplet overtagelsesoversigt",
             "level": "2",
-            "content": "Lex Koller gælder for personer i udlandet — defineret som udenlandske statsborgere, der ikke har deres permanente bopæl i Schweiz, samt udenlandsk kontrollerede virksomheder. De vigtigste skel er som følger: EU/EFTA-statsborgere med en gyldig opholdstilladelse (B- eller C-tilladelse) behandles stort set ligesom schweiziske statsborgere i forbindelse med erhvervelse af en primær bolig. De kan købe boligejendom til eget brug uden tilladelse. Ikke-EU/EFTA-statsborgere med en B-tilladelse kan i de fleste kantoner købe en primær bolig uden tilladelse, men møder restriktioner på sekundære boliger og investeringsejendomme. Personer uden schweizisk bopæl (uanset nationalitet) kræver kantonal tilladelse for at købe boligejendom, og sådanne tilladelser er underlagt strenge kvoter. Schweiziske statsborgere bosiddende i udlandet er ikke berørt — de kan købe frit."
+            "content": "Optag de foreslåede købere, finansiering, planlagt belægning, og om nogen del vil blive udlejet. Spørg notaren, hvilke bekræftelser der er nødvendige før undertegnelsen, og hvilke kontraktbetingelser der er hensigtsmæssige.\n\nAnmoder om aktuelle oplysninger om ejendommen og et fuldt omkostningsoverslag. Sammenlign finansiering, transaktionsomkostninger, vedligeholdelse og eventuelle renoveringsbehov. En kantonbred pris pr. kvadratmeter er en dårlig erstatning for en specifik ejendomsvurdering."
           },
           "3": {
-            "heading": "Typer af ejendomme og restriktioner",
+            "heading": "For iværksættere: beskytte den bredere tidsplan",
             "level": "2",
-            "content": "Restriktionerne varierer efter ejendomstype. Primær bolig (Hauptwohnung): Tilladelsesindehavere (B eller C) kan købe en primær bolig på deres bopælssted uden godkendelse. Ejendommen skal fungere som deres faktiske hjem. Sekundær- eller ferieboliger (Ferienwohnung): Disse er underlagt de strengeste restriktioner. Køb foretaget af ikke-indbyggere kræver kantonal tilladelse, som tildeles gennem et føderalt kvotesystem (kendt som kontingentet). Ejendommen skal ligge i et anerkendt turistområde, og der er størrelsesbegrænsninger (typisk maksimalt 200 m² netto boligareal). Investerings-/udlejningsejendomme: Ikke-bosiddende udlændinge kan generelt ikke erhverve boligejendomme til investering. Tilladelsesindehavere kan erhverve investeringsejendomme underlagt kantonale regler. Erhvervsejendom: Generelt undtaget fra Lex Koller."
+            "content": "Hvis købet afhænger af indtægter fra salg af virksomheder eller en ny bankforbindelse, tilpasse betalingsplanen med bekræftede midler og professionel rådgivning. Antag ikke, at en bank vil åbne en konto eller yde finansiering via en sælgers deadline.\n\nKontroller, om leje først ville give familien mulighed for at teste en skole rute og kvarter, mens de langsigtede ophold og køb spørgsmål er løst."
           },
           "4": {
-            "heading": "Kantonale forskelle",
+            "heading": "Bekræft reglerne på tidspunktet for forpligtelsen",
             "level": "2",
-            "content": "Selvom Lex Koller er en føderal lov, involverer implementeringen kantonale myndigheder, og der er betydelige forskelle i, hvordan kantonerne håndterer ansøgninger. Zurich er relativt ligetil for tilladelsesindehavere, der køber en primær bolig. Det kantonale tinglysningskontor (Grundbuchamt) behandler typisk erhvervelser uden problemer, hvis køberen har en gyldig tilladelse, og ejendommen er på deres registrerede adresse. Zug følger en lignende tilgang, men har visse yderligere krav på kommunalt niveau. Visse kommuner i Zug kræver yderligere dokumentation eller har venteperioder. Schwyz er generelt tilgængelig og repræsenterer, kombineret med lavere ejendomspriser og meget lave skattesatser, fremragende værdi for tilflyttende familier. Geneva og Vaud har den største efterspørgsel fra udenlandske købere, hvilket fører til mere kontrol af ansøgningerne. Især Geneva har stramme kvoter for sekundære boliger. Valais og Graubünden, som er store turistkantoner, har de mest veludviklede systemer til godkendelse af ferieboligkøb."
-          },
-          "5": {
-            "heading": "Godkendelsesprocessen",
-            "level": "3",
-            "content": "Når godkendelse er påkrævet (typisk for sekundære boliger eller for købere uden opholdstilladelse), involverer processen flere trin. Køberen indsender en ansøgning til den kantonale myndighed med ansvar for Lex Koller-anliggender — normalt det kantonale Grundbuchamt eller en dedikeret afdeling under justitsministeriet. Ansøgningen skal indeholde købsaftalen (normalt en foreløbig \"Vorvertrag\"), bevis for køberens tilknytning til Schweiz eller den specifikke lokation, dokumentation for at erhvervelsen falder inden for en af de tilladte kategorier samt bekræftelse af, at ejendommen overholder størrelses- og anvendelseskrav. Den kantonale myndighed gennemgår ansøgningen i forhold til den føderale kvote (for ferieboliger) og kantonale kriterier. Behandlingstiden varierer fra 2–6 uger i mindre kantoner til 2–3 måneder i Geneva eller Vaud."
-          },
-          "6": {
-            "heading": "Praktiske strategier for udenlandske købere",
-            "level": "2",
-            "content": "For formuende privatpersoner, der flytter til Schweiz, kan flere praktiske strategier forenkle ejendomskøbsprocessen. Den mest ligefremme tilgang er at opnå en B-tilladelse, før man køber ejendom. Med en gyldig opholdstilladelse bliver erhvervelse af en primær bolig i det væsentlige den samme proces som for en schweizisk statsborger. For familier, der ønsker at købe, før deres tilladelse er udstedt, er det undertiden muligt at indgå en betinget købsaftale (Vorvertrag), der er betinget af, at tilladelsen gives. For dem, der er interesserede i at erhverve sekundære boliger eller investeringsejendomme, kan stiftelse af et schweizisk selskab undertiden være en vej frem, selvom dette kræver omhyggelig strukturering for at undgå at blive klassificeret som et udenlandsk kontrolleret selskab. Det er essentielt at samarbejde med en specialiseret ejendomsrådgiver, der forstår både Lex Koller og det lokale marked. Off-market ejendomme — almindelige i luksussegmentet — repræsenterer ofte de bedste muligheder og kræver en rådgiver med etablerede netværk."
-          },
-          "7": {
-            "heading": "Seneste udvikling og fremtidsudsigt",
-            "level": "2",
-            "content": "Der har været periodiske diskussioner om at reformere eller afskaffe Lex Koller. Et føderalt forslag fra 2017 om at lempe restriktionerne på erhvervelse af erhvervsejendomme blev skrinlagt, og nyere diskussioner har fokuseret på at stramme frem for at lempe loven, især vedrørende sekundære boliger i turistområder. I den overskuelige fremtid vil Lex Koller forblive uændret. Tilflyttende familier bør planlægge deres ejendomsstrategi i sammenhæng med deres immigrationstidslinje — de to ting er tæt forbundne, og korrekt koordinering kan spare betydelig tid og kompleksitet."
-          },
-          "8": {
-            "heading": "Ejendomspriser: Hvad kan man forvente?",
-            "level": "2",
-            "content": "Schweiziske ejendomspriser, især på de bedste lokationer, er blandt de højeste i verden. I Zurich by kan man forvente CHF 15.000–35.000 pr. kvadratmeter for eksklusive boligejendomme. Områderne på \"guldkysten\" langs Zurich-søen (Küsnacht, Zollikon, Herrliberg) opnår priser på CHF 20.000–40.000/m². I Zug by varierer priserne fra CHF 12.000–25.000/m², mens de omkringliggende landsbyer ligger på CHF 8.000–14.000/m². Schwyz tilbyder mere tilgængelige priser på CHF 6.000–14.000/m² ved søen og CHF 4.000–8.000/m² i landsbyer inde i landet. Disse priser afspejler kvaliteten, stabiliteten og knapheden på schweizisk fast ejendom — samt det faktum, at ejendom i Schweiz historisk set har været en af de mest pålidelige værdidepoter globalt."
+            "content": "Den kantonale myndighed, der er ansvarlig for ejendommen, afgør spørgsmål om tilladelse. Forbundsjustitsministeriet offentliggør rammerne og kontakterne; foreslåede juridiske revisioner må ikke forveksles med allerede gældende regler.\n\nBed din notar eller juridiske rådgiver om at tjekke den aktuelle position for dine fakta, før du forpligter. Vores rolle er at koordinere hjemsøgning med familiens tilladelse, skole og ankomstplan."
           }
         },
         "imageAlt": "Luksuriøs schweizisk villa ved søen med alperne i baggrunden ved solnedgang"
@@ -812,60 +654,60 @@
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
         "categoryLabel": "Livsstil",
-        "readTime": "11 min. læsning",
+        "readTime": "7 min læs",
         "date": "1. april 2026",
-        "title": "De bedste internationale skoler i Zurich, Zug og Schwyz",
-        "metaDescription": "Omfattende guide til de bedste internationale skoler i Zurich, Zug og Schwyz. Sammenlign IB, amerikanske, britiske og schweiziske læreplaner, gebyrer, tidslinjer for optagelse og kostskolemuligheder.",
-        "excerpt": "Sammenlign de førende internationale skoler på tværs af Zurich, Zug og Schwyz — fra IB-programmer og schweizisk Matura til kostskolemuligheder, skolepenge og optagelsesvejledning.",
+        "title": "Sammenlign internationale skoler i Zürich, Zug og Schwyz",
+        "metaDescription": "Sammenlign skolesteder nær Zürich, Zug og Schwyz. Planlæg campus besøg, indlæggelser spørgsmål, gebyrer og skolen pendler ved hjælp af direkte skole kilder.",
+        "excerpt": "Tjek den rigtige campus, stille bedre adgangsspørgsmål og sammenligne de fulde omkostninger og daglige rejse, før du vælger et hjem.",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "For familier, der flytter til Schweiz, er valget af den rette skole ofte den vigtigste beslutning efter valget af kanton. Schweiz er hjemsted for nogle af de fineste internationale skoler i verden, der tilbyder en række læreplaner — International Baccalaureate (IB), amerikansk, britisk og schweizisk Matura — i flersprogede miljøer, der forbereder børnene til globale karrierer. Denne guide dækker de førende internationale skoler i tre centrale kantoner: Zurich, Zug og Schwyz."
+            "content": "Skolevalg og boliger bør planlægges sammen. Denne vejledning introducerer internationale og tosprogede muligheder i Zürich og Zug området for familier overvejer hjem i Zürich, Zug eller Schwyz. Det er en startliste, ikke en placering: den rigtige pasform afhænger af dit barns alder, sprog, læringsbehov og sandsynligvis næste skridt. De skoler, der er nævnt her er i Zürich eller Zug; et hjem i Schwyz kræver kontrol af den faktiske cross-canton pendle."
           },
           "1": {
             "heading": "Internationale skoler i Zurich",
             "level": "2",
-            "content": "Zurich tilbyder det største udvalg af internationale skoler i den tysksprogede del af Schweiz, hvilket afspejler byens status som landets største by og et betydeligt internationalt erhvervscentrum."
+            "content": "Begynd med den nøjagtige campus for dit barns alder, snarere end skolens navn alene. Et hjem, der arbejder for en primær campus kan skabe en anden rejse, når et barn flytter til gymnasium. Inkludér begge rejser, hvis søskende ville deltage i forskellige campus."
           },
           "2": {
             "heading": "Zurich International School (ZIS)",
             "level": "3",
-            "content": "Zurich International School er en af de mest etablerede og højt ansete internationale skoler i Schweiz. ZIS blev grundlagt i 1963 og opererer på fire campusser i Zurich-området — Wädenswil, Kilchberg, Adliswil og det nye gymnasium i Adliswil. Skolen betjener ca. 1.500 elever i alderen 3–18 år fra over 55 nationaliteter. ZIS tilbyder IB Diploma Programme, IB Middle Years Programme (MYP) og IB Primary Years Programme (PYP). Undervisningssproget er engelsk, med stærke programmer i tysk og yderligere sprog. Den årlige undervisningsafgift varierer fra ca. CHF 30.000 for de mindste til CHF 42.000 for gymnasieniveauet (Diploma Programme). Optagelse er konkurrencepræget, og familier opfordres til at ansøge mindst 6–12 måneder før den ønskede startdato."
+            "content": "ZIS har to campusser: Wädenswil for børn på 3–11 år og Adliswil for unge på 11–18 år. Bekræft barnets campus og undervisningsprogram direkte med skolen, før I vælger bolig. Bed om aktuelle priser og oplysninger om ledige pladser."
           },
           "3": {
             "heading": "Inter-Community School Zurich (ICS)",
             "level": "3",
-            "content": "Inter-Community School Zurich er beliggende i Zumikon, på den prestigefyldte guldkyst øst for byen. Skolen betjener ca. 900 elever i alderen 3–18 år. ICS tilbyder IB-læreplanen på alle niveauer (PYP, MYP, DP) og er kendt for sin inkluderende og fællesskabsorienterede tilgang. Skolen lægger stor vægt på vedligeholdelse af modersmål, hvilket er særligt værdifuldt for familier, der flytter fra ikke-engelsksprogede lande. Den årlige undervisningsafgift er ca. CHF 28.000–38.000 afhængigt af klassetrin. ICS tilbyder også et omfattende program af aktiviteter efter skoletid og fremragende faciliteter, herunder naturvidenskabelige laboratorier, kunststudier og sportsfaciliteter."
+            "content": "Intercommunity School Zürich er baseret i Zumikon og tilbyder IB continuum. Spørg indlæggelser om den relevante år gruppe, sprogsupport og enhver læring støtte dit barn behov. Anmoder om den aktuelle gebyrplan direkte fra skolen, herunder ansøgningsgebyrer og tjenester uden for undervisningen. Sammenlign rejsen fra dit shortlisted hjem i skoletiden."
           },
           "4": {
             "heading": "Swiss International School (SIS) Zurich",
             "level": "3",
-            "content": "SIS Zurich tilbyder et unikt tosproget (engelsk-tysk) program, der følger både schweiziske og internationale læreplaner. Dette er et fremragende valg for familier, der ønsker, at deres børn integreres i det schweiziske samfund, samtidig med at de bevarer en international uddannelse. SIS Zurich-Wollishofen campus betjener elever fra børnehave til og med sekundærtrinnet. Den årlige undervisningsafgift er ca. CHF 25.000–35.000. Den tosprogede model — med nogenlunde lige dele undervisning på engelsk og tysk — producerer dimittender, der er flydende i begge sprog, hvilket giver dem mulighed for enten at søge ind på schweiziske universiteter (via Matura) eller internationale universiteter (via IB eller tilsvarende)."
+            "content": "SIS Zürich-Wollishofen tilbyder tosproget tysk-engelsk børnehave og primærskole. For ældre børn skal I afklare den relevante SIS-afdeling, eksamener og adgangskrav direkte med skolen."
           },
           "5": {
             "heading": "Internationale skoler i Zug",
             "level": "2",
-            "content": "Trods sin relativt beskedne størrelse tilbyder Zug fremragende internationale skolemuligheder — drevet af byens store internationale samfund (over 35 % udenlandske indbyggere) og dens status som \"Crypto Valley\"."
+            "content": "For familier, der overvejer Zug eller i nærheden af Schwyz, sammenligne skolens placering med begge forældres arbejdsrejser og barnets ugentlige aktiviteter. En kanton- bred sammenligning er for bred: optage hjemmeadressen, campus og transport mulighed for hver kandidat."
           },
           "6": {
             "heading": "International School of Zug and Luzern (ISZL)",
             "level": "3",
-            "content": "ISZL er den førende internationale skole i det centrale Schweiz og rangeres konsekvent blandt de bedste IB-skoler i verden. Med campusser i Hünenberg (Zug) og Riverside (Lucerne) betjener ISZL ca. 1.400 elever i alderen 3–18 år fra over 60 nationaliteter. Skolen tilbyder det fulde IB-forløb (PYP, MYP, DP) og er berømt for sin akademiske formåen med en beståelsesprocent på IB Diploma, der konsekvent ligger over 95 %, og gennemsnitsscorer langt over det globale gennemsnit. ISZL's faciliteter er i verdensklasse, herunder specialbyggede laboratorier, centre for scenekunst og omfattende sportsfaciliteter med swimmingpools og kunstgræsbaner. Den årlige undervisningsafgift varierer fra ca. CHF 28.000 for de mindste til CHF 40.000 for Diploma Programme. ISZL har en stærk historik med universitetsplaceringer, og dimittender optages regelmæssigt på topuniversiteter som Oxbridge, Ivy League, ETH Zurich og førende europæiske institutioner."
+            "content": "ISZL’s Zug Campus ligger i Baar og dækker Early Years til 8. klasse. Riverside Campus ligger i Hünenberg, ikke Luzern, og dækker 9.–12. klasse. Ansøgninger modtages hele året, afhængigt af ledige pladser."
           },
           "7": {
             "heading": "Institut Montana Zugerberg",
             "level": "3",
-            "content": "Institut Montana er en unik institution beliggende i 1.000 meters højde på bjerget Zugerberg med udsigt over Zug. Skolen blev grundlagt i 1926 og kombinerer traditionerne fra en schweizisk kostskole med en moderne international læreplan. Skolen tilbyder både IB Diploma og schweizisk Matura, hvilket giver eleverne et reelt valg mellem uddannelsesveje. Der tilbydes kostskolefaciliteter, hvilket gør det til en af de få kostskolemuligheder i Zurich/Zug-regionen. Institut Montana betjener ca. 300 elever (ca. 60 % kostelever, 40 % dagelever) fra over 40 nationaliteter. De årlige gebyrer for dagelever er ca. CHF 35.000–45.000, mens kostskolegebyrerne er ca. CHF 65.000–75.000. Skolens beliggenhed på bjerget tilbyder et usædvanligt sikkert og fokuseret læringsmiljø."
+            "content": "Institut Montana på Zugerberg tilbyder dag og kostskole med internationale og schweiziske uddannelsesforløb. Bekræft programmet, sprogkravene og de kvalifikationer, der passer til dit barn. Anmoder om separate noteringer for dag og boardingarrangementer, og spørg, hvad overvågning, måltider, rejser og weekend arrangementer er inkluderet. En boardingoption bør vurderes i forhold til dit barns behov snarere end behandles som en løsning på en lang pendling."
           },
           "8": {
             "heading": "Sammenligning af læreplaner: IB vs. schweizisk Matura vs. amerikansk/britisk",
             "level": "2",
-            "content": "International Baccalaureate (IB) Diploma er den mest udbredte internationale læreplan i Schweiz. Den anerkendes af universiteter verden over og giver en bred, stringent uddannelse på tværs af seks faggrupper. IB er ideel for familier, der måske skal flytte igen, da den er globalt overførbar. Den schweiziske Matura er den nationale adgangsgivende eksamen til schweiziske universiteter. Den giver en yderst stringent uddannelse med stor vægt på matematik, naturvidenskab og sprog. Dimittender med en schweizisk Matura har garanteret optagelse på schweiziske universiteter (inklusive ETH Zurich), hvilket gør den attraktiv for familier, der har planer om et længerevarende ophold. Amerikanske læreplaner (der følger US Common Core-standarder med AP-kurser) er tilgængelige på enkelte skoler og foretrækkes af familier, der planlægger at søge ind på amerikanske universiteter. Britiske læreplaner (der følger den engelske National Curriculum med IGCSEs og A-Levels) er mindre almindelige i Zurich/Zug-regionen, men findes på visse skoler."
+            "content": "Arbejde baglæns fra barnets sandsynlige næste skole eller universitet destination. Spørg, hvilke kvalifikationer det valgte program tildeler, og tjek den modtagende institutions emne, sprog og adgangskrav direkte. Antag ikke, at en international læseplan, et IB-eksamensbevis eller en schweizisk Matura fjerner alle adgangsbetingelser. For et barn, der allerede deltager i et eksaminationsprogram, skal man diskutere kontinuitet og overførselstidspunkt, før man skifter skole."
           },
           "9": {
             "heading": "Tidslinje for optagelse og praktiske råd",
             "level": "2",
-            "content": "Optagelse på internationale skoler i Schweiz følger en struktureret tidslinje. De fleste skoler åbner for ansøgninger 12–18 måneder før skoleårets start (typisk start i august/september). Ved skolestart midt i året bør ansøgninger indsendes så tidligt som muligt, selvom de fleste skoler kan imødekomme midtårsankomster med tilstrækkeligt varsel. Vigtige overvejelser for tilflyttende familier inkluderer: Ansøg tidligt, da topskoler har ventelister på visse klassetrin; anmod om et skolebesøg eller en virtuel rundvisning før beslutningen tages; overvej transporttiden — schweizisk offentlig transport er fremragende, men en pendling på 45 minutter kan være udfordrende for mindre børn; vurder skolens støtte til integration (ESL/EAL-programmer), hvis Deres børn ikke har engelsk som modersmål; og tjek om skolen tilbyder modersmålsprogrammer for at bevare Deres families sproglige arv. Vi samarbejder tæt med optagelsesteams på alle de store internationale skoler og kan formidle introduktioner, skolebesøg og prioriteret placering for vores klienter."
+            "content": "Afklar klassetrin, sprog, støttebehov og ønsket startdato. Få skriftlig bekræftelse på ledige pladser, dokumentkrav og alle udgifter. Undersøg også skolevej, måltider og transport. Skolen træffer optagelsesbeslutningen; vi garanterer hverken en plads eller fortrinsret."
           }
         },
         "imageAlt": "Schweizisk international skolecampus med alperne i baggrunden"
@@ -873,50 +715,42 @@
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
         "categoryLabel": "Flytning",
-        "readTime": "9 min. læsning",
+        "readTime": "3 min læse",
         "date": "1. april 2026",
-        "title": "Hvor lang tid tager det at flytte til Schweiz? En realistisk tidslinje",
-        "metaDescription": "Realistisk tidslinje for flytning til Schweiz: 3-måneders, 6-måneders, 9-måneders og 12-måneders scenarier. Hvilke faktorer der fremskynder eller forsinker Deres flytning.",
-        "excerpt": "Fra hurtige 3-måneders flytninger til omfattende 12-måneders programmer — forstå hvad der driver tidslinjen, og hvordan De planlægger Deres flytning til Schweiz.",
-        "sectionCount": "8",
+        "title": "Tidsplan for flytning til Schweiz for iværksættere og familier",
+        "metaDescription": "Følge en schweizisk flytte omkring bopæl berettigelse, forretningsmæssige beslutninger, bank, skoler og boliger. Planafhængigheder uden at forlade sig på faste godkendelsesdatoer.",
+        "excerpt": "Følge en schweizisk flytte omkring bopæl berettigelse, forretningsmæssige beslutninger, bank, skoler og boliger. Planafhængigheder uden at forlade sig på faste godkendelsesdatoer.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Et af de første spørgsmål, enhver kommende klient stiller, er: \"Hvor lang tid tager det?\" Det ærlige svar er, at en veludført flytning til Schweiz typisk tager 6–12 måneder fra den første seriøse samtale til Deres familie er på plads, børnene i skole og alle administrative forhold er afklaret. Tidslinjerne kan dog variere fra helt ned til 3 måneder (for personer med enkle forhold) til 18+ måneder (for komplekse family offices eller flytninger af flere generationer). Denne guide gennemgår realistiske tidslinjer baseret på de mest almindelige scenarier."
+            "heading": "Planlæg beslutninger, ikke en lovet dato for flytning",
+            "level": "2",
+            "content": "Tidslinjen for et schweizisk træk afhænger af det foreslåede opholdsgrundlag, dokumentberedskab, familiemæssige behov og myndighedernes og institutionernes beslutninger. En iværksætter lancering operationer kan stå over for forskellige afhængigheder fra en familie, der lever på privat rigdom.\n\nStart med et mål vindue og identificere, hvilke forpligtelser er fleksible. Behandl et forretningssalg, skolestart, udløb af lejekontrakt eller medicinsk behov som en planlægningsbegrænsning snarere end dokumentation for, at en godkendelse kan fremskyndes."
           },
           "1": {
-            "heading": "3-måneders tidslinjen: Hurtigspor",
+            "heading": "For det første: etablere opholds- og arbejdsgrundlaget",
             "level": "2",
-            "content": "En 3-måneders flytning er opnåelig, men kræver flere gunstige betingelser: Personen er EU/EFTA-statsborger (hvilket forenkler tilladelsesprocessen betydeligt), de planlægger at leje frem for at købe ejendom, de har en relativt ukompliceret finansiel situation, og der er enten ikke brug for skoleplads, eller det drejer sig om et enkelt barn på en skole med ledig kapacitet. I et hurtigspors-scenarie dækker måned 1 valg af kanton, indledende skatterådgivning, identifikation af lejeboliger og påbegyndelse af ansøgning om B-tilladelse. Måned 2 involverer underskrift af lejekontrakt, behandling og godkendelse af B-tilladelse (EU-statsborgere modtager typisk godkendelse inden for 2–4 uger), opsætning af sygeforsikring og indskrivning i skole. Måned 3 er den fysiske flytning — forsendelse af møbler, åbning af schweizisk bankkonto, registrering i kommunen (Einwohnerkontrolle) og den første indkøringsperiode. Denne tidslinje er mest almindelig for enlige professionelle eller par uden børn i skolealderen, som er EU/EFTA-statsborgere og flytter fra et andet europæisk land."
+            "content": "Optag statsborgerskab, nuværende opholdsstatus, familie relationer og hver voksnes planlagte arbejde. Gennemgå den relevante rute med en immigrationsspecialist, før du underskriver en lang lejekontrakt eller stoler på en schweizisk virksomhed til støtte for flytningen.\n\nFor grundlæggere beskrives forretningsaktivitet, finansiering, ledelsesrolle og foreslåede schweiziske operationer. For private kunder skal det fastslås, om de påtænkte aktiviteter er i overensstemmelse med de bestemmelser om bopæl og skat, der skal vurderes."
           },
           "2": {
-            "heading": "6-måneders tidslinjen: Standard",
+            "heading": "Før transaktioner: Tilpas rådgivere i begge lande",
             "level": "2",
-            "content": "Seks måneder er den mest almindelige tidslinje for en velforberedt flytning. Denne tidslinje rummer ikke-EU-statsborgere (der har længere behandlingstid på tilladelser), familier med børn i skolealderen, personer der søger beskatning efter forbrug, og dem der ønsker at købe frem for at leje deres primære bolig. Måned 1–2 dækker strategisk planlægning: Omfattende økonomisk gennemgang, valg af kanton og kommune, foreløbig analyse af beskatning efter forbrug, skole-research og besøg på campus, indledende ejendomssøgning og forberedelse af dokumentation til B-tilladelse. Måned 3–4 involverer de formelle ansøgninger: Indsendelse af ansøgning om B-tilladelse, formel ansøgning om beskatning efter forbrug til de kantonale myndigheder, skoleansøgninger og bekræftelse af plads, udvælgelse og fremvisning af ejendomme samt åbning af schweizisk bankkonto (hvilket kan tage 3–6 uger for fuld onboarding). Måned 5–6 er selve eksekveringen: Godkendelse og afhentning af B-tilladelse, køb af ejendom eller underskrift af lejekontrakt, fysisk flytning, aktivering af sygeforsikring, kommunal registrering, skolestart for børnene og opsætning af livsstil (bilregistrering, forsyningsaftaler, tilladelser til husholdningspersonale hvis relevant)."
+            "content": "Opbygge en liste over kapitalandele, investeringer, ejendom, pensioner, truster og planlagte afhændelser. Bed afgang- country og schweiziske rådgivere til at gennemgå opholdsdatoer, transaktionstidspunkt og rapporteringsansvar sammen.\n\nEn præ-exit grundlægger bør omfatte den forventede salgsproces, enhver fortsat beskæftigelse eller bestyrelsens rolle og udsatte betalinger. Tidsplanen for flytning bør følge denne analyse; gå ikke ud fra, at flytning før et salg bestemmer dets skattemæssige behandling."
           },
           "3": {
-            "heading": "9-måneders tidslinjen: Kompleks",
+            "heading": "Parallelt: Test canton og familie shortlist",
             "level": "2",
-            "content": "Ni måneder er typisk for flytninger, der involverer strukturering af aktiver før immigration, family offices der kræver schweiziske selskabsstrukturer, flere familiemedlemmer med separate tilladelseskrav, luksusejendomskøb (due diligence, Lex Koller, notarproces) eller familier fra lande med særlige regler. Den ekstra tid bruges primært på aktivstrukturering (som ofte skal være afsluttet før etablering af schweizisk skattepligt for at undgå schweizisk skat på gevinster realiseret under omstruktureringen), etablering af selskabsstruktur (selve virksomhedsstiftelsen tager 2–4 uger, men design af struktur, kapitalisering og bankforbindelse tager længere tid) og ejendomserhvervelse (fra første fremvisning til notarafslutning tager et schweizisk ejendomskøb typisk 3–5 måneder)."
+            "content": "Sammenlign faktiske kommuner, hjem og skolecampus. Tjek adgangskrav og tilgængelige steder direkte med skoler. Brug en prøverejse mellem det foreslåede hjem, arbejdsplads og campus, når du kan.\n\nForbered et husstandsbudget, herunder midlertidig indkvartering, leje, indskud, forsikring og professionelle omkostninger. Holde et tilbageslag for boliger eller en forsinket skole sted, i stedet for at behandle hver arbejdsgang som sikker at afslutte sammen."
           },
           "4": {
-            "heading": "12-måneders tidslinjen: Det fulde program",
+            "heading": "Forbered applikationer og bankdokumentation",
             "level": "2",
-            "content": "En 12-måneders tidslinje er passende for de mest omfattende flytninger — typisk familier over flere generationer, der etablerer en fuld tilstedeværelse inklusive et family office, flere ejendomme og komplekse governance-strukturer. Måned 1–3 dækker strategi og planlægning: Omfattende gennemgang af familiepagt, skatteanalyse på tværs af jurisdiktioner, design af selskabsstruktur, ramme for family office, skolevalg for flere børn og definition af ejendomskrav. Måned 4–6 involverer eksekvering før immigration: Aktivstrukturering, virksomhedsstiftelser (schweizisk AG eller GmbH), udpegning af direktører, påbegyndelse af bankforbindelser, intensiveret ejendomssøgning og indsendelse af skoleansøgninger. Måned 7–9 er den formelle immigrationsfase: Ansøgninger om B-tilladelser for alle familiemedlemmer, forhandlinger om beskatning efter forbrug, ejendomserhvervelse (notarproces) og operationel opsætning af family office. Måned 10–12 er bosættelsesfasen: Fysisk flytning, skolestart for børnene, family office er fuldt operationelt, husholdningspersonale ansat og godkendt, integration i lokalsamfundet påbegyndes og alle administrative systemer fungerer."
+            "content": "aftale myndighedens dokumentliste, oversættelser eller certificeringsbehov og indsendelsesansvar. Bankforberedelserne kan foregå sideløbende med dette arbejde, men en bank har sin egen godkendelsesproces. Bevis for erhvervsejerskab og forventede midler skal være i overensstemmelse med den bredere plan.\n\nOprethold en beslutningslog: ejer, dokumenter udestående, næste svar og engagement berørt. Dette gør det lettere at justere flytningsdatoen, når afhængigheden ændrer sig."
           },
           "5": {
-            "heading": "Faktorer der fremskynder Deres flytning",
+            "heading": "Ankomst og første måned",
             "level": "2",
-            "content": "Flere faktorer kan forkorte tidslinjen. EU/EFTA-nationalitet reducerer sagsbehandlingstiden på tilladelser fra måneder til uger. At vælge at leje i starten frem for at købe eliminerer de 3–5 måneder til ejendomserhvervelse. At have ren, veldokumenteret dokumentation for formuens oprindelse fremskynder både bank-onboarding og forhandlinger med skattemyndighederne. Valget af en kanton med effektive administrative processer (især Zug og Schwyz er effektive) hjælper. Ansøgning til skoler med ledige pladser på Deres børns klassetrin undgår ventelister. At engagere kvalificerede schweiziske rådgivere tidligt — især skatterådgivere og immigrationsspecialister — sikrer, at ansøgningen er korrekt første gang, hvilket undgår forsinkelser pga. afvisninger eller anmodninger om yderligere information."
-          },
-          "6": {
-            "heading": "Faktorer der forsinker Deres flytning",
-            "level": "2",
-            "content": "Almindelige kilder til forsinkelse inkluderer kompleks dokumentation af formuens oprindelse (især ved kryptoformue eller formue fra lande med begrænset gennemsigtighed), aktivstrukturering på tværs af flere jurisdiktioner, der kræver koordinering mellem flere retssystemer, vanskelige forhandlinger om beskatning efter forbrug, hvor myndighederne er uenige i det foreslåede grundlag, ventelister på skoler (populære årgange på topskoler kan have 6–12 måneders ventetid), Lex Koller-godkendelseskrav ved ejendomskøb for ikke-indbyggere samt politiske eller regulatoriske ændringer (dog sjældne). Det er altid bedre at planlægge konservativt og ankomme tidligt end at skynde sig og støde på problemer, der kunne være undgået med bedre forberedelse."
-          },
-          "7": {
-            "heading": "Vores anbefaling",
-            "level": "2",
-            "content": "For de fleste familier anbefaler vi at påbegynde processen mindst 9 måneder før den ønskede ankomstdato. Dette giver tilstrækkelig tid til ordentlig planlægning, tager højde for uventede forsinkelser og sikrer det bedste resultat for skoleplacering og ejendomsvalg. Ved at starte tidligt kan De også udnytte den optimale timing for ansøgning om beskatning efter forbrug (der typisk følger det schweiziske skatteår, som starter 1. januar) og koordinere overgangen af Deres skattepligt mest hensigtsmæssigt. Investeringen i grundig planlægning betaler sig gennem hele flytningen — og i mange år derefter. En velstruktureret flytning danner grundlaget for hele Deres families oplevelse i Schweiz."
+            "content": "Kontroller kravene til registrering og start af arbejdet på din særlige tilladelsesrute, før du rejser. Bekræft lokal registrering, forsikringsordninger, skolestartdatoer, brugsanvisning og praksis ved modtagelse af officiel korrespondance.\n\nNår afviklet, planlægge overdragelsen til løbende skat, regnskab og andre rådgivere. Hold tilladelsesfornyelser og rapporteringsdatoer i en fælles kalender. Vores checkliste, første-30 dages guide og budgetplanlægger hjælper med at organisere de praktiske opgaver. De forudser ikke godkendelsesdatoer."
           }
         },
         "imageAlt": "Flyttekasser i en eksklusiv schweizisk lejlighed med udsigt over søen"
@@ -924,50 +758,42 @@
       "opening-swiss-private-bank-account": {
         "category": "banking",
         "categoryLabel": "Bankvæsen",
-        "readTime": "10 min. læsning",
+        "readTime": "3 min læse",
         "date": "1. april 2026",
-        "title": "Åbning af en schweizisk private banking-konto: Krav og proces",
-        "metaDescription": "Alt hvad De behøver at vide om åbning af en schweizisk private banking-konto: AML/KYC-krav, dokumentation for formuens oprindelse og hvad bankerne forventer af internationale kunder.",
-        "excerpt": "Den definitive guide til schweizisk private banking — fra AML/KYC-krav og dokumentation af formuens oprindelse til håndtering af kryptoformue og valg af den rette bankpartner.",
-        "sectionCount": "8",
+        "title": "Schweizisk private banking for formuende og iværksættere",
+        "metaDescription": "Forbered dig på schweizisk privat bankvirksomhed: kilde til rigdom, salgsprovenu, ejerskabsfortegnelser, gebyrer og bankens uafhængige accept beslutning.",
+        "excerpt": "Forbered dig på schweizisk privat bankvirksomhed: kilde til rigdom, salgsprovenu, ejerskabsfortegnelser, gebyrer og bankens uafhængige accept beslutning.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Schweiz' private banking-sektor forvalter ca. CHF 7,9 billioner i aktiver — hvilket svarer til ca. 25 % af al global grænseoverskridende privat formue. Etablering af en private banking-relation i Schweiz er en betydelig milepæl i enhver flytning, da det giver adgang til formueforvaltning i verdensklasse, depotydelser og det schweiziske finanssystems stabilitet. Processen er dog stringent og kræver omhyggelig forberedelse."
+            "heading": "Start med det bankarbejde, der skal udføres",
+            "level": "2",
+            "content": "Før du nærmer dig en schweizisk privat bank, skriv ned, hvad du har brug for: daglige betalinger, forældremyndighed, investeringsrådgivning, skønsmæssig forvaltning eller støtte til et familiekontor. En grundlægger kan også have brug for en separat driftskonto for en virksomhed. Distinguising personlige, corporate og familiær struktur krav, så hver ansøgning har et klart formål.\n\nDin bopæl, statsborgerskab, skattemæssig status, aktiver og påtænkte transaktioner påvirker, hvilke institutioner kan overveje forholdet. Bed banken om at bekræfte sine nuværende klientkriterier, før den investerer tid i en fuld ansøgning."
           },
           "1": {
-            "heading": "Det schweiziske banklandskab",
+            "heading": "Kilder til rigdom og kilde til midler",
             "level": "2",
-            "content": "Schweiz huser ca. 243 licenserede banker, lige fra de to globale giganter (UBS og, indtil fusionen i 2023, Credit Suisse) til snesevis af boutique-privatbanker og kantonbanker. For formuende kunder, der flytter til Schweiz, falder de relevante institutioner i flere kategorier: De store schweiziske privatbanker — Julius Bär, Lombard Odier, Pictet, Vontobel og EFG International — tilbyder fuld service inden for private banking med minimumskrav til indestående, der typisk starter ved CHF 1–5 millioner. Boutique- og familieejede banker — som Bordier, Mirabaud og Reichmuth — tilbyder en endnu mere personlig service, ofte med højere minimumstærskler. Krypto-orienterede banker — SEBA Bank og Sygnum Bank — er schweizisk regulerede banker, der tilbyder integrerede tjenester til traditionelle og digitale aktiver, ideelt for kunder med betydelige kryptobeholdninger. Kantonbanker (Kantonalbanken) tilbyder standard bankydelser med statsgaranti, velegnet til dagligdags bankforretninger ved siden af en private banking-relation."
+            "content": "Schweiziske finansielle institutioner skal identificere kunder og de reelle ejere samt vurdere relevante risici for hvidvaskning af penge. Forberedelsen bør omfatte en klar differentiering af, hvordan den samlede formue er opbygget, samt hvorfra den specifikke overførsel vil komme.\n\nEn virksomhedsejers dokumentation kan knytte virksomhedens ejerskab, kontoudtog, udbytte eller en salgsaftale til modkontoen. En arvesag kan kræve arvesager; udbytte kan kræve en sporbar ejendoms- og transaktionshistorie. Dette er eksempler på forberedelse. Banken fastlægger de konkrete beviskrav for den pågældende sag."
           },
           "2": {
-            "heading": "AML/KYC-krav",
+            "heading": "Før og efter salg",
             "level": "2",
-            "content": "Schweiziske banker reguleres af FINMA (den schweiziske finanstilsynsmyndighed) og skal overholde omfattende krav til bekæmpelse af hvidvask (Anti-Money Laundering, AML) og kendskab til kunden (Know Your Customer, KYC). Disse krav er blevet væsentligt styrket i løbet af det sidste årti, hvilket har bragt schweizisk bankvæsen på linje med globale standarder, mens de schweiziske traditioner for kundeservice og diskretion er bevaret. Kernekravene inkluderer identitetsbekræftelse — et gyldigt pas (og normalt endnu en form for ID), bevis for bopæl i Schweiz (eller nuværende bopælsland) og biometrisk verifikation. Dokumentation for den reelle ejer skal foreligge — hvis aktiver holdes gennem strukturer (trusts, fonde, holdingselskaber), skal den eller de reelle ejere identificeres. Dokumentation for formuens oprindelse (Source of Wealth, SOW) er det vigtigste element — bankerne kræver en omfattende redegørelse og understøttende beviser, der forklarer, hvordan kunden har oparbejdet sin formue. Dokumentation for midlernes oprindelse (Source of Funds, SOF) forklarer, hvorfra de specifikke midler, der indsættes, stammer — f.eks. hvilken bankkonto de overføres fra, og kontohistorikken for den pågældende konto."
+            "content": "Koordinere bankforberedelserne med tidsplanen for transaktionen. Forklar sælger, køber, vederlag, forventede betalingsdatoer og eventuelt udskudt provenu eller bevaret ejerskab. Spørg dine advokater og skatterådgivere, hvilke optegnelser kan deles, og gennem hvilken sikker kanal.\n\nFlyt ikke en færdiggørelsesdato eller ruteudbytte gennem en ny virksomhed blot for at passe til en antaget banktidsplan. Bekræft, at den modtagende konto er klar, og at banken forstår den forventede overførsel før afslutningen."
           },
           "3": {
-            "heading": "Dokumentation for formuens oprindelse: Hvad bankerne forventer",
+            "heading": "Digitale aktiver og komplekse ejerforhold",
             "level": "2",
-            "content": "Dokumentation for formuens oprindelse er der, hvor de fleste kunder møder den største kontrol. Schweiziske banker er grundige og vil ikke gå videre, før de er fuldt ud tilfredse. For virksomhedsejere og iværksættere forventer bankerne regnskaber (typisk 3–5 år), bevis for ejerskab (aktiebreve, udskrifter fra erhvervsregisteret), optegnelser over udbyttebetalinger og dokumentation for salg/exit, hvis formuen stammer fra et virksomhedssalg. For investorer vil bankerne se kontoudtog fra investeringskonti, der viser porteføljens vækst, historiske handelsbekræftelser og bevis for den oprindelige kapital, der blev investeret. Ved arvet formue vil banken anmode om skiftedokumentation, bopælsattester, kopier af testamenter og bevis for afdødes formuens oprindelse. Ved ejendomsformue kræves vurderingsrapporter, købs- og salgskontrakter samt optegnelser over lejeindtægter."
+            "content": "For digitalisering-aktiv rigdom, organisere udveksling opgørelser, tegnebog historier og dokumentation forbinder aktiverne til deres ejer. Forklare betydelige huller for banken, før du foretager overførsel planer. Accept af en bestemt token, platform, transaktionshistorie eller struktur er en bankspecifik beslutning.\n\nFor holdingselskaber, truster og fonde, forberede et klart ejerskab og kontrol kort. Flere lag kan betyde flere spørgsmål. En poleret fortælling erstatter ikke de optegnelser, banken har brug for til at vurdere forholdet."
           },
           "4": {
-            "heading": "Hvad bankerne forventer af kunder fra Mellemøsten",
-            "level": "3",
-            "content": "Schweiziske banker har omfattende erfaring med kunder fra GCC-regionen og det øvrige Mellemøsten. Visse aspekter af mellemøstlig formue kræver dog yderligere dokumentation. Ved formue afledt af regeringsposter eller forbindelser til kongefamilier forventer bankerne officiel udnævnelsesdokumentation, offentlige optegnelser over personens rolle og dokumentation, der skiller personlig formue fra statslige aktiver. For erhvervsformue fra GCC kræves erhvervslicenser (trade licenses fra DED, ADGM, DIFC osv.), reviderede regnskaber udarbejdet efter IFRS-standarder og bevis for virksomhedens driftshistorik. Bankerne sætter også pris på en klar redegørelse — en velforberedt \"wealth story\", der kronologisk forklarer, hvordan kundens formue er opbygget, herunder vigtige milepæle, investeringer og likviditetsbegivenheder."
+            "heading": "Sammenlign gebyrer, service og beslutningsmyndighed",
+            "level": "2",
+            "content": "Anmoder om et skriftligt forslag, der dækker minimumsandele, opbevarings- og rådgivningsgebyrer, transaktionsgebyrer, valuta, rapportering og eventuelle exitomkostninger. Offentliggjorte tal gælder ikke nødvendigvis for dit bopæls-, mandskabs- eller aktivmix.\n\nSpørg, hvem der vil servicere kontoen, hvad der kan gøres online, og hvordan institutionen samarbejder med dine eksisterende rådgivere. Gennemgå investeringsrisici og mandater med de relevante fagfolk. Udflytning kræver ikke, at alle aktiver placeres hos én udbyder."
           },
           "5": {
-            "heading": "Dokumentation for kryptoformue",
-            "level": "3",
-            "content": "For kunder med betydelig kryptoformue er Schweiz en af de mest imødekommende bankjurisdiktioner i verden. SEBA Bank og Sygnum Bank er fuldt regulerede schweiziske banker, der specialiserer sig i digitale aktiver. Dokumentation af kryptoformue kræver dog en specifik tilgang. Bankerne forventer en komplet historik (chain of custody) for kryptobeholdninger — fra det oprindelige køb (mining-optegnelser, bekræftelser fra børser, OTC-handelsnotaer) til de nuværende beholdninger. Wallet-adresser bør kunne dokumenteres med blockchain-analyser, der viser aktivstrømmen. Hvis formuen er skabt gennem tidlige kryptoinvesteringer (f.eks. køb af Bitcoin før 2015), har bankerne forståelse for, at optegnelser fra børser kan være ufuldstændige, men de forventer den dokumentation, der findes, suppleret med en troværdig redegørelse. Den skattemæssige behandling af kryptogevinster i oprindelseslandet bør dokumenteres — bankerne vil se, at de relevante skatteforpligtelser er opfyldt, før midlerne føres ind i Schweiz."
-          },
-          "6": {
-            "heading": "Processen for kontoåbning",
+            "heading": "Hvad flytning koordinering kan hjælpe med",
             "level": "2",
-            "content": "En typisk åbning af en private banking-konto følger en struktureret vej. Den indledende kontakt sker via en henvisning (fra en eksisterende kunde, advokat eller rådgiver) eller en direkte henvendelse. Bankerne foretrækker generelt henvisninger, og en personlig introduktion fra en betroet rådgiver kan lette processen betydeligt. Et indledende møde — enten personligt i banken eller via videokonference — giver begge parter mulighed for at vurdere matchet. Banken vurderer den potentielle kundes behov og risikoprofil, mens kunden vurderer bankens ydelser, team og tilgang. Hvis begge parter ønsker at gå videre, udsteder banken en tjekliste over dokumentation, der er specifik for kundens situation. Kunden (typisk med støtte fra en rådgiver) forbereder og indsender den krævede dokumentation. Bankens compliance-team gennemgår dokumentationen — denne interne gennemgang tager typisk 2–6 uger afhængigt af sagens kompleksitet. Ved godkendelse udsteder banken dokumenter til kontoåbning til underskrift. Derefter kan midlerne overføres. Fra første kontakt til en operationel konto tager processen typisk 4–8 uger i enkle sager og 8–16 uger i komplekse situationer, der kræver udvidet due diligence."
-          },
-          "7": {
-            "heading": "Valg af den rette bank",
-            "level": "2",
-            "content": "Valget af den rette privatbank er en vigtig beslutning, hvor flere faktorer bør overvejes: Minimumskravet til indestående (varierer fra CHF 500.000 til over CHF 10 millioner), bankens ekspertise inden for Deres specifikke aktivklasser (krypto, ejendomme, private equity), sprogkundskaber (arabisk-talende rådgivere er tilgængelige i flere schweiziske banker), bankens tilgang til skønsmæssige (discretionary) mod rådgivende (advisory) mandater, gebyrstruktur (forvaltningsgebyrer, depotgebyrer, transaktionsgebyrer — disse varierer betydeligt), digitale muligheder (netbank, apps, rapportering i realtid) og bankens risikovillighed for Deres specifikke kundeprofil. Mange kunder opretholder relationer til to banker — en stor privatbank til den centrale formueforvaltning og en specialiseret institution (f.eks. en krypto-bank) til specifikke aktivklasser. Vi formidler introduktioner til rådgivere i alle de store schweiziske privatbanker og kan bistå med valg og onboarding baseret på Deres specifikke behov."
+            "content": "Vi hjælper med at placere bankforberedelserne i den bredere plan og koordinere introduktionerne, hvor det er hensigtsmæssigt. Instituttet træffer sin egen afgørelse om accept og kan anmode om yderligere oplysninger eller afvise forholdet. Der er ingen generel regnskabs-åbningsfrist.\n\nBrug den indledende forespørgsel til at forklare dine prioriteter og brede omstændigheder. Send kun pas, erklæringer og transaktionsdokumenter via den sikre kanal, der er aftalt med den relevante professionelle eller bank."
           }
         },
         "imageAlt": "Interiør i en schweizisk privatbanks lobby med marmorgulve og messingskilte"
@@ -975,20 +801,22 @@
       "swiss-residency-permits-guide": {
         "category": "immigration",
         "categoryLabel": "Indvandring",
-        "readTime": "11 min. læsning",
+        "readTime": "3 min læse",
         "date": "1. april 2026",
-        "title": "Schweiziske opholdstilladelser: B-tilladelse, C-tilladelse og vejen til statsborgerskab",
-        "metaDescription": "Omfattende guide til schweiziske opholdstilladelser: Krav til B- og C-tilladelse, tidslinjer, inklusion af familie, kantonale forskelle og vejen til schweizisk statsborgerskab.",
-        "excerpt": "Alt hvad De behøver at vide om schweiziske opholdstilladelser — krav til B- og C-tilladelser, behandlingstider, familiesammenføring og vejen til schweizisk statsborgerskab.",
-        "sectionCount": "8",
+        "title": "Schweiziske opholdstilladelser for iværksættere og formuende familier",
+        "metaDescription": "Forstå den schweiziske boligplanlægning for iværksættere og familier med høj nettoformue: EU / EFTA og tredjelandsruter, arbejde, familiesammenføring og bosættelse.",
+        "excerpt": "Forstå den schweiziske boligplanlægning for iværksættere og familier med høj nettoformue: EU / EFTA og tredjelandsruter, arbejde, familiesammenføring og bosættelse.",
+        "sectionCount": "10",
         "sections": {
           "0": {
+            "heading": "Boligplanlægning",
+            "level": "2",
             "content": "Forståelse af Schweiz' system for opholdstilladelser er fundamentalt for enhver flytteplan. Den type tilladelse, De har, påvirker alt — fra Deres skattemæssige behandling og ejendomsrettigheder til Deres families stabilitet og langsigtede muligheder. Denne guide dækker de vigtigste kategorier af tilladelser, deres krav og vejen fra den første bopæl til schweizisk statsborgerskab."
           },
           "1": {
             "heading": "Oversigt over det schweiziske tilladelsessystem",
             "level": "2",
-            "content": "Schweiz har et lagdelt tilladelsessystem, der skelner mellem EU/EFTA-statsborgere og tredjelandsstatsborgere. De vigtigste tilladelsestyper for tilflyttende personer er: B-tilladelsen (Aufenthaltsbewilligung/permis de séjour) — en opholdstilladelse der kan fornyes og er det standardmæssige udgangspunkt; C-tilladelsen (Niederlassungsbewilligung/permis d'établissement) — en permanent opholdstilladelse der giver større rettigheder og stabilitet; L-tilladelsen — en kortvarig opholdstilladelse (op til et år, kan fornyes én gang); og G-tilladelsen — en tilladelse til grænsependlere. For formuende privatpersoner, der flytter til Schweiz, er B-tilladelsen det normale startpunkt med en vej mod C-tilladelse og eventuelt statsborgerskab."
+            "content": "B er en opholdstilladelse, L en korttidstilladelse, C en permanent opholdstilladelse og G en grænsependlertilladelse. Kategori og vilkår afhænger af nationalitet, opholdsformål og myndighedens afgørelse."
           },
           "2": {
             "heading": "B-tilladelsen: Deres port til Schweiz",
@@ -997,28 +825,38 @@
           },
           "3": {
             "heading": "EU/EFTA-statsborgere",
-            "level": "3",
-            "content": "For EU/EFTA-statsborgere er det relativt ukompliceret at opnå en B-tilladelse i henhold til de bilaterale aftaler mellem Schweiz og EU. EU/EFTA-statsborgere skal dokumentere enten en ansættelseskontrakt med en schweizisk arbejdsgiver, selvstændig erhvervsvirksomhed med bevis for økonomisk aktivitet eller tilstrækkelige økonomiske midler til at forsørge sig selv uden hjælp fra det sociale system (dette er den mest relevante kategori for formuende privatpersoner). Tilladelsen gives for 5 år og kan fornyes. Sagsbehandlingen tager typisk 2–4 uger. Processen indebærer registrering på det kommunale folkeregister (Einwohnerkontrolle) med pas, bevis for sygeforsikring og dokumentation for økonomiske midler eller ansættelse."
+            "level": "2",
+            "content": "EU/EFTA-borgere kan kvalificere sig gennem ansættelse, selvstændig virksomhed eller ophold uden erhvervsaktivitet. Sidstnævnte kræver tilstrækkelige midler og passende syge- og ulykkesforsikring. Tilladelsens varighed afhænger af opholdsgrundlaget. Indsend de dokumenter, den lokale myndighed kræver; sagsbehandlingstiden er ikke nationalt garanteret."
           },
           "4": {
             "heading": "Ikke-EU/EFTA-statsborgere",
-            "level": "3",
-            "content": "For ikke-EU/EFTA-statsborgere (herunder statsborgere fra GCC, Mellemøsten, Asien og andre tredjelande) er processen for B-tilladelse mere kompleks. Ikke-EU-statsborgere skal generelt dokumentere, at deres tilstedeværelse i Schweiz tjener landets økonomiske interesser — hvilket typisk opfyldes gennem ét af følgende: Etablering af en virksomhed der skaber jobs eller bidrager til lokaløkonomien, foretagelse af en betydelig investering eller kvalificering til beskatning efter forbrug (hvilket skaber væsentlige skatteindtægter for kanton og kommune). De kantonale myndigheder har vid skønsbeføjelse ved tildeling af B-tilladelser til ikke-EU-statsborgere. Kantoner der er ivrige efter at tiltrække skatteydere under forbrugsbeskatning (Zug, Schwyz, Vaud, Valais, Graubünden) har tendens til at have mere smidige processer. Ansøgningen kræver typisk et detaljeret personligt og økonomisk dossier, en klar redegørelse for formålet med opholdet, bevis for passende bolig, dokumentation for sygeforsikring og, hvis relevant, ansøgningen om beskatning efter forbrug. Behandlingstiden for ikke-EU-statsborgere varierer fra 4–12 uger afhængigt af kanton og ansøgningens kompleksitet."
+            "level": "2",
+            "content": "For borgere uden for EU/EFTA vurderes retsgrundlaget individuelt. Ansættelse, selvstændig virksomhed, pensionering og undtagelsesvis adgang har forskellige krav. Formue, boligkøb, selskabsstiftelse eller en skatteafgørelse giver ikke i sig selv opholdstilladelse. Kantonale og om nødvendigt føderale myndigheder afgør sagen. Få forholdene vurderet før bindende beslutninger."
           },
           "5": {
             "heading": "C-tilladelsen: Permanent bosættelse",
             "level": "2",
-            "content": "C-tilladelsen giver permanent opholdsret i Schweiz. Det er den mest sikre form for ophold — den er tidsubegrænset, giver større beskyttelse mod tilbagekaldelse og giver indehaveren næsten alle de samme rettigheder som en schweizisk statsborger (undtagen stemmeret og pas). For EU/EFTA-statsborgere er C-tilladelsen tilgængelig efter 5 års sammenhængende ophold på B-tilladelse (nedsat til 5 år fra tidligere 10 for de fleste EU-lande). For ikke-EU-statsborgere er den normale ventetid 10 års sammenhængende ophold på B-tilladelse, selvom dette kan nedsættes til 5 år for statsborgere fra visse lande (USA, Canada, UK og andre med bilaterale aftaler) samt i visse kantoner. Indehavere af C-tilladelse nyder godt af større fleksibilitet på arbejdsmarkedet, stærkere beskyttelse mod udvisning, intet krav om fornyelse af tilladelsen (kun selve kortet skal fornys hvert 5. år) og bedre adgang til schweizisk realkreditfinansiering."
+            "content": "En C-tilladelse kan gives efter fem eller ti år afhængigt af nationalitet, aftaler, opholdshistorik og integration. Fem år er ikke en generel EU-regel. Permanent ophold og senere statsborgerskab kræver separate ansøgninger og følger ikke automatisk af en B-tilladelse."
           },
           "6": {
             "heading": "Inklusion af familie",
             "level": "2",
-            "content": "Familiesammenføring er en rettighed under schweizisk lov, underlagt visse betingelser. En indehaver af B-tilladelse kan medbringe ægtefælle og børn under 18 år til Schweiz. Familiemedlemmerne modtager deres egne B-tilladelser. For EU/EFTA-statsborgere er familiesammenføring generelt ligetil — ægtefæller og afhængige børn inkluderes i ansøgningen. For ikke-EU-statsborgere skal indehaveren af tilladelsen dokumentere passende bolig (størrelse svarende til familien) og tilstrækkelige økonomiske midler til at forsørge alle familiemedlemmer. Ældre forældre og voksne børn er underlagt mere restriktive regler for sammenføring og kan kræve separate ansøgninger med yderligere begrundelse. Det er vigtigt at planlægge familiens inklusion fra starten — at medtage alle familiemedlemmer i den indledende ansøgning er væsentligt enklere end at søge om familiesammenføring efterfølgende."
+            "content": "Familiesammenføring afhænger af hovedpersonens nationalitet og tilladelse. EU/EFTA-reglerne kan omfatte ægtefælle, børn under 21 år eller forsørgede børn samt forsørgede forældre. Tredjelandsregler kan stille andre krav til alder, frister, bolig, sprog og økonomi. Afklar hvert familiemedlems situation før skole- og flyttedatoer fastlægges."
           },
           "7": {
             "heading": "Vejen til schweizisk statsborgerskab",
             "level": "2",
-            "content": "Schweizisk statsborgerskab kan opnås gennem naturalisation efter opfyldelse af bopælskrav og gennemførelse af en række vurderinger. Kravene til almindelig naturalisation inkluderer: 10 års bopæl i Schweiz (hvor år tilbragt mellem 8- og 18-årsalderen tæller dobbelt), mindst 3 år i samme kanton og 2 år i samme kommune (kantonale og kommunale krav varierer), sprogkundskaber (B1 mundtlig og A2 skriftlig på et nationalt sprog — tysk, fransk, italiensk eller rætoromansk), integration i det schweiziske samfund (deltagelse i lokallivet, kendskab til schweiziske skikke og institutioner), økonomisk selvstændighed (ingen afhængighed af socialhjælp) og en ren straffeattest. Naturalisationsprocessen kræver godkendelse på tre niveauer — kommunalt, kantonalt og føderalt. Den samlede proces fra ansøgning til afgørelse tager typisk 1–3 år. Schweizisk statsborgerskab giver adgang til et af verdens stærkeste pas, schweizisk stemmeret og et ekstra lag af stabilitet og sikkerhed for Deres familie."
+            "content": "Almindelig naturalisation kræver som udgangspunkt en C-tilladelse og ti års medregnet ophold, heraf tre i de seneste fem år. Årene mellem 8 og 18 tæller dobbelt, dog med mindst seks års faktisk ophold. Kantonale og kommunale bopælskrav samt sprog- og integrationskrav gælder også. Opfyldte adgangskrav garanterer ikke statsborgerskab."
+          },
+          "8": {
+            "heading": "Iværksættere: virksomhedsejerskab og ret til arbejde",
+            "level": "2",
+            "content": "Før du opretter en virksomhed til dit træk, skal du beskrive, hvad du vil gøre i Schweiz, og hvilken indvandring grundlag gælder. Selvstændig beskæftigelse og adgang for iværksættere fra tredjelande i EU / EFTA kræver forskellige vurderinger.\n\nFor en tredjelandsgrundlægger forberede sig på at drøfte virksomhedens levedygtighed, finansiering, kvalifikationer og det foreslåede bidrag til den schweiziske økonomi med de relevante specialister og myndigheder. Incorporation alene bestemmer ikke ansøgningen."
+          },
+          "9": {
+            "heading": "Familier med høj netværdi: vurdering af hver persons aktiviteter",
+            "level": "2",
+            "content": "Velstand er en del af det finansielle billede, ikke en erstatning for et juridisk opholdsgrundlag. Anfør hver ansøgers påtænkte arbejde og familiemæssige rolle, herunder en ægtefælle, som kan drive en virksomhed på afstand.\n\nOpholdsvurderingen skal holdes adskilt fra enhver skatteafgørelse. Aftale rækkefølgen før en ejendom forpligtelse, skole start eller business transaktion gør flytte dato vanskeligt at ændre."
           }
         },
         "imageAlt": "Schweizisk pas og B-tilladelsesdokumenter på et mørkt træskrivebord"
@@ -1026,50 +864,47 @@
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
         "categoryLabel": "Flytning",
-        "readTime": "9 min. læsning",
+        "readTime": "3 min læse",
         "date": "1. april 2026",
-        "title": "Hvorfor velhavende familier forlader UAE til fordel for Schweiz",
-        "metaDescription": "Hvorfor formuende familier flytter fra Dubai og Abu Dhabi til Schweiz: Geopolitiske faktorer, sikkerhed, uddannelse, sundhedsvæsen og langsigtet stabilitet.",
-        "excerpt": "En undersøgelse af den voksende tendens, hvor velhavende familier flytter fra UAE til Schweiz — fra geopolitiske risici og generationstænkning til uddannelse, sundhed og livsstil.",
-        "sectionCount": "8",
+        "title": "Fra UAE til Schweiz: planlægning for iværksættere og familier",
+        "metaDescription": "For UAE- baserede grundlæggere og familier med høj nettoformue: sammenlign schweizisk bopæl, forretningsaktiviteter, skatterådgivning, bankbeviser, skoler og flyttesekvens.",
+        "excerpt": "For UAE- baserede grundlæggere og familier med høj nettoformue: sammenlign schweizisk bopæl, forretningsaktiviteter, skatterådgivning, bankbeviser, skoler og flyttesekvens.",
+        "sectionCount": "7",
         "sections": {
           "0": {
-            "content": "UAE — og især Dubai — har været en af verdens mest succesfulde magneter for formue i de sidste to årtier. Ingen personlig indkomstskat, infrastruktur i verdensklasse og et erhvervsvenligt regulatorisk miljø har tiltrukket iværksættere, family offices og formuende privatpersoner fra hele kloden. Alligevel træffer et stigende antal af disse familier nu beslutningen om at flytte til Schweiz. Denne artikel undersøger drivkræfterne bag dette skift, og hvad Schweiz tilbyder, som UAE ikke kan."
+            "heading": "Definer, hvad der skal gøres for at opnå",
+            "level": "2",
+            "content": "For en familie baseret i Dubai eller Abu Dhabi, en schweizisk bevægelse kan handle om uddannelse, nærhed til europæiske forretningsinteresser eller en længerevarende familie base. Skriv dine egne grunde ned i stedet for at stole på påstande om, hvor andre velhavende familier flytter.\n\nBeslut dig om planen er en fuld familie flytte, en iscenesat overgang eller et sonderende ophold. Disse har forskellige praktiske konsekvenser og bør ikke behandles som udskiftelige opholds- eller skatteordninger."
           },
           "1": {
-            "heading": "Den geopolitiske faktor",
+            "heading": "Dit pas og din nuværende adresse betyder noget",
             "level": "2",
-            "content": "Mellemøsten forbliver, trods UAE's relative stabilitet, en af verdens mest geopolitisk ustabile regioner. UAE's nærhed til Iran (mindre end 200 km på tværs af Hormuz-strædet), de igangværende spændinger i Yemen, eftervirkningerne af Abraham-aftalerne og den bredere regionale magtdynamik skaber et latent risikomiljø, som mange velhavende familier i stigende grad føler sig utilpasse ved. Schweiz har derimod opretholdt politisk neutralitet i over 500 år. Landet har ikke deltaget i nogen militær konflikt siden 1815, er ikke medlem af NATO eller nogen militær alliance og ligger geografisk og politisk i hjertet af Europa. For familier, hvis formue er opbygget i Golfen, men som ønsker at sikre den i en jurisdiktion, der er immun over for regional ustabilitet, repræsenterer Schweiz guldstandarden."
+            "content": "At bo i De Forenede Arabiske Emirater afgør ikke, hvilke schweiziske indvandringsregler der finder anvendelse. Start med hvert familiemedlem statsborgerskab og eksisterende status. Ruterne mellem EU og EFTA og tredjelande har forskellige krav.\n\nEn aktiv iværksætter skal vurdere det foreslåede arbejde samt bopæl. En ejendom køb, registrering af virksomheder eller bankforhold ikke selv sikre tilladelse til at bo og arbejde i Schweiz."
           },
           "2": {
-            "heading": "Sikkerhed og personlig tryghed",
+            "heading": "Separat aktiv iværksætterkultur fra private velstandsboliger",
             "level": "2",
-            "content": "Selvom UAE har en fremragende personlig sikkerhed inden for sine grænser, skaber det bredere sikkerhedsmiljø i regionen — og koncentrationen af formue i et relativt lille geografisk område — bekymringer, der er svære at ignorere. Schweiz rangerer konsekvent blandt de 3 sikreste lande i verden. Voldelig kriminalitet er stort set ikke-eksisterende, den personlige sikkerhedsinfrastruktur er i verdensklasse (uden den synlige sikkerhedstilstedeværelse, der er almindelig i Golfen), og landets beskedne størrelse og bjergrige geografi giver en naturlig beskyttelse. For børnefamilier tilbyder Schweiz et niveau af hverdagstryghed, der udmønter sig i en fundamentalt anderledes livskvalitet — børn går selv i skole, leger i offentlige parker og bevæger sig frit på en måde, der sjældent er mulig i UAE."
+            "content": "Beskriv, hvad du vil gøre efter flytning: administrere en oversøisk virksomhed, tjene på et bræt, starte en schweizisk virksomhed eller overvåge private investeringer. Bed specialister om at vurdere disse aktiviteter, før de vælger en skattevej.\n\nUdgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt."
           },
           "3": {
-            "heading": "Uddannelse: Det lange seje træk",
+            "heading": "Kort forretnings- og afgangsspørgsmål",
             "level": "2",
-            "content": "Uddannelse er ofte det afgørende punkt, der udløser en beslutning om flytning. Selvom UAE har investeret massivt i internationale skoler, tilbyder schweizisk uddannelse noget kvalitativt anderledes. Schweiz er hjemsted for ETH Zurich (konsekvent top 3 globalt), Universitetet i Zurich, EPFL og et netværk af over 50 internationale skoler med dybe traditioner. Det schweiziske uddannelsessystem kombinerer akademisk stringens med flersproget integration, udendørsundervisning og et niveau af sikkerhed og stabilitet, som kostskoler i UK eller USA ikke kan matche. For familier, der tænker på den næste generation — hvor deres børn skal opbygge netværk, hvilke universiteter de skal gå på, hvilke samfund de skal vokse op i — tilbyder Schweiz et langsigtet uddannelsesmæssigt økosystem, der er uden sidestykke."
+            "content": "Udarbejde et ejerskabsdiagram, der viser UAE og andre enheder, hvor folk arbejder, og hvor ledelsesbeslutninger træffes. Spørg rådgivere i begge lande om konsekvenserne af de foreslåede ændringer, herunder lønninger, virksomhedsledelse, kontrakter og enhver planlagt bortskaffelse.\n\nByg en afgangscheckliste for dine specifikke UAE-opholdsordninger, afhængige personer, bolig, forretningsansvar og konti. Opnå aktuelle krav fra den relevante myndighed eller udbyder, før annulleringen ordninger familien stadig har brug for."
           },
           "4": {
-            "heading": "Sundhedsvæsen og livskvalitet",
+            "heading": "Forbered bankdata før forventede overførsler",
             "level": "2",
-            "content": "Schweiz' sundhedssystem rangeres konsekvent blandt verdens bedste. Universel obligatorisk dækning, verdensledende hospitaler (Universitätsspital Zurich, Hirslanden, Inselspital Bern) og en lægetæthed på 4,3 pr. 1.000 indbyggere sikrer, at medicinsk behandling aldrig er en bekymring. Udover sundhedsvæsenet omfatter Schweiz' livskvalitet uberørte naturmiljøer, effektiv offentlig infrastruktur og en samfundskontrakt, der prioriterer ren luft, rent vand, sikre lokalsamfund og kulturel rigdom. Den daglige oplevelse i Schweiz — fra præcisionen i den offentlige transport til kvaliteten af vandet i hanen — afspejler et samfund, der har optimeret livskvaliteten gennem generationer."
+            "content": "Organiser ejerskabsoptegnelser og dokumentation for, hvordan rigdom blev akkumuleret, sammen med oprindelsen af de midler, du forventer at overføre. For et forretningssalg, tilslut transaktionsdokumenterne og betalingsplanen til den modtagende konto.\n\nEn schweizisk bank vurderer det foreslåede forhold uafhængigt. Spørg om de nuværende klientkriterier, gebyrer og beviskrav. En introduktion er ikke en accept beslutning."
           },
           "5": {
-            "heading": "Sammenligning af skat: Ikke så enkelt som nul mod noget",
+            "heading": "Sammenlign en rigtig skole og hjem kombination",
             "level": "2",
-            "content": "Den mest almindelige indvending mod at flytte fra UAE til Schweiz er skat. UAE opkræver ingen personlig indkomstskat, mens Schweiz gør. Sammenligningen er dog mere nuanceret, end den ser ud til. Den schweiziske beskatning efter forbrug tillader kvalificerede personer at blive beskattet af leveomkostninger frem for verdensomspændende indkomst — den effektive skattesats for en velstruktureret aftale kan være betydeligt lavere end i mange alternative jurisdiktioner. UAE indførte en selskabsskat på 9 % i 2023, og moms har været indført siden 2018, hvilket udhuler \"nul-skat\" fordelen for virksomheder. Schweiz' kantonale konkurrence betyder, at kantoner som Zug og Schwyz tilbyder nogle af de laveste skattesatser i den udviklede verden. For familier med en formue, der skal beskyttes gennem generationer, er spørgsmålet ikke \"nul skat i dag\", men \"hvad er de samlede omkostninger ved jurisdiktionen over 30 år?\" — og når man medregner politisk stabilitet, aktivbeskyttelse, arveret og værdien af et schweizisk pas, er Schweiz ofte mere konkurrencedygtig, end de overordnede skattesatser antyder."
+            "content": "Vælg skolevalg ved hjælp af børnenes alder, aktuelle pensum, sprogbehov og sandsynlig varighed af opholdet. Sammenlign offentlig og international uddannelse, indlæggelser og rejsen til selve campus.\n\nZürich, Zug og Schwyz giver forskellige udgangspunkter for en tysktalende base. Vaud og Genève fortjener en separat sammenligning, hvis fransktalende skolegang eller forretningsforbindelser er vigtige. Test daglig rejse og bruge aktuelle boliger forespørgsler snarere end en antaget kanton- bred pris."
           },
           "6": {
-            "heading": "Generationstænkningen",
+            "heading": "Byg en sekvens familien kan følge",
             "level": "2",
-            "content": "Måske er den mest overbevisende drivkraft bag skiftet fra UAE til Schweiz selve generationstænkningen. UAE er knap 50 år gammel som nation. Dens velstand er koncentreret i en specifik sektor (kulbrinter, omend diversificering er i gang) og afhængig af ledelsens fortsatte visdom. Schweiz har været en stabil, velstående konføderation i over 700 år. Landets institutioner, juridiske rammer og demokratiske traditioner har overlevet århundreders forandring. For familier, der overvejer, hvor deres børnebørn skal bo — hvor formuen vil være beskyttet, hvor et pas vil give sikkerhed, hvor institutionerne stadig vil fungere i 2060 eller 2080 — giver Schweiz' århundredlange historik et niveau af tillid, som ingen jurisdiktion grundlagt i 1970'erne kan matche."
-          },
-          "7": {
-            "heading": "Gennemførelse af overgangen",
-            "level": "2",
-            "content": "Flytningen fra UAE til Schweiz er en af de mest velafprøvede veje i international formuemigration. Schweiziske banker, skatterådgivere og relocationsspecialister har stor erfaring med at betjene familier fra Golfen. Arabisktalende professionelle er tilgængelige i de fleste store schweiziske institutioner, og den kulturelle bro — bygget gennem årtier med forretning, uddannelse og personlige relationer — er solidt etableret. Den praktiske overgang indebærer koordinering af udtræden af UAE-ophold (hvilket har konsekvenser for visumstatus, erhvervslicenser og bankforhold) med indtræden i schweizisk ophold. Denne koordinering er der, hvor professionel rådgivning er mest værdifuld — for at sikre, at overgangen er ren, skatteeffektiv, og at intet falder mellem to stole. Vi specialiserer os i netop denne overgang og samarbejder med familier fra hele GCC-regionen om at gennemføre sømløse flytninger til Schweiz."
+            "content": "Aftal, hvem der koordinerer indvandring, skatterådgivning, bankvæsen, hjemsøgning og skoleforespørgsler. Hold et mål flytte vindue med fallback arrangementer for beslutninger uden for din kontrol.\n\nVi har hjulpet hundredvis af mennesker med at flytte til Schweiz siden 2012. Start med en online samtale om din familie og business prioriteter; in-person møder er tilgængelige i Zürich. Der er ikke behov for følsomme finansielle dokumenter i den oprindelige undersøgelse."
           }
         },
         "imageAlt": "Dubais skyline der toner over i de schweiziske alper i en filmisk split-komposition"
@@ -1077,50 +912,42 @@
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
         "categoryLabel": "Formuepleje",
-        "readTime": "12 min. læsning",
+        "readTime": "3 min læse",
         "date": "1. april 2026",
-        "title": "Etablering af et family office i Schweiz: Struktur, governance og bankvæsen",
-        "metaDescription": "Komplet guide til etablering af et family office i Schweiz: SFO mod MFO strukturer, schweiziske selskabstyper, governance-rammer, bankforbindelser og sammenligning af Zug mod Zurich.",
-        "excerpt": "Alt hvad De behøver for at etablere et schweizisk family office — fra valg af SFO mod MFO og selskabstyper til governance-rammer, bankforbindelser og valget mellem Zug og Zurich.",
-        "sectionCount": "8",
+        "title": "Etablering af et family office i Schweiz: opgaver, ledelse og flytning",
+        "metaDescription": "En planlægningsvejledning for UHNW-familier, der overvejer et schweizisk familiekontor: driftsmodel, styring, reguleringsvurdering og koordinering med familiens flytning.",
+        "excerpt": "En planlægningsvejledning for UHNW-familier, der overvejer et schweizisk familiekontor: driftsmodel, styring, reguleringsvurdering og koordinering med familiens flytning.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Schweiz er en af verdens førende jurisdiktioner for family offices og huser anslået 3.500–4.000 family office-strukturer, der samlet forvalter billioner af schweizerfranc i aktiver. Kombinationen af politisk stabilitet, bankinfrastruktur, retssikkerhed og en dyb pulje af kvalificerede professionelle gør Schweiz til det naturlige valg for familier, der ønsker at professionalisere deres formueforvaltning. Denne guide dækker de vigtigste overvejelser ved etablering af et schweizisk family office."
+            "heading": "Definér formålet før du vælger strukturen",
+            "level": "2",
+            "content": "Et schweizisk familiekontor kan betragtes sammen med en families flytning, et forretningssalg eller en ændring i generationsansvar. Start med en liste over de job, den skal udføre: konsolideret rapportering, tilsyn med investeringer, betalinger, administration, filantropi eller koordinering af eksterne rådgivere.\n\nSeparér familiens personlige anliggender fra driften. Registrer, hvilke aktiver, enheder, lande og familiemedlemmer der falder ind under anvendelsesområdet, og hvilke beslutninger der forbliver hos eksisterende hold."
           },
           "1": {
-            "heading": "Single family office (SFO) kontra multi-family office (MFO)",
+            "heading": "Intern team, eksterne udbydere eller en hybrid model",
             "level": "2",
-            "content": "Den første strukturelle beslutning er, om man skal etablere et single family office (SFO), der udelukkende betjener én familie, eller tilslutte sig et multi-family office (MFO), der betjener flere familier. Et SFO giver fuld kontrol over investeringsstrategi, governance og fortrolighed. Det kræver typisk aktiver under forvaltning på CHF 100 millioner eller mere for at være rentabelt, da driftsomkostningerne for et fuldt bemandet SFO (inklusive CEO, CIO, CFO, compliance og administration) kan ligge på CHF 1–3 millioner årligt. Et MFO tilbyder professionel formueforvaltning til flere familier, som deler omkostningerne til infrastruktur, compliance og ekspertise. MFO'er er velegnede til familier med CHF 20–100 millioner i aktiver, som ønsker forvaltning på institutionelt niveau uden de fulde omkostninger ved et dedikeret kontor. For familier i spændet CHF 100–500 millioner er en hybridløsning almindelig: Et dedikeret SFO til den centrale governance, familiekoordinering og strategiske beslutninger kombineret med MFO- eller bankpartnerskaber til selve investeringseksekveringen og specialiseret ekspertise."
+            "content": "Sammenlign et internt team med outsourcing særlige funktioner og kombinere de to. Det nyttige spørgsmål er, om modellen matcher kompleksiteten, serviceforventningerne og den tid, familien ønsker at engagere sig. Det kan en enkelt risikokategori ikke svare på.\n\nAnmoder om, at der fremsættes forslag, der er i modstrid med det samme. Sammenlign personale, systemer, varetægt, rapportering, specialrådgivning og overgangsarbejde. Vis engangsopsætningsudgifter adskilt fra tilbagevendende driftsomkostninger, og identificer, hvem der overvåger hver enkelt udbyder."
           },
           "2": {
-            "heading": "Schweiziske selskabsstrukturer til family offices",
+            "heading": "Lovgivningsmæssig vurdering kommer før lanceringen",
             "level": "2",
-            "content": "De mest almindelige juridiske strukturer for schweiziske family offices er AG (Aktiengesellschaft / aktieselskab) og GmbH (Gesellschaft mit beschränkter Haftung / anpartsselskab). AG er den foretrukne struktur for større family offices. Det kræver en minimumskapital på CHF 100.000 (hvoraf mindst 20 % skal være indbetalt ved stiftelsen, dvs. CHF 20.000), giver fleksibilitet i aktiestrukturen og tilbyder den formelle governance-ramme (bestyrelse, revisorer), som institutionelle modparter forventer. GmbH kræver en minimumskapital på CHF 20.000 (fuldt indbetalt ved stiftelse) og er enklere at administrere. Det er velegnet til mindre family offices, hvor governance-kravene i et AG ikke er nødvendige. Uanset strukturen skal et schweizisk selskab, der fungerer som family office, have mindst én direktør med bopæl i Schweiz."
+            "content": "Porteføljeforvaltere og trustees, der udfører regulerede erhvervsmæssige aktiviteter, er omfattet af FINMAs krav om tilladelse. Vurderingen afhænger af aktiviteter, kunder samt ejer- og kontrolforhold.\n\nSpørg en schweizisk advokat med speciale i finansiel regulering om at dokumentere de relevante regler og eventuelle undtagelser, før ydelserne påbegyndes. Antag ikke, at at kalde en enhed for et enkelt familiekontor fjerner de regulatoriske forpligtelser. Vurder igen, om det tilføjer kunder uden for familien, ændrer kontrollen eller udvider virksomhedens aktiviteter."
           },
           "3": {
-            "heading": "Krav til governance",
+            "heading": "Selskabsform og ledelse",
             "level": "2",
-            "content": "Governance i et schweizisk family office bør adressere flere kerneområder: Bestyrelsens sammensætning bør typisk inkludere en blanding af familiemedlemmer og uafhængige professionelle. Schweizisk best practice foreslår mindst én uafhængig direktør med relevant finansiel ekspertise, og ideelt set en bestyrelse med et flertal af uafhængige for større kontorer. En investeringskomité — separat fra bestyrelsen — bør fastlægge investeringspolitik, risikoparametre, mål for aktivallokering og resultatmåling. En familiepagt eller konstitution formeliggør familiens værdier, beslutningsprocesser, regler for arvefølge og kontorets mandat. Rammer for compliance og rapportering skal opfylde schweiziske regulatoriske krav. Regelmæssig rapportering til familiemedlemmerne — mindst kvartalsvis — bør dække investeringsafkast, risikomålinger, gebyrer og governance-emner. Professionel revision (lovpligtig eller frivillig) giver gennemsigtighed og ansvarlighed."
+            "content": "Et schweizisk AG kræver mindst CHF 100.000 i aktiekapital; mindst 20 % af hver akties nominelle værdi og mindst CHF 50.000 samlet skal indbetales ved stiftelsen. Et GmbH kræver CHF 20.000 fuldt indbetalt. Schweizisk bosiddende repræsentation samt ledelses-, tilladelses- og indberetningskrav afklares med specialister.\n\nSæt beslutningsrettigheder, signaturer, eskaleringsprocedurer og adgang til optegnelser. Aftale om, hvordan investeringsbeslutninger, forældremyndighed, administration og uafhængigt tilsyn adskilles. Mødehyppighed og rapportering bør passe til mandatet og de gældende krav."
           },
           "4": {
-            "heading": "Bankforbindelser",
+            "heading": "Vælg placeringen omkring virkelige operationer",
             "level": "2",
-            "content": "Et schweizisk family office opretholder typisk relationer til flere banker. Depotbanken (custodian bank) opbevarer og sikrer familiens finansielle aktiver. Store schweiziske banker (UBS, Julius Bär, Pictet, Lombard Odier) tilbyder alle depotydelser på institutionelt niveau velegnet til family offices. Eksekveringsbanken eller -bankerne håndterer handel, valuta og udlån. Nogle family offices bruger én bank til både depot og eksekvering; andre foretrækker at adskille disse funktioner for risikostyring og konkurrencedygtige priser. Konti til cash management i én eller flere schweiziske banker håndterer driftsomkostninger og kortsigtet likviditet. For family offices med allokering til digitale aktiver tilbyder krypto-banker (SEBA Bank, Sygnum Bank) reguleret opbevarings- og handelsinfrastruktur."
+            "content": "Sammenlign den foreslåede arbejdsplads, rekrutteringsbehov, rådgivere og familiens hjem placering. Zürich, Zug, Schwyz, Genève og andre kantoner kan imødekomme forskellige behov; kontoradressen og familiens bopæl kræver separat analyse.\n\nKort over, hvor ledelsesbeslutninger og arbejde rent faktisk vil finde sted. Bed skattespecialister om at vurdere de foreslåede fakta på tværs af alle relevante jurisdiktioner, før de behandler en bestemt bopæl som en skatteløsning."
           },
           "5": {
-            "heading": "Zug mod Zurich: Valg af lokation",
+            "heading": "Tilslut kontoret med familiens flytning",
             "level": "2",
-            "content": "De to førende lokationer for schweiziske family offices er Zurich og Zug, som hver især har klare fordele. Zurich tilbyder den største pulje af professionelle talenter (porteføljemanagere, advokater, revisorer, compliance-officers), nærhed til Schweiz' største finanscenter, fremragende internationale forbindelser (Zurich lufthavn) og et pulserende kulturliv. Zurich har dog højere kontoromkostninger og højere personlige skattesatser. Zug tilbyder væsentligt lavere selskabs- og personlige skattesatser, et blomstrende økosystem for family offices (kun overgået af Geneva på landsplan), fremragende forbindelser (25 minutter fra Zurich med tog), en imødekommende kantonadministration med erfaring i at betjene family offices samt Crypto Valley-økosystemet. For mange family offices er den optimale løsning et selskabsdomicil i Zug (for skatteeffektivitet) med teammedlemmer, der bor i Zurich eller andre nærliggende områder."
-          },
-          "6": {
-            "heading": "Regulatoriske overvejelser",
-            "level": "2",
-            "content": "Schweiziske family offices nyder godt af et relativt let regulatorisk miljø, men skal navigere i visse krav. AML-compliance er påkrævet, hvis kontoret forvalter finansielle aktiver. Under loven om finansielle institutioner (FINIG) og loven om finansielle tjenesteydelser (FIDLEG) kræver formueforvaltere af tredjepartsaktiver tilladelse fra FINMA. Et rent SFO, der kun forvalter familiens egne aktiver, er dog generelt undtaget fra dette krav. Skatteforpligtelser for selskabet inkluderer selskabsskat, kapitalskat og moms (hvis relevant). Arbejdsgiverforpligtelser (sociale bidrag, pensionskasse, ulykkesforsikring) er gældende, hvis kontoret har ansatte i Schweiz. Korrekt strukturering fra starten undgår bekostelige regulatoriske komplikationer senere."
-          },
-          "7": {
-            "heading": "Tidslinje og omkostninger",
-            "level": "2",
-            "content": "Etablering af et schweizisk family office fra bunden tager typisk 3–6 måneder, fra det indledende strukturdesign til en fuldt operationel enhed. De vigtigste milepæle inkluderer: Design af struktur og juridisk dokumentation (2–4 uger), virksomhedsstiftelse (1–2 uger til processen i erhvervsregisteret), åbning af bankkonto (3–6 uger inklusive compliance-gennemgang), rekruttering eller indsættelse af team (4–12 uger afhængigt af roller) samt it- og operationel opsætning (2–4 uger). Etableringsomkostninger (juridiske gebyrer, stiftelse, indledende compliance-opsætning) ligger typisk på CHF 50.000–150.000 afhængigt af kompleksiteten. De løbende årlige omkostninger for et mellemstort SFO (3–5 ansatte) ligger typisk på CHF 1–2 millioner inklusive lønninger, kontoromkostninger, revision, juridisk rådgivning og compliance. Vi rådgiver familier om den optimale struktur for deres situation og håndterer hele etableringsprocessen, fra stiftelse til det første bestyrelsesmøde."
+            "content": "Kontorets stiftelse giver ikke familiemedlemmer en schweizisk bopæl eller arbejdsret. Gennemgå hver persons planlagte aktiviteter, især når der er tale om udgiftsbaseret beskatning. Aktiv ledelse fra Schweiz skal vurderes.\n\nForbered et ansvar kort for virksomhedsrådgivning, indvandring og skat specialister, banker og flytning koordinator. Vi forbinder dette specialarbejde med boliger, skoler og ankomstplanlægning, under et aftalt omfang."
           }
         },
         "imageAlt": "Bestyrelseslokale i et schweizisk family office med udsigt over alperne gennem glasvægge"
@@ -1131,27 +958,35 @@
     "items": [
       {
         "question": "Hvor lang tid tager det at flytte til Schweiz?",
-        "answer": "En typisk schweizisk flytning tager 6-12 måneder fra den indledende konsultation til fuld bosættelse. Hurtige flytninger for EU/EFTA-statsborgere kan gennemføres på så lidt som 3 måneder, mens komplekse flytninger af flere generationer med family offices kan tage 12-18 måneder."
+        "answer": "Timing afhænger af bopæl og arbejdsgrundlag, dokumentberedskab, myndighedsbeslutninger og praktiske arrangementer såsom skolepladser og boliger. Der er ingen enkelt godkendelses- eller afviklingstidslinje for hvert schweizisk træk."
       },
       {
         "question": "Hvad er beskatning efter forbrug (forfait fiscal) i Schweiz?",
-        "answer": "Beskatning efter forbrug er en særlig skatteordning for kvalificerede udenlandske statsborgere, der ikke arbejder i Schweiz. I stedet for at blive beskattet af verdensomspændende indkomst, fastsættes Deres skattegrundlag ud fra Deres leveomkostninger i Schweiz. Minimumsbeløbene varierer fra CHF 250.000 til over CHF 600.000 afhængigt af kantonen."
+        "answer": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt. For skatteåret 2026 er det føderale minimumsgrundlag CHF 435.000, ikke den skat, der skal betales. Globale leveomkostninger og lovbestemte boligrelaterede minimumsbeløb indgår også. En særskilt kontrolberegning kan øge skatten på visse schweiziske indkomster og udenlandske indkomster med traktatlempelse. Kantonale indkomst- og formueskatter beregnes særskilt."
       },
       {
         "question": "Kan udlændinge købe ejendom i Schweiz?",
-        "answer": "Ja, men det er underlagt Lex Koller-loven. Udenlandske statsborgere med en gyldig schweizisk opholdstilladelse (B- eller C-tilladelse) kan købe en primær bolig. Sekundære boliger og investeringsejendomme møder strengere restriktioner og kan kræve kantonal godkendelse."
+        "answer": "Retten til boligkøb afhænger af nationalitet, faktisk bopæl, tilladelse og anvendelse. En B-tilladelse giver ikke generel adgang til schweiziske boliginvesteringer. Primærbolig, feriebolig og udlejningsejendom vurderes forskelligt. Et udenlandsk kontrolleret schweizisk selskab omgår ikke Lex Koller. Få kantonens myndighed og notaren til at afklare forholdene før underskrift."
       },
       {
         "question": "Hvilken schweizisk kanton er bedst til flytning?",
-        "answer": "Den bedste kanton afhænger af Deres prioriteter. Zug tilbyder de laveste skattesatser og et blomstrende internationalt miljø. Zurich giver den mest kosmopolitiske livsstil og de bedste forbindelser. Schwyz kombinerer meget lave skatter med alpin diskretion. Vi rådgiver om valg af kanton baseret på Deres specifikke behov for skat, livsstil og familie."
+        "answer": "Sammenlign den faktiske kommune, hjem, skole og arbejdsplads. Zürich, Zug og Schwyz passer til forskellige prioriteter, og sammenligningen af husstandsskatten kræver konsekvente antagelser om indkomst, aktiver og familieforhold. Vurdere virksomhedens placering adskilt fra personlig bopæl."
       },
       {
         "question": "Hvordan åbner jeg en schweizisk private banking-konto?",
-        "answer": "Åbning af en schweizisk private banking-konto kræver omfattende AML/KYC-dokumentation, herunder identitetsbekræftelse samt dokumentation for midlernes og formuens oprindelse. Processen tager typisk 4-8 uger i ukomplicerede sager. Vi formidler introduktioner og hjælper med forberedelse af dokumentation."
+        "answer": "Start med at præcisere de tjenester, du har brug for, og om banken kan overveje din bopæl, skattemæssige status og aktiver. Forbered identitet, ejerskab og kilde-af-rigdom beviser, plus optegnelser viser, hvor forventede overførsler vil komme fra. Banken beslutter accept, dokumentationskrav, gebyrer og timing."
       },
       {
         "question": "Hvilke opholdstilladelser findes der i Schweiz?",
-        "answer": "De vigtigste tilladelser er: B-tilladelse (ophold, kan fornyes, standard udgangspunkt), C-tilladelse (permanent bosættelse, tilgængelig efter 5-10 år), L-tilladelse (kortvarig) og G-tilladelse (grænsependler). For formuende privatpersoner er B-tilladelsen koblet til beskatning efter forbrug den mest almindelige vej."
+        "answer": "B er en opholdstilladelse, L en korttidstilladelse, C en permanent opholdstilladelse og G en grænsependlertilladelse. Kategori og vilkår afhænger af nationalitet, opholdsformål og myndighedens afgørelse. For borgere uden for EU/EFTA vurderes retsgrundlaget individuelt. Ansættelse, selvstændig virksomhed, pensionering og undtagelsesvis adgang har forskellige krav. Formue, boligkøb, selskabsstiftelse eller en skatteafgørelse giver ikke i sig selv opholdstilladelse. Kantonale og om nødvendigt føderale myndigheder afgør sagen. Få forholdene vurderet før bindende beslutninger."
+      },
+      {
+        "question": "Kan jeg flytte til Schweiz som iværksætter?",
+        "answer": "Ruten afhænger af statsborgerskab, eksisterende status og foreslået arbejde. Selvstændig beskæftigelse i EU / EFTA-landene og indrejse for iværksættere fra tredjelande stiller forskellige krav. Vurdere forretningsplanen og grundlæggerens ret til at arbejde med en immigrationsspecialist; eje eller registrere en virksomhed ikke selv give en opholdstilladelse."
+      },
+      {
+        "question": "Hjælper du folk og familiekontorer?",
+        "answer": "Ja. Vi koordinerer udflytning planlægning for high- net-værd enkeltpersoner, iværksættere, UHNW familier og familie kontorer. Anvendelsesområdet kan forbinde bolig, særlige skattespørgsmål, bankforberedelse, boliger og skoler, mens dine udpegede fagfolk bevarer ansvaret for deres rådgivning og regulerede tjenester."
       }
     ]
   },
@@ -1473,8 +1308,8 @@
     },
     "home": {
       "heroBadge": "Schweizisk flytningsrådgivning",
-      "heroTitle": "Flyt til Schweiz med tilladelser, skat, bank, skoler og afregning koordineret.",
-      "heroSubtitle": "Privat schweizisk-baseret rådgivning for iværksættere, formueindehavere, familier og familiekontorer, der flytter til Zürich, Zug, Schwyz, Genève, Vaud og videre.",
+      "heroTitle": "Din flytning til Schweiz, nøje planlagt.",
+      "heroSubtitle": "Schweizisk flytterådgivning for formuende privatpersoner, iværksættere og family offices. Ophold, skat, bank og familieliv planlagt sammen.",
       "heroProof": [
         {
           "label": "Schweizisk-baseret koordinering",
@@ -1494,12 +1329,12 @@
         }
       ],
       "planTitle": "Schweizisk flytteplan",
-      "planPeriod": "Første 30 dage",
+      "planPeriod": "Planlægningsprioriteter",
       "planRows": [
         [
           "01",
           "Bopælsrute",
-          "B-tilladelse, familieinkludering, timing"
+          "Støtteberettigelse, arbejdsaktiviteter, familie og timing"
         ],
         [
           "02",
@@ -1509,7 +1344,7 @@
         [
           "03",
           "Bankberedskab",
-          "Kilde til rigdom historie og introduktioner"
+          "Ejerskab optegnelser og kilde-of-rigdom beviser"
         ],
         [
           "04",
@@ -1517,7 +1352,7 @@
           "Bolig, forsikring, skoler, daglig opsætning"
         ]
       ],
-      "planFooter": "Målet er ikke mere rådgivning. Det er en sekvens, der forhindrer tilladelser, bank, skoler og boliger i at blokere hinanden.",
+      "planFooter": "Start med bopæl og arbejdsgrundlag, og stil derefter specialskatterådgivning, bankforberedelse, skoler og boliger omkring de beslutninger, der afhænger af dem.",
       "trustStrip": [
         "Privat vurdering",
         "Schweizisk kanton sammenligning",
@@ -1525,7 +1360,7 @@
         "Familieafregning"
       ],
       "processTitle": "Fra første samtale til en schweizisk plan kan du udføre",
-      "processText": "Flytninger af høj værdi mislykkes, når arbejdsstrømme flyttes separat. Det første skridt er en klar driftsmodel, før nogen anmoder om dokumenter.",
+      "processText": "En grundlægger, der driver en virksomhed, en investor, der forvalter privat formue, og et familiekontor har forskellige planlægningsbehov. Vi starter med dine aktiviteter, familieprioriteter og eksisterende rådgivere.",
       "processSteps": [
         {
           "title": "Privat vurdering",
@@ -1541,8 +1376,8 @@
         }
       ],
       "signalsBadge": "Hvad bliver koordineret",
-      "signalsTitle": "Specifik schweizisk udførelse, ikke generisk omplaceringssnak",
-      "signalsText": "Værdiforslaget er operationelt: færre kløfter mellem skat, tilladelser, bank, bolig, skoler og den første normale dag i Schweiz.",
+      "signalsTitle": "De detaljer, der gør en schweizisk bevægelse brugbar",
+      "signalsText": "En koordineret plan forbinder beslutningerne om, hvor du bor, hvordan du arbejder, og hvad din familie har brug for.",
       "signals": [
         "Kantonsammenligning før forpligtelse",
         "Tillad tidslinje matchet med skoleoptagelse",
@@ -1552,82 +1387,8 @@
         "Ingen pas, kontoudtog eller følsomme filer via offentlige formularer"
       ],
       "pathsTitle": "Populære flyttestier",
-      "pathsText": "Besøgende med høj hensigt bør ikke skulle oversætte generiske servicesider til deres egen situation.",
+      "pathsText": "Udforsk spørgsmålene til dit afgangsland, forretningsaktiviteter og tiltænkt schweizisk base.",
       "discussRoute": "Diskuter min rute"
-    },
-    "caseSnapshots": {
-      "techFounder": [
-        {
-          "label": "Udgangspunkt",
-          "value": "Dubai, post-exit grundlægger"
-        },
-        {
-          "label": "schweizisk base",
-          "value": "Zug familiebolig"
-        },
-        {
-          "label": "Kernerisiko",
-          "value": "Krypto-rigdomsdokumentation"
-        },
-        {
-          "label": "Resultat",
-          "value": "Tilladelse, skole, bank, kontor aktiv"
-        }
-      ],
-      "bankingFamily": [
-        {
-          "label": "Udgangspunkt",
-          "value": "Beirut, akut flytning"
-        },
-        {
-          "label": "schweizisk base",
-          "value": "Schwyz privatliv-første løsning"
-        },
-        {
-          "label": "Kernerisiko",
-          "value": "Tre-generations ejendom kompleksitet"
-        },
-        {
-          "label": "Resultat",
-          "value": "Familien afgjorde med schweizisk regeringsførelse"
-        }
-      ],
-      "digitalNomad": [
-        {
-          "label": "Udgangspunkt",
-          "value": "Riyadh, kryptoinvestor"
-        },
-        {
-          "label": "schweizisk base",
-          "value": "Zürich lejlighed og GmbH"
-        },
-        {
-          "label": "Kernerisiko",
-          "value": "Ikke-traditionel formueprofil"
-        },
-        {
-          "label": "Resultat",
-          "value": "Permit og dobbelt bankopsætning"
-        }
-      ],
-      "gulfFamilyOffice": [
-        {
-          "label": "Udgangspunkt",
-          "value": "Kuwait, multijurisdiktionskontor"
-        },
-        {
-          "label": "schweizisk base",
-          "value": "Zug enkeltfamiliekontor"
-        },
-        {
-          "label": "Kernerisiko",
-          "value": "Styring på tværs af generationer"
-        },
-        {
-          "label": "Resultat",
-          "value": "Schweizisk bestyrelse og rapportering live"
-        }
-      ]
     },
     "quiz": {
       "eyebrow": "Kantonmatch-quiz",
@@ -2129,9 +1890,9 @@
           "Schwyz"
         ],
         "urgentQuestions": [
-          "Skal det schweiziske selskab dannes før eller efter, at opholdsruten er klar?",
-          "Hvilken substans vil kantonen, banken og modparterne forvente?",
-          "Hvordan påvirker grundlæggertilladelser, familieflytning og virksomhedsbanker hinanden?"
+          "Kræver planen en ny schweizisk enhed, en filial eller en anden ordning?",
+          "Hvor vil ledelse, medarbejdere, kontrakter og intellektuel ejendomsret sidde efter flytningen?",
+          "Hvilke afgange - landeskat, afregningspriser, lønninger og arbejdstilladelsesspørgsmål har brug for specialrådgivning?"
         ],
         "workstreams": [
           "Stifterprofil, virksomhedsstof og kantonpasningsanmeldelse",
@@ -2140,16 +1901,30 @@
           "Stiftertilladelse, familieflytning, bolig og bosætning"
         ],
         "proofPoints": [
-          "Bygget til grundlæggere, der har brug for ensartede arbejdsstrømme i virksomheden og familien",
-          "Forbinder substans, tilladelser, bankvirksomhed og afregning i den rigtige rækkefølge",
-          "Reducerer forsinkelser fra isoleret juridisk rådgivning, bank- og flytterådgivning"
+          "Forbinder grundlæggerens flytning med virksomhedens egentlige schweiziske aktiviteter",
+          "Holder eksisterende rådgivere involveret i grænseoverskridende beslutninger",
+          "Separerer inkorporering fra tilladelser, bank- og licensgodkendelser"
+        ],
+        "faqs": [
+          {
+            "question": "Flytter grundlæggeren også firmaet?",
+            "answer": "Grundlæggerens personlige flytning og virksomhedens juridiske og skattemæssige stilling er særskilte spørgsmål. Kort over, hvor ledelse, medarbejdere, kontrakter og aktiver vil sidde. Bed rådgivere i begge lande om at vurdere de foreslåede fakta, før de behandler en ændring af hjemmeadresse som en virksomhedsmigration."
+          },
+          {
+            "question": "Skal jeg danne et schweizisk firma eller åbne en filial?",
+            "answer": "Sammenlign forretningsformål, ejerskab, forpligtelser, finansiering og planlagte operationer med virksomheds- og skatterådgivere. Den rette juridiske form afhænger af disse kendsgerninger. Behold grundlæggerens opholds- og arbejdstilladelse, bankaccept og enhver sektorgodkendelse i samme projektplan som særskilte beslutninger."
+          },
+          {
+            "question": "Hvad hvis jeg planlægger en forretningsudgang?",
+            "answer": "Medbring den foreslåede salgstidsplan, ejerskabsplan, fortsatte arbejdsforpligtelser og eventuelle udsatte overvejelser i vurderingen. Koordinere din afrejse-land og schweiziske rådgivere før fastsættelse af transaktion og bopæl datoer. Antag ikke, at et salg er afgiftsfrit, fordi det sker før eller efter flytningen."
+          }
         ]
       },
       "swiss-residence-permit-entrepreneurs": {
         "slug": "swiss-residence-permit-entrepreneurs",
         "audience": "Iværksættere og aktive virksomhedsejere",
         "title": "Schweizisk opholdstilladelse for iværksættere",
-        "description": "En stifter-fokuseret rute gennem schweizisk bopæl, virksomhedssubstans, bank, formuekildedokumentation og familieafvikling.",
+        "description": "Planlæg schweizisk bopæl som en aktiv iværksætter: medborgerskab, foreslået arbejde, virksomhedens levedygtighed og familieordninger alt stof. At eje et schweizisk selskab giver ikke selv tilladelse.",
         "metaDescription": "Rådgivning om schweizisk opholdstilladelse for iværksættere. Planlæg valg af kanton, virksomhedsdannelse, bankvirksomhed, tilladelser og familieflytning.",
         "startingPoint": "Internationalt",
         "likelyCantons": [
@@ -2158,20 +1933,34 @@
           "Vaud"
         ],
         "urgentQuestions": [
-          "Skal det schweiziske selskab stiftes før eller efter indgivelse af tilladelse?",
-          "Hvilken økonomisk substans forventer kantonen?",
-          "Hvordan skal forretningsformue dokumenteres for banker og myndigheder?"
+          "Hvilke opholds- og arbejdsregler gælder for mit statsborgerskab og eksisterende status?",
+          "Hvilken forretningsplan, finansiering, operationer og økonomisk bidrag skal påvises?",
+          "Hvordan vil min ægtefælles planer og børns skolegang passe til den foreslåede rute?"
         ],
         "workstreams": [
-          "Stifterprofil og vurdering af kantonens pasform",
-          "Virksomhedsdannelse og ledelsesopsætning",
-          "Tilladelsesansøgning og familieoptagelse",
-          "Bankberedskab, leasing, forsikring og afregning"
+          "Unionsborgerskab, status og planlagt aktivitetsvurdering",
+          "Forretningsplan, finansiering og foreslåede schweiziske operationer",
+          "Kantoniske krav og ansøgningssekvens med indvandringsspecialister",
+          "Familieansøgninger, bankbeviser, boliger og skoleplanlægning"
         ],
         "proofPoints": [
-          "Bedst for stiftere, der har brug for ensartede forretnings- og familiearbejdsstrømme",
-          "Forbinder tilladelser med virksomhedens substans og bankers troværdighed",
-          "Reducerer forsinkelser fra ufuldstændig dokumentationssekvensering"
+          "Selvstændig beskæftigelse i EU / EFTA og optagelse i tredjelande kræver forskellige vurderinger",
+          "Selskabsregistrering, opholdstilladelse og skattemæssig behandling er særskilte beslutninger",
+          "Vi koordinerer forberedelsen; de kompetente myndigheder afgør ansøgningen"
+        ],
+        "faqs": [
+          {
+            "question": "Kan jeg få schweizisk bopæl ved at starte et firma?",
+            "answer": "EU/EFTA-borgere kan kvalificere sig gennem ansættelse, selvstændig virksomhed eller ophold uden erhvervsaktivitet. Sidstnævnte kræver tilstrækkelige midler og passende syge- og ulykkesforsikring. Tilladelsens varighed afhænger af opholdsgrundlaget. Indsend de dokumenter, den lokale myndighed kræver; sagsbehandlingstiden er ikke nationalt garanteret.\n\nFor borgere uden for EU/EFTA vurderes retsgrundlaget individuelt. Ansættelse, selvstændig virksomhed, pensionering og undtagelsesvis adgang har forskellige krav. Formue, boligkøb, selskabsstiftelse eller en skatteafgørelse giver ikke i sig selv opholdstilladelse. Kantonale og om nødvendigt føderale myndigheder afgør sagen. Få forholdene vurderet før bindende beslutninger."
+          },
+          {
+            "question": "Hvad skal en iværksætter forberede sig på den første vurdering?",
+            "answer": "Forbered en oversigt over dine erfaringer, forretningsmodel, ejerskab, finansiering, forventede kunder og foreslåede schweiziske team. Forklar din egen rolle, og hvor arbejds- og ledelsesbeslutninger vil finde sted. En specialist kan derefter identificere, hvilke beviser og autoritetskrav der gælder for ruten."
+          },
+          {
+            "question": "Kan jeg blive ved med at lede et oversøisk firma fra Schweiz?",
+            "answer": "Beskriv det arbejde, du agter at udføre fra Schweiz, selv om kunder og virksomheden forbliver i udlandet. Bed immigrations- og skattespecialister om at vurdere denne aktivitet, herunder eventuelle virksomhedsledelses, løn- eller rapporteringskonsekvenser. Kun udenlandske ejere eller udenlandske kunder etablerer ikke en kompatibel bopæls- og skatteordning."
+          }
         ]
       },
       "lump-sum-taxation-switzerland": {
@@ -2189,9 +1978,9 @@
           "Zug"
         ],
         "urgentQuestions": [
-          "Er forfait finanspolitisk realistisk for familieprofilen?",
-          "Hvilke kantoner er værd at nærme sig først?",
-          "Hvilke livsstils- og boligantagelser driver beskatningsgrundlaget?"
+          "Vil ægtefællen enten udøve lønnet beskæftigelse i Schweiz?",
+          "Hvordan sammenlignes en støtteberettiget udgiftsbaseret vurdering med almindelig beskatning?",
+          "Hvilket boliggrundlag, boligforudsætninger og kantonale forhold passer til familien?"
         ],
         "workstreams": [
           "Berettigelse og kanton-shortliste",
@@ -2203,6 +1992,20 @@
           "Kombinerer skatteafgørelsesarbejde med den egentlige flytteplan",
           "Holder kantonforhandlinger forbundet med livsstilsvirkelighed",
           "Nyttigt før offentlige forpligtelser eller følsom dokumentation"
+        ],
+        "faqs": [
+          {
+            "question": "Er engangsbeskatning egnet til en aktiv grundlægger?",
+            "answer": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt."
+          },
+          {
+            "question": "Er minimumsgrundlaget min årlige skatteregning?",
+            "answer": "For skatteåret 2026 er det føderale minimumsgrundlag CHF 435.000, ikke den skat, der skal betales. Globale leveomkostninger og lovbestemte boligrelaterede minimumsbeløb indgår også. En særskilt kontrolberegning kan øge skatten på visse schweiziske indkomster og udenlandske indkomster med traktatlempelse. Kantonale indkomst- og formueskatter beregnes særskilt."
+          },
+          {
+            "question": "Sikrer en skatteafgørelse en opholdstilladelse?",
+            "answer": "Saml pas, bopælshistorik, globalt husholdningsbudget, boligoplysninger, indkomstkilder og planlagte arbejdsaktiviteter før kantonvalget. Lad kvalificerede skattespecialister sammenligne med almindelig beskatning og eventuelt koordinere en skriftlig skatteafgørelse. Afklar forudsætninger og indberetningspligter. Skatteordning og opholdstilladelse er separate afgørelser; hverken godkendelse eller en fast årlig skat garanteres."
+          }
         ]
       },
       "zug-relocation-advisor": {
@@ -2242,7 +2045,7 @@
       },
       {
         "title": "2. Data vi indsamler",
-        "text": "Vi indsamler kun oplysninger, som frivilligt deles via formularen, såsom kontaktoplysninger, nuværende bopælsland, nationalitet, flyttemål, tidsplan, serviceinteresser og beskedindhold."
+        "text": "Vi behandler de oplysninger, du vælger at dele via vores kontaktformularer, herunder kontaktoplysninger, flytteønsker og frivillige ekstra oplysninger. Med dit samtykke behandler vi også de begrænsede analysedata om hjemmesiden, der er beskrevet ovenfor."
       },
       {
         "title": "3. Formål med behandling",
@@ -2277,7 +2080,19 @@
       "qatar": "Qatar",
       "kuwait": "Kuwait",
       "bahrain": "Bahrain"
-    }
+    },
+    "description": "Schweizisk rådgivning om flytning for formuende privatpersoner (HNWI), iværksættere og family offices.",
+    "serviceTypes": [
+      "Pre- immigration Tax & Asset Planning",
+      "Beskatning efter forbrug (Forfait fiscal)",
+      "Opholdstilladelse & Immigration",
+      "Selskabsdannelse og virksomhedsflytning",
+      "Etablering af family office",
+      "Koordinering af ledelse og bestyrelse",
+      "Ejendomsrådgivning",
+      "Koordinering af sundhed og velvære",
+      "Family Settlement & School Coordination"
+    ]
   },
   "swissArrivalPage": {
     "metaTitle": "Swiss Arrival | Praktisk Schweiz-guide for expats",

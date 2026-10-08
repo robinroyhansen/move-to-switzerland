@@ -250,7 +250,7 @@ export function CantonsContent() {
                         icon="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
                       />
                       <ul className="space-y-2">
-                        {(t.raw(`cantonsPage.${canton}.schools.list`) as string[]).map((school: string, index) => (
+                        {(t.raw(`cantonsPage.${canton}.schools.list`) as string[]).filter((_, index) => canton !== 'zurich' || index < 3).map((school: string, index) => (
                           <li key={school} className="text-sm text-charcoal/60 flex items-start gap-2">
                             <span className="w-1 h-1 rounded-full bg-gold mt-2 flex-shrink-0" />
                             <a

@@ -5,6 +5,8 @@ import { locales, defaultLocale } from './config';
 export const routing = defineRouting({
   locales,
   defaultLocale,
+  // Language alternates are set in middleware, limited to the locales each page has.
+  alternateLinks: false,
 });
 
 export const { Link, redirect, usePathname, useRouter, getPathname } =

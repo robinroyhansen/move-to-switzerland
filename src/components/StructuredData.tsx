@@ -1,4 +1,5 @@
 import { getMessageSection } from '@/lib/message-database';
+import { companyAddress } from '@/lib/business';
 
 const siteUrl = 'https://move-to-switzerland.com';
 
@@ -29,16 +30,16 @@ export function OrganizationSchema({ copy }: { copy: StructuredDataCopy }) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${siteUrl}/#organization`,
     name: 'Move to Switzerland',
     description: copy.description,
     url: siteUrl,
-    logo: `${siteUrl}/images/logo.png`,
     parentOrganization: {
       '@type': 'Organization',
       name: 'WorkWorkWork AG',
       address: {
         '@type': 'PostalAddress',
-        addressCountry: 'CH',
+        ...companyAddress,
       },
     },
     location: [
@@ -97,64 +98,33 @@ export function OrganizationSchema({ copy }: { copy: StructuredDataCopy }) {
 }
 
 export function LocalBusinessSchema({ copy }: { copy: StructuredDataCopy }) {
-  const offices = [
-    {
-      name: `Move to Switzerland — ${copy.officeLocalities.zurich}`,
-      addressLocality: copy.officeLocalities.zurich,
-      addressRegion: 'ZH',
-    },
-    {
-      name: `Move to Switzerland — ${copy.officeLocalities.zug}`,
-      addressLocality: copy.officeLocalities.zug,
-      addressRegion: 'ZG',
-    },
-    {
-      name: `Move to Switzerland — ${copy.officeLocalities.schwyz}`,
-      addressLocality: copy.officeLocalities.schwyz,
-      addressRegion: 'SZ',
-    },
-  ];
-
-  const schemas = offices.map((office) => ({
+  // Only the company street address is confirmed. Office cities remain Places
+  // in OrganizationSchema rather than incomplete branch-business records.
+  const schema = {
     '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: office.name,
+    '@type': 'LocalBusiness',
+    '@id': `${siteUrl}/#business`,
+    name: 'Move to Switzerland',
     description: copy.description,
     url: siteUrl,
-    address: {
-      '@type': 'PostalAddress',
-      addressLocality: office.addressLocality,
-      addressRegion: office.addressRegion,
-      addressCountry: 'CH',
-    },
-    geo: undefined,
-    areaServed: [
-      { '@type': 'Country', name: copy.areaCountries.switzerland },
-      { '@type': 'Country', name: copy.areaCountries.uae },
-      { '@type': 'Country', name: copy.areaCountries.saudiArabia },
-      { '@type': 'Country', name: copy.areaCountries.qatar },
-      { '@type': 'Country', name: copy.areaCountries.kuwait },
-      { '@type': 'Country', name: copy.areaCountries.bahrain },
-    ],
-    serviceType: copy.serviceTypes,
-    priceRange: '$$$$',
-    parentOrganization: {
-      '@type': 'Organization',
+    address: { '@type': 'PostalAddress', ...companyAddress },
+    areaServed: { '@type': 'Country', name: copy.areaCountries.switzerland },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
       name: 'Move to Switzerland',
-      url: siteUrl,
+      itemListElement: copy.serviceTypes.map((name) => ({
+        '@type': 'Offer',
+        itemOffered: { '@type': 'Service', name, provider: { '@id': `${siteUrl}/#business` } },
+      })),
     },
-  }));
+    parentOrganization: { '@id': `${siteUrl}/#organization` },
+  };
 
   return (
-    <>
-      {schemas.map((schema, i) => (
-        <script
-          key={i}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
-    </>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
   );
 }
 
@@ -169,30 +139,6 @@ export function FAQSchema({ faqs }: { faqs: Array<{ question: string; answer: st
         '@type': 'Answer',
         text: faq.answer,
       },
-    })),
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-export function BreadcrumbSchema({
-  items,
-}: {
-  items: Array<{ name: string; url?: string }>;
-}) {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 1,
-      name: item.name,
-      ...(item.url ? { item: item.url } : {}),
     })),
   };
 
@@ -226,8 +172,10 @@ export function ServiceSchema({
     description,
     serviceType,
     url,
+    '@id': `${url}#service`,
     provider: {
-      '@type': 'Organization',
+      '@type': 'LocalBusiness',
+      '@id': `${siteUrl}/#business`,
       name: 'Move to Switzerland',
       url: siteUrl,
     },

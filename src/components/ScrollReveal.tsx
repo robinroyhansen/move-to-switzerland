@@ -1,6 +1,4 @@
-'use client';
-
-import { useEffect, useRef, type ReactNode } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
 
 interface ScrollRevealProps {
   children: ReactNode;
@@ -8,31 +6,11 @@ interface ScrollRevealProps {
   delay?: number;
 }
 
+// Mobile content is immediately visible. Desktop decoration runs in CSS,
+// without an observer, timer or hydration boundary for every section.
 export function ScrollReveal({ children, className = '', delay = 0 }: ScrollRevealProps) {
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            el.classList.add('is-visible');
-          }, delay);
-          observer.unobserve(el);
-        }
-      },
-      { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [delay]);
-
   return (
-    <div ref={ref} className={`animate-on-scroll ${className}`}>
+    <div className={`animate-on-scroll ${className}`} style={{ '--reveal-delay': `${delay}ms` } as CSSProperties}>
       {children}
     </div>
   );

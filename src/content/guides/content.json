@@ -1,0 +1,1287 @@
+[
+  {
+    "slug": "moving-to-lucerne",
+    "title": "Moving to Lucerne: city, lake and family life",
+    "description": "Plan a move to Lucerne canton. Compare city and suburban addresses, school journeys, registration, housing and the questions to resolve before signing a lease.",
+    "category": "cantons",
+    "intro": "Lucerne belongs on a central Switzerland shortlist when you want to compare an urban base with access to nearby lake and mountain communities. Start by separating Lucerne city from the wider canton. They share a name, but a home outside the city can lead to a very different school run, station connection and registration office.",
+    "sections": [
+      {
+        "id": "places",
+        "title": "Choose the daily routine before the postcode",
+        "paragraphs": [
+          "Build a shortlist around where the household needs to be on an ordinary weekday. If one adult works in Zug and another works locally, compare both journeys before prioritising a view or a larger property. Include the return trip after evening activities, not only the morning departure."
+        ],
+        "sources": [
+          {
+            "title": "City of Lucerne: municipal services",
+            "url": "https://www.stadtluzern.ch/"
+          },
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ],
+        "table": {
+          "caption": "A starting shortlist, not a ranking",
+          "columns": [
+            "Area to explore",
+            "Useful comparison",
+            "Question for a viewing"
+          ],
+          "rows": [
+            [
+              "Lucerne city",
+              "An urban routine and access to the main station",
+              "Can the household reach its regular destinations without a car?"
+            ],
+            [
+              "Kriens",
+              "An alternative address on the city’s southern side",
+              "Which bus or rail connection serves this specific home?"
+            ],
+            [
+              "Horw",
+              "A separate municipality to compare with city addresses",
+              "How do school, childcare and the last part of the commute fit together?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "schools",
+        "title": "Check the actual campus",
+        "paragraphs": [
+          "A school described as being in the Lucerne or Zug region is not necessarily in Lucerne canton. ISZL’s Zug Campus is in Baar, and its Riverside Campus is in Hünenberg. If it is on your shortlist, use the campus for the child’s grade rather than the school name in a travel search.",
+          "For a local school, ask the municipality how it assigns places and assesses language-support needs. Check lunch, after-school care and holiday arrangements separately. A short lesson-day schedule can still create a long childcare gap for working parents."
+        ],
+        "sources": [
+          {
+            "title": "ISZL: admissions and campus locations",
+            "url": "https://www.iszl.ch/admissions/admissions-process/"
+          },
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "housing",
+        "title": "Compare the whole first year",
+        "paragraphs": [
+          "Ask property managers about the exact handover date, additional charges, parking and deposit arrangement. If a first lease is temporary, find out what accommodation evidence can be supplied for registration and what an extension would cost. Keep a fallback plan if the permanent home is not ready.",
+          "Use current quotes for housing and insurance. If tax affects your choice, have the same household, income assumptions and year compared for each municipality. A headline rate cannot establish the household’s actual cost."
+        ],
+        "sources": [
+          {
+            "title": "Federal Tax Administration: comparison tools",
+            "url": "https://www.estv.admin.ch/en/swiss-tax-statistics"
+          }
+        ]
+      },
+      {
+        "id": "arrival",
+        "title": "Keep city and canton tasks separate",
+        "paragraphs": [
+          "The canton’s newcomer guide provides a starting point for local services. Confirm the registration office and document list for the municipality of your actual home, then check the residence procedure for your nationality and activity with the responsible authority.",
+          "Prepare an arrival folder with the instructions you receive, submitted documents and appointment details. Record who is handling each unresolved item. Clarify an unfamiliar request before assuming that a process used in another canton applies here."
+        ],
+        "sources": [
+          {
+            "title": "Canton Lucerne: newcomer guide (English PDF)",
+            "url": "https://disg.lu.ch/-/media/DISG/Dokumente/Themen/Integration/Wegweiser/Wegweiser_Englisch.pdf?la=de-CH"
+          },
+          {
+            "title": "Canton Lucerne: migration authority",
+            "url": "https://migration.lu.ch/"
+          }
+        ]
+      },
+      {
+        "id": "visit",
+        "title": "Make one useful reconnaissance visit",
+        "paragraphs": [
+          "Use a visit to test a normal day, rather than fitting in only attractive neighbourhoods. Start at a candidate home, travel to work or school, buy groceries and return after the time you would usually finish. Take notes on access, noise, stairs, storage and winter practicality."
+        ],
+        "points": [
+          "Ask each adult to rank the same three non-negotiable requirements.",
+          "Request a school conversation before committing to a housing shortlist.",
+          "Keep rent, recurring expenses and refundable security on separate lines.",
+          "Bring the remaining trade-offs to a relocation consultation."
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-nidwalden",
+      "moving-to-obwalden",
+      "public-vs-international-schools"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-nidwalden",
+    "title": "Moving to Nidwalden: Hergiswil, Stans and beyond",
+    "description": "Compare places to live in Nidwalden, including Hergiswil, Stans and Stansstad. Plan school access, housing, local registration and everyday German.",
+    "category": "cantons",
+    "intro": "Nidwalden is worth exploring when your search is centred on central Switzerland and you want to compare smaller communities with Lucerne or Zug. A quieter setting can work well for a household, but only if the daily journeys, school arrangements and local services fit. Build the decision around an address rather than the canton’s reputation.",
+    "sections": [
+      {
+        "id": "shortlist",
+        "title": "Give each municipality a fair comparison",
+        "paragraphs": [
+          "Start with Hergiswil, Stans and Stansstad as distinct options. For each one, collect a real property listing, the closest useful public-transport stop and the school or childcare contact. Compare equivalent homes so that a larger property is not mistaken for a location premium."
+        ],
+        "sources": [
+          {
+            "title": "Nidwalden: official welcome and municipality contacts",
+            "url": "https://integration.nw.ch/"
+          },
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ],
+        "table": {
+          "caption": "Questions for your Nidwalden shortlist",
+          "columns": [
+            "Place",
+            "Planning focus",
+            "Check before choosing"
+          ],
+          "rows": [
+            [
+              "Hergiswil",
+              "Compare a home here with your Lucerne options",
+              "The full door-to-door journey, including walking and changes"
+            ],
+            [
+              "Stans",
+              "Build a routine around the services your family uses",
+              "School placement, childcare hours and work travel"
+            ],
+            [
+              "Stansstad",
+              "Compare the exact neighbourhood and connections",
+              "Station access, errands and the return journey after activities"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "family",
+        "title": "Decide how much travel school creates",
+        "paragraphs": [
+          "Ask the local school authority about the child’s year group, entry process and language support. For an international school outside Nidwalden, verify its campus and transport arrangements directly. A connection that works for an adult is not automatically a practical independent journey for a young child.",
+          "Write a weekly timetable that includes lunch, collection, clubs and holidays. Where two children attend different campuses, test both journeys together. Ask about an interim plan if a requested private-school place is not available."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "settling",
+        "title": "Use the local welcome conversation",
+        "paragraphs": [
+          "Nidwalden’s official welcome site directs newcomers from abroad to contact their municipality for a conversation about life in the canton. It also gathers information about housing, education, German, health and local contacts. Use it to identify the right starting point before appointments.",
+          "Prepare your questions in advance: which office needs which document, how correspondence will arrive, where language courses are listed and how to reach school or childcare contacts. If German is unfamiliar, ask whether an interpreter or translated information would help."
+        ],
+        "sources": [
+          {
+            "title": "Nidwalden: official welcome and municipality contacts",
+            "url": "https://integration.nw.ch/"
+          }
+        ]
+      },
+      {
+        "id": "budget",
+        "title": "Separate household planning from tax comparisons",
+        "paragraphs": [
+          "Collect the proposed lease, deposit details, recurring charges and transport costs. Include language lessons or additional childcare if these are part of the practical plan. A smaller community does not automatically mean a lower total budget.",
+          "Use a qualified adviser for a municipality-specific tax comparison. Share the same assumptions for every location and ask which facts could change the result. Business and household decisions may interact, but a corporate tax figure does not tell you your personal liability."
+        ],
+        "sources": [
+          {
+            "title": "Federal Tax Administration: comparison tools",
+            "url": "https://www.estv.admin.ch/en/swiss-tax-statistics"
+          }
+        ]
+      },
+      {
+        "id": "before-you-commit",
+        "title": "Resolve the details that change the move",
+        "paragraphs": [
+          "Before booking removals, establish who is confirming residence arrangements, how the accommodation will support registration and when the household can take possession. Keep written replies and identify an alternative if one dependency slips."
+        ],
+        "points": [
+          "Compare Hergiswil, Stans or Stansstad with one realistic Lucerne address.",
+          "Confirm school and childcare arrangements independently of the lease.",
+          "Check how a delayed arrival affects temporary accommodation.",
+          "Plan language learning as part of settling in, not only as a future intention."
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-lucerne",
+      "moving-to-obwalden",
+      "first-30-days-in-switzerland"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-obwalden",
+    "title": "Moving to Obwalden: Sarnen, lakeside homes and Engelberg",
+    "description": "A practical Obwalden relocation guide covering Sarnen, Sachseln, Alpnach and Engelberg, with school, travel, housing and local-service questions.",
+    "category": "cantons",
+    "intro": "Obwalden deserves a closer look if you want to compare smaller communities and mountain access with a central Switzerland base. Its locations should not be treated as interchangeable: a routine built around Sarnen or Alpnach needs a different assessment from one based in Engelberg. Start with the week you expect to live, including work and school.",
+    "sections": [
+      {
+        "id": "locations",
+        "title": "Compare the valley and mountain options separately",
+        "paragraphs": [
+          "Use Sarnen, Sachseln and Alpnach as one set of possibilities, and assess Engelberg against its own travel requirements. Test the exact routes and current connections rather than using a single commute estimate for the canton. Your ability to work remotely does not remove school, healthcare or shopping journeys."
+        ],
+        "sources": [
+          {
+            "title": "Obwalden: official integration and everyday-life guide",
+            "url": "https://integration.ow.ch/"
+          },
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ],
+        "table": {
+          "caption": "A practical Obwalden search",
+          "columns": [
+            "Area",
+            "What to explore",
+            "Decision to resolve"
+          ],
+          "rows": [
+            [
+              "Sarnen and Sachseln",
+              "A routine around the Sarnen area",
+              "Can the home support work, errands and family activities?"
+            ],
+            [
+              "Alpnach",
+              "Connections towards Lucerne and the surrounding region",
+              "Does the whole journey work at your actual travel times?"
+            ],
+            [
+              "Engelberg",
+              "A mountain-based daily routine",
+              "Does that routine still work during a normal school and work week?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "housing",
+        "title": "Distinguish a holiday experience from residence",
+        "paragraphs": [
+          "Ask whether the proposed home is available for your intended long-term use and what accommodation documents the owner will provide. For a purchase, have the property and your status assessed professionally; do not assume that an attractive holiday property can serve the residence plan you have in mind.",
+          "At a viewing, check deliveries, parking, storage, heating, internet installation and winter access. Request the lease or proposed terms early enough to resolve questions before paying. For temporary accommodation, record the cost of a delayed permanent move."
+        ]
+      },
+      {
+        "id": "schools",
+        "title": "Map the school week before choosing a house",
+        "paragraphs": [
+          "Speak with the local education contact about placement, language support and childcare. If the family prefers a private or boarding school, confirm its actual programme, campus, admission decision and travel arrangements directly. A regional school list does not prove that a daily journey is suitable.",
+          "Include weekends and holidays when considering boarding. Establish who handles collection and supervision and which costs sit outside tuition. Give each child’s needs priority over a location comparison built only around the adults."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "local-life",
+        "title": "Use Obwalden’s local information",
+        "paragraphs": [
+          "The canton’s integration portal brings together residence, family, school, housing, health, transport and financial topics. Use the relevant section to find the responsible contact, then confirm the steps for your municipality and circumstances.",
+          "Keep a short list of everyday needs for the first month: school communication, medical care, household services and a way to practise German. Choosing one repeatable local activity may be more useful than assembling a long list of places to visit."
+        ],
+        "sources": [
+          {
+            "title": "Obwalden: official integration and everyday-life guide",
+            "url": "https://integration.ow.ch/"
+          }
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Put the full comparison in writing",
+        "paragraphs": [
+          "Compare real housing quotes and expected travel costs with Lucerne or Nidwalden. Have tax questions reviewed using the same household facts and tax year. Keep assumptions visible and record which costs still need a quotation.",
+          "Before deciding, identify the inconvenience you are willing to accept and the one you are not. A household that welcomes longer travel for a particular home may make a different choice from one needing frequent access to several workplaces."
+        ],
+        "sources": [
+          {
+            "title": "Federal Tax Administration: comparison tools",
+            "url": "https://www.estv.admin.ch/en/swiss-tax-statistics"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-lucerne",
+      "moving-to-nidwalden",
+      "public-vs-international-schools"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-vaud",
+    "title": "Moving to Vaud: Lausanne, Nyon and the Riviera",
+    "description": "Compare Lausanne, Nyon, Vevey and Montreux for a move to Vaud. Understand local arrival steps, French-language schooling and practical housing decisions.",
+    "category": "cantons",
+    "intro": "Vaud opens a different set of choices from central Switzerland: Lausanne, the Nyon area and the Riviera should each be tested against the household’s work, language and schooling plans. Choose two or three specific addresses before comparing costs. A lakeside description says little about the journey that will shape your week.",
+    "sections": [
+      {
+        "id": "areas",
+        "title": "Choose your side of the daily journey",
+        "paragraphs": [
+          "If work is in Geneva, test the actual destination from a candidate home in the Nyon area. If work or study is in Lausanne, compare homes around that routine before widening the search east. For Vevey or Montreux, include every regular return trip, not only a convenient daytime train."
+        ],
+        "sources": [
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          },
+          {
+            "title": "Vaud: living in the canton",
+            "url": "https://www.vaud.ch/en/living-canton-vaud/"
+          }
+        ],
+        "table": {
+          "caption": "Three different Vaud searches",
+          "columns": [
+            "Area",
+            "Reason to compare it",
+            "Question to test"
+          ],
+          "rows": [
+            [
+              "Lausanne area",
+              "A household organised around Lausanne",
+              "How do the home, school and workplace connect?"
+            ],
+            [
+              "Nyon area",
+              "A Vaud option when Geneva is part of the routine",
+              "What does the full commute look like at busy times?"
+            ],
+            [
+              "Vevey and Montreux",
+              "A Riviera-based household plan",
+              "How often must each person travel beyond the area?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "registration",
+        "title": "Use Vaud’s own arrival instructions",
+        "paragraphs": [
+          "Vaud’s official welcome portal says to register with the municipality’s Contrôle des Habitants within eight days of moving in. Its initial list includes identification, accommodation evidence and a photograph. Read the complete instructions for your route and ask the municipality what else applies. Do not substitute a generic Swiss deadline for this local instruction.",
+          "If your name is absent from the lease, resolve the acceptable accommodation evidence before arriving. Keep the registration process, residence application and any permission to work visible as separate items on your plan."
+        ],
+        "sources": [
+          {
+            "title": "Canton Vaud: official welcome portal",
+            "url": "https://www.vaud-welcome.ch/"
+          }
+        ]
+      },
+      {
+        "id": "school-language",
+        "title": "Plan schooling and French together",
+        "paragraphs": [
+          "Contact the local school as soon as the family’s intended address and arrival period are clear. Ask about placement, language support, school hours and childcare. With an older child, discuss the current curriculum and the consequences of switching during an examination stage.",
+          "For an international school, request a current programme and fee breakdown and confirm admission in writing. Compare that choice with the public-school route in terms of the child’s needs and the family’s likely length of stay, rather than assuming one is universally easier."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "home",
+        "title": "Make the lease work with your arrival",
+        "paragraphs": [
+          "Ask which charges are included, how the deposit will be held, when keys are available and what the handover will record. If a temporary stay is part of the plan, confirm the evidence it supplies and the terms for extending it.",
+          "Price the same household in each shortlisted municipality. Include school transport, childcare and extra accommodation if the family arrives in stages. Use a professionally checked tax estimate for the actual municipality rather than comparing headline canton rates."
+        ]
+      },
+      {
+        "id": "first-month",
+        "title": "Make local information usable",
+        "paragraphs": [
+          "The Vaud welcome portal links residents to French courses, accommodation, health, education and practical contacts. Select the sections that solve your immediate questions and keep the names of the offices you have contacted.",
+          "Finish the planning stage with three confirmed items: an arrival procedure for your circumstances, a workable accommodation plan and a school or childcare contact where relevant. Keep the remaining unknowns in a short list with dates for follow-up."
+        ],
+        "sources": [
+          {
+            "title": "Canton Vaud: official welcome portal",
+            "url": "https://www.vaud-welcome.ch/"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-geneva",
+      "public-vs-international-schools",
+      "first-30-days-in-switzerland"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-geneva",
+    "title": "Moving to Geneva: housing, work location and family setup",
+    "description": "Plan a move to Geneva with practical guidance on neighbourhood choices, international-organisation versus ordinary residence routes, schools and housing.",
+    "category": "cantons",
+    "intro": "A useful Geneva relocation plan begins with the exact workplace and the household’s residence route. A job with an international organisation, a private-sector role and a family-led move can require different conversations. Establish the relevant process before allowing a housing search to determine the arrival date.",
+    "sections": [
+      {
+        "id": "where",
+        "title": "Start with the actual work address",
+        "paragraphs": [
+          "Compare city neighbourhoods and surrounding communes by tracing the whole journey. A home near an airport connection may not suit a workplace on the other side of the city. Include the partner’s routine, school gates and the return trip after activities.",
+          "Keep homes in Geneva canton separate from homes in Vaud or France when you compare them. Crossing a canton or national border can change the questions about administration, schooling and employment. Treat a cross-border arrangement as a distinct plan requiring appropriate advice, not a simple extension of a Geneva housing search."
+        ],
+        "sources": [
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "route",
+        "title": "Know which welcome and residence process applies",
+        "paragraphs": [
+          "CAGI, the International Geneva Welcome Centre, provides resources for international-organisation staff, missions, NGOs, delegates and other international audiences. Its practical material covers housing, health, education and mobility. Check which services apply to you.",
+          "If an employer is coordinating your arrival, ask who owns each step and what remains your responsibility. Establish which authority or employer contact will confirm your status and any family arrangements. The paperwork used by a colleague with a different status may not fit your case."
+        ],
+        "sources": [
+          {
+            "title": "CAGI: support and practical information for international Geneva",
+            "url": "https://www.cagi.ch/en/"
+          },
+          {
+            "title": "State Secretariat for Migration: work and residence FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"
+          }
+        ]
+      },
+      {
+        "id": "housing",
+        "title": "Compare housing evidence as well as availability",
+        "paragraphs": [
+          "For every proposed home, record the named tenants, occupancy date, lease terms and accommodation evidence the provider will supply. If the arrival is staged, confirm how each household member will be documented. Keep temporary housing costs and extension terms visible.",
+          "Visit with a weekday routine in mind. Check access, lift or stairs, storage, noise and travel with a child or luggage. Ask how utilities, internet and mail are organised and whether an installation appointment is needed before the household starts work or school."
+        ]
+      },
+      {
+        "id": "school",
+        "title": "Build a family timetable",
+        "paragraphs": [
+          "For public schooling, contact the relevant local education service and discuss the address, child’s age, language and existing school records. Ask separately about lunch, after-school care and holidays. For private schooling, confirm the actual campus and admissions decision.",
+          "French learning should be part of the family plan even if work is mostly in English. Ask which information the school sends, how parents communicate with staff and what support is available. Give the accompanying partner’s local routine the same attention as the employee’s first working week."
+        ],
+        "sources": [
+          {
+            "title": "CAGI: support and practical information for international Geneva",
+            "url": "https://www.cagi.ch/en/"
+          },
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "comparison",
+        "title": "Compare Geneva with a real Vaud alternative",
+        "paragraphs": [
+          "If both Geneva and Vaud are in scope, compare actual properties and the same household assumptions. Include commuting, childcare and the work schedule before asking advisers to compare the tax position. A lower figure on one line does not decide the whole move.",
+          "Bring a one-page summary to the consultation: employment or family route, intended arrival, shortlisted addresses, school requirements and unresolved documents. We can discuss coordination from our Swiss base; this guide does not describe a Move to Switzerland office in Geneva."
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-vaud",
+      "public-vs-international-schools",
+      "relocation-service-costs"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-ticino",
+    "title": "Moving to Ticino: Lugano, Locarno and Bellinzona",
+    "description": "Explore a move to Italian-speaking Ticino. Compare Lugano, Locarno and Bellinzona, check local arrival procedures and plan schools, language and travel.",
+    "category": "cantons",
+    "intro": "Ticino should be assessed as a distinct daily-life choice, not just as a change of scenery. If you are considering Lugano, Locarno or Bellinzona, start with language, school and work commitments. Decide how often the household genuinely needs to travel north of the Alps before committing to a home.",
+    "sections": [
+      {
+        "id": "places",
+        "title": "Compare three different bases",
+        "paragraphs": [
+          "Pick one realistic address in each place that fits your budget and space needs. For each, find the relevant local office and school contact and test the current transport options. A town-centre apartment and a home outside the centre can produce very different routines."
+        ],
+        "sources": [
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ],
+        "table": {
+          "caption": "A starting point for the Ticino shortlist",
+          "columns": [
+            "Place",
+            "Comparison to make",
+            "Question to answer"
+          ],
+          "rows": [
+            [
+              "Lugano",
+              "An urban base and the surrounding neighbourhoods",
+              "Does the address work for school, work and local errands?"
+            ],
+            [
+              "Locarno",
+              "A household routine centred on the Locarno area",
+              "How often will you need to leave the area during the week?"
+            ],
+            [
+              "Bellinzona",
+              "A separate base for local and wider travel",
+              "Which connections matter for your actual destinations?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "arrival",
+        "title": "Follow the instructions for your municipality",
+        "paragraphs": [
+          "Lugano’s arrival page describes its Puntocittà service points and the documents to prepare. It states an eight-day arrival-registration requirement and explains what foreign residents should provide when a permit is still being processed. Check the complete current list for your circumstances.",
+          "Those are Lugano instructions. For a home in another municipality, obtain that municipality’s process rather than assuming the same desk or document sequence. Resolve temporary accommodation evidence and the residence application before treating a booking as a complete settlement plan."
+        ],
+        "sources": [
+          {
+            "title": "City of Lugano: arrival procedures",
+            "url": "https://www.lugano.ch/en/benvenuti/procedure/"
+          }
+        ]
+      },
+      {
+        "id": "language",
+        "title": "Plan an Italian-speaking everyday routine",
+        "paragraphs": [
+          "Ask how local school communication, appointments and service contracts will be handled while you learn Italian. Identify which family member is comfortable with each task and where translated information or interpreting may help. An English-speaking workplace does not cover every part of household life.",
+          "For education, compare the local public route with the specific international-school programme you are considering. Check the child’s age group, campus, language needs and progression. School names alone are not enough to compare a transition mid-year."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "travel",
+        "title": "Test travel against a real working week",
+        "paragraphs": [
+          "If work involves Zurich, Zug, Milan or another city, record the frequency, first appointment time, return time and overnight needs. Verify cross-border employment, residence and insurance questions with the appropriate advisers where relevant. Working online from Switzerland still needs a properly assessed work and residence setup.",
+          "Do one trial journey from the proposed home and include the last connection. Compare the cost of occasional accommodation or an extra travel day with what appeared to be a housing saving. Build in flexibility for changes in your employer’s attendance expectations."
+        ],
+        "sources": [
+          {
+            "title": "State Secretariat for Migration: work and residence FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"
+          },
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "housing",
+        "title": "Look beyond the view",
+        "paragraphs": [
+          "Ask about year-round occupancy terms, heating and cooling, sunlight, parking, deliveries and reliable internet. Confirm what the lease includes and how maintenance requests are handled. For a purchase, obtain advice about your eligibility and the specific property before committing.",
+          "Make the final choice from a complete household budget and a usable weekly timetable. We can discuss how Ticino fits the wider relocation plan without assuming that a canton-wide lifestyle description determines the right place for you."
+        ]
+      }
+    ],
+    "related": [
+      "moving-to-vaud",
+      "public-vs-international-schools",
+      "first-30-days-in-switzerland"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "moving-to-basel",
+    "title": "Moving to Basel: Basel-Stadt or Basel-Landschaft?",
+    "description": "Compare Basel-Stadt and Basel-Landschaft for relocation. Plan around the actual workplace, municipality, school, housing and cross-border questions.",
+    "category": "cantons",
+    "intro": "“Basel” can describe a city, a canton or a wider employment region. Before comparing homes, distinguish Basel-Stadt from Basel-Landschaft and identify the exact worksite. A laboratory, office and production location can sit in different places even when the employer uses one regional name.",
+    "sections": [
+      {
+        "id": "cantons",
+        "title": "Separate the two Swiss canton options",
+        "paragraphs": [
+          "For a city-based routine, compare addresses in Basel-Stadt. For a wider search, include specific Basel-Landschaft municipalities such as Allschwil, Binningen or Liestal. Do not infer the canton from a property advert’s description of the Basel region.",
+          "Put the municipality, registration office, school contact and work journey beside every address. This turns a vague city-versus-suburb debate into a comparison you can actually check. Both cantons have newcomer resources, but they are not one shared registration authority."
+        ],
+        "sources": [
+          {
+            "title": "Basel-Stadt: official welcome guide (English PDF)",
+            "url": "https://media.bs.ch/original_file/6c43c49f5ce3ed187c17e13ce9466310a6fa4082/2024-kontakt-welcome-to-basel-stadt-web.pdf"
+          },
+          {
+            "title": "Hallo Baselland: official newcomer information",
+            "url": "https://www.hallo-baselland.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "work",
+        "title": "Use the site address and work pattern",
+        "paragraphs": [
+          "The Basel area has a substantial life-sciences ecosystem. For an employment-led move, ask the employer for the permanent worksite, expected attendance and whether any shift pattern changes transport options. A head-office address may not be the location you use daily.",
+          "Request a clear division of responsibility for permits, temporary housing and family support. If the employer has a relocation allowance, find out which expenses it covers and how reimbursement works before assuming that a supplier invoice will be paid."
+        ],
+        "sources": [
+          {
+            "title": "Basel Area: life-sciences ecosystem",
+            "url": "https://baselsupercluster.com/"
+          },
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "borders",
+        "title": "Treat living outside Switzerland as a separate decision",
+        "paragraphs": [
+          "A home in France or Germany is a cross-border proposal, not another Swiss municipality option. Ask qualified advisers to assess the residence, work, tax and social-insurance position before comparing a headline rent. Do not use this Swiss arrival guide as a cross-border eligibility assessment.",
+          "If you intend to live in Switzerland, keep that assumption consistent in your first housing comparison. Add a foreign-residence scenario only when the relevant advice and employer agreement are available."
+        ]
+      },
+      {
+        "id": "school",
+        "title": "Match schooling to the actual home",
+        "paragraphs": [
+          "Contact the education service for the home’s municipality or canton and explain the child’s age, previous schooling and language. Ask what documents are needed and how any language support is arranged. For private schools, verify the campus, available place and full fees.",
+          "Compare lunch, childcare and travel alongside teaching. Ask what happens if the housing search crosses the canton boundary after a school conversation has already begun. An early address change may require a new discussion rather than a simple update."
+        ],
+        "sources": [
+          {
+            "title": "Hallo Baselland: official newcomer information",
+            "url": "https://www.hallo-baselland.ch/en"
+          },
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "arrival",
+        "title": "Use the right local starting point",
+        "paragraphs": [
+          "Basel-Stadt’s welcome guide and Hallo Baselland provide practical information for their respective residents. Use the relevant resource to organise housing, health, transport and local contacts, then confirm current instructions with the responsible office.",
+          "Keep the permit process, local registration and the employer’s onboarding list separate, with a named contact for each. Before travel, resolve any item that determines whether you can take up the role, register the household or move into the accommodation."
+        ],
+        "sources": [
+          {
+            "title": "Basel-Stadt: official welcome guide (English PDF)",
+            "url": "https://media.bs.ch/original_file/6c43c49f5ce3ed187c17e13ce9466310a6fa4082/2024-kontakt-welcome-to-basel-stadt-web.pdf"
+          },
+          {
+            "title": "Hallo Baselland: official newcomer information",
+            "url": "https://www.hallo-baselland.ch/en"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "public-vs-international-schools",
+      "first-30-days-in-switzerland",
+      "relocation-service-costs"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "zug-baar-cham",
+    "title": "Zug vs Baar vs Cham: choosing where to live",
+    "description": "Compare Zug, Baar and Cham for a family move. Check school campuses, actual commutes, housing, registration contacts and the costs that change by address.",
+    "category": "comparisons",
+    "intro": "Zug, Baar and Cham belong in the same practical shortlist for many households, but choosing between them requires more than comparing a canton tax figure. Start with the home, workplace and school campus. Then test whether those three points still work when you add childcare, errands and activities.",
+    "sections": [
+      {
+        "id": "comparison",
+        "title": "Use the same requirements in all three places",
+        "paragraphs": [
+          "Select one realistic property in each municipality with broadly comparable space and lease timing. Record what is actually available rather than averaging unlike homes. A central apartment and a larger home farther from a station answer different questions."
+        ],
+        "sources": [
+          {
+            "title": "City of Zug: registering your arrival",
+            "url": "https://stadtzug.ch/de/leben/wohnen-umziehen/umziehen/zuzug"
+          },
+          {
+            "title": "Municipality of Baar: local services",
+            "url": "https://www.baar.ch/"
+          },
+          {
+            "title": "Municipality of Cham: local services",
+            "url": "https://www.cham.ch/"
+          }
+        ],
+        "table": {
+          "caption": "Zug, Baar and Cham: a viewing worksheet",
+          "columns": [
+            "Municipality",
+            "Start the comparison with",
+            "Check at the exact address"
+          ],
+          "rows": [
+            [
+              "Zug",
+              "A routine centred on Zug city or its connections",
+              "Station access, school journey, parking and additional charges"
+            ],
+            [
+              "Baar",
+              "Your workplace and the relevant school campus",
+              "Do not assume every Baar home is close to ISZL’s Zug Campus"
+            ],
+            [
+              "Cham",
+              "The home’s connections towards work and school",
+              "Check the whole route to a Hünenberg or Baar campus"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "school",
+        "title": "A campus detail can change the shortlist",
+        "paragraphs": [
+          "ISZL’s Zug Campus is at Walterswil in Baar for Early Years through Grade 8. Its Riverside Campus is in Hünenberg for Grades 9–12. A child moving between those stages can change the family’s transport needs; siblings may need different arrangements at the same time.",
+          "Ask for the applicable campus and any school transport information directly. For a public-school plan, discuss placement with the municipality before assuming that a property’s proximity to one building determines attendance. Include lunch and childcare in the enquiry."
+        ],
+        "sources": [
+          {
+            "title": "ISZL: admissions and campus locations",
+            "url": "https://www.iszl.ch/admissions/admissions-process/"
+          },
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          }
+        ]
+      },
+      {
+        "id": "commute",
+        "title": "Compare the return trip, too",
+        "paragraphs": [
+          "Look up the same weekday and departure time for all three properties. Include walking, connections, parking or school collection. Then run the return journey after a late meeting or activity. Keep the journey notes with the property details so that convenience does not become a vague impression."
+        ],
+        "points": [
+          "Use the real office entrance or campus, not the nearest town centre.",
+          "Check whether one adult’s travel plan depends on the other being available.",
+          "Record how the routine works when a child is ill or an appointment runs late.",
+          "Decide whether a car is necessary before comparing total monthly costs."
+        ],
+        "sources": [
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "cost",
+        "title": "Get a municipality-specific comparison",
+        "paragraphs": [
+          "Use actual rent, charges, deposit terms, transport and childcare estimates. Ask an adviser to compare taxes using consistent household facts and the relevant year. A single canton-wide rate cannot settle a comparison between particular households or addresses.",
+          "Keep refundable security out of ordinary spending, but include it in the cash needed for the move. Where an employer contributes, distinguish reimbursable items from expenses the household must fund first."
+        ],
+        "sources": [
+          {
+            "title": "Federal Tax Administration: comparison tools",
+            "url": "https://www.estv.admin.ch/en/swiss-tax-statistics"
+          }
+        ]
+      },
+      {
+        "id": "registration",
+        "title": "Keep the municipality clear",
+        "paragraphs": [
+          "Zug city publishes its own arrival-registration guidance. Baar and Cham provide separate municipal services. Use the office for your chosen home, and confirm which documents apply to a move from abroad. An online change-of-address service may not cover every first arrival.",
+          "Finish the comparison by naming the trade-off you accept: perhaps a different commute, smaller home or less convenient collection routine. Choose only after the important facts are confirmed, not because one municipality appears first on a general relocation list."
+        ],
+        "sources": [
+          {
+            "title": "City of Zug: registering your arrival",
+            "url": "https://stadtzug.ch/de/leben/wohnen-umziehen/umziehen/zuzug"
+          },
+          {
+            "title": "Municipality of Baar: local services",
+            "url": "https://www.baar.ch/"
+          },
+          {
+            "title": "Municipality of Cham: local services",
+            "url": "https://www.cham.ch/"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "kuessnacht-pfaeffikon-schwyz",
+      "moving-to-lucerne",
+      "public-vs-international-schools"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "kuessnacht-pfaeffikon-schwyz",
+    "title": "Küssnacht vs Pfäffikon SZ vs Schwyz: a local comparison",
+    "description": "Compare Küssnacht, Pfäffikon SZ and Schwyz town for relocation. Understand municipality names, travel, school questions, housing and registration.",
+    "category": "comparisons",
+    "intro": "A home in canton Schwyz can mean quite different things. Küssnacht, Pfäffikon SZ and Schwyz town should be compared as individual places, with their own travel patterns and local contacts. Write the full place name and postcode into every search so that a convenient-looking result does not lead you to the wrong location.",
+    "sections": [
+      {
+        "id": "names",
+        "title": "Start by getting the place names right",
+        "paragraphs": [
+          "Pfäffikon SZ belongs to the municipality of Freienbach. It is distinct from Pfäffikon ZH in canton Zurich. Schwyz can mean the canton or the town. These details matter when finding the correct registration office, a school contact or a property."
+        ],
+        "sources": [
+          {
+            "title": "Municipality of Freienbach: villages and local services",
+            "url": "https://www.freienbach.ch/"
+          },
+          {
+            "title": "Küssnacht: arrival documents and registration",
+            "url": "https://www.kuessnacht.ch/verwaltung/verwaltung/dienstleistungen.html/27/service/373"
+          }
+        ],
+        "table": {
+          "caption": "Keep these locations distinct",
+          "columns": [
+            "Place",
+            "Administrative starting point",
+            "Practical comparison"
+          ],
+          "rows": [
+            [
+              "Küssnacht am Rigi",
+              "Küssnacht’s own registration service",
+              "Test the particular home against the Lucerne or Zug routine"
+            ],
+            [
+              "Pfäffikon SZ",
+              "Municipality of Freienbach",
+              "Test the actual Zurich-region workplace and school connections"
+            ],
+            [
+              "Schwyz town",
+              "Municipality of Schwyz",
+              "Build a routine around the town and the destinations you use"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "travel",
+        "title": "Avoid one commute estimate for the canton",
+        "paragraphs": [
+          "Choose a property in each location and use the same workday timetable. Compare the full journey to work, school or an airport appointment. Include walking and changes, and check the return after a late activity. A map radius does not capture the household’s routine.",
+          "If a home is away from the town centre, check how often the useful connection runs at the times you need it. Where the plan depends on a car, include parking, school collection and a second adult’s independent travel needs."
+        ],
+        "sources": [
+          {
+            "title": "SBB: current journey planner",
+            "url": "https://www.sbb.ch/en"
+          }
+        ]
+      },
+      {
+        "id": "school",
+        "title": "Check local provision before widening the search",
+        "paragraphs": [
+          "Ask the responsible school service about the child’s placement, language support and the process for arriving from abroad. For a private school in another municipality or canton, verify both the campus and the journey. Do not label a school “nearby” without checking the particular home.",
+          "Our international-school guide identifies the ISZL campuses in Baar and Hünenberg. For a Schwyz household, that means comparing a real cross-municipality journey with the local-school route. Include childcare, lunch and the family’s longer-term plans in the decision."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          },
+          {
+            "title": "ISZL: admissions and campus locations",
+            "url": "https://www.iszl.ch/admissions/admissions-process/"
+          }
+        ]
+      },
+      {
+        "id": "arrival",
+        "title": "Ask the right office about accommodation evidence",
+        "paragraphs": [
+          "Küssnacht publishes a document list for arrivals, including evidence of housing. Check the list for your nationality and the type of move. If accommodation is temporary, ask what evidence the provider can issue and whether it is acceptable for your situation.",
+          "For Pfäffikon SZ, use Freienbach’s municipal service contacts. For Schwyz town, verify the current municipality instructions. Keep each office’s response with the matching property; do not reuse a document list merely because all homes are in the same canton."
+        ],
+        "sources": [
+          {
+            "title": "Küssnacht: arrival documents and registration",
+            "url": "https://www.kuessnacht.ch/verwaltung/verwaltung/dienstleistungen.html/27/service/373"
+          },
+          {
+            "title": "Municipality of Freienbach: villages and local services",
+            "url": "https://www.freienbach.ch/"
+          }
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Compare the household, not a reputation",
+        "paragraphs": [
+          "Use the same income assumptions, household details and year when requesting a tax comparison. Add real housing, school, childcare and transport costs. No general claim about privacy, tax or affordability can replace that exercise.",
+          "Our company address is in Küssnacht am Rigi, and our offices are in Zurich, Zug and Schwyz. We can discuss how the local choices fit the wider move. Bring the actual candidate addresses and the decisions you still need to resolve."
+        ],
+        "sources": [
+          {
+            "title": "Federal Tax Administration: comparison tools",
+            "url": "https://www.estv.admin.ch/en/swiss-tax-statistics"
+          }
+        ]
+      }
+    ],
+    "related": [
+      "zug-baar-cham",
+      "moving-to-nidwalden",
+      "public-vs-international-schools"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "public-vs-international-schools",
+    "title": "Public or International School in Switzerland? A Family Guide",
+    "description": "Compare Swiss public and international schools by language support, curriculum, admissions, childcare, commute and total cost before choosing your home.",
+    "category": "planning",
+    "intro": "The most useful school comparison starts with your child, not a league table. Consider age, current language, learning needs, curriculum continuity and how long the family expects to stay. Housing comes into the decision because it determines access to a local school and the daily journey to a private campus.",
+    "sections": [
+      {
+        "id": "starting-point",
+        "title": "Write a brief for each child",
+        "paragraphs": [
+          "Gather recent school reports, the current year group, subjects and any support plan. Note languages used comfortably in conversation and in academic work; they are not always the same. Explain whether the family is likely to move again, while recognising that plans can change.",
+          "If the child is midway through an examination programme, ask prospective schools about subject continuity and entry requirements before changing systems. Let the receiving school assess the transition instead of treating a similar year-group label as proof of equivalence."
+        ]
+      },
+      {
+        "id": "compare",
+        "title": "Compare the actual offer",
+        "paragraphs": [
+          "Swiss education is organised through cantonal systems and regional curricula. EDK provides links to the relevant structures and education authorities. International and bilingual schools have their own programmes and entry processes, so compare specific offers rather than two idealised categories.",
+          "Public compulsory schooling is free of charge; private-school tuition is a separate household commitment. That does not mean the full family schedule is cost-free. Ask about meals, childcare, transport and optional activities on both routes, and compare the complete year rather than tuition alone."
+        ],
+        "sources": [
+          {
+            "title": "EDK: cantonal school systems and education authorities",
+            "url": "https://edk.ch/en/education-system-ch/compulsory"
+          },
+          {
+            "title": "EDK: organisation and funding of compulsory education",
+            "url": "https://edk.ch/en/education-system-ch/compulsory/organisation-of-compulsory-education"
+          }
+        ],
+        "table": {
+          "caption": "Questions for both school routes",
+          "columns": [
+            "Decision",
+            "Public-school enquiry",
+            "International-school enquiry"
+          ],
+          "rows": [
+            [
+              "Placement",
+              "Which office assesses placement for this address?",
+              "Is there a place in the appropriate year group?"
+            ],
+            [
+              "Language",
+              "What language support is available and how is it assessed?",
+              "What entry language level and additional support apply?"
+            ],
+            [
+              "Continuity",
+              "How does the pathway fit the child’s next stage?",
+              "Which subjects and qualifications can the child complete?"
+            ],
+            [
+              "Daily routine",
+              "How are lunch, childcare and holidays organised?",
+              "What are campus, bus, care and activity arrangements?"
+            ],
+            [
+              "Budget",
+              "Which care, meal and other charges should we budget?",
+              "What does the full current fee schedule include?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "language",
+        "title": "Language support is a concrete question",
+        "paragraphs": [
+          "Zurich provides German-as-a-second-language support, known as DaZ, for pupils who need it. The canton’s parent information describes how support can be organised. This is a Zurich example, not a promise that every canton or school uses the same arrangements.",
+          "Ask how the child’s needs will be assessed, who communicates with the family and when progress will be reviewed. For a private school, ask which support is included in fees and which is separately charged. Do not assume that an English-language curriculum removes every language challenge."
+        ],
+        "sources": [
+          {
+            "title": "Canton Zurich: DaZ parent information (English PDF)",
+            "url": "https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/bildung/schulen/volksschule/besonderer-bildungsbedarf/sprachkopien/elterninfo_daz_eng.pdf"
+          }
+        ]
+      },
+      {
+        "id": "day",
+        "title": "Build a complete weekly timetable",
+        "paragraphs": [
+          "Map start and finish times, lunch, school transport, after-school care and activities for each child. Then overlay the adults’ working days. A programme that fits academically may still require a childcare arrangement you have not budgeted for.",
+          "Ask about school holidays and settling-in days. Compare routes in both directions at the times they will actually be used. For siblings at different campuses, calculate the combined routine rather than evaluating each trip independently."
+        ]
+      },
+      {
+        "id": "decision",
+        "title": "Ask for a clear next step",
+        "paragraphs": [
+          "After a visit, record the admission or placement status, outstanding documents, costs and the date of the next response. Keep an alternative if a private place is unavailable. Admissions belong to the school; relocation assistance cannot guarantee a place or priority.",
+          "Bring the two strongest options back to your child’s needs. Choose the route whose trade-offs you understand and can support, rather than the one with the most impressive general description. Our campus guide and local comparisons can help connect that decision to the housing search."
+        ]
+      }
+    ],
+    "related": [
+      "zug-baar-cham",
+      "moving-to-vaud",
+      "first-30-days-in-switzerland"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "first-30-days-in-switzerland",
+    "title": "Your First 30 Days in Switzerland: A Practical Arrival Plan",
+    "description": "Plan the first month after moving to Switzerland, including local registration, insurance, school, banking, household services and outstanding paperwork.",
+    "category": "planning",
+    "intro": "Treat the first month as a period for completing and checking the move, not as a grace period for every obligation. Some tasks must be arranged before entry or before starting work, and local deadlines can be shorter than a generic Swiss checklist suggests. Confirm your own instructions before travel, then use this plan to keep the household organised.",
+    "sections": [
+      {
+        "id": "before",
+        "title": "Before arrival: leave fewer critical questions open",
+        "paragraphs": [
+          "Confirm your residence and work position with the responsible authority or adviser, arrange accommodation evidence and collect the documents requested for local registration. If children are moving, establish a school contact. For a shipment, confirm the Swiss customs process with the mover before it leaves.",
+          "Swiss customs publishes the procedure for importing removal goods, including the declaration and supporting evidence. Use those instructions for the actual shipment; do not wait until the vehicle reaches the border to establish who is handling clearance."
+        ],
+        "sources": [
+          {
+            "title": "State Secretariat for Migration: work and residence FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"
+          },
+          {
+            "title": "Swiss customs: procedure for removal goods",
+            "url": "https://www.bazg.admin.ch/en/relocation-import-switzerland-procedure"
+          }
+        ]
+      },
+      {
+        "id": "first-days",
+        "title": "First days: registration and access",
+        "paragraphs": [
+          "Check the instructions for the municipality where you are living. Vaud’s welcome portal and Lugano’s arrival guidance each state an eight-day registration requirement. These local examples are why the household should not assume that every task can wait until the second week.",
+          "At home, confirm keys, name on the mailbox, building access, utilities and internet. Keep the handover record and know how to report a problem. Record registration or permit reference numbers and appointments in one place, with a reminder for any missing document."
+        ],
+        "sources": [
+          {
+            "title": "Canton Vaud: official welcome portal",
+            "url": "https://www.vaud-welcome.ch/"
+          },
+          {
+            "title": "City of Lugano: arrival procedures",
+            "url": "https://www.lugano.ch/en/benvenuti/procedure/"
+          }
+        ]
+      },
+      {
+        "id": "week-one",
+        "title": "Week one: school, payments and a working routine",
+        "paragraphs": [
+          "Confirm the child’s start arrangements, school contact, route and lunch or childcare plan. Set up the payments needed for rent and ordinary expenses. Ask the chosen bank for its actual onboarding list and expected next steps; keep a fallback payment method while the application is being processed.",
+          "Check household-service start dates rather than assuming they followed the lease automatically. Establish who will receive official mail and who can respond when a document request arrives. If adults or children arrive on different dates, keep their records separate."
+        ]
+      },
+      {
+        "id": "insurance",
+        "title": "Start the health-insurance work early",
+        "paragraphs": [
+          "The Federal Office of Public Health explains the usual three-month enrolment period for people subject to compulsory resident insurance, individual cover for each family member and retrospective premiums when enrolment is timely. Exemptions and international arrangements require checking for the person concerned.",
+          "Do not use the enrolment period as a reason to leave the position unclear. Ask the insurer or responsible authority to confirm the start date, keep evidence of the application and set aside money for premiums due from the relevant date. Review how existing medical needs will be handled with an appropriate professional."
+        ],
+        "sources": [
+          {
+            "title": "Federal Office of Public Health: resident insurance obligations",
+            "url": "https://www.bag.admin.ch/en/health-insurance-requirement-to-obtain-insurance-for-persons-resident-in-switzerland"
+          }
+        ]
+      },
+      {
+        "id": "weeks-two-four",
+        "title": "Weeks two to four: close the loops",
+        "paragraphs": [
+          "Check that appointments happened, requested documents were received and no unanswered letter is waiting. Review payroll and social-insurance questions with the employer or adviser. Keep departure-country filings and address changes visible alongside Swiss tasks.",
+          "For driving and vehicles, contact the relevant cantonal road-traffic office and review customs guidance for an imported vehicle. Put the deadlines that apply to your case into a calendar; licence and vehicle steps are separate from opening a bank account or registering a home."
+        ],
+        "points": [
+          "Confirm the outcome of each submitted application, not just that it was sent.",
+          "Arrange an ordinary local activity or language-learning routine.",
+          "Update the budget with the first real bills and payment dates.",
+          "Review any remaining housing, school or administrative issue with the person responsible."
+        ],
+        "sources": [
+          {
+            "title": "Swiss customs: vehicles when relocating",
+            "url": "https://www.bazg.admin.ch/en/customs-clearance-vehicles-relocation"
+          }
+        ]
+      },
+      {
+        "id": "review",
+        "title": "Keep one short unresolved list",
+        "paragraphs": [
+          "At the end of the month, list what still needs an answer, who owns it and the next date to act. A delayed document does not mean the entire move has failed, but it should not disappear from view. The interactive relocation checklist is useful for tracking the wider move; this guide explains the work behind the first-month items."
+        ]
+      }
+    ],
+    "related": [
+      "public-vs-international-schools",
+      "relocation-service-costs",
+      "zug-baar-cham"
+    ],
+    "date": "2026-09-10"
+  },
+  {
+    "slug": "relocation-service-costs",
+    "title": "Swiss Relocation Services: Scope, Fees and What to Ask",
+    "description": "Understand relocation-service costs, what to include in a written scope and how to separate advisory fees, third-party charges and household moving expenses.",
+    "category": "planning",
+    "intro": "The cost of relocation assistance depends on what needs to be coordinated. A household with an agreed work route and home has different needs from one still deciding where to live, how to obtain residence and how to organise schooling. Start with the decisions and deliverables, then compare the proposed fees.",
+    "sections": [
+      {
+        "id": "scope",
+        "title": "Define what you need help with",
+        "paragraphs": [
+          "For Move to Switzerland, you can discuss residence planning, housing coordination, school choices and the practical sequence of the move. Tax, legal, banking and business matters may need separate specialist input. The actual responsibilities and scope should be confirmed for your circumstances.",
+          "Prepare a brief that names the people moving, intended arrival, current country, work or business situation and unresolved decisions. You do not need to send passports or detailed financial records in the initial website enquiry. The first conversation should establish what information is needed next."
+        ]
+      },
+      {
+        "id": "costs",
+        "title": "Separate three kinds of cost",
+        "paragraphs": [
+          "A relocation budget and an adviser’s fee are different things. Ask any provider to distinguish its own work from external charges and the household costs that would arise with or without an adviser."
+        ],
+        "table": {
+          "caption": "What belongs on each line",
+          "columns": [
+            "Cost category",
+            "Examples to clarify",
+            "Question for the proposal"
+          ],
+          "rows": [
+            [
+              "Coordination or advisory work",
+              "Planning, introductions, document coordination, housing or school support",
+              "Which deliverables, time allowance and responsibilities are included?"
+            ],
+            [
+              "External professional and official charges",
+              "Specialist advice, authority fees, translations or certification",
+              "Who appoints and pays each provider, and what requires approval?"
+            ],
+            [
+              "Household moving costs",
+              "Removals, temporary accommodation, rent, deposits and school expenses",
+              "Which amounts are spending, which are refundable and when are they due?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "drivers",
+        "title": "What can change the scope",
+        "paragraphs": [
+          "The number of family members, origin-country obligations, work route, location search and school requirements all affect the coordination needed. A compressed arrival date may create more overlapping decisions without making an authority’s process faster.",
+          "Ask how additional work is authorised if the plan changes. Examples include changing canton after a housing search, adding a company project, extending temporary accommodation or requesting more school visits. A clear change process is more useful than an attractive starting figure with unclear exclusions."
+        ]
+      },
+      {
+        "id": "proposal",
+        "title": "Questions to resolve in writing",
+        "paragraphs": [
+          "Before engaging a provider, make the comparison concrete. The following questions are a proposal checklist, not a published Move to Switzerland fee schedule."
+        ],
+        "points": [
+          "What work will be delivered, and who is responsible for it?",
+          "Is the fee fixed, hourly or based on another agreed arrangement?",
+          "Are VAT, expenses and external professional fees included or separate?",
+          "What payment milestones, cancellation terms and unused-work rules apply?",
+          "How will a scope change be approved and priced?",
+          "What depends on a school, landlord, bank or authority decision?",
+          "Who holds the documents and how will sensitive information be exchanged?"
+        ]
+      },
+      {
+        "id": "expectations",
+        "title": "Know what assistance can and cannot decide",
+        "paragraphs": [
+          "Coordination can help a household prepare, organise and follow up. It does not give an adviser control over a residence decision, a school admission, a rental offer or a bank’s onboarding. Keep promised deliverables separate from outcomes controlled by other organisations.",
+          "Compare providers on the clarity of their work, relevant experience and communication as well as price. Ask for examples they are permitted to discuss. A real case should explain what the adviser did and which decisions were made by others."
+        ]
+      },
+      {
+        "id": "consultation",
+        "title": "Discuss your move with our team",
+        "paragraphs": [
+          "We have helped hundreds of people move to Switzerland since 2012 and have offices in Zurich, Zug and Schwyz. Consultations take place online, with in-person meetings available in Zurich. Use the contact form to outline the move and the questions still open.",
+          "No standard package price is published on this page. Discuss the applicable scope and fees before committing. You can use the free budget planner to organise household costs separately from the assistance you may choose to engage."
+        ]
+      }
+    ],
+    "related": [
+      "first-30-days-in-switzerland",
+      "public-vs-international-schools",
+      "zug-baar-cham"
+    ],
+    "date": "2026-09-10"
+  }
+]

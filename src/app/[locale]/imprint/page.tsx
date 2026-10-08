@@ -1,6 +1,13 @@
+import { withPageSeo } from '@/lib/seo';
 import { getLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getLegalCopy } from '@/lib/legal-copy';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale });
+  return withPageSeo({ title: t('imprint.pageTitle') }, locale, '/imprint');
+}
 
 export default async function ImprintPage() {
   const locale = await getLocale();
@@ -28,6 +35,8 @@ export default async function ImprintPage() {
                 </h2>
                 <div className="space-y-1 text-sm font-light">
                   <p>WorkWorkWork AG</p>
+                  <p>Fänn West 10</p>
+                  <p>6403 Küssnacht am Rigi</p>
                   <p>{t('imprint.address')}</p>
                 </div>
               </div>

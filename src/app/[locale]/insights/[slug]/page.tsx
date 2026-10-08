@@ -1,3 +1,5 @@
+import { LocalKnowledge, localKnowledgeSlugs } from '@/components/LocalKnowledge';
+import { withPageSeo } from '@/lib/seo';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -9,6 +11,10 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { insightSlugs, insights, type InsightSlug } from '@/content/insights';
 import { locales } from '@/i18n/config';
 import { serviceSlugToKey } from '@/lib/services';
+import { getAdvisoryCopy, getInsightSources, getInsightRevisionDate, officialSources, type AdvisoryCopy } from '@/lib/advisory';
+import { SourceNotes } from '@/components/SourceNotes';
+import { PlanningLinks } from '@/components/PlanningLinks';
+import { getGrowthCopy, type GrowthCopy } from '@/lib/growth-copy';
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -33,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = t(`articles.${slug}.metaDescription`);
 
   const meta = insights[slug as InsightSlug];
-  return {
+  return withPageSeo({
     title,
     description,
     openGraph: {
@@ -42,10 +48,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       locale,
       publishedTime: meta?.date,
+      modifiedTime: getInsightRevisionDate(locale),
       authors: [t('author')],
       images: meta ? [{ url: meta.image, width: 1200, height: 675 }] : undefined,
     },
-  };
+  }, locale, `/insights/${slug}`);
 }
 
 export default function InsightArticlePage({
@@ -64,13 +71,16 @@ async function ArticleContent({
   const { locale, slug } = await paramsPromise;
   if (!insightSlugs.includes(slug as InsightSlug)) notFound();
 
-  return <ArticleInner locale={locale} slug={slug as InsightSlug} />;
+  const copy = await getAdvisoryCopy(locale);
+  const growth = await getGrowthCopy(locale);
+  return <ArticleInner locale={locale} slug={slug as InsightSlug} copy={copy} growth={growth} />;
 }
 
-function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
+function ArticleInner({ locale, slug, copy, growth }: { locale: string; slug: InsightSlug; copy: AdvisoryCopy; growth: GrowthCopy }) {
   const t = useTranslations('insights');
   const servicesT = useTranslations('services');
   const meta = insights[slug];
+  const sources = getInsightSources(slug);
   const currentIndex = insightSlugs.indexOf(slug);
   const prevSlug = currentIndex > 0 ? insightSlugs[currentIndex - 1] : null;
   const nextSlug = currentIndex < insightSlugs.length - 1 ? insightSlugs[currentIndex + 1] : null;
@@ -108,10 +118,13 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
             description: t(`articles.${slug}.metaDescription`),
             image: `https://move-to-switzerland.com${meta.image}`,
             datePublished: meta.date,
-            dateModified: meta.date,
+            dateModified: getInsightRevisionDate(locale),
+            inLanguage: locale,
+            citation: sources?.map((key) => officialSources[key].url),
             author: {
               '@type': 'Organization',
               name: t('author'),
+              url: `https://move-to-switzerland.com/${locale}/about`,
             },
             publisher: {
               '@type': 'Organization',
@@ -191,8 +204,9 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
               <span className="text-gold font-serif text-sm font-bold">M</span>
             </div>
             <div>
-              <p className="text-sm text-text-light/70">{t('author')}</p>
-              <p className="text-xs text-text-light/30">{t('authorSubtitle')}</p>
+              <Link href="/about" className="text-sm text-text-light/80 underline underline-offset-4">{t('author')}</Link>
+              <p className="mt-2 max-w-xl text-sm leading-relaxed text-text-light/80">{growth.experience}</p>
+              <Link href="/about" className="mt-2 inline-block text-sm text-gold underline underline-offset-4">{growth.editorialLabel}</Link>
             </div>
           </div>
         </div>
@@ -231,12 +245,14 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
                       {section.heading}
                     </h3>
                   )}
-                  <p className="text-charcoal/60 leading-relaxed text-base whitespace-pre-line">
+                  <p className="max-w-[72ch] text-charcoal/75 leading-relaxed text-base whitespace-pre-line">
                     {section.content}
                   </p>
                 </div>
               </ScrollReveal>
             ))}
+            {locale === 'en' && localKnowledgeSlugs.has(slug) && <LocalKnowledge topic={slug} />}
+            {sources && <SourceNotes copy={copy} sources={sources} locale={locale} updated updatedDate={getInsightRevisionDate(locale)} />}
 
             {/* Related Services */}
             {relatedServices.length > 0 && (
@@ -259,6 +275,11 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
                 </div>
               </div>
             )}
+            <PlanningLinks locale={locale} destinations guides={slug === 'swiss-lump-sum-taxation-guide'
+              ? ['swiss-residency-permits-guide']
+              : slug === 'swiss-residency-permits-guide'
+                ? ['swiss-lump-sum-taxation-guide', 'lex-koller-swiss-real-estate']
+                : []} />
           </div>
 
           {/* Article Navigation */}

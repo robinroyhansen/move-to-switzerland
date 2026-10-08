@@ -1,10 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
 import { usePathname } from '@/i18n/routing';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ConversionLink } from '@/components/ConversionLink';
+import { CONSENT_EVENT, CONSENT_KEY, readConsent } from '@/lib/analytics';
 
 type StickyCtaBarProps = {
   site?: 'move' | 'swissarrival';
@@ -13,32 +13,75 @@ type StickyCtaBarProps = {
 export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
   const t = useTranslations();
   const swissT = useTranslations('swissArrivalNav');
-  const locale = useLocale();
   const pathname = usePathname();
   const [visible, setVisible] = useState(false);
+  const barRef = useRef<HTMLDivElement>(null);
   const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
   const isContactPage = pathname === '/contact';
   const label = isSwissArrival ? swissT('cta') : t('cta.consultation');
 
   useEffect(() => {
-    const handleScroll = () => {
-      setVisible(window.scrollY > 400);
+    let hasConsent = readConsent() !== null;
+    const syncVisibility = () => {
+      const root = document.documentElement;
+      setVisible(
+        window.scrollY > 400 &&
+        hasConsent &&
+        root.dataset.consentNotice !== 'open' &&
+        root.dataset.navigationOverlay !== 'open'
+      );
     };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    const syncConsent = () => {
+      hasConsent = readConsent() !== null;
+      syncVisibility();
+    };
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === CONSENT_KEY || event.key === null) syncConsent();
+    };
+    const observer = new MutationObserver(syncVisibility);
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-consent-notice', 'data-navigation-overlay'],
+    });
+    syncVisibility();
+    window.addEventListener('scroll', syncVisibility, { passive: true });
+    window.addEventListener(CONSENT_EVENT, syncConsent);
+    window.addEventListener('storage', handleStorage);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('scroll', syncVisibility);
+      window.removeEventListener(CONSENT_EVENT, syncConsent);
+      window.removeEventListener('storage', handleStorage);
+    };
   }, []);
 
-  if (isContactPage) {
+  useEffect(() => {
+    const bar = barRef.current;
+    if (!bar) return;
+    const root = document.documentElement;
+    const syncHeight = () => {
+      root.style.setProperty('--sticky-cta-height', `${bar.getBoundingClientRect().height}px`);
+    };
+    const observer = new ResizeObserver(syncHeight);
+    observer.observe(bar);
+    syncHeight();
+    return () => {
+      observer.disconnect();
+      root.style.removeProperty('--sticky-cta-height');
+    };
+  }, [visible, isContactPage]);
+
+  if (isContactPage || !visible) {
     return null;
   }
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 z-30 lg:hidden transition-transform duration-300 ${
-        visible ? 'translate-y-0' : 'translate-y-full'
-      }`}
+      ref={barRef}
+      id="sticky-consultation"
+      className="fixed inset-x-0 bottom-0 z-30 lg:hidden"
     >
-      <div className="bg-navy/95 backdrop-blur-lg border-t border-gold/20 px-4 py-3 safe-area-bottom">
+      <div className="border-t border-gold/20 bg-navy px-4 pt-3 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))]">
         <ConversionLink
           href="/contact"
           eventName="sticky_cta_click"

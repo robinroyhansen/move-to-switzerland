@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "moving-to-lucerne",
+    "title": "Moving to Lucerne: city, lake and family life",
+    "description": "Plan a move to Lucerne canton. Compare city and suburban addresses, school journeys, registration, housing and the questions to resolve before signing a lease.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-nidwalden",
+    "title": "Moving to Nidwalden: Hergiswil, Stans and beyond",
+    "description": "Compare places to live in Nidwalden, including Hergiswil, Stans and Stansstad. Plan school access, housing, local registration and everyday German.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-obwalden",
+    "title": "Moving to Obwalden: Sarnen, lakeside homes and Engelberg",
+    "description": "A practical Obwalden relocation guide covering Sarnen, Sachseln, Alpnach and Engelberg, with school, travel, housing and local-service questions.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-vaud",
+    "title": "Moving to Vaud: Lausanne, Nyon and the Riviera",
+    "description": "Compare Lausanne, Nyon, Vevey and Montreux for a move to Vaud. Understand local arrival steps, French-language schooling and practical housing decisions.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-geneva",
+    "title": "Moving to Geneva: housing, work location and family setup",
+    "description": "Plan a move to Geneva with practical guidance on neighbourhood choices, international-organisation versus ordinary residence routes, schools and housing.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-ticino",
+    "title": "Moving to Ticino: Lugano, Locarno and Bellinzona",
+    "description": "Explore a move to Italian-speaking Ticino. Compare Lugano, Locarno and Bellinzona, check local arrival procedures and plan schools, language and travel.",
+    "category": "cantons"
+  },
+  {
+    "slug": "moving-to-basel",
+    "title": "Moving to Basel: Basel-Stadt or Basel-Landschaft?",
+    "description": "Compare Basel-Stadt and Basel-Landschaft for relocation. Plan around the actual workplace, municipality, school, housing and cross-border questions.",
+    "category": "cantons"
+  },
+  {
+    "slug": "zug-baar-cham",
+    "title": "Zug vs Baar vs Cham: choosing where to live",
+    "description": "Compare Zug, Baar and Cham for a family move. Check school campuses, actual commutes, housing, registration contacts and the costs that change by address.",
+    "category": "comparisons"
+  },
+  {
+    "slug": "kuessnacht-pfaeffikon-schwyz",
+    "title": "Küssnacht vs Pfäffikon SZ vs Schwyz: a local comparison",
+    "description": "Compare Küssnacht, Pfäffikon SZ and Schwyz town for relocation. Understand municipality names, travel, school questions, housing and registration.",
+    "category": "comparisons"
+  },
+  {
+    "slug": "public-vs-international-schools",
+    "title": "Public or International School in Switzerland? A Family Guide",
+    "description": "Compare Swiss public and international schools by language support, curriculum, admissions, childcare, commute and total cost before choosing your home.",
+    "category": "planning"
+  },
+  {
+    "slug": "first-30-days-in-switzerland",
+    "title": "Your First 30 Days in Switzerland: A Practical Arrival Plan",
+    "description": "Plan the first month after moving to Switzerland, including local registration, insurance, school, banking, household services and outstanding paperwork.",
+    "category": "planning"
+  },
+  {
+    "slug": "relocation-service-costs",
+    "title": "Swiss Relocation Services: Scope, Fees and What to Ask",
+    "description": "Understand relocation-service costs, what to include in a written scope and how to separate advisory fees, third-party charges and household moving expenses.",
+    "category": "planning"
+  }
+]

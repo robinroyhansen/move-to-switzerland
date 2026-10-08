@@ -1,3 +1,4 @@
+import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ItemListSchema, ServiceSchema, getAreaCountries } from '@/components/StructuredData';
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const copy = getConversionCopy(locale);
 
-  return {
+  return withPageSeo({
     title: copy.home.pathsTitle,
     description: copy.home.pathsText,
     alternates: {
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale,
     },
-  };
+  }, locale, `/relocation`);
 }
 
 export default async function RelocationHubPage({ params }: Props) {

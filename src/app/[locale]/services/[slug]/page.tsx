@@ -1,3 +1,4 @@
+import { withPageSeo } from '@/lib/seo';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -13,6 +14,9 @@ import {
   type ServiceKey,
 } from '@/lib/services';
 import { locales } from '@/i18n/config';
+import { getAdvisoryCopy, serviceGuides, type AdvisoryCopy } from '@/lib/advisory';
+import { PlanningLinks } from '@/components/PlanningLinks';
+import { SourceNotes } from '@/components/SourceNotes';
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -37,10 +41,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const t = await getTranslations({ locale, namespace: 'services' });
 
-  const title = t(`items.${key}.title`);
+  const title = t.has(`items.${key}.seoTitle`)
+    ? t(`items.${key}.seoTitle`)
+    : `${t(`items.${key}.title`)} · ${getAreaCountries(locale).switzerland}`;
   const description = t(`items.${key}.description`);
 
-  return {
+  return withPageSeo({
     title,
     description,
     openGraph: {
@@ -49,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale,
     },
-  };
+  }, locale, `/services/${slug}`);
 }
 
 export default function ServiceDetailPage({
@@ -69,16 +75,22 @@ async function ServiceDetailContent({
   const key = serviceSlugToKey[slug];
   if (!key) notFound();
 
-  return <ServicePageInner serviceKey={key} locale={locale} />;
+  const copy = await getAdvisoryCopy(locale);
+  return <ServicePageInner serviceKey={key} locale={locale} copy={copy} />;
 }
 
-function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; locale: string }) {
+function ServicePageInner({ serviceKey, locale, copy }: { serviceKey: ServiceKey; locale: string; copy: AdvisoryCopy }) {
   const t = useTranslations();
   const currentIndex = serviceKeys.indexOf(serviceKey);
   const areaCountries = getAreaCountries(locale);
 
   const prevKey = currentIndex > 0 ? serviceKeys[currentIndex - 1] : null;
   const nextKey = currentIndex < serviceKeys.length - 1 ? serviceKeys[currentIndex + 1] : null;
+  const priority = ['residency', 'lumpSum', 'assetStructuring'].includes(serviceKey);
+  const faqs = t.raw('faq.items') as Array<{ question: string; answer: string }>;
+  const title = t.has(`services.items.${serviceKey}.seoTitle`)
+    ? t(`services.items.${serviceKey}.seoTitle`)
+    : t(`services.items.${serviceKey}.title`);
 
   return (
     <>
@@ -112,7 +124,7 @@ function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; loca
           </div>
           <div>
             <h1 className="mb-5 font-serif text-3xl font-semibold text-white luxury-heading sm:text-4xl md:text-5xl">
-              {t(`services.items.${serviceKey}.title`)}
+              {title}
             </h1>
             <p className="max-w-2xl text-lg font-light leading-relaxed text-text-light/70">
               {t(`services.items.${serviceKey}.description`)}
@@ -130,10 +142,65 @@ function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; loca
               <h2 className="font-serif text-xl sm:text-2xl text-navy font-semibold mb-5">
                 {t('services.overview')}
               </h2>
-              <p className="text-charcoal/60 leading-relaxed text-base">
+              <p className="max-w-[72ch] whitespace-pre-line text-charcoal/75 leading-relaxed text-base">
                 {t(`services.items.${serviceKey}.detail`)}
               </p>
             </div>
+            {priority && (
+              <div className="max-w-[72ch] space-y-9 text-base leading-relaxed text-charcoal/75">
+                {serviceKey === 'lumpSum' && (
+                  <>
+                    <section>
+                      <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{t('insights.articles.swiss-lump-sum-taxation-guide.sections.1.heading')}</h2>
+                      <p>{copy.taxBase}</p>
+                    </section>
+                    <section>
+                      <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{t('nav.cantons')}</h2>
+                      <p>{copy.taxCantons}</p>
+                    </section>
+                  </>
+                )}
+                <section>
+                  <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{copy.labels[4]}</h2>
+                  <p>{copy.documents}</p>
+                  {serviceKey === 'lumpSum' && <p className="mt-4">{copy.taxProcess}</p>}
+                  {serviceKey === 'residency' && <p className="mt-4">{copy.permitFamily}</p>}
+                </section>
+                <section>
+                  <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{copy.labels[5]}</h2>
+                  <p>{copy.delivery}</p>
+                </section>
+                <section>
+                  <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{copy.labels[6]}</h2>
+                  <p>{copy.timing}</p>
+                </section>
+                <section>
+                  <h2 className="mb-3 font-serif text-2xl font-semibold text-navy">{copy.labels[7]}</h2>
+                  <details className="border-b border-navy/10 py-4">
+                    <summary className="cursor-pointer font-medium text-navy">{faqs[5].question}</summary>
+                    <p className="mt-3">{copy.permitTypes} {serviceKey === 'residency' ? copy.permitSettlement : copy.permitNonEU}</p>
+                  </details>
+                  <details className="border-b border-navy/10 py-4">
+                    <summary className="cursor-pointer font-medium text-navy">{serviceKey === 'residency'
+                      ? t('insights.articles.swiss-residency-permits-guide.sections.7.heading')
+                      : faqs[1].question}</summary>
+                    <p className="mt-3">{serviceKey === 'residency' ? copy.permitCitizen : copy.taxEligibility}</p>
+                  </details>
+                </section>
+                <SourceNotes copy={copy} locale={locale} sources={serviceKey === 'residency'
+                  ? ['eu', 'work', 'settlement', 'citizenship']
+                  : ['tax', 'tax2026']} />
+              </div>
+            )}
+            {!priority && <SourceNotes copy={copy} locale={locale} sources={
+              serviceKey === 'companyFormation' ? ['company', 'companyLLC', 'work']
+                : serviceKey === 'familyOffice' ? ['portfolio', 'company', 'companyLLC']
+                : serviceKey === 'directorship' ? ['company', 'companyLLC']
+                : serviceKey === 'realEstate' ? ['property']
+                : serviceKey === 'health' ? ['insurance']
+                : ['education', 'zis', 'iszl']
+            } />}
+            <PlanningLinks locale={locale} guides={serviceGuides[serviceKey]} destinations />
           </div>
 
           {/* Service Navigation */}

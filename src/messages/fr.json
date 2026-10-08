@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "S'installer en Suisse — Conseil Premium en Relocalisation",
-    "description": "Un service spécialisé de relocalisation et de conseil stratégique pour les particuliers et les familles fortunées souhaitant s'établir en Suisse."
+    "title": "Installation en Suisse pour particuliers fortunés et entrepreneurs",
+    "description": "Conseil en installation en Suisse pour les particuliers fortunés (HNWI), les entrepreneurs et les family offices."
   },
   "nav": {
     "home": "Accueil",
     "services": "Nos services",
     "whySwitzerland": "Pourquoi la Suisse",
     "cantons": "Cantons suisses",
-    "caseStudies": "Études de cas",
+    "caseStudies": "À qui nous nous adressons",
     "about": "À propos",
     "contact": "Nous contacter",
     "privacy": "Confidentialité",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "headline": "Votre chemin vers la Suisse",
-    "subheadline": "Un service spécialisé de relocalisation et de conseil stratégique pour les particuliers et les familles fortunées",
+    "subheadline": "Conseil en installation en Suisse pour les particuliers fortunés (HNWI), les entrepreneurs et les family offices. Coordonnez séjour, questions fiscales, préparation bancaire et vie familiale à Zurich, Zoug, Schwyz et ailleurs en Suisse.",
     "cta": "Réserver une consultation confidentielle"
   },
   "cta": {
@@ -31,142 +31,142 @@
   },
   "whySwitzerland": {
     "title": "Pourquoi la Suisse",
-    "subtitle": "Une nation bâtie sur la stabilité, la discrétion et l'excellence",
+    "subtitle": "Un endroit pour évaluer votre famille, votre patrimoine et votre entreprise",
     "stats": {
       "millionaires": {
-        "value": "142 000",
-        "label": "Millionnaires se relocalisant dans le monde en 2025 — un record historique"
+        "value": "26",
+        "label": "Cantons à évaluer pour la résidence, la vie familiale et l'entreprise"
       },
       "inflow": {
-        "value": "+3 000",
-        "label": "Entrées nettes de millionnaires en Suisse en 2025"
+        "value": "3",
+        "label": "Nos bureaux : Zurich, Zug et Schwyz"
       },
       "neutrality": {
-        "value": "500+",
-        "label": "Années de neutralité politique"
+        "value": "2012",
+        "label": "Aider les gens à déménager en Suisse depuis 2012"
       },
       "banking": {
-        "value": "N°1",
-        "label": "Le système de banque privée le plus robuste au monde"
+        "value": "Ensemble",
+        "label": "Coordonner la préparation bancaire avec le mouvement plus large"
       },
       "wealthTax": {
-        "value": "78 %",
-        "label": "Ont voté contre l'impôt sur la fortune (novembre 2025)"
+        "value": "Localement",
+        "label": "Comparez la position fiscale dans votre municipalité choisie"
       },
       "safety": {
-        "value": "Zéro",
-        "label": "Historique de confiscation d'actifs ou d'alliances militaires"
+        "value": "Votre plan",
+        "label": "Résidence, travail, écoles et logements considérés ensemble"
       }
     }
   },
   "whySwitzerlandPage": {
     "meta": {
-      "title": "Pourquoi la Suisse — Première destination mondiale pour le patrimoine, la sécurité et la qualité de vie",
-      "description": "Découvrez pourquoi la Suisse est la juridiction la plus fiable au monde pour la préservation de la fortune, la sécurité familiale et la qualité de vie. Plus de 500 ans de neutralité."
+      "title": "Pourquoi Move to Switzerland ? HNWI & Planification des entrepreneurs",
+      "description": "Évaluer la Suisse pour votre famille et votre entreprise: résidence, impôts, banques, écoles, soins de santé et les compromis pratiques avant un déménagement."
     },
     "hero": {
       "title": "Pourquoi la Suisse",
-      "subtitle": "La première destination mondiale pour la préservation du patrimoine, la sécurité et la qualité de vie",
-      "badge": "Le guide de référence"
+      "subtitle": "Évaluer l'adéquation de votre famille, de votre patrimoine privé et de votre entreprise",
+      "badge": "Un guide pratique de décision"
     },
     "neutrality": {
-      "title": "Neutralité politique",
-      "subtitle": "Un sanctuaire de stabilité dans un monde incertain",
-      "stat1": "500+",
-      "stat1Label": "Années de neutralité continue",
-      "stat2": "Zéro",
-      "stat2Label": "Alliances militaires",
-      "stat3": "Zéro",
-      "stat3Label": "Historique de confiscation d'actifs",
-      "p1": "La Suisse maintient sa neutralité politique depuis plus de 500 ans — la plus longue période de toute nation dans l'histoire moderne. Elle n'est membre ni de l'OTAN, ni de l'UE, ni d'aucune alliance militaire. Cette neutralité n'est pas passive : c'est une politique délibérée, inscrite dans la Constitution, qui a survécu à deux guerres mondiales, à la guerre froide et à tous les bouleversements géopolitiques de l'ère moderne.",
-      "p2": "Pour les détenteurs de capitaux, cela se traduit par une garantie inégalée : la Suisse n'a jamais confisqué d'actifs privés, n'a jamais imposé de prélèvements d'urgence sur la fortune et n'a jamais participé à l'instabilité politique qui compromet le patrimoine personnel dans d'autres juridictions. Vos actifs en Suisse sont protégés par un cadre juridique et politique établi depuis un demi-millénaire."
+      "title": "Une base familiale à long terme",
+      "subtitle": "Commencez par la vie que vous comptez construire",
+      "stat1": "Sommaire",
+      "stat1Label": "Choisissez une municipalité autour de la vie quotidienne",
+      "stat2": "Travail",
+      "stat2Label": "Évaluer les activités prévues pour chaque adulte",
+      "stat3": "Famille",
+      "stat3Label": "Coordonner le poste de résidence de chaque personne",
+      "p1": "Dans le cas d'une famille à valeur élevée, la décision d'implantation dépasse la comparaison fiscale. Considérez où les enfants vont étudier, à quelle fréquence vous devez voyager, quelles langues le ménage utilise et où les responsabilités d'affaires restent. Une liste restreinte utile commence par ces faits.",
+      "p2": "Transformer les préférences générales en une combinaison maison, école et lieu de travail qui peut être testé. Visitez la municipalité, essayez des trajets quotidiens et décidez de ce qui ferait un déménagement par étapes préférable à déplacer tout le monde à la fois."
     },
     "banking": {
-      "title": "Banque et gestion de patrimoine",
-      "subtitle": "Le système de banque privée le plus fiable au monde",
-      "stat1": "N°1",
-      "stat1Label": "Centre mondial de banque privée",
-      "stat2": "7,9 T CHF",
-      "stat2Label": "Actifs sous gestion",
-      "stat3": "243",
-      "stat3Label": "Banques agréées",
-      "p1": "La Suisse gère environ 7,9 billions de CHF d'actifs, ce qui représente près de 25 % de l'ensemble de la fortune privée transfrontalière mondiale. Le système bancaire suisse est réglementé par la FINMA, l'un des régulateurs financiers les plus rigoureux au monde, garantissant que votre patrimoine est détenu selon les normes de conformité et de sécurité les plus élevées.",
-      "p2": "Les banques privées suisses offrent un niveau de gestion de patrimoine personnalisé inégalé. De la planification successorale multigénérationnelle aux mandats d'investissement sophistiqués, la profondeur de l'expertise disponible à Zurich, Genève et Zoug est tout simplement sans équivalent. Pour les familles transférant leur fortune par-delà les frontières, la Suisse offre l'infrastructure institutionnelle et la discrétion que d'autres juridictions ne peuvent garantir."
+      "title": "Coordination bancaire et de la richesse",
+      "subtitle": "Choisissez des services autour de vos actifs et de vos besoins de rapport",
+      "stat1": "Objet",
+      "stat1Label": "Paiements, garde, conseils ou gestion",
+      "stat2": "Preuves",
+      "stat2Label": "Préparer les registres de propriété et de source de richesse",
+      "stat3": "Termes",
+      "stat3Label": "Comparer les frais et le mandat proposé",
+      "p1": "Séparez les emplois que vous avez besoin d'une banque pour effectuer. La richesse personnelle, une société d'exploitation et un bureau familial peuvent exiger des comptes, des rapports et des relations différents. Demandez aux institutions de confirmer si elles peuvent considérer votre résidence, votre statut fiscal et les actifs proposés.",
+      "p2": "Préparer la preuve de la façon dont la richesse a été accumulée et d'où viendront les transferts prévus. Les banques prennent leurs propres décisions d'acceptation. La coordination de la réinstallation aide à séquencer la préparation et les introductions avec le déménagement plus large; elle ne garantit pas un compte ou un résultat d'investissement."
     },
     "education": {
-      "title": "Système éducatif",
-      "subtitle": "Un apprentissage de classe mondiale pour la prochaine génération",
-      "stat1": "Haut 3",
-      "stat1Label": "Universités mondiales (ETH Zurich)",
-      "stat2": "50+",
-      "stat2Label": "Écoles internationales",
-      "stat3": "N°1",
-      "stat3Label": "Indice d'innovation (13 années consécutives)",
-      "p1": "La Suisse abrite certaines des meilleures institutions éducatives au monde. L'ETH Zurich figure régulièrement parmi les trois meilleures universités au niveau mondial, tandis que le réseau du pays, comptant plus de 50 écoles internationales — dont l'Institut Le Rosey, le Lyceum Alpinum de Zuoz et l'École internationale de Zoug et Lucerne — offre une éducation exceptionnelle aux familles expatriées.",
-      "p2": "Le système éducatif suisse combine rigueur académique et immersion multilingue. Les enfants fréquentant les écoles internationales maîtrisent plusieurs langues tout en suivant les programmes du Baccalauréat International (IB), britanniques ou américains. Pour les familles venant du Moyen-Orient, cela représente une opportunité d'offrir à leurs enfants une éducation véritablement mondiale dans l'un des environnements les plus sûrs de la planète."
+      "title": "Choix scolaire pour les familles internationales",
+      "subtitle": "Faire correspondre le programme, la langue et le voyage à l'enfant",
+      "stat1": "Public",
+      "stat1Label": "Explorer le système scolaire local",
+      "stat2": "internationaux relatifs",
+      "stat2Label": "Vérifiez le programme et les lieux disponibles",
+      "stat3": "Campus",
+      "stat3Label": "Testez le voyage pour la classe enfant",
+      "p1": "Comparez l'éducation publique et internationale autour de vos enfants de l'âge, les études actuelles, les besoins linguistiques et la durée probable de séjour. L'enseignement public local peut favoriser l'intégration; un programme international peut convenir à une famille qui maintient la continuité entre les pays. Demandez aux écoles quel soutien est disponible.",
+      "p2": "Confirmez les admissions et le campus correct avant de choisir une maison. Inclure les voyages, les arrangements après l'école et tout soutien à l'apprentissage dans la comparaison. La réputation d'une école n'établit pas la disponibilité, l'aptitude pour un enfant individuel ou l'admission future à l'université."
     },
     "healthcare": {
-      "title": "Santé",
-      "subtitle": "Parmi les meilleurs systèmes de santé au monde",
-      "stat1": "N°1",
-      "stat1Label": "Qualité des soins en Europe",
-      "stat2": "4,3",
-      "stat2Label": "Médecins pour 1 000 habitants",
-      "stat3": "83,4",
-      "stat3Label": "Espérance de vie (années)",
-      "p1": "Le système de santé suisse est régulièrement classé parmi les meilleurs au monde. Avec une couverture universelle obligatoire, des hôpitaux de premier plan et une densité de médecins bien supérieure à celle de la plupart des nations, les résidents ont accès à des soins médicaux exceptionnels. Des centres majeurs tels que l'Hôpital universitaire de Zurich et Hirslanden proposent des traitements de pointe et des programmes de santé pour cadres.",
-      "p2": "Pour les familles qui s'installent, la Suisse offre la tranquillité d'esprit de savoir que la santé de leurs proches est entre les meilleures mains possibles. Des programmes de bilan de santé pour dirigeants, des réseaux de médecins spécialistes et des services médicaux multilingues fluides garantissent que la santé n'est jamais une préoccupation."
+      "title": "Préparation des soins de santé",
+      "subtitle": "Planifier la continuité des soins dans le cadre du déménagement",
+      "stat1": "Couverture",
+      "stat1Label": "Confirmer les droits d'assurance et les dates de début",
+      "stat2": "Soins",
+      "stat2Label": "Prévoir la continuité du traitement en cours",
+      "stat3": "Budget",
+      "stat3Label": "Comparer les primes et les frais personnels",
+      "p1": "La résidence suisse impose normalement l'obligation d'obtenir une assurance maladie, avec des exceptions en fonction des circonstances. Confirmer le poste de chaque membre de la famille, la date limite et la date d'entrée en vigueur par l'intermédiaire de l'autorité ou de l'assureur compétent. Inclure les primes et le partage des coûts personnels dans le budget des ménages.",
+      "p2": "Avant l'arrivée, identifier les ordonnances existantes, le traitement continu et les dossiers dont un nouveau clinicien aura besoin. Demandez aux fournisseurs la disponibilité des rendez-vous et les besoins linguistiques. La couverture et les décisions cliniques appartiennent aux assureurs et aux professionnels de la santé."
     },
     "tax": {
-      "title": "Système fiscal",
-      "subtitle": "Compétitif, transparent et protégé démocratiquement",
-      "stat1": "78 %",
-      "stat1Label": "Ont voté contre l'impôt sur la fortune (nov. 2025)",
-      "stat2": "26",
-      "stat2Label": "Cantons en compétition pour les résidents",
-      "stat3": "11,9 %",
-      "stat3Label": "Taux d'impôt sur les sociétés le plus bas",
-      "p1": "Le système fiscal suisse bénéficie d'une caractéristique unique : la concurrence cantonale. Avec 26 cantons fixant leurs propres taux d'imposition, les particuliers et les entreprises peuvent choisir des emplacements en adéquation avec leurs objectifs financiers. Des cantons comme Zoug et Schwytz offrent des taux d'imposition parmi les plus bas du monde développé.",
-      "p2": "Le régime de l'imposition d'après la dépense (forfait fiscal) permet aux ressortissants étrangers éligibles d'être imposés sur leurs dépenses courantes plutôt que sur leurs revenus mondiaux — un avantage significatif pour les personnes fortunées. En novembre 2025, les citoyens suisses ont voté à 78 % contre l'introduction d'un impôt fédéral sur la fortune, réaffirmant l'engagement du pays à protéger le patrimoine privé par mandat démocratique."
+      "title": "Planification fiscale des particuliers et des entreprises",
+      "subtitle": "Comparer des scénarios complets avec des conseillers qualifiés",
+      "stat1": "26",
+      "stat1Label": "Systèmes cantonaux à considérer",
+      "stat2": "Ménage",
+      "stat2Label": "Modèle de revenu, d'actif et de situation",
+      "stat3": "Entreprises",
+      "stat3Label": "Évaluer séparément les opérations et la gestion",
+      "p1": "Comparer les mêmes faits dans les municipalités présélectionnées : revenu du ménage, actifs, situation familiale et plan d'affaires réel. La résidence personnelle et l'emplacement de l'entreprise doivent être analysés séparément. Demander un calcul écrit avec des hypothèses et l'année d'imposition applicable plutôt que de choisir parmi un taux global.",
+      "p2": "L’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas."
     },
     "qualityOfLife": {
-      "title": "Qualité de vie",
-      "subtitle": "Sécurité, infrastructure et beauté naturelle sans compromis",
-      "stat1": "N°1",
-      "stat1Label": "Qualité de vie mondiale",
-      "stat2": "Haut 3",
-      "stat2Label": "Pays les plus sûrs au monde",
-      "stat3": "99,9 %",
-      "stat3Label": "Ponctualité des transports publics",
-      "p1": "La Suisse est systématiquement classée au premier rang mondial pour la qualité de vie. Des paysages alpins préservés aux villes impeccablement entretenues, chaque aspect de la vie quotidienne reflète un engagement envers l'excellence. Le système de transport public — reliant chaque village, bourgade et ville — fonctionne avec une précision légendaire.",
-      "p2": "La sécurité n'est pas qu'une simple statistique en Suisse ; c'est une expérience vécue. La criminalité violente est quasi inexistante, la sécurité personnelle est une évidence, et l'infrastructure sociale — des parcs aux espaces publics en passant par les institutions culturelles — est maintenue au plus haut niveau. Pour les familles issues de régions en proie à des problèmes de sécurité, la Suisse offre une transformation radicale de la qualité de vie quotidienne."
+      "title": "Tester la vie quotidienne",
+      "subtitle": "Les détails pratiques déterminent si un emplacement convient",
+      "stat1": "Gestion scolaire",
+      "stat1Label": "Visite à l'époque où vous voyagez",
+      "stat2": "Jour ouvrable",
+      "stat2Label": "Vérifiez les trajets au bureau et à l'aéroport",
+      "stat3": "Week-ends",
+      "stat3Label": "Explorez les endroits que votre famille utiliserait",
+      "p1": "Utilisez une visite de dépistage pour tester la semaine ordinaire. Regardez les boutiques, les transports, les activités, les itinéraires scolaires et l'accès aux services sur lesquels vous comptez. Comparez un appartement près du travail avec une maison plus grande qui nécessite plus de voyage.",
+      "p2": "Budget à l'aide des demandes de renseignements sur le logement, des renseignements scolaires et des devis d'assurance. Garder les dépôts, les coûts récurrents et les frais de réinstallation ponctuels séparés. Le planificateur de budget de relocalisation vous permet de comparer Zurich, Zug et Schwyz en utilisant vos propres chiffres."
     },
     "business": {
-      "title": "Environnement des affaires",
-      "subtitle": "Où le commerce mondial rencontre la précision suisse",
-      "stat1": "1-2 semaines",
-      "stat1Label": "Délai de création d'entreprise",
-      "stat2": "N°1",
-      "stat2Label": "Protection de la propriété intellectuelle",
-      "stat3": "120+",
-      "stat3Label": "Accords commerciaux bilatéraux",
-      "p1": "La Suisse offre l'un des environnements les plus favorables aux entreprises au monde. La création d'une société peut être finalisée en une à deux semaines, la protection de la propriété intellectuelle est la plus forte au monde, et le réseau de plus de 120 accords commerciaux bilatéraux permet un accès fluide au marché unique de l'UE et au-delà.",
-      "p2": "La main-d'œuvre suisse figure parmi les plus instruites et productives au monde, avec une solide tradition de discrétion et de professionnalisme. Pour les entrepreneurs et les family offices établissant des opérations en Suisse, la combinaison de stabilité politique, de certitude juridique, de protection de la propriété intellectuelle et d'accès au marché constitue un fondement inégalé pour la croissance des affaires."
+      "title": "Une base suisse pour les entrepreneurs",
+      "subtitle": "Connectez le modèle d'exploitation au mouvement du fondateur",
+      "stat1": "Activité",
+      "stat1Label": "Définir ce qui se passera en Suisse",
+      "stat2": "Autorisation",
+      "stat2Label": "Confirmer le droit de vivre et de travailler",
+      "stat3": "Gouvernance",
+      "stat3Label": "Assigner les responsabilités avant le lancement",
+      "p1": "Un déménagement d'entreprise commence par les activités proposées : gestion, employés, clients, contrats, actifs et financement. Demandez aux spécialistes de comparer les structures appropriées et les implications transfrontalières. Une entreprise peut être constituée sans résoudre toutes les questions d'immigration, de fiscalité, de banque ou de licence.",
+      "p2": "Avant une sortie ou une restructuration, coordonner les conseillers dans le pays de départ et en Suisse. Consigner les travaux prévus après l'opération, conserver la propriété et les paiements différés. Construisez la famille autour de faits évalués et de dépendances confirmées."
     },
     "trustStrip": [
-      "500+ ans de neutralité",
-      "N° 1 de la banque privée",
-      "78% ont rejeté l’impôt sur la fortune"
+      "Aider les gens à bouger depuis 2012",
+      "Bureaux à Zurich, Zug et Schwyz",
+      "Planification familiale et d'entreprise ensemble"
     ]
   },
   "cantonsPage": {
     "meta": {
-      "title": "Comparer les cantons suisses — Zurich vs Zoug vs Schwytz pour la relocalisation",
-      "description": "Comparaison interactive des cantons de Zurich, Zoug et Schwytz. Comparez les taux d'imposition, le style de vie, les écoles et l'immobilier."
+      "title": "Zurich, Zug ou Schwyz ? Comparez les cantons pour un déménagement suisse",
+      "description": "Comparez Zurich, Zug et Schwyz pour la relocalisation familiale et l'entrepreneuriat HNW : planification fiscale au niveau des municipalités, écoles, entreprises et logements."
     },
     "hero": {
       "title": "Comparaison des cantons",
-      "subtitle": "Choisissez le canton suisse idéal pour votre famille, votre entreprise et votre style de vie"
+      "subtitle": "Comparez une vraie maison, école et entreprise pour votre déménagement suisse"
     },
     "filter": {
       "all": "Tous les cantons",
@@ -175,7 +175,7 @@
       "schwyz": "Schwytz"
     },
     "sections": {
-      "taxRates": "Taux d'imposition",
+      "taxRates": "Planification fiscale",
       "lifestyle": "Style de vie et caractère",
       "schools": "Écoles internationales",
       "banking": "Infrastructure bancaire",
@@ -184,103 +184,102 @@
     },
     "zurich": {
       "name": "Zurich",
-      "tagline": "Ville mondiale, capitale culturelle",
+      "tagline": "Vie urbaine et relations d'affaires",
       "tax": {
-        "corporate": "Taux effectif sur les sociétés d'environ 19,7 %",
-        "personal": "Jusqu'à 39,8 % de taux marginal (combiné)",
-        "lumpSum": "Base imposable minimale de 400 000 CHF+"
+        "corporate": "Modélisez les activités réelles de l'entreprise et la municipalité proposée.",
+        "personal": "Comparer l'impôt sur le revenu et la fortune pour le ménage; utiliser la municipalité prévue.",
+        "lumpSum": "Zürich a aboli la fiscalité cantonale fondée sur les dépenses en 2010."
       },
       "lifestyle": {
         "character": "Cosmopolite, riche culturellement, urbain",
-        "international": "Grande communauté internationale (plus de 30 % de résidents étrangers)",
+        "international": "Une ville internationale et les municipalités environnantes avec différentes routines quotidiennes.",
         "culture": "Opéra, galeries d'art, gastronomie étoilée, vie au bord du lac",
-        "transport": "Aéroport international, excellentes liaisons ferroviaires"
+        "transport": "Vérifiez le trajet de la maison spécifique à l'aéroport, bureau et école."
       },
       "schools": {
         "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (à proximité)"
+          "École intercommunautaire Zurich (Zumikon)",
+          "École internationale de Zurich (vérifier le campus pour la classe d'enfant)",
+          "SIS Zürich-Wollishofen (maternelle et primaire)"
         ]
       },
-      "bankingInfo": "Siège d'UBS, Julius Bär et de dizaines de banques privées de gestion de fortune. Services bancaires complets pour crypto-actifs disponibles (SEBA, Sygnum).",
+      "bankingInfo": "Comparez les services bancaires privés, les services bancaires aux entreprises et les services de conseillers existants. Confirmer directement les critères de client et les arrangements de service de chaque institution.",
       "realEstate": {
-        "range": "15 000–35 000 CHF/m² (centre-ville), 8 000–15 000 CHF/m² (banlieue du lac de Zurich)",
-        "lexKoller": "La Lex Koller s'applique : les résidents non-suisses ont besoin d'une autorisation. Les détenteurs de permis B peuvent acquérir une résidence principale."
+        "range": "Prix une liste courte actuelle des maisons de ville, de bord de lac et de banlieue; inclure les frais de navette, de financement et de transaction.",
+        "lexKoller": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer."
       },
       "bestFor": {
-        "profile": "Le professionnel urbain, l'entrepreneur numérique ou la famille recherchant une culture et une connectivité de classe mondiale",
-        "ideal": "Idéal pour : entrepreneurs crypto, cadres dirigeants, familles appréciant le style de vie urbain"
+        "profile": "Entrepreneurs et familles qui privilégient l'accès à une ville, à des lieux de travail et à des options éducatives.",
+        "ideal": "Comparez la ville de Zurich avec les communes autour de votre école ou lieu de travail choisi."
       }
     },
     "zug": {
       "name": "Zoug",
-      "tagline": "Havre fiscal, vallée de la crypto",
+      "tagline": "Base d'affaires et vie au bord du lac",
       "tax": {
-        "corporate": "Taux effectif sur les sociétés d'environ 11,9 %",
-        "personal": "Jusqu'à 22,4 % de taux marginal (combiné)",
-        "lumpSum": "Base imposable minimale de 250 000 CHF+"
+        "corporate": "Comparez la municipalité proposée, le bénéfice imposable et les opérations suisses réelles.",
+        "personal": "Demander un calcul du ménage comprenant le revenu, les actifs et la municipalité proposée.",
+        "lumpSum": "Pour l’année fiscale 2026, l’assiette minimale fédérale est de CHF 435 000. Il ne s’agit pas de l’impôt à payer. Les dépenses mondiales du ménage et les minimums légaux liés au logement doivent aussi être pris en compte. Un calcul de contrôle distinct peut augmenter l’impôt sur certains revenus suisses et étrangers bénéficiant d’un allègement conventionnel. Les règles cantonales sur le revenu et la fortune nécessitent un calcul séparé."
       },
       "lifestyle": {
         "character": "Compact, fortuné, au bord du lac, discret",
-        "international": "Très international (plus de 35 % de résidents étrangers, forte communauté d'expatriés)",
+        "international": "Une communauté d'affaires internationale à travers Zug, Baar, Cham et les municipalités voisines.",
         "culture": "Ville élégante au bord du lac, proche des montagnes et de Zurich",
-        "transport": "À 30 minutes de l'aéroport de Zurich, excellent réseau ferroviaire"
+        "transport": "Vérifiez les trajets porte à porte; Zug ville, Baar et Cham sont des points de départ différents."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (ISZL)",
+          "ISZL (campus de Baar et Hünenberg; contrôle de l'emplacement des classes)",
           "Institut Montana Zugerberg",
-          "Swiss International School"
+          "SIS Rotkreuz-Zug"
         ]
       },
-      "bankingInfo": "Écosystème Crypto Valley avec des banques spécialisées en blockchain. Banque privée traditionnelle via les agences locales des grandes banques suisses. Forte concentration de family offices.",
+      "bankingInfo": "Évaluer l'accès aux services bancaires et aux conseillers professionnels autour des besoins réels de l'entreprise. L'activité d'actif numérique et les structures à l'étranger exigent des contrôles d'acceptation propres à l'institution.",
       "realEstate": {
-        "range": "12 000–25 000 CHF/m² (ville de Zoug), 8 000–14 000 CHF/m² (villages environnants)",
-        "lexKoller": "La Lex Koller s'applique. Les détenteurs de permis B peuvent acquérir une résidence principale. Zoug impose des exigences locales supplémentaires pour certaines communes."
+        "range": "Demander les listes actuelles dans Zug, Baar et Cham; comparer l'espace, l'état et le budget mensuel complet ou d'acquisition.",
+        "lexKoller": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer."
       },
       "bestFor": {
-        "profile": "L'entrepreneur cherchant une optimisation fiscale, le family office ou le fondateur crypto/fintech recherchant la charge fiscale la plus basse possible",
-        "ideal": "Idéal pour : family offices, demandeurs de forfait fiscal, entrepreneurs technologiques"
+        "profile": "Fondateurs et familles pesant une base d'affaires compacte en fonction des besoins de l'école, du logement et des voyages.",
+        "ideal": "Comparer les activités proposées par l'entreprise séparément de l'adresse familiale."
       }
     },
     "schwyz": {
       "name": "Schwytz",
-      "tagline": "Fortune discrète, sérénité alpine",
+      "tagline": "Communautés de lacs et de montagnes",
       "tax": {
-        "corporate": "Taux effectif sur les sociétés d'environ 14,1 %",
-        "personal": "Jusqu'à 21,3 % de taux marginal (combiné)",
-        "lumpSum": "Base imposable minimale de 200 000 CHF+"
+        "corporate": "Modélisez la municipalité sélectionnée et les faits opérationnels de l'entreprise.",
+        "personal": "Comparer la commune spécifique: un seul taux cantonal ne décrit pas la facture du ménage.",
+        "lumpSum": "Pour l’année fiscale 2026, l’assiette minimale fédérale est de CHF 435 000. Il ne s’agit pas de l’impôt à payer. Les dépenses mondiales du ménage et les minimums légaux liés au logement doivent aussi être pris en compte. Un calcul de contrôle distinct peut augmenter l’impôt sur certains revenus suisses et étrangers bénéficiant d’un allègement conventionnel. Les règles cantonales sur le revenu et la fortune nécessitent un calcul séparé."
       },
       "lifestyle": {
-        "character": "Rural, traditionnel, extrêmement privé",
-        "international": "Plus petite communauté internationale, très discret",
+        "character": "Villes lacustres, communautés de montagne et zones rurales",
+        "international": "Différentes communautés autour du lac de Zurich, du lac de Lucerne et du canton.",
         "culture": "Paysages alpins, vues sur le lac, charme suisse traditionnel",
-        "transport": "À 45 minutes de l'aéroport de Zurich, trajet pittoresque"
+        "transport": "Les voyages d'essai de la municipalité choisie; Küssnacht et Pfäffikon SZ servent différents itinéraires."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (campus de Hünenberg, à proximité)",
-          "Institut Montana (à proximité)",
-          "Stiftsschule Einsiedeln"
+          "ISZL (Baar ou Hünenberg selon le grade; tester le voyage)",
+          "Institut Montana Zugerberg (vérifier les arrangements de voyage ou d'embarquement)",
+          "Stiftsschule Einsiedeln (programme de contrôle et admissions)"
         ]
       },
-      "bankingInfo": "Banque privée via la banque cantonale de Schwytz et les agences des grandes banques. Moins de densité institutionnelle que Zurich ou Zoug, mais idéal pour ceux qui privilégient une confidentialité absolue.",
+      "bankingInfo": "Comparez l'accès bancaire local avec les réunions à Zug ou Zurich. L'emplacement ne remplace pas l'évaluation de la résidence, de la propriété, du statut fiscal et des transactions prévues par la banque.",
       "realEstate": {
-        "range": "6 000–14 000 CHF/m² (bord du lac), 4 000–8 000 CHF/m² (villages à l'intérieur des terres)",
-        "lexKoller": "La Lex Koller s'applique. Tarifs généralement plus accessibles qu'à Zurich ou Zoug avec des taux d'imposition comparables ou inférieurs."
+        "range": "Comparer les logements actuels dans la municipalité donnée; l'accès au lac, la taille et l'état importent plus qu'une fourchette générale de prix canton.",
+        "lexKoller": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer."
       },
       "bestFor": {
-        "profile": "La famille ou le particulier soucieux de sa vie privée, recherchant les impôts les plus bas avec un style de vie alpin et une discrétion totale",
-        "ideal": "Idéal pour : familles multigénérationnelles, personnes privilégiant la confidentialité, retraités"
+        "profile": "Familles et clients privés comparant une base de lac ou de montagne avec un accès pratique au travail et aux écoles.",
+        "ideal": "Liste restreinte Küssnacht, Pfäffikon SZ ou une communauté intérieure utilisant vos voyages quotidiens réels."
       }
     },
     "otherTaxEfficient": {
       "eyebrow": "Shortlist élargie",
-      "title": "Autres cantons fiscalement efficaces à considérer",
-      "subtitle": "Ces cantons ne sont pas les trois points de comparaison principaux, mais ils méritent souvent une place dans une vraie shortlist fiscale et de style de vie.",
-      "taxEfficient": "Fiscalement efficace",
+      "title": "Autres cantons suisses centraux à comparer",
+      "subtitle": "Utilisez les mêmes hypothèses de ménage et d'affaires, puis testez les déplacements scolaires et sur le lieu de travail à chaque endroit.",
+      "taxEfficient": "Comparer localement",
       "labels": {
         "corporate": "Sociétés",
         "personal": "Impôt personnel",
@@ -290,27 +289,27 @@
       "items": [
         {
           "name": "Nidwald",
-          "tagline": "Fiscalité basse, discrétion, proximité de Lucerne et Zurich.",
-          "corporate": "Environ 11,9 % de taux effectif d'imposition des sociétés.",
-          "personal": "Charge fiscale personnelle basse, surtout autour de Hergiswil et Stans.",
-          "schoolAccess": "Bon accès aux options scolaires de Lucerne, Zoug et Zurich.",
-          "bestFor": "Entrepreneurs et family offices qui veulent une efficacité proche de Zoug dans un cadre plus calme."
+          "tagline": "Comparez Stans et Hergiswil autour des voyages quotidiens.",
+          "corporate": "Demander un calcul pour la municipalité et les activités commerciales proposées.",
+          "personal": "Comparer le revenu et la richesse des ménages en utilisant les mêmes hypothèses entre les municipalités.",
+          "schoolAccess": "Vérifiez l'offre publique locale et le trajet vers n'importe quel campus international sélectionné.",
+          "bestFor": "Fondateurs et familles envisageant une base près de Lucerne avec accès à la Suisse Centrale."
         },
         {
           "name": "Obwald",
-          "tagline": "Option alpine et lacustre calme, avec un fort attrait fiscal.",
-          "corporate": "Environ 12,7 % de taux effectif d'imposition des sociétés.",
-          "personal": "Taux personnels attractifs et communes orientées discrétion.",
-          "schoolAccess": "À combiner idéalement avec une planification scolaire à Lucerne ou Zoug.",
-          "bestFor": "Familles recherchant la confidentialité, une fiscalité basse, de l'espace et de la discrétion plutôt que la densité urbaine."
+          "tagline": "Comparez Sarnen et d'autres communautés à l'aide d'une vraie liste de sélection.",
+          "corporate": "Demander un calcul pour la municipalité et les activités commerciales proposées.",
+          "personal": "Comparer le revenu et la richesse des ménages en utilisant les mêmes hypothèses entre les municipalités.",
+          "schoolAccess": "Testez la langue de l'école, les exigences d'admission et de voyage avant de choisir une maison.",
+          "bestFor": "Familles comparant une base alpine ou bord de lac avec le travail et le parcours scolaire."
         },
         {
           "name": "Lucerne",
-          "tagline": "Équilibre entre qualité de vie et efficacité fiscale pratique.",
-          "corporate": "Environ 12,2 % de taux effectif d'imposition des sociétés.",
-          "personal": "Fiscalité personnelle modérée à attractive, avec une infrastructure urbaine plus forte.",
-          "schoolAccess": "Solide infrastructure familiale et accès à l'ISZL ainsi qu'aux écoles de Suisse centrale.",
-          "bestFor": "Familles qui veulent une base agréable avec santé, écoles, accès aéroportuaire et fiscalité encore compétitive."
+          "tagline": "Comparez la ville de Lucerne avec les communes environnantes.",
+          "corporate": "Demander un calcul pour la municipalité et les activités commerciales proposées.",
+          "personal": "Comparer le revenu et la richesse des ménages en utilisant les mêmes hypothèses entre les municipalités.",
+          "schoolAccess": "Évaluer les écoles publiques locales ainsi que le campus et la classe des options internationales.",
+          "bestFor": "Familles et entrepreneurs qui veulent évaluer une base urbaine suisse centrale."
         }
       ]
     },
@@ -318,202 +317,76 @@
       "corporate": "Entreprise",
       "personalIncome": "Impôt sur le revenu",
       "lumpSum": "Forfait fiscal",
-      "priceRange": "Fourchette de prix",
+      "priceRange": "Budget du logement",
       "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
     "meta": {
-      "title": "Études de cas clients — S'installer en Suisse",
-      "description": "Études de cas anonymisées de relocalisations réussies en Suisse. Découvrez comment les entrepreneurs et les familles naviguent vers la Suisse."
-    },
-    "hero": {
-      "title": "Parcours clients",
-      "subtitle": "Études de cas anonymisées issues de relocalisations réelles"
-    },
-    "disclaimer": "Toutes les études de cas sont anonymisées. Les noms, les détails d'identification et les chiffres spécifiques ont été modifiés pour protéger la confidentialité des clients.",
-    "cases": {
-      "techFounder": {
-        "title": "Le fondateur Tech",
-        "subtitle": "De Dubaï à Zoug en 9 mois",
-        "quote": "Nous avions besoin d'une juridiction qui comprenne à la fois notre modèle d'entreprise numérique et les besoins de sécurité à long terme de notre famille. La Suisse a répondu aux deux.",
-        "profile": "Entrepreneur technologique basé à Dubaï, famille de 4 personnes, post-sortie avec événement de liquidité important",
-        "timeline": {
-          "month1": "Consultation initiale et évaluation des cantons",
-          "month2": "Restructuration d'actifs avant immigration",
-          "month3": "Début des négociations pour le forfait fiscal avec les autorités de Zoug",
-          "month4": "Dépôt de la demande de permis B",
-          "month5": "Place en école internationale sécurisée (ISZL)",
-          "month6": "Acquisition immobilière — propriété au bord du lac à Zoug",
-          "month7": "Établissement d'une relation de banque privée suisse",
-          "month8": "Relocalisation de la famille effectuée",
-          "month9": "Structure du family office établie, tous les services opérationnels"
-        },
-        "challenges": [
-          "Structure d'entreprise multijuridictionnelle complexe nécessitant une restructuration",
-          "Avoirs en cryptomonnaies nécessitant une documentation bancaire spécialisée",
-          "Placement scolaire en milieu d'année académique",
-          "Coordination de la transition de double résidence fiscale"
-        ],
-        "services": [
-          "Structuration d'actifs pré-immigration",
-          "Imposition d'après la dépense (Forfait fiscal)",
-          "Résidence et Immigration",
-          "Établissement de Family Office",
-          "Conseil immobilier",
-          "Coordination du style de vie"
-        ],
-        "outcome": "Relocalisation complète de la famille terminée. Forfait fiscal approuvé. Enfants inscrits à l'ISZL. Family office opérationnel avec cadre de gouvernance suisse. Honoraires : non divulgués."
-      },
-      "bankingFamily": {
-        "title": "La famille de banquiers",
-        "subtitle": "De Beyrouth à Schwytz — relocalisation d'urgence",
-        "quote": "Lorsque les banques se sont effondrées, nous avions 72 heures pour prendre une décision. Nos conseillers avaient déjà préparé l'infrastructure suisse.",
-        "profile": "Famille libanaise, 3 générations, important portefeuille bancaire et immobilier, circonstances d'urgence",
-        "timeline": {
-          "week1": "Consultation d'urgence — évaluation immédiate des menaces",
-          "week2": "Lancement d'une demande de permis B accélérée",
-          "month1": "Logement temporaire sécurisé à Schwytz",
-          "month2": "Intégration en banque privée (transfert d'actifs depuis des comptes non libanais)",
-          "month3": "Résidence permanente établie",
-          "month4": "Enfants inscrits en école internationale",
-          "month6": "Restructuration successorale terminée",
-          "month9": "Installation complète — les trois générations sont établies",
-          "month12": "Mandat de conseil permanent — gestion de patrimoine et planification successorale"
-        },
-        "challenges": [
-          "Délai d'urgence nécessitant le traitement parallèle de tous les flux de travail",
-          "Structure successorale multigénérationnelle complexe",
-          "Actifs bloqués dans le système bancaire libanais",
-          "Trois générations avec des besoins de résidence et de soins différents"
-        ],
-        "services": [
-          "Résidence et Immigration",
-          "Banque privée et Gestion de patrimoine",
-          "Conseil immobilier",
-          "Établissement de Family Office",
-          "Conciergerie Santé et Bien-être",
-          "Coordination du style de vie"
-        ],
-        "outcome": "Les trois générations ont été relocalisées avec succès. Relations de banque privée établies. Succession restructurée sous gouvernance suisse. Mandat de planification successorale en cours."
-      },
-      "digitalNomad": {
-        "title": "Le nomade numérique",
-        "subtitle": "De Riyad à Zurich en 4 mois",
-        "quote": "J'avais besoin d'un pays qui traite la crypto comme une classe d'actifs légitime et offre une réelle infrastructure pour bâtir une entreprise. Zurich était le choix évident.",
-        "profile": "Ressortissant saoudien de 34 ans, important portefeuille de cryptomonnaies, trader et investisseur actif, célibataire",
-        "timeline": {
-          "month1": "Consultation, sélection du canton, stratégie de documentation de la fortune crypto",
-          "month15": "Demande de permis B avec documentation détaillée de l'origine de la fortune",
-          "month2": "Création d'entreprise (Sarl suisse) pour les opérations de conseil",
-          "month3": "Configuration bancaire crypto-compatible (Banque SEBA + banque privée traditionnelle)",
-          "month4": "Appartement sécurisé à Zurich, relocalisation complète terminée"
-        },
-        "challenges": [
-          "Documentation de la chaîne de richesse crypto, du minage/achats précoces au portefeuille actuel",
-          "Recherche de partenaires bancaires à l'aise avec une fortune dérivée à plus de 90 % de la crypto",
-          "Navigation dans la classification fiscale crypto suisse pour le trading actif vs investissement",
-          "Permis B pour ressortissant non-UE avec un profil de fortune non traditionnel"
-        ],
-        "services": [
-          "Résidence et Immigration",
-          "Création de société et Structuration d'entreprise",
-          "Banque privée et Gestion de patrimoine",
-          "Coordination du style de vie"
-        ],
-        "outcome": "Permis B accordé. Sarl suisse opérationnelle. Double relation bancaire (crypto + traditionnelle) établie. Cadre de conformité complet pour le trading crypto en cours. 4 mois du début à la fin."
-      },
-      "gulfFamilyOffice": {
-        "title": "Le Family Office du Golfe",
-        "subtitle": "Family office koweïtien — SFO suisse établi",
-        "quote": "Nous avions une gestion de patrimoine dans quatre juridictions, mais aucune gouvernance unifiée. La Suisse nous a donné la structure dont notre famille avait besoin pour la génération suivante.",
-        "profile": "Family office koweïtien, plus de 200 millions de CHF sous gestion, multigénérationnel, opérant dans le CCG, à Londres et en Suisse",
-        "timeline": {
-          "month1": "Cadrage : audit de gouvernance, révision juridictionnelle, évaluation de la charte familiale",
-          "month2": "Conception de la structure du SFO suisse — SA constituée à Zoug",
-          "month3": "Formation du conseil — mise en place de 3 administrateurs indépendants résidents suisses",
-          "month4": "Comité d'investissement établi, mandats bancaires restructurés",
-          "month5": "Cadre de gouvernance documenté et ratifié par le conseil de famille",
-          "month6": "Opérationnel — toutes les lignes de reporting, de conformité et d'audit sont actives",
-          "ongoing": "Mandat permanent : réunions trimestrielles du conseil, revue annuelle de gouvernance, conseil ad hoc"
-        },
-        "challenges": [
-          "Alignement des attentes de gouvernance sur trois générations avec des philosophies d'investissement différentes",
-          "Consolidation du reporting de quatre juridictions dans un cadre suisse unifié",
-          "Placement d'administrateurs indépendants qualifiés comprenant à la fois la culture d'entreprise suisse et celle du CCG",
-          "Conception d'un cadre de succession acceptable pour toutes les branches de la famille"
-        ],
-        "services": [
-          "Établissement de Family Office",
-          "Administrateurs indépendants et Services de conseil",
-          "Création de société et Structuration d'entreprise",
-          "Banque privée et Gestion de patrimoine"
-        ],
-        "outcome": "SFO suisse pleinement opérationnel à Zoug. 3 administrateurs indépendants nommés. Cadre de gouvernance ratifié par toutes les branches de la famille. Reporting consolidé sur toutes les juridictions. Mandat en cours pour la gouvernance trimestrielle et la revue annuelle."
-      }
-    },
-    "labels": {
-      "case": "Cas",
-      "timeline": "Chronologie",
-      "month": "Mois",
-      "week": "Semaine",
-      "ongoing": "En cours",
-      "keyChallenges": "Principaux défis",
-      "servicesEngaged": "Services mobilisés",
-      "outcome": "Résultat"
+      "title": "À qui nous nous adressons | Move to Switzerland",
+      "description": "Différents plans pour les propriétaires d'entreprise actifs, la richesse privée et la vie familiale"
     }
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Un conseil complet couvrant chaque dimension de votre relocalisation",
+    "subtitle": "Planification de la réinstallation pour le patrimoine privé, les entreprises actives et les familles internationales",
     "learnMore": "En savoir plus",
     "pageTitle": "Nos services",
-    "pageSubtitle": "Accompagnement de bout en bout pour votre installation en Suisse",
+    "pageSubtitle": "Coordonner les priorités suisses en matière de résidence, d'affaires et de famille",
     "items": {
       "assetStructuring": {
-        "title": "Structuration d'actifs pré-immigration",
-        "description": "Réalisation de gains avant la résidence suisse ; restructuration des participations, des trusts et des structures d'entreprise aux Émirats ; documentation complète de l'origine de la fortune.",
-        "detail": "Nous collaborons avec vos conseillers actuels pour garantir que votre structure d'actifs est optimisée avant que vous n'établissiez votre résidence fiscale en Suisse. Cela comprend l'examen des participations, des accords de trust et des structures d'entreprise aux Émirats arabes unis et au-delà, garantissant une documentation d'origine de fortune irréprochable qui satisfait aux exigences des banques et des autorités fiscales suisses."
+        "title": "Pré-immigration Impôt et planification des biens",
+        "description": "Cartographier la propriété commerciale, les investissements et les transactions planifiées avant de déménager. Coordonner les conseils fiscaux suisses et du pays de départ.",
+        "detail": "Avant d’établir votre résidence fiscale suisse, recensez participations, trusts, retraites, immeubles, dettes, cessions prévues et pays concernés. Réunissez titres de propriété, évaluations et justificatifs d’origine du patrimoine. Faites examiner par vos spécialistes actuels et suisses les impôts de départ, la résidence conventionnelle et chaque transaction. Une vente avant l’arrivée n’est pas automatiquement exonérée ; une structure étrangère ne conserve pas nécessairement son traitement fiscal.",
+        "seoTitle": "Planification fiscale avant l'immigration pour les HNWI et les fondateurs"
       },
       "lumpSum": {
         "title": "Imposition d'après la dépense (Forfait fiscal)",
-        "description": "Négociation complète de l'accord fiscal cantonal ; détermination de la base imposable ; gestion de la conformité annuelle.",
-        "detail": "Le régime de l'imposition forfaitaire en Suisse permet aux personnes éligibles de disposer d'une base fiscale calculée sur leurs dépenses de train de vie plutôt que sur leurs revenus mondiaux. Nous gérons l'intégralité de la négociation avec les autorités cantonales, déterminons la base imposable optimale et assurons la conformité annuelle pour garantir la pérennité de votre accord."
+        "description": "Évaluer l'éligibilité à la taxation fondée sur les dépenses, les exigences cantonales et la comparaison avec la fiscalité suisse ordinaire.",
+        "detail": "L’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas.",
+        "seoTitle": "Fiscalité Lump-Sum suisse pour les clients privés éligibles"
       },
       "residency": {
         "title": "Résidence et Immigration",
-        "description": "Conseil sur la sélection du canton ; gestion des demandes de permis B ; planification de l'inclusion familiale ; parcours vers le permis C et la citoyenneté.",
-        "detail": "Le choix du canton est sans doute la décision la plus importante de votre relocalisation. Nous vous conseillons sur la sélection du canton en fonction de votre situation fiscale, de vos préférences de style de vie et des besoins de votre famille. Nous gérons ensuite l'intégralité de la demande de permis B, l'inclusion de la famille et traçons le chemin vers le permis C et l'éventuelle citoyenneté suisse."
+        "description": "Évaluer les possibilités de résidence et de travail en Suisse pour les entrepreneurs, les clients privés et les familles avant de prendre des engagements en matière de réinstallation.",
+        "detail": "Les ressortissants UE/AELE peuvent être admis au titre d’un emploi, d’une activité indépendante ou d’un séjour sans activité lucrative. Ce dernier exige des ressources suffisantes et une assurance maladie et accidents adéquate. La durée du permis dépend du motif d’admission. Fournissez les pièces demandées par l’autorité locale ; aucun délai national de traitement n’est garanti.\n\nPour les ressortissants hors UE/AELE, la base légale doit être examinée individuellement. Emploi, activité indépendante, retraite et admissions exceptionnelles répondent à des conditions différentes. Un patrimoine, un achat immobilier, une société ou un ruling fiscal ne confèrent pas à eux seuls un permis de séjour. Les autorités cantonales et, si nécessaire, fédérales décident. Faites évaluer la situation avant de vous engager.",
+        "seoTitle": "Résidence suisse pour entrepreneurs et clients privés"
       },
       "companyFormation": {
-        "title": "Création de société et Structuration d'entreprise",
-        "description": "Holdings suisses ; structures de propriété intellectuelle ; coordination avec des entités aux Émirats ; enregistrement à la TVA et conformité.",
-        "detail": "Que vous ayez besoin d'une holding suisse, d'une structure de licence de propriété intellectuelle ou d'une coordination entre vos entités actuelles aux Émirats et vos nouvelles opérations suisses, nous gérons l'ensemble du processus. Cela inclut l'enregistrement à la TVA, la conformité d'entreprise et l'assurance que votre structure est à la fois fiscalement avantageuse et totalement conforme."
+        "title": "Formation de l'entreprise et réinstallation des entreprises",
+        "description": "Coordonner la création d'une entreprise, l'autorisation de travail, la gouvernance et les questions fiscales transfrontalières pour une base commerciale suisse.",
+        "detail": "Une SA suisse nécessite au moins CHF 100 000 de capital-actions ; au moins 20 % de la valeur nominale de chaque action et CHF 50 000 au total doivent être libérés à la constitution. Une Sàrl exige CHF 20 000 entièrement libérés. La représentation par une personne résidant en Suisse et les obligations de gouvernance, d’autorisation et de déclaration doivent être organisées avec des spécialistes.\n\nCommencez par ce que l'entreprise fera en Suisse : qui la gère, où travaille l'équipe, quels clients elle sert et quels contrats ou actifs peuvent circuler. L'incorporation d'une entreprise est séparée de l'obtention du droit de travail du fondateur. Demandez aux spécialistes d'évaluer les salaires, l'assurance sociale, la TVA, les licences et les implications pour les entités étrangères existantes.\n\nNous coordonnons le flux de travail de relocalisation avec vos conseillers sociaux et fiscaux. L'engagement devrait préciser qui s'occupe de l'incorporation, des banques, des permis et de l'administration continue.",
+        "seoTitle": "Formation et réinstallation de la société suisse pour les entrepreneurs"
       },
       "familyOffice": {
         "title": "Établissement de Family Office",
-        "description": "Conseil pour Single et Multi-Family Offices ; introductions en banque privée ; structuration de trusts et fondations ; planification successorale.",
-        "detail": "Pour les familles nécessitant une infrastructure dédiée à la gestion de patrimoine, nous conseillons sur l'établissement de Single ou Multi-Family Offices en Suisse. Cela inclut des introductions auprès des plus grandes banques privées, la structuration de trusts et de fondations pour la protection des actifs, ainsi qu'une planification successorale complète tenant compte des complexités transfrontalières."
+        "description": "Définir le mandat du bureau suisse, les besoins en matière de gouvernance et de rapports; coordonner les conseils spécialisés, la préparation bancaire et la réinstallation des familles.",
+        "detail": "Commencez par les besoins de la famille : surveillance des investissements, rapports consolidés, administration, succession ou soutien à une entreprise en exploitation. Comparer une équipe interne, des fournisseurs externes et un arrangement hybride avant de s'engager auprès d'une entité.\n\nLa propriété, les clients et les activités déterminent quelles questions réglementaires doivent être évaluées. Une étiquette de bureau familial ne règle pas les obligations de licence. S'entendre sur la responsabilité des décisions d'investissement, de la garde, des conseils fiscaux et des rapports avec les professionnels nommés. Nous établissons un lien entre ce travail et les plans de résidence, de maison et d'école de la famille.",
+        "seoTitle": "Installation du bureau de la famille suisse et réinstallation de l'UHNW"
       },
       "directorship": {
-        "title": "Administrateurs indépendants et Services de conseil",
-        "description": "Placement d'administrateurs résidant en Suisse ; services de secrétariat d'entreprise ; soutien à la gouvernance et à la conformité.",
-        "detail": "De nombreuses structures d'entreprise suisses exigent un administrateur résidant en Suisse. Nous fournissons des administrateurs indépendants qualifiés, des services de secrétariat d'entreprise et un soutien continu à la gouvernance pour garantir que vos entités suisses répondent à toutes les exigences réglementaires pendant que vous vous concentrez sur vos affaires."
+        "title": "Direction et coordination du conseil",
+        "description": "Coordonner la représentation, les responsabilités et l'administration suisses aux côtés de votre entreprise et des conseillers en réinstallation.",
+        "detail": "Une entreprise suisse a besoin d'un dispositif de gouvernance adapté à sa forme juridique et à ses opérations réelles. Examiner la représentation des résidents, le pouvoir de signature, les fonctions du conseil et la tenue de dossiers auprès des conseillers juridiques.\n\nUn représentant résident n'établit pas en lui-même toute la substance dont une entreprise peut avoir besoin à des fins fiscales, bancaires ou de délivrance de licences. Accepter le mandat du directeur, l'accès à l'information, la rémunération et les responsabilités permanentes par écrit.",
+        "seoTitle": "Direction suisse et coordination de la gouvernance"
       },
       "realEstate": {
         "title": "Conseil immobilier",
-        "description": "Navigation dans la Lex Koller ; accès à des propriétés hors marché ; structuration de l'acquisition ; coordination notariale.",
-        "detail": "Les réglementations immobilières suisses, en particulier les restrictions de la Lex Koller sur les acheteurs étrangers, nécessitent une navigation experte. Nous donnons accès à des propriétés hors marché dans des emplacements privilégiés, structurons les acquisitions pour respecter toutes les réglementations et coordonnons avec les notaires pour garantir des transactions fluides."
+        "description": "Prévoyez une recherche suisse sur l'admissibilité à la résidence, les itinéraires scolaires et le budget, avec Lex Koller et les questions d'achat évaluées par des spécialistes.",
+        "detail": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer.\n\nPour un premier déménagement, comparez la location avec l'achat avant de vous engager à un emplacement. Construisez la liste restreinte autour du campus scolaire, du lieu de travail et des déplacements quotidiens. Demander des détails sur la propriété actuelle et un budget d'acquisition complet, y compris le financement et les coûts professionnels.",
+        "seoTitle": "Swiss Property & Relocation Advisory pour les clients privés"
       },
       "health": {
-        "title": "Conciergerie Santé et Bien-être",
-        "description": "Mise en place de l'assurance maladie obligatoire ; introduction auprès de médecins spécialistes ; bilans de santé pour cadres ; liaison médicale.",
-        "detail": "Le système de santé suisse impose une assurance obligatoire et peut être complexe. Nous mettons en place votre assurance maladie, vous présentons à des médecins spécialistes de renom, organisons des bilans de santé pour dirigeants et servons de liaison médicale continue pour garantir que vous et votre famille receviez les meilleurs soins."
+        "title": "Coordination santé et mieux-être",
+        "description": "Coordonner la préparation de l'assurance maladie et les introductions de soins de santé autour de votre famille.",
+        "detail": "Inclure les soins de santé dans le plan de déménagement avant l'arrivée. Identifier le traitement continu, les ordonnances, les besoins linguistiques et les dossiers dont votre prochain clinicien aura besoin. Confirmer les obligations d'assurance et les dates de début pour chaque membre de la famille, y compris toute exception applicable.\n\nNous aidons à coordonner les arrangements pratiques et les présentations. Les assureurs et les fournisseurs de soins de santé confirment la couverture, l'acceptation, la disponibilité et les coûts; les décisions médicales demeurent avec vos cliniciens.",
+        "seoTitle": "Swiss Health Insurance & Healthcare Relocation Support"
       },
       "lifestyle": {
-        "title": "Coordination du style de vie et Installation",
-        "description": "Placement en écoles internationales ; permis pour le personnel de maison ; programmes d'intégration du conjoint ; introductions dans la communauté ; orientation culturelle.",
-        "detail": "Le succès de votre relocalisation va bien au-delà de la paperasse. Nous gérons le placement de vos enfants dans des écoles internationales, les permis de travail du personnel de maison, l'intégration du conjoint, les présentations communautaires et une orientation culturelle complète pour que toute votre famille se sente chez elle en Suisse dès le premier jour."
+        "title": "Établissement familial et coordination scolaire",
+        "description": "Coordonner les enquêtes scolaires, le logement, l'orientation locale et l'établissement familial, avec les admissions et les décisions d'autorisation confirmées par les institutions compétentes.",
+        "detail": "Commencez par vos enfants avec l'âge, les besoins linguistiques et les plans d'éducation, puis comparez les options scolaires publiques et internationales. Vérifiez les lieux et le voyage vers le campus correct avant de vous engager dans une maison. Les décisions d'admission restent à l'école.\n\nÉlaborer un plan d'arrivée pratique pour l'assurance, l'enregistrement, le transport quotidien et les connexions communautaires. Si le personnel national peut déménager avec vous, évaluez séparément leur poste d'immigration et d'emploi avant de prendre des engagements.",
+        "seoTitle": "Swiss Family Relocation & Coordination des écoles"
       }
     },
     "overview": "Aperçu",
@@ -526,46 +399,46 @@
   },
   "clients": {
     "title": "À qui nous nous adressons",
-    "subtitle": "Notre conseil est adapté à votre profil spécifique et à vos objectifs",
+    "subtitle": "Différents plans pour les propriétaires d'entreprise actifs, la richesse privée et la vie familiale",
     "profiles": {
       "entrepreneur": {
-        "title": "L'entrepreneur établi",
-        "age": "Âge 40–60 ans",
-        "description": "Propriétaires d'entreprise avant ou après une sortie, cherchant à établir leur résidence en Suisse avant un événement de liquidité. Engagement typique : 12–24 mois.",
+        "title": "Entrepreneurs et dirigeants d’entreprise",
+        "age": "Construction, mise à l'échelle ou préparation d'une sortie",
+        "description": "Coordonnez votre droit de travail, les opérations de l'entreprise et le déménagement de votre famille. Avant une vente d'entreprise, demandez à des conseillers dans les deux pays d'évaluer le calendrier proposé et la structure de propriété.",
         "tags": [
-          "Planification avant sortie",
-          "Structuration d'actifs",
-          "Forfait fiscal"
+          "Permis de Fondateur",
+          "Matière commerciale",
+          "Planification préalable à la sortie"
         ]
       },
       "family": {
-        "title": "La famille qui se relocalise",
-        "age": "Enfants d'âge scolaire",
-        "description": "Familles privilégiant la sécurité, l'éducation et la qualité de vie. Relocalisation complète incluant les écoles, la santé et l'intégration communautaire.",
+        "title": "Familles internationales",
+        "age": "École, maison et vie quotidienne",
+        "description": "Assurez-vous que l'adresse de résidence de chaque membre de la famille corresponde aux exigences des établissements scolaires, aux besoins de soins de santé et à un emplacement de vie pratique. Comparez les écoles publiques et internationales avant de signer un bail.",
         "tags": [
-          "Éducation",
-          "Santé",
-          "Communauté"
+          "Choix scolaire",
+          "Permis de famille",
+          "Mise en place"
         ]
       },
       "youngWealth": {
-        "title": "Le jeune détenteur de fortune",
-        "age": "Âge 28–42 ans",
-        "description": "Entrepreneurs numériques et détenteurs de fortune crypto recherchant une juridiction stable, favorable à la crypto, avec un style de vie de classe mondiale.",
+        "title": "Particuliers fortunés",
+        "age": "La richesse privée et la vie après une sortie",
+        "description": "Établissez un plan de résidence en Suisse en tenant compte des investissements, de la propriété, des engagements familiaux et des activités prévues. Consultez des spécialistes pour examiner l'impôt ordinaire et, le cas échéant, l'impôt basé sur les dépenses.",
         "tags": [
-          "Cryptomonnaie",
-          "Actifs numériques",
-          "Style de vie"
+          "Richesse privée",
+          "Résidence fiscale",
+          "Préparation bancaire"
         ]
       },
       "familyOffice": {
-        "title": "Le Family Office du Golfe",
-        "age": "Multigénérationnel",
-        "description": "Family offices établis recherchant un centre de gouvernance européen, une planification successorale et une structuration de patrimoine de qualité institutionnelle.",
+        "title": "Family offices et familles très fortunées",
+        "age": "Propriété et succession transfrontalières",
+        "description": "Nous coordonnons l’installation des familles très fortunées avec le fonctionnement de leur family office, le reporting et leurs conseillers habituels. Définissez les responsabilités et les exigences réglementaires avant de choisir une structure.",
         "tags": [
           "Gouvernance",
-          "Transmission",
-          "Institutionnel"
+          "Planification de la relève",
+          "Coordination des conseillers"
         ]
       }
     }
@@ -603,9 +476,9 @@
     "pageSubtitle": "Indépendance, confidentialité et profondeur de service",
     "story": {
       "title": "Notre histoire",
-      "p1": "Move to Switzerland a été fondé sur un constat simple : les particuliers fortunés se relocalisant du Moyen-Orient vers la Suisse font face à un paysage de conseil inutilement fragmenté. Conseillers fiscaux, avocats spécialisés en immigration, agents immobiliers et banquiers privés opèrent chacun de leur côté, laissant le client coordonner l'ensemble.",
-      "p2": "Nous avons créé un point de contact unique qui orchestre l'intégralité du parcours de relocalisation — de la structuration d'actifs pré-immigration jusqu'au premier jour d'école de vos enfants. Nos fondateurs combinent une solide expertise juridique et bancaire suisse avec une expérience entrepreneuriale pratique des opérations transfrontalières.",
-      "p3": "Chaque mission est traitée avec la discrétion et la rigueur que nos clients exigent. Nous servons un nombre limité de familles à tout moment, garantissant à chacune notre attention exclusive."
+      "p1": "La réinstallation en Suisse rassemble les décisions personnelles, familiales et professionnelles. Les individus et les entrepreneurs de grande valeur ont souvent déjà des conseillers de confiance, mais ils ont encore besoin de quelqu'un pour coordonner le déménagement entre les pays et les équipes spécialisées.",
+      "p2": "Move to Switzerland — Depuis 2012, nous avons accompagné des centaines de personnes dans leur installation en Suisse.",
+      "p3": "Nous avons des bureaux à Zurich, Zug et Schwyz. Les premiers appels ont lieu en ligne, avec des réunions en personne à Zurich. Nous convenons de la portée de la coordination et des responsabilités des spécialistes externes avant le début des travaux."
     },
     "values": {
       "title": "Nos valeurs",
@@ -676,17 +549,17 @@
     }
   },
   "servicesMeta": {
-    "title": "Nos Services — S'installer en Suisse",
-    "description": "Services de conseil complets couvrant chaque dimension de votre relocalisation en Suisse."
+    "title": "Services de relocalisation suisses pour HNWI & Entrepreneurs",
+    "description": "Planifier la résidence suisse, les questions fiscales préalables au déménagement, la formation des entreprises, la coordination des bureaux familiaux, le logement et les écoles avec un seul contact de relocalisation."
   },
   "insights": {
     "meta": {
-      "title": "Analyses — Move to Switzerland Advisory",
-      "description": "Analyses expertes sur la relocalisation en Suisse, la fiscalité, l'immobilier, la banque et le style de vie pour les familles fortunées."
+      "title": "Swiss Relocation Insights pour HNWI & Entrepreneurs",
+      "description": "Explorez la résidence suisse, la réinstallation des fondateurs, la banque privée, les bureaux de la famille, la planification fiscale, la propriété et les écoles avec des conseils pratiques et des sources officielles."
     },
     "hero": {
       "title": "Analyses",
-      "subtitle": "Perspectives d'experts sur la relocalisation, la fiscalité et la gestion de patrimoine en Suisse"
+      "subtitle": "Lecture pratique pour les entrepreneurs, les personnes de grande valeur et les familles internationales qui planifient un déménagement suisse"
     },
     "readMore": "Lire l'article",
     "author": "Équipe de conseil Move to Switzerland",
@@ -700,55 +573,42 @@
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
         "categoryLabel": "Fiscalité",
-        "readTime": "12 min de lecture",
+        "readTime": "2 min lire",
         "date": "1er avril 2026",
-        "title": "L'imposition d'après la dépense en Suisse : Guide complet pour les résidents étrangers",
-        "metaDescription": "Guide complet sur le forfait fiscal suisse. Découvrez l'éligibilité, les montants minimums par canton et le processus de demande étape par étape.",
-        "excerpt": "Une analyse détaillée du régime du forfait fiscal suisse — conditions d'éligibilité, montants cantonaux minimums, calculs de la base imposable et processus de demande.",
-        "sectionCount": "9",
+        "title": "Imposition d’après la dépense en Suisse : conditions et préparation",
+        "metaDescription": "Évaluer l'admissibilité à la taxation forfaitaire suisse, la base de calcul 2026, le choix cantonal et les implications de la poursuite de l'activité commerciale après un déménagement.",
+        "excerpt": "Évaluer l'admissibilité à la taxation forfaitaire suisse, la base de calcul 2026, le choix cantonal et les implications de la poursuite de l'activité commerciale après un déménagement.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Le régime d'imposition d'après la dépense en Suisse — connu sous le nom de forfait fiscal ou Pauschalbesteuerung — est l'un des dispositifs fiscaux les plus attractifs pour les ressortissants étrangers fortunés souhaitant s'installer en Suisse. Sous ce système, les personnes éligibles sont imposées en fonction de leurs dépenses courantes plutôt que sur leurs revenus et actifs mondiaux. Pour les particuliers fortunés, en particulier ceux ayant d'importants revenus mondiaux, cela peut se traduire par des obligations fiscales nettement inférieures à celles de l'imposition ordinaire."
+            "heading": "Critères d'admissibilité",
+            "level": "2",
+            "content": "L’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas."
           },
           "1": {
-            "heading": "Qu'est-ce que l'imposition d'après la dépense ?",
+            "heading": "Comment l'assiette imposable est calculée",
             "level": "2",
-            "content": "Le forfait fiscal est un régime fiscal spécial accessible aux ressortissants étrangers qui établissent ou reprennent une résidence fiscale en Suisse et qui n'y exercent aucune activité lucrative. Au lieu de déclarer leurs revenus et leur fortune mondiaux, la base imposable du contribuable est déterminée par ses dépenses annuelles de train de vie en Suisse — incluant le logement, la nourriture, les voyages, l'éducation, le personnel et autres dépenses personnelles. L'impôt est ensuite calculé en appliquant les taux d'imposition ordinaires suisses (fédéraux, cantonaux et communaux) à cette base imposable réputée. Ce système fait partie de la loi fiscale suisse depuis plus d'un siècle et concerne actuellement environ 5 000 personnes en Suisse, générant plus de 900 millions de CHF de recettes fiscales par an."
+            "content": "Pour l’année fiscale 2026, l’assiette minimale fédérale est de CHF 435 000. Il ne s’agit pas de l’impôt à payer. Les dépenses mondiales du ménage et les minimums légaux liés au logement doivent aussi être pris en compte. Un calcul de contrôle distinct peut augmenter l’impôt sur certains revenus suisses et étrangers bénéficiant d’un allègement conventionnel. Les règles cantonales sur le revenu et la fortune nécessitent un calcul séparé."
           },
           "2": {
-            "heading": "Conditions d'éligibilité",
+            "heading": "Quels cantons devriez-vous comparer?",
             "level": "2",
-            "content": "Pour bénéficier du forfait fiscal, un demandeur doit répondre à trois critères fondamentaux. Premièrement, la personne doit être de nationalité étrangère — les citoyens suisses n'y sont pas éligibles. Deuxièmement, la personne doit établir sa résidence fiscale en Suisse pour la première fois, ou y revenir après une absence d'au moins 10 ans. Troisièmement, et c'est un point crucial, la personne ne doit exercer aucune activité lucrative en Suisse. Cela inclut l'emploi salarié, l'activité indépendante et la gestion active d'une entreprise basée en Suisse. Les activités passives telles que la gestion d'investissements personnels ou la supervision d'un family office (à condition que celui-ci ne génère pas de revenus de tiers) sont généralement autorisées. Le conjoint du demandeur doit également remplir le critère de nationalité — si l'un des époux est suisse, le forfait fiscal n'est pas accessible au couple."
+            "content": "Zurich a aboli l’imposition cantonale d’après la dépense en 2010. Schaffhouse, Appenzell Rhodes-Extérieures, Bâle-Campagne et Bâle-Ville l’ont également abolie. Pour les autres cantons, demandez les conditions actuelles à l’autorité fiscale compétente. Un tableau national de paiements minimums ne permet pas de déterminer votre admissibilité ni votre charge fiscale finale."
           },
           "3": {
-            "heading": "Comment la base imposable est-elle calculée ?",
+            "heading": "Le processus de demande : étape par étape",
             "level": "2",
-            "content": "La base imposable sous le régime du forfait fiscal est le montant le plus élevé entre deux calculs. Le premier correspond aux dépenses réelles de train de vie mondiales du contribuable et de sa famille. Le second est un calcul de contrôle — un seuil minimal conçu pour prévenir les abus. Au niveau fédéral, le revenu imposable minimum est fixé à 400 000 CHF depuis la réforme de 2016. Les cantons fixent leurs propres minimums, qui varient d'environ 250 000 CHF à plus de 600 000 CHF selon le canton. Le calcul de contrôle prend en compte plusieurs facteurs : la valeur locative (ou le loyer réel) de la résidence suisse du contribuable multipliée par un facteur (généralement de 3 à 7 selon le canton), les revenus de source suisse (par exemple, les revenus immobiliers suisses) et les revenus provenant de pays avec lesquels la Suisse a conclu une convention de double imposition où le contribuable revendique les avantages de ladite convention."
+            "content": "Avant de choisir un canton, réunissez passeports, historique de résidence, budget mondial du ménage, informations sur le logement, sources de revenus et activités professionnelles envisagées. Faites coordonner par des fiscalistes qualifiés une comparaison avec l’imposition ordinaire et, si pertinent, une demande de ruling écrit. Vérifiez ses hypothèses et obligations déclaratives. Fiscalité et autorisation de séjour relèvent de décisions distinctes ; ni l’admission ni un impôt annuel fixe ne sont garantis."
           },
           "4": {
-            "heading": "Montants minimums par canton",
-            "level": "3",
-            "content": "Les minimums cantonaux varient considérablement et constituent un facteur clé dans le choix du canton. Zoug exige un revenu imposable minimum d'environ 250 000 CHF, ce qui en fait l'un des cantons les plus accessibles. Schwytz fixe également son minimum autour de 250 000 CHF. Lucerne exige environ 300 000 CHF. Le Valais et les Grisons fixent des minimums autour de 400 000 CHF. Genève exige environ 400 000 CHF de revenu imposable minimum mais possède des taux d'imposition communaux plus élevés. Zurich exige environ 400 000 CHF et applique ses taux progressifs standards à la base réputée. Vaud, historiquement le canton comptant le plus de contribuables au forfait, exige environ 400 000 CHF. Berne a un minimum d'environ 400 000 CHF. Notez que plusieurs cantons ont aboli le forfait fiscal au niveau cantonal — Bâle-Ville, Bâle-Campagne, Schaffhouse, Appenzell Rhodes-Extérieures et la ville de Zurich (bien que le canton l'autorise toujours dans certaines communes). Vérifiez toujours la disponibilité actuelle auprès des autorités cantonales."
+            "heading": "Fondateurs : décrivez votre rôle après le déménagement",
+            "level": "2",
+            "content": "Si vous préparez une sortie d'entreprise, faites la distinction entre la propriété et le travail que vous continuerez à effectuer. Lister les postes de conseil, les ententes de consultation, les fonctions de gestion et les conditions de rémunération. Demandez à vos conseillers en fiscalité et en immigration d'évaluer ensemble les activités proposées avant de s'appuyer sur un plan de résidence de fortune.\n\nL'emplacement des clients ou du siège social de la société ne règle pas, à lui seul, le traitement du travail effectué en Suisse."
           },
           "5": {
-            "heading": "Le processus de demande : Étape par étape",
+            "heading": "Questions pour la première évaluation",
             "level": "2",
-            "content": "Le processus de demande suit généralement un parcours structuré. Lors de la phase de pré-demande, le futur contribuable travaille avec des conseillers qualifiés pour préparer un résumé détaillé de sa situation personnelle et financière, sélectionner le canton et la commune optimaux, et préparer des calculs préliminaires de la base imposable proposée. La demande formelle est soumise à l'autorité fiscale cantonale. Elle comprend un état détaillé des dépenses de train de vie prévues, une documentation sur la situation financière du demandeur, la preuve de la nationalité étrangère et une déclaration d'absence d'activité lucrative en Suisse. L'autorité cantonale examine la demande et peut engager une négociation sur la base imposable. Il s'agit d'une véritable négociation — l'autorité dispose d'un pouvoir d'appréciation et évaluera si la base proposée est raisonnable au regard du train de vie apparent et de la fortune du demandeur. Une fois l'accord conclu, une décision fiscale formelle (tax ruling) est émise, généralement valable pour une période définie. Le contribuable doit déposer une déclaration annuelle de ses dépenses pour maintenir l'accord."
-          },
-          "6": {
-            "heading": "Fiscalité forfaitaire fédérale vs cantonale",
-            "level": "2",
-            "content": "Il est important de comprendre que l'imposition forfaitaire s'applique à la fois au niveau fédéral et au niveau cantonal/communal. Au niveau fédéral, le revenu imposable minimum est de 400 000 CHF. Les impôts cantonaux et communaux sont calculés séparément, et chaque canton possède ses propres seuils minimums et ses propres taux. En pratique, le taux d'imposition effectif total sur le revenu forfaitaire varie généralement de 20 % à 35 % selon le canton et la commune, contre des taux marginaux supérieurs à 40 % pour les contribuables ordinaires à hauts revenus. Pour une personne ayant une base imposable négociée de 500 000 CHF, par exemple, la facture fiscale annuelle totale à Zoug pourrait s'élever à environ 100 000–120 000 CHF — une fraction de ce qu'elle paierait sur ses revenus mondiaux réels sous le régime de l'imposition ordinaire."
-          },
-          "7": {
-            "heading": "Avantages et considérations",
-            "level": "2",
-            "content": "Les principaux avantages de l'imposition d'après la dépense incluent des factures fiscales prévisibles et souvent nettement inférieures, aucune obligation de divulguer en détail ses revenus et actifs mondiaux, une conformité fiscale simplifiée et une protection contre l'impôt sur la fortune suisse pour les actifs non suisses. Cependant, il existe des considérations importantes. Les contribuables au forfait ne peuvent pas prétendre aux déductions accessibles aux contribuables ordinaires (telles que les cotisations de prévoyance). Ils ne peuvent pas bénéficier des taux des conventions de double imposition suisses inférieurs à leurs taux de retenue à la source domestiques dans tous les cas. Ils doivent réellement s'abstenir de toute activité lucrative en Suisse. Enfin, des référendums populaires ont contesté ce régime dans plusieurs cantons, créant un certain risque politique — bien que le vote fédéral de novembre 2025, où 78 % ont voté contre l'abolition du régime, ait considérablement renforcé sa sécurité à long terme."
-          },
-          "8": {
-            "heading": "Le forfait fiscal est-il fait pour vous ?",
-            "level": "2",
-            "content": "L'imposition d'après la dépense est particulièrement bénéfique pour les personnes disposant de revenus mondiaux élevés qui n'ont pas besoin de travailler en Suisse — typiquement les retraités, les investisseurs, les détenteurs de fortune familiale et les personnes vivant de revenus passifs issus d'entreprises hors de Suisse. Elle est moins adaptée aux personnes prévoyant de gérer activement une entreprise basée en Suisse ou à celles ayant des revenus mondiaux relativement modestes (où l'imposition ordinaire pourrait s'avérer moins onéreuse). Une analyse comparative détaillée — imposition ordinaire vs forfait fiscal — doit être préparée dans le cadre de votre planification avant immigration. Nous fournissons cette analyse dans le cadre de notre service de conseil pré-immigration, vous garantissant de prendre cette décision cruciale en toute connaissance de cause."
+            "content": "Apportez un résumé général de la citoyenneté, des antécédents de résidence, des membres de la famille, des activités prévues et des pays liés à vos biens. Comparer les dépenses prévues des ménages, les coûts du logement et les coûts spécialisés avec l'analyse fiscale.\n\nUn résultat utile est une liste écrite d'hypothèses, de questions non résolues et la prochaine décision d'autorité ou de conseiller. Maintenir les délais de transaction séparés des dates de réinstallation proposées jusqu'à ce que les dépendances soient comprises."
           }
         },
         "imageAlt": "Intérieur d'un bureau fiscal cantonal suisse avec documents officiels sur un bureau en noyer"
@@ -756,55 +616,37 @@
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
         "categoryLabel": "Immobilier",
-        "readTime": "10 min de lecture",
+        "readTime": "2 min lire",
         "date": "1er avril 2026",
-        "title": "Lex Koller : Ce que les acheteurs étrangers doivent savoir sur l'immobilier suisse",
-        "metaDescription": "Comprendre la loi suisse Lex Koller : restrictions sur la propriété étrangère, exigences de permis et différences cantonales.",
-        "excerpt": "Naviguez parmi les restrictions de propriété foncière pour les étrangers en Suisse — des exigences de la Lex Koller aux spécificités cantonales.",
-        "sectionCount": "9",
+        "title": "Acheter un bien en Suisse : Lex Koller et installation",
+        "metaDescription": "Planifiez un achat de maison suisse autour de la nationalité, le statut de résidence, l'utilisation de la propriété et Lex Koller. Questions pratiques pour les familles et les entrepreneurs HNW.",
+        "excerpt": "Planifiez un achat de maison suisse autour de la nationalité, le statut de résidence, l'utilisation de la propriété et Lex Koller. Questions pratiques pour les familles et les entrepreneurs HNW.",
+        "sectionCount": "5",
         "sections": {
           "0": {
-            "content": "Le marché immobilier suisse est l'un des plus stables et des plus convoités au monde — et l'un des plus réglementés pour les acheteurs étrangers. La Loi fédérale sur l'acquisition d'immeubles par des personnes à l'étranger, communément appelée Lex Koller, régit la manière dont les ressortissants non suisses peuvent acquérir des biens résidentiels en Suisse. La compréhension de cette loi est essentielle pour toute personne se relocalisant en Suisse et prévoyant d'y acheter un logement."
+            "heading": "Commencez par l'acheteur et l'utilisation prévue",
+            "level": "2",
+            "content": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer."
           },
           "1": {
-            "heading": "Qu'est-ce que la Lex Koller ?",
+            "heading": "L'autorisation de résidence est une décision distincte",
             "level": "2",
-            "content": "La Lex Koller est une loi fédérale qui restreint l'acquisition d'immobilier résidentiel par des ressortissants étrangers qui ne résident pas en Suisse. Promulguée en 1961 et révisée à plusieurs reprises, cette loi a pour but d'empêcher l'emprise étrangère sur le sol suisse — essentiellement pour garantir que l'immobilier suisse reste accessible aux résidents suisses plutôt que d'être acquis comme placement par des non-résidents. La loi s'applique spécifiquement aux biens résidentiels. L'immobilier commercial et industriel est généralement exempté, ce qui signifie que des sociétés à capitaux étrangers peuvent acquérir des bureaux, des locaux commerciaux et des biens industriels sans les restrictions de la Lex Koller."
+            "content": "La possession de biens suisses ne donne pas à un ressortissant étranger le droit d'obtenir un permis de séjour. Établir la base de résidence proposée avant de traiter l'achat d'une maison dans le cadre d'un déménagement confirmé.\n\nPour une famille utilisant plusieurs maisons internationales, expliquez quelle propriété sera la maison principale et comment elle sera utilisée. Demandez à l'autorité compétente et au notaire d'évaluer la transaction spécifique, y compris toute propriété par l'intermédiaire d'une société ou d'une autre structure."
           },
           "2": {
-            "heading": "Qui est concerné ?",
+            "heading": "Construire un dossier d'acquisition complet",
             "level": "2",
-            "content": "La Lex Koller s'applique aux « personnes à l'étranger » — définies comme des ressortissants étrangers n'ayant pas leur domicile principal en Suisse, ainsi que des sociétés contrôlées par des étrangers. Les distinctions clés sont les suivantes : les ressortissants de l'UE/AELE munis d'un permis de séjour valide (permis B ou C) sont traités essentiellement comme des ressortissants suisses pour l'acquisition d'une résidence principale. Ils peuvent acheter un bien résidentiel pour leur propre usage sans autorisation. Les ressortissants hors UE/AELE munis d'un permis B peuvent acheter une résidence principale sans autorisation dans la plupart des cantons, mais font face à des restrictions pour les résidences secondaires et l'immobilier de rendement. Les personnes sans résidence en Suisse (quelle que soit leur nationalité) ont besoin d'une autorisation cantonale pour acheter un bien résidentiel, et cette autorisation est soumise à des quotas stricts. Les ressortissants suisses vivant à l'étranger ne sont pas concernés — ils peuvent acheter librement."
+            "content": "Inscrivez les acheteurs proposés, le financement, l'occupation prévue et si une partie sera louée. Demandez au notaire quelles confirmations sont nécessaires avant la signature et quelles conditions contractuelles sont appropriées.\n\nDemander des détails sur la propriété actuelle et une estimation complète du coût. Comparer le financement, les coûts de transaction, l'entretien et tous les besoins de rénovation. Un prix cantonal par mètre carré est un mauvais substitut à une évaluation foncière spécifique."
           },
           "3": {
-            "heading": "Types de biens et restrictions",
+            "heading": "Pour les entrepreneurs: protéger le calendrier plus large",
             "level": "2",
-            "content": "Les restrictions varient selon le type de bien. Résidence principale (Hauptwohnung) : les détenteurs de permis (B ou C) peuvent acheter une résidence principale sur leur lieu de résidence sans autorisation. Le bien doit servir de domicile effectif. Résidences secondaires ou de vacances (Ferienwohnung) : celles-ci sont soumises aux restrictions les plus strictes. L'achat par des non-résidents nécessite une autorisation cantonale, allouée via un système de quotas fédéraux (le contingent). Le bien doit être situé dans une zone touristique reconnue, et il existe des limites de surface (généralement un maximum de 200 m² de surface habitable nette). Immobilier de rendement/investissement : les étrangers non résidents ne peuvent généralement pas acquérir de biens résidentiels de rendement. Les détenteurs de permis peuvent en acquérir selon les règles cantonales. Immobilier commercial : généralement exempté de la Lex Koller."
+            "content": "Si l'achat dépend du produit de la vente ou d'une nouvelle relation bancaire, aligner le calendrier de paiement sur les fonds confirmés et les conseils professionnels. Ne présumez pas qu'une banque ouvrira un compte ou fournira un financement avant la date limite d'un vendeur.\n\nVérifiez si la location permettrait d'abord à la famille de tester un itinéraire scolaire et un quartier pendant que les questions de résidence et d'achat à plus long terme sont résolues."
           },
           "4": {
-            "heading": "Différences cantonales",
+            "heading": "Confirmer les règles au point d'engagement",
             "level": "2",
-            "content": "Bien que la Lex Koller soit une loi fédérale, sa mise en œuvre implique les autorités cantonales, et il existe des différences notables dans la manière dont les cantons traitent les demandes. Zurich est relativement souple pour les détenteurs de permis achetant une résidence principale. Le registre foncier cantonal (Grundbuchamt) traite généralement les acquisitions sans difficulté si l'acheteur possède un permis valide et si le bien se situe à son adresse déclarée. Zoug suit une approche similaire mais impose certaines exigences supplémentaires au niveau communal. Certaines municipalités de Zoug exigent une documentation complémentaire ou imposent des périodes d'attente. Schwytz est généralement accessible et, combiné à des prix immobiliers plus bas et des taux d'imposition très faibles, représente une excellente opportunité pour les familles qui s'installent. Genève et Vaud connaissent la plus forte demande de la part des acheteurs étrangers, ce qui entraîne un examen plus approfondi des dossiers. Genève, en particulier, possède des quotas de résidence secondaire très serrés. Le Valais et les Grisons, en tant que grands cantons touristiques, possèdent les régimes les plus développés pour autoriser l'acquisition de résidences de vacances."
-          },
-          "5": {
-            "heading": "Le processus d'autorisation",
-            "level": "3",
-            "content": "Lorsqu'une autorisation est requise (typiquement pour les résidences secondaires ou pour les acheteurs sans permis de séjour), le processus comprend plusieurs étapes. L'acheteur soumet une demande à l'autorité cantonale responsable de la Lex Koller — généralement le Grundbuchamt cantonal ou un département de justice dédié. La demande doit inclure l'acte de vente (généralement une promesse de vente ou « Vorvertrag »), la preuve du lien de l'acheteur avec la Suisse ou le lieu spécifique, la preuve que l'acquisition entre dans l'une des catégories autorisées, et la confirmation que le bien respecte les critères de taille et d'usage. L'autorité cantonale examine la demande au regard du quota fédéral (pour les résidences de vacances) et des critères cantonaux. Les délais de traitement varient de 2 à 6 semaines dans les petits cantons à 2 ou 3 mois à Genève ou Vaud."
-          },
-          "6": {
-            "heading": "Stratégies pratiques pour les acheteurs étrangers",
-            "level": "2",
-            "content": "Pour les personnes fortunées se relocalisant en Suisse, plusieurs stratégies pratiques peuvent simplifier le processus d'acquisition immobilière. L'approche la plus directe consiste à obtenir un permis B avant d'acheter un bien. Avec un permis de séjour valide, l'acquisition d'une résidence principale devient essentiellement le même processus que pour un citoyen suisse. Pour les familles souhaitant acheter avant la délivrance de leur permis, il est parfois possible de conclure une promesse de vente conditionnelle à l'octroi du permis. Pour ceux intéressés par l'acquisition de résidences secondaires ou de biens de rendement, la création d'une société suisse peut parfois offrir une voie, bien que cela nécessite une structuration minutieuse pour éviter d'être classé comme une société sous contrôle étranger. Collaborer avec un conseiller immobilier spécialisé comprenant à la fois la Lex Koller et le marché local est essentiel. Les propriétés hors marché — courantes dans le segment de luxe — représentent souvent les meilleures opportunités et nécessitent un conseiller disposant de réseaux établis."
-          },
-          "7": {
-            "heading": "Développements récents et perspectives",
-            "level": "2",
-            "content": "Des discussions périodiques ont lieu concernant la réforme ou l'abolition de la Lex Koller. Une proposition fédérale de 2017 visant à assouplir les restrictions sur l'acquisition de biens commerciaux a été abandonnée, et les discussions plus récentes se sont concentrées sur le durcissement plutôt que sur l'assouplissement de la loi, en particulier concernant les résidences secondaires dans les zones touristiques. Pour l'avenir prévisible, la Lex Koller reste fermement en place. Les familles qui s'installent doivent planifier leur stratégie immobilière en lien avec leur calendrier d'immigration — les deux sont intimement liés, et une coordination adéquate peut faire gagner beaucoup de temps."
-          },
-          "8": {
-            "heading": "Prix de l'immobilier : À quoi s'attendre",
-            "level": "2",
-            "content": "Les prix de l'immobilier suisse, en particulier dans les emplacements de premier choix, figurent parmi les plus élevés au monde. À Zurich-ville, comptez entre 15 000 et 35 000 CHF par mètre carré pour un bien résidentiel de prestige. Les communes de la « Gold Coast » le long du lac de Zurich (Küsnacht, Zollikon, Herrliberg) affichent des prix de 20 000 à 40 000 CHF/m². À Zoug, les biens du centre-ville varient de 12 000 à 25 000 CHF/m², et les villages environnants de 8 000 à 14 000 CHF/m². Schwytz offre des prix plus accessibles, entre 6 000 et 14 000 CHF/m² au bord du lac et 4 000 à 8 000 CHF/m² dans les terres. Ces prix reflètent la qualité, la stabilité et la rareté de l'immobilier suisse — et le fait que la pierre en Suisse a historiquement été l'une des réserves de valeur les plus fiables au monde."
+            "content": "L'autorité cantonale responsable de la propriété décide des questions d'autorisation. L'Office fédéral de la justice publie le cadre et les contacts; les révisions juridiques proposées ne doivent pas être confondues avec les règles déjà en vigueur.\n\nDemandez à votre notaire ou conseiller juridique de vérifier la position actuelle pour vos faits avant de commettre. Notre rôle est de coordonner la recherche à domicile avec le permis de famille, l'école et le plan d'arrivée."
           }
         },
         "imageAlt": "Villa de luxe au bord d'un lac suisse avec les Alpes en arrière-plan à l'heure dorée"
@@ -812,60 +654,60 @@
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
         "categoryLabel": "Style de vie",
-        "readTime": "11 min de lecture",
+        "readTime": "7 min lire",
         "date": "1er avril 2026",
-        "title": "Les meilleures écoles internationales à Zurich, Zoug et Schwytz",
-        "metaDescription": "Guide complet des meilleures écoles internationales à Zurich, Zoug et Schwytz. Comparez les programmes IB, américains, britanniques et suisses.",
-        "excerpt": "Comparez les meilleures écoles internationales à Zurich, Zoug et Schwytz — des programmes IB et de la maturité suisse aux options d'internat.",
+        "title": "Comparer les écoles internationales de Zurich, Zoug et Schwyz",
+        "metaDescription": "Comparez les établissements scolaires près de Zurich, Zug et Schwyz. Planifiez des visites sur le campus, des questions d'admission, des frais de scolarité et des déplacements scolaires en utilisant des sources scolaires directes.",
+        "excerpt": "Vérifiez le bon campus, posez de meilleures questions d'admission et comparez le coût total et le voyage quotidien avant de choisir une maison.",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "Pour les familles qui s'installent en Suisse, le choix de l'école est souvent la décision la plus importante après celle du canton. La Suisse abrite certaines des meilleures écoles internationales au monde, proposant divers programmes — Baccalauréat International (IB), américain, britannique et Maturité suisse — dans des environnements multilingues qui préparent les enfants à des carrières mondiales. Ce guide couvre les principaux établissements dans trois cantons clés : Zurich, Zoug et Schwytz."
+            "content": "Le choix de l'école et le logement doivent être planifiés ensemble. Ce guide présente les options internationales et bilingues disponibles dans les régions de Zurich et Zug pour les familles qui envisagent d'acheter une maison à Zurich, Zug ou Schwyz. Il s'agit d'une liste préliminaire, et non d'un classement : le choix idéal dépend de l'âge, de la langue, des besoins d'apprentissage et des projets futurs de votre enfant. Les écoles mentionnées se trouvent à Zurich ou Zug ; l'achat d'une maison à Schwyz nécessite de vérifier les temps de trajet réels entre les cantons."
           },
           "1": {
             "heading": "Écoles internationales à Zurich",
             "level": "2",
-            "content": "Zurich offre la plus large sélection d'écoles internationales en Suisse alémanique, reflétant son statut de plus grande ville du pays et de centre d'affaires international majeur."
+            "content": "Commencez par le campus exact pour l'âge de votre enfant, plutôt que le nom de l'école. Une maison qui travaille pour un campus primaire peut créer un voyage différent lorsqu'un enfant déménage à l'école secondaire. Inclure les deux voyages si les frères et sœurs fréquentent différents campus."
           },
           "2": {
             "heading": "Zurich International School (ZIS)",
             "level": "3",
-            "content": "La Zurich International School est l'un des établissements les plus anciens et les plus réputés de Suisse. Fondée en 1963, la ZIS opère sur quatre campus dans la région de Zurich. L'école accueille environ 1 500 élèves de 3 à 18 ans représentant plus de 55 nationalités. La ZIS propose les programmes de l'IB (primaire, moyen et diplôme). La langue d'enseignement est l'anglais, avec de solides programmes en allemand. Les frais de scolarité annuels varient d'environ 30 000 CHF pour la petite enfance à 42 000 CHF pour le lycée. Les admissions sont sélectives et il est conseillé aux familles de postuler 6 à 12 mois à l'avance."
+            "content": "ZIS possède deux campus : Wädenswil pour les 3–11 ans et Adliswil pour les 11–18 ans. Avant de choisir un logement, confirmez auprès de l’école le campus et le programme correspondant à votre enfant. Demandez les tarifs actuels et la disponibilité des places."
           },
           "3": {
             "heading": "Inter-Community School Zurich (ICS)",
             "level": "3",
-            "content": "L'Inter-Community School Zurich est située à Zumikon, sur la prestigieuse Gold Coast. L'école accueille environ 900 élèves. L'ICS propose le programme de l'IB à tous les niveaux et est connue pour son approche inclusive et communautaire. Les frais annuels s'élèvent à environ 28 000–38 000 CHF selon le niveau scolaire. L'ICS propose également un vaste programme d'activités périscolaires et d'excellentes installations."
+            "content": "L'école intercommunautaire Zurich est basée à Zumikon et offre le continuum IB. Demandez des admissions au sujet du groupe d'année approprié, du soutien linguistique et de tout soutien d'apprentissage dont votre enfant a besoin. Demander le barème actuel directement à l'école, y compris les frais de demande et les services en dehors des frais de scolarité. Comparez le voyage depuis votre domicile sélectionné pendant les heures de voyage scolaires."
           },
           "4": {
             "heading": "Swiss International School (SIS) Zurich",
             "level": "3",
-            "content": "La SIS Zurich propose un programme bilingue (anglais-allemand) unique qui suit à la fois les programmes suisses et internationaux. C'est un excellent choix pour les familles souhaitant que leurs enfants s'intègrent dans la société suisse tout en conservant une éducation internationale. Le modèle bilingue permet aux diplômés d'accéder aux universités suisses (via la maturité) ou internationales (via l'IB)."
+            "content": "SIS Zürich-Wollishofen propose un jardin d’enfants et une école primaire bilingues allemand-anglais. Pour le secondaire, vérifiez directement auprès de SIS le site adapté, les diplômes et les conditions d’admission."
           },
           "5": {
             "heading": "Écoles internationales à Zoug",
             "level": "2",
-            "content": "Zoug, malgré sa petite taille, offre d'excellentes options scolaires internationales, portées par sa large communauté d'expatriés (plus de 35 % de résidents étrangers)."
+            "content": "Pour les familles qui envisagent Zug ou Schwyz à proximité, comparez l'emplacement de l'école avec les deux parents. Une comparaison à l'échelle cantonale est trop large : enregistrer l'adresse, le campus et l'option de transport pour chaque candidat."
           },
           "6": {
             "heading": "International School of Zug and Luzern (ISZL)",
             "level": "3",
-            "content": "L'ISZL est l'école internationale de référence en Suisse centrale. Avec des campus à Hünenberg (Zoug) et Riverside (Lucerne), elle accueille environ 1 400 élèves. Reconnue pour son excellence académique, elle affiche des taux de réussite au diplôme de l'IB dépassant régulièrement 95 %. Les installations sont de classe mondiale. Les frais annuels varient d'environ 28 000 CHF à 40 000 CHF. Les diplômés sont régulièrement admis dans les meilleures universités (Oxbridge, Ivy League, ETH Zurich)."
+            "content": "Le Zug Campus d’ISZL se trouve à Baar et accueille les élèves d’Early Years à la 8e année. Le Riverside Campus se trouve à Hünenberg, et non à Lucerne, pour les années 9 à 12. Les candidatures sont acceptées toute l’année, sous réserve de places disponibles."
           },
           "7": {
             "heading": "Institut Montana Zugerberg",
             "level": "3",
-            "content": "L'Institut Montana est un établissement unique situé à 1 000 mètres d'altitude sur le mont Zugerberg. Fondé en 1926, il allie les traditions de l'internat suisse aux programmes internationaux modernes. L'école propose à la fois le diplôme de l'IB et la maturité suisse. Des options d'internat sont disponibles. Les frais annuels pour les externes sont d'environ 35 000–45 000 CHF, tandis que les frais d'internat s'élèvent à environ 65 000–75 000 CHF."
+            "content": "L'Institut Montana sur le Zugerberg offre des cours de jour et d'internat, avec des parcours éducatifs internationaux et suisses. Confirmez le programme, les exigences linguistiques et la qualification adaptée à votre enfant. Demandez des devis distincts pour les arrangements de jour et d'embarquement, et demandez quelle supervision, repas, voyage et week-end sont inclus. Une option d'embarquement doit être évaluée en fonction des besoins de votre enfant plutôt que traitée comme une solution à un trajet long."
           },
           "8": {
             "heading": "Comparaison des programmes : IB vs Maturité suisse vs Américain/Britannique",
             "level": "2",
-            "content": "Le diplôme de l'IB est le programme international le plus répandu en Suisse. Idéal pour les familles mobiles, il est reconnu mondialement. La Maturité suisse est la qualification nationale pour l'entrée à l'université. Elle est extrêmement rigoureuse, avec un accent sur les mathématiques et les langues. Les diplômés ont un accès garanti aux universités suisses (dont l'ETH Zurich). Les programmes américains et britanniques sont moins courants dans la région mais présents dans certains établissements, privilégiés par les familles visant ces systèmes universitaires spécifiques."
+            "content": "Travailler à l'envers de l'enfant est probablement la prochaine école ou destination universitaire. Demandez quelles qualifications sont attribuées au programme choisi et vérifiez directement la matière, la langue et les conditions d'admission de l'établissement d'accueil. Ne présumez pas qu'un programme international, un diplôme IB ou une Matura suisse supprime toutes les conditions d'admission. Pour un enfant déjà en partie par le biais d'un programme d'examen, discutez de la continuité des sujets et du calendrier de transfert avant de changer d'école."
           },
           "9": {
             "heading": "Calendrier des admissions et conseils pratiques",
             "level": "2",
-            "content": "La plupart des écoles ouvrent les candidatures 12 à 18 mois avant la rentrée d'août/septembre. Conseils clés : postulez tôt car les meilleures écoles ont des listes d'attente ; visitez les campus ; évaluez le temps de trajet (les transports publics suisses sont excellents) ; et vérifiez le soutien à l'intégration linguistique. Nous collaborons étroitement avec les équipes d'admission de toutes les grandes écoles internationales et pouvons faciliter les introductions et les placements prioritaires pour nos clients."
+            "content": "Précisez le niveau scolaire, les langues, les besoins d’accompagnement et la date d’entrée souhaitée. Demandez une confirmation écrite des places, des documents requis et de tous les frais. Évaluez aussi le trajet, les repas et le transport. L’école décide des admissions ; nous ne garantissons ni place ni admission prioritaire."
           }
         },
         "imageAlt": "Campus d'une école internationale suisse avec les Alpes en arrière-plan"
@@ -873,50 +715,42 @@
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
         "categoryLabel": "Relocalisation",
-        "readTime": "9 min de lecture",
+        "readTime": "3 min lire",
         "date": "1er avril 2026",
-        "title": "Combien de temps prend une installation en Suisse ? Un calendrier réaliste",
-        "metaDescription": "Calendrier réaliste pour une installation en Suisse : scénarios à 3, 6, 9 et 12 mois. Découvrez les facteurs qui accélèrent ou retardent votre projet.",
-        "excerpt": "Des relocalisations express en 3 mois aux programmes complets sur 12 mois — comprenez ce qui influence les délais de votre installation en Suisse.",
-        "sectionCount": "8",
+        "title": "Calendrier d’installation en Suisse pour entrepreneurs et familles",
+        "metaDescription": "Séquence d'un déplacement suisse autour de l'éligibilité à la résidence, décisions d'affaires, banque, écoles et logement. Dépendances du plan sans compter sur des dates d'approbation fixes.",
+        "excerpt": "Séquence d'un déplacement suisse autour de l'éligibilité à la résidence, décisions d'affaires, banque, écoles et logement. Dépendances du plan sans compter sur des dates d'approbation fixes.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Une relocalisation suisse bien exécutée prend généralement de 6 à 12 mois, de la première conversation sérieuse jusqu'à l'installation complète de la famille. Cependant, les délais peuvent varier de 3 mois pour les situations simples à plus de 18 mois pour les family offices complexes."
+            "heading": "Planifier les décisions, pas une date de déménagement promise",
+            "level": "2",
+            "content": "Le calendrier d'un déménagement suisse dépend de la base de résidence proposée, de la disponibilité des documents, des besoins familiaux et des décisions des autorités et des institutions. Un entrepreneur qui lance des opérations peut faire face à des dépendances différentes de celles d'une famille vivant avec des richesses privées.\n\nCommencez par une fenêtre cible et identifiez les engagements flexibles. Traiter la vente d'une entreprise, le début de l'école, l'expiration du bail ou les besoins médicaux comme une contrainte de planification plutôt que de prouver qu'une approbation peut être accélérée."
           },
           "1": {
-            "heading": "Le calendrier de 3 mois : Voie rapide",
+            "heading": "Premièrement, établir la base de résidence et de travail",
             "level": "2",
-            "content": "Réalisable pour les ressortissants de l'UE/AELE prévoyant de louer plutôt que d'acheter, avec une situation financière simple. Le mois 1 est consacré au conseil fiscal et à la demande de permis B. Le mois 2 au bail et aux assurances. Le mois 3 au déménagement physique et à l'enregistrement municipal."
+            "content": "Consigner la citoyenneté, le statut de résidence actuel, les relations familiales et chaque adulte. Passez en revue la route pertinente avec un spécialiste de l'immigration avant de signer un long bail ou de compter sur une entreprise suisse pour soutenir le déménagement.\n\nPour les fondateurs, décrire l'activité commerciale, le financement, le rôle de gestion et les opérations proposées en Suisse. Pour les clients privés, déterminer si les activités prévues sont conformes aux modalités de résidence et d'imposition qui font l'objet de l'évaluation."
           },
           "2": {
-            "heading": "Le calendrier de 6 mois : Standard",
+            "heading": "Avant les transactions : aligner les conseillers dans les deux pays",
             "level": "2",
-            "content": "Le cas le plus fréquent pour les ressortissants hors UE, les familles avec enfants ou ceux optant pour le forfait fiscal. Les mois 1-2 sont consacrés à la stratégie et à la recherche scolaire. Les mois 3-4 aux demandes formelles (permis B, forfait fiscal, banque). Les mois 5-6 à l'exécution et l'installation finale."
+            "content": "Établir une liste des participations, des placements, des biens, des pensions, des fiducies et des cessions prévues. Demandez aux conseillers du pays de départ et de la Suisse de revoir ensemble les dates de résidence, le calendrier des transactions et les responsabilités en matière de déclaration.\n\nUn fondateur d'avant la sortie devrait inclure le processus de vente prévu, tout emploi ou rôle continu du conseil d'administration et les paiements différés. Le calendrier de réinstallation devrait suivre cette analyse; ne présumez pas que le déménagement avant une vente détermine son traitement fiscal."
           },
           "3": {
-            "heading": "Le calendrier de 9 mois : Complexe",
+            "heading": "En parallèle: tester la liste restreinte du canton et de la famille",
             "level": "2",
-            "content": "Typique pour les dossiers nécessitant une restructuration d'actifs pré-immigration, la création de structures d'entreprise ou des acquisitions immobilières de luxe soumises à la Lex Koller."
+            "content": "Comparez les municipalités, les maisons et les campus scolaires. Vérifiez les conditions d'admission et les places disponibles directement avec les écoles. Utilisez un voyage d'essai entre la maison proposée, le lieu de travail et le campus lorsque vous le pouvez.\n\nPréparer un budget du ménage comprenant le logement temporaire, le loyer, les dépôts, les assurances et les frais professionnels. Garder un recul pour le logement ou un lieu scolaire retardé, plutôt que de traiter chaque secteur de travail comme sûr de finir ensemble."
           },
           "4": {
-            "heading": "Le calendrier de 12 mois : Programme complet",
+            "heading": "Préparer les demandes et les preuves bancaires",
             "level": "2",
-            "content": "Approprié pour les familles multigénérationnelles établissant un family office complet, plusieurs propriétés et des structures de gouvernance complexes."
+            "content": "Accepter la liste de documents, les traductions ou les exigences de certification de l'autorité et les responsabilités de soumission. La préparation bancaire peut s'accompagner de ce travail, mais une banque a son propre processus d'acceptation. Conserver la preuve de la propriété d'une entreprise et les fonds attendus conformément au plan plus large.\n\nTenir un registre des décisions : propriétaire, documents en suspens, prochaine réponse et engagement touchés. Cela facilite l'ajustement de la date de déménagement lorsqu'une dépendance change."
           },
           "5": {
-            "heading": "Facteurs accélérateurs",
+            "heading": "Arrivée et premier mois",
             "level": "2",
-            "content": "La nationalité UE/AELE, opter pour la location initiale, disposer d'une documentation claire sur l'origine de la fortune et choisir des cantons efficaces comme Zoug ou Schwytz."
-          },
-          "6": {
-            "heading": "Facteurs de retard",
-            "level": "2",
-            "content": "La documentation complexe sur l'origine des fonds (crypto, juridictions peu transparentes), les listes d'attente scolaires et les autorisations Lex Koller."
-          },
-          "7": {
-            "heading": "Notre recommandation",
-            "level": "2",
-            "content": "Nous recommandons de commencer le processus au moins 9 mois avant la date d'arrivée visée pour garantir le meilleur placement scolaire et le choix immobilier optimal."
+            "content": "Vérifiez les exigences d'inscription et de démarrage de votre itinéraire de permis particulier avant de voyager. Confirmer l'inscription locale, les modalités d'assurance, les dates de début d'école, la remise des services publics et les modalités pratiques de réception de la correspondance officielle.\n\nUne fois réglé, prévoir le transfert à des conseillers en fiscalité, en comptabilité et autres. Conserver les renouvellements de permis et les dates de déclaration dans un calendrier partagé. Notre liste de contrôle de réinstallation, notre guide des premiers 30 jours et notre planificateur budgétaire aident à organiser les tâches pratiques; ils ne prévoient pas les dates d'approbation."
           }
         },
         "imageAlt": "Cartons de déménagement dans un appartement suisse haut de gamme avec vue sur le lac"
@@ -924,50 +758,42 @@
       "opening-swiss-private-bank-account": {
         "category": "banking",
         "categoryLabel": "Banque",
-        "readTime": "10 min de lecture",
+        "readTime": "3 min lire",
         "date": "1er avril 2026",
-        "title": "Ouvrir un compte de banque privée en Suisse : Exigences et processus",
-        "metaDescription": "Tout ce que vous devez savoir sur l'ouverture d'un compte de banque privée en Suisse : AML/KYC, origine de la fortune et attentes des banques.",
-        "excerpt": "Le guide définitif de la banque privée suisse — des exigences AML/KYC à la gestion de la fortune crypto et au choix du bon partenaire bancaire.",
-        "sectionCount": "8",
+        "title": "Banque privée suisse pour particuliers fortunés et entrepreneurs",
+        "metaDescription": "Préparez-vous à la banque privée suisse: source de richesse, produit de la vente d'entreprise, registres de propriété, frais et la décision d'acceptation indépendante de la banque.",
+        "excerpt": "Préparez-vous à la banque privée suisse: source de richesse, produit de la vente d'entreprise, registres de propriété, frais et la décision d'acceptation indépendante de la banque.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Le secteur de la banque privée en Suisse gère environ 7,9 billions de CHF d'actifs. Ouvrir une relation bancaire est une étape majeure de votre installation, offrant stabilité et gestion de classe mondiale."
+            "heading": "Commencez par le travail bancaire à faire",
+            "level": "2",
+            "content": "Avant de contacter une banque privée suisse, notez ce dont vous avez besoin : paiements quotidiens, garde, conseils en placement, gestion discrétionnaire ou soutien pour un bureau familial. Un fondateur peut aussi avoir besoin d'un compte d'exploitation distinct pour une entreprise. Distinguer les exigences personnelles, organisationnelles et familiales afin que chaque demande ait un but clair.\n\nVotre résidence, votre citoyenneté, votre statut fiscal, vos actifs et les transactions prévues influent sur les institutions qui peuvent considérer la relation. Demandez à la banque de confirmer ses critères clients actuels avant d'investir du temps dans une demande complète."
           },
           "1": {
-            "heading": "Le paysage bancaire suisse",
+            "heading": "Source de richesse et source de fonds",
             "level": "2",
-            "content": "La Suisse compte environ 243 banques agréées. Les grandes banques privées (Julius Bär, Lombard Odier, Pictet, Vontobel) exigent généralement un dépôt minimal de 1 à 5 millions de CHF. Les banques spécialisées en crypto (SEBA, Sygnum) offrent des services intégrés pour les actifs numériques."
+            "content": "Les institutions financières suisses doivent identifier leurs clients et les bénéficiaires, et évaluer les risques de blanchiment de capitaux pertinents. Pour la préparation, il est important de distinguer comment la richesse globale a été acquise et d'identifier la source de la transaction spécifique.\n\nLe dossier d'un entrepreneur peut relier la propriété de l'entreprise, les comptes, les dividendes ou un accord de vente au compte de réception. Un héritage peut nécessiter des documents d'héritage ; les revenus d'investissement peuvent nécessiter un historique de détention et de transactions traçables. Ces exemples illustrent la préparation. La banque établit les exigences de preuve pour le cas spécifique."
           },
           "2": {
-            "heading": "Exigences AML/KYC",
+            "heading": "Avant et après une vente d'entreprise",
             "level": "2",
-            "content": "Réglementées par la FINMA, les banques doivent respecter les normes de lutte contre le blanchiment d'argent (AML) et de connaissance du client (KYC). La documentation sur l'origine de la fortune (SOW) est l'élément le plus crucial."
+            "content": "Coordonner la préparation bancaire avec le calendrier des transactions. Expliquer le vendeur, l'acheteur, la contrepartie, les dates de paiement prévues et tout produit reporté ou droit de propriété retenu. Demandez à vos avocats et conseillers fiscaux quels documents peuvent être partagés et par quel canal sécurisé.\n\nNe pas déplacer une date d'achèvement ou un itinéraire passe par une nouvelle entité simplement pour s'adapter à un calendrier bancaire supposé. Confirmer que le compte de réception est prêt et que la banque comprend le transfert prévu avant l'achèvement."
           },
           "3": {
-            "heading": "Origine de la fortune : Ce que les banques attendent",
+            "heading": "Actifs numériques et propriété complexe",
             "level": "2",
-            "content": "Pour les entrepreneurs, les banques exigent les états financiers (3-5 ans) et les preuves de dividendes ou de cession. Pour les héritages, les actes notariés et les preuves de l'origine de la fortune du défunt sont nécessaires."
+            "content": "Pour la richesse d'actifs numériques, organisez des relevés d'échange, des historiques de portefeuille et des preuves reliant les actifs à leur propriétaire. Expliquer les lacunes importantes à la banque avant de faire des plans de transfert. L'acceptation d'un jeton, d'une plate-forme, d'un historique ou d'une structure de transaction est une décision propre à la banque.\n\nPour les sociétés de portefeuille, les fiducies et les fondations, préparer une carte claire de propriété et de contrôle. Plus de couches peuvent signifier plus de questions. Un récit circonstancié ne remplace pas les documents dont la banque a besoin pour évaluer la relation."
           },
           "4": {
-            "heading": "Attentes pour les clients du Moyen-Orient",
-            "level": "3",
-            "content": "Les banques suisses ont une grande expérience avec la région du CCG. Elles apprécient un récit clair (« wealth story ») expliquant chronologiquement comment la fortune a été bâtie."
+            "heading": "Comparer les frais, le service et l'autorité de décision",
+            "level": "2",
+            "content": "Demander une proposition écrite portant sur la taille minimale de la relation, les frais de garde et de consultation, les frais de transaction, les devises, la déclaration et les frais de sortie. Les chiffres publiés ne s'appliquent pas à votre résidence, mandat ou combinaison d'actifs.\n\nDemandez qui servira le compte, ce qui peut être fait en ligne et comment l'institution travaille avec vos conseillers existants. Examiner les risques d'investissement et les modalités du mandat avec les professionnels appropriés; déménager ne nécessite pas de placer tous les actifs auprès d'un seul fournisseur."
           },
           "5": {
-            "heading": "Documentation de la fortune crypto",
-            "level": "3",
-            "content": "La Suisse est l'une des juridictions les plus accueillantes pour la crypto. Les banques exigent une chaîne de possession complète, des relevés de minage aux analyses blockchain."
-          },
-          "6": {
-            "heading": "Le processus d'ouverture de compte",
+            "heading": "Ce que la coordination des délocalisations peut aider à",
             "level": "2",
-            "content": "Le processus prend généralement 4 à 8 semaines pour les cas simples. Une introduction par un conseiller de confiance facilite grandement l'acceptation du dossier par la conformité."
-          },
-          "7": {
-            "heading": "Choisir la bonne banque",
-            "level": "2",
-            "content": "Les facteurs de choix incluent le dépôt minimal, l'expertise en classes d'actifs spécifiques (crypto, private equity) et la structure des frais. Nous facilitons les introductions et l'intégration."
+            "content": "Nous aidons à placer la préparation bancaire dans le plan de déménagement plus large et à coordonner les introductions lorsque cela est approprié. L'institution prend sa propre décision d'acceptation et peut demander des renseignements supplémentaires ou refuser la relation. Il n'y a pas de date limite universelle pour l'ouverture des comptes.\n\nUtilisez l'enquête initiale pour expliquer vos priorités et les circonstances générales. Envoyer les passeports, les relevés et les documents de transaction uniquement par la voie sécurisée convenue avec le professionnel ou la banque concerné."
           }
         },
         "imageAlt": "Lobby intérieur d'une banque privée suisse avec sols en marbre et signalétique en laiton"
@@ -975,20 +801,22 @@
       "swiss-residency-permits-guide": {
         "category": "immigration",
         "categoryLabel": "Permis et immigration",
-        "readTime": "11 min de lecture",
+        "readTime": "3 min lire",
         "date": "1er avril 2026",
-        "title": "Permis de séjour suisses : Permis B, Permis C et chemin vers la citoyenneté",
-        "metaDescription": "Guide complet des permis de séjour suisses : exigences pour les permis B et C, calendriers, inclusion familiale et chemin vers la citoyenneté.",
-        "excerpt": "Tout ce que vous devez savoir sur les permis suisses — exigences, délais de traitement, regroupement familial et naturalisation.",
-        "sectionCount": "8",
+        "title": "Permis de séjour suisses pour entrepreneurs et familles fortunées",
+        "metaDescription": "Comprendre l'aménagement du territoire suisse pour les entrepreneurs et les familles à forte valeur ajoutée: itinéraires UE/AELE et pays tiers, travail, intégration familiale et établissement.",
+        "excerpt": "Comprendre l'aménagement du territoire suisse pour les entrepreneurs et les familles à forte valeur ajoutée: itinéraires UE/AELE et pays tiers, travail, intégration familiale et établissement.",
+        "sectionCount": "10",
         "sections": {
           "0": {
+            "heading": "Planification des résidences",
+            "level": "2",
             "content": "Comprendre le système des permis de séjour est fondamental. Votre permis influence votre fiscalité, vos droits de propriété et votre stabilité à long terme."
           },
           "1": {
             "heading": "Aperçu du système de permis",
             "level": "2",
-            "content": "La Suisse distingue les ressortissants UE/AELE des ressortissants d'États tiers. Le permis B (séjour) est le point d'entrée standard, menant au permis C (établissement) puis à la citoyenneté."
+            "content": "B désigne l’autorisation de séjour, L le séjour de courte durée, C l’établissement et G le permis frontalier. La catégorie et ses conditions dépendent de la nationalité, du motif du séjour et de la décision de l’autorité."
           },
           "2": {
             "heading": "Le permis B : Votre porte d'entrée",
@@ -997,28 +825,38 @@
           },
           "3": {
             "heading": "Ressortissants UE/AELE",
-            "level": "3",
-            "content": "Pour les ressortissants UE/AELE, l’obtention d’un permis B est relativement simple dans le cadre des accords bilatéraux entre la Suisse et l’Union européenne. Ils doivent démontrer soit un contrat de travail avec un employeur suisse, soit une activité indépendante avec preuve d’activité économique, soit des ressources financières suffisantes pour subvenir à leurs besoins sans recourir à l’aide sociale, catégorie particulièrement pertinente pour les personnes à hauts patrimoines. Le permis est accordé pour 5 ans et peut être renouvelé. Le traitement de la demande prend généralement 2 à 4 semaines. La procédure implique l’inscription auprès du contrôle des habitants de la commune (Einwohnerkontrolle) avec passeport, preuve d’assurance maladie et justificatifs de ressources financières ou d’emploi."
+            "level": "2",
+            "content": "Les ressortissants UE/AELE peuvent être admis au titre d’un emploi, d’une activité indépendante ou d’un séjour sans activité lucrative. Ce dernier exige des ressources suffisantes et une assurance maladie et accidents adéquate. La durée du permis dépend du motif d’admission. Fournissez les pièces demandées par l’autorité locale ; aucun délai national de traitement n’est garanti."
           },
           "4": {
             "heading": "Ressortissants non UE/AELE",
-            "level": "3",
-            "content": "Pour les ressortissants non UE/AELE, y compris les ressortissants du CCG, du Moyen-Orient, d’Asie et d’autres pays tiers, la procédure du permis B est plus complexe. Les ressortissants non européens doivent généralement démontrer que leur présence en Suisse sert l’intérêt économique du pays. Cela se fait le plus souvent par la création d’une entreprise générant des emplois ou contribuant à l’économie locale, par un investissement important, ou par l’éligibilité à l’imposition d’après la dépense, qui crée des recettes fiscales substantielles pour le canton et la commune. Les autorités cantonales disposent d’un pouvoir d’appréciation important pour accorder des permis B aux ressortissants de pays tiers. Les cantons souhaitant attirer des contribuables au forfait, comme Zoug, Schwytz, Vaud, le Valais et les Grisons, ont souvent des processus plus fluides. Le dossier requiert généralement un dossier personnel et financier détaillé, une explication claire du motif de séjour, une preuve de logement approprié, une assurance maladie et, le cas échéant, la demande d’imposition forfaitaire. Les délais de traitement vont de 4 à 12 semaines selon le canton et la complexité du dossier."
+            "level": "2",
+            "content": "Pour les ressortissants hors UE/AELE, la base légale doit être examinée individuellement. Emploi, activité indépendante, retraite et admissions exceptionnelles répondent à des conditions différentes. Un patrimoine, un achat immobilier, une société ou un ruling fiscal ne confèrent pas à eux seuls un permis de séjour. Les autorités cantonales et, si nécessaire, fédérales décident. Faites évaluer la situation avant de vous engager."
           },
           "5": {
             "heading": "Le permis C : Établissement permanent",
             "level": "2",
-            "content": "Il offre des droits presque identiques à ceux des citoyens suisses (sauf le vote). Obtenu après 5 ou 10 ans de résidence continue selon la nationalité."
+            "content": "Le permis d’établissement C peut être accordé après cinq ou dix ans selon la nationalité, les accords applicables, le parcours de résidence et l’intégration. Cinq ans ne constituent pas une règle générale pour l’UE. Établissement et naturalisation sont des procédures distinctes, soumises à leurs propres conditions ; aucun ne découle automatiquement d’un permis B."
           },
           "6": {
             "heading": "Inclusion familiale",
             "level": "2",
-            "content": "Le regroupement familial permet au conjoint et aux enfants de moins de 18 ans de rejoindre le titulaire du permis sous réserve de conditions de logement et de ressources financières."
+            "content": "Le regroupement familial dépend de la nationalité et du permis du titulaire. La libre circulation UE/AELE peut couvrir le conjoint, les enfants de moins de 21 ans ou à charge et les parents à charge, sous conditions. Les règles pour les États tiers diffèrent et peuvent imposer limites d’âge, délais, logement, langue et ressources. Vérifiez chaque situation avant de fixer la scolarisation ou le déménagement."
           },
           "7": {
             "heading": "Le chemin vers la citoyenneté suisse",
             "level": "2",
-            "content": "La naturalisation ordinaire requiert 10 ans de résidence, la maîtrise d'une langue nationale et une intégration réussie dans la communauté locale."
+            "content": "La naturalisation ordinaire exige généralement un permis C et dix années de résidence prises en compte, dont trois au cours des cinq dernières années. Les années entre 8 et 18 ans comptent double, avec au moins six années de présence effective. Les exigences cantonales et communales de résidence s’ajoutent aux conditions linguistiques et d’intégration. L’admissibilité ne garantit pas la citoyenneté."
+          },
+          "8": {
+            "heading": "Entrepreneurs: propriété de l'entreprise et droit au travail",
+            "level": "2",
+            "content": "Avant de former une entreprise pour votre déménagement, décrivez ce que vous ferez en Suisse et sur quelle base l'immigration s'applique. Le travail indépendant UE/AELE et l'admission d'entrepreneurs de pays tiers nécessitent des évaluations différentes.\n\nPour un fondateur d'un pays tiers, préparez-vous à discuter de la viabilité des entreprises, du financement, des qualifications et de la contribution proposée à l'économie suisse avec les spécialistes et autorités concernés. L'incorporation seule ne décide pas de la demande."
+          },
+          "9": {
+            "heading": "Familles à valeur élevée : évaluer les activités de chaque personne",
+            "level": "2",
+            "content": "La richesse fait partie de la situation financière et ne remplace pas une base légale de résidence. Indiquer le rôle professionnel et familial de chaque demandeur, y compris le conjoint qui peut poursuivre une entreprise à distance.\n\nGardez l'évaluation de résidence distincte de toute demande de règlement fiscal. Convenir de la séquence avant un engagement de propriété, un début d'école ou une transaction commerciale rend la date de déménagement difficile à changer."
           }
         },
         "imageAlt": "Passeport suisse et documents de permis B sur un bureau en bois sombre"
@@ -1026,50 +864,47 @@
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
         "categoryLabel": "Relocalisation",
-        "readTime": "9 min de lecture",
+        "readTime": "3 min lire",
         "date": "1er avril 2026",
-        "title": "Pourquoi les familles fortunées quittent les Émirats pour la Suisse",
-        "metaDescription": "Pourquoi les familles fortunées quittent Dubaï et Abou Dabi pour la Suisse : facteurs géopolitiques, sécurité, éducation et stabilité à long terme.",
-        "excerpt": "Analyse de la tendance croissante des familles quittant les Émirats pour la Suisse — des risques géopolitiques à la perspective générationnelle.",
-        "sectionCount": "8",
+        "title": "Des Émirats à la Suisse : préparer son installation en famille ou comme entrepreneur",
+        "metaDescription": "Pour les fondateurs des EAU et les familles à valeur élevée : comparez la résidence suisse, les activités commerciales, les conseils fiscaux, les preuves bancaires, les écoles et la séquence de déménagement.",
+        "excerpt": "Pour les fondateurs des EAU et les familles à valeur élevée : comparez la résidence suisse, les activités commerciales, les conseils fiscaux, les preuves bancaires, les écoles et la séquence de déménagement.",
+        "sectionCount": "7",
         "sections": {
           "0": {
-            "content": "Bien que les Émirats arabes unis soient un pôle d'attraction majeur, un nombre croissant de familles choisit de se relocaliser en Suisse pour des raisons de stabilité pérenne."
+            "heading": "Définir ce que le mouvement doit réaliser",
+            "level": "2",
+            "content": "Pour une famille basée à Dubai ou Abu Dhabi, un déménagement suisse peut concerner l'éducation, la proximité des intérêts commerciaux européens ou une base familiale à plus long terme. Écrivez vos propres raisons plutôt que de vous fier à des allégations sur l'endroit où d'autres familles riches se déplacent.\n\nDécidez si le plan est un déménagement familial complet, une transition échelonnée ou un séjour exploratoire. Celles-ci ont des implications pratiques différentes et ne devraient pas être considérées comme une résidence interchangeable ou un régime fiscal."
           },
           "1": {
-            "heading": "Le facteur géopolitique",
+            "heading": "Votre passeport compte ainsi que votre adresse actuelle",
             "level": "2",
-            "content": "La Suisse, avec sa neutralité de plus de 500 ans, offre une sécurité que les régions plus volatiles ne peuvent garantir. C'est le sanctuaire par excellence pour sécuriser un patrimoine."
+            "content": "Vivre aux Émirats arabes unis ne détermine pas les règles suisses en matière d'immigration. Commencez par chaque membre de la famille. Les routes UE/AELE et des pays tiers ont des exigences différentes.\n\nUn entrepreneur actif doit évaluer le travail proposé ainsi que la résidence. L'achat d'un bien immobilier, l'enregistrement d'une entreprise ou une relation bancaire ne garantit pas en soi l'autorisation de vivre et de travailler en Suisse."
           },
           "2": {
-            "heading": "Sécurité et sûreté personnelle",
+            "heading": "Séparer l'esprit d'entreprise actif de la résidence privée",
             "level": "2",
-            "content": "La Suisse figure au top 3 des pays les plus sûrs. Pour les familles, cela signifie une liberté de mouvement pour les enfants quasi impossible à Dubaï (marche vers l'école, parcs publics)."
+            "content": "Décrivez ce que vous ferez après votre déménagement : gérer une entreprise à l'étranger, faire partie d'un conseil d'administration, créer une entreprise suisse ou superviser des investissements privés. Demandez aux spécialistes d'évaluer ces activités avant de choisir un itinéraire fiscal.\n\nL’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas."
           },
           "3": {
-            "heading": "L'éducation : Le jeu à long terme",
+            "heading": "Carte des questions d'affaires et de départ",
             "level": "2",
-            "content": "L'écosystème éducatif suisse, de l'ETH Zurich aux écoles internationales historiques, offre une immersion multilingue et une stabilité inégalée pour préparer la prochaine génération."
+            "content": "Préparer un tableau de propriété montrant les Émirats arabes unis et d'autres entités, où les gens travaillent et où les décisions de gestion sont prises. Interroger les conseillers des deux pays sur les conséquences des changements proposés, notamment les états de paie, la gestion de l'entreprise, les contrats et toute disposition prévue.\n\nConstituez une liste de vérification des départs pour vos arrangements de résidence, les personnes à charge, le logement, les responsabilités commerciales et les comptes. Obtenir les exigences actuelles de l'autorité ou du fournisseur concerné avant d'annuler les arrangements dont la famille a encore besoin."
           },
           "4": {
-            "heading": "Santé et qualité de vie",
+            "heading": "Préparer les preuves bancaires avant les transferts prévus",
             "level": "2",
-            "content": "Le système de santé suisse figure régulièrement parmi les meilleurs au monde. Une couverture obligatoire universelle, des hôpitaux de référence mondiale, dont l’Universitätsspital Zurich, Hirslanden et l’Inselspital de Berne, ainsi qu’une densité de 4,3 médecins pour 1 000 habitants garantissent que l’accès aux soins n’est jamais un sujet d’inquiétude. Au-delà de la santé, la qualité de vie suisse associe des environnements naturels préservés, des infrastructures publiques efficaces et un contrat social qui privilégie l’air pur, l’eau propre, la sécurité des communautés et la richesse culturelle. L’expérience quotidienne en Suisse, de la précision des transports publics à la qualité de l’eau du robinet, reflète une société qui optimise la qualité de vie depuis plusieurs générations."
+            "content": "Organisez les registres de propriété et la preuve de l'accumulation de la richesse, ainsi que l'origine des fonds que vous prévoyez transférer. Pour une vente commerciale, connectez les documents de transaction et le calendrier de paiement au compte de réception.\n\nUne banque suisse évalue la relation proposée de façon indépendante. Interrogez-vous sur les critères, les frais et les éléments de preuve actuels du client; une introduction n'est pas une décision d'acceptation."
           },
           "5": {
-            "heading": "Comparaison fiscale",
+            "heading": "Comparer une vraie combinaison école et maison",
             "level": "2",
-            "content": "La question n'est pas « zéro impôt aujourd'hui », mais le coût total sur 30 ans. Le forfait fiscal et la protection des actifs rendent la Suisse très compétitive à long terme."
+            "content": "Choisissez les options scolaires en utilisant l'âge des enfants, le programme actuel, les besoins linguistiques et la durée probable de séjour. Comparez l'éducation publique et internationale, les admissions et le voyage vers le campus actuel.\n\nZurich, Zug et Schwyz offrent différents points de départ pour une base germanophone. Vaud et Genève méritent une comparaison séparée si l'enseignement francophone ou les relations d'affaires sont importants. Tester les déplacements quotidiens et utiliser les demandes de logement actuelles plutôt qu'un prix cantonal supposé."
           },
           "6": {
-            "heading": "La perspective générationnelle",
+            "heading": "Construisez une séquence que la famille peut suivre",
             "level": "2",
-            "content": "La Suisse est une confédération stable depuis 700 ans. Pour les familles pensant à leurs petits-enfants, cette longévité institutionnelle est un argument décisif."
-          },
-          "7": {
-            "heading": "Réussir la transition",
-            "level": "2",
-            "content": "La relocalisation des Émirats arabes unis vers la Suisse est l’un des itinéraires les mieux établis de la migration patrimoniale internationale. Les banques suisses, les conseillers fiscaux et les spécialistes de la relocation ont une longue expérience auprès des familles originaires du Golfe. Des professionnels arabophones sont disponibles dans la plupart des grandes institutions suisses, et le pont culturel, construit sur des décennies de relations d’affaires, d’éducation et de liens personnels, est solide. La transition pratique consiste à coordonner la sortie de la résidence aux Émirats arabes unis, avec ses propres implications en matière de visa, de licences commerciales et de banque, avec l’entrée dans la résidence suisse. C’est précisément dans cette coordination que le conseil professionnel apporte le plus de valeur: assurer une transition propre, fiscalement efficace, et sans angle mort. Nous sommes spécialisés dans cette transition et travaillons avec des familles de toute la région du CCG pour exécuter des relocalisations fluides vers la Suisse."
+            "content": "Convenir qui coordonne l'immigration, les conseils fiscaux, les services bancaires, la recherche à domicile et les demandes de renseignements à l'école. Gardez une fenêtre de déplacement de cible avec des arrangements de repli pour les décisions hors de votre contrôle.\n\nNous avons aidé des centaines de personnes à déménager en Suisse depuis 2012. Commencez par une conversation en ligne sur vos priorités familiales et professionnelles; des réunions en personne sont disponibles à Zurich. Aucun document financier sensible n'est nécessaire dans la première enquête."
           }
         },
         "imageAlt": "Skyline de Dubaï transitionnant vers les Alpes suisses dans une composition cinématographique"
@@ -1077,50 +912,42 @@
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
         "categoryLabel": "Gestion de patrimoine",
-        "readTime": "12 min de lecture",
+        "readTime": "3 min lire",
         "date": "1er avril 2026",
-        "title": "Établir un Family Office en Suisse : Structure, Gouvernance et Banque",
-        "metaDescription": "Guide complet pour établir un family office en Suisse : structures SFO vs MFO, types de sociétés suisses, gouvernance et banques.",
-        "excerpt": "Tout ce qu'il faut savoir pour établir un family office suisse — du choix entre SFO et MFO aux cadres de gouvernance et au choix entre Zoug et Zurich.",
-        "sectionCount": "8",
+        "title": "Créer un family office en Suisse : missions, gouvernance et installation",
+        "metaDescription": "Un guide de planification pour les familles UHNW envisageant un bureau de la famille suisse : modèle opérationnel, gouvernance, évaluation réglementaire et coordination avec le déménagement familial.",
+        "excerpt": "Un guide de planification pour les familles UHNW envisageant un bureau de la famille suisse : modèle opérationnel, gouvernance, évaluation réglementaire et coordination avec le déménagement familial.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "La Suisse abrite environ 4 000 structures de family offices. C'est le choix naturel pour les familles souhaitant professionnaliser la gestion de leur fortune."
+            "heading": "Définir le but avant de choisir la structure",
+            "level": "2",
+            "content": "Un bureau de famille suisse peut être considéré aux côtés d'un déménagement familial, d'une vente d'entreprise ou d'un changement de responsabilité générationnelle. Commencez par énumérer les emplois qu'il doit effectuer : rapports consolidés, surveillance des investissements, paiements, administration, philanthropie ou coordination de conseillers externes.\n\nSéparer les affaires personnelles de l'entreprise. Indiquer les actifs, les entités, les pays et les membres de la famille qui entrent dans le champ d'application et les décisions qui restent à prendre par les équipes existantes."
           },
           "1": {
-            "heading": "Single Family Office (SFO) vs Multi-Family Office (MFO)",
+            "heading": "Équipe interne, fournisseurs externes ou modèle hybride",
             "level": "2",
-            "content": "Un SFO offre un contrôle total mais nécessite généralement plus de 100 millions de CHF d'actifs pour être rentable. Un MFO permet de partager les coûts d'infrastructure."
+            "content": "Comparer une équipe interne avec l'externalisation de fonctions particulières et combiner les deux. La question utile est de savoir si le modèle correspond à la complexité, aux attentes en matière de services et au temps que la famille veut consacrer. Un seul seuil de gestion des actifs ne peut pas y répondre.\n\nDemander des propositions contre le même mémoire. Comparer la dotation, les systèmes, la garde, les rapports, les conseils spécialisés et le travail de transition. Présentez les frais d'installation ponctuels séparément des coûts d'exploitation récurrents et identifiez qui supervise chaque fournisseur."
           },
           "2": {
-            "heading": "Structures de sociétés suisses",
+            "heading": "L'évaluation réglementaire intervient avant le lancement",
             "level": "2",
-            "content": "La SA (Société Anonyme) est privilégiée pour les grands offices, offrant flexibilité et prestige. La Sàrl (Société à responsabilité limitée) est plus simple à administrer."
+            "content": "Les gestionnaires de fortune et les trustees exerçant à titre professionnel sont en principe soumis à une autorisation de la FINMA. L’analyse dépend des activités, des personnes servies et des modalités de propriété et de contrôle.\n\nDemandez à un avocat spécialisé dans la réglementation financière de documenter les règles applicables et toute exception avant le début des services. Ne présumez pas que le simple fait de désigner une entité comme un « bureau familial » supprime les obligations réglementaires. Réévaluez si cela implique l'ajout de clients en dehors de la famille, des changements de contrôle ou une expansion des activités."
           },
           "3": {
-            "heading": "Exigences de gouvernance",
+            "heading": "Forme et gouvernance des entreprises",
             "level": "2",
-            "content": "La gouvernance d’un family office suisse doit couvrir plusieurs domaines clés. La composition du conseil devrait généralement associer des membres de la famille et des professionnels indépendants. Les bonnes pratiques suisses recommandent au moins un administrateur indépendant disposant d’une expertise financière pertinente, et idéalement un conseil majoritairement indépendant pour les structures les plus importantes. Un comité d’investissement, distinct du conseil, devrait définir la politique d’investissement, les paramètres de risque, les objectifs d’allocation d’actifs et le suivi de la performance. Une charte ou constitution familiale formalise les valeurs de la famille, les processus de décision, les règles de succession et le mandat du bureau. Les cadres de conformité et de reporting doivent répondre aux exigences réglementaires suisses. Un reporting régulier aux membres de la famille, au minimum trimestriel, devrait couvrir la performance des investissements, les indicateurs de risque, les frais et les questions de gouvernance. Un audit professionnel, légal ou volontaire, apporte transparence et responsabilité."
+            "content": "Une SA suisse nécessite au moins CHF 100 000 de capital-actions ; au moins 20 % de la valeur nominale de chaque action et CHF 50 000 au total doivent être libérés à la constitution. Une Sàrl exige CHF 20 000 entièrement libérés. La représentation par une personne résidant en Suisse et les obligations de gouvernance, d’autorisation et de déclaration doivent être organisées avec des spécialistes.\n\nÉtablir les droits de décision, les limites de signature, les procédures d'escalade et l'accès aux dossiers. S'entendre sur la façon dont les décisions d'investissement, la garde, l'administration et la surveillance indépendante seront séparées. La fréquence des réunions et les rapports devraient correspondre au mandat et aux exigences applicables."
           },
           "4": {
-            "heading": "Relations bancaires",
+            "heading": "Choisissez l'emplacement autour des opérations réelles",
             "level": "2",
-            "content": "Un family office suisse entretient généralement des relations avec plusieurs banques. La banque dépositaire conserve et protège les actifs financiers de la famille. Les grandes banques suisses, dont UBS, Julius Bär, Pictet et Lombard Odier, fournissent toutes des services de conservation de niveau institutionnel adaptés aux family offices. La ou les banques d’exécution gèrent l’exécution des transactions, le change et le crédit. Certains family offices utilisent une seule banque pour la conservation et l’exécution; d’autres préfèrent séparer ces fonctions pour la gestion du risque et la compétitivité des prix. Les comptes de gestion de trésorerie auprès d’une ou plusieurs banques suisses couvrent les dépenses opérationnelles et la liquidité à court terme. Pour les family offices exposés aux actifs numériques, des banques crypto régulées comme SEBA Bank et Sygnum Bank fournissent une infrastructure de conservation et de négociation réglementée."
+            "content": "Comparez le lieu de travail proposé, les besoins de recrutement, les conseillers et le lieu de résidence familial. Zurich, Zug, Schwyz, Genève et d'autres cantons peuvent répondre à des besoins différents; l'adresse du bureau et la résidence familiale doivent être analysées séparément.\n\nCarte où les décisions de gestion et le travail auront lieu. Demandez aux fiscalistes d'évaluer les faits proposés dans toutes les juridictions concernées avant de traiter un domicile particulier comme une solution fiscale."
           },
           "5": {
-            "heading": "Zoug vs Zurich : Choisir son emplacement",
+            "heading": "Connectez le bureau au déménagement familial",
             "level": "2",
-            "content": "Zurich offre le vivier de talents le plus profond, tandis que Zoug propose des taux d'imposition nettement plus bas et un écosystème « Crypto Valley » unique."
-          },
-          "6": {
-            "heading": "Considérations réglementaires",
-            "level": "2",
-            "content": "Les family offices suisses bénéficient d’un environnement réglementaire relativement léger, mais doivent respecter plusieurs exigences. La conformité AML est nécessaire si le bureau gère des actifs financiers. En vertu de la loi sur les établissements financiers (LEFin/FINIG) et de la loi sur les services financiers (LSFin/FIDLEG), les gestionnaires d’actifs de tiers doivent obtenir une autorisation de la FINMA. Toutefois, un single family office pur, qui gère uniquement les actifs propres de la famille, est généralement exempté de cette exigence. Les obligations fiscales de l’entité incluent l’impôt sur le bénéfice, l’impôt sur le capital et la TVA le cas échéant. Les obligations d’employeur, notamment les cotisations sociales, la caisse de pension et l’assurance accidents, s’appliquent si le bureau emploie du personnel en Suisse. Une structuration correcte dès le départ permet d’éviter des complications réglementaires coûteuses par la suite."
-          },
-          "7": {
-            "heading": "Calendrier et coûts",
-            "level": "2",
-            "content": "L'établissement complet prend 3 à 6 mois. Les coûts d'installation varient de 50 000 à 150 000 CHF selon la complexité des structures."
+            "content": "La formation du bureau ne donne pas aux membres de la famille un droit de résidence ou de travail en Suisse. Revoir les activités prévues de chaque personne, en particulier lorsque l'on envisage d'imposer des dépenses. Évaluation des besoins de la gestion active de la Suisse.\n\nPréparer une carte des responsabilités pour les conseillers juridiques, les spécialistes de l'immigration et des impôts, les banques et le coordonnateur de la réinstallation. Nous mettons en relation ce travail de spécialiste avec le logement, les écoles et la planification d'arrivée, dans un cadre convenu."
           }
         },
         "imageAlt": "Salle de réunion d'un family office suisse avec vue alpine à travers des vitres"
@@ -1131,27 +958,35 @@
     "items": [
       {
         "question": "Combien de temps faut-il pour s'installer en Suisse ?",
-        "answer": "Une relocalisation type prend 6 à 12 mois. Cela peut être réduit à 3 mois pour les citoyens de l'UE/AELE, tandis que les dossiers complexes avec family office peuvent nécessiter jusqu'à 18 mois."
+        "answer": "Le calendrier dépend de la base de résidence et de travail, de l'état de préparation des documents, des décisions d'autorité et des dispositions pratiques telles que les places scolaires et le logement. Convenir d'une fenêtre cible et d'une séquence de décisions avec vos conseillers; il n'y a pas de calendrier d'approbation ou de règlement unique pour chaque mouvement suisse."
       },
       {
         "question": "Qu'est-ce que l'imposition d'après la dépense (forfait fiscal) ?",
-        "answer": "C'est un régime spécial pour les étrangers ne travaillant pas en Suisse. L'impôt est basé sur vos dépenses de train de vie plutôt que sur vos revenus mondiaux. Les seuils minimums varient de 250 000 à 600 000 CHF+ selon le canton."
+        "answer": "L’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas. Pour l’année fiscale 2026, l’assiette minimale fédérale est de CHF 435 000. Il ne s’agit pas de l’impôt à payer. Les dépenses mondiales du ménage et les minimums légaux liés au logement doivent aussi être pris en compte. Un calcul de contrôle distinct peut augmenter l’impôt sur certains revenus suisses et étrangers bénéficiant d’un allègement conventionnel. Les règles cantonales sur le revenu et la fortune nécessitent un calcul séparé."
       },
       {
         "question": "Les étrangers peuvent-ils acheter de l'immobilier en Suisse ?",
-        "answer": "Oui, mais sous réserve de la loi Lex Koller. Les détenteurs de permis B ou C peuvent acheter leur résidence principale. Les résidences secondaires sont soumises à des quotas et autorisations plus stricts."
+        "answer": "L’acquisition immobilière dépend de la nationalité, du domicile effectif, du permis et de l’usage. Un permis B n’autorise pas globalement l’investissement résidentiel suisse. Résidence principale, logement de vacances et bien locatif relèvent de situations distinctes. Une société suisse contrôlée depuis l’étranger ne contourne pas la Lex Koller. Faites confirmer la situation par l’autorité cantonale et le notaire avant de signer."
       },
       {
         "question": "Quel canton suisse est le meilleur pour s'installer ?",
-        "answer": "Zoug pour la fiscalité la plus basse, Zurich pour le style de vie cosmopolite et la connectivité, Schwytz pour la confidentialité et la nature. Nous vous conseillons selon vos priorités spécifiques."
+        "answer": "Comparez la municipalité, la maison, l'école et le lieu de travail. Zurich, Zug et Schwyz répondent à différentes priorités, et la comparaison de l'impôt sur les ménages nécessite des hypothèses cohérentes sur le revenu, les actifs et la situation familiale. Évaluer l'emplacement de l'entreprise séparément de la résidence personnelle."
       },
       {
         "question": "Comment ouvrir un compte de banque privée en Suisse ?",
-        "answer": "Cela nécessite une documentation AML/KYC complète (origine de la fortune et des fonds). Le processus prend environ 4 à 8 semaines. Nous vous assistons dans la préparation du dossier et les introductions."
+        "answer": "Commencez par préciser les services dont vous avez besoin et si la banque peut considérer votre résidence, votre statut fiscal et vos actifs. Préparer les preuves d'identité, de propriété et de source de richesse, ainsi que les documents indiquant d'où viendront les transferts prévus. La banque décide de l'acceptation, des exigences en matière de documentation, des frais et du calendrier."
       },
       {
         "question": "Quels permis de séjour sont disponibles en Suisse ?",
-        "answer": "Les principaux sont le permis B (séjour) et le permis C (établissement). Pour les personnes fortunées, le permis B lié au forfait fiscal est la voie la plus courante."
+        "answer": "B désigne l’autorisation de séjour, L le séjour de courte durée, C l’établissement et G le permis frontalier. La catégorie et ses conditions dépendent de la nationalité, du motif du séjour et de la décision de l’autorité. Pour les ressortissants hors UE/AELE, la base légale doit être examinée individuellement. Emploi, activité indépendante, retraite et admissions exceptionnelles répondent à des conditions différentes. Un patrimoine, un achat immobilier, une société ou un ruling fiscal ne confèrent pas à eux seuls un permis de séjour. Les autorités cantonales et, si nécessaire, fédérales décident. Faites évaluer la situation avant de vous engager."
+      },
+      {
+        "question": "Puis-je déménager en Suisse comme entrepreneur ?",
+        "answer": "L'itinéraire dépend de la citoyenneté, du statut existant et du travail proposé. L'emploi indépendant dans l'UE/AELE et l'admission d'entrepreneurs dans les pays tiers présentent des exigences différentes. Évaluer le plan d'affaires et le droit du fondateur de travailler avec un spécialiste de l'immigration; posséder ou enregistrer une entreprise n'accorde pas lui-même un permis de séjour."
+      },
+      {
+        "question": "Aidez-vous les personnes à haute valeur nette et les bureaux de la famille?",
+        "answer": "Oui. Nous coordonnons la planification de la réinstallation pour les personnes de grande valeur, les entrepreneurs, les familles des UHNW et les bureaux familiaux. La portée peut relier résidence, questions fiscales spécialisées, préparation bancaire, logement et écoles, tandis que vos professionnels nommés conservent la responsabilité de leurs conseils et services réglementés."
       }
     ]
   },
@@ -1473,8 +1308,8 @@
     },
     "home": {
       "heroBadge": "Conseil en matière de déménagement en Suisse",
-      "heroTitle": "Déménagez en Suisse avec les permis, les impôts, les opérations bancaires, les écoles et l'établissement coordonnés.",
-      "heroSubtitle": "Conseil privé basé en Suisse pour les entrepreneurs, les détenteurs de patrimoine, les familles et les family offices s'installant à Zurich, Zoug, Schwyz, Genève, Vaud et au-delà.",
+      "heroTitle": "Votre installation en Suisse, bien préparée.",
+      "heroSubtitle": "Conseil en Suisse pour particuliers fortunés, entrepreneurs et family offices. Séjour, fiscalité, banques et vie familiale, coordonnés ensemble.",
       "heroProof": [
         {
           "label": "Coordination basée en Suisse",
@@ -1494,12 +1329,12 @@
         }
       ],
       "planTitle": "Plan de déménagement en Suisse",
-      "planPeriod": "30 premiers jours",
+      "planPeriod": "Priorités de planification",
       "planRows": [
         [
           "01",
           "Parcours de résidence",
-          "Permis B, inclusion familiale, timing"
+          "Admissibilité, activités professionnelles, famille et horaires"
         ],
         [
           "02",
@@ -1509,7 +1344,7 @@
         [
           "03",
           "Préparation bancaire",
-          "Histoire et introductions de la source de richesse"
+          "Dossiers de propriété et preuves de la source de la richesse"
         ],
         [
           "04",
@@ -1517,7 +1352,7 @@
           "Logement, assurances, écoles, configuration quotidienne"
         ]
       ],
-      "planFooter": "Le but n'est pas plus de conseils. Il s’agit d’une séquence qui empêche les permis, les services bancaires, les écoles et les logements de se bloquer mutuellement.",
+      "planFooter": "Commencez par la résidence et le travail, puis alignez les conseils fiscaux spécialisés, la préparation bancaire, les écoles et le logement autour des décisions qui en dépendent.",
       "trustStrip": [
         "Évaluation privée",
         "Comparaison des cantons suisses",
@@ -1525,7 +1360,7 @@
         "Règlement familial"
       ],
       "processTitle": "De la première conversation à un plan suisse que vous pouvez exécuter",
-      "processText": "Les relocalisations de grande valeur échouent lorsque les flux de travail sont déplacés séparément. La première étape consiste à établir un modèle opérationnel clair avant que quiconque ne demande des documents.",
+      "processText": "Un fondateur qui dirige une entreprise, un investisseur qui gère une fortune privée et un bureau familial ont des besoins de planification différents. Nous commençons par vos activités, vos priorités familiales et vos conseillers existants.",
       "processSteps": [
         {
           "title": "Évaluation privée",
@@ -1541,8 +1376,8 @@
         }
       ],
       "signalsBadge": "Ce qui est coordonné",
-      "signalsTitle": "Exécution spécifique en Suisse, pas de discours générique sur la relocalisation",
-      "signalsText": "La proposition de valeur est opérationnelle : moins d'écarts entre les impôts, les permis, les banques, le logement, les écoles et le premier jour normal en Suisse.",
+      "signalsTitle": "Les détails qui rendent un déménagement suisse utilisable",
+      "signalsText": "Un plan coordonné relie les décisions concernant l'endroit où vous vivez, la façon dont vous travaillez et les besoins de votre famille.",
       "signals": [
         "Comparaison des cantons avant engagement",
         "Calendrier des permis correspondant à l'admission scolaire",
@@ -1552,82 +1387,8 @@
         "Pas de passeports, de relevés bancaires ou de fichiers sensibles via des formulaires publics"
       ],
       "pathsTitle": "Chemins de réinstallation populaires",
-      "pathsText": "Les visiteurs très intentionnels ne devraient pas avoir à traduire les pages de services génériques selon leur propre situation.",
+      "pathsText": "Explorez les questions pour votre pays de départ, les activités commerciales et la base suisse prévue.",
       "discussRoute": "Discuter de mon itinéraire"
-    },
-    "caseSnapshots": {
-      "techFounder": [
-        {
-          "label": "Point de départ",
-          "value": "Dubaï, fondateur après la sortie"
-        },
-        {
-          "label": "Base suisse",
-          "value": "Résidence familiale Zoug"
-        },
-        {
-          "label": "Risque principal",
-          "value": "Documentation sur la richesse cryptographique"
-        },
-        {
-          "label": "Résultat",
-          "value": "Permis, école, banque, bureau actif"
-        }
-      ],
-      "bankingFamily": [
-        {
-          "label": "Point de départ",
-          "value": "Beyrouth, relocalisation d'urgence"
-        },
-        {
-          "label": "Base suisse",
-          "value": "Règlement schwytzien axé sur la confidentialité"
-        },
-        {
-          "label": "Risque principal",
-          "value": "Complexité immobilière sur trois générations"
-        },
-        {
-          "label": "Résultat",
-          "value": "Famille installée avec la gouvernance suisse"
-        }
-      ],
-      "digitalNomad": [
-        {
-          "label": "Point de départ",
-          "value": "Riyad, investisseur crypto"
-        },
-        {
-          "label": "Base suisse",
-          "value": "Appartement Zurich et GmbH"
-        },
-        {
-          "label": "Risque principal",
-          "value": "Profil de patrimoine non traditionnel"
-        },
-        {
-          "label": "Résultat",
-          "value": "Permis et configuration de la double banque"
-        }
-      ],
-      "gulfFamilyOffice": [
-        {
-          "label": "Point de départ",
-          "value": "Koweït, bureau multi-juridictionnel"
-        },
-        {
-          "label": "Base Suisse",
-          "value": "Zoug Single Family Office"
-        },
-        {
-          "label": "Risque principal",
-          "value": "La gouvernance à travers les générations"
-        },
-        {
-          "label": "Résultat",
-          "value": "Tableau suisse et reportage en direct"
-        }
-      ]
     },
     "quiz": {
       "eyebrow": "Quiz d'ajustement de canton",
@@ -2129,9 +1890,9 @@
           "Schwyz"
         ],
         "urgentQuestions": [
-          "La société suisse doit-elle être créée avant ou après que la voie de résidence soit claire ?",
-          "Quel contenu le canton, la banque et les contreparties attendent-ils ?",
-          "Comment les permis de fondateur, le déménagement familial et les services bancaires d’entreprise s’influencent-ils mutuellement ?"
+          "Le plan exige-t-il une nouvelle entité suisse, une succursale ou un autre arrangement?",
+          "Où la direction, les employés, les contrats et la propriété intellectuelle siégeront-ils après le déménagement?",
+          "Quelles sont les questions relatives à la taxe de départ, au prix de transfert, à la paie et au permis de travail qui nécessitent des conseils spécialisés?"
         ],
         "workstreams": [
           "Profil du fondateur, substance de l'entreprise et examen de l'adéquation du canton",
@@ -2140,16 +1901,30 @@
           "Permis de fondateur, déménagement familial, logement et installation"
         ],
         "proofPoints": [
-          "Conçu pour les fondateurs qui ont besoin d'aligner les flux de travail de l'entreprise et de la famille",
-          "Relie la substance, les permis, les opérations bancaires et le règlement dans le bon ordre",
-          "Réduit les délais liés aux conseils juridiques, bancaires et de réinstallation isolés"
+          "Connecte le fondateur de relocalisation avec l'entreprise des activités suisses réelles",
+          "Maintient les conseillers existants impliqués dans les décisions transfrontalières",
+          "Sépare la constitution en société des autorisations de permis, de services bancaires et de licences"
+        ],
+        "faqs": [
+          {
+            "question": "Est-ce que déplacer le fondateur déplace aussi l'entreprise?",
+            "answer": "La relocalisation personnelle du fondateur et la position juridique et fiscale de l'entreprise sont des questions distinctes. Carte de la situation de la direction, des employés, des contrats et des biens. Demander aux conseillers des deux pays d'évaluer les faits proposés avant de traiter un changement d'adresse comme une migration d'entreprise."
+          },
+          {
+            "question": "Dois-je former une société suisse ou ouvrir une succursale?",
+            "answer": "Comparer l'objectif de l'entreprise, la propriété, le passif, le financement et les opérations planifiées avec les conseillers en affaires et en fiscalité. La forme juridique appropriée dépend de ces faits. Conservez la permission de résidence et de travail du fondateur, l'acceptation bancaire et toute licence de secteur dans le même plan de projet que les décisions distinctes."
+          },
+          {
+            "question": "Et si je prévois une sortie d'entreprise ?",
+            "answer": "Apporter le calendrier de vente proposé, le diagramme de propriété, les obligations de travail continues et toute considération différée dans l'évaluation. Coordonner votre pays de départ et vos conseillers suisses avant de fixer les dates de transaction et de résidence. Ne présumez pas qu'une vente est exonérée d'impôt parce qu'elle a lieu avant ou après le déménagement."
+          }
         ]
       },
       "swiss-residence-permit-entrepreneurs": {
         "slug": "swiss-residence-permit-entrepreneurs",
         "audience": "Entrepreneurs et propriétaires d'entreprises actifs",
         "title": "Permis de séjour suisse pour entrepreneurs",
-        "description": "Un parcours axé sur le fondateur à travers la résidence en Suisse, la substance de l'entreprise, les opérations bancaires, la documentation sur la source de richesse et le règlement familial.",
+        "description": "Planifier la résidence suisse en tant qu'entrepreneur actif: citoyenneté, travail proposé, viabilité des entreprises et arrangements familiaux tout ce qui compte. La possession d'une entreprise suisse n'accorde pas elle-même un permis.",
         "metaDescription": "Conseil en matière de permis de séjour suisse pour entrepreneurs. Planifiez la sélection des cantons, la création d'entreprise, les opérations bancaires, les permis et la relocalisation de la famille.",
         "startingPoint": "Internationale",
         "likelyCantons": [
@@ -2158,20 +1933,34 @@
           "Vaudois"
         ],
         "urgentQuestions": [
-          "L'entreprise suisse doit-elle être créée avant ou après la soumission du permis ?",
-          "Quelle substance économique le canton attend-il ?",
-          "Comment le patrimoine de l'entreprise doit-il être documenté pour les banques et les autorités ?"
+          "Quelles règles de résidence et de travail s'appliquent à ma citoyenneté et à mon statut actuel?",
+          "Quel est le plan d'affaires, le financement, les opérations et la contribution économique à démontrer?",
+          "Comment les plans de mon conjoint et de mes enfants vont-ils correspondre à la route proposée?"
         ],
         "workstreams": [
-          "Profil du fondateur et évaluation de l'adéquation du canton",
-          "Création de société et mise en place de la gouvernance",
-          "Demande de permis et inclusion familiale",
-          "Préparation bancaire, baux, assurance et règlement"
+          "Citoyenneté, situation actuelle et évaluation des activités prévues",
+          "Plan d'affaires, financement et propositions d'opérations suisses",
+          "Exigences cantonales et séquence de demande avec les spécialistes de l'immigration",
+          "Demandes familiales, preuves bancaires, logement et planification scolaire"
         ],
         "proofPoints": [
-          "Idéal pour les fondateurs qui ont besoin d'aligner les flux de travail professionnels et familiaux",
-          "Relie les permis à la substance de l'entreprise et à la crédibilité bancaire",
-          "Réduit les retards dus au séquençage incomplet de la documentation"
+          "Le travail indépendant UE/AELE et l'admission dans les pays tiers nécessitent des évaluations différentes",
+          "La constitution en société, l'autorisation de résidence et le traitement fiscal sont des décisions distinctes",
+          "Nous coordonnons la préparation; les autorités compétentes décident de la demande"
+        ],
+        "faqs": [
+          {
+            "question": "Puis-je obtenir une résidence suisse en créant une entreprise?",
+            "answer": "Les ressortissants UE/AELE peuvent être admis au titre d’un emploi, d’une activité indépendante ou d’un séjour sans activité lucrative. Ce dernier exige des ressources suffisantes et une assurance maladie et accidents adéquate. La durée du permis dépend du motif d’admission. Fournissez les pièces demandées par l’autorité locale ; aucun délai national de traitement n’est garanti.\n\nPour les ressortissants hors UE/AELE, la base légale doit être examinée individuellement. Emploi, activité indépendante, retraite et admissions exceptionnelles répondent à des conditions différentes. Un patrimoine, un achat immobilier, une société ou un ruling fiscal ne confèrent pas à eux seuls un permis de séjour. Les autorités cantonales et, si nécessaire, fédérales décident. Faites évaluer la situation avant de vous engager."
+          },
+          {
+            "question": "Que devrait préparer un entrepreneur pour la première évaluation?",
+            "answer": "Préparez un résumé de votre expérience, modèle d'affaires, propriété, financement, clients attendus et équipe suisse proposée. Expliquez votre propre rôle et où les décisions de travail et de gestion auront lieu. Un spécialiste peut alors déterminer quelles preuves et quelles exigences en matière d'autorité s'appliquent à l'itinéraire."
+          },
+          {
+            "question": "Puis-je continuer à gérer une entreprise d'outre-mer de Suisse?",
+            "answer": "Décrivez le travail que vous comptez effectuer en Suisse, même si les clients et l'entreprise restent à l'étranger. Demandez aux spécialistes de l'immigration et des impôts d'évaluer cette activité, y compris les conséquences de la gestion de l'entreprise, de la paye ou de la déclaration. La propriété étrangère ou les clients à l'étranger à eux seuls n'établissent pas un arrangement fiscal et de résidence compatible."
+          }
         ]
       },
       "lump-sum-taxation-switzerland": {
@@ -2189,9 +1978,9 @@
           "Zoug"
         ],
         "urgentQuestions": [
-          "Le forfait fiscal est-il réaliste pour le profil familial ?",
-          "Quels cantons méritent d'être abordés en premier ?",
-          "Quelles hypothèses en matière de style de vie et de logement déterminent la base imposable ?"
+          "L'un ou l'autre conjoint va-t-il entreprendre une activité lucrative en Suisse?",
+          "Comment une évaluation fondée sur les dépenses admissibles se compare-t-elle à la fiscalité ordinaire?",
+          "Quelle est la base de résidence, les hypothèses de logement et les conditions cantonales qui conviennent à la famille?"
         ],
         "workstreams": [
           "Éligibilité et liste restreinte des cantons",
@@ -2203,6 +1992,20 @@
           "Combine le travail de rescrit fiscal avec le véritable plan de relocalisation",
           "Maintient la négociation cantonale connectée à la réalité du mode de vie",
           "Utile avant les engagements publics ou la documentation sensible"
+        ],
+        "faqs": [
+          {
+            "question": "Est-ce que l'imposition forfaitaire convient à un fondateur actif?",
+            "answer": "L’imposition d’après la dépense est accessible aux ressortissants étrangers remplissant les conditions, qui deviennent résidents fiscaux suisses pour la première fois ou après au moins dix ans d’absence et n’exercent aucune activité lucrative en Suisse. Les époux vivant ensemble doivent tous deux satisfaire aux conditions. Diriger une entreprise ou un family office depuis la Suisse exige une analyse particulière ; des clients étrangers ou la seule détention du capital ne suffisent pas."
+          },
+          {
+            "question": "La base de cotisation minimale est-elle mon projet de loi d'impôt annuel?",
+            "answer": "Pour l’année fiscale 2026, l’assiette minimale fédérale est de CHF 435 000. Il ne s’agit pas de l’impôt à payer. Les dépenses mondiales du ménage et les minimums légaux liés au logement doivent aussi être pris en compte. Un calcul de contrôle distinct peut augmenter l’impôt sur certains revenus suisses et étrangers bénéficiant d’un allègement conventionnel. Les règles cantonales sur le revenu et la fortune nécessitent un calcul séparé."
+          },
+          {
+            "question": "Une décision fiscale garantit-elle un permis de séjour?",
+            "answer": "Avant de choisir un canton, réunissez passeports, historique de résidence, budget mondial du ménage, informations sur le logement, sources de revenus et activités professionnelles envisagées. Faites coordonner par des fiscalistes qualifiés une comparaison avec l’imposition ordinaire et, si pertinent, une demande de ruling écrit. Vérifiez ses hypothèses et obligations déclaratives. Fiscalité et autorisation de séjour relèvent de décisions distinctes ; ni l’admission ni un impôt annuel fixe ne sont garantis."
+          }
         ]
       },
       "zug-relocation-advisor": {
@@ -2242,7 +2045,7 @@
       },
       {
         "title": "2. Donnees collectees",
-        "text": "Nous collectons uniquement les informations partagees volontairement dans le formulaire, comme les coordonnees, le pays de residence, la nationalite, les objectifs de relocalisation, le calendrier, les services souhaites et le message."
+        "text": "Nous traitons les informations que vous choisissez de transmettre via nos formulaires, notamment vos coordonnées, vos objectifs de déménagement et tout contexte facultatif. Avec votre consentement, nous traitons également les données limitées de mesure du site décrites ci-dessus."
       },
       {
         "title": "3. Finalite du traitement",
@@ -2277,7 +2080,19 @@
       "qatar": "Qatar",
       "kuwait": "Koweït",
       "bahrain": "Bahreïn"
-    }
+    },
+    "description": "Conseil en installation en Suisse pour les particuliers fortunés (HNWI), les entrepreneurs et les family offices.",
+    "serviceTypes": [
+      "Pré-immigration Impôt et planification des biens",
+      "Imposition d'après la dépense (Forfait fiscal)",
+      "Résidence et Immigration",
+      "Formation de l'entreprise et réinstallation des entreprises",
+      "Établissement de Family Office",
+      "Direction et coordination du conseil",
+      "Conseil immobilier",
+      "Coordination santé et mieux-être",
+      "Établissement familial et coordination scolaire"
+    ]
   },
   "swissArrivalPage": {
     "metaTitle": "Swiss Arrival | Guide pratique pour expatriés en Suisse",

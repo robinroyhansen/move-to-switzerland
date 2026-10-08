@@ -1,612 +1,154 @@
 'use client';
 
-import { useLocale } from 'next-intl';
-import { type ReactNode, useEffect, useRef, useState } from 'react';
-import { ScrollReveal } from '@/components/ScrollReveal';
+import NextLink from 'next/link';
+import { useRef, useState, type FormEvent } from 'react';
 import { Link } from '@/i18n/routing';
-import { trackConversion } from '@/lib/analytics';
-import { getContactEnhancementCopy } from '@/lib/contact-enhancement-copy';
-import { getContactCopy } from '@/lib/contact-copy';
+import { trackConversion, getAttribution } from '@/lib/analytics';
+import type { ContactCopy } from '@/lib/contact-copy';
+import type { ContactEnhancementCopy } from '@/lib/contact-enhancement-copy';
+import type { GrowthCopy } from '@/lib/growth-copy';
 
-type Status = 'idle' | 'sending' | 'success' | 'error';
+type Props = { locale: string; copy: ContactCopy; enhanced: ContactEnhancementCopy; growth: GrowthCopy };
+const inputClass = 'mt-2 min-h-12 w-full rounded-sm border border-navy/20 bg-cream/40 px-4 py-3 text-base text-charcoal focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold';
 
-type Option = {
-  value: string;
-  label: string;
-};
-
-type FieldErrors = Record<string, string>;
-
-function RadioPills({
-  name,
-  options,
-  label,
-  required = false,
-}: {
-  name: string;
-  options: Option[];
-  label: string;
-  required?: boolean;
-}) {
-  return (
-    <div className="flex flex-wrap gap-2.5" role="radiogroup" aria-label={label}>
-      {options.map((option) => (
-        <label key={option.value} className="group max-w-full cursor-pointer">
-          <input
-            type="radio"
-            name={name}
-            value={option.value}
-            required={required}
-            className="peer sr-only"
-          />
-          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
-            {option.label}
-          </span>
-        </label>
-      ))}
-    </div>
-  );
-}
-
-function CheckboxPills({ name, options, label }: { name: string; options: Option[]; label: string }) {
-  return (
-    <div className="flex flex-wrap gap-2.5" role="group" aria-label={label}>
-      {options.map((option) => (
-        <label key={option.value} className="group max-w-full cursor-pointer">
-          <input type="checkbox" name={name} value={option.value} className="peer sr-only" />
-          <span className="inline-flex min-h-11 max-w-full items-center rounded-full border border-navy/10 bg-cream/50 px-4 py-2.5 text-start text-sm font-medium leading-snug text-charcoal/70 transition-all duration-200 break-words hyphens-auto peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-gold peer-checked:border-gold peer-checked:bg-navy peer-checked:text-text-light group-hover:border-gold/60">
-            {option.label}
-          </span>
-        </label>
-      ))}
-    </div>
-  );
-}
-
-function FieldLabel({
-  children,
-  required = false,
-}: {
-  children: ReactNode;
-  required?: boolean;
-}) {
-  return (
-    <label className="mb-2.5 block text-[0.78rem] font-semibold leading-snug text-charcoal/55">
-      {children}
-      {required && <span aria-hidden="true"> *</span>}
-    </label>
-  );
-}
-
-const inputClass =
-  'w-full min-w-0 rounded-sm border border-navy/8 bg-cream/40 px-4 py-3.5 text-base leading-relaxed text-charcoal placeholder-charcoal/25 transition-all duration-300 focus:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold sm:text-sm';
-
-function FieldError({ message }: { message?: string }) {
-  if (!message) return null;
-
-  return <p className="mt-2 text-sm text-red-700">{message}</p>;
-}
-
-function ProgressStep({ index, title }: { index: number; title: string }) {
-  return (
-    <div className="flex min-w-0 flex-1 items-center gap-3 rounded-full border border-navy/8 bg-cream/50 px-3 py-2">
-      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-navy text-xs font-semibold text-gold">
-        {index}
-      </span>
-      <span className="min-w-0 text-start text-[0.72rem] font-semibold leading-snug text-charcoal/55">
-        {title.replace(/^\d+\.\s*/, '')}
-      </span>
-    </div>
-  );
-}
-
-function collectAttribution() {
-  if (typeof window === 'undefined') return {};
-
-  const params = new URLSearchParams(window.location.search);
-  const utm: Record<string, string> = {};
-
-  for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid']) {
-    const value = params.get(key);
-    if (value) {
-      utm[key] = value;
-    }
-  }
-
-  return {
-    ...utm,
-    previousRoute: window.sessionStorage.getItem('mts_previous_route') || '',
-    landingPage: window.sessionStorage.getItem('mts_landing_page') || window.location.href,
-  };
-}
-
-export default function ContactPage() {
-  const locale = useLocale();
-  const copy = getContactCopy(locale);
-  const enhanced = getContactEnhancementCopy(locale);
-  const [status, setStatus] = useState<Status>('idle');
-  const [errorMessage, setErrorMessage] = useState('');
-  const [errors, setErrors] = useState<FieldErrors>({});
-  const [startedAt, setStartedAt] = useState('');
-  const [optionalOpen, setOptionalOpen] = useState(false);
-  const [selectedContact, setSelectedContact] = useState('');
+export default function ContactContent({ locale, copy, enhanced, growth }: Props) {
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const formRef = useRef<HTMLFormElement>(null);
+  const startedAt = useRef(0);
+  const started = useRef(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
-  useEffect(() => {
-    setStartedAt(Date.now().toString());
-    if (!window.sessionStorage.getItem('mts_landing_page')) {
-      window.sessionStorage.setItem('mts_landing_page', window.location.href);
-    }
-
-    return () => {
-      window.sessionStorage.setItem('mts_previous_route', window.location.pathname);
-    };
-  }, []);
-
-  function addError(nextErrors: FieldErrors, formData: FormData, name: string, message: string) {
-    const value = formData.get(name);
-    if (!value || value.toString().trim() === '') {
-      nextErrors[name] = message;
+  function start() {
+    if (!startedAt.current) startedAt.current = Date.now();
+    if (!started.current) {
+      started.current = true;
+      trackConversion('contact_form_start');
     }
   }
 
-  function focusFirstError(nextErrors: FieldErrors) {
-    const firstField = Object.keys(nextErrors)[0];
-    if (!firstField) return;
-
-    window.requestAnimationFrame(() => {
-      const field = formRef.current?.querySelector<HTMLElement>(`[name="${firstField}"]`);
-      const visibleTarget = field?.closest('label') ?? field;
-      field?.focus({ preventScroll: true });
-      visibleTarget?.scrollIntoView({ block: 'center', behavior: 'smooth' });
-    });
-  }
-
-  function handleFormChange(e: React.ChangeEvent<HTMLFormElement>) {
-    const target = e.target as unknown as HTMLInputElement;
-    if (target.name === 'preferredContact') {
-      setSelectedContact(target.value);
+  async function submit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (status === 'sending') return;
+    const data = new FormData(event.currentTarget);
+    const next: Record<string, string> = {};
+    for (const name of ['name', 'email', 'primaryGoal']) {
+      if (!String(data.get(name) || '').trim()) next[name] = enhanced.validation.required;
     }
-  }
-
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setStatus('sending');
-    setErrorMessage('');
-    setErrors({});
+    if (data.get('email') && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(data.get('email')).trim())) next.email = enhanced.validation.email;
+    if (data.get('privacyConsent') !== 'yes') next.privacyConsent = enhanced.validation.consent;
+    setErrors(next);
     trackConversion('contact_form_submit_attempt');
-
-    const form = e.currentTarget;
-    const formData = new FormData(form);
-    const payload: Record<string, FormDataEntryValue | FormDataEntryValue[]> = {};
-
-    for (const [key, value] of formData.entries()) {
-      if (key === 'servicesNeeded' || key === 'preferredCantons') {
-        continue;
-      }
-      payload[key] = value;
-    }
-
-    const nextErrors: FieldErrors = {};
-    addError(nextErrors, formData, 'enquiryType', enhanced.validation.required);
-    addError(nextErrors, formData, 'primaryGoal', enhanced.validation.required);
-    addError(nextErrors, formData, 'country', enhanced.validation.required);
-    addError(nextErrors, formData, 'timeline', enhanced.validation.required);
-    addError(nextErrors, formData, 'name', enhanced.validation.required);
-    addError(nextErrors, formData, 'email', enhanced.validation.required);
-    addError(nextErrors, formData, 'preferredContact', enhanced.validation.preferredContact);
-    addError(nextErrors, formData, 'message', enhanced.validation.required);
-    addError(nextErrors, formData, 'privacyConsent', enhanced.validation.consent);
-
-    const email = formData.get('email')?.toString().trim();
-    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      nextErrors.email = enhanced.validation.email;
-    }
-
-    const selectedServices = formData.getAll('servicesNeeded');
-    if (selectedServices.length === 0) {
-      nextErrors.servicesNeeded = enhanced.validation.servicesNeeded;
-    }
-
-    if (formData.get('preferredContact') === 'phone' && !formData.get('phone')?.toString().trim()) {
-      nextErrors.phone = enhanced.validation.phoneRequired;
-    }
-
-    if (Object.keys(nextErrors).length > 0) {
-      setErrors(nextErrors);
-      setErrorMessage(Object.values(nextErrors)[0]);
+    if (Object.keys(next).length) {
       setStatus('error');
-      focusFirstError(nextErrors);
-      trackConversion('contact_form_validation_error', {
-        field: Object.keys(nextErrors)[0],
-      });
+      setErrorMessage(Object.values(next)[0]);
+      formRef.current?.querySelector<HTMLElement>(`[name="${Object.keys(next)[0]}"]`)?.focus();
+      trackConversion('contact_form_validation_error', { field: Object.keys(next)[0] });
       return;
     }
-
-    payload.servicesNeeded = selectedServices;
-    payload.preferredCantons = formData.getAll('preferredCantons');
-    payload.pageUrl = window.location.href;
-    payload.referrer = document.referrer;
-    payload.locale = document.documentElement.lang;
-    payload.attribution = JSON.stringify(collectAttribution());
-
+    setStatus('sending');
+    setErrorMessage('');
+    const payload = {
+      ...Object.fromEntries(data),
+      preferredContact: 'email',
+      servicesNeeded: [],
+      formStartedAt: String(startedAt.current),
+      locale,
+      pageUrl: `${window.location.origin}${window.location.pathname}`,
+      attribution: JSON.stringify(getAttribution()),
+    };
     try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
-
-      if (res.ok) {
-        setStatus('success');
-        form.reset();
-        setOptionalOpen(false);
-        setSelectedContact('');
-        trackConversion('contact_form_submit_success', {
-          locale,
-          primaryGoal: String(payload.primaryGoal || ''),
-          timeline: String(payload.timeline || ''),
-          servicesCount: selectedServices.length,
-        });
-      } else {
-        const detail = await res.json().catch(() => null);
-        setErrorMessage(detail?.error || enhanced.validation.submitError);
-        setStatus('error');
-        trackConversion('contact_form_submit_error', {
-          status: res.status,
-        });
-      }
+      const response = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+      const result = await response.json().catch(() => null);
+      if (!response.ok || result?.success !== true) throw new Error(String(response.status));
+      setStatus('success');
+      formRef.current?.reset();
+      trackConversion('contact_form_submit_success');
     } catch {
-      setErrorMessage(enhanced.validation.submitError);
       setStatus('error');
-      trackConversion('contact_form_submit_error', {
-        status: 'network',
-      });
+      setErrorMessage(enhanced.validation.submitError);
+      trackConversion('contact_form_submit_error');
     }
   }
 
-  return (
-    <>
-      <section className="bg-navy pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pb-20 lg:pt-36">
-        <div className="mx-auto max-w-4xl px-5 text-start sm:px-6 sm:text-center">
-          <div className="gold-line-center" />
-          <h1 className="mb-5 font-serif text-4xl font-semibold leading-[1.02] text-text-light break-words hyphens-auto sm:text-5xl lg:text-6xl">
-            {copy.pageTitle}
-          </h1>
-          <p className="max-w-3xl text-base font-light leading-relaxed text-text-light/65 sm:mx-auto sm:text-lg">
-            {copy.pageSubtitle}
-          </p>
-        </div>
-      </section>
+  function field(name: string, label: string, type = 'text', required = false, autoComplete?: string) {
+    return <div>
+      <label htmlFor={`contact-${name}`} className="text-sm font-medium text-navy">{label}{required && ' *'}</label>
+      <input id={`contact-${name}`} name={name} type={type} required={required} autoComplete={autoComplete} maxLength={type === 'email' ? 240 : 160} className={inputClass} aria-invalid={!!errors[name]} aria-describedby={errors[name] ? `error-${name}` : undefined} />
+      {errors[name] && <p id={`error-${name}`} className="mt-2 text-sm text-red-700">{errors[name]}</p>}
+    </div>;
+  }
 
-      <section className="bg-cream py-12 sm:py-16 lg:py-24">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-12">
-            <div className="lg:col-span-3">
-              <ScrollReveal>
-                <div className="rounded-lg border border-navy/[0.04] bg-white p-5 shadow-sm sm:p-8 lg:p-10">
-                  <div className="mb-8 flex items-start gap-3 rounded-lg border border-gold/10 bg-gold/5 p-4">
-                    <svg className="mt-0.5 h-4 w-4 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2Zm10-10V7a4 4 0 0 0-8 0v4h8Z" />
-                    </svg>
-                    <div className="min-w-0">
-                      <p className="text-xs italic text-charcoal/45">{copy.confidential}</p>
-                      <p className="mt-1 text-sm font-light leading-relaxed text-charcoal/55">
-                        {copy.noSensitive}
-                      </p>
-                    </div>
-                  </div>
-
-                  {status === 'success' ? (
-                    <div className="py-16 text-center">
-                      <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-green-50">
-                        <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m5 13 4 4L19 7" />
-                        </svg>
-                      </div>
-                      <h2 className="font-serif text-3xl font-semibold text-navy">{enhanced.status.successTitle}</h2>
-                      <p className="mx-auto mt-3 max-w-md font-light leading-relaxed text-charcoal/65">{enhanced.status.successText}</p>
-                    </div>
-                  ) : (
-                    <form ref={formRef} onSubmit={handleSubmit} onChange={handleFormChange} className="space-y-8 sm:space-y-10" noValidate>
-                      <input type="hidden" name="formStartedAt" value={startedAt} />
-                      <div className="sr-only" aria-hidden="true">
-                        <label>
-                          {enhanced.honeypotLabel}
-                          <input type="text" name="companyWebsite" tabIndex={-1} autoComplete="off" />
-                        </label>
-                      </div>
-
-                      <div aria-label={enhanced.progressTitle} className="grid gap-2 sm:grid-cols-3">
-                        <ProgressStep index={1} title={copy.sections.situationTitle} />
-                        <ProgressStep index={2} title={copy.sections.coordinationTitle} />
-                        <ProgressStep index={3} title={copy.sections.responseTitle} />
-                      </div>
-
-                      <fieldset className="space-y-6">
-                        <div>
-                          <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.situationTitle}</p>
-                          <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
-                            {copy.sections.situationText}
-                          </p>
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.enquiryType}</FieldLabel>
-                          <RadioPills name="enquiryType" label={copy.labels.enquiryType} options={copy.options.enquiryTypes} required />
-                          <FieldError message={errors.enquiryType} />
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.primaryGoal}</FieldLabel>
-                          <RadioPills name="primaryGoal" label={copy.labels.primaryGoal} options={copy.options.primaryGoals} required />
-                          <FieldError message={errors.primaryGoal} />
-                        </div>
-
-                        <div className="grid gap-5 sm:grid-cols-2">
-                          <div>
-                            <FieldLabel required>{copy.labels.country}</FieldLabel>
-                            <input type="text" name="country" required className={inputClass} autoComplete="country-name" />
-                            <FieldError message={errors.country} />
-                          </div>
-                          <div>
-                            <FieldLabel>{copy.labels.nationality}</FieldLabel>
-                            <input type="text" name="nationality" className={inputClass} autoComplete="country-name" />
-                          </div>
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.timeline}</FieldLabel>
-                          <RadioPills name="timeline" label={copy.labels.timeline} options={copy.options.timelines} required />
-                          <FieldError message={errors.timeline} />
-                        </div>
-                      </fieldset>
-
-                      <fieldset className="space-y-6 border-t border-navy/8 pt-8 sm:pt-10">
-                        <div>
-                          <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.coordinationTitle}</p>
-                          <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
-                            {copy.sections.coordinationText}
-                          </p>
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.servicesNeeded}</FieldLabel>
-                          <CheckboxPills name="servicesNeeded" label={copy.labels.servicesNeeded} options={copy.options.services} />
-                          <FieldError message={errors.servicesNeeded || (errorMessage === copy.serviceError ? copy.serviceError : undefined)} />
-                        </div>
-
-                        <div className="grid gap-5 sm:grid-cols-2">
-                          <div>
-                            <FieldLabel>{copy.labels.targetCanton}</FieldLabel>
-                            <input type="text" name="targetCanton" className={inputClass} placeholder={copy.placeholders.targetCanton} />
-                          </div>
-                          <div>
-                            <FieldLabel>{copy.labels.familySize}</FieldLabel>
-                            <input type="text" name="familySize" className={inputClass} placeholder={copy.placeholders.familySize} />
-                          </div>
-                        </div>
-
-                        <div>
-                          <FieldLabel>{copy.labels.existingAdvisors}</FieldLabel>
-                          <RadioPills name="existingAdvisors" label={copy.labels.existingAdvisors} options={copy.options.advisorOptions} />
-                        </div>
-
-                        <div className="rounded-lg border border-navy/8 bg-cream/35">
-                          <button
-                            type="button"
-                            onClick={() => setOptionalOpen((open) => !open)}
-                            className="flex w-full flex-col items-start gap-3 px-5 py-4 text-start sm:flex-row sm:items-center sm:justify-between sm:gap-4"
-                            aria-expanded={optionalOpen}
-                          >
-                            <span className="min-w-0">
-                              <span className="block font-serif text-xl font-semibold text-navy">{enhanced.optionalContextTitle}</span>
-                              <span className="mt-1 block text-sm font-light leading-relaxed text-charcoal/55">{enhanced.optionalContextText}</span>
-                            </span>
-                            <span className="inline-flex max-w-full shrink-0 rounded-full border border-gold/25 px-3 py-1 text-start text-xs font-semibold leading-snug text-gold">
-                              {optionalOpen ? enhanced.hideOptional : enhanced.showOptional}
-                            </span>
-                          </button>
-                          {optionalOpen && (
-                            <div className="space-y-5 border-t border-navy/8 px-5 py-5">
-                              <div className="grid gap-5 sm:grid-cols-2">
-                                <div>
-                                  <FieldLabel>{enhanced.labels.relocationYear}</FieldLabel>
-                                  <input type="text" name="relocationYear" className={inputClass} placeholder={enhanced.placeholders.relocationYear} />
-                                </div>
-                                <div>
-                                  <FieldLabel>{enhanced.labels.schoolAgeRange}</FieldLabel>
-                                  <input type="text" name="schoolAgeRange" className={inputClass} placeholder={enhanced.placeholders.schoolAgeRange} />
-                                </div>
-                              </div>
-                              <div>
-                                <FieldLabel>{enhanced.labels.advisoryScope}</FieldLabel>
-                                <RadioPills name="advisoryScope" label={enhanced.labels.advisoryScope} options={enhanced.options.advisoryScopes} />
-                              </div>
-                              <div>
-                                <FieldLabel>{enhanced.labels.preferredCantons}</FieldLabel>
-                                <CheckboxPills name="preferredCantons" label={enhanced.labels.preferredCantons} options={enhanced.options.preferredCantons} />
-                              </div>
-                              <div>
-                                <FieldLabel>{enhanced.labels.urgencyReason}</FieldLabel>
-                                <input type="text" name="urgencyReason" className={inputClass} placeholder={enhanced.placeholders.urgencyReason} />
-                              </div>
-                            </div>
-                          )}
-                        </div>
-                      </fieldset>
-
-                      <fieldset className="space-y-6 border-t border-navy/8 pt-8 sm:pt-10">
-                        <div>
-                          <p className="font-serif text-2xl font-semibold text-navy">{copy.sections.responseTitle}</p>
-                          <p className="mt-2 text-sm font-light leading-relaxed text-charcoal/55">
-                            {copy.sections.responseText}
-                          </p>
-                        </div>
-
-                        <div className="grid gap-5 sm:grid-cols-2">
-                          <div>
-                            <FieldLabel required>{copy.labels.name}</FieldLabel>
-                            <input type="text" name="name" required className={inputClass} autoComplete="name" />
-                            <FieldError message={errors.name} />
-                          </div>
-                          <div>
-                            <FieldLabel required>{copy.labels.email}</FieldLabel>
-                            <input type="email" name="email" required className={inputClass} autoComplete="email" />
-                            <FieldError message={errors.email} />
-                          </div>
-                        </div>
-
-                        <div className="grid gap-5 sm:grid-cols-2">
-                          <div className={selectedContact === 'phone' ? 'rounded-lg border border-gold/25 bg-gold/5 p-4' : ''}>
-                            <FieldLabel required={selectedContact === 'phone'}>{copy.labels.phone}</FieldLabel>
-                            <input type="tel" name="phone" className={inputClass} autoComplete="tel" />
-                            <FieldError message={errors.phone} />
-                          </div>
-                          <div>
-                            <FieldLabel>{copy.labels.hearAbout}</FieldLabel>
-                            <input type="text" name="hearAbout" className={inputClass} />
-                          </div>
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.preferredContact}</FieldLabel>
-                          <RadioPills name="preferredContact" label={copy.labels.preferredContact} options={copy.options.contactMethods} required />
-                          <FieldError message={errors.preferredContact} />
-                        </div>
-
-                        <div>
-                          <FieldLabel required>{copy.labels.message}</FieldLabel>
-                          <textarea
-                            name="message"
-                            required
-                            rows={6}
-                            className={`${inputClass} resize-none`}
-                            placeholder={copy.placeholders.message}
-                          />
-                          <FieldError message={errors.message} />
-                        </div>
-
-                        <label className="flex items-start gap-3 rounded-sm border border-navy/8 bg-cream/40 p-4 text-sm font-light leading-relaxed text-charcoal/65 focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-gold">
-                          <input type="checkbox" name="privacyConsent" value="yes" required className="mt-1 h-4 w-4 rounded border-navy/20 text-gold" />
-                          <span>
-                            {enhanced.privacy.beforeLink}
-                            <Link href="/privacy" className="font-medium text-navy underline decoration-gold/40 underline-offset-4 hover:text-gold">
-                              {enhanced.privacy.linkText}
-                            </Link>
-                            {enhanced.privacy.afterLink}
-                          </span>
-                        </label>
-                        <FieldError message={errors.privacyConsent} />
-                      </fieldset>
-
-                      {status === 'error' && (
-                        <div className="rounded-sm border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700" role="alert" aria-live="assertive">
-                          <p className="font-medium">{errorMessage || enhanced.validation.submitError}</p>
-                          {Object.keys(errors).length > 0 && (
-                            <ul className="mt-2 space-y-1">
-                              {Object.entries(errors).map(([field, message]) => {
-                                const fieldLabels: Record<string, string> = {
-                                  enquiryType: copy.labels.enquiryType,
-                                  primaryGoal: copy.labels.primaryGoal,
-                                  country: copy.labels.country,
-                                  timeline: copy.labels.timeline,
-                                  name: copy.labels.name,
-                                  email: copy.labels.email,
-                                  phone: copy.labels.phone,
-                                  preferredContact: copy.labels.preferredContact,
-                                  message: copy.labels.message,
-                                  servicesNeeded: copy.labels.servicesNeeded,
-                                  privacyConsent: enhanced.privacy.linkText,
-                                };
-
-                                return (
-                                  <li key={field}>
-                                    <a
-                                      href={`#${field}`}
-                                      onClick={(event) => {
-                                        event.preventDefault();
-                                        const target = formRef.current?.querySelector<HTMLElement>(`[name="${field}"]`);
-                                        const visibleTarget = target?.closest('label') ?? target;
-                                        target?.focus({ preventScroll: true });
-                                        visibleTarget?.scrollIntoView({ block: 'center', behavior: 'smooth' });
-                                      }}
-                                      className="underline decoration-red-300 underline-offset-4"
-                                    >
-                                      {fieldLabels[field] || field}: {message}
-                                    </a>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          )}
-                        </div>
-                      )}
-
-                      <button
-                        type="submit"
-                        disabled={status === 'sending'}
-                        className="sticky bottom-3 z-20 min-h-[3.25rem] w-full rounded-full bg-navy px-6 py-4 text-center text-sm font-semibold leading-snug text-text-light shadow-xl shadow-navy/15 transition-all duration-300 hover:bg-navy-light disabled:opacity-50 sm:static"
-                      >
-                        {status === 'sending' ? enhanced.status.sending : copy.submit}
-                      </button>
-                    </form>
-                  )}
-                </div>
-              </ScrollReveal>
+  return <>
+    <section className="bg-navy pb-12 pt-32 sm:pb-16 sm:pt-36">
+      <div className="mx-auto max-w-5xl px-5 sm:px-6">
+        <h1 className="max-w-3xl font-serif text-4xl font-semibold leading-tight text-text-light sm:text-5xl">{copy.pageTitle}</h1>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-text-light/80 sm:text-lg">{growth.contactIntro}</p>
+      </div>
+    </section>
+    <section className="bg-cream py-12 sm:py-20">
+      <div className="mx-auto grid max-w-5xl gap-12 px-5 sm:px-6 lg:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]">
+        <div>
+          {status === 'success' ? <div role="status" aria-live="polite" className="border border-gold/40 bg-gold/5 p-8">
+            <h2 className="font-serif text-3xl text-navy">{enhanced.status.successTitle}</h2>
+            <p className="mt-4 leading-relaxed text-charcoal/80">{enhanced.status.successText}</p>
+            <NextLink href="/en/relocation-checklist" className="mt-6 inline-flex min-h-11 items-center text-navy underline underline-offset-4">{growth.checklist}</NextLink>
+          </div> : <form ref={formRef} onSubmit={submit} onFocus={start} className="space-y-6" noValidate aria-busy={status === 'sending'}>
+            <div className="sr-only" aria-hidden="true"><label>{enhanced.honeypotLabel}<input name="companyWebsite" tabIndex={-1} autoComplete="off" /></label></div>
+            <div className="grid gap-6 sm:grid-cols-2">
+              {field('name', copy.labels.name, 'text', true, 'name')}
+              {field('email', copy.labels.email, 'email', true, 'email')}
             </div>
-
-            <aside className="lg:col-span-2">
-              <ScrollReveal delay={150}>
-                <div className="space-y-6 lg:sticky lg:top-28">
-                  <div className="rounded-lg bg-navy p-7 sm:p-10">
-                    <h2 className="mb-6 font-serif text-2xl font-semibold text-gold">
-                      {copy.aside.title}
-                    </h2>
-                    <div className="space-y-6 text-sm font-light leading-relaxed text-text-light/60">
-                      {copy.aside.paragraphs.map((paragraph) => (
-                        <p key={paragraph}>{paragraph}</p>
-                      ))}
-                    </div>
-
-                    <div className="mt-10 space-y-5 border-t border-text-light/10 pt-8">
-                      {copy.aside.items.map((item) => (
-                        <div key={item} className="flex items-start gap-3">
-                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                          <p className="min-w-0 text-sm leading-relaxed text-text-light/65">{item}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                  <div className="rounded-lg border border-navy/8 bg-white p-7 shadow-sm">
-                    <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.process.title}</h2>
-                    <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{enhanced.process.intro}</p>
-                    <ol className="mt-6 space-y-4">
-                      {enhanced.process.steps.map((step, index) => (
-                        <li key={step} className="flex gap-3 text-sm leading-relaxed text-charcoal/65">
-                          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold/12 text-xs font-semibold text-gold">{index + 1}</span>
-                          <span>{step}</span>
-                        </li>
-                      ))}
-                    </ol>
-                  </div>
-                  <div className="rounded-lg border border-gold/15 bg-gold/5 p-7">
-                    <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.trust.title}</h2>
-                    <div className="mt-5 space-y-3">
-                      {enhanced.trust.items.map((item) => (
-                        <div key={item} className="flex items-start gap-3">
-                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                          <p className="min-w-0 text-sm leading-relaxed text-charcoal/65">{item}</p>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+            <div>
+              <label htmlFor="contact-primaryGoal" className="text-sm font-medium text-navy">{copy.labels.primaryGoal} *</label>
+              <select id="contact-primaryGoal" name="primaryGoal" defaultValue="" required className={inputClass} aria-invalid={!!errors.primaryGoal} aria-describedby={errors.primaryGoal ? 'error-primaryGoal' : undefined}>
+                <option value="" disabled>{copy.labels.primaryGoal}</option>
+                {copy.options.primaryGoals.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
+              </select>
+              {errors.primaryGoal && <p id="error-primaryGoal" className="mt-2 text-sm text-red-700">{errors.primaryGoal}</p>}
+            </div>
+            <details className="border-y border-navy/15 py-4">
+              <summary className="min-h-11 cursor-pointer py-2 text-sm font-medium text-navy">{growth.optional}</summary>
+              <div className="mt-5 space-y-6 pb-3">
+                {field('country', copy.labels.country, 'text', false, 'country-name')}
+                <div><label htmlFor="contact-timeline" className="text-sm font-medium text-navy">{copy.labels.timeline}</label>
+                  <select id="contact-timeline" name="timeline" defaultValue="" className={inputClass}>
+                    <option value="">{copy.labels.timeline}</option>
+                    {copy.options.timelines.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
+                  </select>
                 </div>
-              </ScrollReveal>
-            </aside>
-          </div>
+                <div><label htmlFor="contact-message" className="text-sm font-medium text-navy">{copy.labels.message}</label>
+                  <textarea id="contact-message" name="message" rows={4} maxLength={5000} className={inputClass} placeholder={copy.placeholders.message} />
+                </div>
+              </div>
+            </details>
+            <p className="text-sm leading-relaxed text-charcoal/75">{copy.noSensitive}</p>
+            <div>
+              <label className="flex cursor-pointer items-start gap-3 text-sm leading-relaxed text-charcoal/85">
+                <input name="privacyConsent" type="checkbox" value="yes" required className="mt-1 h-5 w-5 shrink-0 accent-navy" aria-invalid={!!errors.privacyConsent} aria-describedby={errors.privacyConsent ? 'error-privacyConsent' : undefined} />
+                <span>{enhanced.privacy.beforeLink}<Link href="/privacy" className="text-navy underline underline-offset-4">{enhanced.privacy.linkText}</Link>{enhanced.privacy.afterLink}</span>
+              </label>
+              {errors.privacyConsent && <p id="error-privacyConsent" className="mt-2 text-sm text-red-700">{errors.privacyConsent}</p>}
+            </div>
+            {errorMessage && <p role="alert" className="text-sm text-red-700">{errorMessage}</p>}
+            <button type="submit" disabled={status === 'sending'} className="min-h-12 w-full rounded-full bg-navy px-6 py-4 text-sm font-semibold text-text-light transition-colors hover:bg-navy-light disabled:opacity-60">{status === 'sending' ? enhanced.status.sending : copy.submit}</button>
+          </form>}
         </div>
-      </section>
-    </>
-  );
+        <aside className="space-y-8 text-charcoal/80">
+          <div><h2 className="font-serif text-2xl text-navy">{enhanced.process.title}</h2>
+            <p className="mt-4 text-sm leading-7">{enhanced.process.intro}</p>
+            <ol className="mt-5 list-decimal space-y-3 ps-5 text-sm leading-relaxed">{enhanced.process.steps.map(step => <li key={step}>{step}</li>)}</ol>
+          </div>
+          <div className="border-t border-navy/15 pt-6">
+            <p className="font-serif text-xl leading-relaxed text-navy">{growth.experience}</p>
+            <p className="mt-3 text-sm leading-relaxed">{growth.consultations}</p>
+          </div>
+          <div><h2 className="text-sm font-semibold text-navy">{growth.companyAddress}</h2>
+            <address className="mt-3 text-sm not-italic leading-7">WorkWorkWork AG<br />Fänn West 10<br />6403 Küssnacht am Rigi<br />{locale === 'en' ? 'Switzerland' : 'CH'}</address>
+          </div>
+          <NextLink href="/en/relocation-checklist" className="inline-flex min-h-11 items-center text-sm text-navy underline underline-offset-4">{growth.checklist}</NextLink>
+        </aside>
+      </div>
+    </section>
+  </>;
 }

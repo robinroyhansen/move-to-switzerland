@@ -1,10 +1,11 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocale } from 'next-intl';
 import { ConversionLink } from '@/components/ConversionLink';
 import { trackConversion } from '@/lib/analytics';
 import type { ConversionCopy, QuizResultKey } from '@/lib/conversion-copy';
+import { localeNames, swissArrivalLocales } from '@/i18n/config';
 
 type QuestionKey = 'profile' | 'priority' | 'origin' | 'timeline';
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
@@ -58,7 +59,21 @@ type RelocationFitQuizProps = {
 };
 
 export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
+  const disclosureRef = useRef<HTMLDetailsElement>(null);
+  useEffect(() => {
+    const openFromFragment = () => {
+      if (window.location.hash !== '#relocation-fit') return;
+      const disclosure = disclosureRef.current;
+      if (!disclosure) return;
+      disclosure.open = true;
+      disclosure.scrollIntoView({ block: 'start', behavior: 'instant' });
+    };
+    openFromFragment();
+    window.addEventListener('hashchange', openFromFragment);
+    return () => window.removeEventListener('hashchange', openFromFragment);
+  }, []);
   const locale = useLocale();
+  const guideLocale = swissArrivalLocales.find((code) => code === locale) ?? 'en';
   const [answers, setAnswers] = useState<Answers>({
     profile: 'entrepreneur',
     priority: 'tax',
@@ -165,8 +180,11 @@ export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
   }
 
   return (
-    <section id="relocation-fit" className="bg-navy py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <details ref={disclosureRef} id="relocation-fit" className="border-t border-text-light/20 pt-6">
+      <summary className="cursor-pointer font-serif text-3xl font-semibold leading-snug text-text-light sm:text-4xl">{quizCopy.title}</summary>
+      <p className="mt-4 max-w-[65ch] text-base leading-relaxed text-text-light/85">{quizCopy.description}</p>
+    <section className="bg-navy" style={{ paddingBlock: '2rem' }}>
+      <div className="mx-auto max-w-7xl">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="mb-4 text-xs font-medium uppercase tracking-[0.28em] text-gold">
@@ -286,11 +304,12 @@ export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
                 </ConversionLink>
                 <ConversionLink
                   href="/swiss-arrival"
+                  locale={guideLocale}
                   eventName="quiz_swiss_arrival_click"
                   eventParams={{ result: result.title }}
                   className="text-sm font-medium text-charcoal/75 hover:text-charcoal"
                 >
-                  {quizCopy.guide}
+                  {quizCopy.guide}{guideLocale !== locale && ` (${localeNames.en})`}
                 </ConversionLink>
               </div>
             </div>
@@ -298,5 +317,6 @@ export function RelocationFitQuiz({ quizCopy }: RelocationFitQuizProps) {
         </div>
       </div>
     </section>
+    </details>
   );
 }

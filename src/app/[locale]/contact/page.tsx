@@ -1,6 +1,9 @@
+import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { getContactEnhancementCopy } from '@/lib/contact-enhancement-copy';
 import ContactContent from './ContactContent';
+import { getContactCopy } from '@/lib/contact-copy';
+import { getGrowthCopy } from '@/lib/growth-copy';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -10,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const copy = getContactEnhancementCopy(locale);
 
-  return {
+  return withPageSeo({
     title: copy.metadata.title,
     description: copy.metadata.description,
     openGraph: {
@@ -24,15 +27,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: copy.metadata.title,
       description: copy.metadata.description,
     },
-  };
+  }, locale, `/contact`);
 }
 
-export default function ContactPage() {
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  const growth = await getGrowthCopy(locale);
+  const copy = getContactCopy(locale);
+  const enhanced = getContactEnhancementCopy(locale);
   const contactSchema = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Confidential Swiss relocation intake',
-    url: 'https://move-to-switzerland.com/contact',
+    name: copy.pageTitle,
+    url: `https://move-to-switzerland.com/${locale}/contact`,
+    inLanguage: locale,
     mainEntity: {
       '@type': 'Organization',
       name: 'Move to Switzerland',
@@ -51,7 +59,7 @@ export default function ContactPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
       />
-      <ContactContent />
+      <ContactContent locale={locale} copy={copy} enhanced={enhanced} growth={growth} />
     </>
   );
 }

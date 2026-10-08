@@ -1,0 +1,28 @@
+{
+  "labels": [
+    "Resmî kaynaklar",
+    "Güncellendi",
+    "İlgili planlama rehberleri",
+    "Koordine ettiğimiz konular",
+    "Hazırlanacak belgeler",
+    "Süreç ve çıktılar",
+    "Takvim ve ücretler",
+    "Açıklığa kavuşturulacak sorular"
+  ],
+  "taxEligibility": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz.",
+  "taxBase": "2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır.",
+  "taxCantons": "Zürih, kantonal harcamaya dayalı vergilendirmeyi 2010’da kaldırdı. Schaffhausen, Appenzell Ausserrhoden, Basel-Landschaft ve Basel-Stadt da kaldırmıştır. Diğer kantonların güncel şartlarını ilgili vergi makamından alın. Ulusal bir asgari ödeme tablosu uygunluğunuzu veya nihai vergi yükünüzü belirlemez.",
+  "taxProcess": "Kanton seçmeden önce pasaportları, ikamet geçmişini, dünya genelindeki hane bütçesini, konut bilgilerini, gelir kaynaklarını ve planlanan işleri hazırlayın. Yetkin vergi uzmanlarıyla olağan vergilendirme karşılaştırmasını ve gerekiyorsa yazılı vergi kararı başvurusunu koordine edin. Varsayımları ve beyan yükümlülüklerini netleştirin. Vergi uygulaması ve oturum izni ayrı kararlardır; onay veya sabit yıllık vergi garanti edilmez.",
+  "permitEU": "AB/EFTA vatandaşları istihdam, serbest çalışma veya çalışmadan ikamet yoluyla kabul edilebilir. Sonuncusu yeterli kaynak ve uygun sağlık ve kaza sigortası gerektirir. İzin süresi kabul dayanağına bağlıdır. Yerel makamın istediği belgeleri sunun; ülke çapında garantili işlem süresi yoktur.",
+  "permitNonEU": "AB/EFTA dışındaki vatandaşların hukuki dayanağı bireysel değerlendirilir. İstihdam, serbest çalışma, emeklilik ve istisnai kabul farklı şartlara tabidir. Servet, konut alımı, şirket kuruluşu veya vergi kararı tek başına oturum hakkı vermez. Kanton ve gerektiğinde federal makamlar karar verir. Taşınma için bağlayıcı karar almadan değerlendirme yaptırın.",
+  "permitSettlement": "C yerleşim izni vatandaşlık, anlaşmalar, ikamet geçmişi ve entegrasyona göre beş veya on yıl sonra verilebilir. Beş yıl genel bir AB kuralı değildir. Yerleşim ve vatandaşlık ayrı başvurular gerektirir ve B izninden otomatik doğmaz.",
+  "permitFamily": "Aile birleşimi, asıl kişinin vatandaşlığına ve iznine bağlıdır. AB/EFTA serbest dolaşımı şartlarla eşi, 21 yaş altı veya bakmakla yükümlü olunan çocukları ve bakılan ebeveynleri kapsayabilir. Üçüncü ülke kuralları yaş, süre, konut, dil ve mali şartlarda farklıdır. Okul ve taşınma tarihinden önce her aile üyesini değerlendirin.",
+  "permitCitizen": "Olağan vatandaşlığa kabul genellikle C izni ve son beş yılın üçü dâhil on yıllık sayılabilir ikamet gerektirir. 8–18 yaş arası yıllar çift sayılır; fiilen en az altı yıl ikamet gerekir. Kanton ve belediye ikamet koşulları ile dil ve entegrasyon şartları da uygulanır. Uygunluk vatandaşlık garantisi değildir.",
+  "assets": "İsviçre vergi mukimliği öncesinde hisseleri, trustları, emeklilik varlıklarını, taşınmazları, borçları, planlanan satışları ve ülkeleri belirleyin. Mülkiyet kayıtları, değerlemeler ve servet kaynağı belgelerini toplayın. Mevcut ve İsviçreli uzmanlar çıkış vergisini, anlaşmaya göre mukimliği ve işlemleri değerlendirmelidir. Varıştan önce satış otomatik vergisiz değildir; yabancı yapılar aynı vergi muamelesini korumayabilir.",
+  "delivery": "İlk değerlendirme ikamet dayanağını, uygun kantonları ve açık uzmanlık sorularını belirler. Mutabık kalınan çalışma kapsamı belgeleri, sorumluları ve vergi, göç, konut ve bankacılık sırasını tanımlar. Hukuki görüşler, vergi beyannameleri ve düzenlemeye tabi finansal hizmetler uygun uzman ve yetkilendirme gerektirir. Başlamadan kapsamı ve ücretleri teyit edin.",
+  "timing": "Belgelerin hazır olmasına, uzman incelemesine, makam taleplerine ve aile ihtiyaçlarına göre planlayın. Onay tarihleri garanti edilemez. Koordinasyon, uzmanlık ücretleri ve resmî harçları varsayım ve istisnalarla ayıran yazılı kapsam isteyin. İlk görüşme hedef varış tarihini ve önceki kararları netleştirir.",
+  "property": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin.",
+  "company": "İsviçre AG şirketi en az CHF 100.000 sermaye gerektirir; kuruluşta her hissenin nominal değerinin en az %20’si ve toplam en az CHF 50.000 ödenmelidir. GmbH için CHF 20.000 tamamen ödenir. İsviçre’de ikamet eden temsilci ile yönetim, izin ve raporlama yükümlülükleri uzmanlarla düzenlenmelidir.",
+  "documents": "Her aile üyesi için pasaport ve ikamet geçmişi, medeni durum belgeleri, konut ve sigorta planları ile gelir ve varlık kanıtlarını hazırlayın. İşletme sahipleri mülkiyet şemaları, hesaplar ve planlanan işlemleri eklemelidir. Hassas kayıtları yalnızca kararlaştırılan kanaldan paylaşın; ilk başvuru tam mali dosya gerektirmez.",
+  "permitTypes": "B oturum, L kısa süreli kalış, C yerleşim, G sınır ötesi çalışan iznidir. Kategori ve koşullar vatandaşlığa, kalış amacına ve makamın kararına bağlıdır."
+}

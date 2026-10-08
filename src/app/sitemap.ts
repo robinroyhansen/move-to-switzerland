@@ -1,8 +1,11 @@
+import editorialRevision from '@/content/editorial-revision.json';
+import guideIndex from '@/content/guides/index.json';
+import { englishResources } from '@/lib/english-resources';
 import type { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
 import { locales, swissArrivalLocales } from '@/i18n/config';
 import { serviceSlugs } from '@/lib/services';
-import { relocationPathSlugs } from '@/lib/conversion-copy';
+import { relocationPathSlugs, getRelocationPath } from '@/lib/conversion-copy';
 import { insightSlugs } from '@/content/insights';
 
 const baseUrl = 'https://move-to-switzerland.com';
@@ -26,7 +29,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     return swissArrivalLocales.map((locale) => ({
       url: swissArrivalBaseUrl + '/' + locale,
-      lastModified: new Date(),
       alternates: { languages },
     }));
   }
@@ -34,17 +36,30 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
   for (const page of allPages) {
+    const pageLocales = page.startsWith('/relocation/')
+      ? locales.filter((locale) => getRelocationPath(locale, page.slice('/relocation/'.length)))
+      : locales;
     const languages: Record<string, string> = {};
-    for (const locale of locales) {
+    for (const locale of pageLocales) {
       languages[locale] = `${baseUrl}/${locale}${page}`;
     }
 
-    entries.push({
-      url: `${baseUrl}/en${page}`,
-      lastModified: new Date(),
-      alternates: { languages },
-    });
+    for (const locale of pageLocales) {
+      entries.push({
+        url: `${baseUrl}/${locale}${page}`,
+        alternates: { languages },
+        ...(editorialRevision.paths.includes(page) ? { lastModified: (editorialRevision.pathDates as Record<string, string>)[page] ?? editorialRevision.localeDates[locale] } : {}),
+      });
+    }
   }
 
+  for (const resource of englishResources) {
+    const url = `${baseUrl}/en${resource.path}`;
+    entries.push({ url, alternates: { languages: { en: url } } });
+  }
+  for (const guide of guideIndex) {
+    const url = `${baseUrl}/en/guides/${guide.slug}`;
+    entries.push({ url, alternates: { languages: { en: url } } });
+  }
   return entries;
 }

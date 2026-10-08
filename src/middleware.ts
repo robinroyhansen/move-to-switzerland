@@ -1,7 +1,9 @@
+import { isEnglishResource } from '@/lib/english-resources';
 import createMiddleware from 'next-intl/middleware';
 import { NextRequest, NextResponse } from 'next/server';
 import { routing } from './i18n/routing';
 import { swissArrivalLocales } from './i18n/config';
+import { siteUrl } from './lib/seo';
 
 const intlMiddleware = createMiddleware(routing);
 const swissArrivalHosts = new Set(['swissarrival.com', 'www.swissarrival.com']);
@@ -22,6 +24,18 @@ function rewriteToSwissArrival(request: NextRequest, locale: string) {
   });
 }
 
+/** Only advertise language versions that exist; x-default must resolve without a redirect. */
+function setAlternateLinks(response: NextResponse, pathname: string) {
+  const path = pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '').replace(/\/$/, '');
+  // This resource is currently published in English only.
+  if (isEnglishResource(path)) return;
+
+  const available = path === '/swiss-arrival' ? swissArrivalLocales : routing.locales;
+  const links = available.map((locale) => `<${siteUrl}/${locale}${path}>; rel="alternate"; hreflang="${locale}"`);
+  links.push(`<${siteUrl}/${routing.defaultLocale}${path}>; rel="alternate"; hreflang="x-default"`);
+  response.headers.set('link', links.join(', '));
+}
+
 export default function middleware(request: NextRequest) {
   const host = request.headers.get('host')?.split(':')[0].toLowerCase();
 
@@ -36,7 +50,9 @@ export default function middleware(request: NextRequest) {
     }
   }
 
-  return intlMiddleware(request);
+  const response = intlMiddleware(request);
+  setAlternateLinks(response, request.nextUrl.pathname);
+  return response;
 }
 
 export const config = {

@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "İsviçre'ye Taşınma — Seçkin Relokasyon Danışmanlığı",
-    "description": "İsviçre'ye taşınan yüksek net değerli bireyler ve aileler için uzman relokasyon ve stratejik danışmanlık hizmeti."
+    "title": "Varlıklı kişiler ve girişimciler için İsviçre’ye taşınma",
+    "description": "Yüksek net varlığa sahip kişiler (HNWI), girişimciler ve aile ofisleri için İsviçre merkezli taşınma danışmanlığı."
   },
   "nav": {
     "home": "Anasayfa",
     "services": "Hizmetler",
     "whySwitzerland": "Neden İsviçre",
     "cantons": "Kantonlar",
-    "caseStudies": "Vaka Çalışmaları",
+    "caseStudies": "Kime Hizmet Veriyoruz",
     "about": "Hakkımızda",
     "contact": "İletişim",
     "privacy": "Gizlilik Politikası",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "headline": "İsviçre'ye Giden Yolunuz",
-    "subheadline": "Yüksek net değerli bireyler ve aileler için uzman relokasyon ve stratejik danışmanlık hizmeti",
+    "subheadline": "Yüksek net varlığa sahip kişiler (HNWI), girişimciler ve aile ofisleri için İsviçre merkezli taşınma danışmanlığı. Zürih, Zug, Schwyz ve diğer kantonlarda oturum, vergi konuları, bankacılık hazırlığı ve aile yaşamını koordine edin.",
     "cta": "Gizli Bir Konsültasyon Planlayın"
   },
   "cta": {
@@ -31,142 +31,142 @@
   },
   "whySwitzerland": {
     "title": "Neden İsviçre",
-    "subtitle": "İstikrar, gizlilik ve mükemmeliyet üzerine inşa edilmiş bir ulus",
+    "subtitle": "Ailenizin, zenginlik ve işletmenizin etrafında değerlendirmek için bir yer",
     "stats": {
       "millionaires": {
-        "value": "142.000",
-        "label": "2025 yılında küresel ölçekte taşınan milyoner sayısı — tarihi bir rekor"
+        "value": "26",
+        "label": "Oturma, aile hayatı ve iş dünyası için değerlendirmek için kantonlar"
       },
       "inflow": {
-        "value": "+3.000",
-        "label": "2025'te İsviçre'ye gerçekleşen net milyoner girişi"
+        "value": "3",
+        "label": "Ofislerimiz: Zürih, Zug ve Schwyz"
       },
       "neutrality": {
-        "value": "500+",
-        "label": "Siyasi tarafsızlıkla geçen yıl"
+        "value": "2012",
+        "label": "İnsanların 2012 yılından beri İsviçre'ye taşınmasına yardımcı olmak"
       },
       "banking": {
-        "value": "#1",
-        "label": "Dünyanın en güçlü özel bankacılık sistemi"
+        "value": "Birlikte",
+        "label": "Daha geniş hareketle bankacılık hazırlığı"
       },
       "wealthTax": {
-        "value": "78%",
-        "label": "Servet vergisine karşı verilen oy oranı (Kasım 2025)"
+        "value": "Yerel olarak",
+        "label": "Seçilmiş belediyelerinizde vergi pozisyonu ile karşılaştırın"
       },
       "safety": {
-        "value": "Sıfır",
-        "label": "Varlık müsaderesi veya askeri ittifak geçmişi"
+        "value": "planınız",
+        "label": "Residence, iş, okullar ve konut birlikte kabul edildi"
       }
     }
   },
   "whySwitzerlandPage": {
     "meta": {
-      "title": "Neden İsviçre — Servet, Güvenlik ve Yaşam Kalitesi İçin Dünyanın Bir Numaralı Destinasyonu",
-      "description": "İsviçre'nin servet koruma, aile güvenliği ve yaşam kalitesi açısından neden dünyanın en güvenilir yargı bölgesi olduğunu keşfedin. 500 yılı aşkın tarafsızlık, 1 numara özel bankacılık ve dünya standartlarında eğitim."
+      "title": "Move to Switzerland neden? HNWI & Entrepreneur Planlama",
+      "description": "Aileniz ve işiniz için İsviçre: konut, vergi, bankacılık, okullar, sağlık ve hareket etmeden önce pratik ticaret."
     },
     "hero": {
       "title": "Neden İsviçre",
-      "subtitle": "Servet koruma, güvenlik ve yaşam kalitesi için dünyanın önde gelen destinasyonu",
-      "badge": "Referans rehber"
+      "subtitle": "Aileniz, özel zenginlik ve iş için uygun olanı değerlendirin",
+      "badge": "Pratik bir karar rehberi"
     },
     "neutrality": {
-      "title": "Siyasi Tarafsızlık",
-      "subtitle": "Belirsiz bir dünyada bir istikrar sığınağı",
-      "stat1": "500+",
-      "stat1Label": "Yıllardır süregelen kesintisiz tarafsızlık",
-      "stat2": "Sıfır",
-      "stat2Label": "Askeri ittifaklar",
-      "stat3": "Sıfır",
-      "stat3Label": "Varlık müsaderesi geçmişi",
-      "p1": "İsviçre, 500 yılı aşkın bir süredir siyasi tarafsızlığını korumaktadır; bu, modern tarihteki herhangi bir ulusun sahip olduğu en uzun süredir. NATO, AB veya herhangi bir askeri ittifakın üyesi değildir. Bu tarafsızlık pasif bir durum değil; iki dünya savaşından, Soğuk Savaş'tan ve modern dönemin her türlü jeopolitik sarsıntısından sağ çıkmış, anayasal olarak güvence altına alınmış bilinçli bir politikadır.",
-      "p2": "Servet sahipleri için bu durum emsalsiz bir garanti anlamına gelir: İsviçre hiçbir zaman özel varlıklara el koymamış, hiçbir zaman acil servet vergisi uygulamamış ve diğer yargı bölgelerinde kişisel serveti tehlikeye atan türden siyasi istikrarsızlıklara asla katılmamıştır. İsviçre'deki varlıklarınız, yarım bin yıldır ayakta duran yasal ve siyasi bir çerçeve ile korunmaktadır."
+      "title": "Uzun vadeli bir aile üssü",
+      "subtitle": "Yeniden inşa etmek istediğiniz yaşamla başlayın",
+      "stat1": "Home Home Home Home",
+      "stat1Label": "Günlük yaşamda bir belediye seçin",
+      "stat2": "Work Work Work",
+      "stat2Label": "Her yetişkinin planlı faaliyetleri",
+      "stat3": "Aile Ailesi",
+      "stat3Label": "Her kişinin konut pozisyonu koordinatörü",
+      "p1": "Yüksek kaliteli bir aile için, konum kararı vergi karşılaştırmasının ötesine ulaşır. Çocukların nerede çalışacaklarını düşünün, ne sıklıkta seyahat etmeniz gerekir, hangi diller ev kullanır ve iş sorumlulukları nerede kalır. Yararlı bir kısa liste bu gerçeklerle başlar.",
+      "p2": "Test edilebilir bir ev, okul ve iş kombinasyonuna geniş tercihler girin. belediyeyi ziyaret edin, günlük yolculukları deneyin ve bir kez herkesi hareket etmeyi tercih edecek bir aşamaya karar verin."
     },
     "banking": {
-      "title": "Bankacılık ve Varlık Yönetimi",
-      "subtitle": "Dünyanın en güvenilir özel bankacılık sistemi",
-      "stat1": "#1",
-      "stat1Label": "Küresel özel bankacılık merkezi",
-      "stat2": "CHF 7,9T",
-      "stat2Label": "Yönetilen varlık büyüklüğü",
-      "stat3": "243",
-      "stat3Label": "Lisanslı banka sayısı",
-      "p1": "İsviçre, yaklaşık 7,9 trilyon CHF tutarında varlığı yönetmektedir; bu miktar, tüm küresel sınır ötesi özel servetin yaklaşık %25'ine tekabül eder. İsviçre bankacılık sistemi, dünyanın en titiz finansal düzenleyicilerinden biri olan FINMA tarafından denetlenmekte olup, servetinizin en yüksek uyum ve güvenlik standartlarında tutulmasını sağlar.",
-      "p2": "İsviçre özel bankaları, başka hiçbir yerde eşi benzeri olmayan seviyede kişiselleştirilmiş varlık yönetimi sunar. Çok kuşaklı emlak planlamasından sofistike yatırım yetkilerine kadar; Zürih, Cenevre ve Zug'da mevcut olan uzmanlık derinliği eşsizdir. Servetlerini sınırlar ötesine taşıyan aileler için İsviçre, diğer bölgelerin garanti edemediği kurumsal altyapıyı ve gizliliği sunar."
+      "title": "Bankacılık ve zenginlik koordinasyonu",
+      "subtitle": "Varlıklarınız ve raporlama ihtiyaçlarınızdaki hizmetleri seçin",
+      "stat1": "Amaç",
+      "stat1Label": "Ödemeler, gözaltı, tavsiye veya yönetim",
+      "stat2": "Kanıt Kanıt",
+      "stat2Label": "mülkiyet ve kaynak-wealth kayıtları hazırlayın",
+      "stat3": "Şartlar",
+      "stat3Label": "Karşılaştırma ücretleri ve önerilen görev",
+      "p1": "Gerçekleştirmek için bir bankaya ihtiyacınız olan işleri ayır. Kişisel zenginlik, işletme şirketi ve bir aile ofisi farklı hesaplar, raporlama ve ilişkiler gerektirebilir. Kurumlara ikametinizi, vergi durumunu ve önerilen varlıkları düşünebilmelerini doğrulamalarını isteyin.",
+      "p2": "Zenginlerin nasıl bir araya geldiği ve beklenen transferlerin nereden geleceğinin kanıtlarını hazırlayın. Bankalar kendi kabul kararlarını yaparlar. Relocation koordinasyonu daha geniş hareketle hazırlık ve girişlere yardımcı olur; bir hesap veya yatırım sonucu garanti etmez."
     },
     "education": {
-      "title": "Eğitim Sistemi",
-      "subtitle": "Gelecek nesil için dünya standartlarında öğrenim",
-      "stat1": "İlk 3",
-      "stat1Label": "Küresel üniversite sıralaması (ETH Zürih)",
-      "stat2": "50+",
-      "stat2Label": "Uluslararası okul sayısı",
-      "stat3": "#1",
-      "stat3Label": "İnovasyon endeksi (ardışık 13 yıl)",
-      "p1": "İsviçre, dünyanın en iyi eğitim kurumlarından bazılarına ev sahipliği yapmaktadır. ETH Zürih sürekli olarak dünya çapında ilk 3 üniversite arasında yer alırken, ülkenin aralarında Institut Le Rosey, Zuoz Academy ve International School of Zug and Luzern'in de bulunduğu 50'den fazla uluslararası okul ağı, göçmen aileler için olağanüstü bir eğitim sunar.",
-      "p2": "İsviçre eğitim sistemi, akademik titizliği çok dilli bir eğitimle birleştirir. Uluslararası okullara devam eden çocuklar, IB, İngiliz veya Amerikan müfredatları alırken birden fazla dilde akıcılık kazanırlar. Orta Doğu'dan taşınan aileler için bu, çocuklarına dünyanın en güvenli ortamlarından birinde gerçek anlamda küresel bir eğitim sunma fırsatı anlamına gelir."
+      "title": "Uluslararası aileler için okul seçimi",
+      "subtitle": "Müfredat, dil ve çocuğa yolculuk",
+      "stat1": "Public Public Public",
+      "stat1Label": "Yerel okul sistemini keşfedin",
+      "stat2": "Uluslararası Uluslararası Enternasyonal",
+      "stat2Label": "Check müfredat ve mevcut yerler",
+      "stat3": "Kampüs Kampüs",
+      "stat3Label": "Çocuğun notu için yolculuk test edin",
+      "p1": "Çocuklarınızın yaşları, mevcut çalışmalar, dil ihtiyaçları ve muhtemelen kalma süresi etrafında halk ve uluslararası eğitim karşılaştırın. Yerel halk okulu entegrasyona destek verebilir; uluslararası bir müfredat, ülke genelinde sürekliliği sürdürmek için bir aileye uygun olabilir. Okullara hangi desteğin mevcut olduğunu sorun.",
+      "p2": "Okulun kabul koşullarını ve uygun kampüsünü belirledikten sonra ev seçiminizi onaylayın. Seyahat, okul sonrası düzenlemeler ve herhangi bir eğitim desteğini karşılaştırmada dahil edin. Bir okulun itibarı, belirli bir çocuğun kabul edilip edilemeyeceğini, okulun bireysel ihtiyaçlara uygunluğunu veya gelecekteki üniversiteye kabul edilip edilemeyeceğini belirlemez."
     },
     "healthcare": {
-      "title": "Sağlık Hizmetleri",
-      "subtitle": "Dünyanın en iyi sağlık sistemleri arasında",
-      "stat1": "#1",
-      "stat1Label": "Avrupa'da sağlık hizmeti kalitesi",
-      "stat2": "4,3",
-      "stat2Label": "1.000 kişi başına düşen hekim sayısı",
-      "stat3": "83,4",
-      "stat3Label": "Ortalama yaşam süresi (yıl)",
-      "p1": "İsviçre'nin sağlık sistemi sürekli olarak dünyanın en iyileri arasında yer almaktadır. Zorunlu genel kapsam, dünya lideri hastaneler ve çoğu ülkeyi çok aşan hekim yoğunluğu ile bölge sakinleri olağanüstü tıbbi bakıma erişim sağlar. Universitätsspital Zürich ve Hirslanden gibi büyük merkezler, en son teknoloji tedaviler ve üst düzey sağlık programları sunar.",
-      "p2": "Taşınan aileler için İsviçre, ailenizin sağlığının mümkün olan en iyi ellerde olduğunu bilmenin getirdiği huzuru sunar. Üst düzey check-up programları, uzman hekim ağları ve kusursuz çok dilli tıbbi hizmetler, sağlığın hiçbir zaman bir endişe kaynağı olmamasını sağlar."
+      "title": "Sağlık hazırlığı",
+      "subtitle": "Hareketin bir parçası olarak sürekliliği",
+      "stat1": "Kapak",
+      "stat1Label": "Sigorta görevlerini onaylayın ve tarihlere başlayın",
+      "stat2": "Bakım",
+      "stat2Label": "Devamlı tedavi için süreklilik",
+      "stat3": "Bütçe Bütçe Bütçe Bütçe",
+      "stat3Label": "primler ve kişisel maliyetler",
+      "p1": "İsviçre ikamet normalde sağlık sigortası elde etmek için bir zorunluluk getirir, koşullara bağlı olarak istisnalar. Her aile üyesi için pozisyon onaylayın, tarih ve ilgili otorite veya sigortacı aracılığıyla etkili tarih. Ev bütçesinde primler ve kişisel maliyet paylaşımı ekleyin.",
+      "p2": "Gelmeden önce, mevcut reçeteleri, devam eden tedaviyi ve kayıtları yeni bir klinikçiye ihtiyaç duyacaktır. Randevu kullanılabilirliği ve dil ihtiyaçları hakkında sağlayıcıları sorun. Koruma ve klinik kararlar sigortacılar ve sağlık profesyonelleri ile aittir."
     },
     "tax": {
-      "title": "Vergi Sistemi",
-      "subtitle": "Rekabetçi, şeffaf ve demokratik olarak korunan",
-      "stat1": "78%",
-      "stat1Label": "Servet vergisine karşı oy (Kasım 2025)",
-      "stat2": "26",
-      "stat2Label": "Sakinler için rekabet eden kanton sayısı",
-      "stat3": "11,9%",
-      "stat3Label": "En düşük kanton kurumlar vergisi oranı",
-      "p1": "İsviçre'nin vergi sistemi benzersiz bir özellikten yararlanır: kantonlar arası rekabet. Kendi vergi oranlarını belirleyen 26 kanton ile bireyler ve şirketler, finansal hedeflerine uygun lokasyonları seçebilirler. Zug ve Schwyz gibi kantonlar, gelişmiş dünyadaki en düşük kişisel ve kurumsal vergi oranlarından bazılarını sunar.",
-      "p2": "Götürü usulü vergilendirme rejimi (forfait fiscal), uygun şartları taşıyan yabancı uyrukluların dünya çapındaki gelirleri yerine yaşam giderleri üzerinden vergilendirilmesine olanak tanır; bu, yüksek net değerli bireyler için önemli bir avantajdır. Kasım 2025'te İsviçre vatandaşları, federal bir servet vergisi getirilmesine %78 oranında hayır diyerek, ülkenin özel serveti demokratik yetkiyle koruma kararlılığını yeniden teyit etmişlerdir."
+      "title": "Kişisel ve iş vergisi planlama",
+      "subtitle": "kalifiye danışmanlarla tam senaryolarla karşılaştırın",
+      "stat1": "26",
+      "stat1Label": "Kanonik sistemler dikkate almak için",
+      "stat2": "Ev sahibi",
+      "stat2Label": "Model geliri, varlıklar ve koşullar",
+      "stat3": "Business Business Business",
+      "stat3Label": "Assess operasyonları ve yönetimi ayrı ayrı ayrı",
+      "p1": "Kısa listeli belediyelerdeki aynı gerçekleri karşılaştırın: ev geliri, varlıklar, aile koşulları ve gerçek iş planı. Kişisel konut ve şirket konumu ayrı analizlere ihtiyaç duyar. Bir başlık hızından seçmek yerine varsayımlar ve geçerli vergi yılı ile yazılı bir hesaplama talep edin.",
+      "p2": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz."
     },
     "qualityOfLife": {
-      "title": "Yaşam Kalitesi",
-      "subtitle": "Tavizsiz güvenlik, altyapı ve doğal güzellik",
-      "stat1": "#1",
-      "stat1Label": "Küresel yaşam kalitesi sıralaması",
-      "stat2": "İlk 3",
-      "stat2Label": "Dünya çapında en güvenli ülkeler",
-      "stat3": "99,9%",
-      "stat3Label": "Toplu taşıma dakikliği",
-      "p1": "İsviçre, yaşam kalitesi açısından sürekli olarak dünya genelinde 1 numarada yer almaktadır. El değmemiş Alp manzaralarından kusursuz bir şekilde korunan şehirlere kadar, günlük yaşamın her yönü bir mükemmeliyet taahhüdünü yansıtır. Her köyü, kasabayı ve şehri birbirine bağlayan toplu taşıma sistemi, efsanevi İsviçre hassasiyetiyle çalışır.",
-      "p2": "Güvenlik, İsviçre'de sadece bir istatistik değil, yaşanılan bir deneyimdir. Şiddet suçları neredeyse yok denecek kadar azdır, kişisel güvenlik doğal karşılanır ve parklardan kamu alanlarına ve kültürel kurumlara kadar sosyal altyapı en yüksek standartta korunur. Güvenlik endişesi olan bölgelerden taşınan aileler için İsviçre, günlük yaşam kalitesinde tam bir dönüşüm sunar."
+      "title": "Günlük hayat testi",
+      "subtitle": "Pratik ayrıntılar, bir yerin uygun olup olmadığına karar verir",
+      "stat1": "Okul run",
+      "stat1Label": "Seyahat etmek istediğiniz zaman ziyaret edin",
+      "stat2": "Workday",
+      "stat2Label": "Ofis ve havaalanı yolculukları",
+      "stat3": "Hafta sonu",
+      "stat3Label": "Ailenizin kullandığı yerleri keşfedin",
+      "p1": "Sıradan haftayı test etmek için bir ziyaret kullanın. Dükkanlara bakın, ulaşım, aktiviteler, okul rotaları ve güvendiğiniz hizmetlere erişim. Daha fazla seyahat gerektiren daha büyük bir evle yakın bir daire ile karşılaştırın.",
+      "p2": "Mevcut konutları kullanarak bütçe, okul bilgileri ve sigorta alıntıları. Tekrarlanan maliyetler ve bir relokasyon masrafları ayrı tutun. Yeniden konum bütçesi planlayıcısı, Zürih, Zug ve Schwyz'i kendi figürlerinizi kullanarak karşılaştırmanıza olanak sağlar."
     },
     "business": {
-      "title": "İş Ortamı",
-      "subtitle": "Küresel ticaretin İsviçre hassasiyetiyle buluştuğu nokta",
-      "stat1": "1-2 hafta",
-      "stat1Label": "Şirket kurulum süresi",
-      "stat2": "#1",
-      "stat2Label": "Dünya çapında fikri mülkiyet koruması",
-      "stat3": "120+",
-      "stat3Label": "İkili ticaret anlaşmaları",
-      "p1": "İsviçre, dünyanın en iş dostu ortamlarından birini sunar. Şirket kurulumu bir ila iki hafta gibi kısa bir sürede tamamlanabilir, fikri mülkiyet koruması küresel olarak en güçlü seviyededir ve ülkenin 120'den fazla ikili ticaret anlaşmasından oluşan ağı, AB tek pazarına ve ötesine sorunsuz erişim sağlar.",
-      "p2": "İsviçre iş gücü, güçlü bir gizlilik ve profesyonellik geleneğine sahip, dünyanın en eğitimli ve üretken çalışanları arasındadır. İsviçre'de faaliyet gösteren girişimciler ve aile ofisleri için siyasi istikrar, yasal kesinlik, fikri mülkiyet koruması ve pazar erişiminin birleşimi, iş büyümesi için eşsiz bir temel oluşturur."
+      "title": "girişimciler için bir İsviçre üssü",
+      "subtitle": "Kurucunun hareketi ile işletim modelini bağlayın",
+      "stat1": "Aktivite Faaliyetleri",
+      "stat1Label": "İsviçre'de ne olacağını tanımlamak",
+      "stat2": "İzin",
+      "stat2Label": "Yaşamak ve çalışmak için doğruyu doğrulayın",
+      "stat3": "Yönetişim Yönetişim Yönetimi",
+      "stat3Label": "Assign sorumluluklar başlamadan önce",
+      "p1": "Bir iş kurma süreci, yönetim, çalışanlar, müşteriler, sözleşmeler, varlıklar ve finansman gibi faaliyetlerle başlar. Uygun yapıları ve sınır ötesi etkileri karşılaştırmak için uzmanlardan yardım alın. Bir şirket, göç, vergi, bankacılık veya lisanslama ile ilgili tüm sorunları çözmeden kurulabilir.",
+      "p2": "Bir çıkış veya yeniden yapılandırmadan önce, kalkış ülkesinde ve İsviçre'de danışmanlar. İşlemden sonra amaçlanan iş, mülkiyet ve herhangi bir ertelenmiş ödemeleri korudu. Ailenin gerçeklerle ilgili olarak hareket etmesi ve bağımlılıkları doğrulayın."
     },
     "trustStrip": [
-      "500+ yıllık tarafsızlık",
-      "Özel bankacılıkta 1 numara",
-      "%78 servet vergisine karşı oy verdi"
+      "İnsanların 2012 yılından beri hareket etmesine yardımcı olmak",
+      "Zürih, Zug ve Schwyz",
+      "Aile ve iş birlikte planlama"
     ]
   },
   "cantonsPage": {
     "meta": {
-      "title": "İsviçre Kantonlarını Karşılaştırın — Taşınma İçin Zürih, Zug ve Schwyz",
-      "description": "Zürih, Zug ve Schwyz kantonlarının interaktif karşılaştırması. İsviçre relokasyonunuz için vergi oranlarını, yaşam tarzını, uluslararası okulları, bankacılığı ve gayrimenkulü karşılaştırın."
+      "title": "Zürih, Zug veya Schwyz? Bir İsviçre için Kantonlar",
+      "description": "Zürih, Zug ve Schwyz ile HNW ailesi relokasyon ve girişimcilik için: belediye düzeyinde vergi planlaması, okullar, iş operasyonları ve konut."
     },
     "hero": {
       "title": "Kanton Karşılaştırması",
-      "subtitle": "Aileniz, işiniz ve yaşam tarzınız için doğru İsviçre kantonunu seçin"
+      "subtitle": "İsviçre hareketiniz için gerçek bir ev, okul ve iş yeri ile karşılaştırın"
     },
     "filter": {
       "all": "Tüm Kantonlar",
@@ -175,7 +175,7 @@
       "schwyz": "Schwyz"
     },
     "sections": {
-      "taxRates": "Vergi Oranları",
+      "taxRates": "Vergi planlama",
       "lifestyle": "Yaşam Tarzı ve Karakter",
       "schools": "Uluslararası Okullar",
       "banking": "Bankacılık Altyapısı",
@@ -184,103 +184,102 @@
     },
     "zurich": {
       "name": "Zürih",
-      "tagline": "Küresel şehir, kültür başkenti",
+      "tagline": "Şehir hayatı ve iş bağlantıları",
       "tax": {
-        "corporate": "Yaklaşık %19,7 efektif kurumlar vergisi oranı",
-        "personal": "%39,8'e kadar en üst marjinal oran (birleşik)",
-        "lumpSum": "400.000+ CHF minimum vergi matrahı"
+        "corporate": "Şirketin gerçek faaliyetlerini modellemek ve belediye önerdi.",
+        "personal": "Ev için gelir ve zenginlik vergilendirme; amaçlanan belediyeyi kullanın.",
+        "lumpSum": "Zürich 2010 yılında kantonal harcama bazlı vergilendirmesini kaldırdı."
       },
       "lifestyle": {
         "character": "Kozmopolit, kültürel açıdan zengin, kentsel",
-        "international": "Büyük uluslararası topluluk (%30+ yabancı nüfus)",
+        "international": "Uluslararası bir şehir ve belediyeleri farklı günlük rutinlerle çevreler.",
         "culture": "Opera, sanat galerileri, Michelin yıldızlı restoranlar, göl kenarı yaşamı",
-        "transport": "Uluslararası havalimanı, mükemmel tren bağlantıları"
+        "transport": "Havaalanı, ofis ve okula özel evden yolculuk kontrol edin."
       },
       "schools": {
         "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (yakınlarda)"
+          "Inter-Community School Zurich (Zumikon)",
+          "Zurich International School ( çocuğun notu için kampüs kontrol)",
+          "SIS Zürich-Wollishofen (kindergarten ve birincil)"
         ]
       },
-      "bankingInfo": "UBS, Credit Suisse (şimdi UBS), Julius Bär ve düzinelerce butik özel bankaya ev sahipliği yapmaktadır. Tam kapsamlı kripto bankacılığı mevcuttur (SEBA, Sygnum).",
+      "bankingInfo": "Özel bankacılık, şirket bankacılık ve mevcut danışman erişimi ile karşılaştırın. Her kurumun müşteri kriterlerini ve hizmet düzenlemeleri doğrudan doğrulayın.",
       "realEstate": {
-        "range": "15.000–35.000 CHF/m² (şehir merkezi), 8.000–15.000 CHF/m² (Zürih Gölü banliyöleri)",
-        "lexKoller": "Lex Koller geçerlidir: İsviçre'de yerleşik olmayanlar konut mülkiyeti için izin almalıdır. B oturma izni sahipleri birincil ikametgah satın alabilir."
+        "range": "Şehir, göl ve banliyö evlerinin mevcut bir kısa listesi; komünleşme, finansman ve işlem maliyetleri içerir.",
+        "lexKoller": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin."
       },
       "bestFor": {
-        "profile": "Dünya standartlarında kültür ve bağlantı arayan kentsel profesyoneller, dijital girişimciler veya aileler",
-        "ideal": "İdeal olanlar: kripto girişimcileri, kurumsal yöneticiler, kentsel yaşam tarzına önem veren aileler"
+        "profile": "Bir şehre, işyerlerine ve eğitim seçeneklerine öncelik veren girişimciler ve aileler.",
+        "ideal": "seçilmiş okul veya işyerindeki gerçek belediyelerle Zürih şehri karşılaştırın."
       }
     },
     "zug": {
       "name": "Zug",
-      "tagline": "Vergi cenneti, kripto vadisi",
+      "tagline": "İş üssü ve göl kenarında yaşayan",
       "tax": {
-        "corporate": "Yaklaşık %11,9 efektif kurumlar vergisi oranı",
-        "personal": "%22,4'e kadar en üst marjinal oran (birleşik)",
-        "lumpSum": "250.000+ CHF minimum vergi matrahı"
+        "corporate": "Önerilen belediye, vergili kâr ve gerçek İsviçre operasyonlarıyla karşılaştırın.",
+        "personal": "Gelir, varlıklar ve önerilen belediye dahil olmak üzere bir ev hesaplamasını talep edin.",
+        "lumpSum": "2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır."
       },
       "lifestyle": {
         "character": "Kompakt, varlıklı, göl kenarı, ölçülü",
-        "international": "Yüksek düzeyde uluslararası (%35+ yabancı nüfus, güçlü expat topluluğu)",
+        "international": "Zug, Baar, Cham ve komşu belediyeler arasında uluslararası bir iş topluluğu.",
         "culture": "Zarif göl kasabası, dağlara ve Zürih'e yakınlık",
-        "transport": "Zürih Havalimanı'na 30 dakika, mükemmel tren ağı"
+        "transport": "Kapı açma yolculukları; Zug kasaba, Baar ve Cham farklı başlangıç noktalarıdır."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (ISZL)",
+          "ISZL (Baar ve Hünenberg kampüsleri; kontrol sınıfı konum)",
           "Institut Montana Zugerberg",
-          "Swiss International School"
+          "SIS Rotkreuz-Zug"
         ]
       },
-      "bankingInfo": "Blockchain tabanlı bankaların bulunduğu Kripto Vadisi ekosistemi. Büyük İsviçre bankalarının yerel şubeleri aracılığıyla geleneksel özel bankacılık. Cenevre'den sonra en yüksek aile ofisi yoğunluğu.",
+      "bankingInfo": "İşin gerçek ihtiyaçları etrafında bankacılık ve profesyonel danışmanlara erişim sağlar. Dijital başlangıç aktivitesi ve yurtdışındaki yapılar kuruma özel kabul kontrolleri gerektirir.",
       "realEstate": {
-        "range": "12.000–25.000 CHF/m² (Zug kasabası), 8.000–14.000 CHF/m² (çevre köyler)",
-        "lexKoller": "Lex Koller geçerlidir. B izni sahipleri birincil ikametgah satın alabilir. Zug'un bazı belediyeleri için ek yerel gereksinimler bulunmaktadır."
+        "range": "Zug, Baar ve Cham'deki mevcut listeleri talep edin; alanı, durumu ve tam aylık veya satın alma bütçesini karşılaştırın.",
+        "lexKoller": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin."
       },
       "bestFor": {
-        "profile": "Mümkün olan en düşük vergi yükünü arayan vergi odaklı girişimciler, aile ofisleri veya kripto/fintech kurucuları",
-        "ideal": "İdeal olanlar: aile ofisleri, forfait fiscal başvur sahipleri, teknoloji girişimcileri"
+        "profile": "Kurucular ve aileler okula, konuta ve seyahat ihtiyaçlarına karşı kompakt bir iş üssünü tartıyor.",
+        "ideal": "Şirket tarafından önerilen işlemleri ailenin ev adresinden ayrı olarak karşılaştırın."
       }
     },
     "schwyz": {
       "name": "Schwyz",
-      "tagline": "Gizli servet, Alp huzuru",
+      "tagline": "Göl ve dağ toplulukları",
       "tax": {
-        "corporate": "Yaklaşık %14,1 efektif kurumlar vergisi oranı",
-        "personal": "%21,3'e kadar en üst marjinal oran (birleşik)",
-        "lumpSum": "200.000+ CHF minimum vergi matrahı"
+        "corporate": "Seçilmiş belediye ve işletme yönetimi ve işletme gerçekleri modellemek.",
+        "personal": "Özel belediye ile karşılaştırın: tek bir kanton çapında bir oran, ev faturasını tarif etmez.",
+        "lumpSum": "2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır."
       },
       "lifestyle": {
-        "character": "Kırsal, geleneksel, son derece özel",
-        "international": "Daha küçük uluslararası topluluk, oldukça mahrem",
+        "character": "Lakeside kasabaları, dağ toplulukları ve kırsal alanları",
+        "international": "Lake Zurich, Lake Lucerne ve kanton'un iç bölgelerindeki farklı topluluklar.",
         "culture": "Alp manzaraları, göl manzarası, geleneksel İsviçre cazibesi",
-        "transport": "Zürih Havalimanı'na 45 dakika, manzaralı yolculuk"
+        "transport": "Seçilmiş belediyeden gelen testler; Küsnacht ve Pfäffikon SZ farklı rotalara hizmet eder."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (Hünenberg kampüsü, yakınlarda)",
-          "Institut Montana (yakınlarda)",
-          "Stiftsschule Einsiedeln"
+          "ISZL (Baar veya Hünenberg sınıfa bağlı olarak; yolculuğu test edin)",
+          "Institut Montana Zugerberg ( seyahat veya yönetim düzenlemeleri kontrol)",
+          "Stiftschule Einsiedeln (kontrol programı ve kabulleri)"
         ]
       },
-      "bankingInfo": "Schwyz merkezli kanton bankası ve büyük bankaların şubeleri aracılığıyla özel bankacılık. Zürih veya Zug'dan daha az kurumsal yoğunluk, ancak tam gizliliğe değer verenler için ideal.",
+      "bankingInfo": "Yerel bankacılık hizmetlerine, Zürih veya Züg'deki toplantılarla karşılaştırma yapmayın. Bankanın, ikamet, mülkiyet, vergi durumu ve beklenen işlemler hakkındaki değerlendirmesi, konumun yerini alamaz.",
       "realEstate": {
-        "range": "6.000–14.000 CHF/m² (göl kenarı), 4.000–8.000 CHF/m² (iç kesim köyleri)",
-        "lexKoller": "Lex Koller geçerlidir. Genellikle Zürih veya Zug'a göre benzer veya daha düşük vergi oranlarıyla daha erişilebilir fiyatlar sunar."
+        "range": "Özel belediyedeki mevcut evlerle karşılaştırın; göl erişim, boyut ve koşul genel bir kanton fiyat aralığından daha fazlası.",
+        "lexKoller": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin."
       },
       "bestFor": {
-        "profile": "Alp yaşam tarzı ve tam bir gizlilik içinde en düşük vergileri arayan, mahremiyet odaklı aile veya bireyler",
-        "ideal": "İdeal olanlar: çok kuşaklı aileler, mahremiyet odaklı bireyler, emekliler"
+        "profile": "Aileler ve özel müşteriler, iş ve okullara pratik erişimle göl veya dağ üssünü karşılaştırır.",
+        "ideal": "Kısa liste Küssnacht, Pfäffikon SZ veya bir iç topluluk gerçek günlük yolculuklarınızı kullanarak."
       }
     },
     "otherTaxEfficient": {
       "eyebrow": "Genişletilmiş kısa liste",
-      "title": "Değerlendirilmeye değer diğer vergi verimli kantonlar",
-      "subtitle": "Bu kantonlar ilk üç ana karşılaştırma noktası değildir, ancak ciddi bir vergi ve yaşam tarzı kısa listesinde sıkça yer alır.",
-      "taxEfficient": "Vergi verimli",
+      "title": "Diğer Central Swiss cantons karşılaştırmak için",
+      "subtitle": "Aynı ev ve iş varsayımlarını kullanın, sonra her yerde okul ve işyeri yolculuklarını test edin.",
+      "taxEfficient": "Yerel olarak Karşılaştır",
       "labels": {
         "corporate": "Kurumlar",
         "personal": "Kişisel vergi",
@@ -290,27 +289,27 @@
       "items": [
         {
           "name": "Nidwalden",
-          "tagline": "Düşük vergi, yüksek gizlilik, Lucerne ve Zürih'e yakın.",
-          "corporate": "Yaklaşık %11,9 efektif kurumlar vergisi oranı.",
-          "personal": "Özellikle Hergiswil ve Stans çevresinde düşük kişisel vergi yükü.",
-          "schoolAccess": "Lucerne, Zug ve Zürih okul seçeneklerine iyi erişim.",
-          "bestFor": "Zug benzeri verimliliği daha sakin bir merkezle isteyen girişimciler ve family office'ler."
+          "tagline": "Stans ve Hergiswil ile günlük seyahat etrafında.",
+          "corporate": "Önerilen belediye ve iş faaliyetleri için bir hesaplama talep edin.",
+          "personal": "Belediyelerdeki aynı varsayımları kullanarak ev gelir ve zenginlikle karşılaştırın.",
+          "schoolAccess": "Yerel kamu hükmüne ve herhangi bir uluslararası kampüse yolculuk.",
+          "bestFor": "Kurucular ve aileler Lucerne'nin Orta İsviçre'ye erişimi olan bir üssü düşünün."
         },
         {
           "name": "Obwalden",
-          "tagline": "Güçlü vergi avantajı olan sakin Alp ve göl seçeneği.",
-          "corporate": "Yaklaşık %12,7 efektif kurumlar vergisi oranı.",
-          "personal": "Cazip kişisel oranlar ve gizliliğe önem veren belediyeler.",
-          "schoolAccess": "Lucerne veya Zug okul planlamasıyla birlikte en iyi çalışır.",
-          "bestFor": "Düşük vergi, alan ve mahremiyeti şehir yoğunluğunun önüne koyan aileler."
+          "tagline": "Sarnen ve diğer toplulukları gerçek bir ev kısa listesi kullanarak karşılaştırın.",
+          "corporate": "Önerilen belediye ve iş faaliyetleri için bir hesaplama talep edin.",
+          "personal": "Belediyelerdeki aynı varsayımları kullanarak ev gelir ve zenginlikle karşılaştırın.",
+          "schoolAccess": "Bir ev seçmeden önce okul dilini, kabul ve seyahat koşullarını test edin.",
+          "bestFor": "Aileler iş ve okul yolculuğu ile bir Alp veya göl üssü karşılaştırır."
         },
         {
           "name": "Lucerne",
-          "tagline": "Pratik vergi verimliliğiyle dengeli yaşam tarzı.",
-          "corporate": "Yaklaşık %12,2 efektif kurumlar vergisi oranı.",
-          "personal": "Daha güçlü kentsel altyapıyla orta ile cazip arası kişisel vergi.",
-          "schoolAccess": "Güçlü aile altyapısı, ISZL ve Orta İsviçre okullarına erişim.",
-          "bestFor": "Sağlık, okullar, havaalanı erişimi ve hâlâ rekabetçi vergiler isteyen aileler."
+          "tagline": "Lucerne şehri çevreleyen belediyelerle karşılaştırın.",
+          "corporate": "Önerilen belediye ve iş faaliyetleri için bir hesaplama talep edin.",
+          "personal": "Belediyelerdeki aynı varsayımları kullanarak ev gelir ve zenginlikle karşılaştırın.",
+          "schoolAccess": "Yerel halk okulları ve gerçek kampüs ve uluslararası seçeneklerin notu.",
+          "bestFor": "Şehir merkezi İsviçre üssünü değerlendirmek isteyen aileler ve girişimciler."
         }
       ]
     },
@@ -318,202 +317,76 @@
       "corporate": "Kurumsal",
       "personalIncome": "Kişisel gelir",
       "lumpSum": "Götürü vergi",
-      "priceRange": "Fiyat aralığı",
+      "priceRange": "Konut bütçesi",
       "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
     "meta": {
-      "title": "Müşteri Vaka Çalışmaları — İsviçre'ye Taşınma",
-      "description": "Başarıyla tamamlanmış İsviçre relokasyonlarının anonimleştirilmiş vaka çalışmaları. Girişimcilerin, ailelerin ve aile ofislerinin İsviçre yolculuğunu nasıl yönettiğini öğrenin."
-    },
-    "hero": {
-      "title": "Müşteri Yolculukları",
-      "subtitle": "Gerçek relokasyonlardan anonimleştirilmiş vaka çalışmaları"
-    },
-    "disclaimer": "Tüm vaka çalışmaları anonimleştirilmiştir. Müşteri gizliliğini korumak amacıyla isimler, tanımlayıcı ayrıntılar ve spesifik rakamlar değiştirilmiştir.",
-    "cases": {
-      "techFounder": {
-        "title": "Teknoloji Girişimcisi",
-        "subtitle": "9 ayda Dubai'den Zug'a",
-        "quote": "Hem dijital iş modelimizi hem de ailemizin uzun vadeli güvenlik ihtiyaçlarını anlayan bir yargı bölgesine ihtiyacımız vardı. İsviçre her ikisini de sağladı.",
-        "profile": "Dubai merkezli teknoloji girişimcisi, 4 kişilik aile, önemli bir likidite olayı sonrası çıkış yapmış",
-        "timeline": {
-          "month1": "İlk konsültasyon ve kanton değerlendirmesi",
-          "month2": "Göç öncesi varlık yapılandırması",
-          "month3": "Zug makamlarıyla forfait fiscal müzakeresi başlatıldı",
-          "month4": "B izni başvurusu yapıldı",
-          "month5": "Uluslararası okul güvenceye alındı (ISZL)",
-          "month6": "Gayrimenkul edinimi — Zug'da göl kenarı mülkü",
-          "month7": "İsviçre özel bankacılık ilişkisi kuruldu",
-          "month8": "Aile relokasyonu gerçekleştirildi",
-          "month9": "Aile ofisi yapısı kuruldu, tüm hizmetler faaliyete geçti"
-        },
-        "challenges": [
-          "Yeniden yapılandırma gerektiren karmaşık çoklu yargı bölgeli kurumsal yapı",
-          "Özel bankacılık belgeleri gerektiren kripto varlıklar",
-          "Akademik yıl ortasında okul yerleşimi",
-          "Çifte vergi mukimliği geçişinin koordinasyonu"
-        ],
-        "services": [
-          "Göç Öncesi Varlık Yapılandırması",
-          "Götürü Usulü Vergilendirme (Forfait Fiscal)",
-          "Oturma İzni ve Göçmenlik",
-          "Aile Ofisi Kurulumu",
-          "Gayrimenkul Danışmanlığı",
-          "Yaşam Tarzı Koordinasyonu"
-        ],
-        "outcome": "Tüm ailenin taşınması tamamlandı. Forfait fiscal onaylandı. Çocuklar ISZL'ye kaydoldu. İsviçre yönetişim çerçevesiyle aile ofisi faaliyete geçti. Ücret: Gizli."
-      },
-      "bankingFamily": {
-        "title": "Bankacı Ailesi",
-        "subtitle": "Beyrut'tan Schwyz'e — acil relokasyon",
-        "quote": "Bankalar çöktüğünde karar vermek için 72 saatimiz vardı. Danışmanlarımız İsviçre altyapısını hazırlamıştı.",
-        "profile": "Lübnanlı aile, 3 kuşak, önemli bankacılık ve gayrimenkul portföyü, acil durum koşulları",
-        "timeline": {
-          "week1": "Acil konsültasyon — anlık tehdit değerlendirmesi",
-          "week2": "Hızlandırılmış B izni başvurusu başlatıldı",
-          "month1": "Schwyz'de geçici konaklama sağlandı",
-          "month2": "Özel bankacılık onboarding süreci (Lübnan dışı varlıklardan transfer edilen varlıklar)",
-          "month3": "Kalıcı ikametgah kuruldu",
-          "month4": "Çocuklar uluslararası okula kaydoldu",
-          "month6": "Emlak yapılandırması tamamlandı",
-          "month9": "Tam yerleşim — her üç kuşak da yerleşti",
-          "month12": "Devam eden danışmanlık — emlak yönetimi ve veraset planlaması"
-        },
-        "challenges": [
-          "Tüm iş akışlarının paralel işlenmesini gerektiren acil zaman çizelgesi",
-          "Karmaşık çok kuşaklı emlak yapısı",
-          "Lübnan bankacılık sisteminde sıkışmış varlıklar",
-          "Farklı ikamet ve bakım ihtiyaçları olan üç kuşak"
-        ],
-        "services": [
-          "Oturma İzni ve Göçmenlik",
-          "Özel Bankacılık ve Varlık Yönetimi",
-          "Gayrimenkul Danışmanlığı",
-          "Aile Ofisi Kurulumu",
-          "Sağlık ve Zindelik Konsiyerji",
-          "Yaşam Tarzı Koordinasyonu"
-        ],
-        "outcome": "Her üç kuşak da başarıyla taşındı. Özel bankacılık ilişkileri kuruldu. Emlak, İsviçre yönetişimi altında yeniden yapılandırıldı. Devam eden veraset planlaması danışmanlığı yürürlükte."
-      },
-      "digitalNomad": {
-        "title": "Dijital Göçebe",
-        "subtitle": "4 ayda Riyad'dan Zürih'e",
-        "quote": "Kriptoyu meşru bir varlık sınıfı olarak gören ve bir iş kurmak için gerçek altyapı sunan bir ülkeye ihtiyacım vardı. Zürih bariz bir seçimdi.",
-        "profile": "34 yaşında Suudi vatandaşı, önemli kripto para portföyü, aktif tüccar ve yatırımcı, bekar",
-        "timeline": {
-          "month1": "Konsültasyon, kanton seçimi, kripto servet belgeleme stratejisi",
-          "month15": "Detaylı servet kaynağı belgeleriyle B izni başvurusu",
-          "month2": "Danışmanlık faaliyetleri için şirket kurulumu (İsviçre GmbH)",
-          "month3": "Kripto dostu bankacılık kurulumu (SEBA Bank + geleneksel özel banka)",
-          "month4": "Zürih'te daire tutuldu, tüm taşınma süreci tamamlandı"
-        },
-        "challenges": [
-          "Madencilik/erken aşama alımlardan mevcut portföye kadar kripto servet zincirinin belgelenmesi",
-          "Servetinin %90+ kısmı kripto kaynaklı olan müşterilere uygun bankacılık ortakları bulmak",
-          "Aktif ticaret ve yatırım için İsviçre kripto vergi sınıflandırmasında yol almak",
-          "Geleneksel olmayan servet profiline sahip AB dışı bir vatandaş için B izni almak"
-        ],
-        "services": [
-          "Oturma İzni ve Göçmenlik",
-          "Şirket Kurulumu ve Kurumsal Yapılandırma",
-          "Özel Bankacılık ve Varlık Yönetimi",
-          "Yaşam Tarzı Koordinasyonu"
-        ],
-        "outcome": "B izni verildi. İsviçre GmbH faaliyete geçti. İkili bankacılık ilişkisi (kripto + geleneksel) kuruldu. Devam eden kripto ticareti için tam uyum çerçevesi oluşturuldu. Başlangıçtan bitişe 4 ay."
-      },
-      "gulfFamilyOffice": {
-        "title": "Körfez Aile Ofisi",
-        "subtitle": "Kuveytli aile ofisi — İsviçre SFO kurulumu",
-        "quote": "Dört farklı yargı bölgesinde varlık yönetimimiz vardı ancak birleşik bir yönetişimimiz yoktu. İsviçre bize gelecek nesil için ailemizin ihtiyaç duyduğu yapıyı sağladı.",
-        "profile": "Kuveytli aile ofisi, 200M+ CHF yönetilen varlık, çok kuşaklı, KİK, Londra ve İsviçre'de faaliyet gösteriyor",
-        "timeline": {
-          "month1": "Kapsam belirleme: yönetişim denetimi, yargı bölgesi incelemesi, aile tüzüğü değerlendirmesi",
-          "month2": "İsviçre SFO yapısı tasarlandı — Zug'da AG anonim şirketi kuruldu",
-          "month3": "Yönetim kurulu oluşturuldu — 3 İsviçre mukimi bağımsız direktör atandı",
-          "month4": "Yatırım komitesi kuruldu, bankacılık yetkileri yeniden yapılandırıldı",
-          "month5": "Yönetişim çerçevesi belgelendi ve aile konseyi tarafından onaylandı",
-          "month6": "Operasyonel — tüm raporlama hatları, uyum ve denetim çerçeveleri aktif",
-          "ongoing": "Devam eden danışmanlık: üç aylık yönetim kurulu toplantıları, yıllık yönetişim incelemesi, ad-hoc danışmanlık"
-        },
-        "challenges": [
-          "Farklı yatırım felsefelerine sahip üç kuşak arasında yönetişim beklentilerini hizalamak",
-          "Dört farklı yargı bölgesinden gelen raporlamayı birleşik bir İsviçre çerçevesinde konsolide etmek",
-          "Hem İsviçre hem de KİK iş kültürünü anlayan nitelikli bağımsız direktörler yerleştirmek",
-          "Tüm aile kollarının kabul edebileceği bir veraset çerçevesi tasarlamak"
-        ],
-        "services": [
-          "Aile Ofisi Kurulumu",
-          "Bağımsız Direktörlük ve Yönetim Kurulu Hizmetleri",
-          "Şirket Kurulumu ve Kurumsal Yapılandırma",
-          "Özel Bankacılık ve Varlık Yönetimi"
-        ],
-        "outcome": "İsviçre SFO, Zug'da tam operasyonel hale geldi. 3 bağımsız direktör atandı. Yönetişim çerçevesi tüm aile kolları tarafından onaylandı. Tüm yargı bölgelerinde konsolide raporlama sağlandı. Üç aylık yönetişim ve yıllık inceleme için devam eden hizmet süreci."
-      }
-    },
-    "labels": {
-      "case": "Vaka",
-      "timeline": "Zaman çizelgesi",
-      "month": "Ay",
-      "week": "Hafta",
-      "ongoing": "Devam ediyor",
-      "keyChallenges": "Temel zorluklar",
-      "servicesEngaged": "Kullanılan hizmetler",
-      "outcome": "Sonuç"
+      "title": "Kime Hizmet Veriyoruz | Move to Switzerland",
+      "description": "Aktif işletme sahipleri, özel zenginlik ve aile yaşamı için farklı planlar"
     }
   },
   "services": {
     "title": "Hizmetlerimiz",
-    "subtitle": "Relokasyonunuzun her boyutunda kapsamlı danışmanlık",
+    "subtitle": "Özel zenginlik, aktif işletmeler ve uluslararası aileler için yeniden konum planlaması",
     "learnMore": "Daha fazla bilgi",
     "pageTitle": "Hizmetler",
-    "pageSubtitle": "İsviçre relokasyonunuz için uçtan uca danışmanlık",
+    "pageSubtitle": "İsviçre ikamet, iş ve aile öncelikleri",
     "items": {
       "assetStructuring": {
-        "title": "Göç Öncesi Varlık Yapılandırması",
-        "description": "İsviçre mukimliği öncesi kazançların realize edilmesi; hisse ortaklıkları, tröstler ve BAE kurumsal yapılarının yeniden düzenlenmesi; kapsamlı servet kaynağı belgelendirmesi.",
-        "detail": "İsviçre vergi mukimliği tesis etmeden önce varlık yapınızın optimize edildiğinden emin olmak için mevcut danışmanlarınızla birlikte çalışıyoruz. Buna, BAE ve ötesindeki hisse ortaklıklarının, tröst düzenlemelerinin ve kurumsal yapıların gözden geçirilmesi, İsviçre bankacılık ve vergi makamlarının gereksinimlerini karşılayan temiz servet kaynağı belgelerinin sağlanması dahildir."
+        "title": "Pre-Immigration Tax & Asset Planning",
+        "description": "Harita iş sahipliği, yatırımlar ve taşınmadan önce planlanan işlemler. İsviçre'yi ve ayrılış ülke vergi tavsiyelerini koordine edin.",
+        "detail": "İsviçre vergi mukimliği öncesinde hisseleri, trustları, emeklilik varlıklarını, taşınmazları, borçları, planlanan satışları ve ülkeleri belirleyin. Mülkiyet kayıtları, değerlemeler ve servet kaynağı belgelerini toplayın. Mevcut ve İsviçreli uzmanlar çıkış vergisini, anlaşmaya göre mukimliği ve işlemleri değerlendirmelidir. Varıştan önce satış otomatik vergisiz değildir; yabancı yapılar aynı vergi muamelesini korumayabilir.",
+        "seoTitle": "HNWIs & Kurucular için Ön Değerlendirme Vergi Planlaması"
       },
       "lumpSum": {
         "title": "Götürü Usulü Vergilendirme (Forfait Fiscal)",
-        "description": "Kanton vergi kararının tam müzakeresi; vergi matrahının belirlenmesi; devam eden yıllık uyum yönetimi.",
-        "detail": "İsviçre'nin götürü usulü vergilendirme rejimi, uygun şartları taşıyan bireylere dünya çapındaki gelirleri yerine yaşam giderleri üzerinden hesaplanan bir vergi matrahı sunar. Kanton makamlarıyla tüm müzakereyi yürütüyor, optimal vergi matrahını belirliyor ve düzenlemenizin iyi durumda kalmasını sağlamak için devam eden yıllık uyum sürecini yönetiyoruz."
+        "description": "Assess harcama bazlı vergilendirme uygunluk, kanton gereksinimleri ve sıradan İsviçre vergilendirme ile karşılaştırma.",
+        "detail": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz.",
+        "seoTitle": "Uygun Özel Müşteriler için İsviçre Lump-Sum Vergisi"
       },
       "residency": {
         "title": "Oturma İzni ve Göçmenlik",
-        "description": "Kanton seçimi danışmanlığı; B izni başvuru yönetimi; aile dahil etme planlaması; C izni ve vatandaşlığa giden yol.",
-        "detail": "Doğru kantonu seçmek, relokasyon sürecinizdeki belki de en önemli karardır. Vergi durumunuza, yaşam tarzı tercihlerinize ve aile ihtiyaçlarınıza göre kanton seçimi konusunda tavsiyelerde bulunuyoruz. Ardından tüm B izni başvurusunu ve ailenin dahil edilmesini yönetiyor, C izni ve nihai İsviçre vatandaşlığına giden yolu planlıyoruz."
+        "description": "Assess Swiss konut ve girişimciler için iş seçenekleri, özel müşteriler ve aileler relokasyon taahhütleri yapmadan önce.",
+        "detail": "AB/EFTA vatandaşları istihdam, serbest çalışma veya çalışmadan ikamet yoluyla kabul edilebilir. Sonuncusu yeterli kaynak ve uygun sağlık ve kaza sigortası gerektirir. İzin süresi kabul dayanağına bağlıdır. Yerel makamın istediği belgeleri sunun; ülke çapında garantili işlem süresi yoktur.\n\nAB/EFTA dışındaki vatandaşların hukuki dayanağı bireysel değerlendirilir. İstihdam, serbest çalışma, emeklilik ve istisnai kabul farklı şartlara tabidir. Servet, konut alımı, şirket kuruluşu veya vergi kararı tek başına oturum hakkı vermez. Kanton ve gerektiğinde federal makamlar karar verir. Taşınma için bağlayıcı karar almadan değerlendirme yaptırın.",
+        "seoTitle": "Girişimciler ve Özel Müşteriler için İsviçre Residency"
       },
       "companyFormation": {
-        "title": "Şirket Kurulumu ve Kurumsal Yapılandırma",
-        "description": "İsviçre holding şirketleri; fikri mülkiyet (IP) yapıları; BAE şirketleri ile koordinasyon; KDV kaydı ve uyum.",
-        "detail": "İster bir İsviçre holding şirketine, ister bir fikri mülkiyet lisanslama yapısına veya mevcut BAE şirketleriniz ile yeni İsviçre operasyonlarınız arasındaki koordinasyona ihtiyacınız olsun, tüm süreci biz yönetiyoruz. Buna KDV kaydı, kurumsal uyum ve kurumsal yapınızın hem vergi açısından verimli hem de tam uyumlu olmasını sağlamak dahildir."
+        "title": "Şirket Formasyon & Business Relocation",
+        "description": "Koordinasyon şirketi kurulumu, kurucu iş izni, yönetim ve İsviçre iş üssü için sınır ötesi vergi soruları.",
+        "detail": "İsviçre AG şirketi en az CHF 100.000 sermaye gerektirir; kuruluşta her hissenin nominal değerinin en az %20’si ve toplam en az CHF 50.000 ödenmelidir. GmbH için CHF 20.000 tamamen ödenir. İsviçre’de ikamet eden temsilci ile yönetim, izin ve raporlama yükümlülükleri uzmanlarla düzenlenmelidir.\n\nİşletme aslında İsviçre'de ne yapacak: Takımın çalıştığı yerde, hangi müşterilere hizmet ettiği ve hangi sözleşmelere veya varlıkların hareket edebileceği. Bir şirket kurmak, kurucunun çalışma hakkını elde etmekten ayrıdır. Sigorta, sosyal sigorta, KDV, lisans ve mevcut yurtdışı varlıklar için etkileri değerlendirmek için uzmanlara sorun.\n\nŞirket ve vergi danışmanlarınızla relokasyon iş akışını koordine ediyoruz. Katılım, bankacılık, izin ve devam eden yönetimi kimin idare ettiğini belirtmeli.",
+        "seoTitle": "Swiss Company Formation & Relok for Entrepreneurs"
       },
       "familyOffice": {
         "title": "Aile Ofisi Kurulumu",
-        "description": "Tekil ve çoklu aile ofisi danışmanlığı; özel bankacılık tanıtımları; tröst ve vakıf yapılandırması; veraset planlaması.",
-        "detail": "Özel varlık yönetimi altyapısı gerektiren aileler için İsviçre'de tekil veya çoklu aile ofisleri kurma konusunda danışmanlık veriyoruz. Buna önde gelen özel bankalarla tanıştırma, varlık koruması için tröst ve vakıfların yapılandırılması ve sınır ötesi karmaşıklıkları dikkate alan kapsamlı veraset planlaması dahildir."
+        "description": "İsviçre ofisinin yeniden yarısı, yönetim ve raporlama ihtiyaçlarını tanımlamak; uzman tavsiyeleri, bankacılık hazırlığı ve aile relokasyonunu koordine etmek.",
+        "detail": "Ailenin ihtiyaçlarına başlayın: yatırım gözetimi, konsolide raporlama, yönetim, bir işletme için başarı veya destek. Bir içsel takımla, dış sağlayıcılar ve bir varlık için taahhüt etmeden önce bir karma düzenleme ile karşılaştırın.\n\nSahiplik, müşteriler ve aktiviteler hangi düzenleyici soruların değerlendirmeye ihtiyacı olduğunu belirler. Bir aile ofis etiketi lisans yükümlülüklerini yerine getirmez. Yatırım kararları, tutuklama, vergi tavsiyesi ve atanmış profesyoneller ile raporlama sorumluluğu. Bu çalışmayı aile konutu, ev ve okul planları ile bağlıyoruz.",
+        "seoTitle": "Swiss Family Office Build & UHNW Relocation"
       },
       "directorship": {
-        "title": "Bağımsız Direktörlük ve Yönetim Kurulu Hizmetleri",
-        "description": "İsviçre mukimi direktör ataması; kurumsal sekreterlik hizmetleri; yönetişim ve uyum desteği.",
-        "detail": "Birçok İsviçre kurumsal yapısı, İsviçre'de ikamet eden bir direktör gerektirir. Siz işinize odaklanırken İsviçre kuruluşlarınızın tüm düzenleyici gereklilikleri karşılamasını sağlamak için nitelikli bağımsız direktörler, kurumsal sekreterlik hizmetleri ve devam eden yönetişim desteği sağlıyoruz."
+        "title": "Yönetmenlik & Board Koordinasyon",
+        "description": "İsviçre temsili, yönetim kurulu sorumluluklar ve şirketinizle birlikte yönetim ve relokasyon danışmanları.",
+        "detail": "Bir İsviçre iş yasal form ve gerçek operasyonlarına uygun bir yönetim düzenlemesine ihtiyaç duyar. Geçici temsili, yetki imzalamak, yönetim kurulu görevleri ve kayıt kurumsal danışmanla tutmak.\n\nBir yerleşik temsilci, bir işletmenin vergi, bankacılık veya lisans amaçlarına ihtiyacı olabilir. Yönetmenin görevi, bilgi erişimi, remunerasyon ve yazılı sorumluluklar.",
+        "seoTitle": "Swiss Directorship & Governance Koordinasyon"
       },
       "realEstate": {
         "title": "Gayrimenkul Danışmanlığı",
-        "description": "Lex Koller yönetimi; liste dışı mülklere erişim; edinim yapılandırması; noter koordinasyonu.",
-        "detail": "İsviçre gayrimenkul düzenlemeleri, özellikle de yabancı alıcılar üzerindeki Lex Koller kısıtlamaları uzman yönetimi gerektirir. Seçkin lokasyonlardaki liste dışı mülklere erişim sağlıyor, edinimleri tüm düzenlemelere uygun şekilde yapılandırıyor ve işlemlerin sorunsuz yürümesini sağlamak için noterlerle koordinasyonu sağlıyoruz."
+        "description": "Bir İsviçre ev sahipliği için uygunsuzluk, okul rotaları ve bütçe, Lex Koller ile ve uzmanlar tarafından değerlendirilen sorular satın alın.",
+        "detail": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin.\n\nİlk hareket için, bir yere taahhüt etmeden önce satın alma ile karşılaştırın. Gerçek okul kampüsü, işyeri ve günlük seyahat etrafında kısa liste oluşturun. Mevcut mülk özellerini ve finans ve profesyonel maliyetler dahil olmak üzere tam bir satın alma bütçesi talep edin.",
+        "seoTitle": "Swiss Property & Relok Özel Müşteriler için Danışma"
       },
       "health": {
-        "title": "Sağlık ve Zindelik Konsiyerji",
-        "description": "Zorunlu sağlık sigortası kurulumu; uzman hekim tanıtımları; üst düzey check-up; tıbbi irtibat.",
-        "detail": "İsviçre'nin sağlık sistemi zorunlu sigorta gerektirir ve yönetilmesi karmaşık olabilir. Sağlık sigortanızı kuruyor, sizi önde gelen uzman hekimlerle tanıştırıyor, üst düzey sağlık taramaları ayarlıyor ve sizin ve ailenizin en iyi bakımı almasını sağlamak için devam eden tıbbi irtibat noktanız olarak hizmet veriyoruz."
+        "title": "Sağlık ve Sağlık Koordinasyonu",
+        "description": "Ailenizin tıbbi ve relokasyon ihtiyaçlarının etrafında sağlık sigortası hazırlığı ve sağlık girişleri.",
+        "detail": "gelmeden önce hareket planında sağlık ekleyin. Devamlı tedavi, reçeteler, dil ihtiyaçları ve bir sonraki kliniğinizin kayıtları gerekli olacaktır. Sigorta yükümlülüklerini onaylayın ve her aile üyesi için geçerli bir istisna da dahil olmak üzere tarihlere başlayın.\n\nPratik düzenlemeleri ve girişleri koordine etmeye yardımcı oluyoruz. Sigortacılar ve sağlık sağlayıcıları kapsama, kabul, kullanılabilirlik ve maliyetler onaylar; tıbbi kararlar kliniklerinizle kalır.",
+        "seoTitle": "Swiss Health Insurance & Health Relocation Support"
       },
       "lifestyle": {
-        "title": "Yaşam Tarzı Koordinasyonu ve Yumuşak Geçiş",
-        "description": "Uluslararası okul yerleşimi; ev personeli izinleri; eş entegrasyon programları; topluluk tanıtımları; kültürel oryantasyon.",
-        "detail": "Relokasyonunuzun başarısı evrak işlerinin çok ötesine geçer. Çocuklarınız için uluslararası okul yerleşimi, ev personeli çalışma izinleri, eş entegrasyonu ve topluluk tanıtımları ile tüm ailenizin ilk günden itibaren İsviçre'de kendini evinde hissetmesini sağlamak için kapsamlı kültürel oryantasyon süreçlerini yönetiyoruz."
+        "title": "Aile Çözüm & Okul Koordinasyonu",
+        "description": "Koordinatörlüğü, konut, yerel yönelim ve aile yerleşimi, ilgili kurumlar tarafından onaylanan kabul ve izin kararları ile koordine edilir.",
+        "detail": "Çocuklarınızın yaşları, dil ihtiyaçları ve eğitim planları ile başlayın, sonra halk ve uluslararası okul seçeneklerini karşılaştırın. Bir eve taahhüt etmeden önce doğru kampüse ve yolculuk. Başvuru kararları okulla kalır.\n\nSigorta, kayıt, günlük ulaşım ve topluluk bağlantıları için pratik bir varış planı oluşturun. Yerli personel sizinle hareket edebilirse, taahhütler yapmadan önce göç ve istihdam pozisyonunu ayrı değerlendirin.",
+        "seoTitle": "Swiss Family Relocation & School Koordinasyon"
       }
     },
     "overview": "Genel Bakış",
@@ -526,46 +399,46 @@
   },
   "clients": {
     "title": "Kime Hizmet Veriyoruz",
-    "subtitle": "Danışmanlığımız sizin özel profilinize ve hedeflerinize göre uyarlanmıştır",
+    "subtitle": "Aktif işletme sahipleri, özel zenginlik ve aile yaşamı için farklı planlar",
     "profiles": {
       "entrepreneur": {
-        "title": "Yerleşik Girişimci",
-        "age": "40–60 Yaş",
-        "description": "Bir likidite olayından önce İsviçre ikameti tesis etmek isteyen şirket çıkış öncesi veya sonrası sahipleri. Tipik hizmet süresi: 12–24 ay.",
+        "title": "Girişimciler ve işletme sahipleri",
+        "age": "Bina, ölçeklendirme veya bir çıkış hazırlamak",
+        "description": "Çalışma hakkınız, şirket operasyonlarınız ve aile değişikliğinizin koordinasyonunu sağlayın. Bir iş satışından önce, her iki ülkede de danışmanlardan, önerilen zamanlama ve mülkiyet yapısını değerlendirmelerini isteyin.",
         "tags": [
-          "Çıkış Öncesi Planlama",
-          "Varlık Yapılandırması",
-          "Götürü vergilendirme"
+          "Kurucu İzler",
+          "İş Alt",
+          "Pre-Exit Planlama"
         ]
       },
       "family": {
-        "title": "Taşınan Aile",
-        "age": "Okul çağındaki çocuklar",
-        "description": "Güvenlik, eğitim ve yaşam kalitesine öncelik veren aileler. Okullar, sağlık hizmetleri ve topluluk entegrasyonunu içeren kapsamlı relokasyon.",
+        "title": "Uluslararası Aileler",
+        "age": "Okul, ev ve günlük hayat",
+        "description": "Her aile üyesinin ikamet konumunu, okul kayıtları, sağlık hizmetleri ve uygun bir yaşam alanı ile eşleştirin. Kira sözleşmesini imzalamadan önce, kamu ve uluslararası okulları karşılaştırın.",
         "tags": [
-          "Eğitim",
-          "Sağlık Hizmetleri",
-          "Topluluk"
+          "Okul Seçimi",
+          "Aile İzinleri",
+          "Settling In In"
         ]
       },
       "youngWealth": {
-        "title": "Genç Servet Sahibi",
-        "age": "28–42 Yaş",
-        "description": "Dünya standartlarında bir yaşam tarzıyla istikrarlı ve kripto dostu bir yargı bölgesi arayan dijital girişimciler ve kripto servet sahipleri.",
+        "title": "Yüksek net varlığa sahip kişiler",
+        "age": "Bir çıkıştan sonra özel zenginlik ve hayat",
+        "description": "İsviçre'de yaşama planınızı, yatırımlarınız, mülkünüz, aile sorumluluklarınız ve planladığınız aktiviteler doğrultusunda oluşturun. Vergi konularında, gerekirse harcama bazlı vergi sistemlerinden yararlanmak için uzmanlarla görüşün.",
         "tags": [
-          "Kripto",
-          "Dijital Varlıklar",
-          "Yaşam Tarzı"
+          "Özel Zenginlik",
+          "Vergi Residence",
+          "Bankacılık Hazırlıkları"
         ]
       },
       "familyOffice": {
-        "title": "Körfez Aile Ofisi",
-        "age": "Çok kuşaklı",
-        "description": "Avrupa yönetişim merkezi, veraset planlaması ve kurumsal düzeyde varlık yapılandırması arayan yerleşik aile ofisleri.",
+        "title": "Aile ofisleri ve çok yüksek servete sahip aileler",
+        "age": "Sınır ötesi mülkiyet ve başarı",
+        "description": "Çok yüksek servete sahip ailelerin taşınmasını aile ofisinin görevleri, raporlama ve mevcut danışmanlarla birlikte koordine ederiz. Yapıyı seçmeden önce sorumlulukları ve düzenleyici gereklilikleri belirleyin.",
         "tags": [
           "Yönetişim",
-          "Veraset",
-          "Kurumsal"
+          "Başarı Planlaması",
+          "Adviser Koordinasyon"
         ]
       }
     }
@@ -603,9 +476,9 @@
     "pageSubtitle": "Bağımsızlık, gizlilik ve hizmet derinliği",
     "story": {
       "title": "Hikayemiz",
-      "p1": "Move to Switzerland, basit bir gözlem üzerine kuruldu: Orta Doğu'dan İsviçre'ye taşınan yüksek net değerli bireyler, gereksiz yere parçalanmış bir danışmanlık ortamıyla karşı karşıya kalmaktadır. Vergi danışmanları, göçmenlik avukatları, emlakçılar ve özel bankacılar her biri birbirinden izole çalışmakta ve müşteriyi aralarında koordinasyon kurmak zorunda bırakmaktadır.",
-      "p2": "Göç öncesi varlık yapılandırmasından çocuklarınızın okuldaki ilk gününe kadar tüm relokasyon yolculuğunu yöneten tek bir irtibat noktası oluşturduk. Kurucularımız, derin İsviçre hukuk ve bankacılık uzmanlığını sınır ötesi operasyonlardaki pratik girişimcilik deneyimiyle birleştirmektedir.",
-      "p3": "Her çalışma, müşterilerimizin beklediği gizlilik ve titizlikle yürütülür. Her birine tüm dikkatimizi ayırabilmek için aynı anda yalnızca sınırlı sayıda aileye hizmet veriyoruz."
+      "p1": "İsviçre'ye taşınmak kişisel, aile ve iş kararlarını birlikte getiriyor. Yüksek değerli bireyler ve girişimciler zaten güvenilir danışmanlar var, ancak hala ülke ve uzman takımları arasındaki hareketi koordine etmek için birine ihtiyaç duyuyorlar.",
+      "p2": "Move to Switzerland — 2012’den bu yana yüzlerce kişinin İsviçre’ye taşınmasına yardımcı olduk.",
+      "p3": "Zürih, Zug ve Schwyz ofislerimiz var. İlk aramalar online olarak gerçekleşir, Zürih'teki kişilik toplantılarla. Koordinasyon kapsamını ve çalışma başlamadan önce dış uzmanların sorumlulukları kabul ediyoruz."
     },
     "values": {
       "title": "Değerlerimiz",
@@ -676,17 +549,17 @@
     }
   },
   "servicesMeta": {
-    "title": "Hizmetlerimiz — İsviçre'ye Taşınma",
-    "description": "İsviçre relokasyonunuzun her boyutunda kapsamlı danışmanlık hizmetleri."
+    "title": "HNWIs & Entrepreneurs için İsviçre Relok Hizmetleri",
+    "description": "Plan Swiss Visitor, pre-moveve vergi soruları, şirket oluşumu, aile ofisi koordinasyonu, konut ve okullar bir relokasyonla."
   },
   "insights": {
     "meta": {
-      "title": "İçgörüler — Move to Switzerland Danışmanlığı",
-      "description": "Yüksek net değerli bireyler ve aileler için İsviçre relokasyonu, vergilendirme, gayrimenkul, bankacılık ve yaşam tarzı hakkında uzman içgörüleri."
+      "title": "HNWIs & Entrepreneurs için İsviçre Relocation Insights",
+      "description": "İsviçre ikametini keşfedin, kurucu relokasyon, özel bankacılık, aile ofisleri, vergi planlama, mülk ve okullar pratik rehberlik ve resmi kaynaklarla."
     },
     "hero": {
       "title": "İçgörüler",
-      "subtitle": "İsviçre relokasyonu, vergilendirme ve varlık yönetimi üzerine uzman perspektifleri"
+      "subtitle": "girişimciler için pratik okuma, yüksek değerli bireyler ve uluslararası aileler bir İsviçre hareketini planlıyor"
     },
     "readMore": "Makaleyi oku",
     "author": "Move to Switzerland Danışmanlık Ekibi",
@@ -700,55 +573,42 @@
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
         "categoryLabel": "Vergilendirme",
-        "readTime": "12 dakikalık okuma",
+        "readTime": "2 min read",
         "date": "1 Nisan 2026",
-        "title": "İsviçre Götürü Usulü Vergilendirme Açıklaması: Yabancı Yerleşikler İçin Tam Kılavuz",
-        "metaDescription": "İsviçre götürü usulü vergilendirme (forfait fiscal) için tam kılavuz. Uygunluk şartlarını, kanton bazlı minimum tutarları, vergi matrahının nasıl hesaplandığını ve adım adım başvuru sürecini öğrenin.",
-        "excerpt": "İsviçre'nin forfait fiscal rejiminin kapsamlı bir incelemesi — uygunluk gereksinimleri, kanton minimum tutarları, vergi matrahı hesaplamaları ve adım adım başvuru süreci.",
-        "sectionCount": "9",
+        "title": "İsviçre’de harcamaya dayalı vergilendirme: koşullar ve planlama",
+        "metaDescription": "Assess Swiss to-sum vergilendirme uygunluk, 2026 değerlendirme üssü, kanton seçimi ve bir hareketten sonra devam eden iş faaliyetlerinin sonuçları.",
+        "excerpt": "Assess Swiss to-sum vergilendirme uygunluk, 2026 değerlendirme üssü, kanton seçimi ve bir hareketten sonra devam eden iş faaliyetlerinin sonuçları.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "İsviçre'nin götürü usulü vergilendirme rejimi — forfait fiscal veya Pauschalbesteuerung olarak bilinir — İsviçre'ye taşınan varlıklı yabancı uyruklular için en cazip vergi düzenlemelerinden biridir. Bu sistemde, uygun şartları taşıyan bireyler dünya çapındaki gelirleri ve varlıkları üzerinden değil, yaşam giderleri üzerinden vergilendirilir. Yüksek net değerli bireyler, özellikle de önemli küresel gelir akışına sahip olanlar için bu durum, normal vergilendirmeye kıyasla önemli ölçüde daha düşük vergi yükümlülükleri ile sonuçlanabilir."
+            "heading": "Eligability Gereksinimler",
+            "level": "2",
+            "content": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz."
           },
           "1": {
-            "heading": "Götürü Usulü Vergilendirme Nedir?",
+            "heading": "Vergilenebilir Base Nasıl Hesaplanır",
             "level": "2",
-            "content": "Götürü usulü vergilendirme, İsviçre'de vergi mukimliği tesis eden veya buna yeniden başlayan ve ülke içinde kazançlı bir işte çalışmayan yabancı uyruklular için mevcut olan özel bir vergi rejimidir. Mükellefin dünya çapındaki geliri ve servetini beyan etmesi yerine, vergi matrahı İsviçre'deki yıllık yaşam giderleri — konut maliyetleri, gıda, seyahat, eğitim, personel maliyetleri ve diğer kişisel harcamalar dahil — tarafından belirlenir. Vergi daha sonra bu varsayılan vergi matrahına normal İsviçre vergi oranları (federal, kantonal ve belediye) uygulanarak hesaplanır. Sistem bir yüzyılı aşkın bir süredir İsviçre vergi hukukunun bir parçasıdır ve şu anda İsviçre genelinde yaklaşık 5.000 kişiye hizmet vererek yıllık 900 milyon CHF'nin üzerinde vergi geliri yaratmaktadır."
+            "content": "2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır."
           },
           "2": {
-            "heading": "Uygunluk Gereksinimleri",
+            "heading": "Hangi kantonlar karşılaştırmanız gerekir?",
             "level": "2",
-            "content": "Götürü usulü vergilendirmeye hak kazanmak için bir başvuru sahibinin üç temel kriteri karşılaması gerekir. İlk olarak, birey yabancı uyruklu olmalıdır — İsviçre vatandaşları bu haktan yararlanamaz. İkincisi, birey ilk kez İsviçre vergi mukimi oluyor olmalı veya en az 10 yıllık bir aradan sonra geri dönüyor olmalıdır. Üçüncüsü ve en önemlisi, birey İsviçre'de herhangi bir kazançlı işle meşgul olmamalıdır. Buna istihdam, serbest meslek ve İsviçre merkezli bir işletmenin aktif yönetimi dahildir. Kişisel yatırımları yönetmek veya bir aile ofisini denetlemek (ofisin üçüncü taraf geliri elde etmemesi şartıyla) gibi pasif faaliyetlere genellikle izin verilir. Başvuru sahibinin eşi de vatandaşlık kriterini karşılamalıdır — eşlerden biri İsviçreli ise, çift için götürü usulü vergilendirme geçerli değildir."
+            "content": "Zürih, kantonal harcamaya dayalı vergilendirmeyi 2010’da kaldırdı. Schaffhausen, Appenzell Ausserrhoden, Basel-Landschaft ve Basel-Stadt da kaldırmıştır. Diğer kantonların güncel şartlarını ilgili vergi makamından alın. Ulusal bir asgari ödeme tablosu uygunluğunuzu veya nihai vergi yükünüzü belirlemez."
           },
           "3": {
-            "heading": "Vergi Matrahı Nasıl Hesaplanır?",
+            "heading": "Uygulama Süreci: Adım Tarafından Adım",
             "level": "2",
-            "content": "Götürü usulü vergilendirmede vergi matrahı, iki hesaplamadan yüksek olanıdır. Birincisi, mükellefin ve ailesinin gerçek dünya çapındaki yaşam giderleridir. İkincisi, suistimali önlemek için tasarlanmış bir kontrol hesaplaması — bir minimum eşik tutardır. Federal düzeyde, 2016 reformundan bu yana minimum vergiye tabi gelir 400.000 CHF olarak belirlenmiştir. Kantonlar kendi minimumlarını belirlerler ve bunlar kantona bağlı olarak yaklaşık 250.000 CHF ile 600.000 CHF arasında değişir. Kontrol hesaplaması birkaç faktörü dikkate alır: mükellefin İsviçre'deki ikametgahının rayiç kira bedeli (veya gerçek kira) bir katsayı ile çarpılır (kantona göre genellikle 3 ila 7), İsviçre kaynaklı gelir (örneğin İsviçre gayrimenkul geliri) ve mükellefin anlaşma avantajlarından yararlandığı İsviçre ile çifte vergilendirmeyi önleme anlaşması olan ülkelerden elde edilen gelir."
+            "content": "Kanton seçmeden önce pasaportları, ikamet geçmişini, dünya genelindeki hane bütçesini, konut bilgilerini, gelir kaynaklarını ve planlanan işleri hazırlayın. Yetkin vergi uzmanlarıyla olağan vergilendirme karşılaştırmasını ve gerekiyorsa yazılı vergi kararı başvurusunu koordine edin. Varsayımları ve beyan yükümlülüklerini netleştirin. Vergi uygulaması ve oturum izni ayrı kararlardır; onay veya sabit yıllık vergi garanti edilmez."
           },
           "4": {
-            "heading": "Kantonlara Göre Minimum Tutarlar",
-            "level": "3",
-            "content": "Kantonal minimumlar önemli ölçüde farklılık gösterir ve kanton seçiminde kilit bir faktördür. Zug yaklaşık 250.000 CHF minimum vergiye tabi gelir gerektirir ve bu da onu en erişilebilir kantonlardan biri yapar. Schwyz de minimum tutarını 250.000 CHF civarında belirlemiştir. Luzern yaklaşık 300.000 CHF gerektirir. Valais ve Graubünden minimumları 400.000 CHF civarında belirlemiştir. Cenevre yaklaşık 400.000 CHF minimum vergiye tabi gelir gerektirir ancak belediye vergi oranları daha yüksektir. Zürih yaklaşık 400.000 CHF gerektirir ve standart artan oranlı tarifesini varsayılan matraha uygular. Tarihsel olarak en fazla götürü usulü mükellefe sahip kanton olan Vaud, yaklaşık 400.000 CHF gerektirir. Bern'in minimumu yaklaşık 400.000 CHF'dir. Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden ve Zürih şehri gibi bazı kantonların götürü usulü vergilendirmeyi kanton düzeyinde kaldırdığını unutmayın (ancak kanton hala bazı belediyelerde buna izin vermektedir). Her zaman kanton makamlarıyla güncel durumu doğrulayın."
+            "heading": "Kurucular: Hareketten sonra rolünü tarif edin",
+            "level": "2",
+            "content": "Bir iş çıkışını hazırlarsanız, gerçekleştirmeye devam edeceğiniz işten mülkiyet ayırt edin. Liste yönetim pozisyonları, danışmanlık anlaşmaları, yönetim görevleri ve herhangi bir kazanç koşulları. Vergi ve göçmen danışmanlarına özel konut planına güvenmekten önce önerilen faaliyetleri değerlendirmek için sorun.\n\nMüşterilerin veya şirketin kayıtlı bürosunun konumu kendi başına değil, İsviçre'den nasıl yapılan çalışmaların nasıl tedavi edileceğine karar veriyor."
           },
           "5": {
-            "heading": "Başvuru Süreci: Adım Adım",
+            "heading": "İlk değerlendirme için sorular",
             "level": "2",
-            "content": "Başvuru süreci genellikle yapılandırılmış bir yol izler. Başvuru öncesi aşamada, potansiyel mükellef kişisel ve finansal durumunun ayrıntılı bir özetini hazırlamak, en uygun kanton ve belediyeyi seçmek ve önerilen vergi matrahının ön hesaplamalarını hazırlamak için nitelikli danışmanlarla çalışır. Resmi başvuru kanton vergi makamına sunulur. Bu başvuru, beklenen yaşam giderlerinin ayrıntılı bir beyanını, başvuru sahibinin mali durumunun belgelerini, vatandaşlık gerekliliğinin kanıtını ve İsviçre'de kazançlı bir işte çalışılmadığına dair beyanı içerir. Kanton makamı başvuruyu inceler ve vergi matrahı üzerinde bir müzakereye girebilir. Bu gerçek bir müzakeredir — makam takdir yetkisine sahiptir ve önerilen matrahın başvuru sahibinin görünen yaşam tarzı ve serveti göz önüne alındığında makul olup olmadığını değerlendirecektir. Anlaşmaya varıldığında, genellikle belirli bir süre için geçerli olan (genellikle ilk vergi yılı, yıllık yenileme ile) resmi bir vergi kararı yayınlanır. Düzenlemenin devam etmesi için mükellefin yıllık yaşam giderleri beyannamesi vermesi gerekir."
-          },
-          "6": {
-            "heading": "Federal ve Kantonal Götürü Usulü Vergilendirme Karşılaştırması",
-            "level": "2",
-            "content": "Götürü usulü vergilendirmenin hem federal hem de kantonal/belediye düzeylerinde işlediğini anlamak önemlidir. Federal düzeyde minimum vergiye tabi gelir 400.000 CHF'dir. Kanton ve belediye vergileri ayrı hesaplanır ve her kantonun kendi minimum eşikleri ve oranları vardır. Uygulamada, götürü usulü geliri üzerindeki toplam efektif vergi oranı, yüksek gelirli normal mükellefler için %40'ın üzerindeki en üst marjinal oranlara kıyasla, kanton ve belediyeye bağlı olarak genellikle %20 ile %35 arasındadır. Örneğin, 500.000 CHF tutarında müzakere edilmiş bir vergi matrahına sahip bir kişi için Zug'daki toplam yıllık vergi faturası yaklaşık 100.000–120.000 CHF olabilir — bu, normal vergilendirme altında gerçek dünya çapındaki gelirleri üzerinden ödeyecekleri tutarın küçük bir kısmıdır."
-          },
-          "7": {
-            "heading": "Avantajlar ve Dikkat Edilmesi Gerekenler",
-            "level": "2",
-            "content": "Götürü usulü vergilendirmenin temel avantajları arasında öngörülebilir ve genellikle önemli ölçüde daha düşük vergi faturaları, dünya çapındaki gelir ve varlıkları ayrıntılı olarak açıklama zorunluluğunun olmaması, basitleştirilmiş vergi uyumu ve İsviçre dışı varlıklar üzerinde İsviçre servet vergisinden muafiyet yer alır. Ancak dikkate alınması gereken önemli hususlar vardır. Götürü usulü mükellefler, normal mükelleflerin yararlanabildiği indirimlerden (emeklilik katkı payları gibi) yararlanamazlar. İsviçre'nin çifte vergilendirmeyi önleme anlaşmalarındaki yurt içi stopaj oranlarından daha düşük oranlardan her durumda yararlanamayabilirler. İsviçre'de çalışmaktan gerçekten kaçınmalıdırlar. Ayrıca halk oylamaları birkaç kantonda bu rejimi zorlamış ve bazı siyasi riskler yaratmıştır — ancak Kasım 2025'teki federal oylamada %78'lik bir kesimin rejimin kaldırılmasına karşı oy kullanması, uzun vadeli güvenliğini önemli ölçüde güçlendirmiştir."
-          },
-          "8": {
-            "heading": "Götürü Usulü Vergilendirme Sizin İçin Doğru mu?",
-            "level": "2",
-            "content": "Götürü usulü vergilendirme, dünya çapında yüksek geliri olan ve İsviçre'de çalışmasına gerek duymayan bireyler — genellikle emekliler, yatırımcılar, aile serveti sahipleri ve İsviçre dışındaki işletmelerden elde edilen pasif gelirle yaşayan bireyler — için en faydalı olanıdır. İsviçre merkezli bir işletmeyi aktif olarak yönetmeyi planlayan bireyler veya nispeten mütevazı dünya çapında geliri olanlar (normal vergilendirmenin aslında daha düşük bir fatura ile sonuçlanabileceği durumlar) için daha az uygundur. Göç öncesi planlamanızın bir parçası olarak ayrıntılı bir karşılaştırmalı analiz — normal vergilendirme ve götürü usulü — hazırlanmalıdır. Göç öncesi danışmanlık hizmetimizin bir parçası olarak bu analizi sağlıyor ve bu kritik kararı tam bilgiyle vermenizi sağlıyoruz."
+            "content": "Vatandaşlık, konut tarihi, aile üyeleri, amaçlanan aktiviteler ve varlıklarınızla bağlantılı ülkeler hakkında geniş bir özet getir. Evin beklenen harcama, konut ve uzman harcamalarını vergi analizinin yanı sıra karşılaştırın.\n\nYararlı bir sonuç, çözülmemiş sorular ve bir sonraki otorite veya danışman kararıdır. İşlem tarihleri, bağımlılıkların anlaşılıncaya kadar önerilen relokasyon tarihlerinden ayrı tutun."
           }
         },
         "imageAlt": "Ceviz ağacından bir masa üzerinde resmi belgelerin bulunduğu İsviçre kanton vergi dairesi iç mekanı"
@@ -756,55 +616,37 @@
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
         "categoryLabel": "Gayrimenkul",
-        "readTime": "10 dakikalık okuma",
+        "readTime": "2 min read",
         "date": "1 Nisan 2026",
-        "title": "Lex Koller: Yabancı Alıcıların İsviçre Gayrimenkulü Hakkında Bilmesi Gerekenler",
-        "metaDescription": "İsviçre'nin Lex Koller yasasını anlamak: gayrimenkul üzerindeki yabancı mülkiyet kısıtlamaları, izin gereklilikleri, kantonlar arası farklılıklar ve İsviçreli olmayan alıcılar için pratik stratejiler.",
-        "excerpt": "İsviçre'nin yabancı mülkiyet kısıtlamaları arasında yolunuzu bulun — Lex Koller gerekliliklerinden kantonlar arası farklılıklara, izin süreçlerine ve uluslararası alıcılar için stratejilere kadar.",
-        "sectionCount": "9",
+        "title": "İsviçre’de gayrimenkul satın almak: Lex Koller ve taşınma",
+        "metaDescription": "Vatandaşlık, konut durumu, mülk kullanımı ve Lex Koller etrafında İsviçre ev satın almayı planlayın. HNW aileleri ve girişimciler için pratik sorular.",
+        "excerpt": "Vatandaşlık, konut durumu, mülk kullanımı ve Lex Koller etrafında İsviçre ev satın almayı planlayın. HNW aileleri ve girişimciler için pratik sorular.",
+        "sectionCount": "5",
         "sections": {
           "0": {
-            "content": "İsviçre'nin gayrimenkul piyasası dünyanın en istikrarlı ve arzu edilen piyasalarından biridir — ve yabancı alıcılar için en çok düzenlenen piyasalar arasındadır. Yaygın olarak Lex Koller (veya tarihsel olarak Lex Friedrich) olarak bilinen Yabancıların Gayrimenkul Edinimi Hakkında Federal Kanun, İsviçreli olmayanların İsviçre'de nasıl konut mülkiyeti edinebileceğini düzenler. Bu yasayı anlamak, İsviçre'ye taşınan ve ev satın almayı planlayan herkes için temel öneme sahiptir."
+            "heading": "Alıcı ile başlayın ve kullanım amaçlı",
+            "level": "2",
+            "content": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin."
           },
           "1": {
-            "heading": "Lex Koller Nedir?",
+            "heading": "Residence izni ayrı bir karardır",
             "level": "2",
-            "content": "Lex Koller, İsviçre'de ikamet etmeyen yabancı uyrukluların konut gayrimenkulü edinimini kısıtlayan federal bir yasadır. 1961'de yürürlüğe giren ve o zamandan beri defalarca revize edilen yasanın amacı, İsviçre topraklarının \"yabancılar tarafından aşırı istila edilmesini\" önlemektir — yani İsviçre gayrimenkulünün yerleşik olmayanlar tarafından yatırım amaçlı mülk olarak edinilmesinden ziyade İsviçre'de yaşayanlar için erişilebilir kalmasını sağlamaktır. Yasa özellikle konut mülkiyeti için geçerlidir. Ticari ve endüstriyel gayrimenkuller genellikle muaftır; bu da yabancı sahipli şirketlerin Lex Koller kısıtlamaları olmaksızın ofis alanı, perakende satış yerleri ve endüstriyel mülk edinebileceği anlamına gelir."
+            "content": "İsviçre mülkünün sahibi yabancı bir ulusalya oturma iznine hakkı vermez. Onaylanmış bir hareket parçası olarak bir ev satın almadan önce önerilen konut temelini oluşturun.\n\nBirkaç uluslararası ev kullanan bir aile için, hangi mülkün aslında ana ev olacağını ve nasıl kullanılacağını açıklayın. Bir şirket veya diğer yapı aracılığıyla herhangi bir mülkiyet dahil olmak üzere belirli işlemi değerlendirmek için yetkili otoriteye sorun."
           },
           "2": {
-            "heading": "Kimler Etkilenir?",
+            "heading": "Tam bir satın alma kısası oluşturun",
             "level": "2",
-            "content": "Lex Koller, yurtdışındaki kişiler — İsviçre'de kalıcı ikametgahı olmayan yabancı uyruklular olarak tanımlanır — ve yabancı kontrollü şirketler için geçerlidir. Temel ayrımlar şunlardır: Geçerli bir oturma iznine (B veya C izni) sahip AB/EFTA vatandaşları, birincil ikametgah edinme amacıyla esasen İsviçre vatandaşlarıyla aynı muameleyi görürler. Kendi kullanımları için izin almadan konut mülkiyeti satın alabilirler. B iznine sahip AB/EFTA dışı vatandaşlar çoğu kantonda izin almadan birincil ikametgah satın alabilirler ancak ikincil ikametgahlar ve yatırım amaçlı mülkler konusunda kısıtlamalarla karşılaşırlar. İsviçre'de ikameti olmayan kişiler (uyruğuna bakılmaksızın) konut mülkiyeti satın almak için kanton iznine ihtiyaç duyarlar ve bu izin sıkı kotalara tabidir. Yurtdışında yaşayan İsviçre vatandaşları etkilenmez — özgürce satın alabilirler."
+            "content": "Önerilen alıcılar, finansman, ccupancy ve herhangi bir bölümün kiralanacağını kayıt edin. İmzalanmadan önce hangi onayların gerekli olduğunu ve hangi sözleşme koşullarını uygun olduğunu sorun.\n\nMevcut mülk özellerini ve tam bir maliyet tahmini talep edin. Karşılaştır finansmanı, işlem maliyetleri, bakım ve herhangi bir yenileme ihtiyacı. metrekare başına bir kanton çapında fiyat, belirli bir mülk değerlendirmesi için fakir bir yedektir."
           },
           "3": {
-            "heading": "Mülk Türleri ve Kısıtlamalar",
+            "heading": "girişimciler için: daha geniş zaman çizelgesi korumak",
             "level": "2",
-            "content": "Kısıtlamalar mülk türüne göre değişir. Birincil ikametgah (Hauptwohnung): oturma izni (B veya C) sahipleri, ikamet ettikleri yerde izin almadan birincil ikametgah satın alabilirler. Mülk onların gerçek evi olarak hizmet etmelidir. İkincil veya tatil evleri (Ferienwohnung): bunlar en sıkı kısıtlamalara tabidir. Yerleşik olmayanlar tarafından satın alma, federal bir kota sistemi (kontenjan olarak bilinir) aracılığıyla tahsis edilen kanton iznini gerektirir. Mülk tanınmış bir turizm bölgesinde olmalıdır ve boyut sınırlamaları vardır (genellikle maksimum 200 m² net yaşam alanı). Yatırım/kiralık mülkler: yerleşik olmayan yabancılar genellikle konut yatırım mülkleri edinemezler. Oturma izni sahipleri kanton kurallarına tabi olarak yatırım mülkleri edinebilirler. Ticari mülkiyet: genellikle Lex Koller'den muaftır."
+            "content": "Eğer satın alma iş satış devamlarına veya yeni bir bankacılık ilişkisine bağlıdırsa, doğrulanmış fonlar ve profesyonel tavsiyelerle ödeme programını uyumlu hale getirin. Bir bankanın bir hesabı açacağını veya bir satıcının son tarihlerini finanse edeceğini varsaymayın.\n\nÖnce kiralamanın bir okul rotasını ve mahalleyi test etmesine izin verecek olup olmadığını kontrol edin ve satın alma soruları çözüldü."
           },
           "4": {
-            "heading": "Kantonlar Arası Farklılıklar",
+            "heading": "Hükümleri taahhüt noktasında onaylayın",
             "level": "2",
-            "content": "Lex Koller federal bir yasa olsa da, uygulama kanton makamlarını içerir ve kantonların başvuruları nasıl ele aldığı konusunda anlamlı farklılıklar vardır. Zürih, birincil ikametgah satın alan oturma izni sahipleri için nispeten basittir. Kantonal tapu sicil dairesi (Grundbuchamt), alıcının geçerli bir izni varsa ve mülk kayıtlı adresindeyse genellikle edinimleri sorunsuz işler. Zug da benzer bir yaklaşım izler ancak belediye düzeyinde bazı ek gereksinimleri vardır. Zug'daki bazı belediyeler ek belgeler talep eder veya bekleme süreleri uygular. Schwyz genellikle erişilebilirdir ve daha düşük emlak fiyatları ve çok düşük vergi oranlarıyla birleştiğinde, taşınan aileler için mükemmel bir değer sunar. Cenevre ve Vaud yabancı alıcılardan en yüksek talebi görür ve bu da başvuruların daha fazla incelenmesine yol açar. Özellikle Cenevre'de sıkı ikincil ikametgah kotaları vardır. Valais ve Graubünden büyük turistik kantonlar olarak, tatil evi edinimlerini yetkilendirmek için en gelişmiş rejimlere sahiptir."
-          },
-          "5": {
-            "heading": "İzin Süreci",
-            "level": "3",
-            "content": "İzin gerektiğinde (genellikle ikincil ikametgahlar için veya oturma izni olmayan alıcılar için), süreç birkaç adımı içerir. Alıcı, Lex Koller konularından sorumlu kanton makamına — genellikle kantonal tapu dairesine veya özel bir adalet departmanına — bir başvuru sunar. Başvuru, satış sözleşmesini (genellikle bir ön sözleşme olan \"Vorvertrag\"), alıcının İsviçre ile veya belirli bir lokasyonla olan bağlantısının kanıtını, edinimin izin verilen kategorilerden birine girdiğine dair kanıtı ve mülkün boyut ve kullanım gereksinimlerini karşıladığına dair onayı içermelidir. Kanton makamı başvuruyu federal kotaya (tatil evleri için) ve kanton kriterlerine göre inceler. İşlem süreleri küçük kantonlarda 2–6 haftadan Cenevre veya Vaud'da 2–3 aya kadar değişir."
-          },
-          "6": {
-            "heading": "Yabancı Alıcılar İçin Pratik Stratejiler",
-            "level": "2",
-            "content": "İsviçre'ye taşınan yüksek net değerli bireyler için birkaç pratik strateji gayrimenkul edinme sürecini basitleştirebilir. En doğrudan yaklaşım, mülk satın almadan önce bir B izni almaktır. Geçerli bir oturma izni ile birincil ikametgah edinmek, esasen bir İsviçre vatandaşıyla aynı süreç haline gelir. İzinleri çıkmadan önce satın almak isteyen aileler için, bazen iznin verilmesine bağlı olan koşullu bir satın alma sözleşmesi (Vorvertrag) yapmak mümkündür. İkincil ikametgahlar veya yatırım amaçlı mülkler edinmekle ilgilenenler için, bir İsviçre şirketi kurmak bazen bir yol sağlayabilir ancak bu durum, yabancı kontrollü bir şirket olarak sınıflandırılmaktan kaçınmak için dikkatli bir yapılandırma gerektirir. Hem Lex Koller'i hem de yerel piyasayı anlayan uzman bir gayrimenkul danışmanıyla çalışmak esastır. Lüks segmentte yaygın olan liste dışı mülkler genellikle en iyi fırsatları sunar ve yerleşik ağları olan bir danışman gerektirir."
-          },
-          "7": {
-            "heading": "Son Gelişmeler ve Görünüm",
-            "level": "2",
-            "content": "Periyodik olarak Lex Koller'in reforme edilmesi veya kaldırılması konusunda tartışmalar yapılmaktadır. 2017'de ticari mülk edinimi üzerindeki kısıtlamaların gevşetilmesine yönelik federal bir teklif rafa kaldırılmış ve daha yakın zamandaki tartışmalar özellikle turistik bölgelerdeki ikincil ikametgahlarla ilgili olarak yasanın gevşetilmesinden ziyade sıkılaştırılmasına odaklanmıştır. Öngörülebilir gelecek için Lex Koller sağlam bir şekilde yerinde durmaktadır. Taşınan aileler, gayrimenkul stratejilerini göçmenlik zaman çizelgeleriyle bağlantılı olarak planlamalıdır; ikisi birbirine sıkı sıkıya bağlıdır ve doğru koordinasyon önemli ölçüde zaman kazandırabilir ve karmaşıklığı azaltabilir."
-          },
-          "8": {
-            "heading": "Emlak Fiyatları: Ne Beklenmeli?",
-            "level": "2",
-            "content": "İsviçre emlak fiyatları, özellikle seçkin lokasyonlarda, dünyanın en yüksekleri arasındadır. Zürih şehrinde, seçkin konut mülkü için metrekare başına 15.000–35.000 CHF bekleyin. Zürih Gölü boyundaki Gold Coast toplulukları (Küsnacht, Zollikon, Herrliberg) 20.000–40.000 CHF/m² arasında prim yapar. Zug'da, kasaba merkezi mülkleri 12.000–25.000 CHF/m² arasında değişirken, çevre köyler 8.000–14.000 CHF/m² arasındadır. Schwyz, göl kenarında 6.000–14.000 CHF/m² ve iç kesim köylerinde 4.000–8.000 CHF/m² ile daha erişilebilir fiyatlar sunar. Bu fiyatlar, İsviçre gayrimenkulünün kalitesini, istikrarını ve kıtlığını — ve İsviçre'deki mülkiyetin tarihsel olarak küresel ölçekte en güvenilir değer depolarından biri olduğu gerçeğini — yansıtır."
+            "content": "Mülkiyetten sorumlu olan kanton otorite, yazarlık hakkında sorular karar verir. Federal Adalet Ofisi çerçeveyi ve kişileri yayınlar; önerilen yasal revizyonlar zaten yürürlükte olan kurallarla karıştırılmamalıdır.\n\nGörev yapmadan önce gerçekleriniz için mevcut pozisyonu kontrol etmek veya yasal danışmanınızı sorun. Bizim rolümüz, aile izni, okul ve varış planı ile ev aramasını koordine etmektir."
           }
         },
         "imageAlt": "Gün batımında Alp manzaralı lüks İsviçre göl kenarı villası"
@@ -812,60 +654,60 @@
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
         "categoryLabel": "Yaşam Tarzı",
-        "readTime": "11 dakikalık okuma",
+        "readTime": "7 min okuma",
         "date": "1 Nisan 2026",
-        "title": "Zürih, Zug ve Schwyz'deki En İyi Uluslararası Okullar",
-        "metaDescription": "Zürih, Zug ve Schwyz'deki en iyi uluslararası okullar için kapsamlı kılavuz. IB, Amerikan, İngiliz ve İsviçre müfredatlarını, ücretleri, kabul zaman çizelgelerini ve yatılı seçeneklerini karşılaştırın.",
-        "excerpt": "Zürih, Zug ve Schwyz'deki en iyi uluslararası okulları karşılaştırın — IB programlarından İsviçre Maturası'na, yatılı seçeneklerden eğitim ücretlerine ve kabul rehberliğine kadar.",
+        "title": "Zürih, Zug ve Schwyz’de uluslararası okulları karşılaştırın",
+        "metaDescription": "Zürih, Zug ve Schwyz yakınlarındaki okul yerleriyle karşılaştırın. Plan kampüs ziyaretleri, kabul soruları, ücretleri ve okul doğrudan okul kaynaklarını kullanıyor.",
+        "excerpt": "Doğru kampüsü kontrol edin, daha iyi kabul soruları isteyin ve bir ev seçmeden önce tam maliyet ve günlük yolculuğu karşılaştırın.",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "İsviçre'ye taşınan aileler için doğru okulu seçmek, kanton seçiminden sonra genellikle en önemli karardır. İsviçre, çocukları küresel kariyerlere hazırlayan çok dilli ortamlarda çeşitli müfredatlar — Uluslararası Bakalorya (IB), Amerikan, İngiliz ve İsviçre Maturası — sunan dünyanın en iyi uluslararası okullarından bazılarına ev sahipliği yapmaktadır. Bu kılavuz, üç ana relokasyon kantonundaki önde gelen uluslararası okulları kapsamaktadır: Zürih, Zug ve Schwyz."
+            "content": "Okul seçimi ve konut birlikte planlanmalıdır. Bu kılavuz, Zürih ve Zug bölgesinde Zürih, Zug veya Schwyz'te evleri düşünen aileler için uluslararası ve dilsel seçenekler sunuyor. Başlangıç bir kısa liste değil, bir sıralama değil: Doğru uyum, çocuğunuzun yaşına, dile, öğrenme ihtiyaçlarına ve muhtemelen bir sonraki hareketine bağlıdır. Buradaki okullar Zürih ya da Zug'de; Schwyz'de bir ev gerçek haçı kontrol etmek gerektirir."
           },
           "1": {
             "heading": "Zürih'teki Uluslararası Okullar",
             "level": "2",
-            "content": "Zürih, ülkenin en büyük şehri ve büyük bir uluslararası iş merkezi olma statüsünü yansıtarak, İsviçre'nin Almanca konuşulan bölgesindeki en geniş uluslararası okul seçkisini sunar."
+            "content": "Çocuğunuzun yaşı için tam kampüsle başlayın, okulun adı tek başına yerine. birincil kampüs için çalışan bir ev, bir çocuğun ikincil okula hareket ettiğinde farklı bir yolculuk yaratabilir. Her iki yolculuk da kardeşler farklı kampüslere katılacaklarsa."
           },
           "2": {
             "heading": "Zürih Uluslararası Okulu (ZIS)",
             "level": "3",
-            "content": "Zürih Uluslararası Okulu, İsviçre'deki en köklü ve saygın uluslararası okullardan biridir. 1963 yılında kurulan ZIS, Zürih bölgesinde dört kampüste faaliyet göstermektedir: Wädenswil, Kilchberg, Adliswil ve Adliswil'deki yeni lise kampüsü. Okul, 55'ten fazla uyruktan yaklaşık 1.500 öğrenciye (3–18 yaş arası) hizmet vermektedir. ZIS, IB Diploma Programı, IB Orta Yıllar Programı (MYP) ve IB İlk Yıllar Programı (PYP) sunmaktadır. Eğitim dili İngilizce olup, güçlü Almanca ve ek dil programları mevcuttur. Yıllık eğitim ücreti, erken çocukluk için yaklaşık 30.000 CHF'den lise (Diploma Programı) için 42.000 CHF'ye kadar değişmektedir. Kabul süreci rekabetçidir ve ailelerin planlanan başlangıç tarihlerinden en az 6–12 ay önce başvurmaları önerilir."
+            "content": "ZIS’in iki kampüsü vardır: 3–11 yaş için Wädenswil ve 11–18 yaş için Adliswil. Ev seçmeden önce çocuğunuzun kampüsünü ve programını doğrudan okulla teyit edin. Güncel ücretleri ve kontenjan durumunu sorun."
           },
           "3": {
             "heading": "Inter-Community School Zurich (ICS)",
             "level": "3",
-            "content": "Inter-Community School Zurich, şehrin doğusundaki prestijli Gold Coast'ta bulunan Zumikon'da yer almaktadır. Okul, 3–18 yaş arası yaklaşık 900 öğrenciye hizmet vermektedir. ICS, tüm seviyelerde (PYP, MYP, DP) IB müfredatı sunar ve kapsayıcı, topluluk odaklı yaklaşımıyla tanınır. Okulun ana dili koruma konusundaki güçlü vurgusu, özellikle İngilizce konuşulmayan ülkelerden gelen aileler için çok değerlidir. Yıllık eğitim ücreti sınıf seviyesine bağlı olarak yaklaşık 28.000–38.000 CHF'dir. ICS ayrıca kapsamlı bir okul sonrası etkinlik programı ve bilim laboratuvarları, sanat stüdyoları ve spor tesisleri gibi mükemmel imkanlar sunar."
+            "content": "Inter-Community School Zurich, Zumikon'a dayanmaktadır ve IB sürekliliği sunar. Uygun yıl grubu, dil desteği ve çocuğun ihtiyaç duyduğu herhangi bir öğrenme desteği hakkında kabul isteyin. Mevcut ücret programı doğrudan okuldan talep edin, uygulama ücretleri ve eğitim dışındaki hizmetler dahil. Okul seyahat saatleri sırasında kısa listelenen evden yolculuğu karşılaştırın."
           },
           "4": {
             "heading": "Swiss International School (SIS) Zürih",
             "level": "3",
-            "content": "SIS Zürih, hem İsviçre hem de uluslararası müfredatı takip eden benzersiz bir iki dilli (İngilizce-Almanca) program sunar. Bu, çocuklarının uluslararası eğitimini sürdürürken İsviçre toplumuna entegre olmasını isteyen aileler için mükemmel bir seçimdir. SIS Zürih-Wollishofen kampüsü, anaokulundan liseye kadar öğrencilere hizmet verir. Yıllık eğitim ücreti yaklaşık 25.000–35.000 CHF'dir. İngilizce ve Almanca eğitim sürelerinin kabaca eşit olduğu iki dilli model, her iki dilde de akıcı mezunlar yetiştirerek onlara hem İsviçre üniversite girişi (Matura yoluyla) hem de uluslararası üniversite başvuruları (IB veya eşdeğeri yoluyla) seçeneği sunar."
+            "content": "SIS Zürich-Wollishofen, Almanca-İngilizce iki dilli anaokulu ve ilkokul sunar. Daha ileri sınıflar için uygun SIS yerleşkesini, diplomaları ve kabul koşullarını doğrudan okuldan öğrenin."
           },
           "5": {
             "heading": "Zug'daki Uluslararası Okullar",
             "level": "2",
-            "content": "Zug, nispeten küçük boyutuna rağmen, büyük uluslararası topluluğu (%35'ten fazla yabancı sakin) ve \"Kripto Vadisi\" statüsü sayesinde mükemmel uluslararası eğitim seçenekleri sunar."
+            "content": "Zug veya yakın Schwyz gibi aileler için, her iki ebeveynin çalışma yolculuğu ve çocuğun haftalık faaliyetleri ile okul yerini karşılaştırın. Bir kanton çapında karşılaştırma çok geniştir: her aday için ev adresi, kampüs ve ulaşım seçeneği kaydetmek."
           },
           "6": {
             "heading": "International School of Zug and Luzern (ISZL)",
             "level": "3",
-            "content": "ISZL, merkezi İsviçre'nin önde gelen uluslararası okuludur ve sürekli olarak küresel düzeyde en iyi IB okulları arasında yer alır. Hünenberg (Zug) ve Riverside (Luzern) kampüsleriyle ISZL, 60'tan fazla uyruktan 3–18 yaş arası yaklaşık 1.400 öğrenciye hizmet vermektedir. Okul tam IB sürekliliğini (PYP, MYP, DP) sunar ve akademik mükemmeliyeti ile ünlüdür; IB Diploma geçme oranları sürekli olarak %95'in üzerindedir ve ortalama puanları küresel ortalamanın çok üzerindedir. ISZL'nin tesisleri, özel yapım bilim laboratuvarları, sahne sanatları merkezleri ve yüzme havuzları ile her türlü hava koşuluna uygun sahaları içeren kapsamlı spor tesisleriyle dünya standartlarındadır. Yıllık eğitim ücreti erken çocukluk için yaklaşık 28.000 CHF'den Diploma Programı için 40.000 CHF'ye kadar değişir. ISZL'nin üniversiteye yerleştirme kayıtları çok güçlüdür; mezunlar Oxbridge, Ivy League, ETH Zürih ve önde gelen Avrupa kurumları dahil olmak üzere en iyi üniversitelere düzenli olarak kabul edilmektedir."
+            "content": "ISZL’nin Zug Campus yerleşkesi Baar’dadır ve Early Years ile Grade 8 arasını kapsar. Riverside Campus, Luzern’de değil Hünenberg’dedir ve Grades 9–12 içindir. Başvurular kontenjana bağlı olarak yıl boyunca kabul edilir."
           },
           "7": {
             "heading": "Institut Montana Zugerberg",
             "level": "3",
-            "content": "Institut Montana, Zug'a bakan Zugerberg dağında 1.000 metre yükseklikte bulunan benzersiz bir kurumdur. 1926 yılında kurulan okul, İsviçre yatılı okul geleneklerini modern bir uluslararası müfredatla birleştirir. Okul hem IB Diploması hem de İsviçre Maturası sunarak öğrencilere gerçek bir eğitim yolu seçeneği sunar. Yatılı imkanları mevcuttur ve bu da onu Zürih/Zug bölgesindeki birkaç yatılı okul seçeneğinden biri yapar. Institut Montana, 40'tan fazla uyruktan yaklaşık 300 öğrenciye (yaklaşık %60 yatılı, %40 gündüzlü öğrenci) hizmet vermektedir. Yıllık gündüzlü öğrenci ücretleri yaklaşık 35.000–45.000 CHF iken, yatılılık ücretleri yaklaşık 65.000–75.000 CHF'dir. Okulun dağ kampüsü son derece güvenli ve odaklanmış bir öğrenme ortamı sunar."
+            "content": "Zugerberg'deki institut Montana, uluslararası ve İsviçre eğitim yolları ile gün ve yönetim eğitimi sunuyor. Programı onaylayın, dil gereksinimleri ve nitelikleri çocuğunuz için uygun. Gün ve yönetim düzenlemeleri için ayrı alıntılar talep edin ve hangi gözetim, yemek, seyahat ve hafta sonu düzenlemeleri dahil edilir. Bir yönetim seçeneği, çocuğunuzun ihtiyaçlarına karşı uzun bir koşuya çözüm olarak tedavi edilmek yerine değerlendirilmelidir."
           },
           "8": {
             "heading": "Müfredat Karşılaştırması: IB, İsviçre Maturası ve Amerikan/İngiliz",
             "level": "2",
-            "content": "Uluslararası Bakalorya (IB) Diploması, İsviçre'de en yaygın olarak sunulan uluslararası müfredattır. Dünya çapındaki üniversiteler tarafından tanınır ve altı ders grubu genelinde geniş, titiz bir eğitim sağlar. IB, küresel olarak taşınabilir olduğu için tekrar taşınabilecek aileler için idealdir. İsviçre Maturası (Swiss Matura), yerel İsviçre üniversite giriş yeterliliğidir. Matematik, fen bilimleri ve diller üzerine güçlü vurgu yapan son derece titiz bir eğitim sunar. İsviçre Maturası mezunları, İsviçre üniversitelerine (ETH Zürih dahil) garantili kabul hakkına sahiptir, bu da onu uzun vadeli ikamete kararlı aileler için cazip kılar. Amerikan müfredatları (AP dersleriyle birlikte ABD Ortak Çekirdek standartlarını takip eden) birkaç okulda mevcuttur ve ABD üniversitelerine başvurmayı planlayan aileler tarafından tercih edilir. İngiliz müfredatları (IGCSE'ler ve A-Level'lar ile İngiliz Ulusal Müfredatını takip eden) Zürih/Zug bölgesinde daha az yaygındır ancak bazı okullarda mevcuttur."
+            "content": "Çocuğun olası bir sonraki okul veya üniversite hedefine göre, geri dönerek başlayın. Seçilen programın hangi nitelikleri verdiğini öğrenin ve doğrudan alım şartlarını kontrol edin. Uluslararası bir müfredat, IB Diploması veya İsviçre Matura'sının, tüm alım şartlarını ortadan kaldırdığı varsayımında bulunmayın. Zaten bir sınav programının içinde olan bir çocuk için, okul değiştirmeden önce konu devamlılığı ve transfer zamanlaması hakkında görüşün."
           },
           "9": {
             "heading": "Kabul Zaman Çizelgesi ve Pratik Tavsiyeler",
             "level": "2",
-            "content": "İsviçre'deki uluslararası okul kabulleri yapılandırılmış bir zaman çizelgesini takip eder. Çoğu okul, akademik yıl başlamadan 12–18 ay önce (genellikle Ağustos/Eylül başlangıcı) başvuruları açar. Yıl ortası girişler için başvurular mümkün olduğunca erken yapılmalıdır; çoğu okul yeterli bildirimle yıl ortası gelişleri kabul edebilir. Taşınan aileler için temel hususlar şunlardır: Erken başvuru yapın, çünkü en iyi okulların belirli yaş grupları için bekleme listeleri vardır; karar vermeden önce bir okul ziyareti veya sanal tur talep edin; ulaşımı değerlendirin — İsviçre toplu taşıma sistemi mükemmeldir ancak 45 dakikalık bir yolculuk küçük çocuklar için zorlayıcı olabilir; çocuklarınızın ana dili İngilizce değilse okulun entegrasyon desteğini (ESL/EAL programları) değerlendirin; ve ailenizin kültürel dilini korumak için okulun ana dili programları sunup sunmadığını kontrol edin. Tüm büyük uluslararası okulların kabul ekipleriyle yakın çalışıyoruz ve müşterilerimiz için tanışmalar, kampüs ziyaretleri ve öncelikli yerleştirme konularında kolaylık sağlayabiliyoruz."
+            "content": "Sınıf düzeyini, dilleri, destek ihtiyaçlarını ve başlangıç tarihini belirleyin. Kontenjan, gerekli belgeler ve tüm ücretler için yazılı teyit isteyin. Yolculuk, yemek ve ulaşımı da değerlendirin. Kabul kararını okul verir; yer veya öncelikli kabul garantisi vermiyoruz."
           }
         },
         "imageAlt": "Arka planda Alplerin bulunduğu İsviçre uluslararası okul kampüsü"
@@ -873,50 +715,42 @@
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
         "categoryLabel": "Relokasyon",
-        "readTime": "9 dakikalık okuma",
+        "readTime": "3 min read",
         "date": "1 Nisan 2026",
-        "title": "İsviçre'ye Taşınmak Ne Kadar Sürer? Gerçekçi Bir Zaman Çizelgesi",
-        "metaDescription": "İsviçre'ye taşınmak için gerçekçi zaman çizelgesi: 3 aylık, 6 aylık, 9 aylık ve 12 aylık senaryolar. İsviçre relokasyonunuzu neyin hızlandırdığını veya geciktirdiğini öğrenin.",
-        "excerpt": "Hızlı 3 aylık taşınmalardan kapsamlı 12 aylık programlara kadar — zaman çizelgesini nelerin yönlendirdiğini ve İsviçre'ye taşınma planınızı nasıl yapacağınızı anlayın.",
-        "sectionCount": "8",
+        "title": "Girişimciler ve aileler için İsviçre’ye taşınma takvimi",
+        "metaDescription": "İkamet yeteneği, iş kararları, bankacılık, okullar ve konut konularını içeren bir İsviçre planını oluşturun. Sabit onay tarihlerine güvenmeden, bağımlılıkları planlayın.",
+        "excerpt": "İkamet yeteneği, iş kararları, bankacılık, okullar ve konut konularını içeren bir İsviçre planını oluşturun. Sabit onay tarihlerine güvenmeden, bağımlılıkları planlayın.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Her potansiyel müşterinin sorduğu ilk sorulardan biri şudur: \"Bu ne kadar sürecek?\" Dürüst cevap şudur ki, iyi yürütülen bir İsviçre relokasyonu, ilk ciddi görüşmeden ailenizin yerleşmesine, çocukların okula gitmesine ve tüm idari meselelerin çözülmesine kadar genellikle 6–12 ay sürer. Ancak zaman çizelgeleri, basit durumdaki bireyler için 3 ay kadar kısa bir süreden, karmaşık aile ofisleri veya çok kuşaklı taşınmalar için 18 aydan fazla bir süreye kadar değişebilir. Bu kılavuz, yaygın senaryolara dayalı gerçekçi zaman çizelgelerini dökümlemektedir."
+            "heading": "Kararlarla ilgili plan, vaat edilen bir hareketli tarih değil",
+            "level": "2",
+            "content": "Bir İsviçre hareketi için zaman çizelgesi önerilen konut temeli, belge hazırlığı, aile ihtiyaçları ve otoritelerin ve kurumların kararlarına bağlıdır. Bir girişimci başlatma işlemleri, özel zenginlikte yaşayan bir aileden farklı bağımlılıklarla karşı karşıya kalabilir.\n\nHedef bir pencere ile başlayın ve hangi taahhütlerin esnek olduğunu tanımlayın. Bir işletme satışını tedavi etmek, okul başlangıç, expiring kiralama veya tıbbi ihtiyaç, bir onayın hızlandırılabileceği kanıtlardan ziyade bir planlama kısıtlaması gerekir."
           },
           "1": {
-            "heading": "3 Aylık Zaman Çizelgesi: Hızlı Geçiş",
+            "heading": "Birincisi: Oturma ve iş temelini kurmak",
             "level": "2",
-            "content": "3 aylık bir relokasyon ulaşılabilirdir ancak birkaç olumlu koşul gerektirir: Bireyin AB/EFTA vatandaşı olması (izin sürecini önemli ölçüde basitleştirir), mülk satın almak yerine kiralamayı planlaması, nispeten basit bir finansal durumu olması ve okul yerleşimine ihtiyaç duyulmaması veya boş kontenjanı olan bir okulda tek bir çocuk için olması. Hızlı geçiş senaryosunda, 1. Ay kanton seçimini, ilk vergi danışmanlığını, kiralık mülklerin belirlenmesini ve B izni başvurusunun başlatılmasını kapsar. 2. Ay bir kira sözleşmesinin imzalanmasını, B izni işlemini ve onayını (AB vatandaşları genellikle 2–4 hafta içinde onay alır), sağlık sigortası kurulumunu ve okul kaydını içerir. 3. Ay fiziksel taşınmadır — eşyaların nakliyesi, İsviçre banka hesabının açılması, belediye kaydı (Einwohnerkontrolle) ve ilk yerleşme dönemi. Bu zaman çizelgesi, Avrupa içinden taşınan ve okul çağında çocuğu olmayan bekar profesyoneller veya AB/EFTA vatandaşı çiftler için en yaygın olanıdır."
+            "content": "Kayıt vatandaşlığı, mevcut ikamet durumu, aile ilişkileri ve her yetişkinin planlı çalışması. Uzun bir kira imzalamadan önce bir göçmen uzmanıyla ilgili rotayı gözden geçirin ya da hareketi desteklemek için bir İsviçre şirketine güvenmek.\n\nKurucular için, işletme aktivitesini, finansmanı, yönetim rolünü tanımlar ve İsviçre operasyonları önerdi. Özel müşteriler için, amaçlanan faaliyetlerin değerlendirildiği konut ve vergi düzenlemeleri ile tutarlı olup olmadığını oluşturun."
           },
           "2": {
-            "heading": "6 Aylık Zaman Çizelgesi: Standart",
+            "heading": "İşlemlerden önce: Her iki ülkedeki danışmanları hizalamak",
             "level": "2",
-            "content": "Altı ay, iyi hazırlanmış bir relokasyon için en yaygın zaman çizelgesidir. Bu çizelge, AB dışı vatandaşları (daha uzun izin işlem süreleriyle karşılaşan), okul çağında çocukları olan aileleri, götürü usulü vergilendirme peşindeki bireyleri ve birincil ikametgahlarını kiralamak yerine satın almak isteyenleri kapsar. 1–2. Aylar stratejik planlamayı kapsar: kapsamlı finansal inceleme, kanton ve belediye seçimi, götürü usulü vergilendirme ön analizi, okul araştırması ve kampüs ziyaretleri, ilk mülk arayışı ve B izni belgelerinin hazırlanması. 3–4. Aylar resmi başvuruları içerir: B izni başvurusu sunumu, kanton makamlarına resmi götürü usulü vergi başvurusu, okul başvuruları ve yerleştirme onayı, mülk listeleme ve izleme ve bir İsviçre banka hesabının açılması (tam onboarding 3–6 hafta sürebilir). 5–6. Aylar uygulama aşamasıdır: B izni onayı ve alımı, mülk satın alma veya kira sözleşmesi imzalama, fiziksel taşınma, sağlık sigortası aktivasyonu, belediye kaydı, çocukların okula başlaması ve yaşam tarzı kurulumu (araç kaydı, abonelikler, varsa ev personeli izinleri)."
+            "content": "Payholdings, yatırımlar, mülk, emeklilikler, güvenler ve planlanan tasarruflar listesini oluşturun. Yurt içi ve İsviçre danışmanlarının oturma tarihlerini gözden geçirmelerini, işlem zamanlamasını ve sorumlulukları birlikte rapor etmesini isteyin.\n\nPre-exit kurucusu beklenen satış sürecini içermelidir, herhangi bir devam eden iş veya yönetim rolü ve ertelenmiş ödemeleri. Yeniden konum zamanı bu analizi takip etmeli; bir satıştan önce taşınmanın vergi tedavisini belirlediğini varsaymayın."
           },
           "3": {
-            "heading": "9 Aylık Zaman Çizelgesi: Karmaşık",
+            "heading": "Paralel olarak: kanton ve aile kısa liste test",
             "level": "2",
-            "content": "Dokuz ay, göç öncesi varlık yapılandırması gerektiren, İsviçre kurumsal yapılarına ihtiyaç duyan aile ofisleri, ayrı izin gereksinimleri olan birden fazla aile üyesi, lüks mülk alımları (durum tespiti, Lex Koller, noter süreci) veya standart dışı yargı bölgelerinden gelen aileleri içeren relokasyonlar için tipiktir. Ek süre esas olarak varlık yapılandırması (restructing sırasında gerçekleşen kazançlar üzerinden İsviçre vergisi tetiklenmesini önlemek için genellikle İsviçre vergi mukimliği tesis etmeden önce tamamlanması gerekir), kurumsal yapı kurulumu (İsviçre şirket kurulumu 2–4 hafta sürer ancak yapının tasarımı, sermayelendirilmesi ve bankacılık daha uzun sürer) ve mülk edinimi (ilk görüntülemeden noter tamamlamasına kadar, bir İsviçre mülk satın alımı genellikle 3–5 ay sürer) tarafından harcanır."
+            "content": "Gerçek belediyeler, evler ve okul kampüsleriyle karşılaştırın. Başvuru koşullarını kontrol edin ve doğrudan okullarla mevcut yerler. Önerilen ev, işyeri ve kampüs arasında bir deneme yolculuğu kullanabilirsiniz.\n\nGeçici konaklama, kiralama, depozitolar, sigorta ve profesyonel maliyetler dahil olmak üzere bir ev bütçesi hazırlayın. Konut veya gecikmiş bir okul yeri için geri dönün, birlikte bitirmek için her iş akışını tedavi etmek yerine."
           },
           "4": {
-            "heading": "12 Aylık Zaman Çizelgesi: Tam Program",
+            "heading": "Başvurular ve bankacılık kanıtları",
             "level": "2",
-            "content": "12 aylık bir zaman çizelgesi, en kapsamlı relokasyonlar için uygundur — tipik olarak bir aile ofisi, birden fazla mülk ve karmaşık yönetişim yapıları dahil tam bir varlık tesis eden çok kuşaklı aileler için. 1–3. Aylar strateji ve planlamayı kapsar: kapsamlı aile tüzüğü incelemesi, çoklu yargı bölgeli vergi analizi, kurumsal yapı tasarımı, aile ofisi çerçevesi, birden fazla çocuk için okul seçimi ve mülk gereksinimlerinin tanımlanması. 4–6. Aylar göç öncesi uygulamayı içerir: varlık yapılandırması, kurumsal oluşumlar (İsviçre AG veya GmbH), direktör atamaları, başlatılan bankacılık ilişkileri, yoğunlaştırılmış mülk arayışı ve sunulan okul başvuruları. 7–9. Aylar resmi göçmenlik aşamasıdır: tüm aile üyeleri için B izni başvuruları, götürü usulü vergi müzakereleri, mülk edinimi (noter süreci) ve aile ofisi operasyonel kurulumu. 10–12. Aylar yerleşme aşamasıdır: fiziksel taşınma, çocukların okula başlaması, tam operasyonel aile ofisi, işe alınan ve izni alınan ev personeli, topluluk entegrasyonunun başlaması ve tüm idari sistemlerin işler hale gelmesi."
+            "content": "Otoritenin belge listesini, çevirileri veya sertifikasyon ihtiyaçlarını ve sorumluluklarını kabul eder. Bankacılık hazırlığı bu işin yanında koşabilir, ancak bir bankanın kendi kabul süreci vardır. İş sahipliğinin kanıtlarını tutun ve daha geniş planla tutarlı fonlar bekleniyor.\n\nBir karar logunu koruyun: sahibi, olağanüstü belgeler, bir sonraki yanıt ve taahhüt etkilenen. Bu, bağımlılık değişiklikleri olduğunda hareket tarihini ayarlamayı kolaylaştırır."
           },
           "5": {
-            "heading": "Relokasyonunuzu Hızlandıran Faktörler",
+            "heading": "Varış ve ilk ay",
             "level": "2",
-            "content": "Birkaç faktör zaman çizelgesini hızlandırabilir. AB/EFTA vatandaşlığı izin işlemlerini aylardan haftalara indirir. Başlangıçta mülk satın almak yerine kiralamayı seçmek 3–5 aylık mülk edinme süresini ortadan kaldırır. Temiz ve iyi belgelenmiş servet kaynağı kayıtlarına sahip olmak hem bankacılık onboarding sürecini hem de vergi makamı müzakerelerini hızlandırır. İdari süreçleri verimli olan bir kanton seçmek (Zug ve Schwyz özellikle verimlidir) yardımcı olur. Çocuklarınızın yaş grubunda boş kontenjanı olan okullara başvurmak bekleme listelerinden kaçınmanızı sağlar. Özellikle vergi danışmanları ve göçmenlik uzmanları gibi nitelikli İsviçreli danışmanları erkenden devreye sokmak, başvurunun ilk seferde doğru yapılmasını sağlayarak reddedilme veya ek bilgi taleplerinden kaynaklanan gecikmeleri önler."
-          },
-          "6": {
-            "heading": "Relokasyonunuzu Geciktiren Faktörler",
-            "level": "2",
-            "content": "Yaygın gecikme kaynakları arasında karmaşık servet kaynağı belgelendirmesi (özellikle kripto serveti veya şeffaflığı sınırlı yargı bölgelerinden gelen servet için), birkaç yasal sistem arasında koordinasyon gerektiren çoklu yargı bölgeli varlık yapılandırması, kanton makamının önerilen vergi matrahına katılmadığı tartışmalı götürü usulü vergi müzakereleri, okul bekleme listeleri (en iyi okullardaki popüler yaş gruplarının 6–12 aylık bekleme listeleri olabilir), yerleşik olmayanlar tarafından mülk alımları için Lex Koller izin gereksinimleri ve siyasi veya düzenleyici değişiklikler yer alır. Muhafazakar bir planlama yapıp erken gelmek, yetersiz hazırlıkla karşılaşılabilecek sorunlarla boğuşmaktan her zaman daha iyidir."
-          },
-          "7": {
-            "heading": "Önerimiz",
-            "level": "2",
-            "content": "Çoğu aile için, süreci hedef varış tarihinden en az 9 ay önce başlatmanızı öneririz. Bu, uygun planlama için yeterli zaman sağlar, beklenmedik gecikmeleri telafi eder ve okul yerleşimi ile mülk seçimi için en iyi sonucu garanti eder. Erken başlamak ayrıca götürü usulü vergi başvuruları için (genellikle 1 Ocak'ta başlayan İsviçre vergi yılıyla uyumlu) en uygun zamanlamadan yararlanmanıza ve vergi mukimliği geçişinizi temiz bir şekilde koordine etmenize olanak tanır. Doğru planlamaya yapılan yatırım, relokasyon boyunca — ve sonrasındaki yıllarda — karşılığını verir. İyi yapılandırılmış bir relokasyon, ailenizin tüm İsviçre deneyimi için temel oluşturur."
+            "content": "Seyahat etmeden önce belirli izin rotanız için kayıt ve iş başlangıç gereksinimlerine göz atın. Yerel kayıt, sigorta düzenlemeleri, okul başlangıç tarihleri, faydalı elover ve resmi yazışmaların pratiklerini onaylayın.\n\nBir kez yerleştikten sonra, devam eden vergi, muhasebe ve diğer danışmanlar için elover planlayın. Paylaşılan bir takvimde izin yenileme ve raporlama tarihleri tutun. Yeniden konum kontrol listesi, ilk-30 günlük rehber ve bütçe planlayıcısı pratik görevleri organize etmeye yardımcı olur; onay tarihleri tahmin etmiyorlar."
           }
         },
         "imageAlt": "Göl manzaralı seçkin bir İsviçre dairesinde taşınma kolileri"
@@ -924,50 +758,42 @@
       "opening-swiss-private-bank-account": {
         "category": "banking",
         "categoryLabel": "Bankacılık",
-        "readTime": "10 dakikalık okuma",
+        "readTime": "3 min read",
         "date": "1 Nisan 2026",
-        "title": "İsviçre Özel Banka Hesabı Açmak: Gereksinimler ve Süreç",
-        "metaDescription": "İsviçre özel banka hesabı açma hakkında bilmeniz gereken her şey: AML/KYC gereksinimleri, servet kaynağı belgeleri ve bankaların uluslararası müşterilerden beklentileri.",
-        "excerpt": "İsviçre özel bankacılığına dair kesin kılavuz — AML/KYC gereksinimlerinden ve servet kaynağı belgelerinden kripto servet yönetimine ve doğru bankacılık ortağını seçmeye kadar.",
-        "sectionCount": "8",
+        "title": "Varlıklı kişiler ve girişimciler için İsviçre özel bankacılığı",
+        "metaDescription": "İsviçre özel bankacılık için hazırlanın: zenginlik kaynağı, iş satışı, mülkiyet kayıtları, ücretleri ve bankanın bağımsız kabul kararı.",
+        "excerpt": "İsviçre özel bankacılık için hazırlanın: zenginlik kaynağı, iş satışı, mülkiyet kayıtları, ücretleri ve bankanın bağımsız kabul kararı.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "İsviçre'nin özel bankacılık sektörü, yaklaşık 7,9 trilyon CHF değerinde varlığı yönetmektedir; bu, tüm küresel sınır ötesi özel servetin yaklaşık %25'idir. İsviçre'de özel bir bankacılık ilişkisi başlatmak, herhangi bir relokasyon sürecinde önemli bir dönüm noktasıdır; dünya standartlarında varlık yönetimine, saklama hizmetlerine ve İsviçre finans sisteminin istikrarına erişim sağlar. Ancak süreç titizlik gerektirir ve dikkatli bir hazırlık şarttır."
+            "heading": "Banka işi ile başlamak için",
+            "level": "2",
+            "content": "İsviçre özel bankasına yaklaşmadan önce, ihtiyacınız olanı yazın: günlük ödemeler, gözaltı, yatırım tavsiyesi, takdir yönetimi veya bir aile bürosu için destek. Bir kurucu da bir iş için ayrı bir işletim hesabına ihtiyaç duyabilir. Kişisel, şirket ve aile yapısı gerekliliklerini bozmak, böylece her uygulama açık bir amacı vardır.\n\nOturmanız, vatandaşlığınız, vergi durumu, varlıklar ve amaçlanan işlemler hangi kurumların ilişkiyi düşünebilir. Bankanın mevcut müşteri kriterlerini tam bir uygulama zamanında yatırım yapmadan onaylamasını isteyin."
           },
           "1": {
-            "heading": "İsviçre Bankacılık Dünyası",
+            "heading": "Zenginlik ve fonların kaynağı",
             "level": "2",
-            "content": "İsviçre, iki küresel devden (UBS ve 2023 birleşmesine kadar Credit Suisse) düzinelerce butik özel bankaya ve kanton bankalarına kadar yaklaşık 243 lisanslı bankaya ev sahipliği yapmaktadır. İsviçre'ye taşınan yüksek net değerli müşteriler için ilgili kurumlar birkaç kategoriye ayrılır. Önde gelen İsviçre özel bankaları — Julius Bär, Lombard Odier, Pictet, Vontobel ve EFG International — genellikle 1–5 milyon CHF'den başlayan minimum hesap büyüklükleriyle tam hizmet özel bankacılık sunar. Bordier, Mirabaud ve Reichmuth gibi butik ve aile mülkiyetindeki bankalar, genellikle daha yüksek minimum eşiklerle daha da kişiselleştirilmiş hizmet sağlar. Kripto odaklı bankalar — SEBA Bank ve Sygnum Bank — önemli kripto para varlıkları olan müşteriler için ideal olan, entegre geleneksel ve dijital varlık hizmetleri sunan İsviçre denetimli bankalardır. Kanton bankaları (Kantonalbanken), devlet garantisiyle standart bankacılık hizmetleri sunar ve özel bankacılık ilişkisinin yanında günlük bankacılık için uygundur."
+            "content": "İsviçre finansal kurumları, müşterileri ve faydalı sahipleri belirlemeli ve ilgili para aklama risklerini değerlendirmelidir. Hazırlık aşamasında, genel servetin nasıl biriktirildiğini ve belirli bir transferin nereden geleceğini ayırt etmek önemlidir.\n\nBir işletme sahibinin dosyası, şirket sahipliği, hesaplar, temettüler veya satış anlaşmasını alım hesabıyla ilişkilendirebilir. Varislik durumunda, varislik belgeleri gerekebilir; yatırım gelirleri ise izlenebilir bir mülkiyet ve işlem geçmişi gerektirebilir. Bunlar hazırlık örnekleridir. Banka, gerçek durum için gerekli kanıt gereksinimlerini belirler."
           },
           "2": {
-            "heading": "AML/KYC Gereksinimleri",
+            "heading": "Daha önce ve bir iş satışından sonra",
             "level": "2",
-            "content": "İsviçre bankaları FINMA (İsviçre Finansal Piyasalar Denetleme Kurumu) tarafından denetlenir ve kapsamlı Kara Para Aklamayı Önleme (AML) ve Müşterini Tanı (KYC) gereksinimlerine uymak zorundadır. Bu gereksinimler son on yılda önemli ölçüde güçlendirilmiş, İsviçre bankacılığını küresel standartlarla uyumlu hale getirirken müşteri hizmetleri ve gizlilik geleneklerini de korumuştur. Temel gereksinimler kimlik doğrulamayı içerir — geçerli bir pasaport (ve genellikle ikinci bir kimlik belgesi), İsviçre'de (veya mevcut ikamet edilen ülkede) adres kanıtı ve biyometrik doğrulama. Gerçek faydalanıcı belgeleri sağlanmalıdır — varlıklar yapılar (tröstler, vakıflar, holding şirketleri) aracılığıyla tutuluyorsa, gerçek faydalanıcı(lar) tanımlanmalıdır. Servet Kaynağı (SOW) belgelendirmesi en önemli unsurdur — bankalar müşterinin servetini nasıl biriktirdiğini açıklayan kapsamlı bir anlatı ve destekleyici kanıtlar talep eder. Fon Kaynağı (SOF) belgelendirmesi, yatırılan belirli fonların nereden geldiğini açıklar — örneğin, hangi banka hesabından transfer edildikleri ve o hesabın işlem geçmişi."
+            "content": "İşlem süresi ile bankacılık hazırlığı. Satıcıyı açıklayın, alıcı, dikkate, beklenen ödeme tarihleri ve herhangi bir dedilen ilerlemeler veya mülkiyet muhafaza eder. Avukatlarınızı ve vergi danışmanlarına hangi kayıtların paylaşılabileceğini ve hangi güvenli kanalı aracılığıyla sorun.\n\nTamamlanan bir tarih veya rotayı yeni bir varlık aracılığıyla hareket etmeyin, sadece varsayılmış bir bankacılık zaman çizelgesine uygun olarak. Alıcı hesabının hazır olduğunu ve bankanın tamamlanmadan önce beklenen transferi anladığını onaylayın."
           },
           "3": {
-            "heading": "Servet Kaynağı Belgeleri: Bankalar Ne Bekler?",
+            "heading": "Dijital varlıklar ve karmaşık mülkiyet",
             "level": "2",
-            "content": "Servet kaynağı belgeleri, çoğu müşterinin en büyük incelemeyle karşılaştığı noktadır. İsviçre bankaları titizdir ve tam olarak tatmin olana kadar ilerlemezler. İşletme sahipleri ve girişimciler için bankalar, şirket mali tabloları (genellikle 3–5 yıl), mülkiyet kanıtı (hisse sertifikaları, ticaret sicil özetleri), temettü dağıtım kayıtları ve servet bir işletme satışından geliyorsa satış/çıkış belgelerini bekleyecektir. Yatırımcılar için bankalar, portföy büyümesini gösteren yatırım hesabı ekstrelerini, geçmiş işlem onaylarını ve yatırılan orijinal sermayenin kanıtını görmek isteyecektir. Miras kalan servet için banka, emlak belgelerini, veraset kayıtlarını, vasiyetname kopyalarını ve ölen kişinin servet kaynağının kanıtını talep edecektir. Gayrimenkul serveti için mülk değerleme raporları, alım satım sözleşmeleri ve kira geliri kayıtları gereklidir."
+            "content": "Dijital başlangıç zenginlikleri için, değişim ifadeleri organize etmek, varlıkları kendi sahibine bağlayan kanıtları cüzdan. Transfer planlarını yapmadan önce bankaya önemli boşlukları açıklayın. Belirli bir token, platform, işlem tarihi veya yapısı bir bankaya özgü bir karardır.\n\nŞirketler, güvenler ve vakıflar için, açık bir mülkiyet ve kontrol haritası hazırlayın. Daha fazla katman daha fazla soru anlamına gelebilir. Karlı bir anlatı, bankanın ilişkiyi değerlendirme ihtiyacının yerini değiştirmiyor."
           },
           "4": {
-            "heading": "Bankalar Orta Doğulu Müşterilerden Ne Bekler?",
-            "level": "3",
-            "content": "İsviçre bankaları, KİK bölgesi ve geniş Orta Doğu'dan gelen müşterilerle çalışma konusunda geniş deneyime sahiptir. Ancak Orta Doğu servetinin belirli yönleri ek belgeler gerektirir. Hükümet pozisyonlarından veya kraliyet ailesi bağlantılarından türetilen servetler için bankalar resmi atama belgelerini, bireyin rolünün kamuya açık kayıtlarını ve kişisel serveti devlet varlıklarından ayıran kanıtları bekler. KİK kaynaklı iş serveti için ticari lisanslar (DED, ADGM, DIFC vb.'den ticari lisanslar), IFRS standartlarına göre hazırlanmış denetlenmiş mali tablolar ve işletmenin operasyonel geçmişinin kanıtı gereklidir. Bankalar ayrıca net bir anlatıya değer verir — müşterinin servetinin kronolojik olarak nasıl inşa edildiğini, temel iş aşamalarını, yatırımları ve likidite olaylarını açıklayan iyi hazırlanmış bir \"servet hikayesi\" önemlidir."
+            "heading": "Ücretler, hizmet ve karar otoritesi",
+            "level": "2",
+            "content": "Asgari ilişki boyutunu, gözaltı ve danışmanlık ücretlerini kapsayan yazılı bir öneri talep edin, işlem suçlamaları, yabancı değişim, raporlama ve herhangi bir çıkış maliyeti. Yayınlanmış rakamlar ikamet, görev veya varlık karışımınıza uygulanmayabilir.\n\nHesabı kim hizmet edecek, online ne yapılabilir ve kurum mevcut danışmanlarınızla nasıl çalışır. Uygun profesyonellerle yatırım risklerini ve görev koşullarını gözden geçirin; yeniden taşınmak, tüm varlıkları tek bir sağlayıcıyla yatırmak gerektirmez."
           },
           "5": {
-            "heading": "Kripto Servet Belgelendirmesi",
-            "level": "3",
-            "content": "Önemli miktarda kripto para serveti olan müşteriler için İsviçre, dünyadaki en uygun bankacılık yargı bölgelerinden biridir. SEBA Bank ve Sygnum Bank, dijital varlıklar konusunda uzmanlaşmış tam yetkili İsviçre bankalarıdır. Ancak kripto servetini belgelemek özel bir yaklaşım gerektirir. Bankalar, kripto varlıklar için tam bir mülkiyet zinciri bekler — ilk ediniden (madencilik kayıtları, borsa alım onayları, OTC işlem kayıtları) mevcut varlıklara kadar. Cüzdan adresleri, varlık akışını gösteren blockchain analitiği ile belgelenebilmelidir. Servet erken aşama kripto yatırımlarıyla yaratıldıysa (örneğin 2015 öncesi Bitcoin alımı), bankalar borsa kayıtlarının eksik olabileceğini anlar ancak mevcut belgelerin yanında inandırıcı bir anlatı bekler. Kaynak ülkedeki kripto kazançlarının vergi muamelesi belgelenmelidir — bankalar fonlar İsviçre'ye girmeden önce uygun vergi yükümlülüklerinin karşılandığını görmek ister."
-          },
-          "6": {
-            "heading": "Hesap Açma Süreci",
+            "heading": "Hangi relokasyon koordinasyonu yardımcı olabilir",
             "level": "2",
-            "content": "Tipik bir özel banka hesabı açma süreci yapılandırılmış bir yol izler. İlk temas bir referans (mevcut bir müşteri, avukat veya danışman aracılığıyla) veya doğrudan bir yaklaşımla kurulur. Bankalar genellikle referansları tercih eder ve güvenilir bir danışmandan gelecek sıcak bir tanıtım süreci önemli ölçüde kolaylaştırabilir. Banka ofislerinde şahsen veya video konferans yoluyla yapılan ön görüşme, her iki tarafın da uyumu değerlendirmesine olanak tanır. Banka potansiyel müşterinin ihtiyaçlarını ve risk profilini değerlendirirken, müşteri de bankanın hizmetlerini, ekibini ve yaklaşımını değerlendirir. Her iki taraf da ilerlemek isterse, banka müşterinin durumuna özel bir belge kontrol listesi hazırlar. Müşteri (genellikle danışman desteğiyle) gerekli belgeleri hazırlar ve sunar. Bankanın uyum ekibi belgeleri inceler — bu dahili inceleme vakanın karmaşıklığına bağlı olarak genellikle 2–6 hafta sürer. Onaylanırsa, banka imza için hesap açılış belgelerini düzenler. Fonlar daha sonra transfer edilebilir. İlk temastan operasyonel bir hesaba kadar süreç, basit vakalar için genellikle 4–8 hafta, gelişmiş durum tespiti gerektiren karmaşık durumlar için 8–16 hafta sürer."
-          },
-          "7": {
-            "heading": "Doğru Bankayı Seçmek",
-            "level": "2",
-            "content": "Doğru özel bankayı seçmek, birkaç faktörü göz önünde bulundurması gereken önemli bir karardır: minimum hesap büyüklüğü (500.000 CHF ile 10 milyon CHF+ arasında değişir), bankanın belirli varlık sınıflarınızdaki (kripto, gayrimenkul, özel sermaye) uzmanlığı, dil yetkinlikleri (birçok İsviçre bankasında Arapça konuşan müşteri temsilcileri mevcuttur), bankanın ihtiyari (discretionary) ve danışmanlık (advisory) yetkilerine yaklaşımı, ücret yapısı (yönetim ücretleri, saklama ücretleri, işlem ücretleri — bunlar kurumlar arasında önemli ölçüde farklılık gösterir), dijital yetenekler (online bankacılık, mobil uygulamalar, gerçek zamanlı raporlama) ve bankanın sizin özel müşteri profiliniz için risk iştahı. Birçok müşteri iki banka ile ilişki sürdürür — temel varlık yönetimi için büyük bir özel banka ve belirli varlık sınıfları (örneğin kripto) için uzmanlaşmış bir kurum. Tüm büyük İsviçre özel bankalarındaki müşteri temsilcileriyle tanışıklığımız vardır ve özel ihtiyaçlarınıza göre seçim ve onboarding sürecini kolaylaştırabiliriz."
+            "content": "Daha geniş hareket planında bankacılık hazırlığına yardımcı oluyoruz ve uygun olan girişleri koordine ediyoruz. Kurum kendi kabul kararını yapar ve ilişkiyi daha fazla bilgi isteyebilir veya reddedebilir. Evrensel bir hesap açma süresi yoktur.\n\nİlk soruşturmayı önceliklerinizi ve geniş koşullarınızı açıklamak için kullanın. Pasaportlar, açıklamalar ve işlem belgeleri yalnızca ilgili profesyonel veya banka ile kabul edilen güvenli kanal aracılığıyla gönderin."
           }
         },
         "imageAlt": "Mermer zeminli ve pirinç tabelalı İsviçre özel bankası iç lobisi"
@@ -975,20 +801,22 @@
       "swiss-residency-permits-guide": {
         "category": "immigration",
         "categoryLabel": "Göçmenlik",
-        "readTime": "11 dakikalık okuma",
+        "readTime": "3 min read",
         "date": "1 Nisan 2026",
-        "title": "İsviçre Oturma İzinleri: B İzni, C İzni ve Vatandaşlığa Giden Yol",
-        "metaDescription": "İsviçre oturma izinleri için kapsamlı kılavuz: B izni ve C izni gereksinimleri, zaman çizelgeleri, ailenin dahil edilmesi, kantonlar arası farklılıklar ve İsviçre vatandaşlığına giden yol.",
-        "excerpt": "İsviçre oturma izinleri hakkında bilmeniz gereken her şey — B izni ve C izni gereksinimleri, işlem süreleri, aile birleşimi ve İsviçre vatandaşlığına giden yol.",
-        "sectionCount": "8",
+        "title": "Girişimciler ve varlıklı aileler için İsviçre oturum izinleri",
+        "metaDescription": "İsviçre konutunu girişimciler ve yüksek değerli aileler için planlayın: AB/EFTA ve üçüncü ülke rotaları, iş, aile katılımı ve yerleşim.",
+        "excerpt": "İsviçre konutunu girişimciler ve yüksek değerli aileler için planlayın: AB/EFTA ve üçüncü ülke rotaları, iş, aile katılımı ve yerleşim.",
+        "sectionCount": "10",
         "sections": {
           "0": {
+            "heading": "Residence planlama",
+            "level": "2",
             "content": "İsviçre'nin oturma izni sistemini anlamak, herhangi bir relokasyon planı için temeldir. Sahip olduğunuz izin türü, vergi muamelenizden gayrimenkul haklarınıza, ailenizin istikrarına ve uzun vadeli seçeneklerinize kadar her şeyi etkiler. Bu kılavuz ana izin kategorilerini, gereksinimlerini ve ilk ikametten İsviçre vatandaşlığına giden yolu kapsamaktadır."
           },
           "1": {
             "heading": "İsviçre İzin Sistemine Genel Bakış",
             "level": "2",
-            "content": "İsviçre, AB/EFTA vatandaşları ile üçüncü ülke vatandaşları arasında ayrım yapan kademeli bir izin sistemi uygular. Taşınan bireyler için ilgili ana izin türleri şunlardır: B izni (Aufenthaltsbewilligung/permis de séjour) — yenilenebilir ve standart giriş noktası olan bir oturma izni; C izni (Niederlassungsbewilligung/permis d'établissement) — daha fazla hak ve istikrar sağlayan kalıcı bir yerleşim izni; L izni — kısa süreli bir oturma izni (bir yıla kadar, bir kez yenilenebilir); ve G izni — sınır ötesi banliyö izni. İsviçre'ye taşınan yüksek net değerli bireyler için B izni standart başlangıç noktasıdır ve C izni ile nihayetinde vatandaşlığa giden bir yol sunar."
+            "content": "B oturum, L kısa süreli kalış, C yerleşim, G sınır ötesi çalışan iznidir. Kategori ve koşullar vatandaşlığa, kalış amacına ve makamın kararına bağlıdır."
           },
           "2": {
             "heading": "B İzni: İsviçre'ye Giriş Kapınız",
@@ -997,28 +825,38 @@
           },
           "3": {
             "heading": "AB/EFTA Vatandaşları",
-            "level": "3",
-            "content": "AB/EFTA vatandaşları için B izni almak, İsviçre ile AB arasındaki ikili anlaşmalar uyarınca nispeten basittir. AB/EFTA vatandaşlarının ya bir İsviçreli işverenle iş sözleşmesi, ya ekonomik faaliyet kanıtı içeren serbest meslek sahibi olma durumu ya da sosyal yardıma ihtiyaç duymadan kendilerini geçindirebilecek yeterli mali kaynağa (yüksek net değerli bireyler için en ilgili kategori budur) sahip olduklarını göstermeleri gerekir. İzin 5 yıl için verilir ve yenilenebilir. Başvuru işlemleri genellikle 2–4 hafta sürer. Süreç, pasaportunuz, sağlık sigortası kanıtınız ve mali kaynak veya istihdam kanıtınızla birlikte belediye ikamet ofisine (Einwohnerkontrolle) kaydolmayı içerir."
+            "level": "2",
+            "content": "AB/EFTA vatandaşları istihdam, serbest çalışma veya çalışmadan ikamet yoluyla kabul edilebilir. Sonuncusu yeterli kaynak ve uygun sağlık ve kaza sigortası gerektirir. İzin süresi kabul dayanağına bağlıdır. Yerel makamın istediği belgeleri sunun; ülke çapında garantili işlem süresi yoktur."
           },
           "4": {
             "heading": "AB/EFTA Dışı Vatandaşlar",
-            "level": "3",
-            "content": "AB/EFTA dışı vatandaşlar (KİK, Orta Doğu, Asya ve diğer üçüncü ülke vatandaşları dahil) için B izni süreci daha karmaşıktır. AB dışı vatandaşların genellikle İsviçre'deki varlıklarının ülkenin ekonomik çıkarlarına hizmet ettiğini göstermeleri gerekir; bu da genellikle şunlardan biriyle karşılanır: istihdam yaratan veya yerel ekonomiye katkıda bulunan bir işletme kurmak, önemli bir yatırım yapmak veya götürü usulü vergilendirmeye (kanton ve belediye için önemli vergi geliri yaratan) hak kazanmak. Kanton makamları, AB dışı vatandaşlara B izni verme konusunda önemli takdir yetkisine sahiptir. Götürü usulü mükellefleri çekmeye hevesli kantonlar (Zug, Schwyz, Vaud, Valais, Graubünden) daha akıcı süreçlere sahip olma eğilimindedir. Başvuru genellikle ayrıntılı bir kişisel ve finansal dosya, net bir ikamet amacı beyanı, uygun konaklama kanıtı, sağlık sigortası kanıtı ve varsa götürü usulü vergi başvurusunu gerektirir. AB dışı vatandaşlar için işlem süreleri kantona ve başvurunun karmaşıklığına bağlı olarak 4–12 hafta arasında değişir."
+            "level": "2",
+            "content": "AB/EFTA dışındaki vatandaşların hukuki dayanağı bireysel değerlendirilir. İstihdam, serbest çalışma, emeklilik ve istisnai kabul farklı şartlara tabidir. Servet, konut alımı, şirket kuruluşu veya vergi kararı tek başına oturum hakkı vermez. Kanton ve gerektiğinde federal makamlar karar verir. Taşınma için bağlayıcı karar almadan değerlendirme yaptırın."
           },
           "5": {
             "heading": "C İzni: Kalıcı Yerleşim",
             "level": "2",
-            "content": "C izni İsviçre'de kalıcı oturum hakları sağlar. En güvenli ikamet biçimidir — süresizdir, iptale karşı daha fazla koruma sağlar ve sahibine neredeyse bir İsviçre vatandaşının tüm haklarını (seçme hakkı ve pasaport hariç) verir. AB/EFTA vatandaşları için C izni, 5 yıllık kesintisiz B izni ikametinden sonra alınabilir (çoğu AB ülkesi için önceki 10 yıldan 5 yıla indirilmiştir). AB dışı vatandaşlar için standart bekleme süresi 10 yıllık kesintisiz B izni ikametidir; ancak bu süre belirli ülke vatandaşları için (ABD, Kanada, Birleşik Krallık ve ikili anlaşmaları olan diğerleri) ve belirli kantonlarda 5 yıla indirilebilir. C izni sahipleri iş piyasasında daha fazla esneklik, sınır dışı edilmeye karşı daha güçlü koruma, izni yenileme zorunluluğunun olmaması (sadece fiziksel izin kartının her 5 yılda bir yenilenmesi gerekir) ve İsviçre konut kredisi finansmanına daha iyi erişim gibi avantajlardan yararlanır."
+            "content": "C yerleşim izni vatandaşlık, anlaşmalar, ikamet geçmişi ve entegrasyona göre beş veya on yıl sonra verilebilir. Beş yıl genel bir AB kuralı değildir. Yerleşim ve vatandaşlık ayrı başvurular gerektirir ve B izninden otomatik doğmaz."
           },
           "6": {
             "heading": "Ailenin Dahil Edilmesi",
             "level": "2",
-            "content": "Aile birleşimi, belirli koşullara bağlı olarak İsviçre yasaları uyarınca bir haktır. Bir B izni sahibi, eşini ve 18 yaşından küçük çocuklarını İsviçre'ye getirebilir. Aile üyeleri kendi B izinlerini alırlar. AB/EFTA vatandaşları için aile birleşimi genel olarak basittir — eşler ve bakmakla yükümlü olunan çocuklar izin başvurusuna dahil edilir. AB dışı vatandaşlar için izin sahibinin yeterli konut (aile için uygun büyüklükte) ve tüm aile üyelerini desteklemek için yeterli mali kaynak göstermesi gerekir. Yaşlı ebeveynler ve yetişkin çocuklar daha kısıtlayıcı birleşme kurallarıyla karşılaşırlar ve ek gerekçelendirme ile ayrı izin başvuruları gerektirebilirler. Ailenin dahil edilmesini en baştan planlamak önemlidir — tüm aile üyelerini ilk başvuruya dahil etmek, sonradan aile birleşimi başvurusu yapmaktan önemli ölçüde daha basittir."
+            "content": "Aile birleşimi, asıl kişinin vatandaşlığına ve iznine bağlıdır. AB/EFTA serbest dolaşımı şartlarla eşi, 21 yaş altı veya bakmakla yükümlü olunan çocukları ve bakılan ebeveynleri kapsayabilir. Üçüncü ülke kuralları yaş, süre, konut, dil ve mali şartlarda farklıdır. Okul ve taşınma tarihinden önce her aile üyesini değerlendirin."
           },
           "7": {
             "heading": "İsviçre Vatandaşlığına Giden Yol",
             "level": "2",
-            "content": "İsviçre vatandaşlığı, ikamet gereksinimlerini karşıladıktan ve bir dizi değerlendirmeyi geçtikten sonra vatandaşlığa kabul (naturalization) yoluyla elde edilebilir. Olağan vatandaşlığa kabul gereksinimleri şunları içerir: İsviçre'de 10 yıl ikamet (8 ile 18 yaşları arasında geçirilen yıllar iki kat sayılır), aynı kantonda en az 3 yıl ve aynı belediyede 2 yıl bulunmak (kanton ve belediye gereksinimleri değişir), dil yeterliliği (ulusal dillerden birinde — Almanca, Fransızca, İtalyanca veya Romanşça — sözlü B1 ve yazılı A2), İsviçre toplumuna entegrasyon (yerel yaşama katılım, İsviçre gelenekleri ve kurumları hakkında bilgi), mali kendi kendine yeterlilik (sosyal yardıma bağımlılık olmaması) ve temiz bir adli sicil. Vatandaşlığa kabul süreci üç onay seviyesini içerir — belediye, kanton ve federal. Başvurudan karara kadar toplam süreç genellikle 1–3 yıl sürer. İsviçre vatandaşlığı, dünyanın en güçlü pasaportlarından birini, İsviçre'de seçme hakkını ve aileniz için ek bir istikrar ve güvenlik katmanı sağlar."
+            "content": "Olağan vatandaşlığa kabul genellikle C izni ve son beş yılın üçü dâhil on yıllık sayılabilir ikamet gerektirir. 8–18 yaş arası yıllar çift sayılır; fiilen en az altı yıl ikamet gerekir. Kanton ve belediye ikamet koşulları ile dil ve entegrasyon şartları da uygulanır. Uygunluk vatandaşlık garantisi değildir."
+          },
+          "8": {
+            "heading": "Girişimciler: şirket sahipliği ve çalışma hakkı",
+            "level": "2",
+            "content": "Hareketiniz için bir şirket oluşturmadan önce, İsviçre'de ne yapacaksınız ve hangi göç temeli uygulanır. EU/EFTA, üçüncü ülke girişimcilerinin iş birliği ve kabul edilmesi farklı değerlendirmeler gerektirir.\n\nÜçüncü ülke kurucusu için, iş kolaylığı, finansmanı, nitelikleri ve İsviçre ekonomisine ilgili uzmanlar ve otoritelerle olan katkıyı tartışmak için hazırlanın. Yalnız Akrep uygulamaya karar vermez."
+          },
+          "9": {
+            "heading": "High-net-worth aileler: her kişinin faaliyetlerini değerlendirmek",
+            "level": "2",
+            "content": "Zenginlik finansal tablonun bir parçasıdır, yasal bir konut temeli için bir yedek değildir. Her bir başvuranın amaçlanan çalışması ve aile rolünü, bir iş uzaktan devam edebilecek bir eş dahil.\n\nOturma değerlendirmesini herhangi bir vergilendirme isteğinden ayrı tut. Bir mülk taahhüdünden önce sırayı kabul edin, okul başlangıç veya işletme işlemi, hareketi değiştirmek zorlaşır."
           }
         },
         "imageAlt": "Koyu ahşap bir masa üzerinde İsviçre pasaportu ve B izni belgeleri"
@@ -1026,50 +864,47 @@
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
         "categoryLabel": "Relokasyon",
-        "readTime": "9 dakikalık okuma",
+        "readTime": "3 min read",
         "date": "1 Nisan 2026",
-        "title": "Varlıklı Aileler Neden BAE'den Ayrılıp İsviçre'ye Gidiyor?",
-        "metaDescription": "Yüksek net değerli ailelerin Dubai ve Abu Dabi'den İsviçre'ye taşınma nedenleri: jeopolitik etkenler, güvenlik, eğitim, sağlık ve uzun vadeli istikrar.",
-        "excerpt": "Varlıklı ailelerin BAE'den İsviçre'ye taşınma eğilimini inceliyoruz — jeopolitik risklerden nesilsel düşünceye, eğitimden sağlık hizmetlerine ve yaşam tarzına kadar.",
-        "sectionCount": "8",
+        "title": "BAE’den İsviçre’ye: girişimciler ve aileler için planlama",
+        "metaDescription": "BAE tabanlı kurucular ve yüksek değerli aileler için: İsviçre konutunu, iş faaliyetlerini, vergi tavsiyelerini, bankacılık kanıtlarını, okulları ve hareket serisini karşılaştırın.",
+        "excerpt": "BAE tabanlı kurucular ve yüksek değerli aileler için: İsviçre konutunu, iş faaliyetlerini, vergi tavsiyelerini, bankacılık kanıtlarını, okulları ve hareket serisini karşılaştırın.",
+        "sectionCount": "7",
         "sections": {
           "0": {
-            "content": "BAE — ve özellikle Dubai — son yirmi yılın dünyanın en başarılı servet mıknatıslarından biri oldu. Sıfır kişisel gelir vergisi, dünya standartlarında altyapı ve iş dostu bir düzenleyici ortam; dünyanın her yerinden girişimcileri, aile ofislerini ve yüksek net değerli bireyleri cezbetti. Ancak bu ailelerin artan bir kısmı İsviçre'ye taşınma kararı alıyor. Bu makale, bu değişimin arkasındaki itici güçleri ve İsviçre'nin BAE'nin sunamadığı neleri sunduğunu inceliyor."
+            "heading": "Hareketin elde edilmesi gereken şeyleri tanımlamak",
+            "level": "2",
+            "content": "Dubai veya Abu Dhabi'ye dayanan bir aile için, bir İsviçre hareketi, Avrupa iş çıkarlarına veya daha uzun vadeli bir aile üssüne yakın bir eğitimle ilgili olabilir. Diğer zengin ailelerin nerede hareket ettiğini iddia etmek yerine kendi sebeplerinizi yazın.\n\nPlanın tam bir aile hareket olup olmadığına karar verin, bir sahneli geçiş veya açıklayıcı bir konaklama. Bunlar farklı pratik etkilere sahiptir ve değiştirilebilir konut veya vergi düzenlemeleri olarak tedavi edilmemelidir."
           },
           "1": {
-            "heading": "Jeopolitik Faktör",
+            "heading": "Pasaportunuz şu anki adresiniz olarak da önemlidir",
             "level": "2",
-            "content": "Orta Doğu, BAE'nin göreceli istikrarına rağmen dünyanın jeopolitik açıdan en dalgalı bölgelerinden biri olmaya devam ediyor. BAE'nin İran'a olan yakınlığı (Hürmüz Boğazı üzerinden 200 km'den az), Yemen'de devam eden gerginlikler, İbrahim Anlaşmaları'nın artçı etkileri ve daha geniş bölgesel güç dinamikleri, birçok varlıklı ailenin giderek daha fazla rahatsız olduğu örtülü bir risk ortamı yaratıyor. İsviçre ise aksine 500 yılı aşkın bir süredir siyasi tarafsızlığını korumaktadır. 1815'ten beri hiçbir askeri çatışmaya katılmamıştır, NATO veya herhangi bir askeri ittifakın üyesi değildir ve Avrupa'nın coğrafi ve siyasi merkezinde yer alır. Servetleri Körfez'de inşa edilmiş olan ancak bu serveti bölgesel istikrarsızlığa bağışıklığı olan bir yargı bölgesinde güvence altına almak isteyen aileler için İsviçre altın standardı temsil eder."
+            "content": "BAE'de yaşamak, İsviçre göç kurallarının hangi uygulandığını belirlemez. Her aile üyesinin vatandaşlığı ve mevcut durumu ile başlayın. AB/EFTA ve üçüncü ülke rotalarının farklı gereksinimleri vardır.\n\nAktif bir girişimci, önerilen çalışmayı da konut olarak değerlendirmelidir. Bir mülk satın alma, şirket kaydı veya bankacılık ilişkisi İsviçre'de yaşamak ve çalışmak için kendini güvende değildir."
           },
           "2": {
-            "heading": "Güvenlik ve Kişisel Emniyet",
+            "heading": "Özel konut dışında ayrı aktif girişimcilik",
             "level": "2",
-            "content": "BAE sınırları içinde mükemmel bir kişisel güvenliğe sahip olsa da, bölgedeki daha geniş güvenlik ortamı ve servetin nispeten küçük bir coğrafi alanda yoğunlaşması, hafifletilmesi zor endişeler yaratıyor. İsviçre sürekli olarak dünyanın en güvenli ilk 3 ülkesi arasında yer almaktadır. Şiddet suçları neredeyse yok denecek kadar azdır, kişisel güvenlik altyapısı dünya standartlarındadır (Körfez'de yaygın olan görünür güvenlik varlığı olmadan) ve ülkenin küçük boyutu ile dağlık coğrafyası doğal güvenlik sağlar. Çocuklu aileler için İsviçre, temelden farklı bir yaşam kalitesine dönüşen bir günlük güvenlik düzeyi sunar — çocuklar okula yürüyerek gider, parklarda oynar ve BAE'de nadiren mümkün olan bir şekilde özgürce hareket ederler."
+            "content": "Hareket ettikten sonra ne yapacağını açıklayın: yurtdışındaki bir işletmeyi yönetin, bir İsviçre şirketine başlayın veya özel yatırımları denetleyin. Vergi rotasını seçmeden önce bu faaliyetleri değerlendirmek için uzmanlara sorun.\n\nHarcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz."
           },
           "3": {
-            "heading": "Eğitim: Uzun Vadeli Strateji",
+            "heading": "İş ve kalkış soruları",
             "level": "2",
-            "content": "Eğitim genellikle bir relokasyon kararını tetikleyen kırılma noktasıdır. BAE uluslararası okullara büyük yatırımlar yapmış olsa da, İsviçre eğitimi niteliksel olarak farklı bir şey sunar. İsviçre, ETH Zürih (sürekli olarak küresel düzeyde ilk 3'te yer alır), Zürih Üniversitesi, EPFL ve derin köklü geleneklere sahip 50'den fazla uluslararası okul ağına ev sahipliği yapmaktadır. İsviçre eğitim sistemi akademik titizliği çok dilli eğitim, açık hava eğitimi ve Birleşik Krallık veya ABD'deki yatılı okulların eşleşemeyeceği bir güvenlik ve istikrar düzeyiyle birleştirir. Gelecek nesli düşünen aileler için — çocuklarının nerede ağlar kuracağı, hangi üniversitelere gideceği, hangi topluluklarda büyüyeceği — İsviçre benzersiz bir uzun vadeli eğitim ekosistemi sunar."
+            "content": "BAE ve diğer varlıklar gösteren bir mülkiyet grafiği hazırlayın, insanların çalıştığı ve yönetim kararlarının yapıldığı yer. Önerilen değişikliklerin etkileri hakkında her iki ülkede de danışmanlar sorun, pararoll, şirket yönetimi, sözleşmeler ve planlanan herhangi bir tasarruf.\n\nBelirli BAE ikamet düzenlemeleri için bir kalkış kontrol listesi oluşturun, bağımlılıklar, konutlar, iş sorumlulukları ve hesapları. Aileyi iptal etmeden önce ilgili otorite veya sağlayıcıdan mevcut gereksinimleri elde edin."
           },
           "4": {
-            "heading": "Sağlık Hizmetleri ve Yaşam Kalitesi",
+            "heading": "Beklenmeden önce bankacılık kanıtları hazırlayın",
             "level": "2",
-            "content": "İsviçre'ın sağlık sistemi sürekli olarak dünyanın en iyileri arasında yer alır. Evrensel zorunlu kapsam, dünya lideri hastaneler (Universitätsspital Zürich, Hirslanden, Inselspital Bern) ve 1.000 kişi başına 4,3 hekim yoğunluğu, tıbbi bakımın hiçbir zaman bir endişe kaynağı olmamasını sağlar. Sağlık hizmetlerinin ötesinde, İsviçre'nin yaşam kalitesi el değmemiş doğal ortamları, verimli kamu altyapısını ve temiz havayı, temiz suyu, güvenli toplulukları ve kültürel zenginliği önceliklendiren bir sosyal sözleşmeyi kapsar. İsviçre'deki günlük yaşam deneyimi — toplu taşımanın hassasiyetinden musluk suyunun kalitesine kadar — nesiller boyu yaşam kalitesi için optimize edilmiş bir toplumu yansıtır."
+            "content": "Zenginliğin nasıl bir araya geldiğinin miras kayıtları ve kanıtları, transfer beklediğiniz fonların kökeni ile. Bir iş satışı için, işlem belgeleri ve ödeme programı satın alma hesabına bağlanır.\n\nİsviçre bankası, önerilen ilişkiyi bağımsız olarak değerlendirir. Mevcut müşteri kriterleri, ücretleri ve kanıt gereksinimleri hakkında sorun; bir giriş kabul kararı değildir."
           },
           "5": {
-            "heading": "Vergi Karşılaştırması: Sıfıra Karşı Bir Şey Kadar Basit Değil",
+            "heading": "Gerçek bir okul ve ev kombinasyonu ile karşılaştırın",
             "level": "2",
-            "content": "BAE'den İsviçre'ye taşınmaya yönelik en yaygın itiraz vergidir. BAE kişisel gelir vergisi almazken İsviçre alır. Ancak karşılaştırma göründüğünden daha nüanslıdır. İsviçre götürü usulü vergilendirmesi, uygun şartları taşıyan bireylerin dünya çapındaki gelirleri yerine yaşam giderleri üzerinden vergilendirilmesine olanak tanır — iyi yapılandırılmış bir götürü usulü düzenlemesi için efektif vergi oranı birçok alternatif yargı bölgesinden önemli ölçüde düşük olabilir. BAE 2023'te %9 kurumlar vergisi getirdi ve KDV 2018'den beri yürürlükte; bu da işletmeler için \"sıfır vergi\" avantajını aşındırdı. İsviçre'nin kanton rekabeti, Zug ve Schwyz gibi kantonların gelişmiş dünyadaki en düşük vergi oranlarından bazılarını sunduğu anlamına gelir. Nesiller boyu korunacak serveti olan aileler için soru \"bugün sıfır vergi\" değil, \"30 yıl boyunca yargı bölgesinin toplam maliyeti nedir?\" sorusudur — ve siyasi istikrarı, varlık korumasını, miras hukukunu ve bir İsviçre pasaportunun değerini hesaba kattığınızda, İsviçre genellikle manşet vergi oranlarının ima ettiğinden daha etkili bir şekilde rekabet eder."
+            "content": "Çocukların yaşlarını, mevcut müfredatı, dil ihtiyaçlarını ve muhtemelen kalma süresini kullanarak okul seçenekleri seçin. Kamu ve uluslararası eğitimle karşılaştırıldığında, kabuller ve gerçek kampüse yolculuk.\n\nZürih, Zug ve Schwyz, Almanca konuşan bir üs için farklı başlangıç noktaları sunar. Vaud ve Cenevre, Fransız konuşan okul veya iş bağlantıları önemli olup olmadığını ayrı bir karşılaştırmayı hak ediyor. Günlük seyahat test edin ve mevcut konutları varsayılmış bir kanton çapında fiyattan ziyade kullanın."
           },
           "6": {
-            "heading": "Nesilsel Bakış Açısı",
+            "heading": "Bir dizi aile takip edebilir",
             "level": "2",
-            "content": "BAE'den İsviçre'ye geçişin belki de en zorlayıcı itici gücü nesilsel düşüncedir. BAE bir ulus olarak henüz 50 yaşındadır. Refahı belirli bir sektörde yoğunlaşmıştır (çeşitlendirme devam etse de hidrokarbonlar) ve liderliğinin süregelen bilgeliğine bağlıdır. İsviçre ise 700 yılı aşkın bir süredir istikrarlı, müreffeh bir konfederasyondur. Kurumları, yasal çerçeveleri ve demokratik gelenekleri yüzyıllarca süren değişimden sağ çıkmıştır. Torunlarının nerede yaşayacağını — servetin nerede korunacağını, bir pasaportun nerede güvenlik sağlayacağını, kurumların 2060 veya 2080'de nerede hala işleyeceğini — düşünen aileler için İsviçre'nin yüzyıllık geçmişi, 1970'lerde kurulan hiçbir yargı bölgesinin eşleşemeyeceği bir güven seviyesi sağlar."
-          },
-          "7": {
-            "heading": "Geçişi Yapmak",
-            "level": "2",
-            "content": "BAE-İsviçre relokasyonu, uluslararası servet göçünde en çok kat edilen yollardan biridir. İsviçre bankaları, vergi danışmanları ve relokasyon uzmanları Körfez kökenli ailelere hizmet verme konusunda derin bir deneyime sahiptir. Çoğu büyük İsviçre kurumunda Arapça konuşan profesyoneller mevcuttur ve on yıllardır süren iş, eğitim ve kişisel ilişkilerle inşa edilen kültürel köprü sağlamdır. Pratik geçiş, BAE ikametinden çıkışın (vize durumu, iş lisansı ve bankacılık üzerinde kendi etkileri vardır) İsviçre ikametine girişle koordine edilmesini içerir. Bu koordinasyon, profesyonel danışmanlığın en değerli olduğu yerdir — geçişin temiz, vergi açısından verimli olmasını ve hiçbir şeyin gözden kaçmamasını sağlamak bizim işimizdir. Tam olarak bu geçişte uzmanlaşıyoruz ve İsviçre'ye sorunsuz relokasyonlar gerçekleştirmek için KİK bölgesindeki ailelerle birlikte çalışıyoruz."
+            "content": "Göçmenleri koordine eden, vergi önerileri, bankacılık, ev arama ve okul enquiries. Bir hedef pencereyi kontrolünüzün dışındaki kararlar için geri çekilme düzenlemeleri ile tut.\n\n2012'den beri İsviçre'ye yüzlerce insan hareket etmesine yardım ettik. Aileniz ve iş öncelikleriniz hakkında online bir konuşma ile başlayın; kişilik toplantılar Zürih'te mevcuttur. İlk soruşturmada hassas finansal belgeler gerekli değildir."
           }
         },
         "imageAlt": "Sinematik bölünmüş kompozisyonda Dubai siluetinin İsviçre Alplerine geçişi"
@@ -1077,50 +912,42 @@
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
         "categoryLabel": "Varlık Yönetimi",
-        "readTime": "12 dakikalık okuma",
+        "readTime": "3 min read",
         "date": "1 Nisan 2026",
-        "title": "İsviçre'de Aile Ofisi Kurmak: Yapı, Yönetişim ve Bankacılık",
-        "metaDescription": "İsviçre'de aile ofisi kurmak için tam kılavuz: SFO ve MFO yapıları, İsviçre şirket türleri, yönetişim çerçeveleri, bankacılık ilişkileri ve Zug ile Zürih'in karşılaştırılması.",
-        "excerpt": "Bir İsviçre aile ofisi kurmak için ihtiyacınız olan her şey — SFO ve MFO yapılarını seçmekten İsviçre şirket türlerine, yönetişim çerçevelerine, bankacılığa ve Zug mu Zürih mi kararına kadar.",
-        "sectionCount": "8",
+        "title": "İsviçre’de aile ofisi kurmak: görevler, yönetişim ve taşınma",
+        "metaDescription": "UHNW ailesi için planlama kılavuzu İsviçreli bir aile ofisi göz önünde bulundu: aile hareketi ile işletim modeli, yönetim, düzenleyici değerlendirme ve koordinasyon.",
+        "excerpt": "UHNW ailesi için planlama kılavuzu İsviçreli bir aile ofisi göz önünde bulundu: aile hareketi ile işletim modeli, yönetim, düzenleyici değerlendirme ve koordinasyon.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "İsviçre, toplu olarak trilyonlarca İsviçre frangı tutarında varlığı yöneten tahmini 3.500–4.000 aile ofisi yapısına ev sahipliği yaparak aile ofisleri için dünyanın önde gelen yargı bölgelerinden biridir. Siyasi istikrar, bankacılık altyapısı, yasal kesinlik ve derin nitelikli profesyonel havuzunun birleşimi, İsviçre'yi varlık yönetimini profesyonelleştirmek isteyen aileler için doğal bir seçim haline getirir. Bu kılavuz, bir İsviçre aile ofisi kurarken dikkat edilmesi gereken temel hususları kapsamaktadır."
+            "heading": "Yapıyı seçmeden önce amacı tanımlar",
+            "level": "2",
+            "content": "Bir İsviçre aile ofisi, bir ailenin hareketi, bir iş satışı veya nesil sorumluluğunda bir değişiklik ile düşünülebilir. İşleri listelemeye başlayın: konsolide raporlama, yatırım gözetimi, ödeme, yönetim, hayırsever veya dış danışmanların koordinasyonu.\n\nAilenin kişisel işlerini işletmeden ayır. Hangi varlıklar, varlıklar, ülkeler ve aile üyeleri kapsamı içinde düşer ve hangi kararlar mevcut takımlarla kalır."
           },
           "1": {
-            "heading": "Tekil Aile Ofisi (SFO) ve Çoklu Aile Ofisi (MFO)",
+            "heading": "İç takım, dış sağlayıcılar veya karma bir model",
             "level": "2",
-            "content": "İlk yapısal karar, münhasıran tek bir aileye hizmet veren tekil bir aile ofisi (SFO) mi kurulacağı, yoksa birden fazla aileye hizmet veren çoklu bir aile ofisine (MFO) mi katılınacağıdır. Bir SFO, yatırım stratejisi, yönetişim ve gizlilik üzerinde tam kontrol sağlar. Bir SFO'nun (CEO, CIO, CFO, uyum ve idari personel dahil) yıllık işletme maliyetleri 1–3 milyon CHF arasında değişebileceğinden, maliyet etkin olması için genellikle 100 milyon CHF veya daha fazla yönetilen varlık gerektirir. Bir MFO, altyapı, uyum ve uzmanlık maliyetini paylaşarak birden fazla aileye profesyonel varlık yönetimi hizmetleri sunar. MFO'lar, özel bir ofisin tam maliyetine katlanmadan kurumsal düzeyde yönetim isteyen 20–100 milyon CHF varlığı olan aileler için uygundur. 100–500 milyon CHF aralığındaki aileler için hibrit bir yaklaşım yaygındır: temel yönetişim, aile koordinasyonu ve stratejik kararlar için özel bir SFO, yatırım icrası ve özel uzmanlık için MFO veya özel banka ortaklıkları ile birleştirilir."
+            "content": "Belirli işlevleri dışlayan ve ikisini birleştiren bir iç takımla karşılaştırın. Yararlı soru, modelin karmaşık, hizmet beklentilerini ve zaman ailenin taahhüt etmek istediğidir. Tek bir varlık-yönetmenliği eşi buna cevap veremez.\n\nAynı kısaya karşı önerileri talep edin. Personellik, sistemler, tutuklama, raporlama, uzman tavsiye ve geçiş çalışması. Tekrarlanan işletim maliyetlerinden ayrı bir şekilde kurulum masraflarını gösterin ve her sağlayıcıyı kim denetler."
           },
           "2": {
-            "heading": "Aile Ofisleri İçin İsviçre Şirket Yapıları",
+            "heading": "Düzenleme değerlendirme başlamadan önce gelir",
             "level": "2",
-            "content": "İsviçre aile ofisleri için en yaygın yasal yapılar AG (Aktiengesellschaft / anonim şirket) ve GmbH (Gesellschaft mit beschränkter Haftung / limited şirket) şirketleridir. AG, daha büyük aile ofisleri için tercih edilen yapıdır. 100.000 CHF minimum sermaye gerektirir (kuruluşta en az %20'si, yani 20.000 CHF ödenmiş olmalıdır), hisse yapısında esneklik sunar (hamiline yazılı hisseler artık gerçek faydalanıcıların açıklanmasını gerektirse de) ve kurumsal muhatapların beklediği resmi yönetişim çerçevesini (yönetim kurulu, denetçiler) sağlar. GmbH 20.000 CHF minimum sermaye (kuruluşta tamamı ödenmiş) gerektirir ve yönetimi daha basittir. Bir AG'nin yönetişim gerekliliklerinin gerekli olmadığı daha küçük aile ofisleri için uygundur. Yapıdan bağımsız olarak, aile ofisi olarak hizmet veren bir İsviçre şirketinin İsviçre'de ikamet eden en az bir direktörü olmalıdır."
+            "content": "Düzenlemeye tabi mesleki faaliyetlerde bulunan portföy yöneticileri ve tröst yöneticileri (trustees), FINMA yetkilendirme gerekliliklerine tabidir. Değerlendirme faaliyetlere, müşterilere, mülkiyet ve kontrol ilişkilerine bağlıdır.\n\nHizmetlerin başlamadan önce, finansal düzenlemeler konusunda uzmanlaşmış bir İsviçre avukatından, geçerli kuralları ve herhangi bir istisnayı belgelemesini isteyin. Bir kuruluşu \"tek aile ofisi\" olarak etiketlemenin, düzenleyici yükümlülükleri ortadan kaldırdığı varsayımında bulunmayın. Eğer aile dışı müşteriler ekler, kontrolü değiştirir veya faaliyetlerini genişletirse, durumu yeniden değerlendirin."
           },
           "3": {
-            "heading": "Yönetişim Gereksinimleri",
+            "heading": "Şirket formu ve yönetişim",
             "level": "2",
-            "content": "İsviçre aile ofisi yönetişimi birkaç kilit alanı ele almalıdır. Yönetim kurulu bileşimi tipik olarak aile üyeleri ve bağımsız profesyonellerin bir karışımını içermelidir. İsviçre'deki en iyi uygulamalar, ilgili finansal uzmanlığa sahip en az bir bağımsız direktör ve ideal olarak daha büyük ofisler için çoğunluğu bağımsız bir kurul önermektedir. Yönetim kurulundan ayrı bir yatırım komitesi; yatırım politikasını, risk parametrelerini, varlık tahsisi hedeflerini ve performans izlemesini belirlemelidir. Bir aile tüzüğü veya anayasası, ailenin değerlerini, karar alma süreçlerini, veraset kurallarını ve ofisin yetkisini resmileştirir. Uyum ve raporlama çerçeveleri İsviçre düzenleyici gerekliliklerini karşılamalıdır. Aile üyelerine düzenli raporlama — en az üç ayda bir — yatırım performansını, risk metriklerini, ücretleri ve yönetişim konularını kapsamalıdır. Profesyonel denetim (kanuni veya ihtiyari) şeffaflık ve hesap verebilirlik sağlar."
+            "content": "İsviçre AG şirketi en az CHF 100.000 sermaye gerektirir; kuruluşta her hissenin nominal değerinin en az %20’si ve toplam en az CHF 50.000 ödenmelidir. GmbH için CHF 20.000 tamamen ödenir. İsviçre’de ikamet eden temsilci ile yönetim, izin ve raporlama yükümlülükleri uzmanlarla düzenlenmelidir.\n\nKarar hakları, limitleri, escalation prosedürlerini imzalamak ve kayıtlara erişmek. Yatırım kararlarının, tutuklama, yönetim ve bağımsız gözetimin nasıl ayrılacağını kabul edin. Toplantı frekansı ve raporlama, görev ve uygulanabilir gereksinimleri uygun olmalıdır."
           },
           "4": {
-            "heading": "Bankacılık İlişkileri",
+            "heading": "Gerçek operasyonların etrafındaki yeri seçin",
             "level": "2",
-            "content": "Bir İsviçre aile ofisi genellikle birden fazla banka ile ilişki sürdürür. Saklama bankası (custodian bank), ailenin finansal varlıklarını tutar ve korur. Büyük İsviçre bankalarının (UBS, Julius Bär, Pictet, Lombard Odier) tümü aile ofisleri için uygun kurumsal düzeyde saklama hizmetleri sunar. İcra bankası/bankaları (execution bank), işlem icrasını, döviz işlemlerini ve kredilendirmeyi yönetir. Bazı aile ofisleri hem saklama hem de icra için tek bir banka kullanırken, diğerleri risk yönetimi ve rekabetçi fiyatlandırma için bu işlevleri ayırmayı tercih eder. Bir veya daha fazla İsviçre bankasındaki nakit yönetimi hesapları operasyonel giderleri ve kısa vadeli likiditeyi yönetir. Dijital varlık tahsisleri olan aile ofisleri için kripto odaklı bankalar (SEBA Bank, Sygnum Bank) düzenlenmiş saklama ve ticaret altyapısı sağlar."
+            "content": "Önerilen işyeri ile karşılaştırıldığında, işe alım ihtiyaçları, danışmanlar ve ailenin ev yeri. Zürih, Zug, Schwyz, Cenevre ve diğer kantonlar farklı ihtiyaçlara cevap verebilir; ofis adresi ve aile konutunun ayrı analizlere ihtiyacı vardır.\n\nYönetim kararlarının ve işin gerçekte gerçekleşeceği Harita. Vergi uzmanlarının belirli bir vergi çözümü olarak tedavi etmeden önce önerilen tüm yetkilerdeki gerçekleri değerlendirmelerini isteyin."
           },
           "5": {
-            "heading": "Zug mu Zürih mi: Lokasyonunuzu Seçmek",
+            "heading": "Ofise aile hareketi ile bağlantı kurun",
             "level": "2",
-            "content": "İsviçre aile ofisleri için önde gelen iki lokasyon Zürih ve Zug'dur; her birinin kendine özgü avantajları vardır. Zürih en derin profesyonel yetenek havuzunu (yatırım yöneticileri, avukatlar, denetçiler, uyum görevlileri), İsviçre'nin en büyük finans merkezine yakınlığı, mükemmel uluslararası bağlantıları (Zürih Havalimanı) ve canlı bir kültürel ortam sunar. Ancak Zürih daha yüksek ofis maliyetlerine ve daha yüksek kişisel vergi oranlarına sahiptir. Zug, önemli ölçüde daha düşük kurumsal ve kişisel vergi oranları, gelişen bir aile ofisi ekosistemi (ülke genelinde Cenevre'den sonra ikinci), mükemmel bağlantılar (trenle Zürih'e 25 dakika), aile ofislerine hizmet verme konusunda deneyimli ve misafirperver bir kanton yönetimi ve dijital varlık tahsisleri olan ofisler için Kripto Vadisi ekosistemini sunar. Birçok aile ofisi için optimal çözüm, Zürih'te veya yakındaki diğer yerlerde yaşayan ekip üyeleriyle birlikte (vergi verimliliği için) bir Zug kurumsal merkezidir."
-          },
-          "6": {
-            "heading": "Düzenleyici Hususlar",
-            "level": "2",
-            "content": "İsviçre aile ofisleri nispeten hafif bir düzenleyici ortamdan yararlanır ancak birkaç gereksinimi karşılamalıdır. Ofis finansal varlıkları yönetiyorsa AML uyumu gereklidir. Finansal Kurumlar Kanunu (FINIG) ve Finansal Hizmetler Kanunu (FIDLEG) uyarınca, üçüncü taraf varlıklar için varlık yöneticileri FINMA yetkisi gerektirir. Ancak yalnızca ailenin kendi varlıklarını yöneten saf bir SFO genellikle bu gereklilikten muaftır. Ofis tüzel kişiliği için vergi yükümlülükleri kurumlar vergisi, sermaye vergisi ve (varsa) KDV'yi içerir. Ofis İsviçre'de personel çalıştırıyorsa işveren yükümlülükleri (sosyal güvenlik katkıları, emeklilik fonu, kaza sigortası) geçerlidir. Başlangıçta doğru yapılandırma, daha sonra maliyetli düzenleyici komplikasyonlardan kaçınmanızı sağlar."
-          },
-          "7": {
-            "heading": "Zaman Çizelgesi ve Maliyetler",
-            "level": "2",
-            "content": "Sıfırdan bir İsviçre aile ofisi kurmak, ilk yapı tasarımından tam operasyonel bir varlığa kadar genellikle 3–6 ay sürer. Temel aşamalar şunları içerir: yapı tasarımı ve yasal belgelendirme (2–4 hafta), şirket kuruluşu (ticaret sicili süreci için 1–2 hafta), banka hesabı açılışı (uyum incelemesi dahil 3–6 hafta), ekip işe alımı veya yerleştirme (rollere bağlı olarak 4–12 hafta) ve BT ve operasyonel kurulum (2–4 hafta). Kurulum maliyetleri (yasal ücretler, kuruluş, ilk uyum kurulumu) karmaşıklığa bağlı olarak genellikle 50.000–150.000 CHF arasında değişir. Orta ölçekli bir SFO (3–5 personel) için devam eden yıllık maliyetler maaşlar, ofis maliyetleri, denetim, hukuk ve uyum dahil genellikle 1–2 milyon CHF arasındadır. Ailelere durumlarına en uygun yapı konusunda danışmanlık veriyor ve kuruluştan ilk yönetim kurulu toplantısına kadar tüm kurulum sürecini yönetiyoruz."
+            "content": "Ofis kurulması, aile üyelerine İsviçre'de ikamet veya çalışma hakkı sağlamaz. Özellikle harcama tabanlı vergi sisteminin değerlendirildiği durumlarda, her kişinin amaçlanan faaliyetlerini dikkatlice inceleyin. İsviçre'den aktif yönetim için değerlendirme gereklidir.\n\nŞirket avukatları, göçmenlik ve vergi uzmanları, bankalar ve yer değiştirme koordinatörü için bir sorumluluk haritası hazırlayın. Bu uzmanların çalışmaları, önceden belirlenmiş kapsam dahilinde konut, okullar ve varış planlaması ile bağlantılı olacaktır."
           }
         },
         "imageAlt": "Cam pencerelerden Alp manzaralı İsviçre aile ofisi toplantı odası"
@@ -1131,27 +958,35 @@
     "items": [
       {
         "question": "İsviçre'ya taşınmak ne kadar sürer?",
-        "answer": "Tipik bir İsviçre relokasyonu, ilk konsültasyondan tam yerleşime kadar 6-12 ay sürer. AB/EFTA vatandaşları için hızlandırılmış taşınmalar 3 ay gibi kısa bir sürede tamamlanabilirken, aile ofisleri içeren karmaşık çok kuşaklı taşınmalar 12-18 ay sürebilir."
+        "answer": "Timing, konut ve iş temeli, belge hazırlığı, okul yerleri ve konut gibi pratik düzenlemelere bağlıdır. Hedef bir pencere ve danışmanlarınızla bir dizi karar; her İsviçre hareketi için tek bir onay veya yerleşim süresi yoktur."
       },
       {
         "question": "İsviçre'de götürü usulü vergilendirme (forfait fiscal) nedir?",
-        "answer": "Götürü usulü vergilendirme, İsviçre'de çalışmayan uygun şartları taşıyan yabancı uyruklular için özel bir vergi rejimidir. Dünya çapındaki geliriniz üzerinden vergilendirilmek yerine, vergi matrahınız İsviçre'deki yaşam giderlerinize göre belirlenir. Minimum tutarlar kantona bağlı olarak 250.000 CHF ile 600.000+ CHF arasında değişir."
+        "answer": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz. 2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır."
       },
       {
         "question": "Yabancılar İsviçre'de mülk satın alabilir mi?",
-        "answer": "Evet, ancak Lex Koller yasasına tabidir. Geçerli bir İsviçre oturma iznine (B veya C izni) sahip yabancı uyruklular birincil ikametgah satın alabilirler. İkincil ve yatırım amaçlı mülkler daha sıkı kısıtlamalarla karşılaşır ve kanton izni gerektirebilir."
+        "answer": "Taşınmaz edinimi vatandaşlığa, fiilî ikamete, izne ve kullanıma bağlıdır. B izni İsviçre’de konut yatırımına genel izin değildir. Ana konut, tatil evi ve kiralık yatırım ayrı değerlendirilir. Yabancı kontrolündeki İsviçre şirketi Lex Koller’i aşamaz. İmzadan önce kanton makamı ve noterle durumu teyit edin."
       },
       {
         "question": "Taşınmak için en iyi İsviçre kantonu hangisidir?",
-        "answer": "En iyi kanton önceliklerinize bağlıdır. Zug en düşük vergi oranlarını ve gelişen bir uluslararası topluluğu sunar. Zürih en kozmopolit yaşam tarzını ve en iyi bağlantıları sağlar. Schwyz çok düşük vergileri Alp mahremiyetiyle birleştirir. Özel vergi, yaşam tarzı ve aile ihtiyaçlarınıza göre kanton seçimi konusunda danışmanlık veriyoruz."
+        "answer": "Gerçek belediye, ev, okul ve işyeri ile karşılaştırın. Zürih, Zug ve Schwyz farklı önceliklere uygundur ve ev vergi karşılaştırması gelir, varlık ve aile koşulları hakkında tutarlı varsayımlara ihtiyaç duyar. Şirketin konumunu kişisel konuttan ayrı değerlendirin."
       },
       {
         "question": "İsviçre özel banka hesabı nasıl açılır?",
-        "answer": "İsviçre özel banka hesabı açmak, kimlik doğrulaması, servet kaynağı belgeleri ve fon kaynağı kanıtı dahil olmak üzere kapsamlı AML/KYC belgeleri gerektirir. Süreç, basit vakalar için genellikle 4-8 hafta sürer. Tanıştırma ve belge hazırlama süreçlerini kolaylaştırıyoruz."
+        "answer": "İhtiyacınız olan hizmetleri açıklayarak başlayın ve bankanın ikamet, vergi durumu ve varlıklarını düşünebilir. Kimlik, mülkiyet ve kaynak-wealth kanıtları hazırlayın, beklenen transferlerin nereden geleceğini gösteren rekorlar. Banka kabul etmeye karar verir, dokümantasyon gereksinimleri, ücretler ve zamanlama."
       },
       {
         "question": "İsviçre'de hangi oturma izinleri mevcuttur?",
-        "answer": "Ana izinler şunlardır: B izni (ikamet, yenilenebilir, standart giriş noktası), C izni (kalıcı yerleşim, 5-10 yıl sonra alınabilir), L izni (kısa süreli) ve G izni (sınır ötesi). Yüksek net değerli bireyler için götürü usulü vergilendirmeye bağlı B izni en yaygın yoldur."
+        "answer": "B oturum, L kısa süreli kalış, C yerleşim, G sınır ötesi çalışan iznidir. Kategori ve koşullar vatandaşlığa, kalış amacına ve makamın kararına bağlıdır. AB/EFTA dışındaki vatandaşların hukuki dayanağı bireysel değerlendirilir. İstihdam, serbest çalışma, emeklilik ve istisnai kabul farklı şartlara tabidir. Servet, konut alımı, şirket kuruluşu veya vergi kararı tek başına oturum hakkı vermez. Kanton ve gerektiğinde federal makamlar karar verir. Taşınma için bağlayıcı karar almadan değerlendirme yaptırın."
+      },
+      {
+        "question": "Bir girişimci olarak İsviçre'ye geçebilir miyim?",
+        "answer": "Rota, vatandaşlık durumuna, mevcut statüye ve önerilen işe bağlıdır. AB/EFTA kapsamında serbest meslek sahibi olma ve üçüncü ülke girişimciliğine başvuru farklı gereksinimleri içermektedir. Bir göç uzmanıyla iş planını ve girişimcinin çalışma hakkını değerlendirin; şirket sahibi olmak veya kaydettirmek, otomatik olarak ikamet izni sağlamaz."
+      },
+      {
+        "question": "Yüksek değerli bireylere ve aile ofislerine yardım ediyor musunuz?",
+        "answer": "Evet. Yüksek değerli bireyler, girişimciler, UHNW aileleri ve aile ofisleri için yeniden konum planlamayı koordine ediyoruz. Alan, konut, uzman vergi soruları, bankacılık hazırlığı, konut ve okullara bağlanabilir, atanmış profesyonelleriniz tavsiye ve düzenleme hizmetleri için sorumluluk tutar."
       }
     ]
   },
@@ -1473,8 +1308,8 @@
     },
     "home": {
       "heroBadge": "İsviçre'de taşınma danışmanlığı",
-      "heroTitle": "İzinler, vergi, bankacılık, okullar ve yerleşimin koordine edildiği İsviçre'ye taşın.",
-      "heroSubtitle": "Zürih, Zug, Schwyz, Cenevre, Vaud ve ötesine taşınan girişimciler, varlık sahipleri, aileler ve aile ofisleri için İsviçre merkezli özel danışmanlık.",
+      "heroTitle": "İsviçre’ye taşınma, özenle planlanmış.",
+      "heroSubtitle": "Varlıklı kişiler, girişimciler ve aile ofisleri için İsviçre merkezli danışmanlık. Oturum, vergi, bankacılık ve aile yaşamı birlikte planlanır.",
       "heroProof": [
         {
           "label": "İsviçre merkezli koordinasyon",
@@ -1494,12 +1329,12 @@
         }
       ],
       "planTitle": "İsviçre'ye taşınma planı",
-      "planPeriod": "İlk 30 gün",
+      "planPeriod": "Planlama öncelikleri",
       "planRows": [
         [
           "01",
           "İkamet rotası",
-          "B izni, aile katılımı, zamanlama"
+          "Eligability, iş faaliyetleri, aile ve zamanlama"
         ],
         [
           "02",
@@ -1509,7 +1344,7 @@
         [
           "03",
           "Banka hazırlığı",
-          "Zenginlik kaynağı hikayesi ve tanıtımları"
+          "Sahiplik kayıtları ve kaynak-bizalth kanıtları"
         ],
         [
           "04",
@@ -1517,7 +1352,7 @@
           "Konut, sigorta, okullar, günlük kurulum"
         ]
       ],
-      "planFooter": "Amaç daha fazla tavsiye değil. İzinlerin, bankacılığın, okulların ve konutların birbirini engellemesini engelleyen bir dizidir.",
+      "planFooter": "Oturma ve çalışma temeli ile başlayın, sonra uzman vergi tavsiyelerini, bankacılık hazırlığını, onlara bağlı kararların etrafındaki okulları ve konutları hizalayın.",
       "trustStrip": [
         "Özel değerlendirme",
         "İsviçre kantonu karşılaştırması",
@@ -1525,7 +1360,7 @@
         "Aile yerleşimi"
       ],
       "processTitle": "İlk görüşmeden uygulayabileceğiniz bir İsviçre planına kadar",
-      "processText": "İş akışları ayrı ayrı hareket ettiğinde yüksek değerli yer değiştirmeler başarısız olur. İlk adım, herhangi biri belge talep etmeden önce net bir işletim modelidir.",
+      "processText": "Bir işletme çalışan bir yatırımcı, özel zenginlik ve bir aile bürosunun farklı planlama ihtiyacı vardır. Faaliyetleriniz, aile öncelikleri ve mevcut danışmanlarınızla başlıyoruz.",
       "processSteps": [
         {
           "title": "Özel değerlendirme",
@@ -1541,8 +1376,8 @@
         }
       ],
       "signalsBadge": "Neler koordine edilir?",
-      "signalsTitle": "Genel yer değiştirme konuşması değil, İsviçre'ye özel uygulama",
-      "signalsText": "Değer teklifi işlevseldir: vergi, izinler, bankacılık, barınma, okullar ve İsviçre'deki ilk normal gün arasında daha az fark vardır.",
+      "signalsTitle": "Bir İsviçre hareketi işlenebilir kılan detaylar",
+      "signalsText": "koordineli bir plan, nerede yaşadığınız, nasıl çalıştığınız ve ailenizin ihtiyaç duyduğuyla ilgili kararları bağlar.",
       "signals": [
         "Taahhütten önce Kanton karşılaştırması",
         "Okul alımıyla eşleşen izin zaman çizelgesi",
@@ -1552,82 +1387,8 @@
         "Herkese açık formlar aracılığıyla pasaport, banka hesap özeti veya hassas dosyalar kullanılamaz"
       ],
       "pathsTitle": "Popüler yer değiştirme yolları",
-      "pathsText": "Yüksek niyetli ziyaretçilerin genel hizmet sayfalarını kendi durumlarına çevirmeleri gerekmemelidir.",
+      "pathsText": "Ayrılma ülkeniz için soruları keşfedin, iş faaliyetleri ve İsviçre üssü amaçlandı.",
       "discussRoute": "Rotamı tartış"
-    },
-    "caseSnapshots": {
-      "techFounder": [
-        {
-          "label": "Başlangıç noktası",
-          "value": "Dubai, çıkış sonrası kurucusu"
-        },
-        {
-          "label": "İsviçre üssü",
-          "value": "Zug aile konutu"
-        },
-        {
-          "label": "Temel risk",
-          "value": "Kripto serveti belgeleri"
-        },
-        {
-          "label": "Sonuç",
-          "value": "İzin, okul, bankacılık, ofis aktif"
-        }
-      ],
-      "bankingFamily": [
-        {
-          "label": "Başlangıç noktası",
-          "value": "Beyrut, acil yer değişikliği"
-        },
-        {
-          "label": "İsviçre üssü",
-          "value": "Schwyz gizlilik öncelikli çözüm"
-        },
-        {
-          "label": "Temel risk",
-          "value": "Üç nesil emlak karmaşıklığı"
-        },
-        {
-          "label": "Sonuç",
-          "value": "Aile İsviçre yönetimine yerleşti"
-        }
-      ],
-      "digitalNomad": [
-        {
-          "label": "Başlangıç noktası",
-          "value": "Riyad, kripto yatırımcısı"
-        },
-        {
-          "label": "İsviçre üssü",
-          "value": "Zürih dairesi ve GmbH"
-        },
-        {
-          "label": "Temel risk",
-          "value": "Geleneksel olmayan zenginlik profili"
-        },
-        {
-          "label": "Sonuç",
-          "value": "İzin ve ikili bankacılık kurulumu"
-        }
-      ],
-      "gulfFamilyOffice": [
-        {
-          "label": "Başlangıç noktası",
-          "value": "Kuveyt, çok yetkili makam"
-        },
-        {
-          "label": "İsviçre üssü",
-          "value": "Zug tekli aile ofisi"
-        },
-        {
-          "label": "Temel risk",
-          "value": "Nesiller boyu yönetim"
-        },
-        {
-          "label": "Sonuç",
-          "value": "İsviçre kurulu ve canlı raporlama"
-        }
-      ]
     },
     "quiz": {
       "eyebrow": "Kanton'a uygunluk testi",
@@ -2129,9 +1890,9 @@
           "Schwyz"
         ],
         "urgentQuestions": [
-          "İsviçre şirketi ikamet rotası belli olmadan önce mi yoksa sonra mı kurulmalı?",
-          "Kanton, banka ve karşı taraflar hangi esası bekleyecek?",
-          "Kurucu izinleri, ailenin taşınması ve kurumsal bankacılık birbirini nasıl etkiler?"
+          "Plan yeni bir İsviçre varlığı, bir şube veya başka bir düzenleme gerektiriyor mu?",
+          "Nerede yönetim, çalışanlar, sözleşmeler ve entelektüel mülk hareketten sonra oturacak?",
+          "Hangi kalkış ülkesi vergisi, transfer fiyatlandırması, pararoll ve iş-permit sorularının uzman tavsiyelere ihtiyacı var?"
         ],
         "workstreams": [
           "Kurucu profili, şirket özü ve kanton uyumu incelemesi",
@@ -2140,16 +1901,30 @@
           "Kurucu izni, ailenin taşınması, barınma ve yerleşim"
         ],
         "proofPoints": [
-          "Şirket ve aile iş akışlarının uyumlu hale getirilmesine ihtiyaç duyan kurucular için tasarlandı",
-          "Maddeyi, izinleri, bankacılığı ve ödemeyi doğru sırayla birbirine bağlar",
-          "Yasal, bankacılık ve taşınma tavsiyelerinden kaynaklanan gecikmeleri azaltır"
+          "Kurucunun gerçek İsviçre faaliyetleri ile yeniden konumlandırılması",
+          "Sınır ötesi kararlarla ilgili mevcut danışmanları tutun",
+          "İzin, bankacılık ve lisans onaylarından ayrı ayrılar"
+        ],
+        "faqs": [
+          {
+            "question": "Kurucuyu taşımak da şirketi hareket ediyor mu?",
+            "answer": "Kurucunun kişisel relokasyonu ve şirketin yasal ve vergi pozisyonu ayrı sorulardır. Yönetim, çalışanlar, sözleşmeler ve varlıklar nerede oturacaktır. Her iki ülkede de önerilen gerçekleri, bir şirket göçü olarak ev adresinin değişimini tedavi etmeden değerlendirmelerini isteyin."
+          },
+          {
+            "question": "Bir İsviçre şirketi veya bir şube açmalı mıyım?",
+            "answer": "İş amacı ile karşılaştırıldığında, mülkiyet, sorumluluklar, şirket ve vergi danışmanları ile finansman ve planlama işlemleri. Uygun yasal form bu gerçeklere bağlıdır. Kurucunun konutunu ve çalışma iznini tutun, banka kabulünü ve aynı proje planında ayrı kararlar olarak herhangi bir sektör lisansını alın."
+          },
+          {
+            "question": "Bir iş çıkışı planlıyorsam ne olur?",
+            "answer": "Önerilen satış zaman çizelgesini getir, mülkiyet grafiği devam etti iş yükümlülüklerini ve herhangi bir değerlendirilmesi dikkate alın. Ayrılma ülkenizi ve İsviçre danışmanlarınızı işlem ve konut tarihleri ayarlamadan önce koordine edin. Bir satışın vergisiz olduğunu varsaymayın çünkü hareketten önce veya sonra meydana gelir."
+          }
         ]
       },
       "swiss-residence-permit-entrepreneurs": {
         "slug": "swiss-residence-permit-entrepreneurs",
         "audience": "Girişimciler ve aktif işletme sahipleri",
         "title": "Girişimciler için İsviçre Oturma İzni",
-        "description": "İsviçre'de ikamet, şirket esası, bankacılık, servet kaynağı belgeleri ve aile yerleşimi yoluyla kurucu odaklı bir rota.",
+        "description": "İsviçre'de aktif bir girişimci olarak ikamet etme planınızı değerlendirirken, vatandaşlık, önerilen çalışma, iş planının uygulanabilirliği ve aile düzenlemeleri gibi faktörlerin tümü önemlidir. İsviçre şirketinin sahibi olmak, otomatik olarak izin anlamına gelmez.",
         "metaDescription": "Girişimciler için İsviçre oturma izni danışmanlığı. Kanton seçimini, şirket oluşumunu, bankacılığı, izinleri ve ailenin taşınmasını planlayın.",
         "startingPoint": "Uluslararası",
         "likelyCantons": [
@@ -2158,20 +1933,34 @@
           "Vaud"
         ],
         "urgentQuestions": [
-          "İsviçre şirketi izin tesliminden önce mi yoksa sonra mı kurulmalı?",
-          "Kantonun beklediği ekonomik içerik nedir?",
-          "Ticari zenginlik bankalar ve yetkililer için nasıl belgelenmelidir?"
+          "Hangi konut ve çalışma kuralları benim vatandaşlığım ve mevcut durumuma uygulanır?",
+          "Hangi iş planı, finans, operasyonları ve ekonomik katkının gösterilmesi gerekiyor?",
+          "Eşinizin planları ve çocukları okullaşması önerilen rotaya nasıl sığacak?"
         ],
         "workstreams": [
-          "Kurucu profili ve kantona uygunluk değerlendirmesi",
-          "Şirket kurulumu ve yönetim kurulumu",
-          "İzin başvurusu ve aile katılımı",
-          "Bankacılık hazırlığı, kiralamalar, sigorta ve ödeme"
+          "Vatandaşlık, mevcut durum ve amaçlanan aktivite değerlendirme",
+          "İş planı, finansman ve önerilen İsviçre operasyonları",
+          "Kanonik gereksinimleri ve göçmen uzmanları ile uygulama sıralaması",
+          "Aile uygulamaları, bankacılık kanıtları, konut ve okul planlaması"
         ],
         "proofPoints": [
-          "İş ve aile iş akışlarının uyumlu hale getirilmesine ihtiyaç duyan kurucular için en iyisi",
-          "İzinleri şirketin özü ve bankacılık güvenilirliği ile birleştirir",
-          "Eksik dokümantasyon sıralamasından kaynaklanan gecikmeleri azaltır"
+          "AB/EFTA kendi meslek ve üçüncü ülke kabulü farklı değerlendirmelere ihtiyaç duyar",
+          "Şirket birleşme, konut izni ve vergi tedavisi ayrı kararlar",
+          "Hazırlığı koordine ediyoruz; yetkili yetkililer uygulamaya karar verir"
+        ],
+        "faqs": [
+          {
+            "question": "Bir şirket açarak İsviçre konutunu alabilir miyim?",
+            "answer": "AB/EFTA vatandaşları istihdam, serbest çalışma veya çalışmadan ikamet yoluyla kabul edilebilir. Sonuncusu yeterli kaynak ve uygun sağlık ve kaza sigortası gerektirir. İzin süresi kabul dayanağına bağlıdır. Yerel makamın istediği belgeleri sunun; ülke çapında garantili işlem süresi yoktur.\n\nAB/EFTA dışındaki vatandaşların hukuki dayanağı bireysel değerlendirilir. İstihdam, serbest çalışma, emeklilik ve istisnai kabul farklı şartlara tabidir. Servet, konut alımı, şirket kuruluşu veya vergi kararı tek başına oturum hakkı vermez. Kanton ve gerektiğinde federal makamlar karar verir. Taşınma için bağlayıcı karar almadan değerlendirme yaptırın."
+          },
+          {
+            "question": "Bir girişimci ilk değerlendirme için ne hazırlamalı?",
+            "answer": "Deneyiminizin bir özetini hazırlayın, iş modeli, mülkiyet, finansman, beklenen müşteriler ve İsviçre ekibi önerdi. Kendi rolünü ve iş ve yönetim kararlarının nerede olacağını açıklayın. Bir uzman, hangi kanıtların ve otorite gereksinimlerinin rotaya uygulandığını belirleyebilir."
+          },
+          {
+            "question": "İsviçre'den yurtdışında bir şirket yönetmeye devam edebilir miyim?",
+            "answer": "İsviçre'den gerçekleştirmek niyetinde olduğunuz işi açıklayın, hatta müşteriler ve şirket yurtdışında kalır. Herhangi bir şirket yönetimi, maaş veya raporlama sonuçları da dahil olmak üzere bu aktiviteyi değerlendirmek için göçmen ve vergi uzmanlarına sorun. Yabancı mülkiyet veya yurtdışındaki müşteriler sadece uyumlu bir konut ve vergi düzenlemesi oluşturmuyor."
+          }
         ]
       },
       "lump-sum-taxation-switzerland": {
@@ -2189,9 +1978,9 @@
           "Zug"
         ],
         "urgentQuestions": [
-          "Aile profili için cayma mali durumu gerçekçi mi?",
-          "İlk önce hangi kantonlara yaklaşmaya değer?",
-          "Hangi yaşam tarzı ve konut varsayımları vergiye tabi matrahı belirliyor?"
+          "Ya da eş İsviçre'de iyi bir aktivite yapacak mı?",
+          "Sıradan vergilendirme ile uygun bir harcama bazlı değerlendirme nasıl karşılaştırılır?",
+          "Hangi konut temeli, konut varsayımları ve kanton koşulları aileye uygun?"
         ],
         "workstreams": [
           "Uygunluk ve kanton kısa listesi",
@@ -2203,6 +1992,20 @@
           "Vergi kararı çalışmasını gerçek yer değiştirme planıyla birleştirir",
           "Kanton müzakerelerini yaşam tarzı gerçekliğiyle bağlantılı tutar",
           "Kamuya açık taahhütlerden veya hassas belgelerden önce faydalıdır"
+        ],
+        "faqs": [
+          {
+            "question": "Aktif bir kurucu için topak vergilendirme uygun mu?",
+            "answer": "Harcamaya dayalı vergilendirme, İsviçre’de ilk kez veya en az on yıllık ayrılıktan sonra vergi mukimi olan ve İsviçre’de kazanç getirici faaliyet yürütmeyen, şartları karşılayan yabancılara açıktır. Birlikte yaşayan eşlerin ikisi de şartları sağlamalıdır. İsviçre’den şirket veya aile ofisi yönetmek özel değerlendirme gerektirir; yabancı müşteriler veya yalnızca mülkiyet uygunluğu kanıtlamaz."
+          },
+          {
+            "question": "Yıllık vergi faturamı minimum değerlendirme üssü mü?",
+            "answer": "2026 vergi yılı için federal asgari matrah CHF 435.000’dir; bu tutar ödenecek vergi değildir. Dünya genelindeki yaşam giderleri ve konuta bağlı yasal asgari tutarlar da dikkate alınır. Ayrı bir kontrol hesabı, belirli İsviçre gelirleri ve anlaşma indirimi uygulanan yabancı gelirler üzerindeki vergiyi artırabilir. Kantonal gelir ve servet vergileri ayrıca hesaplanır."
+          },
+          {
+            "question": "Bir vergi kararı bir konut izni güvenli midir?",
+            "answer": "Kanton seçmeden önce pasaportları, ikamet geçmişini, dünya genelindeki hane bütçesini, konut bilgilerini, gelir kaynaklarını ve planlanan işleri hazırlayın. Yetkin vergi uzmanlarıyla olağan vergilendirme karşılaştırmasını ve gerekiyorsa yazılı vergi kararı başvurusunu koordine edin. Varsayımları ve beyan yükümlülüklerini netleştirin. Vergi uygulaması ve oturum izni ayrı kararlardır; onay veya sabit yıllık vergi garanti edilmez."
+          }
         ]
       },
       "zug-relocation-advisor": {
@@ -2242,7 +2045,7 @@
       },
       {
         "title": "2. Toplanan Veriler",
-        "text": "Yalnizca iletisim bilgileri, mevcut ikamet ulkesi, vatandaslik, tasinma hedefleri, zamanlama, hizmet ilgi alanlari ve mesaj icerigi gibi formda gonullu olarak paylasilan bilgileri toplariz."
+        "text": "Formlarımız aracılığıyla paylaşmayı seçtiğiniz iletişim bilgilerini, taşınma hedeflerini ve isteğe bağlı ek bilgileri işleriz. Onayınızla, yukarıda açıklanan sınırlı web sitesi analiz verilerini de işleriz."
       },
       {
         "title": "3. Isleme Amaci",
@@ -2277,7 +2080,19 @@
       "qatar": "Katar",
       "kuwait": "Kuveyt",
       "bahrain": "Bahreyn"
-    }
+    },
+    "description": "Yüksek net varlığa sahip kişiler (HNWI), girişimciler ve aile ofisleri için İsviçre merkezli taşınma danışmanlığı.",
+    "serviceTypes": [
+      "Pre-Immigration Tax & Asset Planning",
+      "Götürü Usulü Vergilendirme (Forfait Fiscal)",
+      "Oturma İzni ve Göçmenlik",
+      "Şirket Formasyon & Business Relocation",
+      "Aile Ofisi Kurulumu",
+      "Yönetmenlik & Board Koordinasyon",
+      "Gayrimenkul Danışmanlığı",
+      "Sağlık ve Sağlık Koordinasyonu",
+      "Aile Çözüm & Okul Koordinasyonu"
+    ]
   },
   "swissArrivalNav": {
     "guide": "Rehber",

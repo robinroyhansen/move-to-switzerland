@@ -12,6 +12,8 @@ import { StickyCtaBar } from '@/components/StickyCtaBar';
 import { OrganizationSchema, LocalBusinessSchema, getAreaCountries } from '@/components/StructuredData';
 import { PageBreadcrumb } from '@/components/PageBreadcrumb';
 import { CookieConsent } from '@/components/CookieConsent';
+import { Analytics } from '@/components/Analytics';
+import { getClientMessages } from '@/lib/client-messages';
 import '../globals.css';
 
 type Props = {
@@ -98,13 +100,14 @@ export default async function LocaleLayout({ children, params }: Props) {
         {site === 'move' && <LocalBusinessSchema copy={schemaCopy} />}
       </head>
       <body className={[dmSans.variable, cormorant.variable, 'font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col'].join(' ')}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={getClientMessages(messages)}>
           <Header site={site} />
           <PageBreadcrumb />
-          <main className="flex-1">{children}</main>
+          <main id="main-content" tabIndex={-1} className="flex-1">{children}</main>
           <Footer site={site} />
           <StickyCtaBar site={site} />
           <CookieConsent />
+          {site === 'move' && <Analytics />}
         </NextIntlClientProvider>
       </body>
     </html>

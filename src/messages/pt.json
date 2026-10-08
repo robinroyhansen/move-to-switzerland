@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "Move to Switzerland — Assessoria de Relocação Premium",
-    "description": "Um serviço especializado em relocação e assessoria estratégica para indivíduos e famílias de alto patrimônio que desejam se mudar para a Suíça."
+    "title": "Mudança para a Suíça para grandes patrimónios e empreendedores",
+    "description": "Consultoria de mudança sediada na Suíça para particulares com património elevado (HNWI), empreendedores e family offices."
   },
   "nav": {
     "home": "Início",
     "services": "Serviços",
     "whySwitzerland": "Por que a Suíça",
     "cantons": "Cantões",
-    "caseStudies": "Estudos de Caso",
+    "caseStudies": "Quem Atendemos",
     "about": "Sobre Nós",
     "contact": "Contato",
     "privacy": "Política de Privacidade",
@@ -20,7 +20,7 @@
   },
   "hero": {
     "headline": "Seu Caminho para a Suíça",
-    "subheadline": "Serviço especializado em relocação e assessoria estratégica para indivíduos e famílias de alto patrimônio",
+    "subheadline": "Consultoria de mudança sediada na Suíça para particulares com património elevado (HNWI), empreendedores e family offices. Coordene residência, questões fiscais, preparação bancária e vida familiar em Zurique, Zug, Schwyz e noutros cantões.",
     "cta": "Agende uma Consultoria Confidencial"
   },
   "cta": {
@@ -31,142 +31,142 @@
   },
   "whySwitzerland": {
     "title": "Por que a Suíça",
-    "subtitle": "Uma nação fundamentada em estabilidade, discrição e excelência",
+    "subtitle": "Um local para avaliar em torno de sua família, riqueza e negócios",
     "stats": {
       "millionaires": {
-        "value": "142.000",
-        "label": "Milionários mudando de país em 2025 — um recorde histórico"
+        "value": "26",
+        "label": "Cantões para avaliar residência, vida familiar e negócios"
       },
       "inflow": {
-        "value": "+3.000",
-        "label": "Entrada líquida de milionários na Suíça em 2025"
+        "value": "3",
+        "label": "Nossos escritórios: Zurique, Zug e Schwyz"
       },
       "neutrality": {
-        "value": "500+",
-        "label": "Anos de neutralidade política"
+        "value": "2012",
+        "label": "Ajudando as pessoas a se mudarem para a Suíça desde 2012"
       },
       "banking": {
-        "value": "#1",
-        "label": "O sistema de private banking mais robusto do mundo"
+        "value": "Juntos",
+        "label": "Coordenar a preparação bancária com um movimento mais amplo"
       },
       "wealthTax": {
-        "value": "78%",
-        "label": "Votaram contra o imposto sobre grandes fortunas (novembro de 2025)"
+        "value": "Localmente",
+        "label": "Compare a posição fiscal em seu município escolhido"
       },
       "safety": {
-        "value": "Zero",
-        "label": "Histórico de confisco de ativos ou alianças militares"
+        "value": "O teu plano.",
+        "label": "Residência, trabalho, escolas e habitação consideradas em conjunto"
       }
     }
   },
   "whySwitzerlandPage": {
     "meta": {
-      "title": "Por que a Suíça — O Principal Destino Mundial para Patrimônio, Segurança e Qualidade de Vida",
-      "description": "Descubra por que a Suíça é a jurisdição mais confiável do mundo para preservação de patrimônio, segurança familiar e qualidade de vida. Mais de 500 anos de neutralidade, líder em private banking e educação de classe mundial."
+      "title": "Porquê Move to Switzerland? Planejamento de HNWI & Empreendedor",
+      "description": "Avaliar a Suíça para sua família e negócios: residência, impostos, bancos, escolas, saúde e os trade-offs práticos antes de uma mudança."
     },
     "hero": {
       "title": "Por que a Suíça",
-      "subtitle": "O principal destino do mundo para preservação de patrimônio, segurança e qualidade de vida",
-      "badge": "O guia de referência"
+      "subtitle": "Avaliar o ajuste para sua família, riqueza privada e negócios",
+      "badge": "Um guia prático de decisão"
     },
     "neutrality": {
-      "title": "Neutralidade Política",
-      "subtitle": "Um santuário de estabilidade em um mundo incerto",
-      "stat1": "500+",
-      "stat1Label": "Anos de neutralidade contínua",
-      "stat2": "Nenhum",
-      "stat2Label": "Alianças militares",
-      "stat3": "Nenhum",
-      "stat3Label": "Histórico de confisco de ativos",
-      "p1": "A Suíça mantém sua neutralidade política há mais de 500 anos — o período mais longo de qualquer nação na história moderna. Não é membro da OTAN, da UE ou de qualquer aliança militar. Esta neutralidade não é passiva: é uma política deliberada, consagrada na constituição, que sobreviveu a duas guerras mundiais, à Guerra Fria e a todas as convulsões geopolíticas da era moderna.",
-      "p2": "Para os detentores de patrimônio, isso se traduz em uma garantia inigualável: a Suíça nunca confiscou ativos privados, nunca impôs taxas emergenciais sobre a riqueza e nunca participou do tipo de instabilidade política que compromete o patrimônio pessoal em outras jurisdições. Seus ativos na Suíça estão protegidos por uma estrutura jurídica e política que permanece sólida há meio milênio."
+      "title": "Uma base familiar de longo prazo",
+      "subtitle": "Comece com a vida que pretende construir",
+      "stat1": "Principal",
+      "stat1Label": "Escolha um município em torno da vida diária",
+      "stat2": "Trabalho",
+      "stat2Label": "Avaliar as atividades planejadas de cada adulto",
+      "stat3": "Família",
+      "stat3Label": "Coordenar a posição de residência de cada pessoa",
+      "p1": "Para uma família de alto valor, a decisão de localização chega além de uma comparação de impostos. Considere onde os filhos vão estudar, com que frequência você precisa viajar, quais idiomas a família usa e onde permanecem as responsabilidades comerciais. Uma lista útil começa com esses fatos.",
+      "p2": "Transforme preferências amplas em uma combinação de casa, escola e local de trabalho que pode ser testado. Visite o município, experimente viagens diárias e decida o que faria um movimento encenado preferível a mover todos ao mesmo tempo."
     },
     "banking": {
-      "title": "Banca e Gestão de Patrimônio",
-      "subtitle": "O sistema de private banking mais confiável do mundo",
-      "stat1": "#1",
-      "stat1Label": "Centro global de private banking",
-      "stat2": "CHF 7,9T",
-      "stat2Label": "Ativos sob gestão",
-      "stat3": "243",
-      "stat3Label": "Bancos licenciados",
-      "p1": "A Suíça faz a gestão de aproximadamente CHF 7,9 trilhões em ativos, o que representa cerca de 25% de todo o patrimônio privado transfronteiriço global. O sistema bancário suíço é regulado pela FINMA, um dos reguladores financeiros mais rigorosos do mundo, garantindo que seu patrimônio seja mantido sob os mais altos padrões de conformidade e segurança.",
-      "p2": "Os bancos privados suíços oferecem um nível de gestão de patrimônio personalizado incomparável. Do planejamento sucessório multigeracional a mandatos de investimento sofisticados, a profundidade da expertise disponível em Zurique, Genebra e Zug é simplesmente sem paralelo. Para famílias que transferem patrimônio entre fronteiras, a Suíça oferece a infraestrutura institucional e a discrição que outras jurisdições não podem garantir."
+      "title": "Coordenação bancária e riqueza",
+      "subtitle": "Escolha serviços em torno de seus ativos e necessidades de relatórios",
+      "stat1": "Objecto",
+      "stat1Label": "Pagamentos, custódia, aconselhamento ou gestão",
+      "stat2": "Provas",
+      "stat2Label": "Preparar registos de propriedade e de fonte de riqueza",
+      "stat3": "Termos",
+      "stat3Label": "Comparação das taxas e do mandato proposto",
+      "p1": "Separe os trabalhos que você precisa de um banco para executar. A riqueza pessoal, uma empresa operacional e um escritório familiar podem exigir contas, relatórios e relacionamentos diferentes. Peça às instituições para confirmar se podem considerar sua residência, status fiscal e ativos propostos.",
+      "p2": "Prepare a evidência de como a riqueza foi acumulada e de onde as transferências esperadas virão. Os bancos tomam as suas próprias decisões de aceitação. A coordenação de relocalização ajuda a sequenciar a preparação e as introduções com o movimento mais amplo; não garante uma conta ou o resultado do investimento."
     },
     "education": {
-      "title": "Sistema Educacional",
-      "subtitle": "Aprendizado de classe mundial para a próxima geração",
-      "stat1": "3 principais",
-      "stat1Label": "Universidades globais (ETH Zurique)",
-      "stat2": "50+",
-      "stat2Label": "Escolas internacionais",
-      "stat3": "#1",
-      "stat3Label": "Índice de inovação (13 anos consecutivos)",
-      "p1": "A Suíça abriga algumas das melhores instituições educacionais do mundo. A ETH Zurique figura consistentemente entre as três melhores universidades globais, enquanto a rede do país com mais de 50 escolas internacionais — incluindo o Institut Le Rosey, a Zuoz Academy e a International School of Zug and Luzern — oferece educação excepcional para famílias expatriadas.",
-      "p2": "O sistema educacional suíço combina rigor acadêmico com imersão multilíngue. Crianças que frequentam escolas internacionais ganham fluência em vários idiomas enquanto seguem currículos IB, britânicos ou americanos. Para famílias que se mudam do Oriente Médio, isso representa uma oportunidade de proporcionar aos filhos uma educação verdadeiramente global em um dos ambientes mais seguros do planeta."
+      "title": "Escolha escolar para famílias internacionais",
+      "subtitle": "Combine o currículo, a linguagem e a viagem à criança",
+      "stat1": "Público",
+      "stat1Label": "Explore o sistema escolar local",
+      "stat2": "Internacional",
+      "stat2Label": "Verificar currículo e locais disponíveis",
+      "stat3": "Campus",
+      "stat3Label": "Teste a viagem para o grau da criança",
+      "p1": "Compare a educação pública e internacional em torno das idades dos seus filhos, estudos atuais, necessidades de linguagem e duração provável da estadia. O ensino público local pode apoiar a integração; um currículo internacional pode servir a uma família que mantém a continuidade entre os países. Pergunte às escolas qual o apoio disponível.",
+      "p2": "Confirme as admissões e o campus correto antes de escolher uma casa. Incluir viagens, arranjos pós-escolares e qualquer suporte de aprendizagem na comparação. A reputação de uma escola não estabelece disponibilidade, adequação para uma criança individual ou futura admissão universitária."
     },
     "healthcare": {
-      "title": "Saúde",
-      "subtitle": "Entre os melhores sistemas de saúde do mundo",
-      "stat1": "#1",
-      "stat1Label": "Qualidade de saúde na Europa",
-      "stat2": "4,3",
-      "stat2Label": "Médicos por 1.000 habitantes",
-      "stat3": "83,4",
-      "stat3Label": "Expectativa de vida (anos)",
-      "p1": "O sistema de saúde da Suíça é consistentemente classificado entre os melhores do mundo. Com cobertura universal obrigatória, hospitais líderes mundiais e uma densidade médica que supera a maioria das nações, os residentes têm acesso a cuidados médicos excepcionais. Centros de destaque como o Universitatsspital Zurich e o Hirslanden oferecem tratamentos de ponta e programas de saúde executiva.",
-      "p2": "Para famílias em processo de relocação, a Suíça oferece a paz de espírito de saber que a saúde de sua família está nas melhores mãos possíveis. Programas de check-up executivo, redes de médicos especialistas e serviços médicos multilíngues integrados garantem que a saúde nunca seja uma preocupação."
+      "title": "Preparação dos cuidados de saúde",
+      "subtitle": "Plano de continuidade do cuidado como parte do movimento",
+      "stat1": "Cobertura",
+      "stat1Label": "Confirmar as obrigações de seguro e as datas de início",
+      "stat2": "Cuidado",
+      "stat2Label": "Organizar a continuidade do tratamento em curso",
+      "stat3": "Orçamento",
+      "stat3Label": "Comparar prémios e custos pessoais",
+      "p1": "A residência suíça normalmente exige a obtenção de um seguro de saúde, com exceções dependendo das circunstâncias. Confirmar a posição de cada membro da família, o prazo e a data efetiva através da autoridade ou seguradora relevantes. Incluir prémios e partilha de custos pessoais no orçamento das famílias.",
+      "p2": "Antes da chegada, identificar as prescrições existentes, o tratamento em curso e os registros que um novo clínico precisará. Pergunte aos provedores sobre disponibilidade de compromissos e necessidades linguísticas. A cobertura e as decisões clínicas pertencem às seguradoras e profissionais de saúde."
     },
     "tax": {
-      "title": "Sistema Tributário",
-      "subtitle": "Competitivo, transparente e protegido democraticamente",
-      "stat1": "78%",
-      "stat1Label": "Votaram contra o imposto sobre fortuna (nov. 2025)",
-      "stat2": "26",
-      "stat2Label": "Cantões competindo por residentes",
-      "stat3": "11,9%",
-      "stat3Label": "Menor taxa de imposto corporativo cantonal",
-      "p1": "O sistema tributário da Suíça beneficia-se de uma característica única: a competição cantonal. Com 26 cantões definindo suas próprias taxas de impostos, indivíduos e empresas podem escolher locais que se alinhem aos seus objetivos financeiros. Cantões como Zug e Schwyz oferecem algumas das menores taxas de impostos pessoais e corporativos do mundo desenvolvido.",
-      "p2": "O regime de tributação por montante global (forfait fiscal) permite que estrangeiros qualificados sejam tributados com base em suas despesas de subsistência, em vez da renda mundial — uma vantagem significativa para indivíduos de alto patrimônio. Em novembro de 2025, os cidadãos suíços votaram 78% contra a introdução de um imposto federal sobre a riqueza, reafirmando o compromisso do país com a proteção do patrimônio privado através de mandato democrático."
+      "title": "Planejamento fiscal pessoal e empresarial",
+      "subtitle": "Compare cenários completos com conselheiros qualificados",
+      "stat1": "26",
+      "stat1Label": "Sistemas cantonais a considerar",
+      "stat2": "Família",
+      "stat2Label": "Modelo de rendimento, activos e circunstâncias",
+      "stat3": "Negócios",
+      "stat3Label": "Avaliar operações e gestão separadamente",
+      "p1": "Compare os mesmos fatos entre os municípios listados: renda familiar, bens, circunstâncias familiares e o plano de negócios real. Residência pessoal e localização da empresa precisam de análise separada. Solicitar um cálculo escrito com pressupostos e o ano fiscal aplicável, em vez de escolher entre uma taxa nominal.",
+      "p2": "A tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam."
     },
     "qualityOfLife": {
-      "title": "Qualidade de Vida",
-      "subtitle": "Segurança, infraestrutura e beleza natural sem concessões",
-      "stat1": "#1",
-      "stat1Label": "Qualidade de vida global",
-      "stat2": "3 principais",
-      "stat2Label": "Países mais seguros do mundo",
-      "stat3": "99,9%",
-      "stat3Label": "Pontualidade do transporte público",
-      "p1": "A Suíça é consistentemente classificada como o país número 1 do mundo em qualidade de vida. Das paisagens alpinas imaculadas às cidades impecavelmente mantidas, cada aspecto da vida cotidiana reflete um compromisso com a excelência. O sistema de transporte público — que conecta cada vilarejo, cidade e metrópole — opera com a lendária precisão suíça.",
-      "p2": "A segurança não é apenas uma estatística na Suíça; é uma experiência vivida. Crimes violentos são virtualmente inexistentes, a segurança pessoal é garantida e a infraestrutura social — de parques e espaços públicos a instituições culturais — é mantida no mais alto padrão. Para famílias que vêm de regiões com preocupações de segurança, a Suíça oferece uma transformação na qualidade de vida diária."
+      "title": "Teste a vida cotidiana",
+      "subtitle": "Os detalhes práticos decidem se um local se encaixa",
+      "stat1": "Execução escolar",
+      "stat1Label": "Visita no momento em que você viajaria",
+      "stat2": "Dia útil",
+      "stat2Label": "Check office e viagens ao aeroporto",
+      "stat3": "Fim de semana",
+      "stat3Label": "Explore os lugares que sua família usaria",
+      "p1": "Use uma visita de reconhecimento para testar a semana normal. Veja lojas, transportes, atividades, rotas escolares e acesso aos serviços em que confia. Compare um apartamento perto do trabalho com uma casa maior que requer mais viagens.",
+      "p2": "Orçamento utilizando as actuais consultas de habitação, informações escolares e cotações de seguro. Manter os depósitos, os custos recorrentes e as despesas extraordinárias de deslocalização separadas. O planejador de orçamento de realocação permite comparar Zurique, Zug e Schwyz usando seus próprios números."
     },
     "business": {
-      "title": "Ambiente de Negócios",
-      "subtitle": "Onde o comércio global encontra a precisão suíça",
-      "stat1": "1-2 semanas",
-      "stat1Label": "Prazo para formação de empresa",
-      "stat2": "#1",
-      "stat2Label": "Proteção de PI no mundo",
-      "stat3": "120+",
-      "stat3Label": "Acordos comerciais bilaterais",
-      "p1": "A Suíça oferece um dos ambientes mais favoráveis aos negócios no mundo. A formação de uma empresa pode ser concluída em apenas uma ou duas semanas, a proteção da propriedade intelectual é a mais forte globalmente e a rede do país com mais de 120 acordos comerciais bilaterais oferece acesso contínuo ao mercado único da UE e além.",
-      "p2": "A força de trabalho suíça está entre as mais instruídas e produtivas do mundo, com uma forte tradição de discrição e profissionalismo. Para empreendedores e family offices que estabelecem operações na Suíça, a combinação de estabilidade política, segurança jurídica, proteção de PI e acesso ao mercado cria uma base incomparável para o crescimento dos negócios."
+      "title": "Uma base suíça para empresários",
+      "subtitle": "Conecte o modelo operacional com o movimento do fundador",
+      "stat1": "Actividade",
+      "stat1Label": "Defina o que acontecerá na Suíça",
+      "stat2": "Permissão",
+      "stat2Label": "Confirmar o direito de viver e trabalhar",
+      "stat3": "Governação",
+      "stat3Label": "Atribuir responsabilidades antes do lançamento",
+      "p1": "Um movimento de negócios começa com as atividades propostas: gestão, funcionários, clientes, contratos, ativos e financiamento. Peça aos especialistas que comparem estruturas adequadas e implicações transfronteiriças. Uma empresa pode ser incorporada sem resolver todas as questões de imigração, impostos, bancos ou licenciamento.",
+      "p2": "Antes de uma saída ou reestruturação, coordene conselheiros no país de partida e na Suíça. Gravar os trabalhos pretendidos após a transacção, a propriedade retida e quaisquer pagamentos diferidos. Construir a família mover-se em torno de fatos avaliados e dependências confirmadas."
     },
     "trustStrip": [
-      "500+ anos de neutralidade",
-      "N.º 1 em private banking",
-      "78% votaram contra o imposto sobre patrimônio"
+      "Ajudar as pessoas a moverem-se desde 2012",
+      "Escritórios em Zurique, Zug e Schwyz",
+      "Planejamento familiar e empresarial em conjunto"
     ]
   },
   "cantonsPage": {
     "meta": {
-      "title": "Compare os Cantões Suíços — Zurique vs Zug vs Schwyz para Relocação",
-      "description": "Comparação interativa dos cantões de Zurique, Zug e Schwyz. Compare taxas de impostos, estilo de vida, escolas internacionais, serviços bancários e mercado imobiliário para sua relocação na Suíça."
+      "title": "Zurique, Zug ou Schwyz? Compare Cantões para um movimento suíço",
+      "description": "Compare Zurique, Zug e Schwyz para deslocalização da família HNW e empreendedorismo: planejamento fiscal municipal, escolas, operações empresariais e habitação."
     },
     "hero": {
       "title": "Comparação de Cantões",
-      "subtitle": "Escolha o cantão suíço ideal para sua família, negócios e estilo de vida"
+      "subtitle": "Compare uma casa real, escola e local de negócios para seu movimento suíço"
     },
     "filter": {
       "all": "Todos os Cantões",
@@ -175,7 +175,7 @@
       "schwyz": "Schwyz"
     },
     "sections": {
-      "taxRates": "Taxas de Impostos",
+      "taxRates": "Planeamento fiscal",
       "lifestyle": "Estilo de Vida e Caráter",
       "schools": "Escolas Internacionais",
       "banking": "Infraestrutura Bancária",
@@ -184,103 +184,102 @@
     },
     "zurich": {
       "name": "Zurique",
-      "tagline": "Cidade global, capital cultural",
+      "tagline": "Vida da cidade e conexões de negócios",
       "tax": {
-        "corporate": "Aprox. 19,7% de taxa corporativa efetiva",
-        "personal": "Até 39,8% de taxa marginal máxima (combinada)",
-        "lumpSum": "CHF 400.000+ base tributável mínima"
+        "corporate": "Modele as atividades reais da empresa e o município proposto.",
+        "personal": "Comparar renda e tributação da riqueza para o agregado familiar; utilizar o município pretendido.",
+        "lumpSum": "Zurique aboliu a tributação baseada em despesas cantonais em 2010."
       },
       "lifestyle": {
         "character": "Cosmopolita, culturalmente rica, urbana",
-        "international": "Grande comunidade internacional (30%+ de residentes estrangeiros)",
+        "international": "Cidade internacional e municípios vizinhos com diferentes rotinas diárias.",
         "culture": "Ópera, galerias de arte, gastronomia com estrelas Michelin, vida à beira do lago",
-        "transport": "Aeroporto internacional, excelentes conexões ferroviárias"
+        "transport": "Verifique a viagem da casa específica para o aeroporto, escritório e escola."
       },
       "schools": {
         "list": [
-          "Inter-Community School Zurich (ICS)",
-          "Zurich International School (ZIS)",
-          "Swiss International School",
-          "Lyceum Alpinum Zuoz (nas proximidades)"
+          "Escola Intercomunitária Zurique (Zumikon)",
+          "Escola Internacional de Zurique (verifique o campus para o grau da criança)",
+          "SIS Zürich-Wollishofen (infantaria e primária)"
         ]
       },
-      "bankingInfo": "Sede do UBS, Credit Suisse (agora UBS), Julius Baer e dezenas de bancos privados boutique. Serviços bancários completos para criptoativos disponíveis (SEBA, Sygnum).",
+      "bankingInfo": "Comparar bancos privados, bancos corporativos e acesso de consultoria existente. Confirmar diretamente os critérios de cliente de cada instituição e os arranjos de serviço.",
       "realEstate": {
-        "range": "CHF 15.000–35.000/m² (centro nobre), CHF 8.000–15.000/m² (subúrbios do Lago de Zurique)",
-        "lexKoller": "A Lex Koller se aplica: residentes não suíços requerem autorização para propriedades residenciais. Detentores de visto B podem adquirir residência primária."
+        "range": "Preço uma lista atual de cidades, lagos e casas suburbanas; incluem transporte, financiamento e custos de transação.",
+        "lexKoller": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar."
       },
       "bestFor": {
-        "profile": "O profissional urbano, empreendedor digital ou família que busca cultura e conectividade de classe mundial",
-        "ideal": "Ideal para: empreendedores de cripto, executivos corporativos, famílias que valorizam o estilo de vida urbano"
+        "profile": "Empresários e famílias que priorizam o acesso a uma cidade, locais de trabalho e opções de educação.",
+        "ideal": "Compare Zurique com os municípios reais em torno de sua escola ou local de trabalho escolhido."
       }
     },
     "zug": {
       "name": "Zug",
-      "tagline": "Paraíso fiscal, vale das criptos",
+      "tagline": "Base de negócios e vida à beira do lago",
       "tax": {
-        "corporate": "Aprox. 11,9% de taxa corporativa efetiva",
-        "personal": "Até 22,4% de taxa marginal máxima (combinada)",
-        "lumpSum": "CHF 250.000+ base tributável mínima"
+        "corporate": "Comparar o município proposto, lucro tributável e operações reais suíças.",
+        "personal": "Solicitar um cálculo das famílias, incluindo renda, ativos e o município proposto.",
+        "lumpSum": "No ano fiscal de 2026, a base mínima federal é CHF 435.000, não o imposto a pagar. Contam também as despesas de vida mundiais e os mínimos legais ligados à habitação. Um cálculo de controlo separado pode aumentar o imposto sobre certos rendimentos suíços e estrangeiros com benefícios de convenção. Os impostos cantonais sobre rendimento e património exigem cálculo próprio."
       },
       "lifestyle": {
         "character": "Compacta, próspera, à beira do lago, discreta",
-        "international": "Altamente internacional (35%+ de residentes estrangeiros, forte comunidade de expatriados)",
+        "international": "Uma comunidade empresarial internacional em Zug, Baar, Cham e municípios vizinhos.",
         "culture": "Elegante cidade lacustre, próxima às montanhas e a Zurique",
-        "transport": "30 minutos do Aeroporto de Zurique, excelente rede ferroviária"
+        "transport": "Verifique viagens porta-a-porta; Zug cidade, Baar e Cham são diferentes pontos de partida."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (ISZL)",
+          "ISZL (campus de Baar e Hünenberg; local de verificação)",
           "Institut Montana Zugerberg",
-          "Swiss International School"
+          "SIS Rotkreuz-Zug"
         ]
       },
-      "bankingInfo": "Ecossistema do Crypto Valley com bancos nativos em blockchain. Private banking tradicional através de filiais locais dos principais bancos suíços. Concentração de family offices perdendo apenas para Genebra.",
+      "bankingInfo": "Avaliar o acesso a consultores bancários e profissionais em torno das necessidades reais do negócio. A actividade de activos digitais e as estruturas no estrangeiro exigem controlos de aceitação específicos das instituições.",
       "realEstate": {
-        "range": "CHF 12.000–25.000/m² (cidade de Zug), CHF 8.000–14.000/m² (vilarejos vizinhos)",
-        "lexKoller": "A Lex Koller se aplica. Detentores de visto B podem adquirir residência primária. Zug possui requisitos locais adicionais para algumas comunas."
+        "range": "Solicitar listagens atuais em Zug, Baar e Cham; comparar espaço, condição e o orçamento mensal completo ou aquisição.",
+        "lexKoller": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar."
       },
       "bestFor": {
-        "profile": "O empreendedor que busca otimização fiscal, family offices ou fundadores de cripto/fintech em busca da menor carga tributária possível",
-        "ideal": "Ideal para: family offices, candidatos ao forfait fiscal, empreendedores de tecnologia"
+        "profile": "Fundadores e famílias pesando uma base de negócios compacta contra as necessidades de escola, habitação e viagens.",
+        "ideal": "Compare as operações propostas pela empresa separadamente do endereço da família."
       }
     },
     "schwyz": {
       "name": "Schwyz",
-      "tagline": "Riqueza discreta, serenidade alpina",
+      "tagline": "Lago e comunidades de montanha",
       "tax": {
-        "corporate": "Aprox. 14,1% de taxa corporativa efetiva",
-        "personal": "Até 21,3% de taxa marginal máxima (combinada)",
-        "lumpSum": "CHF 200.000+ base tributável mínima"
+        "corporate": "Modele o município selecionado e os fatos de gestão e operação da empresa.",
+        "personal": "Compare o município específico: uma única taxa de cantão não descreve a conta doméstica.",
+        "lumpSum": "No ano fiscal de 2026, a base mínima federal é CHF 435.000, não o imposto a pagar. Contam também as despesas de vida mundiais e os mínimos legais ligados à habitação. Um cálculo de controlo separado pode aumentar o imposto sobre certos rendimentos suíços e estrangeiros com benefícios de convenção. Os impostos cantonais sobre rendimento e património exigem cálculo próprio."
       },
       "lifestyle": {
-        "character": "Rural, tradicional, supremamente privada",
-        "international": "Comunidade internacional menor, muito discreta",
+        "character": "Cidades lacustres, comunidades de montanha e zonas rurais",
+        "international": "Diferentes comunidades ao redor do Lago Zurique, Lago Lucerne e áreas interiores do cantão.",
         "culture": "Paisagens alpinas, vista para o lago, charme tradicional suíço",
-        "transport": "45 minutos do Aeroporto de Zurique, trajeto panorâmico"
+        "transport": "As viagens de teste do município escolhido; Küssnacht e Pfäffikon SZ servem rotas diferentes."
       },
       "schools": {
         "list": [
-          "International School of Zug and Luzern (campus de Hünenberg, próximo)",
-          "Institut Montana (próximo)",
-          "Stiftsschule Einsiedeln"
+          "ISZL (Baar ou Hünenberg dependendo do grau; teste a viagem)",
+          "Institut Montana Zugerberg (verifique as modalidades de viagem ou de embarque)",
+          "Stiftsschule Einsiedeln (programa de verificação e admissões)"
         ]
       },
-      "bankingInfo": "Private banking através do banco cantonal de Schwyz e filiais de grandes bancos. Menor densidade institucional que Zurique ou Zug, mas ideal para quem valoriza privacidade absoluta.",
+      "bankingInfo": "Compare o acesso bancário local com reuniões em Zug ou Zurique. A localização não substitui a avaliação do banco sobre residência, propriedade, estado fiscal e transações esperadas.",
       "realEstate": {
-        "range": "CHF 6.000–14.000/m² (beira-lago), CHF 4.000–8.000/m² (vilarejos do interior)",
-        "lexKoller": "A Lex Koller se aplica. Preços geralmente mais acessíveis que Zurique ou Zug, com taxas de impostos comparáveis ou menores."
+        "range": "Compare as residências atuais no município particular; o acesso ao lago, tamanho e condição importam mais do que uma gama geral de preços cantão.",
+        "lexKoller": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar."
       },
       "bestFor": {
-        "profile": "A família ou indivíduo focado em privacidade que busca os menores impostos com um estilo de vida alpino e total discrição",
-        "ideal": "Ideal para: famílias multigeracionais, indivíduos focados em privacidade, aposentados"
+        "profile": "Famílias e clientes privados comparando uma base de lago ou montanha com acesso prático ao trabalho e escolas.",
+        "ideal": "Shortlist Küssnacht, Pfäffikon SZ ou uma comunidade interior usando suas viagens diárias reais."
       }
     },
     "otherTaxEfficient": {
       "eyebrow": "Lista alargada",
-      "title": "Outros cantões fiscalmente eficientes a considerar",
-      "subtitle": "Estes cantões não são os três principais pontos de comparação, mas muitas vezes pertencem a uma shortlist séria de fiscalidade e estilo de vida.",
-      "taxEfficient": "Fiscalmente eficiente",
+      "title": "Outros cantões da Suíça Central para comparar",
+      "subtitle": "Use os mesmos pressupostos domésticos e empresariais, depois teste as viagens de escola e de trabalho em cada local.",
+      "taxEfficient": "Comparar localmente",
       "labels": {
         "corporate": "Empresas",
         "personal": "Imposto pessoal",
@@ -290,27 +289,27 @@
       "items": [
         {
           "name": "Nidwalden",
-          "tagline": "Baixa tributação, discrição, perto de Lucerna e Zurique.",
-          "corporate": "Cerca de 11,9% de taxa efetiva de imposto sobre empresas.",
-          "personal": "Baixa carga fiscal pessoal, especialmente em torno de Hergiswil e Stans.",
-          "schoolAccess": "Bom acesso a opções escolares em Lucerna, Zug e Zurique.",
-          "bestFor": "Empreendedores e family offices que querem eficiência parecida com Zug numa base mais tranquila."
+          "tagline": "Compare Stans e Hergiswil em torno de viagens diárias.",
+          "corporate": "Solicitar um cálculo para o município e atividades empresariais propostos.",
+          "personal": "Comparar renda familiar e riqueza utilizando os mesmos pressupostos entre os municípios.",
+          "schoolAccess": "Verifique a provisão pública local e a viagem para qualquer campus internacional selecionado.",
+          "bestFor": "Fundadores e famílias considerando uma base perto de Lucerne com acesso à Suíça Central."
         },
         {
           "name": "Obwalden",
-          "tagline": "Opção tranquila entre Alpes e lago, com forte atratividade fiscal.",
-          "corporate": "Cerca de 12,7% de taxa efetiva de imposto sobre empresas.",
-          "personal": "Taxas pessoais atrativas e municípios focados em discrição.",
-          "schoolAccess": "Funciona melhor com planeamento escolar em Lucerna ou Zug.",
-          "bestFor": "Famílias focadas em privacidade que priorizam baixa tributação, espaço e discrição em vez de densidade urbana."
+          "tagline": "Compare Sarnen e outras comunidades usando uma verdadeira lista de usuários.",
+          "corporate": "Solicitar um cálculo para o município e atividades empresariais propostos.",
+          "personal": "Comparar renda familiar e riqueza utilizando os mesmos pressupostos entre os municípios.",
+          "schoolAccess": "Teste a linguagem da escola, admissão e viagens antes de escolher um lar.",
+          "bestFor": "Famílias comparando uma base alpina ou à beira do lago com o trabalho e viagem escolar."
         },
         {
           "name": "Lucerna",
-          "tagline": "Estilo de vida equilibrado com eficiência fiscal prática.",
-          "corporate": "Cerca de 12,2% de taxa efetiva de imposto sobre empresas.",
-          "personal": "Imposto pessoal moderado a atrativo, com infraestrutura urbana mais forte.",
-          "schoolAccess": "Forte infraestrutura familiar e acesso à ISZL e às escolas da Suíça central.",
-          "bestFor": "Famílias que querem uma base habitável com saúde, escolas, acesso ao aeroporto e impostos ainda competitivos."
+          "tagline": "Compare a cidade de Lucerne com os municípios circundantes.",
+          "corporate": "Solicitar um cálculo para o município e atividades empresariais propostos.",
+          "personal": "Comparar renda familiar e riqueza utilizando os mesmos pressupostos entre os municípios.",
+          "schoolAccess": "Avaliar as escolas públicas locais e o campus atual e grau de opções internacionais.",
+          "bestFor": "Famílias e empresários que querem avaliar uma base urbana na Suíça Central."
         }
       ]
     },
@@ -318,202 +317,76 @@
       "corporate": "Empresarial",
       "personalIncome": "Rendimento pessoal",
       "lumpSum": "Imposto fixo",
-      "priceRange": "Faixa de preço",
+      "priceRange": "Orçamento da habitação",
       "lexKoller": "Lex Koller"
     }
   },
   "caseStudiesPage": {
     "meta": {
-      "title": "Estudos de Caso de Clientes — Move to Switzerland",
-      "description": "Estudos de caso anonimizados de relocações bem-sucedidas para a Suíça. Saiba como empreendedores, famílias e family offices navegam na jornada para a Suíça."
-    },
-    "hero": {
-      "title": "Jornadas de Clientes",
-      "subtitle": "Estudos de caso anonimizados de relocações reais"
-    },
-    "disclaimer": "Todos os estudos de caso são anonimizados. Nomes, detalhes de identificação e valores específicos foram alterados para proteger a confidencialidade do cliente.",
-    "cases": {
-      "techFounder": {
-        "title": "O Fundador de Tecnologia",
-        "subtitle": "De Dubai para Zug em 9 meses",
-        "quote": "Precisávamos de uma jurisdição que entendesse tanto o nosso modelo de negócio digital quanto as necessidades de segurança de longo prazo da nossa família. A Suíça entregou ambos.",
-        "profile": "Empreendedor de tecnologia baseado em Dubai, família de 4 pessoas, pós-saída (exit) com evento de liquidez significativo",
-        "timeline": {
-          "month1": "Consultoria inicial e avaliação de cantões",
-          "month2": "Reestruturação de ativos pré-imigração",
-          "month3": "Início da negociação de forfait fiscal com as autoridades de Zug",
-          "month4": "Solicitação de visto B submetida",
-          "month5": "Vaga garantida em escola internacional (ISZL)",
-          "month6": "Aquisição de imóvel — propriedade à beira-lago em Zug",
-          "month7": "Estabelecimento de relação bancária com private bank suíço",
-          "month8": "Execução da mudança da família",
-          "month9": "Estrutura de family office estabelecida, todos os serviços operacionais"
-        },
-        "challenges": [
-          "Estrutura corporativa multijurisdicional complexa exigindo reestruturação",
-          "Ativos em criptoativos exigindo documentação bancária especializada",
-          "Colocação escolar no meio do ano letivo",
-          "Coordenação da transição de dupla residência fiscal"
-        ],
-        "services": [
-          "Estruturação de Ativos Pré-Imigração",
-          "Tributação por Montante Global (Forfait Fiscal)",
-          "Residência e Imigração",
-          "Estabelecimento de Family Office",
-          "Assessoria Imobiliária",
-          "Coordenação de Estilo de Vida"
-        ],
-        "outcome": "Relocação familiar completa concluída. Forfait fiscal aprovado. Filhos matriculados na ISZL. Family office operacional com estrutura de governança suíça. Honorários: não revelados."
-      },
-      "bankingFamily": {
-        "title": "A Família do Setor Bancário",
-        "subtitle": "De Beirute para Schwyz — relocação de emergência",
-        "quote": "Quando os bancos colapsaram, tivemos 72 horas para tomar uma decisão. Nossos assessores já tinham a infraestrutura suíça pronta.",
-        "profile": "Família libanesa, 3 gerações, portfólio significativo em bancos e imóveis, circunstâncias de emergência",
-        "timeline": {
-          "week1": "Consultoria de emergência — avaliação de ameaça imediata",
-          "week2": "Início do processo acelerado de visto B",
-          "month1": "Acomodação temporária garantida em Schwyz",
-          "month2": "Integração bancária (ativos transferidos de participações não libanesas)",
-          "month3": "Residência permanente estabelecida",
-          "month4": "Filhos matriculados em escola internacional",
-          "month6": "Reestruturação patrimonial concluída",
-          "month9": "Assentamento completo — as três gerações estabelecidas",
-          "month12": "Retenção contínua — gestão patrimonial e planejamento sucessório"
-        },
-        "challenges": [
-          "Cronograma de emergência exigindo processamento paralelo de todas as etapas",
-          "Estrutura patrimonial multigeracional complexa",
-          "Ativos retidos no sistema bancário libanês",
-          "Três gerações com diferentes necessidades de residência e cuidados"
-        ],
-        "services": [
-          "Residência e Imigração",
-          "Private Banking e Gestão de Patrimônio",
-          "Assessoria Imobiliária",
-          "Estabelecimento de Family Office",
-          "Concierge de Saúde e Bem-estar",
-          "Coordenação de Estilo de Vida"
-        ],
-        "outcome": "As três gerações relocadas com sucesso. Relações de private banking estabelecidas. Patrimônio reestruturado sob governança suíça. Contrato de planejamento sucessório contínuo em vigor."
-      },
-      "digitalNomad": {
-        "title": "O Nômade Digital",
-        "subtitle": "De Riade para Zurique em 4 meses",
-        "quote": "Eu precisava de um país que tratasse as criptos como uma classe de ativos legítima e oferecesse infraestrutura real para construir um negócio. Zurique foi a escolha óbvia.",
-        "profile": "Saudita de 34 anos, portfólio significativo de criptomoedas, trader ativo e investidor, solteiro",
-        "timeline": {
-          "month1": "Consultoria, seleção de cantão, estratégia de documentação de riqueza cripto",
-          "month15": "Solicitação de visto B com documentação detalhada da origem da riqueza",
-          "month2": "Formação de empresa (GmbH suíça) para operações de consultoria",
-          "month3": "Configuração bancária amigável a cripto (SEBA Bank + private bank tradicional)",
-          "month4": "Apartamento garantido em Zurique, relocação completa concluída"
-        },
-        "challenges": [
-          "Documentação da cadeia de riqueza cripto, desde a mineração até o portfólio atual",
-          "Busca de parceiros bancários confortáveis com 90%+ de riqueza derivada de cripto",
-          "Navegação na classificação tributária suíça para trading ativo vs. investimento",
-          "Visto B para cidadão não pertencente à UE com perfil de riqueza não tradicional"
-        ],
-        "services": [
-          "Residência e Imigração",
-          "Formação de Empresas e Estruturação Corporativa",
-          "Private Banking e Gestão de Patrimônio",
-          "Coordenação de Estilo de Vida"
-        ],
-        "outcome": "Visto B concedido. GmbH suíça operacional. Relação bancária dupla (cripto + tradicional) estabelecida. Estrutura de conformidade completa para trading contínuo. 4 meses do início ao fim."
-      },
-      "gulfFamilyOffice": {
-        "title": "O Family Office do Golfo",
-        "subtitle": "Family office kuwaitiano — SFO suíço estabelecido",
-        "quote": "Tínhamos gestão de patrimônio em quatro jurisdições, mas nenhuma governança unificada. A Suíça nos deu a estrutura que nossa família precisava para a próxima geração.",
-        "profile": "Family office kuwaitiano, CHF 200M+ AUM, multigeracional, operando no GCC, Londres e Suíça",
-        "timeline": {
-          "month1": "Escopo: auditoria de governança, revisão jurisdicional, avaliação da carta familiar",
-          "month2": "Estrutura de SFO suíço desenhada — AG incorporada em Zug",
-          "month3": "Formação do conselho — nomeação de 3 diretores independentes residentes na Suíça",
-          "month4": "Comitê de investimento estabelecido, mandatos bancários reestruturados",
-          "month5": "Estrutura de governança documentada e ratificada pelo conselho familiar",
-          "month6": "Operacional — todas as linhas de reporte, conformidade e auditoria ativas",
-          "ongoing": "Retenção contínua: reuniões trimestrais do conselho, revisão anual de governança, assessoria ad-hoc"
-        },
-        "challenges": [
-          "Alinhamento das expectativas de governança entre três gerações com filosofias diferentes",
-          "Consolidação de reportes de quatro jurisdições em uma estrutura suíça unificada",
-          "Colocação de diretores independentes qualificados que entendessem as culturas de negócios suíça e do GCC",
-          "Desenho de uma estrutura de sucessão aceitável para todos os ramos da família"
-        ],
-        "services": [
-          "Estabelecimento de Family Office",
-          "Diretoria Independente e Serviços de Conselho",
-          "Formação de Empresas e Estruturação Corporativa",
-          "Private Banking e Gestão de Patrimônio"
-        ],
-        "outcome": "SFO suíço totalmente operacional em Zug. 3 diretores independentes nomeados. Estrutura de governança ratificada por todos os ramos da família. Relatórios consolidados de todas as jurisdições. Retenção contínua para governança trimestral e revisão anual."
-      }
-    },
-    "labels": {
-      "case": "Caso",
-      "timeline": "Cronologia",
-      "month": "Mês",
-      "week": "Semana",
-      "ongoing": "Em andamento",
-      "keyChallenges": "Principais desafios",
-      "servicesEngaged": "Serviços envolvidos",
-      "outcome": "Resultado"
+      "title": "Quem Atendemos | Move to Switzerland",
+      "description": "Diferentes planos para empresários ativos, riqueza privada e vida familiar"
     }
   },
   "services": {
     "title": "Nossos Serviços",
-    "subtitle": "Assessoria abrangente em todas as dimensões da sua relocação",
+    "subtitle": "Plano de relocalização para a riqueza privada, empresas activas e famílias internacionais",
     "learnMore": "Saiba mais",
     "pageTitle": "Serviços",
-    "pageSubtitle": "Assessoria de ponta a ponta para sua relocação na Suíça",
+    "pageSubtitle": "Coordene as prioridades de residência, negócios e família suíças",
     "items": {
       "assetStructuring": {
-        "title": "Estruturação de Ativos Pré-Imigração",
-        "description": "Realização de ganhos antes da residência suíça; reestruturação de participações societárias, trusts e estruturas corporativas nos Emirados Árabes; documentação completa da origem da riqueza.",
-        "detail": "Trabalhamos com seus assessores atuais para garantir que sua estrutura de ativos seja otimizada antes de você estabelecer residência fiscal na Suíça. Isso inclui a revisão de participações acionárias, arranjos de trust e estruturas corporativas nos Emirados Árabes Unidos e além, garantindo uma documentação limpa da origem da riqueza que satisfaça os requisitos bancários e fiscais suíços."
+        "title": "Pré-Imigração Imposto e Planejamento de Ativos",
+        "description": "Mapear propriedade empresarial, investimentos e transações planejadas antes de se mover. Coordene o conselho fiscal suíço e do país de partida.",
+        "detail": "Antes da residência fiscal suíça, identifique participações, trusts, pensões, imóveis, dívidas, vendas previstas e países envolvidos. Reúna títulos, avaliações e comprovativos da origem do património. Especialistas atuais e suíços devem avaliar impostos de saída, residência convencional e transações. Vender antes da chegada não é automaticamente isento; estruturas estrangeiras podem receber outro tratamento.",
+        "seoTitle": "Planejamento fiscal pré-imigração para HNWIs & Fundadores"
       },
       "lumpSum": {
         "title": "Tributação por Montante Global (Forfait Fiscal)",
-        "description": "Negociação completa da decisão fiscal cantonal; determinação da base tributável; gestão contínua de conformidade anual.",
-        "detail": "O regime de tributação por montante global da Suíça oferece a indivíduos qualificados uma base tributária calculada sobre as despesas de subsistência, em vez da renda mundial. Lidamos com toda a negociação com as autoridades cantonais, determinamos a base tributável ideal e gerenciamos a conformidade anual para garantir que seu acordo permaneça regularizado."
+        "description": "Avaliar a elegibilidade em matéria de tributação baseada nas despesas, as exigências do cantão e a comparação com a tributação suíça normal.",
+        "detail": "A tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam.",
+        "seoTitle": "Tributação Suíço Lump-Sum para Clientes Privados Elegíveis"
       },
       "residency": {
         "title": "Residência e Imigração",
-        "description": "Assessoria na seleção do cantão; gestão da solicitação de visto B; planejamento de inclusão familiar; caminho para o visto C e cidadania.",
-        "detail": "Escolher o cantão certo é talvez a decisão mais consequente em sua relocação. Assessoramos na seleção com base em sua situação fiscal, preferências de estilo de vida e necessidades familiares. Gerenciamos então todo o processo de visto B, inclusão familiar e traçamos o caminho para o visto C e eventual cidadania suíça."
+        "description": "Avaliar opções de residência e trabalho suíços para empresários, clientes privados e famílias antes de assumir compromissos de relocalização.",
+        "detail": "Os cidadãos UE/EFTA podem ser admitidos por emprego, atividade independente ou residência sem atividade remunerada. Esta última exige recursos suficientes e seguros adequados de saúde e acidentes. A duração da autorização depende do fundamento de admissão. Entregue os documentos pedidos localmente; não existe prazo nacional garantido.\n\nPara cidadãos de países terceiros, a base jurídica é avaliada individualmente. Emprego, atividade independente, reforma e admissões excecionais têm requisitos diferentes. Património, compra de imóvel, constituição de empresa ou decisão fiscal não conferem, por si, residência. Decidem as autoridades cantonais e, se necessário, federais. Solicite avaliação antes de assumir compromissos.",
+        "seoTitle": "Residência suíça para empresários e clientes privados"
       },
       "companyFormation": {
-        "title": "Formação de Empresas e Estruturação Corporativa",
-        "description": "Holdings suíças; estruturas de PI; coordenação com entidades nos Emirados Árabes; registro de IVA e conformidade.",
-        "detail": "Seja para uma holding suíça, uma estrutura de licenciamento de PI ou a coordenação entre suas entidades existentes nos Emirados Árabes e novas operações suíças, cuidamos de todo o processo. Isso inclui registro de IVA, conformidade corporativa e a garantia de que sua estrutura seja eficiente sob o ponto de vista fiscal e totalmente regular."
+        "title": "Formação da empresa & Relocalização de Negócios",
+        "description": "Coordene a configuração da empresa, a permissão de trabalho do fundador, a governança e questões fiscais transfronteiriças para uma base de negócios suíça.",
+        "detail": "Uma AG suíça exige CHF 100.000 de capital mínimo; na constituição devem ser realizados pelo menos 20% do nominal de cada ação e CHF 50.000 no total. Uma GmbH exige CHF 20.000 integralmente realizados. Representação residente na Suíça e deveres de governação, autorização e reporte devem ser organizados com especialistas.\n\nComece com o que o negócio realmente fará na Suíça: quem o gerencia, onde a equipe trabalha, quais clientes ele atende e quais contratos ou ativos podem mover. A incorporação de uma empresa está separada da obtenção do direito de trabalho do fundador. Peça a especialistas para avaliar folha de pagamento, seguro social, IVA, licenciamento e as implicações para as entidades existentes no exterior.\n\nNós coordenamos o fluxo de trabalho de relocalização com seus consultores corporativos e fiscais. O engajamento deve especificar quem lida com incorporação, banca, licenças e administração contínua.",
+        "seoTitle": "Formação e relocalização de empresas suíças para empresários"
       },
       "familyOffice": {
         "title": "Estabelecimento de Family Office",
-        "description": "Assessoria em single e multi-family offices; apresentações a bancos privados; estruturação de trusts e fundações; planejamento sucessório.",
-        "detail": "Para famílias que exigem uma infraestrutura dedicada de gestão de patrimônio, assessoramos no estabelecimento de single ou multi-family offices na Suíça. Isso inclui introduções aos principais bancos privados, estruturação de trusts e fundações para proteção de ativos e planejamento sucessório abrangente que considera as complexidades transfronteiriças."
+        "description": "Defina as necessidades de mandato, governança e relatórios do escritório suíço; coordene consultoria especializada, preparação bancária e relocalização familiar.",
+        "detail": "Comece com as necessidades da família: supervisão de investimento, relatórios consolidados, administração, sucessão ou suporte para uma empresa operacional. Compare uma equipe interna, provedores externos e um arranjo híbrido antes de se comprometer com uma entidade.\n\nA propriedade, clientes e atividades determinam quais questões regulatórias precisam ser avaliadas. Um rótulo de escritório da família não resolve obrigações de licenciamento. Concordar com a responsabilidade pelas decisões de investimento, custódia, consultoria fiscal e relatórios com os profissionais nomeados. Nós conectamos esse trabalho com a residência da família, casa e planos escolares.",
+        "seoTitle": "Configuração do Escritório da Família Suíça e Relocalização do UHNW"
       },
       "directorship": {
-        "title": "Diretoria Independente e Serviços de Conselho",
-        "description": "Nomeação de diretores residentes na Suíça; serviços de secretaria corporativa; suporte em governança e conformidade.",
-        "detail": "Muitas estruturas corporativas suíças exigem um diretor residente no país. Oferecemos diretores independentes qualificados, serviços de secretaria corporativa e suporte contínuo em governança para garantir que suas entidades suíças atendam a todos os requisitos regulatórios enquanto você foca em seus negócios."
+        "title": "Diretoria e Coordenação do Conselho",
+        "description": "Coordene a representação suíça, responsabilidades e administração ao lado de sua empresa e consultores de recolocação.",
+        "detail": "Um negócio suíço precisa de um acordo de governança adequado à sua forma jurídica e operações reais. Reveja a representação residente, a autoridade de assinatura, as funções do conselho de administração e registro mantendo com o conselho corporativo.\n\nUm representante residente não estabelece por si só toda a substância de que uma empresa pode necessitar para efeitos fiscais, bancários ou de licenciamento. Concordar por escrito com o mandato do director, o acesso à informação, a remuneração e as responsabilidades em curso.",
+        "seoTitle": "Coordenação de Diretoria e Governança Suíça"
       },
       "realEstate": {
         "title": "Assessoria Imobiliária",
-        "description": "Navegação na Lex Koller; acesso a propriedades fora do mercado; estruturação de aquisições; coordenação com cartórios.",
-        "detail": "As regulamentações imobiliárias suíças, particularmente as restrições da Lex Koller para compradores estrangeiros, exigem navegação especializada. Oferecemos acesso a propriedades exclusivas em locais premium, estruturamos aquisições para cumprir todas as normas e coordenamos com cartórios para garantir transações seguras."
+        "description": "Planeje uma busca domiciliar suíça em torno de elegibilidade de residência, rotas escolares e orçamento, com Lex Koller e perguntas de compra avaliadas por especialistas.",
+        "detail": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar.\n\nPara um primeiro movimento, compare alugar com comprar antes de se comprometer com um local. Construa a lista em torno do campus da escola, local de trabalho e viagens diárias. Solicitar informações sobre a propriedade atual e um orçamento total de aquisição, incluindo financiamento e custos profissionais.",
+        "seoTitle": "Consultoria de Propriedade e Relocalização Suíça para Clientes Privados"
       },
       "health": {
-        "title": "Concierge de Saúde e Bem-estar",
-        "description": "Configuração do seguro de saúde obrigatório; introdução a médicos especialistas; check-ups executivos; ligação médica.",
-        "detail": "O sistema de saúde suíço exige seguro obrigatório e pode ser complexo. Configuramos seu seguro, apresentamos você aos principais especialistas, agendamos check-ups executivos e servimos como seu contato médico contínuo para garantir que você e sua família recebam o melhor atendimento."
+        "title": "Coordenação Saúde e Bem-Estar",
+        "description": "Coordene a preparação de seguro de saúde e as introduções de cuidados de saúde em torno das necessidades médicas e de deslocalização da sua família.",
+        "detail": "Incluir os cuidados de saúde no plano de mudança antes da chegada. Identificar tratamento em curso, prescrições, necessidades de linguagem e os registros que o seu próximo clínico irá precisar. Confirmar as obrigações de seguro e datas de início para cada membro da família, incluindo qualquer exceção aplicável.\n\nAjudamos a coordenar as disposições práticas e as introduções. Os seguradores e prestadores de cuidados de saúde confirmam a cobertura, aceitação, disponibilidade e custos; as decisões médicas permanecem com seus clínicos.",
+        "seoTitle": "Suíço Seguro de Saúde & Assistência de Relocalização"
       },
       "lifestyle": {
-        "title": "Coordenação de Estilo de Vida e Acolhimento",
-        "description": "Colocação em escolas internacionais; autorizações para funcionários domésticos; programas de integração para cônjuges; introduções à comunidade; orientação cultural.",
-        "detail": "O sucesso de sua relocação vai muito além da papelada. Cuidamos da matrícula dos seus filhos em escolas internacionais, vistos de trabalho para funcionários domésticos, integração do cônjuge e apresentações à comunidade, além de orientação cultural completa para que sua família se sinta em casa na Suíça desde o primeiro dia."
+        "title": "Estabelecimento familiar e coordenação escolar",
+        "description": "Coordenar inquéritos escolares, habitação, orientação local e assentamento familiar, com admissões e permitir decisões confirmadas pelas instituições relevantes.",
+        "detail": "Comece com as idades dos seus filhos, as necessidades linguísticas e os planos de educação, e depois compare as opções escolares públicas e internacionais. Verifique os lugares e a viagem para o campus correto antes de se comprometer com uma casa. As decisões de admissão permanecem na escola.\n\nConstrua um plano de chegada prático para seguro, registro, transporte diário e conexões comunitárias. Se o pessoal doméstico pode mover-se com você, avaliar sua imigração e emprego posição separadamente antes de assumir compromissos.",
+        "seoTitle": "Relocalização da família suíça e coordenação escolar"
       }
     },
     "overview": "Visão Geral",
@@ -526,46 +399,46 @@
   },
   "clients": {
     "title": "Quem Atendemos",
-    "subtitle": "Nossa assessoria é personalizada para o seu perfil e objetivos específicos",
+    "subtitle": "Diferentes planos para empresários ativos, riqueza privada e vida familiar",
     "profiles": {
       "entrepreneur": {
-        "title": "O Empreendedor Estabelecido",
-        "age": "Idade 40–60",
-        "description": "Proprietários de empresas em fase de pré ou pós-saída que buscam estabelecer residência suíça antes de um evento de liquidez. Engajamento típico: 12–24 meses.",
+        "title": "Empreendedores e empresários",
+        "age": "Construção, escala ou preparação de uma saída",
+        "description": "Coordene o seu direito de trabalho, as operações da empresa e a mudança familiar. Antes de uma venda de negócios, solicite a aconselhamento de especialistas em ambos os países para avaliar o cronograma proposto e a estrutura de propriedade.",
         "tags": [
-          "Planejamento Pré-Saída",
-          "Estruturação de Ativos",
-          "Perda Fiscal"
+          "Licenças do Fundador",
+          "Substância comercial",
+          "Planeamento pré-saída"
         ]
       },
       "family": {
-        "title": "A Família em Relocação",
-        "age": "Filhos em idade escolar",
-        "description": "Famílias que priorizam segurança, educação e qualidade de vida. Relocação abrangente, incluindo escolas, saúde e integração comunitária.",
+        "title": "Famílias Internacionais",
+        "age": "Escola, casa e vida diária",
+        "description": "Alinhe a posição de residência de cada membro da família com os requisitos de admissão nas escolas, os cuidados de saúde e um local de moradia adequado. Compare escolas públicas e internacionais antes de assinar um contrato de arrendamento.",
         "tags": [
-          "Educação",
-          "Saúde",
-          "Comunidade"
+          "Escolha da Escola",
+          "Licenças Familiares",
+          "Colocando-se em"
         ]
       },
       "youngWealth": {
-        "title": "O Jovem Detentor de Patrimônio",
-        "age": "Idade 28–42",
-        "description": "Empreendedores digitais e detentores de patrimônio cripto que buscam uma jurisdição estável e amigável aos criptoativos com estilo de vida superior.",
+        "title": "Particulares com património elevado",
+        "age": "A riqueza privada e a vida após uma saída",
+        "description": "Planeie a sua estadia na Suíça tendo em conta os investimentos, a propriedade, os compromissos familiares e as atividades pretendidas. Consulte um especialista qualificado para rever o imposto de renda regular e, se aplicável, o imposto baseado nos gastos.",
         "tags": [
-          "Cripto",
-          "Ativos Digitais",
-          "Estilo de Vida"
+          "Riqueza Privada",
+          "Residência Fiscal",
+          "Preparação Bancária"
         ]
       },
       "familyOffice": {
-        "title": "O Family Office do Golfo",
-        "age": "Multigeracional",
-        "description": "Family offices estabelecidos que buscam um centro de governança europeu, planejamento sucessório e estruturação patrimonial de nível institucional.",
+        "title": "Family offices e famílias com grandes patrimónios",
+        "age": "Propriedade e sucessão transfronteiriças",
+        "description": "Coordenamos a mudança das famílias com grandes patrimónios com as funções do family office, os relatórios e os consultores atuais. Defina responsabilidades e requisitos regulamentares antes de escolher uma estrutura.",
         "tags": [
           "Governança",
-          "Sucessão",
-          "Institucional"
+          "Planejamento de Sucessão",
+          "Coordenação do Consultor"
         ]
       }
     }
@@ -603,9 +476,9 @@
     "pageSubtitle": "Independência, confidencialidade e profundidade de serviço",
     "story": {
       "title": "Nossa História",
-      "p1": "A Move to Switzerland foi fundada a partir de uma observação simples: indivíduos de alto patrimônio que se mudam do Oriente Médio para a Suíça enfrentam um cenário de assessoria desnecessariamente fragmentado. Assessores fiscais, advogados de imigração, agentes imobiliários e banqueiros privados operam isoladamente, deixando para o cliente a tarefa de coordená-los.",
-      "p2": "Criamos um ponto único de contato que orquestra toda a jornada de relocação — desde a estruturação de ativos pré-imigração até o primeiro dia de aula dos seus filhos. Nossos fundadores combinam profunda expertise jurídica e bancária suíça com experiência empreendedora prática em operações internacionais.",
-      "p3": "Cada projeto é tratado com a discrição e o rigor que nossos clientes esperam. Atendemos um número limitado de famílias por vez, garantindo que cada uma receba nossa total atenção."
+      "p1": "A mudança para a Suíça reúne decisões pessoais, familiares e empresariais. Indivíduos e empreendedores de alto valor líquido, muitas vezes, já têm conselheiros de confiança, mas ainda precisam de alguém para coordenar a mudança entre países e equipes especializadas.",
+      "p2": "Move to Switzerland — Desde 2012, ajudámos centenas de pessoas a mudar-se para a Suíça.",
+      "p3": "Temos escritórios em Zurique, Zug e Schwyz. As chamadas iniciais ocorrem online, com reuniões presenciais em Zurique. Concordamos com o âmbito da coordenação e as responsabilidades dos especialistas externos antes do início do trabalho."
     },
     "values": {
       "title": "Nossos Valores",
@@ -676,17 +549,17 @@
     }
   },
   "servicesMeta": {
-    "title": "Nossos Serviços — Move to Switzerland",
-    "description": "Serviços abrangentes de assessoria em todas as dimensões da sua relocação na Suíça."
+    "title": "Serviços de Relocalização Suíços para HNWIs & Empreendedores",
+    "description": "Planeje residência suíça, questões fiscais pré-move, formação da empresa, coordenação de escritório familiar, habitação e escolas com um contato de relocalização."
   },
   "insights": {
     "meta": {
-      "title": "Insights — Assessoria Move to Switzerland",
-      "description": "Opiniões de especialistas sobre relocação suíça, tributação, imóveis, bancos e estilo de vida para indivíduos e famílias de alto patrimônio."
+      "title": "Insights Suíços de Relocalização para HNWIs & Empreendedores",
+      "description": "Explore residência suíça, relocalização de fundadores, bancos privados, escritórios familiares, planejamento fiscal, propriedade e escolas com orientação prática e fontes oficiais."
     },
     "hero": {
       "title": "Guias e análises",
-      "subtitle": "Perspectivas de especialistas sobre relocação, tributação e gestão de patrimônio na Suíça"
+      "subtitle": "Leitura prática para empresários, indivíduos de alto valor e famílias internacionais planejando um movimento suíço"
     },
     "readMore": "Ler artigo",
     "author": "Equipe de Assessoria Move to Switzerland",
@@ -700,55 +573,42 @@
       "swiss-lump-sum-taxation-guide": {
         "category": "taxation",
         "categoryLabel": "Tributação",
-        "readTime": "12 min de leitura",
+        "readTime": "2 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Tributação por Montante Global na Suíça: Um Guia Completo para Residentes Estrangeiros",
-        "metaDescription": "Guia completo sobre a tributação por montante global na Suíça (forfait fiscal). Saiba quem tem direito, valores mínimos por cantão, como a base tributável é calculada e o passo a passo do processo.",
-        "excerpt": "Uma análise detalhada do regime de forfait fiscal da Suíça — requisitos de elegibilidade, valores mínimos cantonais, cálculos da base tributável e o processo de solicitação passo a passo.",
-        "sectionCount": "9",
+        "title": "Tributação pela despesa na Suíça: condições e planeamento",
+        "metaDescription": "Avaliar a elegibilidade da tributação global suíça, a base de avaliação de 2026, a escolha do cantão e as implicações da continuação da atividade empresarial após uma mudança.",
+        "excerpt": "Avaliar a elegibilidade da tributação global suíça, a base de avaliação de 2026, a escolha do cantão e as implicações da continuação da atividade empresarial após uma mudança.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "O regime de tributação por montante global da Suíça — conhecido como forfait fiscal ou Pauschalbesteuerung — é um dos arranjos fiscais mais atraentes disponíveis para estrangeiros abastados que se mudam para o país. Sob este sistema, indivíduos qualificados são tributados com base em suas despesas de subsistência, em vez de sua renda e ativos mundiais. Para pessoas de alto patrimônio, especialmente aquelas com fluxos de renda globais significativos, isso pode resultar em obrigações fiscais substancialmente menores em comparação à tributação ordinária."
+            "heading": "Requisitos de elegibilidade",
+            "level": "2",
+            "content": "A tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam."
           },
           "1": {
-            "heading": "O que é a Tributação por Montante Global?",
+            "heading": "Como a base tributável é calculada",
             "level": "2",
-            "content": "A tributação por montante global é um regime fiscal especial disponível para estrangeiros que estabelecem ou retomam residência fiscal na Suíça e não exercem atividade remunerada no país. Em vez de declarar renda e patrimônio mundiais, a base tributária do contribuinte é determinada por suas despesas anuais de subsistência na Suíça — incluindo custos de moradia, alimentação, viagens, educação, custos com pessoal e outras despesas pessoais. O imposto é então calculado aplicando as taxas normais suíças (federais, cantonais e municipais) a essa base tributável presumida. O sistema faz parte da legislação tributária suíça há mais de um século e serve atualmente cerca de 5.000 indivíduos em toda a Suíça, gerando mais de CHF 900 milhões anuais em receitas fiscais."
+            "content": "No ano fiscal de 2026, a base mínima federal é CHF 435.000, não o imposto a pagar. Contam também as despesas de vida mundiais e os mínimos legais ligados à habitação. Um cálculo de controlo separado pode aumentar o imposto sobre certos rendimentos suíços e estrangeiros com benefícios de convenção. Os impostos cantonais sobre rendimento e património exigem cálculo próprio."
           },
           "2": {
-            "heading": "Requisitos de Elegibilidade",
+            "heading": "Que cantões você deve comparar?",
             "level": "2",
-            "content": "Para se qualificar para a tributação por montante global, o candidato deve atender a três critérios fundamentais. Primeiro, o indivíduo deve ser um cidadão estrangeiro — cidadãos suíços não são elegíveis. Segundo, o indivíduo deve estar estabelecendo residência fiscal na Suíça pela primeira vez, ou retornando após uma ausência de pelo menos 10 anos. Terceiro, e fundamentalmente, o indivíduo não deve exercer qualquer atividade remunerada na Suíça. Isso inclui emprego, trabalho autônomo e gestão ativa de uma empresa sediada no país. Atividades passivas, como a gestão de investimentos pessoais ou a supervisão de um family office (desde que o escritório não gere receita de terceiros), são geralmente permitidas. O cônjuge do requerente também deve cumprir o critério de nacionalidade — se um dos cônjuges for suíço, a tributação por montante global não está disponível para o casal."
+            "content": "Zurique aboliu a tributação cantonal com base nas despesas em 2010. Schaffhausen, Appenzell Ausserrhoden, Basileia-Campo e Basileia-Cidade também a aboliram. Nos restantes cantões, solicite os requisitos atuais à autoridade fiscal. Uma tabela nacional de pagamentos mínimos não determina a elegibilidade nem a responsabilidade fiscal final."
           },
           "3": {
-            "heading": "Como a Base Tributável é Calculada",
+            "heading": "O processo de aplicação: passo a passo",
             "level": "2",
-            "content": "A base tributável sob a tributação por montante global é o maior de dois cálculos. O primeiro são as despesas reais de subsistência mundial do contribuinte e de sua família. O segundo é um cálculo de controle — um limite mínimo desenhado para evitar abusos. Em nível federal, a renda tributável mínima foi fixada em CHF 400.000 desde a reforma de 2016. Os cantões definem seus próprios mínimos, que variam de aproximadamente CHF 250.000 a mais de CHF 600.000, dependendo do cantão. O cálculo de controle considera diversos fatores: o valor justo de aluguel (ou aluguel real) da residência suíça do contribuinte multiplicado por um fator (geralmente de 3 a 7, dependendo do cantão), rendas de fonte suíça (ex: imóveis na Suíça) e rendas de países com os quais a Suíça possui um tratado de dupla tributação onde o contribuinte reivindica benefícios do tratado."
+            "content": "Antes de escolher o cantão, reúna passaportes, histórico de residência, orçamento familiar mundial, dados de habitação, fontes de rendimento e atividades profissionais previstas. Coordene com fiscalistas qualificados uma comparação com a tributação ordinária e, se adequado, um pedido de decisão fiscal escrita. Confirme pressupostos e deveres declarativos. Fiscalidade e imigração são decisões separadas; não se garantem aprovação nem imposto anual fixo."
           },
           "4": {
-            "heading": "Valores Mínimos por Cantão",
-            "level": "3",
-            "content": "Os mínimos cantonais variam significativamente e são um fator determinante na seleção do cantão. Zug exige uma renda tributável mínima de aproximadamente CHF 250.000, tornando-o um dos cantões mais acessíveis. Schwyz também define seu mínimo em torno de CHF 250.000. Lucerna exige cerca de CHF 300.000. Valais e Grisões definem mínimos em torno de CHF 400.000. Genebra exige aproximadamente CHF 400.000 de renda tributável mínima, mas possui taxas municipais mais altas. Zurique exige cerca de CHF 400.000 e aplica suas taxas progressivas padrão à base presumida. Vaud, historicamente o cantão com o maior número de contribuintes neste regime, exige cerca de CHF 400.000. Berna possui um mínimo de aproximadamente CHF 400.000. Note que diversos cantões aboliram a tributação por montante global em nível cantonal — Basileia-Cidade, Basileia-Campo, Schaffhausen, Appenzell Exterior e a cidade de Zurique (embora o cantão ainda a permita em algumas municipalidades). Sempre verifique a disponibilidade atual com as autoridades cantonais."
+            "heading": "Fundadores: descreva o seu papel após a mudança",
+            "level": "2",
+            "content": "Se você está preparando uma saída de negócio, distinguir propriedade do trabalho que você continuará a executar. Listar posições de conselho, acordos de consultoria, deveres de gestão e quaisquer condições de ganho. Peça aos seus consultores fiscais e de imigração que avaliem as actividades propostas em conjunto antes de confiarem num plano de residência de riqueza privada.\n\nA localização dos clientes ou a sede da empresa não resolve, por si só, como o trabalho realizado a partir da Suíça será tratado."
           },
           "5": {
-            "heading": "O Processo de Solicitação: Passo a Passo",
+            "heading": "Perguntas para a primeira avaliação",
             "level": "2",
-            "content": "O processo de solicitação geralmente segue um caminho estruturado. Na fase de pré-aplicação, o futuro contribuinte trabalha com assessores qualificados para preparar um resumo detalhado de sua situação pessoal e financeira, selecionar o cantão e a municipalidade ideais e preparar cálculos preliminares da base tributável proposta. A solicitação formal é submetida à autoridade tributária cantonal. Inclui uma declaração detalhada das despesas de subsistência previstas, documentação da situação financeira do requerente, prova do requisito de nacionalidade e uma declaração de que não exercerá atividade remunerada na Suíça. A autoridade cantonal revisa o pedido e pode entrar em negociação sobre a base tributável. Esta é uma negociação real — a autoridade possui discricionariedade e avaliará se a base proposta é razoável dado o estilo de vida e patrimônio aparentes do requerente. Uma vez acordado, uma decisão fiscal formal (ruling) é emitida, geralmente válida por um período definido (muitas vezes o primeiro ano fiscal, com renovação anual). O contribuinte deve apresentar uma declaração anual de despesas de subsistência para manter o acordo."
-          },
-          "6": {
-            "heading": "Tributação Federal vs. Cantonal",
-            "level": "2",
-            "content": "É importante entender que a tributação por montante global opera nos níveis federal e cantonal/municipal. Em nível federal, a renda tributável mínima é de CHF 400.000. Os impostos cantonais e municipais são calculados separadamente, e cada cantão possui seus próprios limites mínimos e taxas. Na prática, a taxa efetiva total de imposto sobre a renda sob este regime geralmente varia de 20% a 35%, dependendo do cantão e da municipalidade, em comparação com taxas marginais superiores de 40%+ para contribuintes ordinários com rendas altas. Para um indivíduo com uma base tributável negociada de CHF 500.000, por exemplo, a conta anual total de impostos em Zug pode ser de aproximadamente CHF 100.000–120.000 — uma fração do que pagaria sobre sua renda mundial real sob a tributação ordinária."
-          },
-          "7": {
-            "heading": "Vantagens e Considerações",
-            "level": "2",
-            "content": "As principais vantagens da tributação por montante global incluem contas de impostos previsíveis e frequentemente significativamente menores, nenhuma exigência de divulgar renda e ativos mundiais em detalhes, conformidade tributária simplificada e proteção contra o imposto sobre a riqueza suíço sobre ativos não suíços. No entanto, existem considerações importantes. Os contribuintes sob este regime não podem reivindicar deduções disponíveis aos contribuintes comuns (como contribuições previdenciárias). Nem sempre podem se beneficiar de taxas de tratados de dupla tributação suíços menores que suas taxas de retenção domésticas. Eles devem genuinamente abster-se de trabalhar na Suíça. E referendos públicos desafiaram o regime em vários cantões, criando algum risco político — embora a votação federal de novembro de 2025, na qual 78% votaram contra a abolição do regime, tenha fortalecido significativamente sua segurança a longo prazo."
-          },
-          "8": {
-            "heading": "A Tributação por Montante Global é Ideal para Você?",
-            "level": "2",
-            "content": "Este regime é mais benéfico para indivíduos com alta renda mundial que não precisam trabalhar na Suíça — tipicamente aposentados, investidores, detentores de patrimônio familiar e indivíduos que vivem de renda passiva de negócios fora da Suíça. É menos adequado para quem planeja gerir ativamente uma empresa baseada na Suíça ou para quem possui uma renda mundial relativamente modesta (onde a tributação ordinária poderia resultar em uma conta menor). Uma análise comparativa detalhada — tributação ordinária vs. montante global — deve ser preparada como parte do seu planejamento pré-imigração. Oferecemos esta análise como parte do nosso serviço de assessoria, garantindo que você tome essa decisão crítica com todas as informações necessárias."
+            "content": "Traga um resumo amplo da cidadania, histórico de residência, familiares, atividades pretendidas e os países ligados aos seus bens. Compare os gastos esperados do agregado familiar, a moradia e os custos especializados com a análise de impostos.\n\nUm resultado útil é uma lista escrita de pressupostos, perguntas não resolvidas e a próxima decisão de autoridade ou conselheiro. Mantenha os prazos de transação separados das datas de realocação propostas até que as dependências sejam compreendidas."
           }
         },
         "imageAlt": "Interior de um escritório tributário cantonal suíço com documentos oficiais sobre uma mesa de nogueira"
@@ -756,55 +616,37 @@
       "lex-koller-swiss-real-estate": {
         "category": "real-estate",
         "categoryLabel": "Imóveis",
-        "readTime": "10 min de leitura",
+        "readTime": "2 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Lex Koller: O que Compradores Estrangeiros Precisam Saber sobre Imóveis na Suíça",
-        "metaDescription": "Entenda a lei Lex Koller da Suíça: restrições à propriedade estrangeira de imóveis, requisitos de vistos, diferenças cantonais e estratégias práticas para compradores não suíços.",
-        "excerpt": "Navegue pelas restrições de propriedade estrangeira na Suíça — desde os requisitos da Lex Koller até as diferenças cantonais, processos de autorização e estratégias para compradores internacionais.",
-        "sectionCount": "9",
+        "title": "Comprar imóveis na Suíça: Lex Koller e mudança",
+        "metaDescription": "Planeje uma compra de casa suíça em torno da nacionalidade, status de residência, uso de propriedade e Lex Koller. Questões práticas para as famílias e empresários da HNW.",
+        "excerpt": "Planeje uma compra de casa suíça em torno da nacionalidade, status de residência, uso de propriedade e Lex Koller. Questões práticas para as famílias e empresários da HNW.",
+        "sectionCount": "5",
         "sections": {
           "0": {
-            "content": "O mercado imobiliário da Suíça está entre os mais estáveis e desejados do mundo — e entre os mais regulados para compradores estrangeiros. A Lei Federal sobre a Aquisição de Imóveis por Pessoas no Exterior, comumente conhecida como Lex Koller (ou historicamente Lex Friedrich), rege como cidadãos não suíços podem adquirir propriedades residenciais no país. Entender esta lei é essencial para qualquer pessoa que esteja se mudando para a Suíça e planeje comprar uma casa."
+            "heading": "Comece com o comprador e uso pretendido",
+            "level": "2",
+            "content": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar."
           },
           "1": {
-            "heading": "O que é a Lex Koller?",
+            "heading": "A autorização de residência é uma decisão separada",
             "level": "2",
-            "content": "A Lex Koller é uma lei federal que restringe a aquisição de imóveis residenciais por estrangeiros que não residem na Suíça, bem como por empresas controladas por estrangeiros. Promulgada em 1961 e revisada várias vezes desde então, o propósito da lei é evitar a \"estrangeirização excessiva\" do solo suíço — essencialmente, garantir que os imóveis permaneçam disponíveis para residentes suíços em vez de serem adquiridos como propriedades de investimento por não residentes. A lei se aplica especificamente a propriedades residenciais. Imóveis comerciais e industriais estão geralmente isentos, o que significa que empresas de capital estrangeiro podem adquirir escritórios, espaços de varejo e galpões industriais sem as restrições da Lex Koller."
+            "content": "A propriedade suíça não confere a um estrangeiro o direito de residência. Estabelecer a base de residência proposta antes de tratar uma compra de casa como parte de uma mudança confirmada.\n\nPara uma família que usa várias casas internacionais, explique qual propriedade será realmente a casa principal e como será usada. Solicitar à autoridade competente e ao notário que avaliem a transacção específica, incluindo qualquer propriedade através de uma empresa ou outra estrutura."
           },
           "2": {
-            "heading": "Quem é Afetado?",
+            "heading": "Construir uma breve aquisição completa",
             "level": "2",
-            "content": "A Lex Koller aplica-se a pessoas no exterior — definidas como estrangeiros que não possuem residência permanente na Suíça e empresas controladas por estrangeiros. As principais distinções são as seguintes: Cidadãos da UE/EFTA com um visto de residência válido (visto B ou C) são tratados essencialmente da mesma forma que os suíços para fins de aquisição de residência primária. Eles podem comprar imóveis residenciais para uso próprio sem autorização. Cidadãos de países fora da UE/EFTA com visto B podem comprar uma residência primária sem autorização na maioria dos cantões, mas enfrentam restrições em residências secundárias e propriedades de investimento. Pessoas sem residência na Suíça (independente da nacionalidade) requerem autorização cantonal para comprar imóveis residenciais, e tal autorização está sujeita a cotas rígidas. Cidadãos suíços que vivem no exterior não são afetados — podem comprar livremente."
+            "content": "Registre os compradores propostos, financiamento, ocupação prevista e se qualquer parte será alugada. Pergunte ao notário quais as confirmações necessárias antes da assinatura e quais as condições contratuais adequadas.\n\nPeça informações sobre o imóvel atual e uma estimativa de custo total. Comparar financiamento, custos de transação, manutenção e quaisquer necessidades de renovação. Um preço global do cantão por metro quadrado é um substituto pobre para uma avaliação específica da propriedade."
           },
           "3": {
-            "heading": "Tipos de Propriedade e Restrições",
+            "heading": "Para os empresários: proteger o calendário mais alargado",
             "level": "2",
-            "content": "As restrições variam conforme o tipo de propriedade. Residência primária (Hauptwohnung): detentores de visto (B ou C) podem comprar uma residência primária em seu local de residência sem autorização. A propriedade deve servir como sua moradia real. Residências secundárias ou de férias (Ferienwohnung): estas estão sujeitas às restrições mais severas. A compra por não residentes requer autorização cantonal, que é alocada por meio de um sistema de cotas federais. A propriedade deve estar em uma área turística reconhecida e existem limitações de tamanho (geralmente um máximo de 200m² de área útil). Imóveis de investimento/aluguel: estrangeiros não residentes geralmente não podem adquirir imóveis residenciais para investimento. Detentores de visto podem adquirir imóveis de investimento sujeitos às regras cantonais. Propriedades comerciais: geralmente isentas da Lex Koller."
+            "content": "Se a compra depender de receitas de venda de negócios ou de uma nova relação bancária, alinhar o calendário de pagamento com fundos confirmados e aconselhamento profissional. Não assuma que um banco abrirá uma conta ou fornecerá financiamento dentro do prazo de um vendedor.\n\nVerifique se o aluguel primeiro permitiria que a família testasse uma rota escolar e vizinhança enquanto as questões de residência e compra de longo prazo são resolvidas."
           },
           "4": {
-            "heading": "Diferenças Cantonais",
+            "heading": "Confirmar as regras no momento do compromisso",
             "level": "2",
-            "content": "Embora a Lex Koller seja uma lei federal, sua implementação envolve autoridades cantonais, e existem diferenças significativas na forma como os cantões lidam com os pedidos. Zurique é relativamente simples para detentores de vistos que compram uma residência primária. O registro de imóveis cantonal (Grundbuchamt) geralmente processa as aquisições sem problemas se o comprador tiver um visto válido e a propriedade for em seu endereço registrado. Zug segue uma abordagem semelhante, mas possui alguns requisitos adicionais em nível de comuna. Algumas municipalidades em Zug exigem documentação extra ou possuem períodos de espera. Schwyz é geralmente acessível e, combinada com preços de imóveis mais baixos e taxas de impostos muito reduzidas, representa um excelente valor para famílias em relocação. Genebra e Vaud possuem a maior demanda de compradores estrangeiros, levando a uma fiscalização mais rigorosa dos pedidos. Genebra, em particular, possui cotas apertadas para residências secundárias. Valais e Grisões, como grandes cantões turísticos, possuem os regimes mais desenvolvidos para autorizar aquisições de residências de férias."
-          },
-          "5": {
-            "heading": "O Processo de Autorização",
-            "level": "3",
-            "content": "Quando a autorização é necessária (geralmente para residências secundárias ou para compradores sem visto de residência), o processo envolve várias etapas. O comprador submete um pedido à autoridade cantonal responsável por assuntos da Lex Koller — geralmente o Grundbuchamt cantonal ou um departamento de justiça dedicado. O pedido deve incluir o contrato de compra (geralmente um contrato preliminar ou \"Vorvertrag\"), prova da conexão do comprador com a Suíça ou com o local específico, evidência de que a aquisição se enquadra em uma das categorias permitidas e confirmação de que a propriedade atende aos requisitos de tamanho e uso. A autoridade cantonal revisa o pedido frente à cota federal (para residências de férias) e critérios cantonais. Os prazos de processamento variam de 2–6 semanas em cantões menores a 2–3 meses em Genebra ou Vaud."
-          },
-          "6": {
-            "heading": "Estratégias Práticas para Compradores Estrangeiros",
-            "level": "2",
-            "content": "Para indivíduos de alto patrimônio que se mudam para a Suíça, várias estratégias práticas podem simplificar o processo de aquisição imobiliária. A abordagem mais direta é obter o visto B antes de comprar o imóvel. Com um visto de residência válido, adquirir uma residência primária torna-se essencialmente o mesmo processo de um cidadão suíço. Para famílias que desejam comprar antes da emissão do visto, às vezes é possível celebrar um contrato de compra condicional (Vorvertrag) que dependa da concessão do visto. Para os interessados em adquirir residências secundárias ou imóveis de investimento, a incorporação de uma empresa suíça pode, por vezes, oferecer um caminho, embora isso exija uma estruturação cuidadosa para evitar ser classificada como uma empresa controlada por estrangeiros. Trabalhar com um assessor imobiliário especializado que entenda tanto a Lex Koller quanto o mercado local é essencial. Propriedades fora do mercado (off-market) — comuns no segmento de luxo — representam frequentemente as melhores oportunidades e exigem um assessor com redes estabelecidas."
-          },
-          "7": {
-            "heading": "Desenvolvimentos Recentes e Perspectivas",
-            "level": "2",
-            "content": "Houve discussões periódicas sobre a reforma ou abolição da Lex Koller. Uma proposta federal de 2017 para flexibilizar as restrições à aquisição de imóveis comerciais foi arquivada, e discussões mais recentes focaram no endurecimento, em vez da flexibilização da lei, particularmente no que diz respeito a residências secundárias em áreas turísticas. No futuro previsível, a Lex Koller permanece firmemente em vigor. Famílias em relocação devem planejar sua estratégia imobiliária em conjunto com seu cronograma de imigração — os dois estão intimamente ligados e a coordenação adequada pode economizar tempo e complexidade significativos."
-          },
-          "8": {
-            "heading": "Preços de Imóveis: O que Esperar",
-            "level": "2",
-            "content": "Os preços dos imóveis na Suíça, especialmente em locais nobres, estão entre os mais altos do mundo. Na cidade de Zurique, espere valores entre CHF 15.000 e 35.000 por metro quadrado para imóveis residenciais premium. Comunidades na \"Gold Coast\" ao longo do Lago de Zurique (Küsnacht, Zollikon, Herrliberg) comandam prêmios de CHF 20.000–40.000/m². Em Zug, propriedades no centro da cidade variam de CHF 12.000 a 25.000/m², com vilarejos vizinhos entre CHF 8.000 e 14.000/m². Schwyz oferece preços mais acessíveis, entre CHF 6.000 e 14.000/m² à beira-lago e CHF 4.000–8.000/m² em vilarejos do interior. Esses preços refletem a qualidade, estabilidade e escassez do mercado imobiliário suíço — e o fato de que a propriedade na Suíça tem sido historicamente uma das reservas de valor mais confiáveis globalmente."
+            "content": "A autoridade cantonal responsável pela propriedade decide questões sobre a autorização. O Gabinete Federal de Justiça publica o quadro e os contactos; as revisões jurídicas propostas não devem ser confundidas com as regras já em vigor.\n\nPeça ao seu notário ou consultor jurídico para verificar a posição atual para seus fatos antes de cometer. Nosso papel é coordenar a busca domiciliar com a permissão da família, a escola e o plano de chegada."
           }
         },
         "imageAlt": "Vila de luxo à beira do lago suíço com fundo alpino na hora dourada"
@@ -812,60 +654,60 @@
       "best-international-schools-zurich-zug-schwyz": {
         "category": "lifestyle",
         "categoryLabel": "Estilo de Vida",
-        "readTime": "11 min de leitura",
+        "readTime": "7 min lido",
         "date": "1 de abril de 2026",
-        "title": "As Melhores Escolas Internacionais em Zurique, Zug e Schwyz",
-        "metaDescription": "Guia completo sobre as melhores escolas internacionais em Zurique, Zug e Schwyz. Compare currículos IB, americanos, britânicos e suíços, mensalidades, prazos de admissão e opções de internato.",
-        "excerpt": "Compare as principais escolas internacionais em Zurique, Zug e Schwyz — de programas IB e Matura Suíça a opções de internato, mensalidades e orientação de admissão.",
+        "title": "Comparar escolas internacionais em Zurique, Zug e Schwyz",
+        "metaDescription": "Compare locais escolares perto de Zurique, Zug e Schwyz. Planeje visitas ao campus, perguntas de admissões, taxas e o deslocamento escolar usando fontes escolares diretas.",
+        "excerpt": "Verifique o campus certo, faça melhores perguntas de admissões e compare o custo total e a jornada diária antes de escolher um lar.",
         "sectionCount": "10",
         "sections": {
           "0": {
-            "content": "Para famílias que se mudam para a Suíça, escolher a escola certa é frequentemente a decisão mais importante após a seleção do cantão. A Suíça abriga algumas das melhores escolas internacionais do mundo, oferecendo diversos currículos — Bacharelado Internacional (IB), Americano, Britânico e Matura Suíça — em ambientes multilíngues que preparam as crianças para carreiras globais. Este guia cobre as principais escolas internacionais em três cantões fundamentais: Zurique, Zug e Schwyz."
+            "content": "A escolha da escola e a habitação devem ser planeadas em conjunto. Este guia introduz opções internacionais e bilíngües na área de Zurique e Zug para famílias considerando casas em Zurique, Zug ou Schwyz. É uma lista inicial, não uma classificação: o ajuste certo depende da idade do seu filho, idioma, necessidades de aprendizagem e provavelmente o próximo passo. As escolas aqui nomeadas estão em Zurique ou Zug; uma casa em Schwyz requer verificar o verdadeiro trajeto entre cantões."
           },
           "1": {
             "heading": "Escolas Internacionais em Zurique",
             "level": "2",
-            "content": "Zurique oferece a maior seleção de escolas internacionais na parte germanófona da Suíça, refletindo seu status como a maior cidade do país e um importante centro de negócios internacional."
+            "content": "Comece com o campus exato para a idade de seu filho, em vez de apenas o nome da escola. Uma casa que trabalha para um campus primário pode criar uma jornada diferente quando uma criança se muda para a escola secundária. Inclua ambas as viagens se os irmãos frequentassem diferentes campi."
           },
           "2": {
             "heading": "Zurich International School (ZIS)",
             "level": "3",
-            "content": "A Zurich International School é uma das escolas internacionais mais estabelecidas e conceituadas da Suíça. Fundada em 1963, a ZIS opera em quatro campi na área de Zurique — Wädenswil, Kilchberg, Adliswil e o novo campus de ensino médio em Adliswil. A escola atende aproximadamente 1.500 alunos de 3 a 18 anos, de mais de 55 nacionalidades. A ZIS oferece o Programa de Diploma IB, o Programa de Anos Intermediários IB (MYP) e o Programa de Anos Primários IB (PYP). O idioma de instrução é o inglês, com fortes programas de alemão e outros idiomas adicionais. A mensalidade anual varia de aproximadamente CHF 30.000 para a educação infantil a CHF 42.000 para o ensino médio (Programa de Diploma). As admissões são competitivas e recomenda-se que as famílias se inscrevam com pelo menos 6 a 12 meses de antecedência."
+            "content": "A ZIS tem dois campus: Wädenswil para idades dos 3 aos 11 anos e Adliswil para idades dos 11 aos 18 anos. Antes de escolher casa, confirme com a escola o campus e o programa do seu filho. Peça os valores atuais e a disponibilidade de vagas."
           },
           "3": {
             "heading": "Inter-Community School Zurich (ICS)",
             "level": "3",
-            "content": "A Inter-Community School Zurich está localizada em Zumikon, na prestigiada \"Gold Coast\" a leste da cidade. A escola atende cerca de 900 alunos de 3 a 18 anos. A ICS oferece o currículo IB em todos os níveis (PYP, MYP, DP) e é conhecida por sua abordagem inclusiva e voltada para a comunidade. A escola dá grande ênfase à manutenção da língua materna, o que é particularmente valioso para famílias de países que não falam inglês. A mensalidade anual gira em torno de CHF 28.000–38.000, dependendo da série. A ICS também oferece um extenso programa de atividades extracurriculares e instalações excelentes, incluindo laboratórios de ciências, estúdios de arte e complexos esportivos."
+            "content": "A Inter-Community School Zurich está baseada em Zumikon e oferece o contínuo IB. Pergunte admissões sobre o grupo ano apropriado, suporte linguístico e qualquer suporte de aprendizagem que seu filho precisa. Solicitar o horário de taxa atual diretamente da escola, incluindo taxas de inscrição e serviços fora da mensalidade. Compare a viagem de sua casa listada durante o horário de viagem da escola."
           },
           "4": {
             "heading": "Swiss International School (SIS) Zurique",
             "level": "3",
-            "content": "A SIS Zurique oferece um programa bilíngue único (Inglês-Alemão) que segue os currículos suíço e internacional. É uma excelente escolha para famílias que desejam que seus filhos se integrem à sociedade suíça enquanto mantêm uma educação internacional. O campus SIS Zurich-Wollishofen atende alunos desde o jardim de infância até o ensino médio. A mensalidade anual é de aproximadamente CHF 25.000–35.000. O modelo bilíngue — com tempo de instrução quase igual em inglês e alemão — forma graduados fluentes em ambos os idiomas, dando-lhes a opção de ingressar em universidades suíças (via Matura) ou em universidades internacionais (via IB ou equivalente)."
+            "content": "A SIS Zürich-Wollishofen oferece jardim de infância e ensino primário bilingues em alemão e inglês. Para níveis posteriores, confirme diretamente com a SIS a localização adequada, os diplomas e os requisitos de admissão."
           },
           "5": {
             "heading": "Escolas Internacionais em Zug",
             "level": "2",
-            "content": "Zug, apesar de seu tamanho relativamente pequeno, oferece excelentes opções de ensino internacional — impulsionadas por sua grande comunidade internacional (mais de 35% de residentes estrangeiros) e seu status como \"Crypto Valley\"."
+            "content": "Para famílias considerando Zug ou Schwyz nas proximidades, compare o local de escola com as jornadas de trabalho dos pais e as atividades semanais da criança. Uma comparação em cantão é muito ampla: grave o endereço de casa, campus e opção de transporte para cada candidato."
           },
           "6": {
             "heading": "International School of Zug and Luzern (ISZL)",
             "level": "3",
-            "content": "A ISZL é a principal escola internacional na Suíça central e está consistentemente entre as melhores escolas IB globalmente. Com campi em Hünenberg (Zug) e Riverside (Lucerna), a ISZL atende aproximadamente 1.400 alunos de 3 a 18 anos, de mais de 60 nacionalidades. A escola oferece o currículo IB completo (PYP, MYP, DP) e é renomada por sua excelência acadêmica, alcançando taxas de aprovação no Diploma IB consistentemente acima de 95%, com pontuações médias bem acima da média global. As instalações da ISZL são de classe mundial, incluindo laboratórios de ciências de última geração, centros de artes cênicas e extensas instalações esportivas, incluindo piscinas e quadras para qualquer clima. A mensalidade anual varia de aproximadamente CHF 28.000 para a educação infantil a CHF 40.000 para o Programa de Diploma. A ISZL possui um forte histórico de colocação universitária, com graduados regularmente aceitos em universidades de elite, incluindo Oxbridge, Ivy League, ETH Zurique e principais instituições europeias."
+            "content": "O Zug Campus da ISZL fica em Baar e abrange Early Years até Grade 8. O Riverside Campus fica em Hünenberg, não em Lucerna, e abrange Grades 9–12. As candidaturas são aceites durante todo o ano, conforme as vagas disponíveis."
           },
           "7": {
             "heading": "Institut Montana Zugerberg",
             "level": "3",
-            "content": "O Institut Montana é uma instituição única situada a 1.000 metros de altitude na montanha Zugerberg, com vista para Zug. Fundado em 1926, combina as tradições de um internato suíço com um currículo internacional moderno. A escola oferece tanto o Diploma IB quanto a Matura Suíça, dando aos alunos uma escolha real de caminhos educacionais. Opções de internato estão disponíveis, tornando-a uma das poucas opções de boarding school na região de Zurique/Zug. O Institut Montana atende cerca de 300 alunos (cerca de 60% internos e 40% externos) de mais de 40 nacionalidades. As taxas anuais para alunos externos são de aproximadamente CHF 35.000–45.000, enquanto as taxas de internato giram em torno de CHF 65.000–75.000. O campus na montanha oferece um ambiente de aprendizado excepcionalmente seguro e focado."
+            "content": "O Institut Montana on the Zugerberg oferece educação diária e internato, com percursos educacionais internacionais e suíços. Confirme o programa, os requisitos linguísticos e a qualificação adequada ao seu filho. Solicitar cotações separadas para os arranjos de dia e embarque, e perguntar que supervisão, refeições, viagens e arranjos de fim de semana estão incluídos. Uma opção de embarque deve ser avaliada de acordo com as necessidades do seu filho em vez de tratada como uma solução para uma longa viagem."
           },
           "8": {
             "heading": "Comparação de Currículos: IB vs. Matura Suíça vs. Americano/Britânico",
             "level": "2",
-            "content": "O Diploma do Bacharelado Internacional (IB) é o currículo internacional mais disponível na Suíça. É reconhecido por universidades em todo o mundo e oferece uma educação ampla e rigorosa em seis grupos de disciplinas. O IB é ideal para famílias que podem se mudar novamente, pois é globalmente transferível. A Matura Suíça é a qualificação nacional de ingresso na universidade. Oferece uma educação excepcionalmente rigorosa com forte ênfase em matemática, ciências e idiomas. Graduados com Matura Suíça têm admissão garantida nas universidades suíças (incluindo a ETH Zurique), tornando-a atraente para famílias comprometidas com a residência de longo prazo. Currículos americanos (seguindo os padrões US Common Core com cursos AP) estão disponíveis em algumas escolas e são preferidos por famílias que planejam se candidatar a universidades nos EUA. Currículos britânicos (seguindo o Currículo Nacional Inglês com IGCSEs e A-Levels) são menos comuns na região de Zurique/Zug, mas disponíveis em algumas instituições."
+            "content": "Trabalhe para trás do provável próximo destino escolar ou universitário da criança. Pergunte quais as qualificações que o programa escolhido concede e verifique diretamente o assunto, a língua e os requisitos de admissão da instituição receptora. Não presuma que um currículo internacional, um Diploma IB ou uma Matura Suíça remova todas as condições de admissão. Para uma criança já a meio caminho de um programa de exame, discutir a continuidade do assunto e o calendário de transferência antes de mudar de escola."
           },
           "9": {
             "heading": "Cronograma de Admissão e Conselhos Práticos",
             "level": "2",
-            "content": "As admissões em escolas internacionais na Suíça seguem um cronograma estruturado. A maioria das escolas abre as inscrições de 12 a 18 meses antes do início do ano letivo (que geralmente começa em agosto/setembro). Para ingressos no meio do ano, as inscrições devem ser enviadas o quanto antes, embora a maioria das escolas consiga acomodar chegadas tardias com aviso prévio suficiente. Considerações fundamentais para famílias em relocação incluem: inscreva-se cedo, pois as melhores escolas possuem listas de espera para certas séries; solicite uma visita escolar ou tour virtual antes de se comprometer; considere o trajeto — o transporte público suíço é excelente, mas um trajeto de 45 minutos pode ser cansativo para crianças pequenas; avalie o suporte de integração da escola (programas ESL/EAL) se seus filhos não forem nativos em inglês; e verifique se a escola oferece programas de língua materna para manter o idioma de herança da família. Trabalhamos em estreita colaboração com as equipes de admissão de todas as principais escolas internacionais e podemos facilitar introduções, visitas aos campi e colocação prioritária para nossos clientes."
+            "content": "Defina o ano escolar, os idiomas, as necessidades de apoio e a data de início. Peça confirmação escrita das vagas, dos documentos e de todos os custos. Avalie também o trajeto, as refeições e o transporte. A escola decide as admissões; não garantimos vaga nem admissão prioritária."
           }
         },
         "imageAlt": "Campus de escola internacional suíça com os Alpes ao fundo"
@@ -873,50 +715,42 @@
       "relocating-to-switzerland-timeline": {
         "category": "relocation",
         "categoryLabel": "Relocação",
-        "readTime": "9 min de leitura",
+        "readTime": "3 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Quanto Tempo Leva para se Mudar para a Suíça? Um Cronograma Realista",
-        "metaDescription": "Cronograma realista para se mudar para a Suíça: cenários de 3, 6, 9 e 12 meses. Quais fatores aceleram ou atrasam sua relocação suíça.",
-        "excerpt": "De relocações rápidas de 3 meses a programas abrangentes de 12 meses — entenda o que determina o cronograma e como planejar sua mudança para a Suíça.",
-        "sectionCount": "8",
+        "title": "Calendário de mudança para a Suíça para empreendedores e famílias",
+        "metaDescription": "Sequência de um movimento suíço em torno da elegibilidade residência, decisões de negócios, bancos, escolas e habitação. Plano de dependências sem depender de datas de aprovação fixas.",
+        "excerpt": "Sequência de um movimento suíço em torno da elegibilidade residência, decisões de negócios, bancos, escolas e habitação. Plano de dependências sem depender de datas de aprovação fixas.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "Uma das primeiras perguntas de todo cliente em potencial é: \"Quanto tempo isso vai levar?\". A resposta honesta é que uma relocação suíça bem executada leva tipicamente de 6 a 12 meses, desde a primeira conversa séria até sua família estar instalada, filhos na escola e todos os assuntos administrativos resolvidos. No entanto, os prazos podem variar de 3 meses (para indivíduos com situações simples) a 18+ meses (para family offices complexos ou relocações multigeracionais). Este guia detalha cronogramas realistas baseados em cenários comuns."
+            "heading": "Planeje decisões, não uma data de mudança prometida",
+            "level": "2",
+            "content": "A linha do tempo para um movimento suíço depende da base de residência proposta, da prontidão dos documentos, das necessidades familiares e das decisões das autoridades e instituições. Um empreendedor que lança operações pode enfrentar diferentes dependências de uma família que vive de riqueza privada.\n\nComece com uma janela de destino e identifique quais compromissos são flexíveis. Tratar uma venda de negócios, início da escola, locação expirando ou necessidade médica como uma restrição de planejamento em vez de evidência de que uma aprovação pode ser acelerada."
           },
           "1": {
-            "heading": "O Cronograma de 3 Meses: Via Rápida",
+            "heading": "Primeiro: estabelecer a residência e base de trabalho",
             "level": "2",
-            "content": "Uma relocação de 3 meses é alcançável, mas exige várias condições favoráveis: o indivíduo é cidadão da UE/EFTA (o que simplifica significativamente o processo de visto), planeja alugar em vez de comprar um imóvel, possui uma situação financeira relativamente simples e a colocação escolar ou não é necessária ou é para um único filho em uma escola com disponibilidade imediata. No cenário acelerado, o Mês 1 cobre a seleção do cantão, assessoria fiscal inicial, identificação de imóveis para alugar e início do pedido de visto B. O Mês 2 envolve a assinatura do contrato de aluguel, processamento e aprovação do visto B (cidadãos da UE geralmente recebem a aprovação em 2 a 4 semanas), configuração do seguro de saúde e matrícula escolar. O Mês 3 é a mudança física — envio de móveis, abertura de conta bancária suíça, registro municipal (Einwohnerkontrolle) e o período inicial de adaptação. Este cronograma é mais comum para profissionais solteiros ou casais sem filhos em idade escolar que são cidadãos da UE/EFTA mudando-se de dentro da Europa."
+            "content": "Registro de cidadania, status de residência atual, relações familiares e trabalho planejado de cada adulto. Reveja a rota relevante com um especialista em imigração antes de assinar um contrato de arrendamento ou confiar em uma empresa suíça para apoiar a mudança.\n\nPara os fundadores, descrever a atividade empresarial, financiamento, papel de gestão e propostas de operações suíças. Para os clientes privados, determinar se as actividades pretendidas são coerentes com o regime de residência e de tributação a avaliar."
           },
           "2": {
-            "heading": "O Cronograma de 6 Meses: Padrão",
+            "heading": "Antes das transacções: alinhar os conselheiros em ambos os países",
             "level": "2",
-            "content": "Seis meses é o cronograma mais comum para uma relocação bem preparada. Este prazo acomoda cidadãos de fora da UE (que enfrentam tempos de processamento de visto mais longos), famílias com filhos em idade escolar, indivíduos em busca de tributação por montante global e aqueles que desejam comprar em vez de alugar sua residência primária. Os Meses 1–2 cobrem o planejamento estratégico: revisão financeira abrangente, seleção de cantão e municipalidade, análise preliminar de tributação por montante global, pesquisa escolar e visitas a campi, busca inicial de imóveis e preparação da documentação do visto B. Os Meses 3–4 envolvem as solicitações formais: submissão do pedido de visto B, solicitação formal de forfait fiscal às autoridades cantonais, inscrições escolares e confirmação de vaga, seleção final e visitas a imóveis, e abertura de conta bancária suíça (que pode levar de 3 a 6 semanas para a integração total). Os Meses 5–6 são para a execução: aprovação e retirada do visto B, compra do imóvel ou assinatura do contrato de aluguel, relocação física, ativação do seguro de saúde, registro municipal, início das aulas dos filhos e configuração do estilo de vida (registro de carros, contas de serviços públicos, vistos de funcionários domésticos, se aplicável)."
+            "content": "Criar uma lista de participações, investimentos, propriedades, pensões, fundos e cessões planeadas. Peça aos conselheiros do país de partida e da Suíça que revejam juntos as datas de residência, o calendário das transações e as responsabilidades de comunicação.\n\nUm fundador pré-saída deve incluir o processo de venda esperado, qualquer emprego continuado ou papel de conselho e pagamentos diferidos. O calendário de deslocalização deve seguir essa análise; não assuma que a mudança antes de uma venda determina o seu tratamento fiscal."
           },
           "3": {
-            "heading": "O Cronograma de 9 Meses: Complexo",
+            "heading": "Em paralelo: testar o cantão e a lista de famílias",
             "level": "2",
-            "content": "Nove meses é o tempo típico para relocações que envolvem reestruturação de ativos pré-imigração, family offices que exigem estruturas corporativas suíças, vários membros da família com requisitos de visto separados, compras de imóveis de luxo (due diligence, Lex Koller, processo notarial) ou famílias vindas de jurisdições não padronizadas. O tempo adicional é consumido principalmente pela reestruturação de ativos (que muitas vezes precisa ser concluída antes de estabelecer residência fiscal suíça, para evitar gatilhos fiscais sobre ganhos realizados durante a reestruturação), estabelecimento de estrutura corporativa (a formação de uma empresa suíça em si leva de 2 a 4 semanas, mas o design da estrutura, capitalização e bancarização leva mais tempo) e aquisição de imóvel (da primeira visita à conclusão notarial, uma compra de imóvel na Suíça leva tipicamente de 3 a 5 meses)."
+            "content": "Compare municípios reais, casas e campi escolares. Verifique os requisitos de admissão e locais disponíveis diretamente com as escolas. Use uma viagem de teste entre a casa proposta, local de trabalho e campus quando puder.\n\nPreparar um orçamento doméstico, incluindo alojamento temporário, aluguel, depósitos, seguro e custos profissionais. Mantenha um retrocesso para habitação ou um local de escola atrasado, em vez de tratar cada fluxo de trabalho como certo para terminar juntos."
           },
           "4": {
-            "heading": "O Cronograma de 12 Meses: Programa Completo",
+            "heading": "Preparar pedidos e provas bancárias",
             "level": "2",
-            "content": "Um cronograma de 12 meses é adequado para as relocações mais abrangentes — tipicamente famílias multigeracionais estabelecendo uma presença completa, incluindo um family office, múltiplas propriedades e estruturas de governança complexas. Os Meses 1–3 cobrem estratégia e planejamento: revisão completa da carta familiar, análise tributária multijurisdicional, design da estrutura corporativa, estrutura de family office, seleção escolar para vários filhos e definição dos requisitos imobiliários. Os Meses 4–6 envolvem a execução pré-imigração: reestruturação de ativos, formações corporativas (AG ou GmbH suíça), nomeação de diretores, início das relações bancárias, intensificação da busca de imóveis e submissão de inscrições escolares. Os Meses 7–9 são a fase formal de imigração: solicitações de visto B para todos os membros da família, negociações de forfait fiscal, aquisição de imóveis (processo notarial) e configuração operacional do family office. Os Meses 10–12 são a fase de assentamento: relocação física, início das aulas, family office totalmente operacional, contratação e legalização de funcionários domésticos, início da integração comunitária e funcionamento de todos os sistemas administrativos."
+            "content": "Concordar com a lista de documentos da autoridade, as necessidades de tradução ou certificação e as responsabilidades de apresentação. A preparação bancária pode ser acompanhada deste trabalho, mas um banco tem seu próprio processo de aceitação. Mantenha as evidências de propriedade de negócios e os fundos esperados consistentes com o plano mais amplo.\n\nMantenha um registro de decisão: proprietário, documentos pendentes, próxima resposta e compromisso afetado. Isso torna mais fácil ajustar a data de movimento quando uma dependência muda."
           },
           "5": {
-            "heading": "Fatores que Aceleram sua Relocação",
+            "heading": "Chegada e primeiro mês",
             "level": "2",
-            "content": "Vários fatores podem acelerar o processo. A nacionalidade da UE/EFTA reduz o processamento do visto de meses para semanas. Escolher alugar inicialmente em vez de comprar um imóvel elimina o prazo de 3 a 5 meses da aquisição imobiliária. Ter registros de origem de riqueza limpos e bem documentados acelera tanto a integração bancária quanto as negociações com as autoridades fiscais. Selecionar um cantão com processos administrativos eficientes (Zug e Schwyz são notavelmente ágeis) ajuda muito. Candidatar-se a escolas com vagas disponíveis na série dos seus filhos evita listas de espera. Contratar assessores suíços qualificados desde cedo — especialmente consultores fiscais e especialistas em imigração — garante que a solicitação esteja correta na primeira tentativa, evitando atrasos por rejeições ou pedidos de informações adicionais."
-          },
-          "6": {
-            "heading": "Fatores que Atrasam sua Relocação",
-            "level": "2",
-            "content": "Fontes comuns de atraso incluem documentação complexa da origem da riqueza (particularmente para fortunas em criptoativos ou de jurisdições com transparência limitada), reestruturação de ativos multijurisdicional que exija coordenação entre vários sistemas jurídicos, negociações de forfait fiscal contestadas onde a autoridade cantonal discorda da base tributável proposta, listas de espera escolares (séries populares em escolas de elite podem ter esperas de 6 a 12 meses), requisitos de autorização da Lex Koller para compras de imóveis por não residentes e mudanças políticas ou regulatórias (embora raras, mudanças na política fiscal cantonal podem exigir ajustes no plano). É sempre melhor planejar de forma conservadora e chegar cedo do que apressar o processo e encontrar problemas que poderiam ter sido evitados com melhor preparação."
-          },
-          "7": {
-            "heading": "Nossa Recomendação",
-            "level": "2",
-            "content": "Para a maioria das famílias, recomendamos iniciar o processo pelo menos 9 meses antes da data pretendida para a chegada. Isso oferece tempo suficiente para um planejamento adequado, acomoda atrasos inesperados e garante o melhor resultado para a colocação escolar e seleção de imóveis. Iniciar cedo também permite que você aproveite o momento ideal para os pedidos de forfait fiscal (geralmente alinhados com o ano fiscal suíço, que começa em 1º de janeiro) e coordene a transição de sua residência fiscal de forma limpa. O investimento em um planejamento correto rende dividendos durante toda a relocação — e por muitos anos depois. Uma relocação bem estruturada define a base para toda a experiência suíça da sua família."
+            "content": "Verifique os requisitos de registro e início de trabalho para a sua rota de licença específica antes de viajar. Confirmar o registo local, as modalidades de seguro, as datas de início da escola, a entrega de serviços e as práticas de recepção de correspondência oficial.\n\nUma vez liquidada, agendar a entrega de impostos em curso, contabilidade e outros consultores. Manter as renovações de licenças e as datas de relato em um calendário compartilhado. A nossa lista de relocalizações, o guia dos primeiros 30 dias e o organizador do orçamento ajudam a organizar as tarefas práticas; não prevêem datas de aprovação."
           }
         },
         "imageAlt": "Caixas de mudança em um apartamento suíço de alto padrão com vista para o lago"
@@ -924,50 +758,42 @@
       "opening-swiss-private-bank-account": {
         "category": "banking",
         "categoryLabel": "Bancos",
-        "readTime": "10 min de leitura",
+        "readTime": "3 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Abrindo uma Conta em um Private Bank Suíço: Requisitos e Processo",
-        "metaDescription": "Tudo o que você precisa saber para abrir uma conta de private banking na Suíça: requisitos de AML/KYC, documentação de origem da riqueza e o que os bancos esperam de clientes internacionais.",
-        "excerpt": "O guia definitivo para o private banking suíço — dos requisitos de AML/KYC e documentação de origem da riqueza ao tratamento de ativos cripto e escolha do parceiro bancário ideal.",
-        "sectionCount": "8",
+        "title": "Banca privada suíça para grandes patrimónios e empreendedores",
+        "metaDescription": "Prepare-se para o banco privado suíço: fonte de riqueza, receitas de negócios, registros de propriedade, taxas e decisão de aceitação independente do banco.",
+        "excerpt": "Prepare-se para o banco privado suíço: fonte de riqueza, receitas de negócios, registros de propriedade, taxas e decisão de aceitação independente do banco.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "O setor de private banking da Suíça gere aproximadamente CHF 7,9 trilhões em ativos — cerca de 25% de todo o patrimônio privado transfronteiriço global. Abrir uma relação de private banking na Suíça é um marco significativo em qualquer relocação, proporcionando acesso a gestão de patrimônio de classe mundial, serviços de custódia e à estabilidade do sistema financeiro suíço. No entanto, o processo é rigoroso e exige preparação cuidadosa."
+            "heading": "Comece com o trabalho bancário a ser feito",
+            "level": "2",
+            "content": "Antes de se aproximar de um banco privado suíço, escreva o que você precisa: pagamentos diários, custódia, conselhos de investimento, gestão discricionária ou suporte para um escritório familiar. Um fundador também pode precisar de uma conta operacional separada para uma empresa. Distingue os requisitos pessoais, corporativos e de estrutura familiar para que cada aplicação tenha um propósito claro.\n\nSua residência, cidadania, status fiscal, ativos e transações pretendidas afetam quais instituições podem considerar a relação. Peça ao banco para confirmar seus critérios atuais de cliente antes de investir tempo em uma aplicação completa."
           },
           "1": {
-            "heading": "O Cenário Bancário Suíço",
+            "heading": "Fonte de riqueza e fonte de fundos",
             "level": "2",
-            "content": "A Suíça abriga aproximadamente 243 bancos licenciados, variando de dois gigantes globais (UBS e, até a fusão em 2023, o Credit Suisse) a dezenas de bancos privados boutique e bancos cantonais. Para clientes de alto patrimônio que se mudam para a Suíça, as instituições relevantes dividem-se em várias categorias: Os grandes bancos privados suíços — Julius Bär, Lombard Odier, Pictet, Vontobel e EFG International — oferecem serviços completos de private banking com tamanhos de conta mínimos que geralmente começam entre CHF 1 e 5 milhões. Bancos boutique e familiares — como Bordier, Mirabaud e Reichmuth — oferecem um serviço ainda mais personalizado, muitas vezes com limites mínimos mais altos. Bancos nativos em cripto — SEBA Bank e Sygnum Bank — são bancos regulados na Suíça que oferecem serviços integrados de ativos tradicionais e digitais, ideais para clientes com participações significativas em criptomoedas. Bancos cantonais (Kantonalbanken) oferecem serviços bancários padrão com garantias estatais, adequados para o dia a dia bancário em conjunto com uma relação de private banking."
+            "content": "As instituições financeiras suíças devem identificar os clientes e os titulares reais dos ativos, e avaliar os riscos relevantes de lavagem de dinheiro. Para fins de preparação, é importante distinguir como a riqueza total foi acumulada e de onde provém a transferência específica.\n\nUm arquivo de um empresário pode relacionar a propriedade da empresa, as contas, os dividendos ou um contrato de venda com a conta de destino. Uma herança pode exigir documentos de herança; os rendimentos de um investimento podem necessitar de um histórico de posse e transações rastreáveis. Estes são exemplos de preparação. O banco define os requisitos de evidência para o caso específico."
           },
           "2": {
-            "heading": "Requisitos de AML/KYC",
+            "heading": "Antes e depois de uma venda de negócios",
             "level": "2",
-            "content": "Os bancos suíços são regulados pela FINMA (Autoridade Suíça de Supervisão do Mercado Financeiro) e devem cumprir requisitos abrangentes de Prevenção à Lavagem de Dinheiro (AML) e Conheça seu Cliente (KYC). Esses requisitos foram significativamente fortalecidos na última década, alinhando o sistema bancário suíço aos padrões globais, mantendo as tradições suíças de atendimento ao cliente e discrição. Os requisitos centrais incluem verificação de identidade — um passaporte válido (e geralmente uma segunda forma de identificação), comprovante de endereço na Suíça (ou no país de residência atual) e verificação biométrica. A documentação do beneficiário final deve ser fornecida — se os ativos forem mantidos através de estruturas (trusts, fundações, holdings), o(s) beneficiário(s) final(is) deve(m) ser identificado(s). A documentação da origem da riqueza (Source of Wealth - SOW) é o elemento mais importante — os bancos exigem uma narrativa abrangente e evidências de suporte explicando como o cliente acumulou seu patrimônio. A documentação da origem dos fundos (Source of Funds - SOF) explica de onde vêm os fundos específicos que estão sendo depositados — por exemplo, de qual conta bancária estão sendo transferidos e o histórico de transações dessa conta."
+            "content": "Coordenar a preparação bancária com o calendário da transação. Explique o vendedor, comprador, retribuição, datas de pagamento esperadas e qualquer produto diferido ou propriedade mantida. Pergunte aos seus advogados e consultores fiscais quais registros podem ser compartilhados e através de qual canal seguro.\n\nNão mova uma data de conclusão ou rota prossegue através de uma nova entidade simplesmente para se ajustar a um calendário bancário assumido. Confirme que a conta de recepção está pronta e que o banco compreende a transferência esperada antes da conclusão."
           },
           "3": {
-            "heading": "Documentação da Origem da Riqueza: O que os Bancos Esperam",
+            "heading": "Activos digitais e propriedade complexa",
             "level": "2",
-            "content": "A documentação da origem da riqueza é onde a maioria dos clientes encontra maior escrutínio. Os bancos suíços são minuciosos e não prosseguirão até estarem totalmente satisfeitos. Para donos de empresas e empreendedores, os bancos esperarão demonstrações financeiras da empresa (geralmente dos últimos 3 a 5 anos), evidência de propriedade (certificados de ações, extratos do registro comercial), registros de distribuição de dividendos e documentação de venda/saída, caso a riqueza derive da venda de um negócio. Para investidores, os bancos desejarão ver extratos de contas de investimento mostrando o crescimento do portfólio, confirmações históricas de negociações e evidência do capital original investido. Para riqueza herdada, o banco solicitará documentação do espólio, registros de inventário, cópias de testamentos e evidência da origem da riqueza do falecido. Para riqueza imobiliária, são necessários relatórios de avaliação de propriedades, contratos de compra e venda e registros de renda de aluguel."
+            "content": "Para a riqueza de ativos digitais, organize declarações de troca, histórico de carteiras e evidências que liguem os ativos ao seu proprietário. Explicar lacunas significativas para o banco antes de fazer planos de transferência. A aceitação de um determinado token, plataforma, histórico de transações ou estrutura é uma decisão específica do banco.\n\nPara as holdings, trusts e fundações, preparar um mapa claro de propriedade e controle. Mais camadas podem significar mais perguntas. Uma narrativa polida não substitui os registros que o banco precisa para avaliar o relacionamento."
           },
           "4": {
-            "heading": "O que os Bancos Esperam de Clientes do Oriente Médio",
-            "level": "3",
-            "content": "Os bancos suíços possuem vasta experiência com clientes da região do GCC e do Oriente Médio em geral. No entanto, certos aspectos da riqueza do Oriente Médio exigem documentação adicional. Para riqueza derivada de cargos governamentais ou conexões com famílias reais, os bancos esperam documentação oficial de nomeação, registros públicos do cargo do indivíduo e evidências que separem o patrimônio pessoal dos ativos do Estado. Para riqueza empresarial do GCC, são necessárias licenças comerciais (trade licenses do DED, ADGM, DIFC, etc.), demonstrações financeiras auditadas preparadas de acordo com os padrões IFRS e evidência do histórico operacional da empresa. Os bancos também apreciam uma narrativa clara — uma \"história da riqueza\" bem preparada que explique em ordem cronológica como o patrimônio do cliente foi construído, incluindo marcos comerciais importantes, investimentos e eventos de liquidez."
+            "heading": "Comparar taxas, serviço e autoridade de decisão",
+            "level": "2",
+            "content": "Solicitar uma proposta escrita que abranja o tamanho mínimo da relação, taxas de custódia e consultoria, encargos de transação, câmbio, relatórios e quaisquer custos de saída. Valores publicados podem não se aplicar à sua residência, mandato ou mix de ativos.\n\nPergunte quem vai atender a conta, o que pode ser feito online e como a instituição trabalha com seus conselheiros existentes. Reveja os riscos de investimento e os termos de mandato com os profissionais apropriados; a relocalização não requer a colocação de todos os ativos com um provedor."
           },
           "5": {
-            "heading": "Documentação de Riqueza em Criptoativos",
-            "level": "3",
-            "content": "Para clientes com riqueza significativa em criptomoedas, a Suíça é uma das jurisdições bancárias mais receptivas do mundo. O SEBA Bank e o Sygnum Bank são bancos suíços totalmente regulados e especializados em ativos digitais. No entanto, documentar a riqueza cripto exige uma abordagem específica. Os bancos esperam uma cadeia de custódia completa das participações — desde a aquisição inicial (registros de mineração, confirmações de compra em corretoras, registros de negociações OTC) até as participações atuais. Os endereços das carteiras devem ser documentáveis com análises de blockchain que mostrem o fluxo de ativos. Se a riqueza foi criada através de investimentos iniciais (ex: compra de Bitcoin antes de 2015), os bancos entendem que os registros das corretoras podem estar incompletos, mas esperam qualquer documentação existente somada a uma narrativa credível. O tratamento tributário dos ganhos cripto no país de origem deve ser documentado — os bancos querem ver se as obrigações fiscais apropriadas foram cumpridas antes que os fundos entrem na Suíça."
-          },
-          "6": {
-            "heading": "O Processo de Abertura de Conta",
+            "heading": "Que coordenação de deslocalização pode ajudar com",
             "level": "2",
-            "content": "O processo típico de abertura de conta em um private bank segue um caminho estruturado. O contato inicial é feito através de uma indicação (de um cliente existente, advogado ou assessor) ou abordagem direta. Os bancos geralmente preferem indicações, e uma introdução calorosa de um assessor de confiança pode suavizar significativamente o processo. Uma reunião preliminar — seja pessoalmente nos escritórios do banco ou via videoconferência — permite que ambas as partes avaliem a compatibilidade. O banco avalia as necessidades e o perfil de risco do cliente em potencial, enquanto o cliente avalia os serviços, a equipe e a abordagem do banco. Caso ambos desejem prosseguir, o banco emite um checklist de documentação específico para a situação do cliente. O cliente (geralmente com suporte de um assessor) prepara e submete a documentação exigida. A equipe de conformidade do banco revisa a documentação — esta revisão interna leva tipicamente de 2 a 6 semanas, dependendo da complexidade do caso. Se aprovada, o banco emite os documentos de abertura de conta para assinatura. Os fundos podem então ser transferidos. Do primeiro contato a uma conta operacional, o processo leva tipicamente de 4 a 8 semanas para casos simples e de 8 a 16 semanas para situações complexas que exijam diligência reforçada."
-          },
-          "7": {
-            "heading": "Escolhendo o Banco Certo",
-            "level": "2",
-            "content": "Selecionar o banco privado certo é uma decisão significativa que deve considerar vários fatores: o tamanho mínimo da conta (variando de CHF 500.000 a mais de CHF 10 milhões), a expertise do banco em suas classes de ativos específicas (cripto, imobiliário, private equity), capacidades linguísticas (gerentes de relacionamento que falam árabe estão disponíveis em vários bancos suíços), a abordagem do banco quanto a mandatos discricionários vs. consultivos, estrutura de taxas (taxas de gestão, custódia e transação — estas variam significativamente entre instituições), capacidades digitais (internet banking, apps, relatórios em tempo real) e o apetite de risco do banco para o seu perfil específico de cliente. Muitos clientes mantêm relações com dois bancos — um grande banco privado para a gestão do patrimônio principal e uma instituição especializada (ex: um banco nativo em cripto) para classes de ativos específicas. Oferecemos introduções a gerentes de relacionamento em todos os principais private banks suíços e podemos facilitar o processo de seleção e integração com base nas suas necessidades específicas."
+            "content": "Ajudamos a colocar a preparação bancária no plano de mudança mais amplo e coordenar as introduções quando adequado. A instituição toma a sua própria decisão de aceitação e pode solicitar mais informações ou declinar a relação. Não existe um prazo universal de abertura de contas.\n\nUse o inquérito inicial para explicar suas prioridades e circunstâncias amplas. Envie passaportes, declarações e documentos de transação apenas através do canal seguro acordado com o profissional ou banco relevante."
           }
         },
         "imageAlt": "Lobby interno de um private bank suíço com pisos de mármore e sinalização em latão"
@@ -975,20 +801,22 @@
       "swiss-residency-permits-guide": {
         "category": "immigration",
         "categoryLabel": "Imigração",
-        "readTime": "11 min de leitura",
+        "readTime": "3 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Vistos de Residência na Suíça: Visto B, Visto C e o Caminho para a Cidadania",
-        "metaDescription": "Guia completo sobre vistos de residência na Suíça: requisitos para os vistos B e C, cronogramas, inclusão familiar, diferenças cantonais e o caminho para a cidadania suíça.",
-        "excerpt": "Tudo o que você precisa saber sobre vistos de residência na Suíça — requisitos para vistos B e C, prazos de processamento, reagrupamento familiar e o caminho para a cidadania suíça.",
-        "sectionCount": "8",
+        "title": "Autorizações de residência suíças para empreendedores e famílias abastadas",
+        "metaDescription": "Compreender o planejamento de residências suíças para empresários e famílias de alto valor líquido: rotas UE/EFTA e países terceiros, trabalho, inclusão familiar e assentamento.",
+        "excerpt": "Compreender o planejamento de residências suíças para empresários e famílias de alto valor líquido: rotas UE/EFTA e países terceiros, trabalho, inclusão familiar e assentamento.",
+        "sectionCount": "10",
         "sections": {
           "0": {
+            "heading": "Planeamento da residência",
+            "level": "2",
             "content": "Entender o sistema de vistos de residência da Suíça é fundamental para qualquer plano de relocação. O tipo de visto que você possui afeta tudo — desde seu tratamento tributário e direitos de propriedade até a estabilidade e as opções de longo prazo da sua família. Este guia cobre as principais categorias de vistos, seus requisitos e o trajeto da residência inicial até a cidadania suíça."
           },
           "1": {
             "heading": "Visão Geral do Sistema de Vistos Suíço",
             "level": "2",
-            "content": "A Suíça opera um sistema de vistos em níveis que distingue entre cidadãos da UE/EFTA e cidadãos de países terceiros. Os principais tipos de vistos relevantes para indivíduos em relocação são: o visto B (Aufenthaltsbewilligung/permis de séjour) — um visto de residência renovável e o ponto de entrada padrão; o visto C (Niederlassungsbewilligung/permis d'établissement) — um visto de assentamento permanente que oferece maiores direitos e estabilidade; o visto L — um visto de residência de curta duração (até um ano, renovável uma vez); e o visto G — um visto para trabalhadores transfronteiriços. Para indivíduos de alto patrimônio que se mudam para a Suíça, o visto B é o ponto de partida padrão, com um caminho para o visto C e eventual cidadania."
+            "content": "B é a autorização de residência, L a de curta duração, C a de estabelecimento e G a de trabalhador fronteiriço. A categoria e as condições dependem da nacionalidade, do motivo da estadia e da decisão da autoridade."
           },
           "2": {
             "heading": "O Visto B: Seu Portal para a Suíça",
@@ -997,28 +825,38 @@
           },
           "3": {
             "heading": "Cidadãos da UE/EFTA",
-            "level": "3",
-            "content": "Para cidadãos da UE/EFTA, obter um visto B é relativamente simples sob os acordos bilaterais entre a Suíça e a União Europeia. Os cidadãos da UE/EFTA precisam demonstrar ou um contrato de trabalho com um empregador suíço, trabalho autônomo com evidência de atividade econômica, ou recursos financeiros suficientes para se sustentarem sem recorrer à assistência social (esta é a categoria mais relevante para indivíduos de alto patrimônio). O visto é concedido por 5 anos e é renovável. O processamento da solicitação leva geralmente de 2 a 4 semanas. O processo envolve o registro no escritório municipal de moradores (Einwohnerkontrolle) com seu passaporte, comprovante de seguro de saúde e evidência de recursos financeiros ou emprego."
+            "level": "2",
+            "content": "Os cidadãos UE/EFTA podem ser admitidos por emprego, atividade independente ou residência sem atividade remunerada. Esta última exige recursos suficientes e seguros adequados de saúde e acidentes. A duração da autorização depende do fundamento de admissão. Entregue os documentos pedidos localmente; não existe prazo nacional garantido."
           },
           "4": {
             "heading": "Cidadãos de Fora da UE/EFTA",
-            "level": "3",
-            "content": "Para cidadãos de fora da UE/EFTA (incluindo GCC, Oriente Médio, Ásia e outros países terceiros), o processo do visto B é mais complexo. Eles geralmente precisam demonstrar que sua presença na Suíça serve ao interesse econômico do país — o que é tipicamente atendido através de um dos seguintes: estabelecimento de um negócio que crie empregos ou contribua para a economia local, realização de um investimento significativo ou qualificação para a tributação por montante global (que gera receita tributária substancial para o cantão e a municipalidade). As autoridades cantonais possuem discricionariedade significativa na concessão de vistos B para não europeus. Cantões interessados em atrair contribuintes de forfait fiscal (Zug, Schwyz, Vaud, Valais, Grisões) tendem a ter processos mais simplificados. A solicitação geralmente exige um dossiê pessoal e financeiro detalhado, uma declaração clara do propósito da residência, evidência de acomodação adequada, prova de seguro de saúde e, se aplicável, o pedido de tributação por montante global. Os prazos de processamento para não europeus variam de 4 a 12 semanas, dependendo do cantão e da complexidade do pedido."
+            "level": "2",
+            "content": "Para cidadãos de países terceiros, a base jurídica é avaliada individualmente. Emprego, atividade independente, reforma e admissões excecionais têm requisitos diferentes. Património, compra de imóvel, constituição de empresa ou decisão fiscal não conferem, por si, residência. Decidem as autoridades cantonais e, se necessário, federais. Solicite avaliação antes de assumir compromissos."
           },
           "5": {
             "heading": "O Visto C: Assentamento Permanente",
             "level": "2",
-            "content": "O visto C oferece direitos de residência permanente na Suíça. É a forma mais segura de residência — é por tempo indeterminado, oferece maior proteção contra revogação e dá ao titular quase todos os direitos de um cidadão suíço (exceto o direito de voto e o passaporte). Para cidadãos da UE/EFTA, o visto C está disponível após 5 anos de residência contínua com visto B (reduzido de 10 anos para 5 para a maioria das nações da UE). Para não europeus, o período de espera padrão é de 10 anos de residência contínua com visto B, embora isso possa ser reduzido para 5 anos para cidadãos de certos países (EUA, Canadá, Reino Unido e outros com acordos bilaterais) e em certos cantões. Os titulares de visto C beneficiam-se de maior flexibilidade no mercado de trabalho, proteção mais forte contra deportação, nenhuma exigência de renovação do visto (apenas o cartão físico precisa ser renovado a cada 5 anos) e melhor acesso a financiamentos imobiliários suíços."
+            "content": "A autorização de estabelecimento C pode ser concedida após cinco ou dez anos conforme nacionalidade, acordos, histórico de residência e integração. Cinco anos não são uma regra geral da UE. Estabelecimento e cidadania exigem pedidos separados e não decorrem automaticamente de uma autorização B."
           },
           "6": {
             "heading": "Inclusão Familiar",
             "level": "2",
-            "content": "O reagrupamento familiar é um direito sob a lei suíça, sujeito a condições. Um titular de visto B pode trazer seu cônjuge e filhos menores de 18 anos para a Suíça. Os membros da família recebem seus próprios vistos B. Para cidadãos da UE/EFTA, o reagrupamento familiar é amplamente direto — cônjuges e filhos dependentes são incluídos no pedido de visto. Para cidadãos de fora da UE, o titular do visto deve demonstrar moradia adequada (tamanho apropriado para a família) e recursos financeiros suficientes para sustentar todos os membros da família. Pais idosos e filhos adultos enfrentam regras de reagrupamento mais restritivas e podem exigir pedidos de visto separados com justificativa adicional. É importante planejar a inclusão familiar desde o início — incluir todos os membros no pedido inicial é significativamente mais simples do que solicitar o reagrupamento familiar posteriormente."
+            "content": "O reagrupamento depende da nacionalidade e autorização do titular. A livre circulação UE/EFTA pode abranger cônjuge, filhos menores de 21 anos ou dependentes e pais dependentes, sob condições. As regras para países terceiros diferem em idade, prazos, habitação, língua e recursos. Verifique cada familiar antes de fixar escola e mudança."
           },
           "7": {
             "heading": "O Caminho para a Cidadania Suíça",
             "level": "2",
-            "content": "A cidadania suíça pode ser obtida através da naturalização após cumprir requisitos de residência e passar por uma série de avaliações. Os requisitos para naturalização ordinária incluem: 10 anos de residência na Suíça (sendo que os anos vividos entre os 8 e 18 anos contam em dobro), pelo menos 3 anos no mesmo cantão e 2 anos na mesma municipalidade (os requisitos cantonais e municipais variam), proficiência linguística (B1 falado e A2 escrito em um idioma nacional — alemão, francês, italiano ou romanche), integração na comunidade suíça (participação na vida local, conhecimento dos costumes e instituições suíças), autossuficiência financeira (sem dependência de assistência social) e registro criminal limpo. O processo de naturalização envolve três níveis de aprovação — municipal, cantonal e federal. O processo total, da solicitação à decisão, leva geralmente de 1 a 3 anos. A cidadania suíça confere um dos passaportes mais poderosos do mundo, direito de voto na Suíça e uma camada adicional de estabilidade e segurança para sua família."
+            "content": "A naturalização ordinária exige geralmente autorização C e dez anos de residência contabilizável, três nos últimos cinco. Os anos entre 8 e 18 contam a dobrar, com pelo menos seis anos efetivos. Aplicam-se ainda requisitos cantonais e municipais de residência, linguísticos e de integração. A elegibilidade não garante cidadania."
+          },
+          "8": {
+            "heading": "Empresários: propriedade da empresa e direito ao trabalho",
+            "level": "2",
+            "content": "Antes de formar uma empresa para sua mudança, descreva o que você vai fazer na Suíça e qual base de imigração se aplica. O emprego independente da UE/EFTA e a admissão de empresários de países terceiros exigem avaliações diferentes.\n\nPara um fundador de países terceiros, prepare-se para discutir a viabilidade das empresas, o financiamento, as qualificações e a contribuição proposta para a economia suíça com os especialistas e autoridades relevantes. A incorporação por si só não decide o pedido."
+          },
+          "9": {
+            "heading": "Famílias de alto valor líquido: avaliar as atividades de cada pessoa",
+            "level": "2",
+            "content": "A riqueza faz parte do quadro financeiro, não é um substituto para uma base de residência legal. Listar o papel de trabalho e família pretendidos de cada candidato, incluindo um cônjuge que pode continuar uma empresa remotamente.\n\nManter a avaliação de residência separada de qualquer pedido fiscal. Concordar a sequência antes de um compromisso de propriedade, início da escola ou transação comercial torna a data de mudança difícil de mudar."
           }
         },
         "imageAlt": "Passaporte suíço e documentos de visto B sobre uma mesa de madeira escura"
@@ -1026,50 +864,47 @@
       "why-wealthy-families-leaving-uae-for-switzerland": {
         "category": "relocation",
         "categoryLabel": "Relocação",
-        "readTime": "9 min de leitura",
+        "readTime": "3 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Por que Famílias Ricas estão Trocando os Emirados Árabes pela Suíça",
-        "metaDescription": "Por que famílias de alto patrimônio estão se mudando de Dubai e Abu Dhabi para a Suíça: fatores geopolíticos, segurança, educação, saúde e estabilidade de longo prazo.",
-        "excerpt": "Examinando a tendência crescente de famílias ricas que se mudam dos Emirados Árabes Unidos para a Suíça — de riscos geopolíticos e pensamento geracional a educação, saúde e estilo de vida.",
-        "sectionCount": "8",
+        "title": "Dos Emirados para a Suíça: planeamento para empreendedores e famílias",
+        "metaDescription": "Para os fundadores dos Emirados Árabes Unidos e famílias de alto valor: compare a residência suíça, atividades comerciais, conselhos fiscais, evidências bancárias, escolas e a sequência de mudanças.",
+        "excerpt": "Para os fundadores dos Emirados Árabes Unidos e famílias de alto valor: compare a residência suíça, atividades comerciais, conselhos fiscais, evidências bancárias, escolas e a sequência de mudanças.",
+        "sectionCount": "7",
         "sections": {
           "0": {
-            "content": "Os Emirados Árabes Unidos — e Dubai em particular — têm sido um dos imãs de riqueza mais bem-sucedidos do mundo nas últimas duas décadas. Imposto de renda pessoal zero, infraestrutura de classe mundial e um ambiente regulatório favorável aos negócios atraíram empreendedores, family offices e indivíduos de alto patrimônio de todo o globo. No entanto, um número crescente dessas mesmas famílias está tomando a decisão de se mudar para a Suíça. Este artigo examina os motivos por trás dessa mudança e o que a Suíça oferece que os Emirados não podem oferecer."
+            "heading": "Defina o que o movimento precisa alcançar",
+            "level": "2",
+            "content": "Para uma família com sede em Dubai ou Abu Dhabi, um movimento suíço pode ser sobre educação, proximidade com interesses empresariais europeus ou uma base familiar de longo prazo. Escreva suas próprias razões em vez de confiar em reivindicações sobre onde outras famílias ricas estão se mudando.\n\nDecida se o plano é um movimento familiar completo, uma transição encenada ou uma estadia exploratória. Estas têm implicações práticas diferentes e não devem ser tratadas como disposições de residência ou de tributação intermutáveis."
           },
           "1": {
-            "heading": "O Fator Geopolítico",
+            "heading": "Seu passaporte importa, bem como seu endereço atual",
             "level": "2",
-            "content": "O Oriente Médio, apesar da estabilidade relativa dos Emirados Árabes, continua sendo uma das regiões geopoliticamente mais voláteis do mundo. A proximidade dos Emirados com o Irã (menos de 200 km através do Estreito de Ormuz), tensões contínuas no Iêmen, os efeitos colaterais dos Acordos de Abraão e as dinâmicas de poder regional criam um ambiente de risco latente com o qual muitas famílias ricas se sentem cada vez mais desconfortáveis. A Suíça, por outro lado, mantém sua neutralidade política há mais de 500 anos. Não participa de conflitos militares desde 1815, não é membro da OTAN ou de qualquer aliança militar e situa-se no centro geográfico e político da Europa. Para famílias cuja riqueza foi construída no Golfo, mas que desejam proteger esse patrimônio em uma jurisdição imune à instabilidade regional, a Suíça representa o padrão ouro."
+            "content": "Viver nos EAU não determina quais as regras de imigração suíças aplicáveis. Comece com a cidadania de cada membro da família e status existente. As rotas UE/EFTA e países terceiros têm requisitos diferentes.\n\nUm empresário ativo deve avaliar o trabalho proposto, bem como a residência. Uma compra de propriedade, registro de empresa ou relacionamento bancário não garante a permissão para viver e trabalhar na Suíça."
           },
           "2": {
-            "heading": "Segurança e Proteção Pessoal",
+            "heading": "Separar o empreendedorismo ativo da residência privada-riqueza",
             "level": "2",
-            "content": "Embora os Emirados possuam excelente segurança pessoal dentro de suas fronteiras, o ambiente de segurança mais amplo na região — e a concentração de riqueza em uma área geográfica relativamente pequena — cria preocupações difíceis de mitigar. A Suíça figura consistentemente entre os três países mais seguros do mundo. Crimes violentos são virtualmente inexistentes, a infraestrutura de segurança pessoal é de elite (sem a presença visível de segurança comum no Golfo) e o tamanho reduzido do país aliado à geografia montanhosa oferece uma segurança natural. Para famílias com crianças, a Suíça oferece um nível de segurança cotidiana que se traduz em uma qualidade de vida fundamentalmente diferente — as crianças vão a pé para a escola, brincam em parques públicos e circulam livremente de uma forma que raramente é possível nos Emirados."
+            "content": "Descreva o que você vai fazer depois de se mudar: gerenciar um negócio no exterior, servir em um conselho, iniciar uma empresa suíça ou supervisionar investimentos privados. Peça especialistas para avaliar essas atividades antes de escolher uma rota fiscal.\n\nA tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam."
           },
           "3": {
-            "heading": "Educação: O Jogo de Longo Prazo",
+            "heading": "Mapa das questões de negócios e partida",
             "level": "2",
-            "content": "A educação é frequentemente o ponto de virada que desencadeia a decisão de relocação. Embora os Emirados tenham investido pesadamente em escolas internacionais, a educação suíça oferece algo qualitativamente diferente. A Suíça abriga a ETH Zurique (consistentemente top 3 global), a Universidade de Zurique, a EPFL e uma rede de mais de 50 escolas internacionais com tradições profundamente estabelecidas. O sistema educacional suíço combina rigor acadêmico com imersão multilíngue, educação ao ar livre e um nível de segurança e estabilidade que os internatos no Reino Unido ou nos EUA não podem igualar. Para famílias que pensam na próxima geração — onde seus filhos construirão redes de contatos, quais universidades frequentarão, em quais comunidades crescerão — a Suíça oferece um ecossistema educacional de longo prazo inigualável."
+            "content": "Prepare um gráfico de propriedade mostrando EAU e outras entidades, onde as pessoas trabalham e onde as decisões de gestão são tomadas. Pergunte aos conselheiros em ambos os países sobre as implicações das mudanças propostas, incluindo folha de pagamento, gestão da empresa, contratos e qualquer disposição planejada.\n\nCrie uma lista de verificação de partida para seus arranjos específicos de residência dos Emirados Árabes Unidos, dependentes, habitação, responsabilidades comerciais e contas. Obter os requisitos actuais da autoridade ou do prestador relevante antes de cancelar os acordos de que a família ainda necessita."
           },
           "4": {
-            "heading": "Saúde e Qualidade de Vida",
+            "heading": "Preparar provas bancárias antes das transferências esperadas",
             "level": "2",
-            "content": "O sistema de saúde da Suíça é consistentemente classificado entre os melhores do mundo. Cobertura universal obrigatória, hospitais líderes (Universitätsspital Zurich, Hirslanden, Inselspital Bern) e uma densidade de 4,3 médicos por 1.000 habitantes garantem que o atendimento médico nunca seja uma preocupação. Além da saúde, a qualidade de vida suíça engloba ambientes naturais imaculados, infraestrutura pública eficiente e um contrato social que prioriza ar limpo, água pura, comunidades seguras e riqueza cultural. A experiência vivida diariamente na Suíça — da precisão do transporte público à qualidade da água da torneira — reflete uma sociedade que se otimizou para a qualidade de vida ao longo de gerações."
+            "content": "Organize registros de propriedade e evidências de como a riqueza foi acumulada, juntamente com a origem dos fundos que você espera transferir. Para uma venda de negócios, conecte os documentos de transação e o cronograma de pagamento à conta receptora.\n\nUm banco suíço avalia a relação proposta de forma independente. Pergunte sobre seus atuais critérios de cliente, taxas e requisitos de evidência; uma introdução não é uma decisão de aceitação."
           },
           "5": {
-            "heading": "Comparação Tributária: Não é tão Simples quanto Zero vs. Alguma Coisa",
+            "heading": "Compare uma verdadeira combinação de escola e casa",
             "level": "2",
-            "content": "A objeção mais comum à mudança dos Emirados para a Suíça é o imposto. Os Emirados não cobram imposto de renda pessoal, enquanto a Suíça cobra. No entanto, a comparação é mais sutil do que parece. A tributação por montante global permite que indivíduos qualificados sejam tributados com base nas despesas, não na renda mundial — a taxa efetiva para um acordo bem estruturado pode ser significativamente menor que em muitas jurisdições alternativas. Os Emirados introduziram um imposto corporativo de 9% em 2023, e o IVA está em vigor desde 2018, corroendo a vantagem do \"imposto zero\" para empresas. A competição cantonal da Suíça significa que cantões como Zug e Schwyz oferecem algumas das menores taxas de impostos do mundo desenvolvido. Para famílias com patrimônio a proteger por gerações, a questão não é o \"imposto zero hoje\", mas sim \"qual é o custo total da jurisdição em 30 anos?\" — e quando se fatora estabilidade política, proteção de ativos, leis de herança e o valor de um passaporte suíço, a Suíça muitas vezes compete de forma mais eficaz do que as taxas nominais sugerem."
+            "content": "Escolha opções escolares usando as idades das crianças, currículo atual, necessidades de linguagem e duração provável da estadia. Compare educação pública e internacional, admissões e a viagem para o campus real.\n\nZurique, Zug e Schwyz fornecem diferentes pontos de partida para uma base de língua alemã. Vaud e Genebra merecem uma comparação separada se a educação de língua francesa ou conexões de negócios são importantes. Teste as viagens diárias e use as atuais perguntas de alojamento em vez de um suposto preço de cantão."
           },
           "6": {
-            "heading": "A Perspectiva Geracional",
+            "heading": "Construa uma sequência que a família pode seguir",
             "level": "2",
-            "content": "Talvez o motivo mais convincente para a mudança dos Emirados para a Suíça seja o pensamento geracional. Os Emirados possuem apenas 50 anos como nação. Sua prosperidade está concentrada em um setor específico (hidrocarbonetos, com diversificação em curso) e depende da sabedoria contínua de sua liderança. A Suíça é uma confederação estável e próspera há mais de 700 anos. Suas instituições, estruturas jurídicas e tradições democráticas sobreviveram a séculos de mudanças. Para famílias que pensam em onde seus netos viverão — onde a riqueza será protegida, onde um passaporte garantirá segurança, onde as instituições ainda funcionarão em 2060 ou 2080 — o histórico de séculos da Suíça oferece um nível de confiança que nenhuma jurisdição fundada na década de 1970 pode igualar."
-          },
-          "7": {
-            "heading": "Fazendo a Transição",
-            "level": "2",
-            "content": "A relocação dos Emirados para a Suíça é um dos caminhos mais trilhados na migração internacional de fortunas. Bancos suíços, assessores fiscais e especialistas em relocação possuem profunda experiência em atender famílias originárias do Golfo. Profissionais que falam árabe estão disponíveis na maioria das grandes instituições suíças, e a ponte cultural — construída ao longo de décadas de negócios, educação e relacionamentos pessoais — está bem estabelecida. A transição prática envolve coordenar a saída da residência nos Emirados (que possui suas próprias implicações para vistos, licenças comerciais e bancos) com a entrada na residência suíça. Essa coordenação é onde a assessoria profissional é mais valiosa — garantindo que a transição seja limpa, eficiente sob o ponto de vista fiscal e que nada se perca pelo caminho. Especializamo-nos exatamente nessa transição e trabalhamos com famílias de toda a região do GCC para executar relocações impecáveis para a Suíça."
+            "content": "Concordo quem coordena imigração, conselho fiscal, bancário, a busca em casa e inquéritos escolares. Mantenha uma janela de movimento de alvo com arranjos de retrocesso para decisões fora do seu controle.\n\nAjudamos centenas de pessoas a se mudarem para a Suíça desde 2012. Comece com uma conversa on-line sobre suas prioridades familiares e de negócios; reuniões presenciais estão disponíveis em Zurique. Não são necessários documentos financeiros sensíveis no inquérito inicial."
           }
         },
         "imageAlt": "Skyline de Dubai transicionando para os Alpes Suíços em uma composição cinematográfica"
@@ -1077,50 +912,42 @@
       "setting-up-family-office-switzerland": {
         "category": "wealth-management",
         "categoryLabel": "Gestão de Patrimônio",
-        "readTime": "12 min de leitura",
+        "readTime": "3 minutos de leitura",
         "date": "1 de abril de 2026",
-        "title": "Estabelecendo um Family Office na Suíça: Estrutura, Governança e Bancos",
-        "metaDescription": "Guia completo para estabelecer um family office na Suíça: estruturas SFO vs MFO, tipos de empresas suíças, estruturas de governança, relações bancárias e comparação entre Zug e Zurique.",
-        "excerpt": "Tudo o que você precisa para estabelecer um family office suíço — da escolha entre SFO e MFO e tipos de empresas suíças a governança, bancos e a decisão entre Zug e Zurique.",
-        "sectionCount": "8",
+        "title": "Criar um family office na Suíça: funções, governação e mudança",
+        "metaDescription": "Um guia de planejamento para famílias UHNW considerando um escritório familiar suíço: modelo operacional, governança, avaliação regulatória e coordenação com o movimento familiar.",
+        "excerpt": "Um guia de planejamento para famílias UHNW considerando um escritório familiar suíço: modelo operacional, governança, avaliação regulatória e coordenação com o movimento familiar.",
+        "sectionCount": "6",
         "sections": {
           "0": {
-            "content": "A Suíça é uma das jurisdições líderes mundiais para family offices, abrigando estimadas 3.500–4.000 estruturas que gerenciam coletivamente trilhões de francos suíços em ativos. A combinação de estabilidade política, infraestrutura bancária, segurança jurídica e um profundo pool de profissionais qualificados torna a Suíça a escolha natural para famílias que buscam profissionalizar sua gestão patrimonial. Este guia cobre as principais considerações ao estabelecer um family office suíço."
+            "heading": "Definir o propósito antes de escolher a estrutura",
+            "level": "2",
+            "content": "Um escritório da família suíça pode ser considerado ao lado de um movimento familiar, uma venda de negócios ou uma mudança na responsabilidade geracional. Começa por enumerar os empregos que deve desempenhar: relatórios consolidados, supervisão do investimento, pagamentos, administração, filantropia ou coordenação de consultores externos.\n\nSepare os assuntos pessoais da família do negócio operacional. Registar quais os activos, entidades, países e membros da família abrangidos pelo âmbito de aplicação e quais as decisões que permanecem nas equipas existentes."
           },
           "1": {
-            "heading": "Single family office (SFO) ou multi-family office (MFO)",
+            "heading": "Equipa interna, fornecedores externos ou um modelo híbrido",
             "level": "2",
-            "content": "A primeira decisão estrutural é se estabelecerá um single family office (SFO) atendendo exclusivamente a uma família, ou se integrará a um multi-family office (MFO) que atende a várias famílias. Um SFO oferece controle total sobre a estratégia de investimento, governança e confidencialidade. Geralmente requer ativos sob gestão de CHF 100 milhões ou mais para ser economicamente viável, já que os custos operacionais de um SFO completo (incluindo CEO, CIO, CFO, conformidade e administração) podem variar de CHF 1 a 3 milhões anuais. Um MFO oferece serviços profissionais de gestão patrimonial para várias famílias, compartilhando os custos de infraestrutura, conformidade e expertise. MFOs são adequados para famílias com CHF 20 a 100 milhões em ativos que desejam gestão de nível institucional sem o custo total de um escritório dedicado. Para famílias na faixa de CHF 100 a 500 milhões, uma abordagem híbrida é comum: um SFO dedicado para governança central, coordenação familiar e decisões estratégicas, combinado com parcerias de MFO ou bancos privados para execução de investimentos e expertise especializada."
+            "content": "Compare uma equipe interna com funções particulares de terceirização e combinando as duas. A questão útil é se o modelo corresponde à complexidade, expectativas de serviço e tempo que a família quer comprometer. Um único limiar de activos-subgestão não pode responder a isso.\n\nSolicitar propostas contra o mesmo resumo. Comparar pessoal, sistemas, custódia, relatórios, consultoria especializada e trabalho de transição. Mostrar despesas únicas de instalação separadamente dos custos operacionais recorrentes, e identificar quem supervisiona cada provedor."
           },
           "2": {
-            "heading": "Estruturas de Empresas Suíças para Family Offices",
+            "heading": "Avaliação regulamentar vem antes do lançamento",
             "level": "2",
-            "content": "As estruturas jurídicas mais comuns para family offices suíços são a AG (Aktiengesellschaft / sociedade anônima) e a GmbH (Gesellschaft mit beschränkter Haftung / sociedade de responsabilidade limitada). A AG é a estrutura preferida para family offices maiores. Requer capital social mínimo de CHF 100.000 (pelo menos 20% integralizado na incorporação, ou seja, CHF 20.000), oferece flexibilidade na estrutura de ações (incluindo ações ao portador vs. nominativas, embora ações ao portador agora exijam a divulgação dos beneficiários finais) e fornece a estrutura de governança formal (conselho de administração, auditores) que as contrapartes institucionais esperam. A GmbH requer capital mínimo de CHF 20.000 (totalmente integralizado na incorporação) e é mais simples de administrar. É adequada para family offices menores onde os requisitos de governança de uma AG não são necessários. Independentemente da estrutura, uma empresa suíça que atue como family office deve ter pelo menos um diretor residente na Suíça."
+            "content": "Os gestores de carteiras e trustees que exercem atividades profissionais regulamentadas estão sujeitos aos requisitos de autorização da FINMA. A avaliação depende das atividades, dos clientes e das relações de propriedade e controlo.\n\nSolicite a um advogado especializado em regulamentação financeira que documente as regras aplicáveis e quaisquer isenções antes do início dos serviços. Não assuma que chamar uma entidade de \"escritório familiar\" elimina as obrigações regulatórias. Reavalie se isso inclui clientes fora da família, altera o controlo ou expande as suas atividades."
           },
           "3": {
-            "heading": "Requisitos de Governança",
+            "heading": "Forma e governança da empresa",
             "level": "2",
-            "content": "A governança de um family office suíço deve abordar várias áreas fundamentais. A composição do conselho deve incluir tipicamente uma mistura de membros da família e profissionais independentes. As melhores práticas suíças sugerem pelo menos um diretor independente com expertise financeira relevante e, idealmente, um conselho majoritariamente independente para escritórios maiores. Um comitê de investimento — separado do conselho — deve estabelecer a política de investimento, parâmetros de risco, metas de alocação de ativos e monitoramento de desempenho. Uma carta ou constituição familiar formaliza os valores da família, processos de tomada de decisão, regras de sucessão e o mandato do escritório. As estruturas de conformidade e reporte devem atender aos requisitos regulatórios suíços. Reportes regulares aos membros da família — trimestrais, no mínimo — devem cobrir desempenho de investimento, métricas de risco, taxas e assuntos de governança. Auditorias profissionais (estatutárias ou voluntárias) proporcionam transparência e prestação de contas."
+            "content": "Uma AG suíça exige CHF 100.000 de capital mínimo; na constituição devem ser realizados pelo menos 20% do nominal de cada ação e CHF 50.000 no total. Uma GmbH exige CHF 20.000 integralmente realizados. Representação residente na Suíça e deveres de governação, autorização e reporte devem ser organizados com especialistas.\n\nDefinir direitos de decisão, limites de assinatura, procedimentos de escalada e acesso aos registros. Concordar em como as decisões de investimento, custódia, administração e supervisão independente serão separadas. A frequência da reunião e a comunicação de informações deverão ser adequadas ao mandato e aos requisitos aplicáveis."
           },
           "4": {
-            "heading": "Relações Bancárias",
+            "heading": "Escolha a localização em torno de operações reais",
             "level": "2",
-            "content": "Um family office suíço mantém tipicamente relações com múltiplos bancos. O banco custodiante detém e protege os ativos financeiros da família. Os principais bancos suíços (UBS, Julius Bär, Pictet, Lombard Odier) oferecem serviços de custódia de nível institucional adequados para family offices. O(s) banco(s) de execução lidam com negociações, câmbio e empréstimos. Alguns family offices utilizam um único banco tanto para custódia quanto para execução; outros preferem separar essas funções para gestão de risco e preços competitivos. Contas de gestão de caixa em um ou mais bancos suíços lidam com despesas operacionais e liquidez de curto prazo. Para family offices com alocações em ativos digitais, bancos nativos em cripto (SEBA Bank, Sygnum Bank) oferecem infraestrutura regulada de custódia e negociação."
+            "content": "Compare o local de trabalho proposto, as necessidades de recrutamento, os conselheiros e o local de residência da família. Zurique, Zug, Schwyz, Genebra e outros cantões podem responder a diferentes necessidades; o endereço do escritório e residência familiar precisam de análise separada.\n\nMapa onde as decisões de gestão e o trabalho terão realmente lugar. Peça a especialistas fiscais para avaliar os fatos propostos em todas as jurisdições relevantes antes de tratar um determinado domicílio como uma solução fiscal."
           },
           "5": {
-            "heading": "Zug vs. Zurique: Escolhendo sua Localização",
+            "heading": "Conecte o escritório com o movimento familiar",
             "level": "2",
-            "content": "As duas principais localizações para family offices suíços são Zurique e Zug, cada uma com vantagens distintas. Zurique oferece o maior pool de talentos profissionais (gestores de investimentos, advogados, auditores, oficiais de conformidade), proximidade com o maior centro financeiro da Suíça, excelente conectividade internacional (Aeroporto de Zurique) e uma cena cultural vibrante. No entanto, Zurique possui custos de escritório e taxas de impostos pessoais mais elevados. Zug oferece taxas de impostos corporativos e pessoais significativamente menores, um ecossistema de family offices próspero (perdendo apenas para Genebra em nível nacional), excelente conectividade (25 minutos de Zurique por trem), uma administração cantonal acolhedora e experiente no atendimento a family offices e o ecossistema do Crypto Valley para escritórios com alocações em ativos digitais. Para muitos family offices, a solução ideal é um domicílio corporativo em Zug (por eficiência fiscal) com membros da equipe que podem residir em Zurique ou outras localidades próximas."
-          },
-          "6": {
-            "heading": "Considerações Regulatórias",
-            "level": "2",
-            "content": "Os family offices suíços beneficiam-se de um ambiente regulatório relativamente leve, mas devem navegar por certos requisitos. A conformidade com AML (Prevenção à Lavagem de Dinheiro) é exigida se o escritório gerencia ativos financeiros. Sob a Lei de Instituições Financeiras (FINIG) e a Lei de Serviços Financeiros (FIDLEG), gestores de ativos para ativos de terceiros requerem autorização da FINMA. No entanto, um SFO puro, que gere apenas os ativos da própria família, é geralmente isento desta exigência. As obrigações fiscais para a entidade do escritório incluem imposto de renda corporativo, imposto sobre o capital e IVA (se aplicável). Obrigações de empregador (contribuições previdenciárias, fundo de pensão, seguro de acidentes) aplicam-se se o escritório empregar funcionários na Suíça. Uma estruturação correta desde o início evita complicações regulatórias onerosas posteriormente."
-          },
-          "7": {
-            "heading": "Cronograma e Custos",
-            "level": "2",
-            "content": "Estabelecer um family office suíço do zero leva tipicamente de 3 a 6 meses, desde o design inicial da estrutura até a entidade estar totalmente operacional. Os marcos principais incluem: design da estrutura e documentação jurídica (2–4 semanas), incorporação da empresa (1–2 semanas para o processo do registro comercial), abertura de conta bancária (3–6 semanas incluindo revisão de conformidade), recrutamento ou alocação de equipe (4–12 semanas, dependendo das funções) e configuração operacional e de TI (2–4 semanas). Os custos de configuração (honorários advocatícios, incorporação, configuração inicial de conformidade) variam tipicamente de CHF 50.000 a 150.000, dependendo da complexidade. Os custos anuais contínuos para um SFO de médio porte (3 a 5 funcionários) variam de CHF 1 a 2 milhões, incluindo salários, custos de escritório, auditoria, jurídico e conformidade. Assessoramos famílias na estrutura ideal para sua situação e gerenciamos todo o processo de configuração, da incorporação à primeira reunião do conselho."
+            "content": "A formação do escritório não confere aos familiares um direito de residência ou de trabalho suíço. Analisar as actividades pretendidas de cada pessoa, especialmente no que se refere à tributação baseada nas despesas. A gestão ativa da Suíça precisa de avaliação.\n\nPrepare um mapa de responsabilidade para consultores corporativos, especialistas em imigração e impostos, bancos e coordenador de deslocalização. Nós conectamos esse trabalho especializado com habitação, escolas e planejamento de chegada, sob um escopo acordado."
           }
         },
         "imageAlt": "Sala de reuniões de um family office suíço com vista alpina através de janelas de vidro"
@@ -1131,27 +958,35 @@
     "items": [
       {
         "question": "Quanto tempo leva para se mudar para a Suíça?",
-        "answer": "Uma relocação típica para a Suíça leva de 6 a 12 meses, desde a consulta inicial até o assentamento completo. Relocações rápidas para cidadãos da UE/EFTA podem ser concluídas em apenas 3 meses, enquanto relocações multigeracionais complexas com family offices podem levar de 12 a 18 meses."
+        "answer": "O tempo depende da residência e da base de trabalho, da disponibilidade dos documentos, das decisões de autoridade e das disposições práticas, tais como os locais de escola e de habitação. Concorde uma janela de destino e uma sequência de decisões com seus conselheiros; não há uma única linha do tempo de aprovação ou liquidação para cada movimento suíço."
       },
       {
         "question": "O que é a tributação por montante global (forfait fiscal) na Suíça?",
-        "answer": "A tributação por montante global é um regime fiscal especial para estrangeiros qualificados que não trabalham na Suíça. Em vez de ser tributado sobre a renda mundial, sua base de impostos é determinada pelas suas despesas de subsistência na Suíça. Os valores mínimos variam de CHF 250.000 a mais de CHF 600.000, dependendo do cantão."
+        "answer": "A tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam. No ano fiscal de 2026, a base mínima federal é CHF 435.000, não o imposto a pagar. Contam também as despesas de vida mundiais e os mínimos legais ligados à habitação. Um cálculo de controlo separado pode aumentar o imposto sobre certos rendimentos suíços e estrangeiros com benefícios de convenção. Os impostos cantonais sobre rendimento e património exigem cálculo próprio."
       },
       {
         "question": "Estrangeiros podem comprar imóveis na Suíça?",
-        "answer": "Sim, mas sujeitos à lei Lex Koller. Estrangeiros com um visto de residência suíço válido (visto B ou C) podem comprar uma residência primária. Propriedades secundárias e de investimento enfrentam restrições mais severas e podem exigir autorização cantonal."
+        "answer": "A compra imobiliária depende de nacionalidade, domicílio efetivo, autorização e uso. Uma autorização B não permite genericamente investimentos residenciais suíços. Habitação principal, de férias e para arrendamento são casos distintos. Uma sociedade suíça sob controlo estrangeiro não contorna a Lex Koller. Confirme com a autoridade cantonal e o notário antes de assinar."
       },
       {
         "question": "Qual cantão suíço é o melhor para relocação?",
-        "answer": "O melhor cantão depende das suas prioridades. Zug oferece as menores taxas de impostos e uma próspera comunidade internacional. Zurique oferece o estilo de vida mais cosmopolita e a melhor conectividade. Schwyz combina impostos muito baixos com privacidade alpina. Assessoramos na seleção do cantão com base em suas necessidades específicas de impostos, estilo de vida e família."
+        "answer": "Compare o município, casa, escola e local de trabalho. Zurique, Zug e Schwyz atendem a diferentes prioridades, e a comparação de impostos domésticos precisa de pressupostos consistentes sobre renda, bens e circunstâncias familiares. Avaliar a localização da empresa separadamente da residência pessoal."
       },
       {
         "question": "Como abro uma conta em um private bank suíço?",
-        "answer": "A abertura de conta exige documentação abrangente de AML/KYC, incluindo verificação de identidade, documentação de origem da riqueza e evidência da origem dos fundos. O processo leva tipicamente de 4 a 8 semanas para casos simples. Facilitamos as introduções e a preparação da documentação."
+        "answer": "Comece esclarecendo os serviços de que precisa e se o banco pode considerar sua residência, status de imposto e ativos. Preparar identidade, propriedade e fonte de provas de riqueza, além de registos que mostrem de onde virão as transferências esperadas. O banco decide aceitação, requisitos de documentação, taxas e timing."
       },
       {
         "question": "Quais vistos de residência estão disponíveis na Suíça?",
-        "answer": "Os principais vistos são: visto B (residência, renovável, ponto de entrada padrão), visto C (assentamento permanente, disponível após 5-10 anos), visto L (curta duração) e visto G (trabalhador transfronteiriço). Para indivíduos de alto patrimônio, o visto B vinculado ao forfait fiscal é o caminho mais comum."
+        "answer": "B é a autorização de residência, L a de curta duração, C a de estabelecimento e G a de trabalhador fronteiriço. A categoria e as condições dependem da nacionalidade, do motivo da estadia e da decisão da autoridade. Para cidadãos de países terceiros, a base jurídica é avaliada individualmente. Emprego, atividade independente, reforma e admissões excecionais têm requisitos diferentes. Património, compra de imóvel, constituição de empresa ou decisão fiscal não conferem, por si, residência. Decidem as autoridades cantonais e, se necessário, federais. Solicite avaliação antes de assumir compromissos."
+      },
+      {
+        "question": "Posso me mudar para a Suíça como empresário?",
+        "answer": "A rota depende da cidadania, status existente e trabalho proposto. O emprego independente e a admissão de empresários de países terceiros na UE/EFTA têm requisitos diferentes. Avaliar o plano de negócios e o direito do fundador de trabalhar com um especialista em imigração; possuir ou registrar uma empresa não concede uma autorização de residência."
+      },
+      {
+        "question": "Ajuda pessoas de alto valor e escritórios familiares?",
+        "answer": "Sim. Coordenamos o planejamento de realocação para indivíduos de alto valor líquido, empresários, famílias UHNW e escritórios familiares. O escopo pode conectar residência, questões fiscais especializadas, preparação bancária, habitação e escolas, enquanto seus profissionais nomeados mantêm a responsabilidade por seus conselhos e serviços regulamentados."
       }
     ]
   },
@@ -1473,8 +1308,8 @@
     },
     "home": {
       "heroBadge": "Assessoria de realocação suíça",
-      "heroTitle": "Mude-se para a Suíça com licenças, impostos, serviços bancários, escolas e liquidação coordenados.",
-      "heroSubtitle": "Consultoria privada com sede na Suíça para empreendedores, detentores de patrimônio, famílias e escritórios familiares que se mudam para Zurique, Zug, Schwyz, Genebra, Vaud e outros lugares.",
+      "heroTitle": "A sua mudança para a Suíça, bem planeada.",
+      "heroSubtitle": "Consultoria na Suíça para grandes patrimónios, empreendedores e family offices. Residência, fiscalidade, banca e vida familiar num só plano.",
       "heroProof": [
         {
           "label": "Coordenação baseada na Suíça",
@@ -1494,12 +1329,12 @@
         }
       ],
       "planTitle": "Plano de mudança para a Suíça",
-      "planPeriod": "Primeiros 30 dias",
+      "planPeriod": "Prioridades de planeamento",
       "planRows": [
         [
           "01",
           "Rota de residência",
-          "Permissão B, inclusão familiar, momento"
+          "Elegibilidade, actividades de trabalho, família e calendário"
         ],
         [
           "02",
@@ -1509,7 +1344,7 @@
         [
           "03",
           "Prontidão do banco",
-          "História e introduções sobre a fonte de riqueza"
+          "Registos de propriedade e provas da fonte de riqueza"
         ],
         [
           "04",
@@ -1517,7 +1352,7 @@
           "Habitação, seguros, escolas, configuração diária"
         ]
       ],
-      "planFooter": "O objetivo não é mais conselhos. É uma sequência que evita que licenças, bancos, escolas e moradias se bloqueiem.",
+      "planFooter": "Comece com a residência e base de trabalho, em seguida, alinhar consultoria fiscal especializada, preparação bancária, escolas e habitação em torno das decisões que dependem deles.",
       "trustStrip": [
         "Avaliação privada",
         "Comparação do cantão suíço",
@@ -1525,7 +1360,7 @@
         "Assentamento familiar"
       ],
       "processTitle": "Desde a primeira conversa até um plano suíço que você pode executar",
-      "processText": "As realocações de alto valor falham quando os fluxos de trabalho são movidos separadamente. O primeiro passo é um modelo operacional claro antes que alguém solicite documentos.",
+      "processText": "Um fundador que gere um negócio, um investidor que gere a riqueza privada e um escritório familiar têm necessidades de planeamento diferentes. Começamos com suas atividades, prioridades familiares e conselheiros existentes.",
       "processSteps": [
         {
           "title": "Avaliação privada",
@@ -1541,8 +1376,8 @@
         }
       ],
       "signalsBadge": "O que é coordenado",
-      "signalsTitle": "Execução específica na Suíça, não conversa genérica sobre realocação",
-      "signalsText": "A proposta de valor é operacional: menos lacunas entre impostos, licenças, serviços bancários, habitação, escolas e o primeiro dia normal na Suíça.",
+      "signalsTitle": "Os detalhes que tornam um movimento suíço viável",
+      "signalsText": "Um plano coordenado conecta as decisões sobre onde você mora, como você trabalha e o que sua família precisa.",
       "signals": [
         "Comparação de Cantão antes do compromisso",
         "Cronograma de permissão compatível com o ingresso na escola",
@@ -1552,82 +1387,8 @@
         "Nenhum passaporte, extrato bancário ou arquivo confidencial através de formulários públicos"
       ],
       "pathsTitle": "Caminhos populares de realocação",
-      "pathsText": "Visitantes de alta intenção não deveriam ter que traduzir páginas de serviços genéricas para sua própria situação.",
+      "pathsText": "Explore as perguntas para o seu país de partida, atividades comerciais e a base suíça pretendida.",
       "discussRoute": "Discuta minha rota"
-    },
-    "caseSnapshots": {
-      "techFounder": [
-        {
-          "label": "Ponto de partida",
-          "value": "Dubai, fundador pós-saída"
-        },
-        {
-          "label": "base suíça",
-          "value": "Residência da família Zug"
-        },
-        {
-          "label": "Risco central",
-          "value": "Documentação de riqueza criptográfica"
-        },
-        {
-          "label": "Resultado",
-          "value": "Licença, escola, banco, escritório ativo"
-        }
-      ],
-      "bankingFamily": [
-        {
-          "label": "Ponto de partida",
-          "value": "Beirute, realocação de emergência"
-        },
-        {
-          "label": "Base suíça",
-          "value": "Acordo Schwyz que prioriza a privacidade"
-        },
-        {
-          "label": "Risco central",
-          "value": "Complexidade imobiliária de três gerações"
-        },
-        {
-          "label": "Resultado",
-          "value": "Família estabelecida com governança suíça"
-        }
-      ],
-      "digitalNomad": [
-        {
-          "label": "Ponto de partida",
-          "value": "Riade, investidor em criptografia"
-        },
-        {
-          "label": "Base suíça",
-          "value": "Apartamento Zurique e GmbH"
-        },
-        {
-          "label": "Risco central",
-          "value": "Perfil de riqueza não tradicional"
-        },
-        {
-          "label": "Resultado",
-          "value": "Permissão e configuração bancária dupla"
-        }
-      ],
-      "gulfFamilyOffice": [
-        {
-          "label": "Ponto de partida",
-          "value": "Kuwait, escritório multijurisdicional"
-        },
-        {
-          "label": "Base suíça",
-          "value": "Escritório familiar único em Zug"
-        },
-        {
-          "label": "Risco central",
-          "value": "Governança entre gerações"
-        },
-        {
-          "label": "Resultado",
-          "value": "Conselho suíço e reportagens ao vivo"
-        }
-      ]
     },
     "quiz": {
       "eyebrow": "Teste de aptidão em Cantão",
@@ -2129,9 +1890,9 @@
           "Schwyz"
         ],
         "urgentQuestions": [
-          "A empresa suíça deve ser formada antes ou depois de a rota de residência estar clara?",
-          "Que substância o cantão, o banco e as contrapartes esperarão?",
-          "Como as licenças de fundador, a realocação familiar e os serviços bancários corporativos afetam uns aos outros?"
+          "O plano exige uma nova entidade suíça, uma filial ou outro arranjo?",
+          "Onde estarão a gestão, os funcionários, os contratos e a propriedade intelectual após a mudança?",
+          "Que imposto de partida-país, preços de transferência, folha de pagamento e licença de trabalho perguntas precisam de aconselhamento especializado?"
         ],
         "workstreams": [
           "Perfil do fundador, substância da empresa e avaliação de adequação ao cantão",
@@ -2140,16 +1901,30 @@
           "Licença de fundador, realocação familiar, moradia e assentamento"
         ],
         "proofPoints": [
-          "Criado para fundadores que precisam de fluxos de trabalho empresariais e familiares alinhados",
-          "Conecta substância, licenças, serviços bancários e liquidação na ordem certa",
-          "Reduz atrasos decorrentes de aconselhamento jurídico, bancário e de relocação isolados"
+          "Conecta a deslocalização do fundador com as atividades suíças do negócio",
+          "Mantém os conselheiros existentes envolvidos nas decisões transfronteiriças",
+          "Separa a incorporação de licenças, licenças bancárias e licenças"
+        ],
+        "faqs": [
+          {
+            "question": "A mudança do fundador também move a empresa?",
+            "answer": "A deslocalização pessoal do fundador e a posição legal e fiscal da empresa são questões distintas. Mapa onde a gestão, os funcionários, os contratos e os ativos se sentarão. Peça aos conselheiros de ambos os países que avaliem os fatos propostos antes de tratar uma mudança de endereço como uma migração de empresa."
+          },
+          {
+            "question": "Devo formar uma empresa suíça ou abrir uma filial?",
+            "answer": "Compare a finalidade do negócio, propriedade, passivos, financiamento e operações planejadas com consultores corporativos e fiscais. A forma jurídica adequada depende desses factos. Mantenha a permissão de residência e trabalho do fundador, aceitação bancária e qualquer licenciamento do setor no mesmo plano de projeto que decisões separadas."
+          },
+          {
+            "question": "E se eu estiver a planear uma saída de negócios?",
+            "answer": "Trazer o calendário de venda proposto, gráfico de propriedade, obrigações de trabalho continuadas e qualquer consideração diferida na avaliação. Coordene seus conselheiros de partida e suíços antes de fixar as datas de transação e residência. Não assuma que uma venda é isenta de impostos porque ocorre antes ou depois da mudança."
+          }
         ]
       },
       "swiss-residence-permit-entrepreneurs": {
         "slug": "swiss-residence-permit-entrepreneurs",
         "audience": "Empreendedores e empresários ativos",
         "title": "Autorização de Residência Suíça para Empreendedores",
-        "description": "Uma rota focada no fundador através da residência na Suíça, substância da empresa, serviços bancários, documentação da fonte de riqueza e assentamento familiar.",
+        "description": "Planeje a residência suíça como empreendedor ativo: cidadania, trabalho proposto, viabilidade de negócios e arranjos familiares. Possuir uma empresa suíça não concede uma licença.",
         "metaDescription": "Assessoria em autorização de residência na Suíça para empreendedores. Planeje a seleção do cantão, a formação de empresas, serviços bancários, licenças e realocação familiar.",
         "startingPoint": "Internacional",
         "likelyCantons": [
@@ -2158,20 +1933,34 @@
           "Vaud"
         ],
         "urgentQuestions": [
-          "A empresa suíça deve ser constituída antes ou depois da submissão da licença?",
-          "Que substância económica espera o cantão?",
-          "Como deve a riqueza empresarial ser documentada para os bancos e autoridades?"
+          "Que regras de residência e trabalho se aplicam à minha cidadania e status existente?",
+          "Que plano de negócios, financiamento, operações e contribuição económica devem ser demonstrados?",
+          "Como os planos de meu cônjuge e a escolaridade dos filhos se ajustarão à rota proposta?"
         ],
         "workstreams": [
-          "Perfil do fundador e avaliação de adequação ao cantão",
-          "Formação de empresa e configuração de governança",
-          "Pedido de autorização e inclusão familiar",
-          "Prontidão bancária, arrendamento, seguro e liquidação"
+          "Cidadania, situação actual e avaliação das actividades pretendidas",
+          "Plano de negócios, financiamento e propostas de operações suíças",
+          "Requisitos cantonais e sequência de aplicação com especialistas em imigração",
+          "Aplicações familiares, evidências bancárias, habitação e planejamento escolar"
         ],
         "proofPoints": [
-          "Melhor para fundadores que precisam de fluxos de trabalho empresariais e familiares alinhados",
-          "Conecta licenças com a substância da empresa e credibilidade bancária",
-          "Reduz atrasos devido ao sequenciamento incompleto da documentação"
+          "UE/EFTA: emprego por conta própria e admissão de países terceiros necessitam de avaliações diferentes",
+          "A incorporação da empresa, a autorização de residência e o tratamento fiscal são decisões distintas",
+          "Coordenamos a preparação; as autoridades competentes decidem o pedido"
+        ],
+        "faqs": [
+          {
+            "question": "Posso conseguir uma residência suíça ao abrir uma empresa?",
+            "answer": "Os cidadãos UE/EFTA podem ser admitidos por emprego, atividade independente ou residência sem atividade remunerada. Esta última exige recursos suficientes e seguros adequados de saúde e acidentes. A duração da autorização depende do fundamento de admissão. Entregue os documentos pedidos localmente; não existe prazo nacional garantido.\n\nPara cidadãos de países terceiros, a base jurídica é avaliada individualmente. Emprego, atividade independente, reforma e admissões excecionais têm requisitos diferentes. Património, compra de imóvel, constituição de empresa ou decisão fiscal não conferem, por si, residência. Decidem as autoridades cantonais e, se necessário, federais. Solicite avaliação antes de assumir compromissos."
+          },
+          {
+            "question": "O que um empreendedor deve preparar para a primeira avaliação?",
+            "answer": "Prepare um resumo de sua experiência, modelo de negócio, propriedade, financiamento, clientes esperados e equipe suíça proposta. Explique seu próprio papel e onde as decisões de trabalho e gestão ocorrerão. Um especialista pode então identificar quais as provas e requisitos de autoridade aplicáveis à rota."
+          },
+          {
+            "question": "Posso continuar gerenciando uma empresa no exterior da Suíça?",
+            "answer": "Descreva o trabalho que pretende realizar na Suíça, mesmo que os clientes e a empresa permaneçam no exterior. Peça especialistas em imigração e impostos para avaliar essa atividade, incluindo qualquer gestão da empresa, folha de pagamento ou relatar consequências. A propriedade estrangeira ou apenas os clientes estrangeiros não estabelecem um acordo de residência e de imposto compatível."
+          }
         ]
       },
       "lump-sum-taxation-switzerland": {
@@ -2189,9 +1978,9 @@
           "Zugo"
         ],
         "urgentQuestions": [
-          "O forfait fiscal é realista para o perfil familiar?",
-          "Quais cantões vale a pena abordar primeiro?",
-          "Que pressupostos de estilo de vida e habitação determinam a base tributável?"
+          "Será que qualquer cônjuge realizará uma atividade lucrativa na Suíça?",
+          "Como se compara uma avaliação de despesas elegível com a tributação normal?",
+          "Que base de residência, pressupostos de habitação e condições cantonais se encaixam na família?"
         ],
         "workstreams": [
           "Elegibilidade e lista de cantões",
@@ -2203,6 +1992,20 @@
           "Combina o trabalho de decisão fiscal com o plano real de relocalização",
           "Mantém a negociação do cantão conectada à realidade do estilo de vida",
           "Útil antes de compromissos públicos ou documentação sensível"
+        ],
+        "faqs": [
+          {
+            "question": "A tributação fixa é adequada para um fundador activo?",
+            "answer": "A tributação com base nas despesas destina-se a estrangeiros elegíveis que estabeleçam residência fiscal suíça pela primeira vez ou após pelo menos dez anos de ausência e não exerçam atividade remunerada na Suíça. Ambos os cônjuges que vivam juntos devem cumprir as condições. Gerir uma empresa ou family office a partir da Suíça exige análise específica; clientes estrangeiros ou mera propriedade não bastam."
+          },
+          {
+            "question": "A base de avaliação mínima é o meu imposto anual?",
+            "answer": "No ano fiscal de 2026, a base mínima federal é CHF 435.000, não o imposto a pagar. Contam também as despesas de vida mundiais e os mínimos legais ligados à habitação. Um cálculo de controlo separado pode aumentar o imposto sobre certos rendimentos suíços e estrangeiros com benefícios de convenção. Os impostos cantonais sobre rendimento e património exigem cálculo próprio."
+          },
+          {
+            "question": "Uma decisão fiscal garante uma autorização de residência?",
+            "answer": "Antes de escolher o cantão, reúna passaportes, histórico de residência, orçamento familiar mundial, dados de habitação, fontes de rendimento e atividades profissionais previstas. Coordene com fiscalistas qualificados uma comparação com a tributação ordinária e, se adequado, um pedido de decisão fiscal escrita. Confirme pressupostos e deveres declarativos. Fiscalidade e imigração são decisões separadas; não se garantem aprovação nem imposto anual fixo."
+          }
         ]
       },
       "zug-relocation-advisor": {
@@ -2242,7 +2045,7 @@
       },
       {
         "title": "2. Dados que coletamos",
-        "text": "Coletamos apenas as informacoes compartilhadas voluntariamente pelo formulario, como dados de contato, pais de residencia, nacionalidade, objetivos de mudanca, cronograma, servicos de interesse e mensagem."
+        "text": "Tratamos as informações que decide partilhar através dos nossos formulários, incluindo os seus contactos, objetivos de mudança e detalhes opcionais. Com o seu consentimento, tratamos também os dados limitados de análise do site descritos acima."
       },
       {
         "title": "3. Finalidade do tratamento",
@@ -2277,7 +2080,19 @@
       "qatar": "Catar",
       "kuwait": "Kuwait",
       "bahrain": "Bahrein"
-    }
+    },
+    "description": "Consultoria de mudança sediada na Suíça para particulares com património elevado (HNWI), empreendedores e family offices.",
+    "serviceTypes": [
+      "Pré-Imigração Imposto e Planejamento de Ativos",
+      "Tributação por Montante Global (Forfait Fiscal)",
+      "Residência e Imigração",
+      "Formação da empresa & Relocalização de Negócios",
+      "Estabelecimento de Family Office",
+      "Diretoria e Coordenação do Conselho",
+      "Assessoria Imobiliária",
+      "Coordenação Saúde e Bem-Estar",
+      "Estabelecimento familiar e coordenação escolar"
+    ]
   },
   "swissArrivalNav": {
     "guide": "Guia",

@@ -1,3 +1,7 @@
+import { GuideDirectory } from '@/components/GuideDirectory';
+import { getLocale } from 'next-intl/server';
+import { PracticalResources } from '@/components/PracticalResources';
+import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { ConsultationCta } from '@/components/ConsultationCta';
@@ -11,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'insights' });
 
-  return {
+  return withPageSeo({
     title: t('meta.title'),
     description: t('meta.description'),
     openGraph: {
@@ -20,13 +24,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale,
     },
-  };
+  }, locale, `/insights`);
 }
 
-export default function InsightsPage() {
+export default async function InsightsPage() {
+  const locale = await getLocale();
   return (
     <>
       <InsightsContent />
+      {locale === 'en' && <><div className="mx-auto max-w-5xl px-5 py-14 sm:px-8"><GuideDirectory groups={['planning', 'comparisons']} prefix="insight-guides-" /></div><PracticalResources /></>}
       <ConsultationCta />
     </>
   );
