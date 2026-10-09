@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 
 export const siteUrl = 'https://move-to-switzerland.com';
 
+const maxTitleLength = 60;
+
 /** Shared social preview for pages without their own image. */
 export const defaultOgImage = { url: '/images/hero-swiss-alps.jpg', width: 1568, height: 672 };
 
@@ -16,8 +18,10 @@ export function clipDescription(text: string, max = 160): string {
 export function withPageSeo(metadata: Metadata, locale: string, path = ''): Metadata {
   const url = `${siteUrl}/${locale}${path}`;
   const rawTitle = typeof metadata.title === 'string' ? metadata.title : undefined;
-  const title = rawTitle && !rawTitle.includes('Move to Switzerland')
-    ? `${rawTitle} | Move to Switzerland`
+  // Add the brand only where the full title still fits a search result line.
+  const branded = `${rawTitle} | Move to Switzerland`;
+  const title = rawTitle && !rawTitle.includes('Move to Switzerland') && branded.length <= maxTitleLength
+    ? branded
     : metadata.title;
 
   return {

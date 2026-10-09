@@ -8,7 +8,7 @@ import { PracticalResources } from '@/components/PracticalResources';
 import { guideIndex } from '@/lib/relocation-guides';
 
 const url = 'https://move-to-switzerland.com/en/guides';
-const title = 'Swiss Relocation Guides: Cantons, Local Comparisons & Family Planning';
+const title = 'Swiss Relocation Guides: Cantons, Comparisons & Family';
 const description = 'Explore Swiss canton guides, municipality comparisons, school choices and your first month. Practical relocation planning with official local references.';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   if ((await params).locale !== 'en') return { robots: { index: false, follow: false } };

@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 import { PracticalResources } from '@/components/PracticalResources';
 
 const url = 'https://move-to-switzerland.com/en/renting-in-switzerland';
-const title = 'Renting in Switzerland: Your First Home, Application & Deposit';
+const title = 'Renting in Switzerland: First Home, Application & Deposit';
 const description = 'A practical guide to renting your first home in Zurich, Zug or Schwyz: application documents, temporary housing, deposits, lease checks and the handover.';
 const bwo = 'https://www.bwo.admin.ch/dam/fr/sd-web/xKj1v2BhllVl/englisch.pdf';
 const zurich = 'https://www.stadt-zuerich.ch/zuzug';

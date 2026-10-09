@@ -7,7 +7,7 @@ import { BudgetPlanner } from './BudgetPlanner';
 import { PracticalResources } from '@/components/PracticalResources';
 
 const url = 'https://move-to-switzerland.com/en/relocation-budget';
-const title = 'Swiss Relocation Budget Planner: Compare Zurich, Zug & Schwyz';
+const title = 'Swiss Relocation Budget Planner: Zurich, Zug & Schwyz';
 const description = 'Build your own Swiss relocation budget. Compare monthly spending, moving costs and refundable deposits for Zurich, Zug and Schwyz. Free CSV download.';
 const tax = 'https://www.estv.admin.ch/en/swiss-tax-statistics';
 const health = 'https://www.bag.admin.ch/en/health-insurance-requirement-to-obtain-insurance-for-persons-resident-in-switzerland';
