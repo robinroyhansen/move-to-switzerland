@@ -5,8 +5,8 @@ import AboutContent from './AboutContent';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'about' });
-  return withPageSeo({ title: t('pageTitle'), description: t('pageSubtitle') }, locale, '/about');
+  const t = await getTranslations({ locale });
+  return withPageSeo({ title: t('about.pageTitle'), description: t('pageMeta.about') }, locale, '/about');
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {

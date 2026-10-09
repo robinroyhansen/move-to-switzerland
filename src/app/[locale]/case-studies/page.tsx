@@ -11,14 +11,16 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'caseStudiesPage.meta' });
+  const t = await getTranslations({ locale });
+  const title = t('caseStudiesPage.meta.title');
+  const description = t('pageMeta.caseStudies');
 
   return withPageSeo({
-    title: t('title'),
-    description: t('description'),
+    title,
+    description,
     openGraph: {
-      title: t('title'),
-      description: t('description'),
+      title,
+      description,
       type: 'website',
       locale,
     },

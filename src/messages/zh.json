@@ -2173,5 +2173,11 @@
     "finalTitle": "在 Swiss Arrival 发布时收到通知",
     "finalBody": "发布页面正在准备中。加入名单后，我们将在第一版就绪时向您发送电子书的详细信息。",
     "finalCta": "联系我们"
+  },
+  "pageMeta": {
+    "about": "认识 Move to Switzerland 的创始人：一位瑞士律师与一位企业家，在苏黎世、楚格和施维茨提供独立、保密的迁居咨询。",
+    "caseStudies": "我们的服务对象：在瑞士规划居留、税务与日常生活的在任企业主、高净值人士、家族办公室和国际家庭。",
+    "relocation": "按出发国家和个人情况划分的瑞士迁居路径：居留许可、税务规划、公司迁移、银行、学校与安顿。",
+    "imprint": "Move to Switzerland 法律声明：网站由瑞士 WorkWorkWork AG 运营，载明公司信息与商业登记事项。"
   }
 }

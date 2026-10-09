@@ -7,8 +7,7 @@ import { getLegalCopy } from '@/lib/legal-copy';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  const description = `${t('imprint.pageTitle')}: ${t('imprint.company')}, ${t('imprint.registration')}, ${t('imprint.address')}.`;
-  return withPageSeo({ title: t('imprint.pageTitle'), description }, locale, '/imprint');
+  return withPageSeo({ title: t('imprint.pageTitle'), description: t('pageMeta.imprint') }, locale, '/imprint');
 }
 
 export default async function ImprintPage({ params }: { params: Promise<{ locale: string }> }) {

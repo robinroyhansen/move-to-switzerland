@@ -2173,5 +2173,11 @@
     "finalTitle": "Primiți o notificare când se lansează Swiss Arrival",
     "finalBody": "Pagina de lansare este în pregătire. Înscrieți-vă pe listă și vă vom trimite detaliile cărții electronice când prima ediție va fi gata.",
     "finalCta": "Contactați-ne"
+  },
+  "pageMeta": {
+    "about": "Cunoașteți fondatorii Move to Switzerland: un avocat elvețian și un antreprenor care oferă consultanță independentă și confidențială în Zurich, Zug și Schwyz.",
+    "caseStudies": "Pe cine consiliem: antreprenori activi, persoane cu averi mari, family office-uri și familii internaționale care își planifică rezidența și viața în Elveția.",
+    "relocation": "Trasee de mutare în Elveția după țara de plecare și situație: permise de ședere, planificare fiscală, mutarea companiei, servicii bancare și școli.",
+    "imprint": "Mențiuni legale pentru Move to Switzerland, operat de WorkWorkWork AG în Elveția: datele societății și înregistrarea în Registrul Comerțului."
   }
 }

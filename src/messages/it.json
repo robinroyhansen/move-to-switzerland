@@ -2173,5 +2173,11 @@
     "finalTitle": "Ricevete un avviso quando Swiss Arrival sarà disponibile",
     "finalBody": "La pagina di lancio è in preparazione. Iscrivetevi alla lista e vi invieremo i dettagli dell’e-book quando la prima edizione sarà pronta.",
     "finalCta": "Contattateci"
+  },
+  "pageMeta": {
+    "about": "Conoscete i fondatori di Move to Switzerland: un avvocato svizzero e un imprenditore che offrono consulenza indipendente e riservata a Zurigo, Zugo e Svitto.",
+    "caseStudies": "Chi assistiamo: imprenditori attivi, grandi patrimoni privati, family office e famiglie internazionali che pianificano residenza, fiscalità e vita in Svizzera.",
+    "relocation": "Percorsi di trasferimento in Svizzera per paese di partenza e situazione: permessi di dimora, pianificazione fiscale, trasferimento d’impresa, banca e scuole.",
+    "imprint": "Note legali di Move to Switzerland, gestito da WorkWorkWork AG in Svizzera: dati della società e iscrizione al registro di commercio."
   }
 }

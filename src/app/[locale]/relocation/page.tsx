@@ -1,4 +1,4 @@
-import { setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { ConversionLink } from '@/components/ConversionLink';
@@ -14,16 +14,17 @@ const baseUrl = 'https://move-to-switzerland.com';
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const copy = getConversionCopy(locale);
+  const description = (await getTranslations({ locale, namespace: 'pageMeta' }))('relocation');
 
   return withPageSeo({
     title: copy.home.pathsTitle,
-    description: copy.home.pathsText,
+    description,
     alternates: {
       canonical: baseUrl + '/' + locale + '/relocation',
     },
     openGraph: {
       title: copy.home.pathsTitle,
-      description: copy.home.pathsText,
+      description,
       type: 'website',
       locale,
     },
