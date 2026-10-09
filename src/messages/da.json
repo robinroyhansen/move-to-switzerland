@@ -342,7 +342,7 @@
       },
       "lumpSum": {
         "title": "Beskatning efter forbrug (Forfait fiscal)",
-        "description": "Vurdering af udgifterne- baseret beskatning",
+        "description": "Vurder berettigelse til udgiftsbaseret beskatning, kantonale krav og sammenligningen med almindelig schweizisk beskatning.",
         "detail": "Udgiftsbaseret beskatning er for udenlandske statsborgere, som opfylder betingelserne, bliver skattemæssigt hjemmehørende i Schweiz for første gang eller efter mindst ti års fravær og ikke arbejder i Schweiz. Samlevende ægtefæller skal begge opfylde kravene. Ledelse af virksomhed eller family office fra Schweiz kræver særskilt vurdering; udenlandske kunder eller ejerskab er ikke tilstrækkeligt.",
         "seoTitle": "Schweiziske lump- sum beskatning for støtteberettigede private kunder"
       },
@@ -350,7 +350,7 @@
         "title": "Opholdstilladelse & Immigration",
         "description": "Vurdere schweiziske ophold og arbejdsmuligheder for iværksættere, private kunder og familier, før du foretager flytning forpligtelser.",
         "detail": "EU/EFTA-borgere kan kvalificere sig gennem ansættelse, selvstændig virksomhed eller ophold uden erhvervsaktivitet. Sidstnævnte kræver tilstrækkelige midler og passende syge- og ulykkesforsikring. Tilladelsens varighed afhænger af opholdsgrundlaget. Indsend de dokumenter, den lokale myndighed kræver; sagsbehandlingstiden er ikke nationalt garanteret.\n\nFor borgere uden for EU/EFTA vurderes retsgrundlaget individuelt. Ansættelse, selvstændig virksomhed, pensionering og undtagelsesvis adgang har forskellige krav. Formue, boligkøb, selskabsstiftelse eller en skatteafgørelse giver ikke i sig selv opholdstilladelse. Kantonale og om nødvendigt føderale myndigheder afgør sagen. Få forholdene vurderet før bindende beslutninger.",
-        "seoTitle": "Swiss Residency for Entrepreneurs & Private Clients"
+        "seoTitle": "Schweizisk opholdstilladelse for iværksættere og privatkunder"
       },
       "companyFormation": {
         "title": "Selskabsdannelse og virksomhedsflytning",
@@ -368,7 +368,7 @@
         "title": "Koordinering af ledelse og bestyrelse",
         "description": "Koordinere schweizisk repræsentation, bestyrelsesansvar og administration sammen med din virksomhed og flytningsrådgivere.",
         "detail": "En schweizisk virksomhed har brug for en forvaltningsordning, der passer til dens retlige form og faktiske operationer. Gennemgå resident repræsentation, underskrivende myndighed, bestyrelse opgaver og registrering med virksomhedsrådgivning.\n\nEn resident repræsentant fastsætter ikke i sig selv alt det stof, som en virksomhed kan have brug for til skatte-, bank- eller licensformål. Tilstå direktørens mandat, adgang til oplysninger, aflønning og løbende ansvar skriftligt.",
-        "seoTitle": "Schweiz 'Directorship & Governance Coordination"
+        "seoTitle": "Schweizisk bestyrelsesarbejde og governance-koordinering"
       },
       "realEstate": {
         "title": "Ejendomsrådgivning",
@@ -383,10 +383,10 @@
         "seoTitle": "Swiss Health Insurance & Healthcare flytning support"
       },
       "lifestyle": {
-        "title": "Family Settlement & School Coordination",
+        "title": "Familieetablering og skolekoordinering",
         "description": "Koordinere skoleundersøgelser, boliger, lokal orientering og familiebosættelser med adgang og tillade beslutninger bekræftet af de relevante institutioner.",
         "detail": "Start med dine børns alder, sprogbehov og uddannelsesplaner, og sammenlign derefter offentlige og internationale skolemuligheder. Tjek steder og rejsen til det rigtige campus, før du forpligter dig til et hjem. Indlæggelser beslutninger forbliver hos skolen.\n\nByg en praktisk ankomstplan for forsikring, registrering, daglig transport og lokalforbindelser. Hvis hushjælp kan flytte sammen med dig, skal du vurdere deres immigrations- og beskæftigelsessituation separat, før du indgår forpligtelser.",
-        "seoTitle": "Swiss Family Relocation & School Coordination"
+        "seoTitle": "Familieflytning til Schweiz og skolekoordinering"
       }
     },
     "overview": "Oversigt",

@@ -1,5 +1,6 @@
-import { withPageSeo } from '@/lib/seo';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
+import { clipDescription, withPageSeo } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getLegalCopy } from '@/lib/legal-copy';
 import { getGrowthCopy } from '@/lib/growth-copy';
@@ -8,11 +9,12 @@ import { CookieSettingsButton } from '@/components/CookieSettingsButton';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return withPageSeo({ title: t('privacy.pageTitle') }, locale, '/privacy');
+  return withPageSeo({ title: t('privacy.pageTitle'), description: clipDescription(t('privacy.content')) }, locale, '/privacy');
 }
 
-export default async function PrivacyPage() {
-  const locale = await getLocale();
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations();
   const copy = getLegalCopy(locale);
   const growth = await getGrowthCopy(locale);

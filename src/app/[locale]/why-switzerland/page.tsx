@@ -1,5 +1,6 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { WhySwitzerlandContent } from './WhySwitzerlandContent';
@@ -27,8 +28,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }, locale, `/why-switzerland`);
 }
 
-export default async function WhySwitzerlandPage() {
-  const locale = await getLocale();
+export default async function WhySwitzerlandPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const copy = await getAdvisoryCopy(locale);
   return (
     <>

@@ -79,16 +79,16 @@
         "seoTitle": "Swiss Residency for bedrifter og private kunder"
       },
       "companyFormation": {
-        "title": "Company Formation & Business Relocation",
+        "title": "Selskapsetablering og flytting av virksomhet",
         "description": "Koordiner selskapsoppsett, grunnlegger arbeidstillatelse, styring og grenseoverskridende skattespørsmål for en sveitsisk forretningsbase.",
         "detail": "Et sveitsisk AG krever minst CHF 100 000 i aksjekapital; minst 20 % av pålydende for hver aksje og CHF 50 000 samlet skal innbetales ved stiftelsen. Et GmbH krever CHF 20 000 fullt innbetalt. Sveitsisk bosatt representasjon og krav til styring, tillatelser og rapportering avklares med spesialister.\n\nStart med hva virksomheten faktisk vil gjøre i Sveits: som administrerer det, der teamet jobber, hvilke kunder det tjener og hvilke kontrakter eller eiendeler kan flytte. Inkorporere et selskap er atskilt fra å få grunnleggerens rett til å jobbe. Spør spesialistene om å vurdere lønns-, sosialforsikrings-, merverdiavgifts-, lisens- og konsekvenser for eksisterende utenlandske enheter.\n\nVi koordinerer flyttearbeidsstrømmen med dine bedrifts- og skatterådgivere. Forpliktelsen bør spesifisere hvem som håndterer inkorporasjon, bank, tillatelser og pågående administrasjon.",
-        "seoTitle": "Swiss Company Formation & Relocation for Entreprenører"
+        "seoTitle": "Selskapsetablering i Sveits og flytting for gründere"
       },
       "familyOffice": {
         "title": "Etablering av family office",
         "description": "Definer det sveitsiske kontorets verv, styrings- og rapporteringsbehov; koordinere spesialrådgivning, bankforberedelse og familieflytning.",
         "detail": "Begynn med familiens behov: investeringstilsyn, konsolidert rapportering, administrasjon, arvefølge eller støtte til en virksomhet. Sammenlign et internt team, eksterne leverandører og et hybrid arrangement før du forplikter deg til et foretak.\n\nEierskap, kunder og aktiviteter avgjør hvilke reguleringsspørsmål som trenger vurdering. En familiekontor etikett ikke løse lisens forpliktelser. Avtale ansvar for investeringsbeslutninger, varetekt, skatteråd og rapportering med de utpekte fagfolk. Vi forbinder dette arbeidet med familiens bolig, hjem og skoleplaner.",
-        "seoTitle": "Swiss Family Office Setup & UHNW Relocation"
+        "seoTitle": "Etablering av family office i Sveits og UHNW-flytting"
       },
       "directorship": {
         "title": "Direktør og styre Koordinasjon",
@@ -275,7 +275,7 @@
     }
   },
   "servicesMeta": {
-    "title": "Swiss Relocation Services for HNWIs & Entreprenører",
+    "title": "Flyttetjenester til Sveits for HNWI-er og gründere",
     "description": "Planlegge sveitsisk residency, forhåndsbeskatningsspørsmål, selskapsformasjon, familiekontor koordinering, boliger og skoler med én flytting kontakt."
   },
   "cta": {
@@ -554,7 +554,7 @@
   },
   "insights": {
     "meta": {
-      "title": "Swiss Relocation Insights for HNWIs & Entreprenører",
+      "title": "Innsikt om flytting til Sveits for HNWI-er og gründere",
       "description": "Utforsk sveitsisk residency, grunnlegger flytting, privat banking, familiekontorer, skatteplanlegging, eiendom og skoler med praktisk veiledning og offisielle kilder."
     },
     "hero": {

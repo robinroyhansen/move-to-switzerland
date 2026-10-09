@@ -1,16 +1,19 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getLegalCopy } from '@/lib/legal-copy';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return withPageSeo({ title: t('imprint.pageTitle') }, locale, '/imprint');
+  const description = `${t('imprint.pageTitle')}: ${t('imprint.company')}, ${t('imprint.registration')}, ${t('imprint.address')}.`;
+  return withPageSeo({ title: t('imprint.pageTitle'), description }, locale, '/imprint');
 }
 
-export default async function ImprintPage() {
-  const locale = await getLocale();
+export default async function ImprintPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations();
   const copy = getLegalCopy(locale);
 

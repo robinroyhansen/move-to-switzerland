@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { LocalKnowledge, localKnowledgeSlugs } from '@/components/LocalKnowledge';
 import { withPageSeo } from '@/lib/seo';
 import { useTranslations } from 'next-intl';
@@ -69,6 +70,7 @@ async function ArticleContent({
   paramsPromise: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await paramsPromise;
+  setRequestLocale(locale);
   if (!insightSlugs.includes(slug as InsightSlug)) notFound();
 
   const copy = await getAdvisoryCopy(locale);

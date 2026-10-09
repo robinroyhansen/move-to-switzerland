@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { ConversionLink } from '@/components/ConversionLink';
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RelocationHubPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const copy = getConversionCopy(locale);
   const paths = getRelocationPaths(locale);
   const areaCountries = getAreaCountries(locale);

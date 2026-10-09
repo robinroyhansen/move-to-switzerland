@@ -344,7 +344,7 @@
         "title": "Forfaitbelasting (fiscaal forfait)",
         "description": "Beoordeel op uitgaven gebaseerde subsidiabiliteit van belastingen, kantonvereisten en de vergelijking met gewone Zwitserse belastingen.",
         "detail": "Belastingheffing naar de uitgaven is beschikbaar voor kwalificerende buitenlandse onderdanen die voor het eerst of na minstens tien jaar afwezigheid fiscaal inwoner van Zwitserland worden en er geen beroepsactiviteit uitoefenen. Samenwonende echtgenoten moeten beiden voldoen. Een onderneming of family office vanuit Zwitserland leiden vereist afzonderlijke beoordeling; buitenlandse klanten of eigendom alleen volstaan niet.",
-        "seoTitle": "Zwitserse belasting over het bedrag van de belasting voor in aanmerking komende particuliere klanten"
+        "seoTitle": "Zwitserse forfaitaire belasting voor in aanmerking komende particuliere cliënten"
       },
       "residency": {
         "title": "Residentie en immigratie",
@@ -368,7 +368,7 @@
         "title": "Directeurschap en coördinatie van de raad",
         "description": "Coördineer Zwitserse vertegenwoordiging, bestuursverantwoordelijkheden en administratie samen met uw bedrijf en relocatie adviseurs.",
         "detail": "Een Zwitsers bedrijf heeft behoefte aan een governanceregeling die aangepast is aan zijn rechtsvorm en feitelijke activiteiten. Beoordeel vertegenwoordiging van de resident, ondertekenende autoriteit, taken van de raad van bestuur en het bijhouden van de boekhouding met corporate counsel.\n\nEen ingezeten vertegenwoordiger stelt op zichzelf niet alle stof vast die een bedrijf nodig kan hebben voor belasting-, bank- of licentiedoeleinden. Stem schriftelijk in met het mandaat van de directeur, toegang tot informatie, beloning en lopende verantwoordelijkheden.",
-        "seoTitle": "Swiss Directorship & Governance Coördinatie"
+        "seoTitle": "Zwitsers bestuurderschap en governance-coördinatie"
       },
       "realEstate": {
         "title": "Vastgoedadvies",
@@ -1317,15 +1317,15 @@
         },
         {
           "label": "Privé intake",
-          "value": "No sensitive documents"
+          "value": "Geen gevoelige documenten"
         },
         {
           "label": "Gebouwd voor",
-          "value": "Founders, families, family offices"
+          "value": "Oprichters, gezinnen, family offices"
         },
         {
           "label": "Werkstromen",
-          "value": "Permits, tax, banking, schools"
+          "value": "Vergunningen, belasting, bankzaken, scholen"
         }
       ],
       "planTitle": "Zwitsers verhuisplan",

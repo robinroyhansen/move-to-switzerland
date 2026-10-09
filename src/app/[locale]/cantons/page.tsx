@@ -1,10 +1,11 @@
+import { setRequestLocale } from 'next-intl/server';
 import { GuideDirectory } from '@/components/GuideDirectory';
 import { LocalKnowledge } from '@/components/LocalKnowledge';
 import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { ConsultationCta } from '@/components/ConsultationCta';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { NextIntlClientProvider } from 'next-intl';
 import { PlanningLinks } from '@/components/PlanningLinks';
 import { SourceNotes } from '@/components/SourceNotes';
@@ -31,8 +32,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }, locale, `/cantons`);
 }
 
-export default async function CantonsPage() {
-  const locale = await getLocale();
+export default async function CantonsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const copy = await getAdvisoryCopy(locale);
   const messages = await getMessages();
   return (

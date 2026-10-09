@@ -1,3 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
+import { defaultOgImage } from '@/lib/seo';
 import { PracticalResources } from '@/components/PracticalResources';
 import NextLink from 'next/link';
 import type { Metadata } from 'next';
@@ -12,11 +14,13 @@ const description = 'A free 18-step Swiss relocation checklist with official sou
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (locale !== 'en') return { robots: { index: false, follow: false } };
-  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, locale: 'en', type: 'website' } };
+  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, locale: 'en', type: 'website', images: [defaultOgImage] } };
 }
 
 export default async function RelocationChecklistPage({ params }: { params: Promise<{ locale: string }> }) {
-  if ((await params).locale !== 'en') notFound();
+  const { locale } = await params;
+  setRequestLocale(locale);
+  if (locale !== 'en') notFound();
   return (
     <article className="relocation-checklist bg-cream pb-20 pt-32 text-navy sm:pt-40">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebPage', '@id': url, url, name: title, description, inLanguage: 'en', dateModified: checklist.updated, publisher: { '@id': 'https://move-to-switzerland.com/#organization' }, citation: checklist.sources.map(source => source.url) }) }} />

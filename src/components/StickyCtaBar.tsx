@@ -5,18 +5,15 @@ import { usePathname } from '@/i18n/routing';
 import { useState, useEffect, useRef } from 'react';
 import { ConversionLink } from '@/components/ConversionLink';
 import { CONSENT_EVENT, CONSENT_KEY, readConsent } from '@/lib/analytics';
+import { useIsSwissArrival } from '@/lib/site';
 
-type StickyCtaBarProps = {
-  site?: 'move' | 'swissarrival';
-};
-
-export function StickyCtaBar({ site = 'move' }: StickyCtaBarProps) {
+export function StickyCtaBar() {
   const t = useTranslations();
   const swissT = useTranslations('swissArrivalNav');
   const pathname = usePathname();
   const [visible, setVisible] = useState(false);
   const barRef = useRef<HTMLDivElement>(null);
-  const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const isSwissArrival = useIsSwissArrival();
   const isContactPage = pathname === '/contact';
   const label = isSwissArrival ? swissT('cta') : t('cta.consultation');
 

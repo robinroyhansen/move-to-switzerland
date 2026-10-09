@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -14,7 +15,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, type: 'website', locale: 'en', images: ['/images/swiss-architecture.jpg'] } };
 }
 export default async function GuidesPage({ params }: { params: Promise<{ locale: string }> }) {
-  if ((await params).locale !== 'en') notFound();
+  const { locale } = await params;
+  setRequestLocale(locale);
+  if (locale !== 'en') notFound();
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'CollectionPage', '@id': url, url, name: title, description, inLanguage: 'en', mainEntity: { '@type': 'ItemList', itemListElement: guideIndex.map((guide, index) => ({ '@type': 'ListItem', position: index + 1, name: guide.title, url: `${url}/${guide.slug}` })) } }) }} />
     <section className="bg-navy pb-16 pt-32 sm:pb-20 sm:pt-40">

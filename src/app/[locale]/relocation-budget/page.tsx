@@ -1,3 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
+import { defaultOgImage } from '@/lib/seo';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -13,11 +15,13 @@ const link = 'text-navy underline decoration-gold/70 underline-offset-4 hover:de
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   if ((await params).locale !== 'en') return { robots: { index: false, follow: false } };
-  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, type: 'website', locale: 'en' } };
+  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, type: 'website', locale: 'en', images: [defaultOgImage] } };
 }
 
 export default async function BudgetPage({ params }: { params: Promise<{ locale: string }> }) {
-  if ((await params).locale !== 'en') notFound();
+  const { locale } = await params;
+  setRequestLocale(locale);
+  if (locale !== 'en') notFound();
   return <>
     <article className="bg-cream pb-10 pt-32 sm:pt-40">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context':'https://schema.org', '@type':'WebPage', '@id':url, url, name:title, description, inLanguage:'en', datePublished:'2026-09-10', dateModified:'2026-09-10', publisher:{'@id':'https://move-to-switzerland.com/#organization'}, citation:[tax,health] }) }} />

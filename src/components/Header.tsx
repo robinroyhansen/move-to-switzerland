@@ -6,10 +6,9 @@ import { Link, usePathname } from '@/i18n/routing';
 import { locales, localeNames, swissArrivalLocales, type Locale } from '@/i18n/config';
 import { useState, useEffect, useRef } from 'react';
 import { ConversionLink } from '@/components/ConversionLink';
+import { useIsSwissArrival } from '@/lib/site';
 
-type HeaderProps = { site?: 'move' | 'swissarrival' };
-
-export function Header({ site = 'move' }: HeaderProps) {
+export function Header() {
   const t = useTranslations('nav');
   const footerT = useTranslations('footer');
   const swissT = useTranslations('swissArrivalNav');
@@ -23,7 +22,7 @@ export function Header({ site = 'move' }: HeaderProps) {
   const mobileCloseRef = useRef<HTMLButtonElement>(null);
   const languageTriggerRef = useRef<HTMLButtonElement>(null);
   const languageOptionsRef = useRef<HTMLDivElement>(null);
-  const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const isSwissArrival = useIsSwissArrival();
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const brandHref = isSwissArrival ? '/swiss-arrival' : '/';

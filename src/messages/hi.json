@@ -229,7 +229,7 @@
       },
       "schools": {
         "list": [
-          "ISZL (Baar and Hünenberg)",
+          "ISZL (Baar और Hünenberg परिसर; कक्षा का स्थान जाँचें)",
           "Institut Montana Zugerberg",
           "SIS Rotkreuz-Zug"
         ]
@@ -260,7 +260,7 @@
       },
       "schools": {
         "list": [
-          "ISZL (Baar or Hünenberg)",
+          "ISZL (कक्षा के अनुसार Baar या Hünenberg; यात्रा को परखें)",
           "संस्थान मोंटाना जुगरबर्ग (चेक यात्रा या बोर्डिंग व्यवस्था)",
           "Stiftsschule Einsiedeln (चेक कार्यक्रम और प्रवेश)"
         ]
@@ -554,7 +554,7 @@
   },
   "insights": {
     "meta": {
-      "title": "स्विस Relocation Insights for HNWIs & Entrepreneurs",
+      "title": "HNWI और उद्यमियों के लिए स्विस रिलोकेशन इनसाइट्स",
       "description": "स्विस रेजीडेंसी, संस्थापक स्थानांतरण, निजी बैंकिंग, परिवार कार्यालय, कर योजना, संपत्ति और व्यावहारिक मार्गदर्शन और आधिकारिक स्रोतों के साथ स्कूलों का अन्वेषण करें।"
     },
     "hero": {
@@ -1183,8 +1183,8 @@
   },
   "contactEnhancementCopy": {
     "metadata": {
-      "title": "गोपनीय स्विस relocation intake - Move to Switzerland",
-      "description": "Swiss residency, tax, family office, schools, banking और settlement planning के लिए निजी inquiry भेजें."
+      "title": "गोपनीय स्विस रिलोकेशन पूछताछ - Move to Switzerland",
+      "description": "स्विस निवास, कर, फैमिली ऑफिस, स्कूल, बैंकिंग और बसने की योजना के लिए निजी पूछताछ भेजें।"
     },
     "progressTitle": "सेवन प्रगति",
     "optionalContextTitle": "अतिरिक्त planning context",

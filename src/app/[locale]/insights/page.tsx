@@ -1,5 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
 import { GuideDirectory } from '@/components/GuideDirectory';
-import { getLocale } from 'next-intl/server';
 import { PracticalResources } from '@/components/PracticalResources';
 import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
@@ -27,8 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }, locale, `/insights`);
 }
 
-export default async function InsightsPage() {
-  const locale = await getLocale();
+export default async function InsightsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   return (
     <>
       <InsightsContent />

@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { getContactEnhancementCopy } from '@/lib/contact-enhancement-copy';
@@ -32,6 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ContactPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const growth = await getGrowthCopy(locale);
   const copy = getContactCopy(locale);
   const enhanced = getContactEnhancementCopy(locale);

@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import { FAQSchema } from '@/components/StructuredData';
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale });
   const copy = getConversionCopy(locale);
   const relocationPaths = getRelocationPaths(locale);

@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import { headers } from 'next/headers';
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { isRtl, type Locale } from '@/i18n/config';
@@ -13,6 +12,7 @@ import { OrganizationSchema, LocalBusinessSchema, getAreaCountries } from '@/com
 import { PageBreadcrumb } from '@/components/PageBreadcrumb';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
+import { MoveSiteOnly } from '@/components/MoveSiteOnly';
 import { getClientMessages } from '@/lib/client-messages';
 import '../globals.css';
 
@@ -58,11 +58,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
-  const site = (await headers()).get('x-openclaw-site') === 'swissarrival' ? 'swissarrival' : 'move';
-
   if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
+  setRequestLocale(locale);
 
   const messages = await getMessages();
   const t = await getTranslations({ locale });
@@ -96,18 +95,20 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={rtl ? 'rtl' : 'ltr'}>
       <head>
-        {site === 'move' && <OrganizationSchema copy={schemaCopy} />}
-        {site === 'move' && <LocalBusinessSchema copy={schemaCopy} />}
+        <MoveSiteOnly>
+          <OrganizationSchema copy={schemaCopy} />
+          <LocalBusinessSchema copy={schemaCopy} />
+        </MoveSiteOnly>
       </head>
       <body className={[dmSans.variable, cormorant.variable, 'font-sans antialiased bg-cream text-charcoal min-h-screen flex flex-col'].join(' ')}>
         <NextIntlClientProvider messages={getClientMessages(messages)}>
-          <Header site={site} />
+          <Header />
           <PageBreadcrumb />
           <main id="main-content" tabIndex={-1} className="flex-1">{children}</main>
-          <Footer site={site} />
-          <StickyCtaBar site={site} />
+          <Footer />
+          <StickyCtaBar />
           <CookieConsent />
-          {site === 'move' && <Analytics />}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

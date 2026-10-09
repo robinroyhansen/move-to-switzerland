@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { CountryPreparation, hasCountryPreparation } from '@/components/CountryPreparation';
 import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
@@ -55,6 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RelocationPathPage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const path = getRelocationPath(locale, slug);
 
   if (!path) notFound();

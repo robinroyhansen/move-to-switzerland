@@ -1,3 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
+import { defaultOgImage } from '@/lib/seo';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -14,11 +16,13 @@ const h2 = 'mb-5 font-serif text-3xl font-semibold leading-tight text-navy sm:te
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   if ((await params).locale !== 'en') return { robots: { index: false, follow: false } };
-  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, type: 'article', locale: 'en', publishedTime: '2026-09-10', modifiedTime: '2026-09-10' } };
+  return { title, description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title, description, url, type: 'article', locale: 'en', publishedTime: '2026-09-10', modifiedTime: '2026-09-10', images: [defaultOgImage] } };
 }
 
 export default async function RentingPage({ params }: { params: Promise<{ locale: string }> }) {
-  if ((await params).locale !== 'en') notFound();
+  const { locale } = await params;
+  setRequestLocale(locale);
+  if (locale !== 'en') notFound();
   return <>
     <article className="bg-cream pb-12 pt-32 sm:pt-40">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context':'https://schema.org', '@type':'Article', headline:title, description, mainEntityOfPage:url, inLanguage:'en', datePublished:'2026-09-10', dateModified:'2026-09-10', author:{'@type':'Organization',name:'Move to Switzerland',url:'https://move-to-switzerland.com/en/about'}, publisher:{'@id':'https://move-to-switzerland.com/#organization'}, citation:[bwo,zurich,kuessnacht] }) }} />

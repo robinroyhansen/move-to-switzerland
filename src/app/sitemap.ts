@@ -43,6 +43,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const locale of pageLocales) {
       languages[locale] = `${baseUrl}/${locale}${page}`;
     }
+    languages['x-default'] = `${baseUrl}/en${page}`;
 
     for (const locale of pageLocales) {
       entries.push({

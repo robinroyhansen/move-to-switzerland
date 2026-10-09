@@ -1,3 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
+import { defaultOgImage } from '@/lib/seo';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -13,10 +15,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const guide = getGuide(slug);
   if (locale !== 'en' || !guide) return { robots: { index: false, follow: false } };
   const url = `${base}/en/guides/${slug}`;
-  return { title: guide.title, description: guide.description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title: guide.title, description: guide.description, url, type: 'article', locale: 'en', publishedTime: guide.date, modifiedTime: guide.date } };
+  return { title: guide.title, description: guide.description, alternates: { canonical: url, languages: { en: url } }, openGraph: { title: guide.title, description: guide.description, url, type: 'article', locale: 'en', publishedTime: guide.date, modifiedTime: guide.date, images: [defaultOgImage] } };
 }
 export default async function GuidePage({ params }: Props) {
   const { locale, slug } = await params;
+  setRequestLocale(locale);
   const guide = getGuide(slug);
   if (locale !== 'en' || !guide) notFound();
   const url = `${base}/en/guides/${slug}`;

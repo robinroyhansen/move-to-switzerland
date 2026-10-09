@@ -335,10 +335,10 @@
     "pageSubtitle": "Koordination der Schweizer Wohn-, Geschäfts- und Familienprioritäten",
     "items": {
       "assetStructuring": {
-        "title": "Pre-Immigration Tax & Asset Planning",
+        "title": "Steuer- und Vermögensplanung vor dem Zuzug",
         "description": "Karte Geschäftseigentum, Investitionen und geplante Transaktionen vor dem Umzug. Koordinieren Sie die Steuerberatung in der Schweiz und im Herkunftsland.",
         "detail": "Erfassen Sie vor der Schweizer Steueransässigkeit Beteiligungen, Trusts, Vorsorgevermögen, Immobilien, Schulden, geplante Veräusserungen und betroffene Länder. Stellen Sie Eigentumsnachweise, Bewertungen und Herkunftsnachweise zusammen. Lassen Sie Wegzugssteuern, Abkommensansässigkeit und Transaktionsfolgen durch Ihre bisherigen und Schweizer Fachpersonen prüfen. Verkäufe vor dem Zuzug sind nicht automatisch steuerfrei; ausländische Strukturen behalten ihre steuerliche Behandlung nicht zwangsläufig.",
-        "seoTitle": "Pre-Immigration Tax Planning für HNWIs & Gründer"
+        "seoTitle": "Steuerplanung vor dem Zuzug für HNWIs und Gründer"
       },
       "lumpSum": {
         "title": "Pauschalbesteuerung (Forfait Fiscal)",
@@ -374,7 +374,7 @@
         "title": "Immobilienberatung",
         "description": "Planen Sie eine Schweizer Haussuche rund um Wohnberechtigung, Schulwege und Budget, mit Lex Koller und Kauffragen von Spezialisten bewertet.",
         "detail": "Der Immobilienerwerb hängt von Staatsangehörigkeit, tatsächlichem Wohnsitz, Bewilligung und Nutzung ab. Eine B-Bewilligung erlaubt nicht pauschal Schweizer Wohnimmobilien als Anlage. Hauptwohnung, Ferienwohnung und Mietobjekt sind unterschiedlich zu beurteilen. Eine ausländisch beherrschte Schweizer Gesellschaft umgeht die Lex Koller nicht. Lassen Sie die zuständige kantonale Behörde und das Notariat die Situation vor der Unterzeichnung klären.\n\nFür einen ersten Schritt vergleichen Sie das Mieten mit dem Kauf, bevor Sie sich an einen Ort binden. Erstellen Sie die Shortlist rund um den eigentlichen Schulcampus, den Arbeitsplatz und die täglichen Reisen. Fordern Sie aktuelle Immobiliendetails und ein vollständiges Akquisitionsbudget an, einschließlich Finanzierungs- und Berufskosten.",
-        "seoTitle": "Swiss Property & Relocation Advisory für Privatkunden"
+        "seoTitle": "Immobilien- und Relocation-Beratung in der Schweiz für Privatkunden"
       },
       "health": {
         "title": "Gesundheit & Wellness Koordination",
@@ -549,12 +549,12 @@
     }
   },
   "servicesMeta": {
-    "title": "Swiss Relocation Services für HNWIs & Unternehmer",
+    "title": "Relocation-Services in der Schweiz für HNWIs und Unternehmer",
     "description": "Planen Sie die Schweizer Residenz, Steuervorabfragen, Unternehmensgründung, Family Office Koordination, Wohnen und Schulen mit einem Umzugskontakt."
   },
   "insights": {
     "meta": {
-      "title": "Swiss Relocation Insights für HNWIs & Entrepreneurs",
+      "title": "Ratgeber zum Umzug in die Schweiz für HNWIs und Unternehmer",
       "description": "Entdecken Sie die Schweizer Residenz, den Umzug von Gründern, Private Banking, Family Offices, Steuerplanung, Immobilien und Schulen mit praktischer Anleitung und offiziellen Quellen."
     },
     "hero": {

@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CaseStudiesPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   return (
     <>

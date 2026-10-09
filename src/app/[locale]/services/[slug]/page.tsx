@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server';
 import { withPageSeo } from '@/lib/seo';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
@@ -72,6 +73,7 @@ async function ServiceDetailContent({
   paramsPromise: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await paramsPromise;
+  setRequestLocale(locale);
   const key = serviceSlugToKey[slug];
   if (!key) notFound();
 
