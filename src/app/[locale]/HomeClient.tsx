@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { useEffect, useRef } from 'react';
+import { PlaceImage, FeatureMark } from '@/components/PlaceImage';
 import {
   serviceKeys,
   statsKeys,
@@ -34,61 +34,18 @@ export function HomeClient({
   relocationPaths,
 }: HomeClientProps) {
   const t = useTranslations();
-  const heroRef = useRef<HTMLDivElement>(null);
-  const parallaxRef = useRef<HTMLDivElement>(null);
-
-  // Parallax effect on hero background
-  useEffect(() => {
-    const handleScroll = () => {
-      if (parallaxRef.current) {
-        const scrollY = window.scrollY;
-        parallaxRef.current.style.transform = `translateY(${scrollY * 0.3}px)`;
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  // Hero text stagger animation
-  useEffect(() => {
-    const el = heroRef.current;
-    if (!el) return;
-    const children = el.children;
-    Array.from(children).forEach((child, i) => {
-      (child as HTMLElement).style.opacity = '0';
-      (child as HTMLElement).style.transform = 'translateY(20px)';
-      setTimeout(() => {
-        (child as HTMLElement).style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
-        (child as HTMLElement).style.opacity = '1';
-        (child as HTMLElement).style.transform = 'translateY(0)';
-      }, 300 + i * 200);
-    });
-  }, []);
-
   return (
     <>
-      {/* Hero - Full viewport, parallax */}
+      {/* Hero - landscape and introduction */}
       <section className="relative flex min-h-[88svh] items-center overflow-hidden bg-navy">
-        <div ref={parallaxRef} className="absolute inset-0 parallax-bg">
-          <Image
-            src="/images/hero-swiss-alps.jpg"
-            alt="Swiss Alps and lake landscape"
-            fill
-            className="object-cover opacity-25"
-            priority
-            quality={65}
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/65 via-navy/45 to-navy" />
-
-        <div ref={heroRef} className="relative z-10 mx-auto grid max-w-7xl gap-8 px-4 pb-14 pt-28 sm:px-6 sm:pb-20 sm:pt-32 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:px-8">
-          <div>
-            <div className="mb-6 inline-flex max-w-full rounded-full border border-gold/25 bg-navy/40 px-4 py-2 sm:px-5">
+        <div className="relative z-10 mx-auto grid max-w-7xl gap-6 lg:gap-8 px-4 pb-14 pt-28 sm:px-6 sm:pb-20 sm:pt-32 lg:grid-cols-[1fr_0.95fr] lg:items-center lg:px-8">
+          <div className="contents lg:block">
+            <div className="mb-2 inline-flex w-fit lg:mb-6 max-w-full rounded-full border border-gold/25 bg-navy/40 px-4 py-2 sm:px-5">
               <span className="min-w-0 break-words text-start text-xs font-medium leading-relaxed text-gold sm:tracking-[0.12em] sm:uppercase">
                 {homeCopy.heroBadge}
               </span>
             </div>
-            <h1 className="luxury-heading mb-7 max-w-4xl font-serif text-4xl font-semibold leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            <h1 className="luxury-heading mb-0 max-w-4xl lg:mb-7 font-serif text-4xl font-semibold leading-[1.05] text-white sm:text-5xl md:text-6xl lg:text-7xl">
               {homeCopy.heroTitle}
             </h1>
             <p className="mb-9 max-w-2xl text-lg font-light leading-relaxed text-text-light/62 sm:text-xl">
@@ -121,38 +78,9 @@ export function HomeClient({
             </div>
           </div>
 
-          <div className="block">
-            <div className="rounded-lg border border-gold/20 bg-navy/75 p-6 shadow-2xl shadow-navy-dark/30 backdrop-blur-sm">
-              <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <p className="text-xs font-medium leading-snug text-gold/80 sm:tracking-[0.14em] sm:uppercase">{homeCopy.planTitle}</p>
-                <span className="w-fit rounded-full border border-gold/20 px-3 py-1 text-[11px] font-medium leading-snug text-text-light/68">
-                  {homeCopy.planPeriod}
-                </span>
-              </div>
-              <div className="space-y-3">
-                {homeCopy.planRows.map(([number, title, text]) => (
-                  <div key={number} className="grid grid-cols-[44px_1fr] gap-4 rounded-md bg-text-light/[0.035] p-4">
-                    <span className="font-serif text-2xl text-gold/75">{number}</span>
-                    <div>
-                      <p className="font-medium text-text-light/80">{title}</p>
-                      <p className="mt-1 text-sm font-light leading-relaxed text-text-light/42">{text}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <p className="mt-5 text-xs font-light leading-relaxed text-text-light/35">
-                {homeCopy.planFooter}
-              </p>
-            </div>
-          </div>
+          <PlaceImage place="alpine-lake" priority className="row-start-3 aspect-[16/9] rounded-t-[3rem] rounded-b-lg lg:row-auto lg:aspect-[4/5] lg:rounded-t-[5rem]" sizes="(max-width: 1023px) 100vw, 48vw" />
         </div>
 
-        {/* Scroll indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-          <svg className="w-5 h-5 text-gold/40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </div>
       </section>
 
       {/* Trust Strip */}
@@ -166,6 +94,35 @@ export function HomeClient({
               </span>
             ))}
           </p>
+        </div>
+      </section>
+
+      <section className="bg-cream pt-16 sm:pt-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="block">
+            <div className="rounded-lg border border-gold/20 bg-navy p-6 sm:p-10">
+              <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <p className="text-xs font-medium leading-snug text-gold/80 sm:tracking-[0.14em] sm:uppercase">{homeCopy.planTitle}</p>
+                <span className="w-fit rounded-full border border-gold/20 px-3 py-1 text-[11px] font-medium leading-snug text-text-light/68">
+                  {homeCopy.planPeriod}
+                </span>
+              </div>
+              <div className="grid gap-4 md:grid-cols-3">
+                {homeCopy.planRows.map(([number, title, text]) => (
+                  <div key={number} className="grid grid-cols-[36px_1fr] gap-3 p-2">
+                    <span className="font-serif text-2xl text-gold/75">{number}</span>
+                    <div>
+                      <p className="font-medium text-text-light/80">{title}</p>
+                      <p className="mt-1 text-sm font-light leading-relaxed text-text-light/42">{text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="mt-5 text-xs font-light leading-relaxed text-text-light/35">
+                {homeCopy.planFooter}
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -184,11 +141,11 @@ export function HomeClient({
             </div>
           </ScrollReveal>
 
-          <div className="grid gap-5 md:grid-cols-3">
+          <div className="journey-track grid gap-8 md:grid-cols-3">
             {homeCopy.processSteps.map((step, index) => (
               <ScrollReveal key={step.title} delay={index * 80}>
-                <div className="h-full rounded-lg border border-navy/[0.06] bg-white p-7 shadow-sm">
-                  <span className="font-serif text-4xl text-gold/65">{String(index + 1).padStart(2, '0')}</span>
+                <div className="relative h-full pt-5">
+                  <div className="mb-5 flex items-center justify-between"><span className="journey-node font-serif text-3xl text-navy">{String(index + 1).padStart(2, '0')}</span><FeatureMark kind={(['compass', 'document', 'home'] as const)[index % 3]} /></div>
                   <h3 className="mt-5 font-serif text-2xl font-semibold text-navy">{step.title}</h3>
                   <p className="mt-4 text-sm font-light leading-relaxed text-charcoal/55">{step.text}</p>
                 </div>
@@ -243,6 +200,7 @@ export function HomeClient({
               <p className="mt-5 text-base font-light leading-relaxed text-text-light/48">
                 {homeCopy.signalsText}
               </p>
+              <PlaceImage place="zurich" className="mt-8 aspect-[16/9] rounded-lg" />
             </div>
           </ScrollReveal>
 
@@ -250,7 +208,7 @@ export function HomeClient({
             {homeCopy.signals.map((signal, index) => (
               <ScrollReveal key={signal} delay={index * 50}>
                 <div className="flex min-h-24 items-start gap-4 rounded-md border border-text-light/10 bg-text-light/[0.035] p-5">
-                  <span className="mt-0.5 font-serif text-xl text-gold/70">{String(index + 1).padStart(2, '0')}</span>
+                  <FeatureMark />
                   <p className="text-sm font-light leading-relaxed text-text-light/55">{signal}</p>
                 </div>
               </ScrollReveal>
@@ -438,6 +396,7 @@ export function HomeClient({
                       src={profileImages[key]}
                       alt={t(`clients.profiles.${key}.title`)}
                       fill
+                      sizes="(max-width: 767px) 100vw, 50vw"
                       className="object-cover opacity-10"
                     />
                   </div>
@@ -492,10 +451,8 @@ export function HomeClient({
             {(['adrian', 'robin'] as const).map((founder, i) => (
               <ScrollReveal key={founder} delay={i * 150}>
                 <div className="bg-white rounded-lg p-8 sm:p-10 shadow-sm border border-navy/[0.04] card-lift">
-                  <div className="w-20 h-20 rounded-full bg-navy/[0.06] flex items-center justify-center mb-7">
-                    <span className="text-2xl font-serif text-navy font-bold">
-                      {t(`founders.${founder}.name`).charAt(0)}
-                    </span>
+                  <div className="relative mb-7 aspect-[4/3] overflow-hidden rounded-md">
+                    <Image src={founder === 'adrian' ? '/images/founders/adrian-burgi.jpg' : '/images/founders/robin-krigslund-hansen.jpg'} alt={t(`founders.${founder}.name`)} fill sizes="(max-width: 767px) 100vw, 400px" className="object-cover object-top" />
                   </div>
                   <h3 className="font-serif text-xl text-navy font-semibold mb-1">
                     {t(`founders.${founder}.name`)}

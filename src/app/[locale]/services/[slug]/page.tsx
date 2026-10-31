@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { PlaceImage } from '@/components/PlaceImage';
 import { Link } from '@/i18n/routing';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { ServiceSchema, getAreaCountries } from '@/components/StructuredData';
@@ -120,6 +121,9 @@ function ServicePageInner({ serviceKey, locale }: { serviceKey: ServiceKey; loca
           </div>
         </div>
       </section>
+      <div className="bg-cream px-4 pt-10 sm:px-6">
+        <PlaceImage place={['realEstate', 'lifestyle', 'health', 'residency'].includes(serviceKey) ? 'zug' : 'zurich'} className="mx-auto aspect-[16/7] max-w-5xl rounded-lg" sizes="(max-width: 1023px) 100vw, 1024px" />
+      </div>
 
       {/* Service Detail */}
       <section className="bg-cream py-16 sm:py-24">

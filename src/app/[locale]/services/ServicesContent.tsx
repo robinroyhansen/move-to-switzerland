@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import Image from 'next/image';
+import { PlaceImage } from '@/components/PlaceImage';
 import { serviceKeys, serviceIconPaths, serviceSlugs } from '@/lib/services';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
@@ -21,15 +21,6 @@ export function ServicesContent() {
     <>
       {/* Header */}
       <section className="relative overflow-hidden bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
-        <div className="absolute inset-0 opacity-8">
-          <Image
-            src="/images/services-corporate.jpg"
-            alt=""
-            fill
-            className="object-cover"
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/60 to-navy" />
         <div className="relative mx-auto grid max-w-6xl gap-8 px-4 text-start sm:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-end lg:px-8">
           <div>
             <div className="gold-line" />
@@ -64,6 +55,7 @@ export function ServicesContent() {
                     <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-navy sm:text-3xl">
                       {t(`services.groups.${group.id}`)}
                     </h2>
+                    <PlaceImage place={(['zurich', 'zug', 'alpine-lake'] as const)[groupIndex]} className="mt-6 aspect-[16/9] rounded-lg lg:aspect-[4/5]" sizes="(max-width: 1023px) 100vw, 240px" />
                   </div>
 
                   <div className="divide-y divide-navy/8 overflow-hidden rounded-lg border border-navy/[0.06] bg-white shadow-sm">

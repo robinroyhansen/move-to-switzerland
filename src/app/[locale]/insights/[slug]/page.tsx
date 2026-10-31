@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import { PlaceImage } from '@/components/PlaceImage';
 import { Link } from '@/i18n/routing';
 import { ConsultationCta } from '@/components/ConsultationCta';
 import { ScrollReveal } from '@/components/ScrollReveal';
@@ -220,9 +221,11 @@ function ArticleInner({ locale, slug }: { locale: string; slug: InsightSlug }) {
           <div className="bg-white rounded-lg p-8 sm:p-12 shadow-sm border border-navy/[0.04]">
             {sections.map((section, i) => (
               <ScrollReveal key={i} delay={i * 40}>
-                <div className={i > 0 ? 'mt-10' : ''}>
+                <div className={i > 0 ? 'mt-12' : 'rounded-lg bg-cream p-6 sm:p-8'}>
+                  {i === Math.ceil(sections.length / 2) && <PlaceImage place="alpine-lake" className="mb-10 aspect-[16/9] rounded-lg" sizes="(max-width: 767px) 100vw, 672px" />}
                   {section.heading && section.level === 2 && (
                     <h2 className="font-serif text-2xl sm:text-3xl text-navy font-semibold mb-4 leading-snug">
+                      <span aria-hidden="true" className="mb-3 block font-sans text-sm text-gold">{String(i).padStart(2, '0')}</span>
                       {section.heading}
                     </h2>
                   )}

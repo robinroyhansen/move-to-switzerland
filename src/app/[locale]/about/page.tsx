@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import { PlaceImage } from '@/components/PlaceImage';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
 export default function AboutPage() {
@@ -39,6 +40,8 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <div className="bg-cream px-4 pt-10 sm:px-6"><PlaceImage place="zug" className="mx-auto aspect-[16/7] max-w-6xl rounded-lg" sizes="(max-width: 1279px) 100vw, 1152px" /></div>
+
       {/* Story */}
       <section className="py-24 sm:py-28 bg-cream">
         <div className="max-w-3xl mx-auto px-4">
@@ -56,7 +59,7 @@ export default function AboutPage() {
               <p>{t('about.story.p2')}</p>
             </ScrollReveal>
             <ScrollReveal delay={300}>
-              <p>{t('about.story.p3')}</p>
+              <p className="rounded-lg border border-gold/25 bg-gold/5 p-6 font-serif text-xl leading-relaxed text-navy sm:p-8">{t('about.story.p3')}</p>
             </ScrollReveal>
           </div>
         </div>

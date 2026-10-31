@@ -2,6 +2,7 @@
 
 import { useLocale } from 'next-intl';
 import { type ReactNode, useEffect, useRef, useState } from 'react';
+import { PlaceImage, FeatureMark } from '@/components/PlaceImage';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { Link } from '@/i18n/routing';
 import { trackConversion } from '@/lib/analytics';
@@ -559,6 +560,7 @@ export default function ContactPage() {
             <aside className="lg:col-span-2">
               <ScrollReveal delay={150}>
                 <div className="space-y-6 lg:sticky lg:top-28">
+                  <PlaceImage place="zug" className="aspect-[4/3] rounded-lg" sizes="(max-width: 1023px) 100vw, 420px" />
                   <div className="rounded-lg bg-navy p-7 sm:p-10">
                     <h2 className="mb-6 font-serif text-2xl font-semibold text-gold">
                       {copy.aside.title}
@@ -572,7 +574,7 @@ export default function ContactPage() {
                     <div className="mt-10 space-y-5 border-t border-text-light/10 pt-8">
                       {copy.aside.items.map((item) => (
                         <div key={item} className="flex items-start gap-3">
-                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                          <FeatureMark />
                           <p className="min-w-0 text-sm leading-relaxed text-text-light/65">{item}</p>
                         </div>
                       ))}
@@ -581,7 +583,7 @@ export default function ContactPage() {
                   <div className="rounded-lg border border-navy/8 bg-white p-7 shadow-sm">
                     <h2 className="font-serif text-2xl font-semibold text-navy">{enhanced.process.title}</h2>
                     <p className="mt-3 text-sm font-light leading-relaxed text-charcoal/60">{enhanced.process.intro}</p>
-                    <ol className="mt-6 space-y-4">
+                    <ol className="journey-list mt-6 space-y-6">
                       {enhanced.process.steps.map((step, index) => (
                         <li key={step} className="flex gap-3 text-sm leading-relaxed text-charcoal/65">
                           <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold/12 text-xs font-semibold text-gold">{index + 1}</span>
