@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import { PlaceImage } from '@/components/PlaceImage';
 import { useState } from 'react';
 import { ScrollReveal } from '@/components/ScrollReveal';
 
@@ -83,15 +83,6 @@ export function CantonsContent() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
-        <div className="absolute inset-0 opacity-8">
-          <Image
-            src="/images/hero-swiss-alps.jpg"
-            alt=""
-            fill
-            className="object-cover"
-          />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/60 to-navy" />
         <div className="relative mx-auto max-w-5xl px-4 text-start sm:px-6 lg:px-8">
           <div className="gold-line" />
           <h1 className="mb-5 font-serif text-4xl font-semibold text-white luxury-heading sm:text-5xl lg:text-6xl">
@@ -143,6 +134,7 @@ export function CantonsContent() {
               <div className="bg-navy p-5 text-sm font-medium text-text-light/75">{t('cantonsPage.hero.title')}</div>
               {cantonKeys.map((canton) => (
                 <div key={canton} className="bg-navy p-5">
+                  <PlaceImage place={canton} className="mb-4 aspect-[16/7] rounded-md" sizes="300px" />
                   <h3 className="font-serif text-2xl font-semibold text-gold">{t(`cantonsPage.${canton}.name`)}</h3>
                   <p className="mt-1 text-sm text-text-light/65">{t(`cantonsPage.${canton}.tagline`)}</p>
                 </div>
@@ -194,6 +186,7 @@ export function CantonsContent() {
             {visibleCantons.map((canton, i) => (
               <ScrollReveal key={canton} delay={i * 100}>
                 <div className={`bg-white rounded-lg border-t-[3px] ${cantonAccentColors[canton]} shadow-sm overflow-hidden`}>
+                  <PlaceImage place={canton} alt={t(`cantonsPage.${canton}.name`)} className="aspect-[4/3]" sizes="(max-width: 1023px) 100vw, 400px" />
                   {/* Canton header */}
                   <div className="p-8 bg-navy text-center">
                     <h2 className="font-serif text-2xl sm:text-3xl text-gold font-semibold mb-1.5 luxury-heading">

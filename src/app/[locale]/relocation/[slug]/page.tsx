@@ -3,6 +3,7 @@ import { CountryPreparation, hasCountryPreparation } from '@/components/CountryP
 import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { PlaceImage, FeatureMark } from '@/components/PlaceImage';
 import { Link } from '@/i18n/routing';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ConsultationCta } from '@/components/ConsultationCta';
@@ -90,8 +91,9 @@ export default async function RelocationPathPage({ params }: Props) {
         audienceType={path.audience}
       />
 
-      <section className="bg-navy pb-20 pt-36">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+      <section className="bg-navy pb-16 pt-32 sm:pb-20 sm:pt-36">
+        <div className="mx-auto grid max-w-7xl gap-6 lg:gap-10 px-4 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8">
+          <div className="contents lg:block">
           <nav className="mb-10 flex items-center gap-2 text-xs text-text-light/30">
             <Link href="/" className="transition-colors hover:text-gold">
               {copy.relocationPage.home}
@@ -130,6 +132,8 @@ export default async function RelocationPathPage({ params }: Props) {
               {copy.relocationPage.takeQuiz}
             </ConversionLink>
           </div>
+          </div>
+          <PlaceImage place={slug.includes('zug') ? 'zug' : 'alpine-lake'} priority className="row-start-4 aspect-[16/9] rounded-t-[3rem] rounded-b-lg lg:row-auto lg:aspect-[4/5] lg:rounded-t-[4rem]" sizes="(max-width: 1023px) 100vw, 45vw" />
         </div>
       </section>
 
@@ -175,9 +179,10 @@ export default async function RelocationPathPage({ params }: Props) {
             </h2>
           </div>
 
-          <div className="grid gap-5 md:grid-cols-2">
+          <div className="journey-track grid gap-8 md:grid-cols-2">
             {path.workstreams.map((workstream, index) => (
-              <div key={workstream} className="rounded-lg border border-navy/[0.06] bg-cream/70 p-6">
+              <div key={workstream} className="relative rounded-lg border border-navy/[0.06] bg-cream/70 p-6">
+                <div className="mb-5 flex items-center justify-between"><span aria-hidden="true" className="journey-node font-serif text-2xl text-navy">{String(index + 1).padStart(2, '0')}</span><FeatureMark kind="document" /></div>
                 <span className="text-xs font-medium uppercase tracking-[0.18em] text-gold/70">
                   {copy.relocationPage.workstream} {String(index + 1).padStart(2, '0')}
                 </span>
@@ -198,10 +203,12 @@ export default async function RelocationPathPage({ params }: Props) {
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl">
               {copy.relocationPage.valueTitle}
             </h2>
+            <PlaceImage place="zurich" className="mt-8 aspect-[16/10] rounded-lg" />
           </div>
           <div className="grid gap-3">
             {path.proofPoints.map((point) => (
-              <div key={point} className="rounded-md border border-text-light/10 bg-text-light/[0.035] p-5">
+              <div key={point} className="flex items-start gap-4 rounded-md border border-text-light/10 bg-text-light/[0.035] p-5">
+                <FeatureMark />
                 <p className="text-sm font-light leading-relaxed text-text-light/58">{point}</p>
               </div>
             ))}

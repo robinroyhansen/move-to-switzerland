@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getGuide, guideIndex, guideSources } from '@/lib/relocation-guides';
+import { PlaceImage } from '@/components/PlaceImage';
 import { GuideSections } from '@/components/GuideSections';
 import { PracticalResources } from '@/components/PracticalResources';
 
@@ -35,6 +36,7 @@ export default async function GuidePage({ params }: Props) {
           <p className="mt-7 text-lg leading-8 text-charcoal/80">{guide.intro}</p>
           <p className="mt-6 text-sm leading-7 text-charcoal/70">By <Link href="/en/about" className="text-navy underline underline-offset-4">Move to Switzerland</Link>. Helping hundreds of people move since 2012.<br />Published <time dateTime={guide.date}>10 September 2026</time>{sources.length ? '; references checked on the same date.' : '.'}</p>
         </header>
+        <PlaceImage priority place={slug.includes('zug') || slug.includes('baar') ? 'zug' : slug.includes('zurich') ? 'zurich' : 'alpine-lake'} className="mt-9 aspect-[16/9] rounded-t-[3rem] rounded-b-lg sm:aspect-[21/8]" sizes="(max-width: 1023px) 100vw, 960px" />
         <nav aria-label="On this page" className="my-10 border-y border-navy/15 py-5">
           <ol className="flex flex-wrap gap-x-6 gap-y-3 text-sm leading-7">{guide.sections.map(section => <li key={section.id}><a href={`#${section.id}`} className="text-navy underline decoration-gold/70 underline-offset-4">{section.title}</a></li>)}</ol>
         </nav>

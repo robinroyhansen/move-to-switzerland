@@ -1,6 +1,6 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import Image from 'next/image';
+import { PlaceImage, FeatureMark } from '@/components/PlaceImage';
 import { serviceKeys, statsKeys, profileKeys, serviceSlugs } from '@/lib/services';
 import { localeNames, swissArrivalLocales, type Locale } from '@/i18n/config';
 import type { ConversionCopy, RelocationPath } from '@/lib/conversion-copy';
@@ -33,18 +33,8 @@ export function HomeContent({
     <>
       {/* Immediate content and one primary action, with the Alps left to breathe. */}
       <section className="relative flex min-h-[42rem] items-center overflow-hidden bg-navy sm:min-h-[76svh]">
-        <Image
-          src="/images/hero-swiss-alps.jpg"
-          alt="Swiss Alps and lake landscape"
-          fill
-          sizes="100vw"
-          className="object-cover opacity-50"
-          priority
-          quality={65}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/65 via-navy/65 to-navy" />
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-10 pt-24 sm:px-6 sm:pb-16 sm:pt-32 lg:px-8">
-          <div className="max-w-2xl">
+        <div className="relative mx-auto grid w-full max-w-7xl items-center gap-8 px-4 pb-10 pt-28 sm:px-6 sm:pb-16 sm:pt-32 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12 lg:px-8">
+          <div className="contents lg:block">
             <p className="mb-5 text-sm font-medium text-gold">{homeCopy.heroBadge}</p>
             <h1 className="luxury-heading mb-5 max-w-2xl font-serif text-[2.75rem] font-semibold leading-[1.05] text-white sm:text-6xl lg:text-7xl">
               {homeCopy.heroTitle}
@@ -79,6 +69,7 @@ export function HomeContent({
               ))}
             </dl>
           </div>
+          <PlaceImage place="alpine-lake" priority className="row-start-3 aspect-[16/9] rounded-t-[3rem] rounded-b-lg lg:row-auto lg:aspect-[4/5]" sizes="(max-width: 1023px) 100vw, 45vw" />
         </div>
       </section>
 
@@ -95,10 +86,10 @@ export function HomeContent({
               <p className="mt-4 max-w-[65ch] text-base leading-relaxed text-charcoal/75">{homeCopy.processText}</p>
             </div>
           </ScrollReveal>
-          <ol className="grid gap-6 md:grid-cols-3 md:gap-10">
+          <ol className="journey-track grid gap-6 md:grid-cols-3 md:gap-10">
             {homeCopy.processSteps.map((step, index) => (
-              <li key={step.title} className="flex gap-4 border-t border-navy/15 pt-5">
-                <span aria-hidden="true" className="font-serif text-2xl text-gold-dark">{String(index + 1).padStart(2, '0')}</span>
+              <li key={step.title} className="relative pt-5">
+                <span aria-hidden="true" className="journey-node mb-5"><FeatureMark kind={index === 0 ? 'compass' : index === 1 ? 'document' : 'home'} /></span>
                 <div>
                   <h3 className="font-serif text-2xl font-semibold text-navy">{step.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-charcoal/75">{step.text}</p>
@@ -140,6 +131,7 @@ export function HomeContent({
           <div>
             <h2 className="luxury-heading font-serif text-3xl font-semibold text-white sm:text-4xl">{t('whySwitzerland.title')}</h2>
             <p className="mt-4 max-w-[65ch] text-base leading-relaxed text-text-light/85">{t('whySwitzerland.subtitle')}</p>
+            <PlaceImage place="zurich" className="mt-6 aspect-[16/10] rounded-lg" />
             <Link href="/why-switzerland" className="mt-5 inline-flex min-h-11 items-center gap-2 text-sm font-medium text-gold underline underline-offset-4">
               {t('nav.whySwitzerland')}<span aria-hidden="true" className="rtl:rotate-180">↗</span>
             </Link>

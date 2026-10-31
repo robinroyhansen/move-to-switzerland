@@ -1,6 +1,7 @@
 'use client';
 
 import NextLink from 'next/link';
+import { PlaceImage } from '@/components/PlaceImage';
 import { useRef, useState, type FormEvent } from 'react';
 import { Link } from '@/i18n/routing';
 import { trackConversion, getAttribution } from '@/lib/analytics';
@@ -135,9 +136,10 @@ export default function ContactContent({ locale, copy, enhanced, growth }: Props
           </form>}
         </div>
         <aside className="space-y-8 text-charcoal/80">
+          <PlaceImage place="zug" className="aspect-[16/10] rounded-t-[3rem] rounded-b-lg" />
           <div><h2 className="font-serif text-2xl text-navy">{enhanced.process.title}</h2>
             <p className="mt-4 text-sm leading-7">{enhanced.process.intro}</p>
-            <ol className="mt-5 list-decimal space-y-3 ps-5 text-sm leading-relaxed">{enhanced.process.steps.map(step => <li key={step}>{step}</li>)}</ol>
+            <ol className="journey-list mt-5 space-y-5 text-sm leading-relaxed">{enhanced.process.steps.map((step, index) => <li key={step} className="flex items-start gap-3"><span aria-hidden="true" className="relative z-10 flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-gold/50 bg-cream text-xs font-semibold text-navy">{index + 1}</span><span>{step}</span></li>)}</ol>
           </div>
           <div className="border-t border-navy/15 pt-6">
             <p className="font-serif text-xl leading-relaxed text-navy">{growth.experience}</p>

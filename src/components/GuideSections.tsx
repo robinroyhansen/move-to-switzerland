@@ -1,8 +1,10 @@
+import { FeatureMark } from '@/components/PlaceImage';
 import type { GuideSection } from '@/lib/relocation-guides';
 
 export function GuideSections({ sections, prefix = '' }: { sections: GuideSection[]; prefix?: string }) {
   return <div className="space-y-14">
-    {sections.map(section => <section key={section.id} id={`${prefix}${section.id}`} className="scroll-mt-28" aria-labelledby={`${prefix}${section.id}-heading`}>
+    {sections.map((section, index) => <section key={section.id} id={`${prefix}${section.id}`} className="scroll-mt-28" aria-labelledby={`${prefix}${section.id}-heading`}>
+      <div aria-hidden="true" className="mb-4 flex items-center gap-4 text-sm text-gold-dark"><span className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/50">{String(index + 1).padStart(2, '0')}</span><span className="h-px w-16 bg-gold/40" /></div>
       <h2 id={`${prefix}${section.id}-heading`} className="mb-5 max-w-[32ch] font-serif text-3xl font-semibold leading-tight text-navy sm:text-4xl">{section.title}</h2>
       <div className="max-w-[72ch] space-y-5 text-base leading-8 text-charcoal/80">
         {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
@@ -17,7 +19,7 @@ export function GuideSections({ sections, prefix = '' }: { sections: GuideSectio
         </table>
         <p className="mt-2 text-xs leading-6 text-charcoal/65 sm:hidden">Swipe across to read the full comparison.</p>
       </div>}
-      {section.points && <ul className="mt-5 max-w-[72ch] list-disc space-y-3 pl-5 text-base leading-8 text-charcoal/80">{section.points.map(point => <li key={point}>{point}</li>)}</ul>}
+      {section.points && <ul className="mt-5 max-w-[72ch] space-y-4 text-base leading-8 text-charcoal/80">{section.points.map(point => <li key={point} className="flex items-start gap-3"><span className="mt-1"><FeatureMark /></span><span>{point}</span></li>)}</ul>}
       {section.sources && <ul className="mt-5 flex flex-wrap gap-x-5 gap-y-3 text-sm leading-6" aria-label={`References for ${section.title}`}>
         {section.sources.map(source => <li key={source.url}><a href={source.url} className="text-navy underline decoration-gold/70 underline-offset-4 hover:decoration-navy">{source.title}</a></li>)}
       </ul>}
