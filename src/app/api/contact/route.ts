@@ -175,7 +175,7 @@ function buildPayload(body: Record<string, unknown>): IntakePayload {
     schoolAgeRange: cleanString(body.schoolAgeRange, 240),
     urgencyReason: cleanString(body.urgencyReason, 500),
     existingAdvisors: cleanString(body.existingAdvisors, 80),
-    preferredContact: cleanString(body.preferredContact, 80),
+    preferredContact: cleanString(body.preferredContact, 80) || 'email',
     hearAbout: cleanString(body.hearAbout, 240),
     message: cleanLongText(body.message),
     privacyConsent: cleanString(body.privacyConsent, 20),
@@ -189,7 +189,7 @@ function buildPayload(body: Record<string, unknown>): IntakePayload {
 }
 
 function validatePayload(payload: IntakePayload): string | null {
-  if (!payload.name || !payload.email || !payload.country || !payload.message) {
+  if (!payload.name || !payload.email) {
     return 'Please complete all required fields.';
   }
 
@@ -197,7 +197,7 @@ function validatePayload(payload: IntakePayload): string | null {
     return 'Please enter a valid email address.';
   }
 
-  if (!payload.enquiryType || !enquiryTypeLabels[payload.enquiryType]) {
+  if (payload.enquiryType && !enquiryTypeLabels[payload.enquiryType]) {
     return 'Please select who is making the inquiry.';
   }
 
@@ -205,12 +205,12 @@ function validatePayload(payload: IntakePayload): string | null {
     return 'Please select the primary goal.';
   }
 
-  if (!payload.timeline || !timelineLabels[payload.timeline]) {
+  if (payload.timeline && !timelineLabels[payload.timeline]) {
     return 'Please select the expected timeline.';
   }
 
-  if (payload.servicesNeeded.length === 0) {
-    return 'Please select at least one service area.';
+  if (payload.servicesNeeded.some((service) => !serviceLabels[service])) {
+    return 'Please select a valid service area.';
   }
 
   if (!payload.preferredContact || !contactMethodLabels[payload.preferredContact]) {
@@ -233,8 +233,9 @@ function shouldSilentlyDrop(payload: IntakePayload): boolean {
     return true;
   }
 
-  const startedAt = Number(payload.formStartedAt);
-  return Number.isFinite(startedAt) && startedAt > 0 && Date.now() - startedAt < 1500;
+  // A short autofilled inquiry can legitimately arrive in under 1.5 seconds.
+  // Keep the honeypot and rate limit; never silently discard a real quick enquiry.
+  return false;
 }
 
 function leadPriority(payload: IntakePayload): 'High' | 'Medium' | 'Standard' {
@@ -433,7 +434,16 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Too many submissions. Please try again later.' }, { status: 429 });
     }
 
-    const body = (await request.json()) as Record<string, unknown>;
+    let body: Record<string, unknown>;
+    try {
+      const parsed: unknown = await request.json();
+      if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+        return NextResponse.json({ error: 'Invalid inquiry.' }, { status: 400 });
+      }
+      body = parsed as Record<string, unknown>;
+    } catch {
+      return NextResponse.json({ error: 'Invalid inquiry.' }, { status: 400 });
+    }
     const payload = buildPayload(body);
 
     if (shouldSilentlyDrop(payload)) {

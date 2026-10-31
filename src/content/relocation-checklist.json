@@ -1,0 +1,38 @@
+{
+  "updated": "2026-09-10",
+  "phases": [
+    {"id":"decide","title":"Before you commit","intro":"Resolve the decisions that affect everything else.","tasks":[
+      {"id":"residence-route","title":"Confirm your residence and work route","detail":"Write down your nationality, intended activity and preferred canton. Ask the cantonal migration authority which application applies and what must be approved before moving or starting work. EU/EFTA and other nationals follow different routes.","source":"sem"},
+      {"id":"household","title":"Map who is moving with you","detail":"List the family members moving, their nationalities and intended activities. Confirm each person's residence route and the documents needed for family reunification.","source":"sem"},
+      {"id":"canton-budget","title":"Compare the whole cost of two or three locations","detail":"Build a monthly budget covering rent, health insurance, commuting, childcare and school costs. Compare actual municipalities and travel times, not just a canton's headline tax rate."},
+      {"id":"tax-review","title":"Agree a cross-border tax plan","detail":"Ask advisers in your current country and Switzerland to review your departure date, income, assets, pension and any business ownership before you commit. Keep written assumptions and a list of unresolved questions."},
+      {"id":"dependencies","title":"Set a move date with decision checkpoints","detail":"Work backwards from your target arrival. Identify which bookings depend on a permit, employment agreement, school place or lease, and check cancellation terms before paying deposits."}
+    ]},
+    {"id":"prepare","title":"Before the move","intro":"Keep one document folder and assign an owner to each task.","tasks":[
+      {"id":"documents","title":"Prepare your application document folder","detail":"Check passport validity and request the authority's current document list. Depending on your route, this may include employment or business evidence, civil-status documents and housing details. Confirm translation and certification requirements before ordering them.","source":"sem"},
+      {"id":"housing","title":"Confirm your first address and registration arrangements","detail":"Ask your municipality what proof of accommodation it accepts and how to book registration. If using temporary accommodation, confirm it can support your registration before you reserve."},
+      {"id":"schools","title":"Coordinate school or childcare arrangements, if relevant","detail":"Contact the local school authority or prospective school about placement, language support, records and start dates. Check childcare availability separately from school admission."},
+      {"id":"insurance-plan","title":"Plan health insurance for each family member","detail":"Compare coverage and premiums, and ask the competent authority whether an exemption applies. For people subject to Swiss compulsory health insurance, enrolment is generally required within three months of the obligation starting; timely cover and premiums apply from that starting date.","source":"health"},
+      {"id":"customs","title":"Prepare your household-goods inventory and customs papers","detail":"Check whether your goods qualify for duty-free relocation import, prepare form 18.44 and agree the declaration process with your mover. Relief generally requires transfer of domicile and goods used personally for at least six months that you will continue using.","source":"customs"},
+      {"id":"vehicles","title":"Arrange customs clearance for a vehicle, if bringing one","detail":"Check the relocation rules before driving your vehicle into Switzerland. Plan declaration at a customs office that handles commercial goods during its opening hours, and retain the papers needed for cantonal registration.","source":"vehicle"}
+    ]},
+    {"id":"arrive","title":"On arrival","intro":"Complete the local steps and keep proof of submission.","tasks":[
+      {"id":"registration","title":"Register with your municipality on time","detail":"Confirm your deadline directly with the municipality and migration authority. For EU/EFTA nationals taking up residence for employment lasting more than three months, registration is required within 14 days of arrival and before starting work. Bring the documents requested for your route.","source":"sem"},
+      {"id":"permit-followup","title":"Complete permit appointments and follow up on missing documents","detail":"Record appointment dates, reference numbers and the person handling your application. Keep copies of submissions and confirm work authorisation before starting an activity."},
+      {"id":"health-enrolment","title":"Complete health-insurance enrolment or confirm an exemption","detail":"Check that each person has a confirmed start date and any exemption is approved by the responsible authority. Keep the policy or exemption confirmation with your residence documents.","source":"health"},
+      {"id":"bank-utilities","title":"Set up banking, payments and household services","detail":"Ask your chosen bank for its onboarding documents. Confirm rent payments, electricity, internet and mail arrangements, and record account-opening or installation appointments."}
+    ]},
+    {"id":"settle","title":"After settling in","intro":"Close the gaps between the old country and the new one.","tasks":[
+      {"id":"payroll","title":"Check payroll and social-insurance arrangements","detail":"With your employer or accountant, confirm the applicable payroll, pension and social-insurance setup. If you work across borders or run a business, resolve the position before assuming the usual employee process applies."},
+      {"id":"licence","title":"Check vehicle and driving-licence requirements","detail":"Contact your cantonal road-traffic office about registration, insurance, inspections and any licence exchange required for your situation. Put the applicable deadlines in your calendar.","source":"vehicle"},
+      {"id":"close-loop","title":"Review your move with your advisers","detail":"Confirm departure-country notifications, remaining tax filings, address changes and permit conditions. Set reminders for renewal dates, and keep a list of the questions that still need an answer."}
+    ]}
+  ],
+  "sources": [
+    {"id":"sem","name":"State Secretariat for Migration: EU/EFTA residence and work FAQ","url":"https://www.sem.admin.ch/sem/en/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html"},
+    {"id":"work","name":"State Secretariat for Migration: working in Switzerland FAQ","url":"https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"},
+    {"id":"health","name":"Federal Office of Public Health: compulsory health insurance for residents","url":"https://www.bag.admin.ch/en/health-insurance-requirement-to-obtain-insurance-for-persons-resident-in-switzerland"},
+    {"id":"customs","name":"Federal Office for Customs and Border Security: relocation import procedure","url":"https://www.bazg.admin.ch/en/relocation-import-switzerland-procedure"},
+    {"id":"vehicle","name":"Federal Office for Customs and Border Security: vehicles and relocation","url":"https://www.bazg.admin.ch/en/customs-clearance-vehicles-relocation"}
+  ]
+}

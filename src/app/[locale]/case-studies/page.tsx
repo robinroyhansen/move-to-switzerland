@@ -1,7 +1,8 @@
+import { setRequestLocale } from 'next-intl/server';
+import { withPageSeo } from '@/lib/seo';
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { ConsultationCta } from '@/components/ConsultationCta';
-import { getConversionCopy } from '@/lib/conversion-copy';
 import { CaseStudiesContent } from './CaseStudiesContent';
 
 type Props = {
@@ -10,27 +11,29 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'caseStudiesPage.meta' });
+  const t = await getTranslations({ locale });
+  const title = t('caseStudiesPage.meta.title');
+  const description = t('pageMeta.caseStudies');
 
-  return {
-    title: t('title'),
-    description: t('description'),
+  return withPageSeo({
+    title,
+    description,
     openGraph: {
-      title: t('title'),
-      description: t('description'),
+      title,
+      description,
       type: 'website',
       locale,
     },
-  };
+  }, locale, `/case-studies`);
 }
 
 export default async function CaseStudiesPage({ params }: Props) {
   const { locale } = await params;
-  const copy = getConversionCopy(locale);
+  setRequestLocale(locale);
 
   return (
     <>
-      <CaseStudiesContent caseSnapshots={copy.caseSnapshots} />
+      <CaseStudiesContent locale={locale} />
       <div className="gold-divider" />
       <ConsultationCta />
     </>

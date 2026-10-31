@@ -1,20 +1,20 @@
 'use client';
 
+import { isEnglishResource } from '@/lib/english-resources';
+import NextLink from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import { locales, localeNames, swissArrivalLocales, type Locale } from '@/i18n/config';
+import { CookieSettingsButton } from './CookieSettingsButton';
+import { useIsSwissArrival } from '@/lib/site';
 
-type FooterProps = {
-  site?: 'move' | 'swissarrival';
-};
-
-export function Footer({ site = 'move' }: FooterProps) {
+export function Footer() {
   const t = useTranslations();
   const swissNavT = useTranslations('swissArrivalNav');
   const swissFooterT = useTranslations('swissArrivalFooter');
   const locale = useLocale() as Locale;
   const pathname = usePathname();
-  const isSwissArrival = site === 'swissarrival' || pathname === '/swiss-arrival';
+  const isSwissArrival = useIsSwissArrival();
   const brandName = isSwissArrival ? 'Swiss Arrival' : 'Move to Switzerland';
   const brandInitial = isSwissArrival ? 'S' : 'M';
   const languageOptions = isSwissArrival ? swissArrivalLocales : locales;
@@ -126,7 +126,7 @@ export function Footer({ site = 'move' }: FooterProps) {
                     {group.codes.map((code) => (
                       <Link
                         key={code}
-                        href={pathname}
+                        href={isEnglishResource(pathname) && code !== 'en' ? '/' : pathname}
                         locale={code}
                         className={`inline-flex min-h-11 max-w-full items-center rounded-full border px-3 py-1.5 text-xs leading-snug transition-all duration-300 ${
                           locale === code
@@ -169,6 +169,10 @@ export function Footer({ site = 'move' }: FooterProps) {
         )}
 
         {/* Bottom bar */}
+        {!isSwissArrival && <div className="mb-6 flex flex-wrap items-center justify-center gap-6">
+          <NextLink href="/en/relocation-checklist" className="inline-flex min-h-11 items-center text-sm underline underline-offset-4">{t('growth.checklist')}</NextLink>
+          <CookieSettingsButton label={t('growth.cookieSettings')} />
+        </div>}
         <div className="border-t border-text-light/5 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-text-light/65">
             &copy; {new Date().getFullYear()} {brandName}. {isSwissArrival ? swissFooterT('rights') : t('footer.rights')}

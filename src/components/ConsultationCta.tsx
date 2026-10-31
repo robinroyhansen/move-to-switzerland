@@ -3,6 +3,7 @@ import { ScrollReveal } from './ScrollReveal';
 import Image from 'next/image';
 import { ConversionLink } from '@/components/ConversionLink';
 import { getConversionCopy } from '@/lib/conversion-copy';
+import { localeNames, swissArrivalLocales } from '@/i18n/config';
 
 interface ConsultationCtaProps {
   variant?: 'navy' | 'cream';
@@ -11,6 +12,8 @@ interface ConsultationCtaProps {
 export async function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps) {
   const locale = await getLocale();
   const copy = getConversionCopy(locale);
+  const guideLocale = swissArrivalLocales.find((code) => code === locale) ?? 'en';
+  const guideLabel = guideLocale === locale ? copy.cta.guide : `${copy.cta.guide} (${localeNames.en})`;
 
   if (variant === 'cream') {
     return (
@@ -35,11 +38,12 @@ export async function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps
               </ConversionLink>
               <ConversionLink
                 href="/swiss-arrival"
+                locale={guideLocale}
                 eventName="cta_guide_click"
                 eventParams={{ variant }}
                 className="inline-flex items-center justify-center rounded-full border border-navy/10 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-navy/60 transition-all duration-300 hover:border-gold/50 hover:text-gold"
               >
-                {copy.cta.guide}
+                {guideLabel}
               </ConversionLink>
             </div>
           </div>
@@ -79,11 +83,12 @@ export async function ConsultationCta({ variant = 'navy' }: ConsultationCtaProps
             </ConversionLink>
             <ConversionLink
               href="/swiss-arrival"
+              locale={guideLocale}
               eventName="cta_guide_click"
               eventParams={{ variant }}
               className="inline-flex items-center justify-center rounded-full border border-text-light/15 px-8 py-4 text-sm font-semibold uppercase tracking-[0.14em] text-text-light/70 transition-all duration-300 hover:border-gold/60 hover:text-gold"
             >
-              {copy.cta.guide}
+              {guideLabel}
             </ConversionLink>
           </div>
         </div>

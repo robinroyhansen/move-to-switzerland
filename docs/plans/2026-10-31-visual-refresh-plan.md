@@ -26,3 +26,6 @@ Visual-only changes use browser screenshots and layout/asset checks, not impleme
 
 ## Acceptance
 All named page families receive meaningful visuals without copy/claims changes. Images load locally under CSP; layouts remain stable at desktop/mobile and ar/fa/he. Return exact branch/commit and evidence for independent QA; no shipping until parent instruction.
+
+## Baseline reconciliation contract
+Integrate remote main 43c9986 (including static pages, HomeContent, AboutContent, simplified contact flow, translated metadata and new guide/planner features) into the feature branch without reverting upstream changes. Apply imagery and process styling to the replacement components; include the new English guide pages. Capture new baseline and candidate screenshots/Lighthouse on home and `/en/guides/zug-baar-cham`. Retain the original evidence as superseded. Run new upstream growth/budget/client-message tests unchanged plus production build, typecheck and responsive/RTL browser verification.

@@ -35,6 +35,7 @@ export type RelocationPath = {
   urgentQuestions: string[];
   workstreams: string[];
   proofPoints: string[];
+  faqs?: Array<{ question: string; answer: string }>;
 };
 
 export type ConversionCopy = {
@@ -66,12 +67,6 @@ export type ConversionCopy = {
     pathsTitle: string;
     pathsText: string;
     discussRoute: string;
-  };
-  caseSnapshots: {
-    techFounder: Array<{ label: string; value: string }>;
-    bankingFamily: Array<{ label: string; value: string }>;
-    digitalNomad: Array<{ label: string; value: string }>;
-    gulfFamilyOffice: Array<{ label: string; value: string }>;
   };
   quiz: {
     eyebrow: string;

@@ -1,3 +1,5 @@
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { withPageSeo } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { ConversionLink } from '@/components/ConversionLink';
 import { ItemListSchema, ServiceSchema, getAreaCountries } from '@/components/StructuredData';
@@ -12,24 +14,26 @@ const baseUrl = 'https://move-to-switzerland.com';
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const copy = getConversionCopy(locale);
+  const description = (await getTranslations({ locale, namespace: 'pageMeta' }))('relocation');
 
-  return {
+  return withPageSeo({
     title: copy.home.pathsTitle,
-    description: copy.home.pathsText,
+    description,
     alternates: {
       canonical: baseUrl + '/' + locale + '/relocation',
     },
     openGraph: {
       title: copy.home.pathsTitle,
-      description: copy.home.pathsText,
+      description,
       type: 'website',
       locale,
     },
-  };
+  }, locale, `/relocation`);
 }
 
 export default async function RelocationHubPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const copy = getConversionCopy(locale);
   const paths = getRelocationPaths(locale);
   const areaCountries = getAreaCountries(locale);

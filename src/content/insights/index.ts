@@ -1,6 +1,7 @@
 export interface InsightMeta {
   slug: string;
   date: string;
+  dateModified?: string;
   readTime: number;
   image: string;
   relatedServices: string[];
@@ -24,6 +25,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
   'swiss-lump-sum-taxation-guide': {
     slug: 'swiss-lump-sum-taxation-guide',
     date: '2026-04-01',
+    dateModified: '2026-09-08',
     readTime: 12,
     image: '/images/insights/lump-sum-taxation.jpg',
     relatedServices: ['lump-sum-taxation', 'pre-immigration-asset-structuring'],
@@ -32,6 +34,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
   'lex-koller-swiss-real-estate': {
     slug: 'lex-koller-swiss-real-estate',
     date: '2026-04-01',
+    dateModified: '2026-09-08',
     readTime: 10,
     image: '/images/insights/lex-koller-real-estate.jpg',
     relatedServices: ['real-estate-advisory', 'residency-immigration'],
@@ -40,6 +43,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
   'best-international-schools-zurich-zug-schwyz': {
     slug: 'best-international-schools-zurich-zug-schwyz',
     date: '2026-04-01',
+    dateModified: '2026-09-10',
     readTime: 11,
     image: '/images/insights/international-schools.jpg',
     relatedServices: ['lifestyle-coordination'],
@@ -64,6 +68,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
   'swiss-residency-permits-guide': {
     slug: 'swiss-residency-permits-guide',
     date: '2026-04-01',
+    dateModified: '2026-09-08',
     readTime: 11,
     image: '/images/insights/residency-permits.jpg',
     relatedServices: ['residency-immigration'],
@@ -80,6 +85,7 @@ export const insights: Record<InsightSlug, InsightMeta> = {
   'setting-up-family-office-switzerland': {
     slug: 'setting-up-family-office-switzerland',
     date: '2026-04-01',
+    dateModified: '2026-09-08',
     readTime: 12,
     image: '/images/insights/family-office.jpg',
     relatedServices: ['family-office', 'company-formation', 'directorship-board-services'],

@@ -2,9 +2,8 @@
 
 import { usePathname } from '@/i18n/routing';
 import { useLocale, useTranslations } from 'next-intl';
-import { BreadcrumbSchema } from './StructuredData';
+import { BreadcrumbSchema } from './BreadcrumbSchema';
 import { serviceSlugToKey } from '@/lib/services';
-import { getRelocationPath } from '@/lib/conversion-copy';
 import { insightSlugs, type InsightSlug } from '@/content/insights';
 
 const siteUrl = 'https://move-to-switzerland.com';
@@ -15,7 +14,7 @@ export function PageBreadcrumb() {
   const t = useTranslations();
 
   // Don't show breadcrumbs on the homepage
-  if (pathname === '/') return null;
+  if (pathname === '/' || pathname.startsWith('/guides/')) return null; // Guide articles provide their own full breadcrumb.
 
   const pageNames: Record<string, string> = {
     '': t('nav.home'),
@@ -54,8 +53,8 @@ export function PageBreadcrumb() {
     }
 
     if (!name && segments[0] === 'relocation') {
-      const relocationPath = getRelocationPath(locale, segments[1]);
-      name = relocationPath?.title;
+      const key = `conversionCopy.relocationPaths.${segments[1]}.title`;
+      if (segments[1] && t.has(key)) name = t(key);
     }
 
     if (!name) {

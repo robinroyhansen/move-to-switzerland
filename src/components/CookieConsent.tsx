@@ -1,45 +1,70 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
+import { readConsent, setConsent, SETTINGS_EVENT } from '@/lib/analytics';
 
 export function CookieConsent() {
   const t = useTranslations('cookieConsent');
+  const growth = useTranslations('growth');
   const [visible, setVisible] = useState(false);
+  const noticeRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    const consent = localStorage.getItem('cookie-consent');
+    if (!visible || !noticeRef.current) return;
+    const root = document.documentElement;
+    const notice = noticeRef.current;
+    root.dataset.consentNotice = 'open';
+    const syncHeight = () => {
+      root.style.setProperty('--consent-notice-height', `${notice.getBoundingClientRect().height}px`);
+    };
+    const observer = new ResizeObserver(syncHeight);
+    observer.observe(notice);
+    syncHeight();
+    return () => {
+      observer.disconnect();
+      delete root.dataset.consentNotice;
+      root.style.removeProperty('--consent-notice-height');
+    };
+  }, [visible]);
+
+  useEffect(() => {
+    const consent = readConsent();
+    const open = () => setVisible(true);
+    window.addEventListener(SETTINGS_EVENT, open);
+    let timer: ReturnType<typeof setTimeout> | undefined;
     if (!consent) {
       // Delay avoids making the consent notice the largest first-paint element.
-      const timer = setTimeout(() => setVisible(true), 5000);
-      return () => clearTimeout(timer);
+      timer = setTimeout(() => setVisible(true), 1500);
     }
+    return () => { if (timer) clearTimeout(timer); window.removeEventListener(SETTINGS_EVENT, open); };
   }, []);
 
   const handleAcceptAll = () => {
-    localStorage.setItem('cookie-consent', 'all');
+    setConsent('all');
     setVisible(false);
   };
 
   const handleEssentialOnly = () => {
-    localStorage.setItem('cookie-consent', 'essential');
+    setConsent('essential');
     setVisible(false);
   };
 
   if (!visible) return null;
 
   return (
-    <div
-      className={`fixed bottom-0 left-0 right-0 z-[100] transition-all duration-500 ${
-        visible ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
-      }`}
+    <aside
+      ref={noticeRef}
+      id="cookie-consent"
+      aria-label={growth('cookieSettings')}
+      aria-describedby="cookie-consent-message"
+      className="fixed inset-x-0 bottom-0 z-[100] border-t border-gold/20 bg-navy shadow-xl"
     >
-      <div className="bg-navy/95 backdrop-blur-md border-t border-gold/10 shadow-2xl shadow-navy/50">
-        <div className="safe-area-bottom mx-auto max-w-6xl px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
+        <div className="mx-auto max-w-6xl px-4 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom,0px))] sm:px-6 lg:px-8">
           <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
             {/* Text */}
             <div className="flex-1 min-w-0">
-              <p className="text-sm text-text-light/70 leading-relaxed">
+              <p id="cookie-consent-message" className="max-w-[72ch] text-sm leading-relaxed text-text-light/85">
                 {t('message')}
               </p>
             </div>
@@ -61,7 +86,6 @@ export function CookieConsent() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+    </aside>
   );
 }

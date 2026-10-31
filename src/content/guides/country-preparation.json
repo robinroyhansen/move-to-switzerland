@@ -1,0 +1,184 @@
+{
+  "from-uk": {
+    "title": "Prepare the UK departure and Swiss arrival together",
+    "intro": "The country you are leaving and the passport you hold answer different questions. Make the plan for every family member, including dual nationals and anyone with a previous Swiss residence history.",
+    "sections": [
+      {
+        "id": "residence",
+        "title": "Establish which residence rules apply",
+        "paragraphs": [
+          "SEM distinguishes UK nationals covered by the Swiss-UK citizens’ rights arrangements from people moving under the rules for a new arrival. Tell your adviser about any Swiss residence before 2021 and every nationality held. Do not assume that having lived in the UK determines your Swiss route.",
+          "Ask who confirms your permission to live and work in Switzerland, what the employer must do where relevant and which family applications need separate attention. Keep those confirmations ahead of irreversible housing or departure commitments."
+        ],
+        "sources": [
+          {
+            "title": "SEM: UK nationals and Brexit FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/uk/faq.html"
+          }
+        ]
+      },
+      {
+        "id": "departure",
+        "title": "Give the UK adviser a dated plan",
+        "paragraphs": [
+          "Prepare your intended departure and arrival dates, expected return visits, work arrangements, UK home position and income sources. Ask a qualified UK adviser to assess departure-year residence and continuing obligations, with the Swiss adviser working from the same facts.",
+          "List pensions, property, business interests and investment accounts that need review. Do not move or close them simply because the household is moving. The UK government’s Switzerland guide provides starting links for tax, pensions, healthcare and other departure-related questions."
+        ],
+        "sources": [
+          {
+            "title": "UK government: living in Switzerland",
+            "url": "https://www.gov.uk/guidance/living-in-switzerland"
+          }
+        ]
+      },
+      {
+        "id": "documents",
+        "title": "Prepare a document inventory",
+        "paragraphs": [
+          "Record what is available and which office has requested it. Ask about translation or certification before ordering either; requirements depend on the recipient."
+        ],
+        "points": [
+          "Valid identity and nationality documents for each person.",
+          "Civil-status and family records requested for the residence route.",
+          "Employment, business or financial evidence requested by the relevant authority.",
+          "School reports, subjects and support information for each child.",
+          "Housing evidence and the contact responsible for local registration."
+        ]
+      },
+      {
+        "id": "timing",
+        "title": "Join the school and housing timelines",
+        "paragraphs": [
+          "For a school-age child, compare the current curriculum with the proposed Swiss pathway before fixing the move date. Get the actual campus and availability confirmed. If work and school start at different times, price the temporary housing and travel needed for the gap.",
+          "Finish with one shared calendar for UK obligations, Swiss appointments and family commitments. It should show who acts next and what happens if a document or decision is delayed."
+        ]
+      }
+    ],
+    "guides": [
+      "moving-to-geneva",
+      "moving-to-vaud",
+      "public-vs-international-schools"
+    ]
+  },
+  "from-usa": {
+    "title": "Prepare the US-connected move with both advisory teams",
+    "intro": "A Swiss move can change where your household lives without ending its US obligations. Put nationality, immigration status, tax advice, banking and schooling into one preparation plan before selecting products or transferring assets.",
+    "sections": [
+      {
+        "id": "tax",
+        "title": "Keep US filing and reporting visible",
+        "paragraphs": [
+          "The IRS explains that US citizens and resident aliens abroad are generally subject to US tax rules on worldwide income. Foreign accounts and other assets can also create reporting requirements. Have a qualified US adviser identify the obligations that apply to you alongside Swiss advice.",
+          "Prepare a list of accounts, investments, pensions, business interests and signing authorities for the advisers. Ask about any product or structural change before implementing it. This guide does not calculate your tax or determine whether a filing exemption, credit or exclusion applies."
+        ],
+        "sources": [
+          {
+            "title": "IRS: US citizens and resident aliens abroad",
+            "url": "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad"
+          }
+        ]
+      },
+      {
+        "id": "residence",
+        "title": "Assess the Swiss route separately",
+        "paragraphs": [
+          "A US address does not determine the Swiss residence route. Record every family member’s nationality, intended activity and relationship to the main applicant. SEM’s work guidance explains that a job offer alone does not make a non-EU/EFTA national eligible for a work permit.",
+          "Confirm the employer’s and applicant’s responsibilities before setting the first working day. For a founder, family member or person not taking employment, obtain advice specific to that route rather than reusing an employee checklist."
+        ],
+        "sources": [
+          {
+            "title": "SEM: work and residence FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"
+          }
+        ]
+      },
+      {
+        "id": "banking",
+        "title": "Ask banks about your actual profile",
+        "paragraphs": [
+          "Tell prospective institutions about US citizenship or tax status at the outset and ask whether they can serve the proposed relationship. Request their current documents and onboarding steps. An adviser’s introduction does not determine the bank’s decision.",
+          "Keep a payment fallback while opening arrangements are unresolved. Ask your existing providers about account access after changing residence, and use the agreed secure channel for financial documents. Do not place account statements or identifying records in an initial website contact message."
+        ]
+      },
+      {
+        "id": "family",
+        "title": "Plan the household transition",
+        "paragraphs": [
+          "For schools, record current grades, subjects, transcripts and support needs. Ask the receiving school about placement and the programme leading to the child’s next educational stage. Clarify any time gap between departure and the Swiss school start."
+        ],
+        "points": [
+          "Coordinate US and Swiss advisers before changing financial arrangements.",
+          "Confirm school placement and the correct campus before narrowing housing.",
+          "Request quotations for shipping and temporary accommodation on the same assumptions.",
+          "Keep departure tasks, Swiss registration and ongoing US reporting on separate dated lists."
+        ]
+      }
+    ],
+    "guides": [
+      "moving-to-basel",
+      "moving-to-geneva",
+      "public-vs-international-schools"
+    ]
+  },
+  "from-uae": {
+    "title": "Coordinate the UAE departure with the Swiss move",
+    "intro": "For a household leaving Dubai, Abu Dhabi or another emirate, the key distinction is between UAE residence and nationality. Prepare the Swiss route from the passports and intended activities of the people moving, while coordinating the UAE visa, household and business arrangements separately.",
+    "sections": [
+      {
+        "id": "status",
+        "title": "Start with passports and the proposed activity",
+        "paragraphs": [
+          "Record all nationalities, the main applicant’s intended Swiss work or business activity and each family member’s situation. UAE residence does not itself establish a Swiss right to work or live. Use SEM guidance and the responsible cantonal authority to identify the applicable route.",
+          "Do not assume that owning a company abroad makes work performed from Switzerland administratively neutral. Have the planned activities reviewed before choosing an arrival or working date."
+        ],
+        "sources": [
+          {
+            "title": "SEM: work and residence FAQ",
+            "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html"
+          }
+        ]
+      },
+      {
+        "id": "departure",
+        "title": "Confirm the UAE cancellation sequence",
+        "paragraphs": [
+          "The UAE government’s visa guidance states that employer- or family-sponsored residence visas must be officially cancelled when the holder leaves permanently. Confirm the process for your actual visa and dependants with the sponsor and competent authority; other arrangements need their own review.",
+          "Ask how employment, health cover, dependants, housing and service contracts interact with the proposed departure. Record confirmation of each closure or change. Avoid relying on a generic grace-period assumption when booking the move."
+        ],
+        "sources": [
+          {
+            "title": "UAE government: residence visa provisions and cancellation",
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/general-provisions-for-the-residence-visa"
+          }
+        ]
+      },
+      {
+        "id": "records",
+        "title": "Prepare records before losing convenient access",
+        "paragraphs": [
+          "Ask Swiss banks and advisers what evidence they require, then assemble the requested records while you can still obtain them from UAE employers, banks and service providers. Keep personal, company and transaction documents organised separately.",
+          "For a business sale or investment proceeds, request a clear document list from the receiving institution rather than sending an unstructured archive. Use secure delivery and keep originals. A complete file can support an assessment but cannot guarantee account acceptance."
+        ]
+      },
+      {
+        "id": "family",
+        "title": "Make the Swiss arrival workable",
+        "paragraphs": [
+          "Check the school year group, campus and available place before treating the education plan as settled. Arrange accommodation that supports the required local paperwork and consider staged arrivals if adult and child commitments differ.",
+          "Use a single calendar for UAE departures, Swiss residence steps, shipments and school dates. Ask the relevant professionals to assess tax residence and company questions from the same timeline; this page does not establish the tax result of the move."
+        ],
+        "points": [
+          "Keep each household member’s visa and passport situation visible.",
+          "Confirm how cancellations affect insurance and access to services.",
+          "Obtain required company and banking records through agreed channels.",
+          "Price the housing overlap and arrange a fallback if an approval or start date changes."
+        ]
+      }
+    ],
+    "guides": [
+      "moving-to-ticino",
+      "zug-baar-cham",
+      "first-30-days-in-switzerland"
+    ]
+  }
+}

@@ -1,3 +1,5 @@
+import { setRequestLocale } from 'next-intl/server';
+import { defaultOgImage } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
@@ -71,12 +73,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t('metaDescription'),
       type: 'website',
       locale,
+      url: swissArrivalBaseUrl + '/' + locale,
+      images: [defaultOgImage],
     },
   };
 }
 
 export default async function SwissArrivalPage({ params }: Props) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const page = getCopy(locale);
 
   if (!page) {

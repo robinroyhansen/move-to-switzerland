@@ -25,6 +25,7 @@ export function PlaceImage({
         sizes={sizes}
         quality={75}
         priority={priority}
+        fetchPriority={priority ? 'high' : undefined}
         className="object-cover"
       />
     </div>

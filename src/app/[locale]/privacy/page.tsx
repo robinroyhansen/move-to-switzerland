@@ -1,11 +1,23 @@
-import { getLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
+import { clipDescription, withPageSeo } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getLegalCopy } from '@/lib/legal-copy';
+import { getGrowthCopy } from '@/lib/growth-copy';
+import { CookieSettingsButton } from '@/components/CookieSettingsButton';
 
-export default async function PrivacyPage() {
-  const locale = await getLocale();
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale });
+  return withPageSeo({ title: t('privacy.pageTitle'), description: clipDescription(t('privacy.content')) }, locale, '/privacy');
+}
+
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations();
   const copy = getLegalCopy(locale);
+  const growth = await getGrowthCopy(locale);
 
   return (
     <>
@@ -24,6 +36,11 @@ export default async function PrivacyPage() {
             <p className="text-charcoal/60 leading-relaxed mb-10 font-light">{t('privacy.content')}</p>
             
             <div className="space-y-10 text-sm text-charcoal/50 leading-relaxed">
+              <section>
+                <h2 className="mb-3 font-serif text-lg font-semibold text-navy">{growth.analyticsTitle}</h2>
+                <p className="text-charcoal/80">{growth.analyticsText}</p>
+                <CookieSettingsButton label={growth.cookieSettings} />
+              </section>
               {copy.privacySections.map((section, index) => (
                 <div key={section.title}>
                   <h2 className="font-serif text-lg text-navy font-semibold mb-3">
